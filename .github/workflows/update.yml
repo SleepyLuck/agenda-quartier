@@ -27,6 +27,12 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      - name: TEMP diagnostic - can a headless browser see the agenda?
+        run: |
+          pip install playwright
+          playwright install --with-deps chromium
+          python diag_browser.py
+
       - name: Collect events
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
