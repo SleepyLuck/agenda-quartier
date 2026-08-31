@@ -286,9 +286,9 @@ def collect_events(node, out: list[dict]) -> None:
 LLM_PROMPT = """You are reading the events page of a local organisation.
 Return ONLY a JSON array, no prose, no markdown fences.
 
-Each element: {"title": str, "start": "YYYY-MM-DDTHH:MM" or "YYYY-MM-DD",
+Each element: {{"title": str, "start": "YYYY-MM-DDTHH:MM" or "YYYY-MM-DD",
 "end": same or null, "location": str, "description": str (max 200 chars),
-"url": absolute link to the event page or null}
+"url": absolute link to the event page or null}}
 
 Rules:
 - Only real, dated events. Skip navigation, past-event archives and opening hours.
