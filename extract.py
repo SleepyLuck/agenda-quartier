@@ -674,7 +674,10 @@ Events:
 def translate_events(events: list[dict], model: str, cache: dict[str, dict]) -> None:
     """Translate title/description/location to English, in place. `cache` (uid ->
     {{title, description, location}}) holds the previous run's already-translated
-    text, so a run only pays to translate events it hasn't seen before."""
+    text - scrape.py only populates it from events that were themselves marked
+    `translated`, so this can't mistake original-language text left over from a
+    run before translation existed for something already done. A run only pays
+    to translate events it hasn't seen before."""
     todo = []
     for e in events:
         cached = cache.get(e["uid"])
@@ -682,6 +685,7 @@ def translate_events(events: list[dict], model: str, cache: dict[str, dict]) -> 
             e["title"] = cached.get("title") or e["title"]
             e["description"] = cached.get("description", e["description"])
             e["location"] = cached.get("location", e["location"])
+            e["translated"] = True
         else:
             todo.append(e)
 
@@ -715,13 +719,14 @@ def translate_events(events: list[dict], model: str, cache: dict[str, dict]) -> 
         for e in chunk:
             t = mapping.get(e["uid"])
             if not isinstance(t, dict):
-                continue
+                continue  # leave e["translated"] unset so a failed batch retries next run
             if t.get("title"):
                 e["title"] = clean_text(t["title"])
             if "description" in t:
                 e["description"] = clean_text(t.get("description") or "")
             if t.get("location"):
                 e["location"] = clean_text(t["location"])
+            e["translated"] = True
 
 
 # ------------------------------------------------------------ orchestration

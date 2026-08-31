@@ -58,10 +58,13 @@ def load_tag_cache() -> dict[str, list[str]]:
 def load_translation_cache() -> dict[str, dict]:
     """uid -> already-translated {title, description, location}, from the
     previously published events.json, so a run only pays to translate events
-    it hasn't seen before."""
+    it hasn't seen before. Only events actually marked `translated` count -
+    otherwise, the very first run after adding translation would mistake
+    every event's original-language text for already-done work and never
+    translate it."""
     return {e["uid"]: {"title": e.get("title", ""), "description": e.get("description", ""),
                         "location": e.get("location", "")}
-            for e in _previous_events() if e.get("title")}
+            for e in _previous_events() if e.get("translated")}
 
 
 def within_window(iso: str, tz: str, past_days: int, horizon_days: int) -> bool:
