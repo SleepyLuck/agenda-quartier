@@ -84,6 +84,7 @@
   .src .ct{font-size:.78rem;color:var(--ink-soft)}
   .src[aria-pressed="false"]{opacity:.4}
   .src[aria-pressed="false"] .swatch{background:transparent !important;box-shadow:inset 0 0 0 1px var(--ink-soft)}
+  .src.cat .emoji{width:1.1rem;flex:none;text-align:center;font-size:.95rem}
 
   /* agenda --------------------------------------------------------- */
   .daygroup{margin-bottom:1.9rem;scroll-margin-top:1rem}
@@ -94,8 +95,10 @@
   @media (max-width:520px){.ev{grid-template-columns:1fr;gap:.25rem}}
   .ev .when{font-variant-numeric:tabular-nums;color:var(--ink-soft);font-size:.92rem;padding-top:.12rem}
   .ev h4{font-family:"Bricolage Grotesque",sans-serif;font-weight:500;font-size:1.12rem;line-height:1.25;margin:0 0 .2rem}
+  .ev .tags{display:flex;flex-wrap:wrap;gap:.15rem 1rem;align-items:center}
   .ev .org{display:inline-flex;align-items:center;gap:.4rem;font-size:.85rem;color:var(--ink-soft)}
   .ev .org .swatch{width:.6rem;height:.6rem;flex:none}
+  .ev .cattag{font-size:.85rem;color:var(--ink-soft)}
   .ev .where{font-size:.85rem;color:var(--ink-soft)}
   .ev .desc{font-size:.9rem;margin:.35rem 0 0;max-width:62ch}
   .actions{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:.55rem}
@@ -167,6 +170,8 @@
     <table class="cal"><thead><tr id="dow"></tr></thead><tbody id="grid"></tbody></table>
     <h3>Sources</h3>
     <div id="sources"></div>
+    <h3>Catégories</h3>
+    <div id="cats"></div>
   </aside>
 
   <main id="agenda" aria-live="polite"></main>
@@ -176,7 +181,7 @@
 
 <script>
 const TZ_LABEL = "Europe/Brussels";
-const state = {data:null, hidden:new Set(), month:null, picked:null, q:"", range:"all"};
+const state = {data:null, hidden:new Set(), hiddenCat:new Set(), catById:{}, month:null, picked:null, q:"", range:"all"};
 
 const pad = n => String(n).padStart(2,"0");
 const dayKey = iso => { const d=new Date(iso); return `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`; };
@@ -216,12 +221,14 @@ async function load(){
   box.innerHTML = notices.map(([cls,msg]) => `<div class="notice ${cls}">${esc(msg)}</div>`).join("");
   document.getElementById("updated").textContent =
     `${d.events.length} événements · mis à jour le ${new Date(d.generated).toLocaleString("fr-BE",{dateStyle:"medium",timeStyle:"short"})}`;
+  state.catById = {};
+  (d.categories||[]).forEach(c => state.catById[c.id] = c);
   const now = new Date();
   const thisMonth = d.events.some(e => { const s=new Date(e.start);
     return s.getFullYear()===now.getFullYear() && s.getMonth()===now.getMonth(); });
   const anchor = thisMonth || !d.events[0] ? now : new Date(d.events[0].start);
   state.month = new Date(anchor.getFullYear(), anchor.getMonth(), 1);
-  renderSources(); renderAll();
+  renderSources(); renderCats(); renderAll();
 }
 
 // ------------------------------------------------------------ filtering
@@ -231,9 +238,11 @@ function visible(){
   const limit = state.range === "all" ? null : new Date(now.getTime() + Number(state.range)*864e5);
   return state.data.events.filter(e=>{
     if(state.hidden.has(e.source)) return false;
+    if(e.category && state.hiddenCat.has(e.category)) return false;
     if(limit && new Date(e.start) > limit) return false;
     if(state.picked && dayKey(e.start) !== state.picked) return false;
-    if(q && !(`${e.title} ${e.location} ${e.description} ${e.source}`.toLowerCase().includes(q))) return false;
+    const catLabel = (state.catById[e.category]||{}).label || "";
+    if(q && !(`${e.title} ${e.location} ${e.description} ${e.source} ${catLabel}`.toLowerCase().includes(q))) return false;
     return true;
   });
 }
@@ -252,6 +261,28 @@ function renderSources(){
     b.onclick = ()=>{
       state.hidden.has(s.name) ? state.hidden.delete(s.name) : state.hidden.add(s.name);
       b.setAttribute("aria-pressed", String(!state.hidden.has(s.name)));
+      renderAll();
+    };
+    box.appendChild(b);
+  });
+}
+
+// ------------------------------------------------------------ categories
+function renderCats(){
+  const box = document.getElementById("cats");
+  box.innerHTML = "";
+  const counts = {};
+  state.data.events.forEach(e => { if(e.category) counts[e.category] = (counts[e.category]||0) + 1; });
+  (state.data.categories||[]).filter(c => counts[c.id]).forEach(c=>{
+    const b = document.createElement("button");
+    b.className = "src cat";
+    b.setAttribute("aria-pressed", String(!state.hiddenCat.has(c.id)));
+    b.title = c.hint;
+    b.innerHTML = `<span class="emoji">${c.emoji}</span>
+                   <span class="nm">${esc(c.label)}</span><span class="ct">${counts[c.id]}</span>`;
+    b.onclick = ()=>{
+      state.hiddenCat.has(c.id) ? state.hiddenCat.delete(c.id) : state.hiddenCat.add(c.id);
+      b.setAttribute("aria-pressed", String(!state.hiddenCat.has(c.id)));
       renderAll();
     };
     box.appendChild(b);
@@ -332,11 +363,15 @@ function renderAgenda(){
 function evHTML(e){
   const when = e.all_day ? "toute la journée"
     : fmtTime(e.start) + (e.end && dayKey(e.end)===dayKey(e.start) ? "–"+fmtTime(e.end) : "");
+  const cat = state.catById[e.category];
   return `<article class="ev">
     <div class="when">${when}</div>
     <div>
       <h4>${esc(e.title)}</h4>
-      <div class="org"><span class="swatch" style="background:${e.colour}"></span>${esc(e.source)}</div>
+      <div class="tags">
+        <span class="org"><span class="swatch" style="background:${e.colour}"></span>${esc(e.source)}</span>
+        ${cat ? `<span class="cattag">${cat.emoji} ${esc(cat.label)}</span>` : ""}
+      </div>
       ${e.location ? `<div class="where">${esc(e.location)}</div>` : ""}
       ${e.description ? `<p class="desc">${esc(e.description)}</p>` : ""}
       <div class="actions">

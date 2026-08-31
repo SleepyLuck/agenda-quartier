@@ -7,7 +7,7 @@ X-WR-CALNAME:Neighbourhood events
 X-WR-TIMEZONE:Europe/Brussels
 BEGIN:VEVENT
 UID:bfa1386b17692aec@neighbourhood-events
-DTSTAMP:20260831T135739Z
+DTSTAMP:20260831T141638Z
 DTSTART:20260901T163000Z
 DTEND:20260901T183000Z
 SUMMARY:Repair Café
@@ -15,7 +15,7 @@ LOCATION:Rue de l'Église 12
 URL:https://example.org/agenda/
 DESCRIPTION:Apportez un appareil cassé\, on le répare ensemble.\nhttps:
  //example.org/agenda/
-CATEGORIES:Maison de quartier
+CATEGORIES:Maison de quartier\,Environment
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT120M
@@ -24,14 +24,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9c6c3eb97ee3c669@neighbourhood-events
-DTSTAMP:20260831T135739Z
+DTSTAMP:20260831T141638Z
 DTSTART:20260902T080000Z
 DTEND:20260902T100000Z
 SUMMARY:Heure du conte en français et en néerlandais
 LOCATION:Section jeunesse
 URL:https://example.org/bib/
 DESCRIPTION:Pour les 3–6 ans\, entrée libre.\nhttps://example.org/bib/
-CATEGORIES:Bibliothèque communale
+CATEGORIES:Bibliothèque communale\,Family & Children
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT120M
@@ -40,14 +40,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b6f189d3caf3890b@neighbourhood-events
-DTSTAMP:20260831T135739Z
+DTSTAMP:20260831T141638Z
 DTSTART:20260903T170000Z
 DTEND:20260903T190000Z
 SUMMARY:Assemblée de quartier sur le plan de circulation
 LOCATION:Salle communale
 URL:https://example.org/comite/
 DESCRIPTION:Présentation puis questions.\nhttps://example.org/comite/
-CATEGORIES:Comité de quartier
+CATEGORIES:Comité de quartier\,Civic & Local Politics
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT120M
@@ -56,14 +56,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:99c43d7d79eee472@neighbourhood-events
-DTSTAMP:20260831T135739Z
+DTSTAMP:20260831T141638Z
 DTSTART:20260905T183000Z
 DTEND:20260905T203000Z
 SUMMARY:Concert : trio de jazz
 LOCATION:Grande salle
 URL:https://example.org/concerts/
 DESCRIPTION:Portes à 20h.\nhttps://example.org/concerts/
-CATEGORIES:Salle de concert
+CATEGORIES:Salle de concert\,Music
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT120M
@@ -72,7 +72,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:8f1a936ae5772ca3@neighbourhood-events
-DTSTAMP:20260831T135739Z
+DTSTAMP:20260831T141638Z
 DTSTART:20260908T120000Z
 DTEND:20260908T140000Z
 SUMMARY:Atelier vélo participatif
@@ -80,7 +80,7 @@ LOCATION:Cour intérieure
 URL:https://example.org/agenda/
 DESCRIPTION:Outils et pièces d'occasion sur place.\nhttps://example.org/
  agenda/
-CATEGORIES:Maison de quartier
+CATEGORIES:Maison de quartier\,Workshops & Creative
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT120M
@@ -89,13 +89,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:206bbe7e89927e1b@neighbourhood-events
-DTSTAMP:20260831T135739Z
+DTSTAMP:20260831T141638Z
 DTSTART:20260909T160000Z
 DTEND:20260909T180000Z
 SUMMARY:Rencontre avec une autrice bruxelloise
 LOCATION:Salle de lecture
 URL:https://example.org/bib/
-CATEGORIES:Bibliothèque communale
+CATEGORIES:Bibliothèque communale\,Talks & Discussions
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT120M
@@ -104,24 +104,24 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:7befe39513f662a9@neighbourhood-events
-DTSTAMP:20260831T135739Z
+DTSTAMP:20260831T141638Z
 DTSTART;VALUE=DATE:20260912
 SUMMARY:Brocante annuelle
 LOCATION:Parvis
 URL:https://example.org/comite/
 DESCRIPTION:De 7h à 16h\, une centaine d'exposants.\nhttps://example.org
  /comite/
-CATEGORIES:Comité de quartier
+CATEGORIES:Comité de quartier\,Markets & Fairs
 END:VEVENT
 BEGIN:VEVENT
 UID:39cafdd2d0da934d@neighbourhood-events
-DTSTAMP:20260831T135739Z
+DTSTAMP:20260831T141638Z
 DTSTART:20260915T190000Z
 DTEND:20260915T210000Z
 SUMMARY:Soirée électro
 LOCATION:Grande salle
 URL:https://example.org/concerts/
-CATEGORIES:Salle de concert
+CATEGORIES:Salle de concert\,Music
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT120M
@@ -130,14 +130,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:791fde13e7840162@neighbourhood-events
-DTSTAMP:20260831T135739Z
+DTSTAMP:20260831T141638Z
 DTSTART:20260917T100000Z
 DTEND:20260917T120000Z
 SUMMARY:Repas de quartier
 LOCATION:Rue piétonne
 URL:https://example.org/agenda/
 DESCRIPTION:Chacun apporte un plat.\nhttps://example.org/agenda/
-CATEGORIES:Maison de quartier
+CATEGORIES:Maison de quartier\,Community & Social
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT120M
@@ -146,13 +146,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c9ee7afa906888ce@neighbourhood-events
-DTSTAMP:20260831T135739Z
+DTSTAMP:20260831T141638Z
 DTSTART:20260922T173000Z
 DTEND:20260922T193000Z
 SUMMARY:Club de lecture
 LOCATION:Salle de lecture
 URL:https://example.org/bib/
-CATEGORIES:Bibliothèque communale
+CATEGORIES:Bibliothèque communale\,Talks & Discussions
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT120M
@@ -161,14 +161,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d8e179450c069b1d@neighbourhood-events
-DTSTAMP:20260831T135739Z
+DTSTAMP:20260831T141638Z
 DTSTART:20260926T070000Z
 DTEND:20260926T090000Z
 SUMMARY:Nettoyage du square
 LOCATION:Square Bethléem
 URL:https://example.org/comite/
 DESCRIPTION:Gants et sacs fournis.\nhttps://example.org/comite/
-CATEGORIES:Comité de quartier
+CATEGORIES:Comité de quartier\,Environment
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT120M
@@ -177,13 +177,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:12d5275fdf996946@neighbourhood-events
-DTSTAMP:20260831T135739Z
+DTSTAMP:20260831T141638Z
 DTSTART:20260930T180000Z
 DTEND:20260930T200000Z
 SUMMARY:Projection documentaire et débat
 LOCATION:Petite salle
 URL:https://example.org/concerts/
-CATEGORIES:Salle de concert
+CATEGORIES:Salle de concert\,Film & Cinema
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT120M

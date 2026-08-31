@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-31T15:57:39.283019+02:00",
+  "generated": "2026-08-31T16:16:38.720782+02:00",
   "timezone": "Europe/Brussels",
   "sample": true,
   "sources": [
@@ -32,6 +32,104 @@
       "method": "sample"
     }
   ],
+  "categories": [
+    {
+      "id": "culture-arts",
+      "emoji": "🎭",
+      "label": "Culture & Arts",
+      "hint": "Theatre, dance, exhibitions, performances, art events"
+    },
+    {
+      "id": "music",
+      "emoji": "🎵",
+      "label": "Music",
+      "hint": "Concerts, live music, DJ sets, open mics, jam sessions"
+    },
+    {
+      "id": "film-cinema",
+      "emoji": "🎬",
+      "label": "Film & Cinema",
+      "hint": "Film screenings, documentaries, cinema clubs"
+    },
+    {
+      "id": "workshops-creative",
+      "emoji": "🎨",
+      "label": "Workshops & Creative",
+      "hint": "Arts & crafts, cooking, ceramics, creative workshops, making"
+    },
+    {
+      "id": "talks-discussions",
+      "emoji": "🗣️",
+      "label": "Talks & Discussions",
+      "hint": "Debates, panels, lectures, discussions, public conversations"
+    },
+    {
+      "id": "sport-wellbeing",
+      "emoji": "🧘",
+      "label": "Sport & Wellbeing",
+      "hint": "Yoga, fitness, running, climbing, meditation, recreational activities"
+    },
+    {
+      "id": "family-children",
+      "emoji": "👨‍👩‍👧",
+      "label": "Family & Children",
+      "hint": "Children's activities, family events, storytelling, kids' entertainment"
+    },
+    {
+      "id": "food-drink",
+      "emoji": "🍴",
+      "label": "Food & Drink",
+      "hint": "Tastings, communal meals, cooking events, food-related gatherings"
+    },
+    {
+      "id": "markets-fairs",
+      "emoji": "🛍️",
+      "label": "Markets & Fairs",
+      "hint": "Flea markets, artisan markets, brocantes, local markets"
+    },
+    {
+      "id": "community-social",
+      "emoji": "🏘️",
+      "label": "Community & Social",
+      "hint": "Neighbourhood gatherings, social events, community meals, meetups"
+    },
+    {
+      "id": "environment",
+      "emoji": "🌱",
+      "label": "Environment",
+      "hint": "Repair cafés, urban gardening, clean-ups, sustainability events"
+    },
+    {
+      "id": "activism-justice",
+      "emoji": "✊",
+      "label": "Activism & Social Justice",
+      "hint": "Demonstrations, protests, activist meetings, solidarity events, campaigns, political/social justice organising"
+    },
+    {
+      "id": "festivals-celebrations",
+      "emoji": "🎉",
+      "label": "Festivals & Celebrations",
+      "hint": "Street parties, neighbourhood fêtes, seasonal celebrations, festivals"
+    },
+    {
+      "id": "professional-networking",
+      "emoji": "💼",
+      "label": "Professional & Networking",
+      "hint": "Networking events, entrepreneur meetups, professional gatherings"
+    },
+    {
+      "id": "civic-politics",
+      "emoji": "🏛️",
+      "label": "Civic & Local Politics",
+      "hint": "Municipal meetings, neighbourhood consultations, local political events"
+    },
+    {
+      "id": "other",
+      "emoji": "•",
+      "label": "Other",
+      "hint": "Anything that doesn't fit the above"
+    }
+  ],
   "report": [],
   "events": [
     {
@@ -44,7 +142,8 @@
       "url": "https://example.org/agenda/",
       "source": "Maison de quartier",
       "uid": "bfa1386b17692aec",
-      "colour": "#E8336D"
+      "colour": "#E8336D",
+      "category": "environment"
     },
     {
       "title": "Heure du conte en français et en néerlandais",
@@ -56,7 +155,8 @@
       "url": "https://example.org/bib/",
       "source": "Bibliothèque communale",
       "uid": "9c6c3eb97ee3c669",
-      "colour": "#1B6FE0"
+      "colour": "#1B6FE0",
+      "category": "family-children"
     },
     {
       "title": "Assemblée de quartier sur le plan de circulation",
@@ -68,7 +168,8 @@
       "url": "https://example.org/comite/",
       "source": "Comité de quartier",
       "uid": "b6f189d3caf3890b",
-      "colour": "#00937A"
+      "colour": "#00937A",
+      "category": "civic-politics"
     },
     {
       "title": "Concert : trio de jazz",
@@ -80,7 +181,8 @@
       "url": "https://example.org/concerts/",
       "source": "Salle de concert",
       "uid": "99c43d7d79eee472",
-      "colour": "#E07A00"
+      "colour": "#E07A00",
+      "category": "music"
     },
     {
       "title": "Atelier vélo participatif",
@@ -92,7 +194,8 @@
       "url": "https://example.org/agenda/",
       "source": "Maison de quartier",
       "uid": "8f1a936ae5772ca3",
-      "colour": "#E8336D"
+      "colour": "#E8336D",
+      "category": "workshops-creative"
     },
     {
       "title": "Rencontre avec une autrice bruxelloise",
@@ -104,7 +207,8 @@
       "url": "https://example.org/bib/",
       "source": "Bibliothèque communale",
       "uid": "206bbe7e89927e1b",
-      "colour": "#1B6FE0"
+      "colour": "#1B6FE0",
+      "category": "talks-discussions"
     },
     {
       "title": "Brocante annuelle",
@@ -116,7 +220,8 @@
       "url": "https://example.org/comite/",
       "source": "Comité de quartier",
       "uid": "7befe39513f662a9",
-      "colour": "#00937A"
+      "colour": "#00937A",
+      "category": "markets-fairs"
     },
     {
       "title": "Soirée électro",
@@ -128,7 +233,8 @@
       "url": "https://example.org/concerts/",
       "source": "Salle de concert",
       "uid": "39cafdd2d0da934d",
-      "colour": "#E07A00"
+      "colour": "#E07A00",
+      "category": "music"
     },
     {
       "title": "Repas de quartier",
@@ -140,7 +246,8 @@
       "url": "https://example.org/agenda/",
       "source": "Maison de quartier",
       "uid": "791fde13e7840162",
-      "colour": "#E8336D"
+      "colour": "#E8336D",
+      "category": "community-social"
     },
     {
       "title": "Club de lecture",
@@ -152,7 +259,8 @@
       "url": "https://example.org/bib/",
       "source": "Bibliothèque communale",
       "uid": "c9ee7afa906888ce",
-      "colour": "#1B6FE0"
+      "colour": "#1B6FE0",
+      "category": "talks-discussions"
     },
     {
       "title": "Nettoyage du square",
@@ -164,7 +272,8 @@
       "url": "https://example.org/comite/",
       "source": "Comité de quartier",
       "uid": "d8e179450c069b1d",
-      "colour": "#00937A"
+      "colour": "#00937A",
+      "category": "environment"
     },
     {
       "title": "Projection documentaire et débat",
@@ -176,7 +285,8 @@
       "url": "https://example.org/concerts/",
       "source": "Salle de concert",
       "uid": "12d5275fdf996946",
-      "colour": "#E07A00"
+      "colour": "#E07A00",
+      "category": "film-cinema"
     }
   ]
 }

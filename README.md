@@ -63,6 +63,19 @@ need to find the underlying feed instead.
 
 `python scrape.py --dry-run` then prints what each source returned, still writing nothing.
 
+## Categories
+
+Every event is filed under one of a fixed set of categories (Music, Culture & Arts, Film &
+Cinema, Markets & Fairs, Civic & Local Politics, and so on — see `CATEGORIES` in `extract.py`
+for the full list). A model classifies each new event from its title and description; this
+needs `ANTHROPIC_API_KEY` set, same as the `llm` extraction method. Without a key, everything
+files under "Other" rather than failing the run.
+
+Classification only costs an API call for events not seen on a previous run — `scrape.py`
+reads the category already assigned in the last published `docs/events.json` and reuses it, so
+a normal twice-daily refresh only classifies whatever's new. Categories double as an ICS
+`CATEGORIES` entry (alongside the source organisation) and as a filter in the page's sidebar.
+
 ## Publish it
 
 See **DEPLOY.md** for the full walkthrough. Short version: push to a public GitHub repo, turn

@@ -310,6 +310,106 @@ def parse_llm(html: str, source: str, page_url: str, tz: str, model: str) -> lis
     return events
 
 
+# -------------------------------------------------------------- categories
+
+CATEGORIES = [
+    {"id": "culture-arts", "emoji": "🎭", "label": "Culture & Arts",
+     "hint": "Theatre, dance, exhibitions, performances, art events"},
+    {"id": "music", "emoji": "🎵", "label": "Music",
+     "hint": "Concerts, live music, DJ sets, open mics, jam sessions"},
+    {"id": "film-cinema", "emoji": "🎬", "label": "Film & Cinema",
+     "hint": "Film screenings, documentaries, cinema clubs"},
+    {"id": "workshops-creative", "emoji": "🎨", "label": "Workshops & Creative",
+     "hint": "Arts & crafts, cooking, ceramics, creative workshops, making"},
+    {"id": "talks-discussions", "emoji": "🗣️", "label": "Talks & Discussions",
+     "hint": "Debates, panels, lectures, discussions, public conversations"},
+    {"id": "sport-wellbeing", "emoji": "🧘", "label": "Sport & Wellbeing",
+     "hint": "Yoga, fitness, running, climbing, meditation, recreational activities"},
+    {"id": "family-children", "emoji": "👨‍👩‍👧", "label": "Family & Children",
+     "hint": "Children's activities, family events, storytelling, kids' entertainment"},
+    {"id": "food-drink", "emoji": "🍴", "label": "Food & Drink",
+     "hint": "Tastings, communal meals, cooking events, food-related gatherings"},
+    {"id": "markets-fairs", "emoji": "🛍️", "label": "Markets & Fairs",
+     "hint": "Flea markets, artisan markets, brocantes, local markets"},
+    {"id": "community-social", "emoji": "🏘️", "label": "Community & Social",
+     "hint": "Neighbourhood gatherings, social events, community meals, meetups"},
+    {"id": "environment", "emoji": "🌱", "label": "Environment",
+     "hint": "Repair cafés, urban gardening, clean-ups, sustainability events"},
+    {"id": "activism-justice", "emoji": "✊", "label": "Activism & Social Justice",
+     "hint": "Demonstrations, protests, activist meetings, solidarity events, campaigns, "
+             "political/social justice organising"},
+    {"id": "festivals-celebrations", "emoji": "🎉", "label": "Festivals & Celebrations",
+     "hint": "Street parties, neighbourhood fêtes, seasonal celebrations, festivals"},
+    {"id": "professional-networking", "emoji": "💼", "label": "Professional & Networking",
+     "hint": "Networking events, entrepreneur meetups, professional gatherings"},
+    {"id": "civic-politics", "emoji": "🏛️", "label": "Civic & Local Politics",
+     "hint": "Municipal meetings, neighbourhood consultations, local political events"},
+    {"id": "other", "emoji": "•", "label": "Other",
+     "hint": "Anything that doesn't fit the above"},
+]
+CATEGORY_IDS = {c["id"] for c in CATEGORIES}
+
+CATEGORY_PROMPT = """Classify each neighbourhood event below into exactly one category id
+from this list:
+
+{cat_list}
+
+Return ONLY a JSON object mapping each event's "uid" to a category id, no prose, no
+markdown fences. Use "other" if nothing fits well.
+
+Events:
+{events_json}"""
+
+
+def classify_categories(events: list[dict], model: str, cache: dict[str, str]) -> None:
+    """Assign a category id to each event, in place. Reuses `cache` (uid -> category id)
+    for events already classified on a previous run, so a run only pays for new events."""
+    todo = [e for e in events if e["uid"] not in cache]
+    for e in events:
+        if e["uid"] in cache:
+            e["category"] = cache[e["uid"]]
+
+    if not todo:
+        return
+    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    if not api_key:
+        for e in todo:
+            e["category"] = "other"
+        return
+
+    cat_list = "\n".join(f'- {c["id"]}: {c["label"]} — {c["hint"]}' for c in CATEGORIES)
+    for i in range(0, len(todo), 40):
+        chunk = todo[i:i + 40]
+        items = [{"uid": e["uid"], "title": e["title"], "description": e["description"][:200]}
+                  for e in chunk]
+        body = {
+            "model": model,
+            "max_tokens": 2000,
+            "messages": [{
+                "role": "user",
+                "content": CATEGORY_PROMPT.format(
+                    cat_list=cat_list, events_json=json.dumps(items, ensure_ascii=False)),
+            }],
+        }
+        mapping: dict = {}
+        try:
+            r = requests.post(
+                "https://api.anthropic.com/v1/messages",
+                headers={"x-api-key": api_key, "anthropic-version": "2023-06-01",
+                         "content-type": "application/json"},
+                json=body, timeout=120)
+            r.raise_for_status()
+            reply = "".join(b.get("text", "") for b in r.json().get("content", [])
+                            if b.get("type") == "text").strip()
+            reply = re.sub(r"^```(?:json)?|```$", "", reply, flags=re.M).strip()
+            mapping = json.loads(reply)
+        except Exception:
+            mapping = {}
+        for e in chunk:
+            cat = mapping.get(e["uid"])
+            e["category"] = cat if cat in CATEGORY_IDS else "other"
+
+
 # ------------------------------------------------------------ orchestration
 
 def extract(source_cfg: dict, defaults: dict) -> tuple[list[dict], str, str]:

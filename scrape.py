@@ -17,7 +17,7 @@ from zoneinfo import ZoneInfo
 import yaml
 from dateutil import parser as dateparser
 
-from extract import extract
+from extract import CATEGORIES, classify_categories, extract
 
 ROOT = Path(__file__).parent
 OUT = ROOT / "docs"
@@ -30,6 +30,19 @@ PALETTE = ["#E8336D", "#1B6FE0", "#00937A", "#E07A00",
 def load_config() -> tuple[dict, list[dict]]:
     cfg = yaml.safe_load((ROOT / "sources.yml").read_text(encoding="utf-8"))
     return cfg.get("defaults", {}) or {}, cfg.get("sources", []) or []
+
+
+def load_category_cache() -> dict[str, str]:
+    """uid -> category id, from the previously published events.json, so a run only
+    asks the LLM to classify events it hasn't seen before."""
+    path = OUT / "events.json"
+    if not path.exists():
+        return {}
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return {}
+    return {e["uid"]: e["category"] for e in data.get("events", []) if e.get("category")}
 
 
 def within_window(iso: str, tz: str, past_days: int, horizon_days: int) -> bool:
@@ -95,7 +108,11 @@ def build_ics(events: list[dict], tz: str, alarm_minutes: int = 120) -> str:
                 body = body + "\n" + ev["url"]
         if body:
             lines.append(fold("DESCRIPTION:" + ics_escape(body)))
-        lines.append(fold("CATEGORIES:" + ics_escape(ev["source"])))
+        cats = [ev["source"]]
+        cat_meta = next((c for c in CATEGORIES if c["id"] == ev.get("category")), None)
+        if cat_meta:
+            cats.append(cat_meta["label"])
+        lines.append(fold("CATEGORIES:" + ics_escape(",".join(cats))))
         if not ev["all_day"]:
             lines += ["BEGIN:VALARM", "ACTION:DISPLAY",
                       f"TRIGGER:-PT{alarm_minutes}M",
@@ -141,10 +158,13 @@ def main() -> int:
         time.sleep(delay)
 
     events = sorted(all_events.values(), key=lambda e: e["start"])
+    classify_categories(events, defaults.get("llm_model", "claude-haiku-4-5-20251001"),
+                         load_category_cache())
     payload = {
         "generated": datetime.now(ZoneInfo(tz)).isoformat(),
         "timezone": tz,
         "sources": source_meta,
+        "categories": CATEGORIES,
         "report": report,
         "events": events,
     }
