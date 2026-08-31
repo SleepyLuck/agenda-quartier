@@ -1,0 +1,53 @@
+# Each entry = one organisation you want to follow.
+#
+# name   : shown on the page and in the calendar
+# url    : the page that actually lists events
+# method : auto | ics | wordpress | jsonld | llm
+#          auto -> tries ics, wordpress, jsonld, then llm (if API key set)
+# colour : optional hex; otherwise assigned from the palette
+#
+# Run `python probe.py --all` before trusting any of this.
+
+defaults:
+  timezone: Europe/Brussels
+  respect_robots: true
+  request_delay_seconds: 1.5
+  horizon_days: 120
+  keep_past_days: 1
+  llm_model: claude-haiku-4-5-20251001   # check current model names in the API docs
+
+sources:
+  # --- La Vieille Chéchette, rue du Monténégro 2-6 ------------------------
+  # WARNING: as of 31/08/2026 a fetch of chechette.be returned a Home Depot
+  # product-catalogue clone, not the café's site. Open it in your browser
+  # before enabling. If the domain really is lost, remove this entry —
+  # a scraper would otherwise fill your calendar with dinner plates.
+  # The archived version of the site looks like WordPress + The Events
+  # Calendar (times rendered as "17 h 00 min"), so `wordpress` is the
+  # method to try first once the domain is confirmed healthy.
+  - name: La Vieille Chéchette
+    url: https://chechette.be/lagenda/
+    method: wordpress
+    colour: "#E8336D"
+    enabled: false
+
+  # --- GC Pianofabriek, Fortstraat 35 ------------------------------------
+  # Automated fetching of pianofabriek.be was refused on robots grounds.
+  # Check `python probe.py https://www.pianofabriek.be/activiteiten` — if the
+  # first line says DISALLOWED, do not override it silently; their events are
+  # also published to UiTdatabank (publiq), which has a proper public API and
+  # is the polite route.
+  - name: GC Pianofabriek
+    url: https://www.pianofabriek.be/activiteiten
+    method: auto
+    colour: "#1B6FE0"
+
+  # --- La Tricoterie, rue Théodore Verhaegen 158 -------------------------
+  # URL parameters (?id_mot=, &jour=, &debut_partenaires=) are the SPIP CMS
+  # signature. SPIP does not emit schema.org data by default, so this will
+  # probably fall through to the llm rung. Check probe.py for an .ics link
+  # first — the SPIP agenda plugin sometimes exposes one.
+  - name: La Tricoterie
+    url: https://www.tricoterie.be/fr/agenda/l-agenda-culturel/?lang=fr
+    method: auto
+    colour: "#00937A"
