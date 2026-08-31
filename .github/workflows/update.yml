@@ -27,6 +27,9 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      - name: TEMP diagnostic - UiTdatabank investigation
+        run: python diag_uitdatabank.py
+
       - name: Collect events
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
