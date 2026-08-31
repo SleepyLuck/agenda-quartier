@@ -303,11 +303,13 @@ Page text:
 def call_anthropic(body: dict, api_key: str) -> dict:
     """POST to the Messages API. Raises with the response body included, so a
     4xx (bad model name, no credit, etc.) is diagnosable from the log alone."""
-    r = requests.post(
-        "https://api.anthropic.com/v1/messages",
-        headers={"x-api-key": api_key, "anthropic-version": "2023-06-01",
-                 "content-type": "application/json"},
-        json=body, timeout=120)
+    headers = {"x-api-key": api_key, "anthropic-version": "2023-06-01",
+               "content-type": "application/json"}
+    workspace_id = os.environ.get("ANTHROPIC_WORKSPACE_ID")
+    if workspace_id:
+        headers["anthropic-workspace-id"] = workspace_id
+    r = requests.post("https://api.anthropic.com/v1/messages",
+                       headers=headers, json=body, timeout=120)
     if not r.ok:
         raise requests.HTTPError(f"{r.status_code} {r.reason}: {r.text[:300]}", response=r)
     return r.json()
