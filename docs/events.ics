@@ -6,339 +6,2383 @@ METHOD:PUBLISH
 X-WR-CALNAME:Neighbourhood events
 X-WR-TIMEZONE:Europe/Brussels
 BEGIN:VEVENT
+UID:2084f50b35a9cdf7@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260831
+SUMMARY:Laatste speeldag van de vakantie
+LOCATION:Gemeenschapscentrum Ten Weyngaert vzw\, Vorst
+URL:https://www.tenweyngaert.be/activiteiten
+DESCRIPTION:Fitness\, gym(nastiek)\, dans en vechtsport voor kinderen van
+  3-12 jaar\nhttps://www.tenweyngaert.be/activiteiten
+CATEGORIES:GC Ten Weyngaert\,Family & Children
+END:VEVENT
+BEGIN:VEVENT
+UID:0b31def4b56c4365@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260920
+SUMMARY:Bozar Rooftop 2026
+LOCATION:Bozar\, Brussels
+URL:https://www.bozar.be/en/calendar
+DESCRIPTION:Pali Pali ✕ Bento Architecture exhibition. Free entry.\nhtt
+ ps://www.bozar.be/en/calendar
+CATEGORIES:BOZAR\,Culture & Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:07b05e1c14b51328@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260929
+SUMMARY:Babytheek
+LOCATION:Gemeenschapscentrum Ten Weyngaert vzw\, Vorst
+URL:https://www.tenweyngaert.be/activiteiten
+DESCRIPTION:Opvoedingsondersteuning voor volwassenen (18-99 jaar)\nhttps:
+ //www.tenweyngaert.be/activiteiten
+CATEGORIES:GC Ten Weyngaert\,Talks & Discussions
+END:VEVENT
+BEGIN:VEVENT
+UID:9e586c4cd8603a54@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260901
+SUMMARY:The Waterboys Fisherman's Blues Revue
+LOCATION:Ancienne Belgique
+URL:https://www.abconcerts.be/fr/agenda
+CATEGORIES:Ancienne Belgique\,Music
+END:VEVENT
+BEGIN:VEVENT
+UID:0339bb27699be137@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260902
+SUMMARY:Rencontre-gouter I Soupah! Cup of tea? Fruit me!
+LOCATION:Le Jacques Franck
+URL:https://www.lejacquesfranck.be/agenda
+DESCRIPTION:Expo de Renée Lorie et Erien Withouck\nhttps://www.lejacques
+ franck.be/agenda
+CATEGORIES:Le Jacques Franck\,Community & Social
+END:VEVENT
+BEGIN:VEVENT
+UID:bdde232437aa0246@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260902
+SUMMARY:Supermarket - Plants & Seeds
+LOCATION:Usquare\, Brussels
+URL:https://usquare.brussels/en/agenda
+DESCRIPTION:Supermarket - Plants & Seeds\nhttps://usquare.brussels/en/age
+ nda
+CATEGORIES:U-Square\,Markets & Fairs
+END:VEVENT
+BEGIN:VEVENT
+UID:c1088c5e96cc0f7f@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260902
+SUMMARY:Supermerket - Bourse aux plantes et aux graines
+LOCATION:Usquare\, Brussels
+URL:https://usquare.brussels/en/agenda
+DESCRIPTION:Supermarkt - Bourse aux plantes et aux graines\nhttps://usqua
+ re.brussels/en/agenda
+CATEGORIES:U-Square\,Markets & Fairs
+END:VEVENT
+BEGIN:VEVENT
+UID:4f521379ffc3382a@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260902
+SUMMARY:State of the Future
+LOCATION:KVS\, Bruxelles
+URL:https://www.kvs.be/fr/agenda
+DESCRIPTION:TheaterFestival 2026\nhttps://www.kvs.be/fr/agenda
+CATEGORIES:KVS\,Culture & Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:551c7789d90b0186@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20260901T220000Z
+DTEND:20260902T220000Z
+SUMMARY:Chapters of Celebration
+LOCATION:KVS\, Bruxelles
+URL:https://www.kvs.be/fr/agenda
+DESCRIPTION:Het TheaterFestival 2026 - Benjamin Abel Meirhaeghe\, Wouter 
+ Deltour\, Muziektheater Transparant\nhttps://www.kvs.be/fr/agenda
+CATEGORIES:KVS\,Culture & Arts
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Chapters of Celebration
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:236cc2e1774337cd@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20260902T151500Z
+SUMMARY:Donkey Skin
+LOCATION:Studio 5
+URL:https://www.flagey.be/agenda
+DESCRIPTION:Cinema event\nhttps://www.flagey.be/agenda
+CATEGORIES:Flagey\,Film & Cinema
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Donkey Skin
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:52e17263b666c49e@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20260902T170500Z
+DTEND:20260925T220000Z
+SUMMARY:Bay og Angels
+LOCATION:Studio 5
+URL:https://www.flagey.be/agenda
+DESCRIPTION:Cinema drama\nhttps://www.flagey.be/agenda
+CATEGORIES:Flagey\,Film & Cinema
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Bay og Angels
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eb84983dd95bf426@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20260902T185000Z
+DTEND:20260917T220000Z
+SUMMARY:Teenage Sex and Death at Camp Miasma
+LOCATION:Studio 5
+URL:https://www.flagey.be/agenda
+DESCRIPTION:Cinema comedy\nhttps://www.flagey.be/agenda
+CATEGORIES:Flagey\,Film & Cinema
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Teenage Sex and Death at Camp Miasma
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5b3a7641e3c2701c@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20261217
+SUMMARY:Yoga Communautaire
+LOCATION:Recyclart\, Rue de Manchester 13/15\, 1080 Molenbeek-Saint-Jean
+URL:https://recyclart.be/fr/agenda
+DESCRIPTION:Yoga Communautaire\nhttps://recyclart.be/fr/agenda
+CATEGORIES:Recyclart\,Sport & Wellbeing
+END:VEVENT
+BEGIN:VEVENT
+UID:5af345413074f7aa@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20260903T150000Z
+SUMMARY:Hen
+LOCATION:Studio 5
+URL:https://www.flagey.be/agenda
+DESCRIPTION:Cinema drama comedy\nhttps://www.flagey.be/agenda
+CATEGORIES:Flagey\,Film & Cinema
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Hen
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ed7b430feafaea6a@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20260903T170000Z
+DTEND:20260922T220000Z
+SUMMARY:Res Nullius
+LOCATION:Studio 5
+URL:https://www.flagey.be/agenda
+DESCRIPTION:Cinema documentary special screening. Premiere attended by di
+ rector.\nhttps://www.flagey.be/agenda
+CATEGORIES:Flagey\,Film & Cinema
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Res Nullius
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d5918156fd3a98c0@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20260903T173000Z
+SUMMARY:Emmylou Harris
+LOCATION:Bozar\, Brussels
+URL:https://www.bozar.be/en/calendar
+DESCRIPTION:European Farewell Tour. From 69 €\nhttps://www.bozar.be/en/
+ calendar
+CATEGORIES:BOZAR\,Music
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Emmylou Harris
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:82ca252d2bf6ee03@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20260903T190000Z
+SUMMARY:The End of Oak Street
+LOCATION:Studio 5
+URL:https://www.flagey.be/agenda
+DESCRIPTION:Cinema event\nhttps://www.flagey.be/agenda
+CATEGORIES:Flagey\,Film & Cinema
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:The End of Oak Street
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d49e847b5db10cdf@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260904
+SUMMARY:Kunst in de greep van uiterst rechts?
+LOCATION:KVS\, Bruxelles
+URL:https://www.kvs.be/fr/agenda
+DESCRIPTION:Débat\nhttps://www.kvs.be/fr/agenda
+CATEGORIES:KVS\,Talks & Discussions
+END:VEVENT
+BEGIN:VEVENT
+UID:340e7f07cf308d73@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260904
+SUMMARY:Bedouine
+LOCATION:Ancienne Belgique
+URL:https://www.abconcerts.be/fr/agenda
+DESCRIPTION:Folk rêveuse qui s'installe en douceur et laisse une emprein
+ te profonde\nhttps://www.abconcerts.be/fr/agenda
+CATEGORIES:Ancienne Belgique\,Music
+END:VEVENT
+BEGIN:VEVENT
+UID:151f9fb935888827@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260904
+SUMMARY:Ca7riel & Paco Amoroso
+LOCATION:Ancienne Belgique
+URL:https://www.abconcerts.be/fr/agenda
+CATEGORIES:Ancienne Belgique\,Music
+END:VEVENT
+BEGIN:VEVENT
+UID:730e9426a59dce5f@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20260904T151500Z
+SUMMARY:Nous\, l'orchestre
+LOCATION:Studio 5
+URL:https://www.flagey.be/agenda
+DESCRIPTION:Cinema documentary\nhttps://www.flagey.be/agenda
+CATEGORIES:Flagey\,Film & Cinema
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Nous\, l'orchestre
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b2bf7d1f2c6fb456@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20260904T170000Z
+DTEND:20260925T220000Z
+SUMMARY:Le Vertige
+LOCATION:Studio 5
+URL:https://www.flagey.be/agenda
+DESCRIPTION:Cinema comedy\nhttps://www.flagey.be/agenda
+CATEGORIES:Flagey\,Film & Cinema
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Le Vertige
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:06c5543f8cebb243@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20260904T180000Z
+SUMMARY:Billy Corgan
+LOCATION:Bozar\, Brussels
+URL:https://www.bozar.be/en/calendar
+DESCRIPTION:A Night of Mellon Collie and Infinite Sadness. From 95 €\nh
+ ttps://www.bozar.be/en/calendar
+CATEGORIES:BOZAR\,Music
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Billy Corgan
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fc21d8997a7ae743@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20260904T183000Z
+DTEND:20260918T220000Z
+SUMMARY:The Unknown
+LOCATION:Studio 5
+URL:https://www.flagey.be/agenda
+DESCRIPTION:Cinema drama\nhttps://www.flagey.be/agenda
+CATEGORIES:Flagey\,Film & Cinema
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:The Unknown
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e9c3845c7a0f9e4c@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260905
+SUMMARY:MANU CHAO I ULTRA ACÚSTICO + NEPHTYS - Sold Out !
+LOCATION:Place Van Meenen
+URL:https://www.lejacquesfranck.be/agenda
+DESCRIPTION:Concerts\nhttps://www.lejacquesfranck.be/agenda
+CATEGORIES:Le Jacques Franck\,Music
+END:VEVENT
+BEGIN:VEVENT
+UID:43154d2d31adf87c@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20260904T220000Z
+DTEND:20260905T220000Z
+SUMMARY:Magec / the Desert
+LOCATION:KVS\, Bruxelles
+URL:https://www.kvs.be/fr/agenda
+DESCRIPTION:Het TheaterFestival 2026 - Radouan Mriziga / A7LA5\nhttps://w
+ ww.kvs.be/fr/agenda
+CATEGORIES:KVS\,Culture & Arts
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Magec / the Desert
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a6c66d2b19299790@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260905
+SUMMARY:Yebba + Astyn
+LOCATION:Ancienne Belgique
+URL:https://www.abconcerts.be/fr/agenda
+DESCRIPTION:L'une des nouvelles voix essentielles de la soul contemporain
+ e\nhttps://www.abconcerts.be/fr/agenda
+CATEGORIES:Ancienne Belgique\,Music
+END:VEVENT
+BEGIN:VEVENT
+UID:43ea1900f1830a81@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20260905T121500Z
+DTEND:20260911T220000Z
+SUMMARY:The Odyssey
+LOCATION:Studio 5
+URL:https://www.flagey.be/agenda
+DESCRIPTION:Cinema action adventure\nhttps://www.flagey.be/agenda
+CATEGORIES:Flagey\,Film & Cinema
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:The Odyssey
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f24d5c9c5e166d79@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20260905T153000Z
+SUMMARY:The Umbrellas of Cherbourg
+LOCATION:Studio 5
+URL:https://www.flagey.be/agenda
+DESCRIPTION:Cinema event\nhttps://www.flagey.be/agenda
+CATEGORIES:Flagey\,Film & Cinema
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:The Umbrellas of Cherbourg
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d53e661c1b9902f1@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260917
+SUMMARY:LE JACQUES FRANCK FAIT SON CINÉMA !
+LOCATION:Le Jacques Franck
+URL:https://www.lejacquesfranck.be/agenda
+DESCRIPTION:10 jours de projections !\nhttps://www.lejacquesfranck.be/age
+ nda
+CATEGORIES:Le Jacques Franck\,Film & Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:78d7359064e5a0ee@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260906
+SUMMARY:Carmen\, l'oiseau rebelle
+LOCATION:Le Jacques Franck
+URL:https://www.lejacquesfranck.be/agenda
+DESCRIPTION:Animation | Comédie musicale | Drame | Romance\nhttps://www.
+ lejacquesfranck.be/agenda
+CATEGORIES:Le Jacques Franck\,Culture & Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:b5aaeddbd9e18f60@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260906
+SUMMARY:Sambizanga
+LOCATION:Le Jacques Franck
+URL:https://www.lejacquesfranck.be/agenda
+DESCRIPTION:Drame\nhttps://www.lejacquesfranck.be/agenda
+CATEGORIES:Le Jacques Franck\,Film & Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:643900a2fb01948b@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20260906T120000Z
+DTEND:20260915T220000Z
+SUMMARY:Lola
+LOCATION:Studio 5
+URL:https://www.flagey.be/agenda
+DESCRIPTION:Cinema drama\nhttps://www.flagey.be/agenda
+CATEGORIES:Flagey\,Film & Cinema
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Lola
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f735db8de008e621@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20260906T130000Z
+DTEND:20260906T190000Z
+SUMMARY:Fête de rentrée — 5e saison
+LOCATION:Maison poème\, Rue d'Écosse 30\, 1060 Saint-Gilles
+URL:https://maisonpoeme.be/
+DESCRIPTION:Une grande fiesta pour ouvrir cette 5e saison\, dans la rue c
+ omme dans la Maison\, avec des concerts\, des DJ sets\, des performances
+ \, un marché de créateur·ices et plein de surprises ! C’est gratuit
+ \, sans réservation: n’hésite pas à passer\, on se fera un plaisir 
+ de t’accueillir!\nhttps://maisonpoeme.be/
+CATEGORIES:Maison Poème\,Festivals & Celebrations
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Fête de rentrée — 5e saison
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd82dba8489e4a52@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20260906T160000Z
+DTEND:20261219T140000Z
+SUMMARY:Roses indociles
+LOCATION:Maison poème\, Rue d'Écosse 30\, 1060 Saint-Gilles
+URL:https://maisonpoeme.be/
+DESCRIPTION:La rose trémière (alcea rosea) est une plante vivace\, dont
+  le nom serait une altération de Rose d’Outremer. Toutes ses parties 
+ sont comestibles et ses usages médicinaux sont reconnus depuis l’Anti
+ quité. Leur présence à Bruxelles fait naître un fort contraste : leu
+ r côté sauvage\, désordonné\, leurs grandes fleurs colorées viennen
+ t perturber l’ordre urbain et nous […]\nhttps://maisonpoeme.be/
+CATEGORIES:Maison Poème\,Environment
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Roses indociles
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:37e0cc4c84b8f051@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20260906T162000Z
+DTEND:20260916T220000Z
+SUMMARY:Dark Diamond
+LOCATION:Studio 5
+URL:https://www.flagey.be/agenda
+DESCRIPTION:Cinema drama\nhttps://www.flagey.be/agenda
+CATEGORIES:Flagey\,Film & Cinema
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Dark Diamond
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d3132f399492adff@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20260906T183000Z
+DTEND:20260926T220000Z
+SUMMARY:Onoda: 10\,000 Nights in the Jungle
+LOCATION:Studio 5
+URL:https://www.flagey.be/agenda
+DESCRIPTION:Cinema drama history\nhttps://www.flagey.be/agenda
+CATEGORIES:Flagey\,Film & Cinema
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Onoda: 10\,000 Nights in the Jungle
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a76e34d67a48239f@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260907
+SUMMARY:Le chant des forêts
+LOCATION:Le Jacques Franck
+URL:https://www.lejacquesfranck.be/agenda
+DESCRIPTION:Documentaire | Scolaire | Primaires | Gratuit\nhttps://www.le
+ jacquesfranck.be/agenda
+CATEGORIES:Le Jacques Franck\,Film & Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:1b4d8ea38e908148@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260907
+SUMMARY:In Waves
+LOCATION:Le Jacques Franck
+URL:https://www.lejacquesfranck.be/agenda
+DESCRIPTION:Animation\, Drame\, Romance\nhttps://www.lejacquesfranck.be/a
+ genda
+CATEGORIES:Le Jacques Franck\,Film & Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:1a5e1b1838c7d944@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20260907T170000Z
+DTEND:20260831T190000Z
+SUMMARY:Lire bell hooks\, habiter la culture : Arts\, représentations et
+  espaces d’appartenance et de résistance
+LOCATION:Maison poème\, Rue d'Écosse 30\, 1060 Saint-Gilles
+URL:https://maisonpoeme.be/
+DESCRIPTION:À l’occasion de la parution de Non silenciées : Affirmer\
+ , se rebeller\, vivre\, la Maison poème et The Gallery Wetsi proposent 
+ une rencontre publique consacrée à l’actualité de la pensée de bel
+ l hooks. La sociologue et essayiste afroféministe Fania Noël dialoguer
+ a avec l’historienne de l’art et curatrice Anne Wetsi Mpoma autour d
+ e deux ouvrages de bell […]\nhttps://maisonpoeme.be/
+CATEGORIES:Maison Poème\,Talks & Discussions
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Lire bell hooks\, habiter la culture : Arts\, représentation
+ s et espaces d’appartenance et de résistance
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:018edc961b3206fe@neighbourhood-events
-DTSTAMP:20260831T190005Z
+DTSTAMP:20260831T191906Z
 DTSTART;VALUE=DATE:20260908
 DTEND;VALUE=DATE:20261215
 SUMMARY:Folkpractica
 LOCATION:Gemeenschapscentrum Pianofabriek vzw\, Sint-Gillis
 URL:https://www.pianofabriek.be/activiteiten
-DESCRIPTION:Volksdans en werelddans\nhttps://www.pianofabriek.be/activite
- iten
+DESCRIPTION:Folk dance practice for ages 18+ by Frisse Folk\nhttps://www.
+ pianofabriek.be/activiteiten
 CATEGORIES:GC Pianofabriek\,Workshops & Creative
 END:VEVENT
 BEGIN:VEVENT
+UID:b89f3d704d90f9a6@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260908
+SUMMARY:Allah n'est pas obligé
+LOCATION:Le Jacques Franck
+URL:https://www.lejacquesfranck.be/agenda
+DESCRIPTION:Animation\, Drame\nhttps://www.lejacquesfranck.be/agenda
+CATEGORIES:Le Jacques Franck\,Film & Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:97c3c4036c32cd1a@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260908
+SUMMARY:Gala van de Aura's
+LOCATION:KVS\, Bruxelles
+URL:https://www.kvs.be/fr/agenda
+DESCRIPTION:Het TheaterFestival 2026\nhttps://www.kvs.be/fr/agenda
+CATEGORIES:KVS\,Culture & Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:0b33ef90170e0226@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20260907T220000Z
+DTEND:20260908T220000Z
+SUMMARY:FRANK
+LOCATION:KVS\, Bruxelles
+URL:https://www.kvs.be/fr/agenda
+DESCRIPTION:Het TheaterFestival 2026 - Cherish Menzo / GRIP & Theater Utr
+ echt\nhttps://www.kvs.be/fr/agenda
+CATEGORIES:KVS\,Culture & Arts
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:FRANK
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a388d936b63cff10@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260908
+SUMMARY:Ecca Vandal + Freddy Forbidden
+LOCATION:Ancienne Belgique
+URL:https://www.abconcerts.be/fr/agenda
+DESCRIPTION:Un spectacle plein d'énergie mêlant des influences punk\, j
+ azz\, hip-hop et électro\nhttps://www.abconcerts.be/fr/agenda
+CATEGORIES:Ancienne Belgique\,Music
+END:VEVENT
+BEGIN:VEVENT
 UID:dd376d7d582a4f5c@neighbourhood-events
-DTSTAMP:20260831T190005Z
+DTSTAMP:20260831T191906Z
 DTSTART;VALUE=DATE:20260909
 DTEND;VALUE=DATE:20270609
 SUMMARY:Afropop danslessen 9-12 jaar
 LOCATION:Gemeenschapscentrum Pianofabriek vzw\, Sint-Gillis
 URL:https://www.pianofabriek.be/activiteiten
-DESCRIPTION:Moderne dans\nhttps://www.pianofabriek.be/activiteiten
+DESCRIPTION:Modern dance - Afropop lessons for ages 9-12\nhttps://www.pia
+ nofabriek.be/activiteiten
 CATEGORIES:GC Pianofabriek\,Family & Children
 END:VEVENT
 BEGIN:VEVENT
+UID:9b657526f1ff5fba@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260909
+SUMMARY:Courts Métrages TEFF - The Extraordinary Film Festival
+LOCATION:Le Jacques Franck
+URL:https://www.lejacquesfranck.be/agenda
+DESCRIPTION:Séance Inclusive\nhttps://www.lejacquesfranck.be/agenda
+CATEGORIES:Le Jacques Franck\,Film & Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:64c9e444612e785a@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20260909T171000Z
+DTEND:20260926T220000Z
+SUMMARY:Rose
+LOCATION:Studio 5
+URL:https://www.flagey.be/agenda
+DESCRIPTION:Cinema drama history\nhttps://www.flagey.be/agenda
+CATEGORIES:Flagey\,Film & Cinema
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Rose
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5b137ad4b2bfc4e0@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20260909T173000Z
+DTEND:20260909T200000Z
+SUMMARY:La poésie\, même pas peur ! — CotCotCot fête ses 15 ans
+LOCATION:Maison poème\, Rue d'Écosse 30\, 1060 Saint-Gilles
+URL:https://maisonpoeme.be/
+DESCRIPTION:Ce 9 septembre\, les éditions CotCotCot investissent la Mais
+ on poème pour présenter le versant poétique de leur catalogue à trav
+ ers 5 lectures\, accompagnées par une composition musicale de Raphaël 
+ Decoster\, musicien membre du groupe Turfu et illustrateur de l'album To
+ us mes cailloux. Lors de cette soirée exceptionnelle\, pensée spécial
+ ement pour leurs 15 ans\, on aura […]\nhttps://maisonpoeme.be/
+CATEGORIES:Maison Poème\,Culture & Arts
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:La poésie\, même pas peur ! — CotCotCot fête ses 15 ans
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:36880d5e0ef88508@neighbourhood-events
-DTSTAMP:20260831T190005Z
+DTSTAMP:20260831T191906Z
 DTSTART;VALUE=DATE:20260910
 SUMMARY:Bora Pianofabriek × Speakeasy
 LOCATION:Gemeenschapscentrum Pianofabriek vzw\, Sint-Gillis
 URL:https://www.pianofabriek.be/activiteiten
-DESCRIPTION:Poëzie event\nhttps://www.pianofabriek.be/activiteiten
+DESCRIPTION:Poëzie event\, free entry for all ages\nhttps://www.pianofab
+ riek.be/activiteiten
 CATEGORIES:GC Pianofabriek\,Talks & Discussions
 END:VEVENT
 BEGIN:VEVENT
 UID:ccfdf7e263fc5b6f@neighbourhood-events
-DTSTAMP:20260831T190005Z
+DTSTAMP:20260831T191906Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20261004
 SUMMARY:EXPO C'est La Fête Dans Le Chaos
 LOCATION:Gemeenschapscentrum Pianofabriek vzw\, Sint-Gillis
 URL:https://www.pianofabriek.be/activiteiten
-DESCRIPTION:Meerdere kunstvormen\nhttps://www.pianofabriek.be/activiteite
- n
+DESCRIPTION:Free multiple art forms exposition for all ages\nhttps://www.
+ pianofabriek.be/activiteiten
 CATEGORIES:GC Pianofabriek\,Culture & Arts
 END:VEVENT
 BEGIN:VEVENT
+UID:14fc5c6426312ba8@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20261203
+SUMMARY:Couture Club
+LOCATION:Recyclart\, Rue de Manchester 13/15\, 1080 Molenbeek-Saint-Jean
+URL:https://recyclart.be/fr/agenda
+DESCRIPTION:Couture Club\nhttps://recyclart.be/fr/agenda
+CATEGORIES:Recyclart\,Workshops & Creative
+END:VEVENT
+BEGIN:VEVENT
 UID:79a089f8bc59e57b@neighbourhood-events
-DTSTAMP:20260831T190005Z
+DTSTAMP:20260831T191906Z
 DTSTART;VALUE=DATE:20260911
 SUMMARY:Bora Pianofabriek × Speakeasy × Jam Poetik
 LOCATION:Gemeenschapscentrum Pianofabriek vzw\, Sint-Gillis
 URL:https://www.pianofabriek.be/activiteiten
-DESCRIPTION:Jazz en blues event\nhttps://www.pianofabriek.be/activiteiten
+DESCRIPTION:Jazz and blues poetry event\, free entry for all ages\nhttps:
+ //www.pianofabriek.be/activiteiten
 CATEGORIES:GC Pianofabriek\,Music
 END:VEVENT
 BEGIN:VEVENT
+UID:472caa42eb1f1bfe@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260911
+SUMMARY:Recyclart Reopening
+LOCATION:Recyclart\, Rue de Manchester 13/15\, 1080 Molenbeek-Saint-Jean
+URL:https://recyclart.be/fr/agenda
+DESCRIPTION:Vernissage + Fabrik visit + Creative meetings + Concert + DJ 
+ + Food\nhttps://recyclart.be/fr/agenda
+CATEGORIES:Recyclart\,Festivals & Celebrations
+END:VEVENT
+BEGIN:VEVENT
+UID:3b48a741d48d9a19@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20261031
+SUMMARY:Exposition Bar Resto "Saveur fleurs coupées"
+LOCATION:Recyclart\, Rue de Manchester 13/15\, 1080 Molenbeek-Saint-Jean
+URL:https://recyclart.be/fr/agenda
+DESCRIPTION:Exhibition at Bar Resto\nhttps://recyclart.be/fr/agenda
+CATEGORIES:Recyclart\,Culture & Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:5882ef98aaabd666@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260926
+SUMMARY:Manicomio\, ou le plaisir d'être inutile
+LOCATION:Théâtre de Poche\, Bruxelles
+URL:https://poche.be/shows
+DESCRIPTION:Patrick Masset / Théâtre d'1 jour\nhttps://poche.be/shows
+CATEGORIES:Le Poche\,Culture & Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:6e3ce623490fee2b@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20260911T180000Z
+DTEND:20260911T200000Z
+SUMMARY:Bêtes d’orage
+LOCATION:Maison poème\, Rue d'Écosse 30\, 1060 Saint-Gilles
+URL:https://maisonpoeme.be/
+DESCRIPTION:Bêtes d’orage\, c’est cette femme qui parle\, qui rappe\
+ , qui twerke. Tu ne comprendras pas tout de suite ce qu’elle veut et c
+ ’est tant mieux. Il y a sa grand-mère aussi\, sa fille quelque part e
+ t le régisseur. Et puis il y a l’avortement\, sens propre et figuré.
+  Tentative et échec. Rire ou pleurer. Brut […]\nhttps://maisonpoeme.b
+ e/
+CATEGORIES:Maison Poème\,Culture & Arts
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Bêtes d’orage
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:f499a04c7b67c60f@neighbourhood-events
-DTSTAMP:20260831T190005Z
+DTSTAMP:20260831T191906Z
 DTSTART;VALUE=DATE:20260912
 SUMMARY:Bora Pianofabriek × Panorama Brasilis
 LOCATION:Gemeenschapscentrum Pianofabriek vzw\, Sint-Gillis
 URL:https://www.pianofabriek.be/activiteiten
-DESCRIPTION:Bora Pianofabriek × Panorama Brasilis\nhttps://www.pianofabr
- iek.be/activiteiten
+DESCRIPTION:Free event for all ages\nhttps://www.pianofabriek.be/activite
+ iten
 CATEGORIES:GC Pianofabriek\,Music
 END:VEVENT
 BEGIN:VEVENT
 UID:9ff417909195b5af@neighbourhood-events
-DTSTAMP:20260831T190005Z
+DTSTAMP:20260831T191906Z
 DTSTART;VALUE=DATE:20260912
 SUMMARY:Cinéclube Panorama Brasilis : Bonds of the Matriarch
 LOCATION:Gemeenschapscentrum Pianofabriek vzw\, Sint-Gillis
 URL:https://www.pianofabriek.be/activiteiten
-DESCRIPTION:Documentaire\nhttps://www.pianofabriek.be/activiteiten
+DESCRIPTION:Free documentary screening for ages 6+\nhttps://www.pianofabr
+ iek.be/activiteiten
 CATEGORIES:GC Pianofabriek\,Film & Cinema
 END:VEVENT
 BEGIN:VEVENT
+UID:4a723d9bb367e499@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260912
+SUMMARY:Zazaclub w/ Klein & XT1ANA
+LOCATION:Recyclart\, Rue de Manchester 13/15\, 1080 Molenbeek-Saint-Jean
+URL:https://recyclart.be/fr/agenda
+DESCRIPTION:Live performance with Klein & XT1ANA + Shauwdii + Soa420\nhtt
+ ps://recyclart.be/fr/agenda
+CATEGORIES:Recyclart\,Music
+END:VEVENT
+BEGIN:VEVENT
+UID:377ba47c4f24e78a@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260912
+SUMMARY:F*CK LOLITA
+LOCATION:KVS\, Bruxelles
+URL:https://www.kvs.be/fr/agenda
+DESCRIPTION:Het TheaterFestival 2026 - Het Zuidelijk Toneel\nhttps://www.
+ kvs.be/fr/agenda
+CATEGORIES:KVS\,Culture & Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:daecf6ccb05efc22@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20260911T220000Z
+DTEND:20270528T220000Z
+SUMMARY:KRAPP / KVS
+LOCATION:KVS\, Bruxelles
+URL:https://www.kvs.be/fr/agenda
+DESCRIPTION:Copyriot - Theater\nhttps://www.kvs.be/fr/agenda
+CATEGORIES:KVS\,Culture & Arts
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:KRAPP / KVS
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:04f5047ef1411e46@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20260914T160000Z
+DTEND:20260914T170000Z
+SUMMARY:« Nous ne sommes pas condamné·es à la lacheté »
+LOCATION:Maison poème\, Rue d'Écosse 30\, 1060 Saint-Gilles
+URL:https://maisonpoeme.be/
+DESCRIPTION:Un cercle de lecture autour du livre de Catherine Dorion\, en
+  lien avec la soirée philo "Traverser la tempête fasciste" qui a lieu 
+ le soir même. Ces nouveaux rendez-vous se veulent être autant d’inst
+ ants chaleureux\, où l’on vient partager ses pensées\, apprendre des
+  autres et discuter autour du livre en lien avec la programmation de [
+ …]\nhttps://maisonpoeme.be/
+CATEGORIES:Maison Poème\,Talks & Discussions
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:« Nous ne sommes pas condamné·es à la lacheté »
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:eb51727e8caf3f69@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20260914T173000Z
+DTEND:20260914T200000Z
+SUMMARY:Traverser la tempête fasciste
+LOCATION:Maison poème\, Rue d'Écosse 30\, 1060 Saint-Gilles
+URL:https://maisonpoeme.be/
+DESCRIPTION:Dans le cadre des Soirées philo à la Maison poème\, une re
+ ncontre avec l'autrice et femme de théâtre québécoise Catherine Dori
+ on\, autour de son livre Le Courage et la joie\, sous-titré "Traverser 
+ la tempête fasciste sans perdre le nord". La rencontre sera modérée p
+ ar la journaliste indépendante Manon Legrand (Vie Féminine\, Axelle\, 
+ Alter Echos...).\nhttps://maisonpoeme.be/
+CATEGORIES:Maison Poème\,Talks & Discussions
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Traverser la tempête fasciste
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:f9261825d2fea01b@neighbourhood-events
-DTSTAMP:20260831T190005Z
+DTSTAMP:20260831T191906Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20261215
 SUMMARY:Folkdans niveau 1 beginners
 LOCATION:Gemeenschapscentrum Pianofabriek vzw\, Sint-Gillis
 URL:https://www.pianofabriek.be/activiteiten
-DESCRIPTION:Volksdans en werelddans\nhttps://www.pianofabriek.be/activite
- iten
+DESCRIPTION:Folk dance level 1 course for ages 18+ by Frisse Folk\nhttps:
+ //www.pianofabriek.be/activiteiten
 CATEGORIES:GC Pianofabriek\,Workshops & Creative
 END:VEVENT
 BEGIN:VEVENT
+UID:3b6db98f3bd8bbcd@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260915
+SUMMARY:A beginner's guide to John Coltrane door Guy Peters
+LOCATION:Ancienne Belgique
+URL:https://www.abconcerts.be/fr/agenda
+DESCRIPTION:Conférence sur le innovateur le plus influent du jazz\nhttps
+ ://www.abconcerts.be/fr/agenda
+CATEGORIES:Ancienne Belgique\,Talks & Discussions
+END:VEVENT
+BEGIN:VEVENT
+UID:9ab7cda077fe1f67@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260916
+SUMMARY:STADPLURAAL | Hostile Architecture: Walking over\, under\, and th
+ rough – guided tour
+LOCATION:Recyclart\, Rue de Manchester 13/15\, 1080 Molenbeek-Saint-Jean
+URL:https://recyclart.be/fr/agenda
+DESCRIPTION:Guided tour with Stripping Architecture\nhttps://recyclart.be
+ /fr/agenda
+CATEGORIES:Recyclart\,Talks & Discussions
+END:VEVENT
+BEGIN:VEVENT
+UID:44879015689a323b@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260916
+SUMMARY:(John) Coltrane 100: A Love Supreme - Salva Sanchis & Anne Teresa
+  De Keersmaeker
+LOCATION:Ancienne Belgique
+URL:https://www.abconcerts.be/fr/agenda
+DESCRIPTION:Le magnum opus de Coltrane magnifiquement mis en scène par q
+ uatre danseurs\nhttps://www.abconcerts.be/fr/agenda
+CATEGORIES:Ancienne Belgique\,Culture & Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:5b9f5a7e74bd2093@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260916
+SUMMARY:screening SǒN & live soundtrack
+LOCATION:Ancienne Belgique
+URL:https://www.abconcerts.be/fr/agenda
+DESCRIPTION:Projection unique d'un court-métrage avec accompagnement mus
+ ical en direct\nhttps://www.abconcerts.be/fr/agenda
+CATEGORIES:Ancienne Belgique\,Film & Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:632aa3559b6ea192@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20260916T173000Z
+DTEND:20260916T200000Z
+SUMMARY:Les Femmes Kiaï
+LOCATION:Maison poème\, Rue d'Écosse 30\, 1060 Saint-Gilles
+URL:https://maisonpoeme.be/
+DESCRIPTION:Dans un dojo improvisé au cœur de la Maison des Femmes de S
+ chaerbeek à Bruxelles\, des femmes se retrouvent pour expérimenter un 
+ espace singulier\, à la croisée du corps et de la voix. À travers des
+  exercices inspirés du karaté et du théâtre menés par Valérie Gime
+ nez\, elles explorent leurs limites\, leurs peurs\, leur souffle\, […]
+ \nhttps://maisonpoeme.be/
+CATEGORIES:Maison Poème\,Sport & Wellbeing
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Les Femmes Kiaï
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:a877e76cd0c31ec0@neighbourhood-events
-DTSTAMP:20260831T190005Z
+DTSTAMP:20260831T191906Z
 DTSTART;VALUE=DATE:20260917
 SUMMARY:1060 Pitch#7 Gendered Perspectives
 LOCATION:Gemeenschapscentrum Pianofabriek vzw\, Sint-Gillis
 URL:https://www.pianofabriek.be/activiteiten
-DESCRIPTION:Meerdere kunstvormen\nhttps://www.pianofabriek.be/activiteite
- n
+DESCRIPTION:Free multiple art forms event for ages 18+\nhttps://www.piano
+ fabriek.be/activiteiten
 CATEGORIES:GC Pianofabriek\,Talks & Discussions
 END:VEVENT
 BEGIN:VEVENT
 UID:ce4f6cd0683ae2d0@neighbourhood-events
-DTSTAMP:20260831T190005Z
+DTSTAMP:20260831T191906Z
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20270617
 SUMMARY:Slameke
 LOCATION:Gemeenschapscentrum Pianofabriek vzw\, Sint-Gillis
 URL:https://www.pianofabriek.be/activiteiten
-DESCRIPTION:Poëzie\nhttps://www.pianofabriek.be/activiteiten
+DESCRIPTION:Free poetry slam for ages 18+ by Slameke asbl\nhttps://www.pi
+ anofabriek.be/activiteiten
 CATEGORIES:GC Pianofabriek\,Workshops & Creative
 END:VEVENT
 BEGIN:VEVENT
+UID:ce2095768717a51e@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260917
+SUMMARY:Vernissage Back/Stage
+LOCATION:Ancienne Belgique
+URL:https://www.abconcerts.be/fr/agenda
+CATEGORIES:Ancienne Belgique\,Culture & Arts
+END:VEVENT
+BEGIN:VEVENT
 UID:2cf3294b5becc205@neighbourhood-events
-DTSTAMP:20260831T190005Z
+DTSTAMP:20260831T191906Z
 DTSTART;VALUE=DATE:20260918
 SUMMARY:Ensemble La Française : À table !
 LOCATION:La Tricoterie\, 158 rue Théodore Verhaegen\, 1060 Saint-Gilles
 URL:https://www.tricoterie.be/fr/agenda/l-agenda-culturel/?lang=fr
-DESCRIPTION:Concert by Ensemble La Française\nhttps://www.tricoterie.be/
- fr/agenda/l-agenda-culturel/?lang=fr
+DESCRIPTION:L'intelligence artificielle va-t-elle tous nous remplacer ? L
+ a planète sera-t-elle encore vivable en 2050 ?\nhttps://www.tricoterie.
+ be/fr/agenda/l-agenda-culturel/?lang=fr
 CATEGORIES:La Tricoterie\,Talks & Discussions
 END:VEVENT
 BEGIN:VEVENT
+UID:8750752a77a3d09c@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260918
+SUMMARY:Release party Re#encounter
+LOCATION:Recyclart\, Rue de Manchester 13/15\, 1080 Molenbeek-Saint-Jean
+URL:https://recyclart.be/fr/agenda
+DESCRIPTION:Release party with Kaito & Joos\, Black Koyo\, Jawad\nhttps:/
+ /recyclart.be/fr/agenda
+CATEGORIES:Recyclart\,Music
+END:VEVENT
+BEGIN:VEVENT
+UID:fbf451977f305cee@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260918
+SUMMARY:Losing Daylight: kortfilms en concert
+LOCATION:Gemeenschapscentrum Ten Weyngaert vzw\, Vorst
+URL:https://www.tenweyngaert.be/activiteiten
+DESCRIPTION:Film voor alle leeftijden (10-99 jaar)\nhttps://www.tenweynga
+ ert.be/activiteiten
+CATEGORIES:GC Ten Weyngaert\,Film & Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:d7109050856c0762@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20260917T220000Z
+DTEND:20260918T220000Z
+SUMMARY:For Blinky Palermo
+LOCATION:KVS\, Bruxelles
+URL:https://www.kvs.be/fr/agenda
+DESCRIPTION:Marc Vanrunxt & Georgia Vardarou / Kunst/Werk - Dans\nhttps:/
+ /www.kvs.be/fr/agenda
+CATEGORIES:KVS\,Culture & Arts
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:For Blinky Palermo
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5ccd832660cf034a@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20260918T180000Z
+DTEND:20260918T200000Z
+SUMMARY:mon petit BIG CHOP
+LOCATION:Maison poème\, Rue d'Écosse 30\, 1060 Saint-Gilles
+URL:https://maisonpoeme.be/
+DESCRIPTION:Responsable D.E.I. (Diversité\, Équité et Inclusion) d’u
+ ne start-up\, Emma enchaîne les galères amoureuses et afrocapillaires.
+  D'habitude elle fait profil bas\, mais sa perruque la chatouille et les
+  miroirs lui sont devenus insupportables. Ses tantes de YouTube l'ont pr
+ évenue: pas de retour en arrière. Elle fête ses 30 ans demain et s’
+ apprête à marquer le coup […]\nhttps://maisonpoeme.be/
+CATEGORIES:Maison Poème\,Culture & Arts
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:mon petit BIG CHOP
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ac866f26123a018e@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260919
+SUMMARY:11.11.11-Vorst: 'Pesta Babi'\, documentaire en nabespreking
+LOCATION:Gemeenschapscentrum Ten Weyngaert vzw\, Vorst
+URL:https://www.tenweyngaert.be/activiteiten
+DESCRIPTION:Documentaire voor kinderen van 12-99 jaar\nhttps://www.tenwey
+ ngaert.be/activiteiten
+CATEGORIES:GC Ten Weyngaert\,Film & Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:d09e20e7f053cc6d@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20260918T220000Z
+DTEND:20270430T220000Z
+SUMMARY:Cry (no) more
+LOCATION:KVS\, Bruxelles
+URL:https://www.kvs.be/fr/agenda
+DESCRIPTION:Dina Dooreman / KVS - Mixed\nhttps://www.kvs.be/fr/agenda
+CATEGORIES:KVS\,Culture & Arts
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Cry (no) more
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:274e172f0c6a7f00@neighbourhood-events
-DTSTAMP:20260831T190005Z
+DTSTAMP:20260831T191906Z
 DTSTART;VALUE=DATE:20260920
 SUMMARY:Un buffet gourmand et responsable
 LOCATION:La Tricoterie\, 158 rue Théodore Verhaegen\, 1060 Saint-Gilles
 URL:https://www.tricoterie.be/fr/agenda/l-agenda-culturel/?lang=fr
-DESCRIPTION:Buffet sucré/salé à volonté with organic products every S
- unday\nhttps://www.tricoterie.be/fr/agenda/l-agenda-culturel/?lang=fr
+DESCRIPTION:Buffet sucré/salé à volonté chaque dimanche avec prépara
+ tions maison à base de produits bio\nhttps://www.tricoterie.be/fr/agend
+ a/l-agenda-culturel/?lang=fr
 CATEGORIES:La Tricoterie\,Food & Drink
 END:VEVENT
 BEGIN:VEVENT
 UID:597d489883119f8b@neighbourhood-events
-DTSTAMP:20260831T190005Z
+DTSTAMP:20260831T191906Z
 DTSTART;VALUE=DATE:20260920
 SUMMARY:Les Mini-Tricoteur·euses
 LOCATION:La Tricoterie\, 158 rue Théodore Verhaegen\, 1060 Saint-Gilles
 URL:https://www.tricoterie.be/fr/agenda/l-agenda-culturel/?lang=fr
-DESCRIPTION:Kids activity every Sunday from 10:00 to 14:30\, for ages 3+\
- nhttps://www.tricoterie.be/fr/agenda/l-agenda-culturel/?lang=fr
+DESCRIPTION:Chaque dimanche de 10h à 14h30\, espace de jeux pour enfants
+  à partir de 3 ans\nhttps://www.tricoterie.be/fr/agenda/l-agenda-cultur
+ el/?lang=fr
 CATEGORIES:La Tricoterie\,Family & Children
 END:VEVENT
 BEGIN:VEVENT
 UID:052a46ee7677c69a@neighbourhood-events
-DTSTAMP:20260831T190005Z
+DTSTAMP:20260831T191906Z
 DTSTART;VALUE=DATE:20260920
 SUMMARY:Drag Brunch
 LOCATION:La Tricoterie\, 158 rue Théodore Verhaegen\, 1060 Saint-Gilles
 URL:https://www.tricoterie.be/fr/agenda/l-agenda-culturel/?lang=fr
-DESCRIPTION:Drag brunch with mimosas on Sunday\nhttps://www.tricoterie.be
- /fr/agenda/l-agenda-culturel/?lang=fr
+DESCRIPTION:Drag brunch avec mimosas\, dimanche haut en couleur\nhttps://
+ www.tricoterie.be/fr/agenda/l-agenda-culturel/?lang=fr
 CATEGORIES:La Tricoterie\,Food & Drink
 END:VEVENT
 BEGIN:VEVENT
 UID:f888bf123f663b33@neighbourhood-events
-DTSTAMP:20260831T190005Z
+DTSTAMP:20260831T191906Z
 DTSTART;VALUE=DATE:20260920
 SUMMARY:Initiation au handpan
 LOCATION:La Tricoterie\, 158 rue Théodore Verhaegen\, 1060 Saint-Gilles
 URL:https://www.tricoterie.be/fr/agenda/l-agenda-culturel/?lang=fr
-DESCRIPTION:Introduction to handpan\, a magical and relaxing instrument\n
- https://www.tricoterie.be/fr/agenda/l-agenda-culturel/?lang=fr
+DESCRIPTION:Découvrez le handpan\, instrument aux sonorités magiques et
+  relaxantes\, jeu très intuitif\nhttps://www.tricoterie.be/fr/agenda/l-
+ agenda-culturel/?lang=fr
 CATEGORIES:La Tricoterie\,Workshops & Creative
 END:VEVENT
 BEGIN:VEVENT
 UID:26cc48a22e3ddfda@neighbourhood-events
-DTSTAMP:20260831T190005Z
+DTSTAMP:20260831T191906Z
 DTSTART;VALUE=DATE:20260920
 SUMMARY:Causerie "Conte et société" : Raconter dans le chaos ambiant
 LOCATION:La Tricoterie\, 158 rue Théodore Verhaegen\, 1060 Saint-Gilles
 URL:https://www.tricoterie.be/fr/agenda/l-agenda-culturel/?lang=fr
-DESCRIPTION:Discussion about storytelling and society in chaotic times\nh
- ttps://www.tricoterie.be/fr/agenda/l-agenda-culturel/?lang=fr
+DESCRIPTION:Comment le chaos du monde résonne-t-il dans nos pratiques de
+  transmission et création artistique ?\nhttps://www.tricoterie.be/fr/ag
+ enda/l-agenda-culturel/?lang=fr
 CATEGORIES:La Tricoterie\,Talks & Discussions
 END:VEVENT
 BEGIN:VEVENT
+UID:c79507c2711b942e@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260920
+SUMMARY:Finissage Expo TW Fotoclub : fotobrocante
+LOCATION:Gemeenschapscentrum Ten Weyngaert vzw\, Vorst
+URL:https://www.tenweyngaert.be/activiteiten
+DESCRIPTION:Fotografie voor kinderen van 10-99 jaar\nhttps://www.tenweyng
+ aert.be/activiteiten
+CATEGORIES:GC Ten Weyngaert\,Markets & Fairs
+END:VEVENT
+BEGIN:VEVENT
+UID:ac0b96ce465a5bb5@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20260922T110000Z
+DTEND:20260926T140000Z
+SUMMARY:Jardin de pierres
+LOCATION:Maison poème\, Rue d'Écosse 30\, 1060 Saint-Gilles
+URL:https://maisonpoeme.be/
+DESCRIPTION:Le Jardin de pierres est un atelier mêlant pratiques manuell
+ es\, écritures\, interviews et explorations de l’espace public\, qui 
+ aboutira à une restitution chorégraphique\, visuelle et sonore hors le
+ s murs. Le Jardin de pierres est une tentative de faire résonner nos di
+ fférences à travers un geste poétique dans la rue. Une invitation à 
+ s’écouter\, à se […]\nhttps://maisonpoeme.be/
+CATEGORIES:Maison Poème\,Workshops & Creative
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Jardin de pierres
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:bba6e402389cb872@neighbourhood-events
-DTSTAMP:20260831T190005Z
+DTSTAMP:20260831T191906Z
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20261216
 SUMMARY:Circomotoriek 4-5 jaar
 LOCATION:Gemeenschapscentrum Pianofabriek vzw\, Sint-Gillis
 URL:https://www.pianofabriek.be/activiteiten
-DESCRIPTION:Fitness\, gym(nastiek)\, dans en vechtsport\nhttps://www.pian
- ofabriek.be/activiteiten
+DESCRIPTION:Circus motorics for ages 4-5 by Circus Zonder Handen\nhttps:/
+ /www.pianofabriek.be/activiteiten
 CATEGORIES:GC Pianofabriek\,Family & Children
 END:VEVENT
 BEGIN:VEVENT
 UID:c46aa53ee473e3a5@neighbourhood-events
-DTSTAMP:20260831T190005Z
+DTSTAMP:20260831T191906Z
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20270508
 SUMMARY:Allemaal acteur 8-11j
 LOCATION:Gemeenschapscentrum Pianofabriek vzw\, Sint-Gillis
 URL:https://www.pianofabriek.be/activiteiten
-DESCRIPTION:Theater\nhttps://www.pianofabriek.be/activiteiten
+DESCRIPTION:Theater activity for ages 8-11 by Bronks\nhttps://www.pianofa
+ briek.be/activiteiten
 CATEGORIES:GC Pianofabriek\,Family & Children
 END:VEVENT
 BEGIN:VEVENT
+UID:3cd13051519e4037@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260923
+SUMMARY:Customisation Workshop ★ Fauteuil roulant\, Béquilles\, Cannes
+  ★
+LOCATION:Recyclart\, Rue de Manchester 13/15\, 1080 Molenbeek-Saint-Jean
+URL:https://recyclart.be/fr/agenda
+DESCRIPTION:Customisation workshop with Fogo\nhttps://recyclart.be/fr/age
+ nda
+CATEGORIES:Recyclart\,Workshops & Creative
+END:VEVENT
+BEGIN:VEVENT
+UID:08559cd85a493a45@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20261216
+SUMMARY:PERMANENCE COUTURE
+LOCATION:Recyclart\, Rue de Manchester 13/15\, 1080 Molenbeek-Saint-Jean
+URL:https://recyclart.be/fr/agenda
+DESCRIPTION:Sewing permanence\nhttps://recyclart.be/fr/agenda
+CATEGORIES:Recyclart\,Workshops & Creative
+END:VEVENT
+BEGIN:VEVENT
+UID:20d6ac9fc7a0aaff@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260923
+SUMMARY:Imprisoned Gods
+LOCATION:KVS\, Bruxelles
+URL:https://www.kvs.be/fr/agenda
+DESCRIPTION:Lukah Katangila / Ultima Vez - Dans\nhttps://www.kvs.be/fr/ag
+ enda
+CATEGORIES:KVS\,Culture & Arts
+END:VEVENT
+BEGIN:VEVENT
 UID:49e0a8bcc622617c@neighbourhood-events
-DTSTAMP:20260831T190005Z
+DTSTAMP:20260831T191906Z
 DTSTART;VALUE=DATE:20260924
 SUMMARY:1060 Pitch#8 Ecosystems
 LOCATION:Gemeenschapscentrum Pianofabriek vzw\, Sint-Gillis
 URL:https://www.pianofabriek.be/activiteiten
-DESCRIPTION:Meerdere kunstvormen\nhttps://www.pianofabriek.be/activiteite
- n
+DESCRIPTION:Free multiple art forms event for ages 18+\nhttps://www.piano
+ fabriek.be/activiteiten
 CATEGORIES:GC Pianofabriek\,Talks & Discussions
 END:VEVENT
 BEGIN:VEVENT
 UID:6d524653a65d3639@neighbourhood-events
-DTSTAMP:20260831T190005Z
+DTSTAMP:20260831T191906Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20270527
 SUMMARY:Circus 8-11 jaar
 LOCATION:Gemeenschapscentrum Pianofabriek vzw\, Sint-Gillis
 URL:https://www.pianofabriek.be/activiteiten
-DESCRIPTION:Fitness\, gym(nastiek)\, dans en vechtsport\nhttps://www.pian
- ofabriek.be/activiteiten
+DESCRIPTION:Circus activity for ages 8-11 by Brede School Sint Gillis\nht
+ tps://www.pianofabriek.be/activiteiten
 CATEGORIES:GC Pianofabriek\,Family & Children
 END:VEVENT
 BEGIN:VEVENT
 UID:a977796cc3a90e32@neighbourhood-events
-DTSTAMP:20260831T190005Z
+DTSTAMP:20260831T191906Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20270527
 SUMMARY:Circus 6-7 jaar
 LOCATION:Gemeenschapscentrum Pianofabriek vzw\, Sint-Gillis
 URL:https://www.pianofabriek.be/activiteiten
-DESCRIPTION:Fitness\, gym(nastiek)\, dans en vechtsport\nhttps://www.pian
- ofabriek.be/activiteiten
+DESCRIPTION:Circus activity for ages 6-7 by Brede School Sint Gillis\nhtt
+ ps://www.pianofabriek.be/activiteiten
 CATEGORIES:GC Pianofabriek\,Family & Children
 END:VEVENT
 BEGIN:VEVENT
+UID:84e56b39e7aa9dde@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260924
+SUMMARY:Haunted Folklore
+LOCATION:Recyclart\, Rue de Manchester 13/15\, 1080 Molenbeek-Saint-Jean
+URL:https://recyclart.be/fr/agenda
+DESCRIPTION:Event with Phantom Wizard + Ghazal Faghihi\nhttps://recyclart
+ .be/fr/agenda
+CATEGORIES:Recyclart\,Music
+END:VEVENT
+BEGIN:VEVENT
+UID:e14b81ae940cd1c0@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260924
+SUMMARY:Wereldkeuken Japan
+LOCATION:Gemeenschapscentrum Ten Weyngaert vzw\, Vorst
+URL:https://www.tenweyngaert.be/activiteiten
+DESCRIPTION:Kookactiviteit voor volwassenen (18-99 jaar)\nhttps://www.ten
+ weyngaert.be/activiteiten
+CATEGORIES:GC Ten Weyngaert\,Food & Drink
+END:VEVENT
+BEGIN:VEVENT
+UID:7feff74700e0e1a4@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260925
+SUMMARY:Exheat presents: Truck Lips Premiere
+LOCATION:Recyclart\, Rue de Manchester 13/15\, 1080 Molenbeek-Saint-Jean
+URL:https://recyclart.be/fr/agenda
+DESCRIPTION:Premiere with Deli Girls\, Wanton Witch\, Djabaldjass\nhttps:
+ //recyclart.be/fr/agenda
+CATEGORIES:Recyclart\,Music
+END:VEVENT
+BEGIN:VEVENT
+UID:29ca1929ae85beb0@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260925
+SUMMARY:Don Vitalski's Legendarische DinsdagClub
+LOCATION:Gemeenschapscentrum Ten Weyngaert vzw\, Vorst
+URL:https://www.tenweyngaert.be/activiteiten
+DESCRIPTION:Theater voor kinderen van 12-99 jaar. Gratis.\nhttps://www.te
+ nweyngaert.be/activiteiten
+CATEGORIES:GC Ten Weyngaert\,Culture & Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:0c4b7902151a5ebf@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20260925T180000Z
+DTEND:20260925T200000Z
+SUMMARY:De l’O dans l’A
+LOCATION:Maison poème\, Rue d'Écosse 30\, 1060 Saint-Gilles
+URL:https://maisonpoeme.be/
+DESCRIPTION:Une soirée de concerts en duo. Avec un concert hors format d
+ e Karin Clercq et Pascal Charpentier\, et une version intimiste du répe
+ rtoire de Raphaële Germser en ouverture !\nhttps://maisonpoeme.be/
+CATEGORIES:Maison Poème\,Music
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:De l’O dans l’A
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:5530130fceb72fef@neighbourhood-events
-DTSTAMP:20260831T190005Z
+DTSTAMP:20260831T191906Z
 DTSTART;VALUE=DATE:20260926
 DTEND;VALUE=DATE:20270605
 SUMMARY:Musical awakening 3\,5j-6j
 LOCATION:Gemeenschapscentrum Pianofabriek vzw\, Sint-Gillis
 URL:https://www.pianofabriek.be/activiteiten
-DESCRIPTION:Jazz en blues\nhttps://www.pianofabriek.be/activiteiten
+DESCRIPTION:Jazz and blues musical awakening for ages 3-6 by Metambu asbl
+ \nhttps://www.pianofabriek.be/activiteiten
 CATEGORIES:GC Pianofabriek\,Family & Children
 END:VEVENT
 BEGIN:VEVENT
 UID:d14460d23adaeeee@neighbourhood-events
-DTSTAMP:20260831T190005Z
+DTSTAMP:20260831T191906Z
 DTSTART;VALUE=DATE:20260926
 DTEND;VALUE=DATE:20270605
 SUMMARY:Musical awakening 0j-3j + ouders
 LOCATION:Gemeenschapscentrum Pianofabriek vzw\, Sint-Gillis
 URL:https://www.pianofabriek.be/activiteiten
-DESCRIPTION:Jazz en blues\nhttps://www.pianofabriek.be/activiteiten
+DESCRIPTION:Jazz and blues musical awakening for ages 0-3 with parents by
+  Metambu\nhttps://www.pianofabriek.be/activiteiten
 CATEGORIES:GC Pianofabriek\,Family & Children
 END:VEVENT
 BEGIN:VEVENT
+UID:462783b1204476a1@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20260926T090000Z
+DTEND:20260926T120000Z
+SUMMARY:Hors ligne
+LOCATION:Maison poème\, Rue d'Écosse 30\, 1060 Saint-Gilles
+URL:https://maisonpoeme.be/
+DESCRIPTION:Un samedi par mois au bar de la Maison poèmeEntrée libre et
+  gratuiteDe 11h à 14h Comment nourrir ses imaginaires en contournant le
+ s écrans? Une fois par mois\, la Maison poème t'invite à un moment ho
+ rs du temps pour te poser\, lire et se retrouver\, loin des écrans. De 
+ 11h à 13h : lecture silencieuseUn […]\nhttps://maisonpoeme.be/
+CATEGORIES:Maison Poème\,Community & Social
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Hors ligne
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:acb7453b29aa02c0@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20260927T130000Z
+DTEND:20260927T143000Z
+SUMMARY:” Twie Meneute chance”
+LOCATION:Het Goudblommeke in Papier
+URL:https://goudblommekeinpapier.be/event/twie-meneute-chance-zondag-27-s
+ eptember-2026/
+DESCRIPTION:stelt voor: ” Twie Meneute chance” Een optreden boordevol
+  humor en leuke meezingers en dit alles in het sappig Brussels\, dat zij
+ n de ingrediënten van dit zingende duo. Daniël Robbrecht en Peter Deca
+ booter brengen de Brusselse zwans terug tot leven met synthesizer\, gita
+ ar en hun typisch tweestemmig geluid. Je mag je verwachten aan een mix v
+ an eigenzinnige Brusselse vertalingen van gekende liedjes en hun eigen r
+ epertoire\, en dit alles gebracht in het ‘Vloms’ Brussels.” Twie M
+ eneute chance” zorgen voor sfeer\, gezelligheid en plezier. Zondag 27 
+ september 2026 in het Goudblommeke in Papier om 15u I\nhttps://goudblomm
+ ekeinpapier.be/event/twie-meneute-chance-zondag-27-september-2026/
+CATEGORIES:Goudblommeke in Papier\,Music
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:” Twie Meneute chance”
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c6386813b0191358@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20261017
+SUMMARY:L'Éveil du printemps
+LOCATION:Théâtre de Poche\, Bruxelles
+URL:https://poche.be/shows
+DESCRIPTION:David Paquet | Ilyas Mettioui\nhttps://poche.be/shows
+CATEGORIES:Le Poche\,Culture & Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:e127d54f51c6107a@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20260929T220000Z
+DTEND:20260930T220000Z
+SUMMARY:WIPCOOP - Work in Progress 2026
+LOCATION:KVS\, Bruxelles
+URL:https://www.kvs.be/fr/agenda
+DESCRIPTION:Mestizo Arts Platform / KVS - Mixed\nhttps://www.kvs.be/fr/ag
+ enda
+CATEGORIES:KVS\,Culture & Arts
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:WIPCOOP - Work in Progress 2026
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:944c59829eccdd68@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20260930T160000Z
+DTEND:20260930T170000Z
+SUMMARY:qu’importe la matière
+LOCATION:Maison poème\, Rue d'Écosse 30\, 1060 Saint-Gilles
+URL:https://maisonpoeme.be/
+DESCRIPTION:La librairie Tulitu accueille l'autrice Joyce Rivière dans l
+ e bar de la Maison poème\, à l'occasion de la sortie de son recueil qu
+ ’importe la matière paru aux éditions blast. qu’importe la matièr
+ e est un recueil brûlant\, habité par la nuit autant que la lumière. 
+ Joyce Rivière y conte une histoire partagée et commune rythmée par [
+ …]\nhttps://maisonpoeme.be/
+CATEGORIES:Maison Poème\,Talks & Discussions
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:qu’importe la matière
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:0aae0ae9c93a3649@neighbourhood-events
-DTSTAMP:20260831T190005Z
+DTSTAMP:20260831T191906Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270610
 SUMMARY:Speakeasy
 LOCATION:Gemeenschapscentrum Pianofabriek vzw\, Sint-Gillis
 URL:https://www.pianofabriek.be/activiteiten
-DESCRIPTION:Poëzie\nhttps://www.pianofabriek.be/activiteiten
+DESCRIPTION:Free poetry/spoken word event for ages 18+ by SpeakEasy Spoke
+ n Word BXL\nhttps://www.pianofabriek.be/activiteiten
 CATEGORIES:GC Pianofabriek\,Workshops & Creative
 END:VEVENT
 BEGIN:VEVENT
+UID:6c7bc8c0687cf14b@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:Female Boyfriends
+LOCATION:Recyclart\, Rue de Manchester 13/15\, 1080 Molenbeek-Saint-Jean
+URL:https://recyclart.be/fr/agenda
+DESCRIPTION:Event with Nazanin\, Mona Felah\, Erykah\, Butch PM\, Aili\nh
+ ttps://recyclart.be/fr/agenda
+CATEGORIES:Recyclart\,Music
+END:VEVENT
+BEGIN:VEVENT
+UID:a150069a82674347@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20261003
+SUMMARY:Dit is (niet) de evolutietheorie van de troost
+LOCATION:KVS\, Bruxelles
+URL:https://www.kvs.be/fr/agenda
+DESCRIPTION:Aya Sabi & Dounia Mahammed / Monty - Theater\nhttps://www.kvs
+ .be/fr/agenda
+CATEGORIES:KVS\,Culture & Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:e7de9b53f59178e1@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20261003T220000Z
+DTEND:20270403T220000Z
+SUMMARY:Paris & Miki
+LOCATION:KVS\, Bruxelles
+URL:https://www.kvs.be/fr/agenda
+DESCRIPTION:Michael De Cock / KVS - Theater\nhttps://www.kvs.be/fr/agenda
+CATEGORIES:KVS\,Culture & Arts
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Paris & Miki
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:41ae97e170c64ef4@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261027
+SUMMARY:Babytheek
+LOCATION:Gemeenschapscentrum Ten Weyngaert vzw\, Vorst
+URL:https://www.tenweyngaert.be/activiteiten
+DESCRIPTION:Opvoedingsondersteuning voor volwassenen (18-99 jaar)\nhttps:
+ //www.tenweyngaert.be/activiteiten
+CATEGORIES:GC Ten Weyngaert\,Community & Social
+END:VEVENT
+BEGIN:VEVENT
+UID:b2143bdc6ee3122a@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20261007
+SUMMARY:Ciné Kadé - Dikke Dik en de verdwenen knuffel (3+)
+LOCATION:Gemeenschapscentrum Ten Weyngaert vzw\, Vorst
+URL:https://www.tenweyngaert.be/activiteiten
+DESCRIPTION:Animatie voor kinderen van 3+ jaar. Gratis.\nhttps://www.tenw
+ eyngaert.be/activiteiten
+CATEGORIES:GC Ten Weyngaert\,Family & Children
+END:VEVENT
+BEGIN:VEVENT
+UID:b444557d8537bdaf@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20261007
+SUMMARY:Repair Café
+LOCATION:KVS\, Bruxelles
+URL:https://www.kvs.be/fr/agenda
+DESCRIPTION:Gratuit\nhttps://www.kvs.be/fr/agenda
+CATEGORIES:KVS\,Environment
+END:VEVENT
+BEGIN:VEVENT
 UID:7e2b7d8b91b1de54@neighbourhood-events
-DTSTAMP:20260831T190005Z
+DTSTAMP:20260831T191906Z
 DTSTART;VALUE=DATE:20261008
 SUMMARY:Francofaune: Clarence Pinko + Coup Dur + NORD//NOIR + VioleTT Pi
 LOCATION:Gemeenschapscentrum Pianofabriek vzw\, Sint-Gillis
 URL:https://www.pianofabriek.be/activiteiten
-DESCRIPTION:Pop en rock\nhttps://www.pianofabriek.be/activiteiten
+DESCRIPTION:Pop and rock music event for ages 18+\nhttps://www.pianofabri
+ ek.be/activiteiten
 CATEGORIES:GC Pianofabriek\,Music
 END:VEVENT
 BEGIN:VEVENT
+UID:9dd6be1d1572e764@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20261007T220000Z
+DTEND:20261008T220000Z
+SUMMARY:O Amor Natural
+LOCATION:KVS\, Bruxelles
+URL:https://www.kvs.be/fr/agenda
+DESCRIPTION:ANDREW GRAHAM / LAGESTE - Dans\nhttps://www.kvs.be/fr/agenda
+CATEGORIES:KVS\,Culture & Arts
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:O Amor Natural
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5e83c8dacd78af00@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20261007T220000Z
+DTEND:20261008T220000Z
+SUMMARY:A Room of His Own
+LOCATION:KVS\, Bruxelles
+URL:https://www.kvs.be/fr/agenda
+DESCRIPTION:NONA DEMEY GALLAGHER - Theater\nhttps://www.kvs.be/fr/agenda
+CATEGORIES:KVS\,Culture & Arts
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:A Room of His Own
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bf18df8f22b0752f@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Yard One Sound System
+LOCATION:Recyclart\, Rue de Manchester 13/15\, 1080 Molenbeek-Saint-Jean
+URL:https://recyclart.be/fr/agenda
+DESCRIPTION:Sound system event with multiple artists\nhttps://recyclart.b
+ e/fr/agenda
+CATEGORIES:Recyclart\,Music
+END:VEVENT
+BEGIN:VEVENT
+UID:9db35711169e3a65@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Vernissage Collectief 'le 180°'
+LOCATION:Gemeenschapscentrum Ten Weyngaert vzw\, Vorst
+URL:https://www.tenweyngaert.be/activiteiten
+DESCRIPTION:Meerdere kunstvormen voor volwassenen (10-110 jaar). Gratis.\
+ nhttps://www.tenweyngaert.be/activiteiten
+CATEGORIES:GC Ten Weyngaert\,Culture & Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:03221f658d456f1f@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20261009
+SUMMARY:Collectief weefsel van de toekomst
+LOCATION:Gemeenschapscentrum Ten Weyngaert vzw\, Vorst
+URL:https://www.tenweyngaert.be/activiteiten
+DESCRIPTION:Decoratieve kunst voor volwassenen (10-110 jaar)\nhttps://www
+ .tenweyngaert.be/activiteiten
+CATEGORIES:GC Ten Weyngaert\,Culture & Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:8e1981e35dcabc67@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Le Motel x Magugu + Warzou
+LOCATION:Recyclart\, Rue de Manchester 13/15\, 1080 Molenbeek-Saint-Jean
+URL:https://recyclart.be/fr/agenda
+DESCRIPTION:Event with Magugu + Warzou DJ set\nhttps://recyclart.be/fr/ag
+ enda
+CATEGORIES:Recyclart\,Music
+END:VEVENT
+BEGIN:VEVENT
+UID:24cd38fb9f48ce20@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20261010T120000Z
+DTEND:20261010T160000Z
+SUMMARY:Vitrines Parcours FrancoFaune
+LOCATION:Maison poème\, Rue d'Écosse 30\, 1060 Saint-Gilles
+URL:https://maisonpoeme.be/
+CATEGORIES:Maison Poème\,Festivals & Celebrations
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Vitrines Parcours FrancoFaune
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:329b3efc3dc35133@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20261011T130000Z
+DTEND:20261011T153000Z
+SUMMARY:3 Mannetjes Grijs
+LOCATION:Goudblommeke in papier
+URL:https://goudblommekeinpapier.be/event/3-mannetjes-grijs/
+DESCRIPTION:THEATER: 3 MANNETJES GRIJS op zondag 11 oktober 2026 om 15 uu
+ r en om 17:30 (extra voorstelling) Inkom: 10 euro (ter plaatse te betale
+ n). Voor alle leeftijden. Reservaties: marsmoriau@hotmail.com (maximaal 
+ 45 plaatsen).\nhttps://goudblommekeinpapier.be/event/3-mannetjes-grijs/
+CATEGORIES:Goudblommeke in Papier\,Family & Children
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:3 Mannetjes Grijs
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d7ecd67e2d4902be@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20261011T140000Z
+DTEND:20261011T180000Z
+SUMMARY:Festival FrancoFaune
+LOCATION:Maison poème\, Rue d'Écosse 30\, 1060 Saint-Gilles
+URL:https://maisonpoeme.be/
+CATEGORIES:Maison Poème\,Festivals & Celebrations
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Festival FrancoFaune
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:d670e51c43a1cf3f@neighbourhood-events
-DTSTAMP:20260831T190005Z
+DTSTAMP:20260831T191906Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20270609
 SUMMARY:TRILLfabriek 6-9 jaar
 LOCATION:Gemeenschapscentrum Pianofabriek vzw\, Sint-Gillis
 URL:https://www.pianofabriek.be/activiteiten
-DESCRIPTION:Meerdere kunstvormen\nhttps://www.pianofabriek.be/activiteite
- n
+DESCRIPTION:Multiple art forms activity for ages 6-9\nhttps://www.pianofa
+ briek.be/activiteiten
 CATEGORIES:GC Pianofabriek\,Family & Children
 END:VEVENT
 BEGIN:VEVENT
 UID:b222b323898b3ea3@neighbourhood-events
-DTSTAMP:20260831T190005Z
+DTSTAMP:20260831T191906Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20270609
 SUMMARY:TRILLfabriek 10-12 jaar
 LOCATION:Gemeenschapscentrum Pianofabriek vzw\, Sint-Gillis
 URL:https://www.pianofabriek.be/activiteiten
-DESCRIPTION:Meerdere kunstvormen\nhttps://www.pianofabriek.be/activiteite
- n
+DESCRIPTION:Multiple art forms activity for ages 9-11\nhttps://www.pianof
+ abriek.be/activiteiten
 CATEGORIES:GC Pianofabriek\,Family & Children
 END:VEVENT
 BEGIN:VEVENT
+UID:78555b177a459dc9@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20261014
+SUMMARY:End of Residency: Cripping the City
+LOCATION:Recyclart\, Rue de Manchester 13/15\, 1080 Molenbeek-Saint-Jean
+URL:https://recyclart.be/fr/agenda
+DESCRIPTION:End of residency with Fogo and collaborators\nhttps://recycla
+ rt.be/fr/agenda
+CATEGORIES:Recyclart\,Culture & Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:18ac5734a5377c3c@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20261014T220000Z
+DTEND:20261018T220000Z
+SUMMARY:Broken Home\, My Shrine
+LOCATION:KVS\, Bruxelles
+URL:https://www.kvs.be/fr/agenda
+DESCRIPTION:Alix Konadu/Moussem & KVS\nhttps://www.kvs.be/fr/agenda
+CATEGORIES:KVS\,Culture & Arts
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Broken Home\, My Shrine
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a4a64a45266e4cc5@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20261016
+SUMMARY:Een stevige Patat tegen Armoede - film The Old Oak
+LOCATION:Gemeenschapscentrum Ten Weyngaert vzw\, Vorst
+URL:https://www.tenweyngaert.be/activiteiten
+DESCRIPTION:Film voor kinderen van 12-99 jaar\nhttps://www.tenweyngaert.b
+ e/activiteiten
+CATEGORIES:GC Ten Weyngaert\,Film & Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:151f96b01457b3dc@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:QueerZineFest #3
+LOCATION:Recyclart\, Rue de Manchester 13/15\, 1080 Molenbeek-Saint-Jean
+URL:https://recyclart.be/fr/agenda
+DESCRIPTION:Micro-publishing fair with performances\, DJ sets\, exhibitio
+ ns\nhttps://recyclart.be/fr/agenda
+CATEGORIES:Recyclart\,Markets & Fairs
+END:VEVENT
+BEGIN:VEVENT
+UID:13f02fbdda68bd1e@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20261018
+SUMMARY:Thuis best (2+) - Achref Adhadhi
+LOCATION:Gemeenschapscentrum Ten Weyngaert vzw\, Vorst
+URL:https://www.tenweyngaert.be/activiteiten
+DESCRIPTION:Theater voor alle leeftijden (2-102 jaar)\nhttps://www.tenwey
+ ngaert.be/activiteiten
+CATEGORIES:GC Ten Weyngaert\,Family & Children
+END:VEVENT
+BEGIN:VEVENT
+UID:813f369775f2a4ca@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20261018
+SUMMARY:Solidariteitsmaaltijd 'Jacket Potatoes'
+LOCATION:Gemeenschapscentrum Ten Weyngaert vzw\, Vorst
+URL:https://www.tenweyngaert.be/activiteiten
+DESCRIPTION:Maaltijd voor alle leeftijden (2-102 jaar)\nhttps://www.tenwe
+ yngaert.be/activiteiten
+CATEGORIES:GC Ten Weyngaert\,Community & Social
+END:VEVENT
+BEGIN:VEVENT
+UID:75122c6c08cd6a86@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Drowsy Drift - sleep + drift + walk
+LOCATION:Gemeenschapscentrum Ten Weyngaert vzw\, Vorst
+URL:https://www.tenweyngaert.be/activiteiten
+DESCRIPTION:Kunstactiviteit voor volwassenen (18-99 jaar). Gratis.\nhttps
+ ://www.tenweyngaert.be/activiteiten
+CATEGORIES:GC Ten Weyngaert\,Culture & Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:390cfa7b86c9e2ee@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20261020T220000Z
+DTEND:20261021T220000Z
+SUMMARY:Schweinerei
+LOCATION:KVS\, Bruxelles
+URL:https://www.kvs.be/fr/agenda
+DESCRIPTION:Lieselot Siddiki / LOD Muziektheater - Theater\nhttps://www.k
+ vs.be/fr/agenda
+CATEGORIES:KVS\,Culture & Arts
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Schweinerei
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:392163caeb6b6da1@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20261022
+SUMMARY:"UNCHILDED – Roots of the Mediterranean"
+LOCATION:Recyclart\, Rue de Manchester 13/15\, 1080 Molenbeek-Saint-Jean
+URL:https://recyclart.be/fr/agenda
+DESCRIPTION:Event by Associazione Culturale Raizes\nhttps://recyclart.be/
+ fr/agenda
+CATEGORIES:Recyclart\,Culture & Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:243c2afff535289f@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20261024
+SUMMARY:Carrosseries
+LOCATION:Recyclart\, Rue de Manchester 13/15\, 1080 Molenbeek-Saint-Jean
+URL:https://recyclart.be/fr/agenda
+DESCRIPTION:Event with Marion Laser\, Grunge Gone Broadway\nhttps://recyc
+ lart.be/fr/agenda
+CATEGORIES:Recyclart\,Culture & Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:138a40dbe0236d11@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20261024
+SUMMARY:Kledingswap in Ten Weyngaert
+LOCATION:Gemeenschapscentrum Ten Weyngaert vzw\, Vorst
+URL:https://www.tenweyngaert.be/activiteiten
+DESCRIPTION:Kledinguitwisseling voor volwassenen (18-99 jaar). Gratis.\nh
+ ttps://www.tenweyngaert.be/activiteiten
+CATEGORIES:GC Ten Weyngaert\,Community & Social
+END:VEVENT
+BEGIN:VEVENT
+UID:3fa8d449c805935d@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20261025
+SUMMARY:De Troostboom - film Têtes Brûlées met nabespreking
+LOCATION:Gemeenschapscentrum Ten Weyngaert vzw\, Vorst
+URL:https://www.tenweyngaert.be/activiteiten
+DESCRIPTION:Film voor kinderen van 12-99 jaar. Gratis.\nhttps://www.tenwe
+ yngaert.be/activiteiten
+CATEGORIES:GC Ten Weyngaert\,Film & Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:a56ec8b66ae7ec0d@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20261026
+SUMMARY:De Troostboom – Creatieve workshop: koesterstenen maken
+LOCATION:Gemeenschapscentrum Ten Weyngaert vzw\, Vorst
+URL:https://www.tenweyngaert.be/activiteiten
+DESCRIPTION:Creatieve workshop voor kinderen van 10-99 jaar\nhttps://www.
+ tenweyngaert.be/activiteiten
+CATEGORIES:GC Ten Weyngaert\,Workshops & Creative
+END:VEVENT
+BEGIN:VEVENT
+UID:b59975924fe8ca27@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20261026
+SUMMARY:Filem'On x CineMOUV'teens : Christy and his brother
+LOCATION:Gemeenschapscentrum Ten Weyngaert vzw\, Vorst
+URL:https://www.tenweyngaert.be/activiteiten
+DESCRIPTION:Film voor kinderen van 6-99 jaar. Gratis.\nhttps://www.tenwey
+ ngaert.be/activiteiten
+CATEGORIES:GC Ten Weyngaert\,Film & Cinema
+END:VEVENT
+BEGIN:VEVENT
+UID:9efcf256685a8951@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20261028
+SUMMARY:HIER\, IK ALS KEIZERIN - MOLENSTRAAT 103/BUS 5
+LOCATION:KVS\, Bruxelles
+URL:https://www.kvs.be/fr/agenda
+DESCRIPTION:Veerle Baetens & Bo Spaenc - Muziektheater\nhttps://www.kvs.b
+ e/fr/agenda
+CATEGORIES:KVS\,Culture & Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:b2a9871e8c0a0bc2@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20261028T183000Z
+DTEND:20261028T210000Z
+SUMMARY:Le Pigeon et l’Oiseau Lazare
+LOCATION:Maison poème\, Rue d'Écosse 30\, 1060 Saint-Gilles
+URL:https://maisonpoeme.be/
+DESCRIPTION:Un documentaire animalier sur un pigeon bien ordinaire bascul
+ e lorsqu’un incendie menace son existence. Dans sa fuite\, il tombe be
+ c-à-bec avec un oiseau mystérieux\, censé avoir disparu depuis des mi
+ llénaires. Mais leur curieuse rencontre n’avait peut-être rien d’u
+ n hasard.\nhttps://maisonpoeme.be/
+CATEGORIES:Maison Poème\,Film & Cinema
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Le Pigeon et l’Oiseau Lazare
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3fe2b4ce19829746@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:From Athens to Brussels with love
+LOCATION:Recyclart\, Rue de Manchester 13/15\, 1080 Molenbeek-Saint-Jean
+URL:https://recyclart.be/fr/agenda
+DESCRIPTION:From Athens to Brussels with love\nhttps://recyclart.be/fr/ag
+ enda
+CATEGORIES:Recyclart\,Community & Social
+END:VEVENT
+BEGIN:VEVENT
+UID:e1bc165b13eae796@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20261031T100000Z
+DTEND:20261031T130000Z
+SUMMARY:Hors ligne
+LOCATION:Maison poème\, Rue d'Écosse 30\, 1060 Saint-Gilles
+URL:https://maisonpoeme.be/
+DESCRIPTION:Un samedi par mois au bar de la Maison poèmeEntrée libre et
+  gratuiteDe 11h à 14h Comment nourrir ses imaginaires en contournant le
+ s écrans? Une fois par mois\, la Maison poème t'invite à un moment ho
+ rs du temps pour te poser\, lire et se retrouver\, loin des écrans. De 
+ 11h à 13h : lecture silencieuseUn […]\nhttps://maisonpoeme.be/
+CATEGORIES:Maison Poème\,Community & Social
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Hors ligne
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c33271728f3b6e0d@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261106
+SUMMARY:Sport - en speelweek voor lagere schoolkinderen
+LOCATION:Gemeenschapscentrum Ten Weyngaert vzw\, Vorst
+URL:https://www.tenweyngaert.be/activiteiten
+DESCRIPTION:Sport en spel voor kinderen van 6-12 jaar\nhttps://www.tenwey
+ ngaert.be/activiteiten
+CATEGORIES:GC Ten Weyngaert\,Family & Children
+END:VEVENT
+BEGIN:VEVENT
+UID:35d49c9579c41bac@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261106
+SUMMARY:Sport - en speelweek voor kleuters
+LOCATION:Gemeenschapscentrum Ten Weyngaert vzw\, Vorst
+URL:https://www.tenweyngaert.be/activiteiten
+DESCRIPTION:Sport en spel voor kinderen van 3-6 jaar\nhttps://www.tenweyn
+ gaert.be/activiteiten
+CATEGORIES:GC Ten Weyngaert\,Family & Children
+END:VEVENT
+BEGIN:VEVENT
 UID:3d1adc0fb5b3b25c@neighbourhood-events
-DTSTAMP:20260831T190005Z
+DTSTAMP:20260831T191906Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261106
 SUMMARY:Reis door de filmtijd 10-12 jaar
 LOCATION:Gemeenschapscentrum Pianofabriek vzw\, Sint-Gillis
 URL:https://www.pianofabriek.be/activiteiten
-DESCRIPTION:Audiovisuele kunst\nhttps://www.pianofabriek.be/activiteiten
+DESCRIPTION:Audiovisual art activity for ages 10-12\nhttps://www.pianofab
+ riek.be/activiteiten
 CATEGORIES:GC Pianofabriek\,Family & Children
 END:VEVENT
 BEGIN:VEVENT
 UID:5bbf5e776ab062e5@neighbourhood-events
-DTSTAMP:20260831T190005Z
+DTSTAMP:20260831T191906Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261106
 SUMMARY:Met vallen en opstaan 5-6 jaar
 LOCATION:Gemeenschapscentrum Pianofabriek vzw\, Sint-Gillis
 URL:https://www.pianofabriek.be/activiteiten
-DESCRIPTION:Meerdere kunstvormen\nhttps://www.pianofabriek.be/activiteite
- n
+DESCRIPTION:Multiple art forms activity for ages 5-6 by MUS-E Belgium\nht
+ tps://www.pianofabriek.be/activiteiten
 CATEGORIES:GC Pianofabriek\,Family & Children
 END:VEVENT
 BEGIN:VEVENT
 UID:d5e9e34ab4deaec6@neighbourhood-events
-DTSTAMP:20260831T190005Z
+DTSTAMP:20260831T191906Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261106
 SUMMARY:Met vallen en opstaan 7-9 jaar
 LOCATION:Gemeenschapscentrum Pianofabriek vzw\, Sint-Gillis
 URL:https://www.pianofabriek.be/activiteiten
-DESCRIPTION:Meerdere kunstvormen\nhttps://www.pianofabriek.be/activiteite
- n
+DESCRIPTION:Multiple art forms activity for ages 7-9 by MUS-E Belgium\nht
+ tps://www.pianofabriek.be/activiteiten
 CATEGORIES:GC Pianofabriek\,Family & Children
+END:VEVENT
+BEGIN:VEVENT
+UID:07f1d28fa4ec2bc1@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261120
+SUMMARY:Queen Kong
+LOCATION:Théâtre de Poche\, Bruxelles
+URL:https://poche.be/shows
+DESCRIPTION:Hélène Vignal / Georges Lini\nhttps://poche.be/shows
+CATEGORIES:Le Poche\,Culture & Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:351840099f04ef84@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20261104T230000Z
+DTEND:20261106T230000Z
+SUMMARY:Ceci n'est pas noire: act II
+LOCATION:KVS\, Bruxelles
+URL:https://www.kvs.be/fr/agenda
+DESCRIPTION:Alesandra Seutin / KVS - Danstheater\nhttps://www.kvs.be/fr/a
+ genda
+CATEGORIES:KVS\,Culture & Arts
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Ceci n'est pas noire: act II
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:86e5ee024fb8e4e3@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20261106T190000Z
+DTEND:20261106T210000Z
+SUMMARY:Ceci n’est pas un adieu
+LOCATION:Maison poème\, Rue d'Écosse 30\, 1060 Saint-Gilles
+URL:https://maisonpoeme.be/
+DESCRIPTION:"Ceci n’est pas un adieu" est un concert polyphonique pour 
+ raconter la perte\, dire ou redire au-revoir\, libérer des larmes ou fa
+ ire des clins d’œil amusés aux défunt·es. Ces chants polyphoniques
+  sont créés sur base de vécus intimes et de rencontres de la vie. Nou
+ s chantons à trois voix\, à capella\, en français\, en anglais […]\
+ nhttps://maisonpoeme.be/
+CATEGORIES:Maison Poème\,Music
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Ceci n’est pas un adieu
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b47fb206c9dc4c5e@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20261109T183000Z
+DTEND:20261109T210000Z
+SUMMARY:Lettres sur l’enthousiasme — soirée de lancement
+LOCATION:Maison poème\, Rue d'Écosse 30\, 1060 Saint-Gilles
+URL:https://maisonpoeme.be/
+DESCRIPTION:Avec tout ce qui s'effondre autour de nous\, comment s'enthou
+ siasmer\, comment faire ? Est-ce possible ? Un enthousiasme durable ? Pl
+ us d'enthousiasme du tout ? Ou alors un enthousiasme collectif\, à plus
+ ieurs ? C'est l'idée de ce livre : demander à 26 autrices de nous parl
+ er de leur rapport à l’enthousiasme à travers une lettre […]\nhttp
+ s://maisonpoeme.be/
+CATEGORIES:Maison Poème\,Talks & Discussions
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Lettres sur l’enthousiasme — soirée de lancement
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:db7612a96060b71b@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20261111T230000Z
+DTEND:20261112T230000Z
+SUMMARY:Spaghetti Western
+LOCATION:KVS\, Bruxelles
+URL:https://www.kvs.be/fr/agenda
+DESCRIPTION:Aurélie Di Marino & Renée Goethijn / Kunstenwerkplaats - Th
+ eater\nhttps://www.kvs.be/fr/agenda
+CATEGORIES:KVS\,Culture & Arts
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Spaghetti Western
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6b4362de43016b93@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20261114T113000Z
+DTEND:20261114T210000Z
+SUMMARY:Monique Dorsel en lumière
+LOCATION:Maison poème\, Rue d'Écosse 30\, 1060 Saint-Gilles
+URL:https://maisonpoeme.be/
+CATEGORIES:Maison Poème\,Culture & Arts
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Monique Dorsel en lumière
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a0dada9563981894@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261121
+SUMMARY:Juliette et Roméo au Théâtre National
+LOCATION:Théâtre National\, Bruxelles
+URL:https://poche.be/shows
+DESCRIPTION:Eline Schumacher\nhttps://poche.be/shows
+CATEGORIES:Le Poche\,Culture & Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:f5d6eb15713798dc@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20261118
+SUMMARY:MINDBLOWERS @ PRÓXIMAMENTE
+LOCATION:KVS\, Bruxelles
+URL:https://www.kvs.be/fr/agenda
+DESCRIPTION:PRÓXIMAMENTE 2026 - KVS & VUB - Mixed\nhttps://www.kvs.be/fr
+ /agenda
+CATEGORIES:KVS\,Culture & Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:5b1a001a68d8f94b@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20261117T230000Z
+DTEND:20261118T230000Z
+SUMMARY:El rincón de los muertos
+LOCATION:KVS\, Bruxelles
+URL:https://www.kvs.be/fr/agenda
+DESCRIPTION:PRÓXIMAMENTE 2026 - Sebastián Rubio & Yanira Dávila - Thea
+ ter\nhttps://www.kvs.be/fr/agenda
+CATEGORIES:KVS\,Culture & Arts
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:El rincón de los muertos
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:342c5a2aeb003dcd@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20261118T183000Z
+DTEND:20261118T210000Z
+SUMMARY:Sylvie Savon
+LOCATION:Maison poème\, Rue d'Écosse 30\, 1060 Saint-Gilles
+URL:https://maisonpoeme.be/
+DESCRIPTION:C’est qui\, Sylvie Savon ? Sylvie Savon\, c’est le genre 
+ de nana qui foire tout\, mais avec grâce. Arrogante\, libre\, paumée e
+ t drôle malgré elle\, c’est notre héroïne\, une héroïne du réel
+ \, de la débrouille et des lendemains flous. Pas de carrière\, pas de 
+ famille\, pas de plan de pension — juste un plan d'appart […]\nhttps
+ ://maisonpoeme.be/
+CATEGORIES:Maison Poème\,Culture & Arts
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Sylvie Savon
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:89e54b5ac191b589@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20261120T190000Z
+DTEND:20261120T210000Z
+SUMMARY:Danseprophétique àl’îlebizarre
+LOCATION:Maison poème\, Rue d'Écosse 30\, 1060 Saint-Gilles
+URL:https://maisonpoeme.be/
+DESCRIPTION:Au cœur d’une forêt blanche\, l’artiste performeuse Gen
+ eviève Matthieu se livre à des métamorphoses parmi les cris et les hu
+ lulements de la nuit. Par la poésie\, l’entraînement physique\, la m
+ usique et le chant\, elle invoque une île étrange où les repères vac
+ illent et où vivants\, souvenirs et présences invisibles cohabitent da
+ ns un même souffle. Les […]\nhttps://maisonpoeme.be/
+CATEGORIES:Maison Poème\,Culture & Arts
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Danseprophétique àl’îlebizarre
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0afde20a71b417d4@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261128
+SUMMARY:Face à face
+LOCATION:Théâtre de Poche\, Bruxelles
+URL:https://poche.be/shows
+DESCRIPTION:Agnès Limbos / Compagnie Gare Centrale\nhttps://poche.be/sho
+ ws
+CATEGORIES:Le Poche\,Culture & Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:3e2a762f2090569d@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20261127T173000Z
+DTEND:20261127T183000Z
+SUMMARY:Darya & Dounya
+LOCATION:Maison poème\, Rue d'Écosse 30\, 1060 Saint-Gilles
+URL:https://maisonpoeme.be/
+DESCRIPTION:Un cercle de lecture autour du roman Darya & Dounia de Diaty 
+ Diallo qui présente Les âmes vivantes des grandes aigrettes le soir m
+ ême. Ces nouveaux rendez-vous se veulent être autant d’instants chal
+ eureux\, où l’on vient partager ses pensées\, apprendre des autres e
+ t discuter autour du livre en lien avec la programmation de la Maison po
+ ème. Un cercle de […]\nhttps://maisonpoeme.be/
+CATEGORIES:Maison Poème\,Talks & Discussions
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Darya & Dounya
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:985456d01a6fe5c4@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20261127T190000Z
+DTEND:20261127T210000Z
+SUMMARY:Les âmes vivantes des grandes aigrettes
+LOCATION:Maison poème\, Rue d'Écosse 30\, 1060 Saint-Gilles
+URL:https://maisonpoeme.be/
+DESCRIPTION:Diaty Diallo met en voix et en musique un article écrit pour
+  la revue La Déferlante. Elle raconte un quartier abandonné où les so
+ uvenirs et les espoirs se mêlent à une réalité crue. S'inspirant d'u
+ ne cité de Seine-Saint-Denis\, elle crée un lieu fictif où les person
+ nages naviguent entre deux mondes. À travers des récits poétiques\, [
+ …]\nhttps://maisonpoeme.be/
+CATEGORIES:Maison Poème\,Music
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Les âmes vivantes des grandes aigrettes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:82b5f23540a52542@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20261128T100000Z
+DTEND:20261128T130000Z
+SUMMARY:Hors ligne
+LOCATION:Maison poème\, Rue d'Écosse 30\, 1060 Saint-Gilles
+URL:https://maisonpoeme.be/
+DESCRIPTION:Un samedi par mois au bar de la Maison poèmeEntrée libre et
+  gratuiteDe 11h à 14h Comment nourrir ses imaginaires en contournant le
+ s écrans? Une fois par mois\, la Maison poème t'invite à un moment ho
+ rs du temps pour te poser\, lire et se retrouver\, loin des écrans. De 
+ 11h à 13h : lecture silencieuseUn […]\nhttps://maisonpoeme.be/
+CATEGORIES:Maison Poème\,Community & Social
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Hors ligne
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:649bce1ccc491069@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20261130T183000Z
+DTEND:20261130T210000Z
+SUMMARY:Soirée L’Arbre de Diane
+LOCATION:Maison poème\, Rue d'Écosse 30\, 1060 Saint-Gilles
+URL:https://maisonpoeme.be/
+DESCRIPTION:Une soirée de une mise en lumière des nouveautés automnale
+ s de L’Arbre de Diane éditions : L'invisible n'est pas inexistant de 
+ Florence Minder \; Autothérapie de Mackenzy Bergile \; Andromaque dans 
+ une berline rouge de Nanténé Traoré et obliques de Victoire de Changy
+ .\nhttps://maisonpoeme.be/
+CATEGORIES:Maison Poème\,Talks & Discussions
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Soirée L’Arbre de Diane
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:96c15ca81997e331@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261212
+SUMMARY:Nous les minuscules
+LOCATION:Théâtre de Poche\, Bruxelles
+URL:https://poche.be/shows
+DESCRIPTION:Ahmed Madani\nhttps://poche.be/shows
+CATEGORIES:Le Poche\,Culture & Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:8566b09f604c65ef@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20261204T190000Z
+DTEND:20261204T210000Z
+SUMMARY:Bandes d’hystériques
+LOCATION:Maison poème\, Rue d'Écosse 30\, 1060 Saint-Gilles
+URL:https://maisonpoeme.be/
+DESCRIPTION:Diffusion du film Bandes d'Hystériques\, réalisé par Kita 
+ Bauchet Bandes d’hystériques relate l’histoire méconnue des mouvem
+ ents d’émancipation des femmes dans les années 70 en Belgique. Des a
+ ctions impertinentes des Dolle Mina en Flandre\, au soutien des ouvrièr
+ es par les Marie Mineur en Wallonie\, jusqu’au Tribunal international 
+ des crimes contre les femmes qui réunit à Bruxelles […]\nhttps://mai
+ sonpoeme.be/
+CATEGORIES:Maison Poème\,Film & Cinema
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Bandes d’hystériques
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f1a33fa82b3741b6@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20261206T140000Z
+DTEND:20261206T160000Z
+SUMMARY:ERASMUS SMEEKT OM VREDE
+LOCATION:Het Goudblommeke in Papier
+URL:https://goudblommekeinpapier.be/event/erasmus-smeekt-om-vrede/
+DESCRIPTION:een vertelling door Frank Jacobs en Chris Reunes Wat zou de v
+ rede ons zeggen als zij een vrouw van vlees en bloed was? Hoe zou zij on
+ s overtuigen om oorlog en geweld te stoppen? Erasmus stelde zich die vra
+ ag al in 1517 omdat de wereld toen ook in brand stond. Hij schreef DE WE
+ EKLACHT VAN DE VREDE\, een tekst die betekenisvol is gebleven\, zeker va
+ ndaag. Frank JACOBS en Chris REUNES stellen u DE WEEKLACHT VAN DE VREDE 
+ voor\, met tekstfragmenten\, commentaar en beeldprojectie. Ze brengen oo
+ k de satirische dialogen waarin Erasmus met vlijmscherpe spot alle gewel
+ d als misdaad wegzet. Een uurtje lachen\nhttps://goudblommekeinpapier.be
+ /event/erasmus-smeekt-om-vrede/
+CATEGORIES:Goudblommeke in Papier\,Culture & Arts
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:ERASMUS SMEEKT OM VREDE
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dd0e0d8fef79d16f@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20261209T190000Z
+DTEND:20261209T210000Z
+SUMMARY:The Staart
+LOCATION:Maison poème\, Rue d'Écosse 30\, 1060 Saint-Gilles
+URL:https://maisonpoeme.be/
+DESCRIPTION:The Staart est un collectif RADICAL PLAY MUSIC & ART fondé p
+ ar An Pierlé et Gil Mortio. The Staart est un collectif interdisciplina
+ ire qui explore de nouvelles formes de performance live à la croisée d
+ e l’improvisation\, du texte écrit\, de la musique\, du cabaret\, du 
+ cinéma et de l’installation. Chaque performance naît en temps réel 
+ […]\nhttps://maisonpoeme.be/
+CATEGORIES:Maison Poème\,Music
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:The Staart
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ee192eeebf98931c@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20261210T170000Z
+DTEND:20261210T183000Z
+SUMMARY:Sous le regard des statues de Camille Claudel
+LOCATION:Maison poème\, Rue d'Écosse 30\, 1060 Saint-Gilles
+URL:https://maisonpoeme.be/
+DESCRIPTION:La rose trémière (alcea rosea) est une plante vivace\, dont
+  le nom serait une altération de Rose d’Outremer. Toutes ses parties 
+ sont comestibles et ses usages médicinaux sont reconnus depuis l’Anti
+ quité. Leur présence à Bruxelles fait naître un fort contraste : leu
+ r côté sauvage\, désordonné\, leurs grandes fleurs colorées viennen
+ t perturber l’ordre urbain et nous […]\nhttps://maisonpoeme.be/
+CATEGORIES:Maison Poème\,Culture & Arts
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Sous le regard des statues de Camille Claudel
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7f61b0f74288fec4@neighbourhood-events
+DTSTAMP:20260831T191906Z
+DTSTART:20261219T100000Z
+DTEND:20261219T130000Z
+SUMMARY:Hors ligne
+LOCATION:Maison poème\, Rue d'Écosse 30\, 1060 Saint-Gilles
+URL:https://maisonpoeme.be/
+DESCRIPTION:Un samedi par mois au bar de la Maison poèmeEntrée libre et
+  gratuiteDe 11h à 14h Comment nourrir ses imaginaires en contournant le
+ s écrans? Une fois par mois\, la Maison poème t'invite à un moment ho
+ rs du temps pour te poser\, lire et se retrouver\, loin des écrans. De 
+ 11h à 13h : lecture silencieuseUn […]\nhttps://maisonpoeme.be/
+CATEGORIES:Maison Poème\,Community & Social
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Hors ligne
+END:VALARM
 END:VEVENT
 END:VCALENDAR
