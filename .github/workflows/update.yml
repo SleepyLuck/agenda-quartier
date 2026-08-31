@@ -36,12 +36,6 @@ jobs:
       - name: Install Playwright's Chromium (for JS-rendered sources)
         run: playwright install --with-deps chromium
 
-      - name: TEMP diagnostic - tune partial/empty sources
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          ANTHROPIC_WORKSPACE_ID: ${{ secrets.ANTHROPIC_WORKSPACE_ID }}
-        run: python diag_tune.py
-
       - name: Collect events
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}

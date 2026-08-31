@@ -291,8 +291,12 @@ Each element: {{"title": str, "start": "YYYY-MM-DDTHH:MM" or "YYYY-MM-DD",
 "url": absolute link to the event page or null}}
 
 Rules:
-- Only real, dated events. Skip navigation, past-event archives and opening hours.
-- If a year is missing, assume the next occurrence after {today}.
+- Today's date is {today}. Only real, dated events. Skip navigation, past-event
+  archives and opening hours.
+- If a year is missing, use the SAME year as today unless that date has
+  already passed, in which case use the next year. Do not skip further ahead
+  than that - a local venue's page almost never lists anything more than a
+  few months out.
 - If you find no events, return [].
 
 Page URL: {url}
@@ -315,7 +319,8 @@ def call_anthropic(body: dict, api_key: str) -> dict:
     return r.json()
 
 
-def parse_llm(html: str, source: str, page_url: str, tz: str, model: str) -> list[dict]:
+def parse_llm(html: str, source: str, page_url: str, tz: str, model: str,
+              horizon_days: int = 120, keep_past_days: int = 1) -> list[dict]:
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
         return []
@@ -341,12 +346,46 @@ def parse_llm(html: str, source: str, page_url: str, tz: str, model: str) -> lis
         items = json.loads(reply)
     except json.JSONDecodeError:
         return []
+    now = datetime.now(ZoneInfo(tz))
+    window_start = now - timedelta(days=keep_past_days)
+    window_end = now + timedelta(days=horizon_days)
     events = []
     for item in items if isinstance(items, list) else []:
         ev = normalise_event(item, source, page_url, tz)
         if ev:
-            events.append(ev)
+            events.append(_fix_year_overshoot(ev, window_start, window_end))
     return events
+
+
+def _fix_year_overshoot(ev: dict, window_start: datetime, window_end: datetime) -> dict:
+    """Seen in production: the model sometimes reports a year-less date one
+    year further out than it should be (e.g. "2027" for a page showing
+    "04.09" with no year, when today is still in 2026) - the event then
+    gets silently dropped by the horizon-days window instead of shown. If a
+    date falls outside that window as given, but shifting it back exactly
+    one year lands it inside, assume that's what happened - a genuine event
+    that far out on a small local-venue page would be dropped anyway, so
+    there's nothing to lose by trying the correction first."""
+    try:
+        dt = datetime.fromisoformat(ev["start"])
+    except ValueError:
+        return ev
+    if window_start <= dt <= window_end:
+        return ev
+    shifted = str(dt.year - 1) + ev["start"][4:]
+    try:
+        shifted_dt = datetime.fromisoformat(shifted)
+    except ValueError:
+        return ev
+    if window_start <= shifted_dt <= window_end:
+        ev["start"] = shifted
+        if ev["end"]:
+            end_year = int(ev["end"][:4])
+            ev["end"] = str(end_year - 1) + ev["end"][4:]
+        ev["uid"] = hashlib.sha1(
+            f"{ev['source']}|{ev['title'].lower()}|{ev['start'][:10]}".encode()
+        ).hexdigest()[:16]
+    return ev
 
 
 # -------------------------------------------------------------- categories
@@ -454,6 +493,8 @@ def extract(source_cfg: dict, defaults: dict) -> tuple[list[dict], str, str]:
     method = source_cfg.get("method", "auto")
     robots = source_cfg.get("respect_robots", defaults.get("respect_robots", True))
     model = defaults.get("llm_model", "claude-haiku-4-5")
+    horizon_days = int(defaults.get("horizon_days", 120))
+    keep_past_days = int(defaults.get("keep_past_days", 1))
 
     order = [method] if method != "auto" else ["ics", "wordpress", "jsonld", "llm"]
     last_error = ""
@@ -469,12 +510,14 @@ def extract(source_cfg: dict, defaults: dict) -> tuple[list[dict], str, str]:
             elif step == "jsonld":
                 events = parse_jsonld(fetch(url, robots), name, url, tz)
             elif step == "llm":
-                events = parse_llm(fetch(url, robots), name, url, tz, model)
+                events = parse_llm(fetch(url, robots), name, url, tz, model,
+                                    horizon_days, keep_past_days)
             elif step == "browser":
                 rendered = fetch_rendered(url, robots)
                 events = parse_jsonld(rendered, name, url, tz)
                 if not events:
-                    events = parse_llm(rendered, name, url, tz, model)
+                    events = parse_llm(rendered, name, url, tz, model,
+                                        horizon_days, keep_past_days)
             else:
                 continue
             if events:
