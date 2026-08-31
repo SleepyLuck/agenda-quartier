@@ -95,6 +95,9 @@
   .thumb{aspect-ratio:16/9;display:flex;align-items:center;justify-content:center;font-size:2.3rem;
     border-bottom:1px solid var(--rule);overflow:hidden;position:relative}
   .thumb img{width:100%;height:100%;object-fit:cover;display:block}
+  .timebadge{position:absolute;top:.55rem;left:.55rem;background:var(--ink);color:#fff;
+    font-variant-numeric:tabular-nums;font-weight:800;font-size:.86rem;letter-spacing:-.01em;
+    border-radius:7px;padding:.22rem .55rem;line-height:1;box-shadow:0 2px 8px rgba(0,0,0,.25)}
   .card .body{padding:.85rem .95rem 1rem;display:flex;flex-direction:column;gap:.3rem;flex:1}
   .card .cat{font-size:.68rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);
     display:flex;align-items:center;gap:.3rem}
@@ -184,9 +187,12 @@
   .dayhead{display:flex;align-items:baseline;gap:.6rem;border-bottom:1px solid var(--ink);padding-bottom:.35rem;margin-bottom:.6rem}
   .dayhead .dd{font-weight:800;font-size:1.3rem;letter-spacing:-.02em}
   .dayhead .rest{color:var(--ink-soft);font-size:.86rem}
-  .ev{display:grid;grid-template-columns:4.6rem 1fr;gap:.9rem;padding:.7rem 0;border-bottom:1px solid var(--rule)}
+  .ev{display:grid;grid-template-columns:5.4rem 1fr;gap:.9rem;padding:.7rem 0;border-bottom:1px solid var(--rule)}
   @media (max-width:520px){ .ev{grid-template-columns:1fr;gap:.2rem} }
-  .ev .when{font-variant-numeric:tabular-nums;color:var(--ink-soft);font-size:.85rem;padding-top:.15rem}
+  .ev .when{font-variant-numeric:tabular-nums;color:var(--ink);font-size:1.32rem;font-weight:800;
+    letter-spacing:-.01em;line-height:1.1;padding-top:.05rem}
+  .ev .when .end{display:block;font-size:.72rem;font-weight:600;color:var(--ink-soft);margin-top:.2rem;letter-spacing:0}
+  .ev .when .allday{font-size:.8rem;font-weight:700;color:var(--ink-soft);text-transform:uppercase;letter-spacing:.04em}
   .ev h4{font-size:1.02rem;line-height:1.28;margin:0 0 .2rem;font-weight:700}
   .ev .tags{display:flex;flex-wrap:wrap;gap:.2rem .6rem;align-items:center;margin-bottom:.1rem}
   .ev .cattag{font-size:.7rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
@@ -565,13 +571,17 @@ function tagChipsHTML(e, max){
 function thumbHTML(e){
   const cat = state.catById[e.category];
   const emoji = cat ? cat.emoji : "📍";
+  const badge = !e.all_day ? `<span class="timebadge" aria-hidden="true">${esc(fmtTime(e.start))}</span>` : "";
   if(e.image){
     return `<div class="thumb">
       <img src="${esc(e.image)}" alt="" loading="lazy"
-           onerror="this.parentElement.style.background='color-mix(in srgb, ${e.colour} 16%, var(--card))';this.parentElement.innerHTML='<span aria-hidden=true>${emoji}</span>'">
+           onerror="this.style.display='none';this.parentElement.style.background='color-mix(in srgb, ${e.colour} 16%, var(--card))';this.insertAdjacentHTML('afterend','&lt;span aria-hidden=true&gt;${emoji}&lt;/span&gt;')">
+      ${badge}
     </div>`;
   }
-  return `<div class="thumb" aria-hidden="true" style="background:color-mix(in srgb, ${e.colour} 16%, var(--card))">${emoji}</div>`;
+  return `<div class="thumb" style="background:color-mix(in srgb, ${e.colour} 16%, var(--card))">
+    <span aria-hidden="true">${emoji}</span>${badge}
+  </div>`;
 }
 
 function cardHTML(e){
@@ -587,7 +597,7 @@ function cardHTML(e){
     <div class="body">
       <div class="cat">${cat ? esc(cat.label) : ""}${soon ? `<span class="soon">${esc(soon)}</span>` : ""}</div>
       <h3>${esc(e.title)}</h3>
-      <div class="meta">${esc(dateLine)}</div>
+      <div class="meta" style="font-weight:700;color:var(--ink);font-size:.88rem">${esc(dateLine)}</div>
       <div class="meta venue"><span class="swatch" style="background:${e.colour}"></span>${esc(e.source)}${free ? ` · <span class="free">Free</span>` : ""}</div>
       <div class="tagrow">${free ? `<span class="tagchip free">Free</span>` : ""}${tagChipsHTML(e, 3)}</div>
     </div>
@@ -702,14 +712,21 @@ function renderAgenda(){
 
 function evHTML(e){
   const recurring = isRecurring(e);
-  const when = recurring && e.end && dayKey(e.end) !== dayKey(e.start) ? "ongoing"
-    : e.all_day ? "all day"
-    : fmtTime(e.start) + (e.end && dayKey(e.end)===dayKey(e.start) ? "–"+fmtTime(e.end) : "");
+  let whenHTML;
+  if(recurring && e.end && dayKey(e.end) !== dayKey(e.start)){
+    whenHTML = `<span class="allday">Ongoing</span>`;
+  }else if(e.all_day){
+    whenHTML = `<span class="allday">All day</span>`;
+  }else{
+    const endTxt = e.end && dayKey(e.end)===dayKey(e.start)
+      ? `<span class="end">until ${esc(fmtTime(e.end))}</span>` : "";
+    whenHTML = `${esc(fmtTime(e.start))}${endTxt}`;
+  }
   const cat = state.catById[e.category];
   const soon = soonLabel(e);
   const free = isFree(e);
   return `<article class="ev">
-    <div class="when">${when}</div>
+    <div class="when">${whenHTML}</div>
     <div>
       <div class="tags">
         ${cat ? `<span class="cattag">${cat.emoji} ${esc(cat.label)}</span>` : ""}

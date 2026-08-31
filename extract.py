@@ -312,16 +312,20 @@ def collect_events(node, out: list[dict]) -> None:
 # ----------------------------------------------------------------- 4. LLM
 
 LLM_PROMPT = """You are reading the events page of a local neighbourhood organisation.
-Extract every distinct event you can find in the text below - don't stop after just
-the first few. Use every relevant detail that's actually present (exact start and end
-time, room/hall name if given, price or "free" wording) rather than leaving a field
+
+Extract EVERY distinct event mentioned in the text below - all of them, no matter
+how many there are. Do not filter, sample, shorten the list, or pick only some of
+them - if the text lists 30 events, your JSON array must have 30 elements. Never
+skip an event just because it's a weekday, a matinee, or during the day: daytime
+and weekday events belong in the list exactly as much as evening and weekend ones.
+Use every relevant detail that's actually present (exact start and end time,
+room/hall name if given, price or "free" wording) rather than leaving a field
 blank when the page states it.
 
-If the page text clearly contains more events than can reasonably fit in one reply,
-prioritise, in this order:
-1. Events in the evening (after 17:00).
-2. Events on a Saturday or Sunday.
-These matter most for a local "what's on tonight / this weekend" guide.
+(Only in the extreme case where the text is so long you truly cannot fit every
+event in your reply - which should be rare - list evening and weekend events
+first. This is a last-resort tiebreaker, never a reason to leave out daytime or
+weekday events when you have room for them.)
 
 Return ONLY a JSON array, no prose, no markdown fences.
 
@@ -370,7 +374,12 @@ def parse_llm(html: str, source: str, page_url: str, tz: str, model: str,
 
     body = {
         "model": model,
-        "max_tokens": 4000,
+        # Generous on purpose: asking the model for every event on the page,
+        # not a sample, means a busy venue's page can genuinely need this -
+        # 4000 was cutting replies short on exactly the sources with the most
+        # events to list (a truncated reply fails json.loads() and silently
+        # returns nothing for that source).
+        "max_tokens": 8000,
         "messages": [{
             "role": "user",
             "content": LLM_PROMPT.format(
