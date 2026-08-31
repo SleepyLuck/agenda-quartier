@@ -56,3 +56,99 @@ sources:
     url: https://www.tricoterie.be/fr/agenda/l-agenda-culturel/?lang=fr
     method: auto
     colour: "#00937A"
+
+  # --- Batch of 35 candidate venues, checked 31/08/2026 via a discovery ---
+  # script run on GitHub's runner (this sandbox has no general web access).
+  # For each: does the domain resolve, does the title match the venue, and
+  # is there a findable agenda page. 19 came back clean and are below with
+  # their real agenda URL. 13 hit a dead/parked domain or failed DNS
+  # entirely and are NOT added - the user needs to supply the real URL for:
+  # Maison des Cultures de Saint-Gilles, Maison du Peuple (parked domain),
+  # Maison du Livre (parked/firewalled domain), Cellule 133, Petit Kings
+  # Comedy Club, Garage Cultural, Maison Hannon, Passerelle Louise,
+  # CréaNova, Fondation A Stichting, Théâtre Mercelis, Théâtre de la Toison
+  # d'Or (parked domain), La Madeleine (SSL error). 3 more are ambiguous and
+  # not added either: Musée Horta (real site, but no agenda page found -
+  # might just not run a rotating events programme), Maxima (resolves to
+  # Communa's page *about* the venue, not clearly an events listing), CIVA
+  # (civa.brussels redirects to kanal.brussels - possibly a real
+  # rebrand/merger, possibly wrong; needs confirming before scraping it as
+  # "CIVA"). method: auto for all except GC Ten Weyngaert, which fingerprints
+  # as the exact same Drupal 10 + Commerce 3 stack as GC Pianofabriek - a
+  # strong signal it's JS-rendered too, so it starts on method: browser.
+
+  - name: Recyclart
+    url: https://recyclart.be/fr/agenda
+    method: auto
+
+  - name: Le Jacques Franck
+    url: https://www.lejacquesfranck.be/agenda
+    method: auto
+
+  - name: Fuse
+    url: https://www.fuse.be/events
+    method: auto
+
+  - name: Goudblommeke in Papier
+    url: https://goudblommekeinpapier.be/agenda/
+    method: auto
+
+  - name: Le Poche
+    url: https://poche.be/shows
+    method: auto
+
+  - name: Sounds Jazz Club
+    url: https://www.sounds.brussels/agenda/
+    method: auto
+
+  - name: U-Square
+    url: https://usquare.brussels/en/agenda
+    method: auto
+
+  - name: BRASS
+    url: https://www.lebrass.be/
+    method: auto
+
+  - name: WIELS
+    url: https://wiels.org/en/events
+    method: auto
+
+  - name: Maison Poème
+    url: https://maisonpoeme.be/
+    method: auto
+
+  - name: CCLJ
+    url: https://cclj.be/notre-agenda/
+    method: auto
+
+  - name: GC Ten Weyngaert
+    url: https://www.tenweyngaert.be/activiteiten
+    method: browser
+
+  - name: Park Poétik
+    url: https://parkpoetik.be/nl/agenda/
+    method: auto
+
+  - name: Le Senghor
+    url: https://www.senghor.be/agenda/
+    method: auto
+
+  - name: Flagey
+    url: https://www.flagey.be/agenda
+    method: auto
+
+  - name: BOZAR
+    url: https://www.bozar.be/en/calendar
+    method: auto
+
+  - name: KVS
+    url: https://www.kvs.be/fr/agenda
+    method: auto
+
+  - name: Kaaitheater
+    url: https://kaaitheater.be/nl/agenda
+    method: auto
+
+  - name: Ancienne Belgique
+    url: https://www.abconcerts.be/fr/agenda
+    method: auto
