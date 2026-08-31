@@ -34,9 +34,16 @@ sources:
   # holds), but that doesn't matter — the page has 0 ld+json Event nodes and
   # ~0 date-like strings in its rendered text, meaning the agenda is filled
   # in by JavaScript after load. No rung here (ics/wordpress/jsonld/llm) can
-  # see it; the LLM rung would just get an empty page. Their events are also
-  # published to UiTdatabank (publiq), which has a proper public API and is
-  # the polite, working route — not yet wired up in extract.py.
+  # see it.
+  # Investigated 31/08/2026 whether UiTdatabank (publiq) could stand in, per
+  # an earlier (unverified) note here: the page's own HTML/JS has no
+  # reference to UiTdatabank/publiq at all, and UiTdatabank's public search
+  # API requires an API key (401 on every unauthenticated probe) — it's not
+  # a free drop-in fix. Whatever populates this page client-side wasn't
+  # identified from the static assets alone. Left enabled (reports found=0
+  # harmlessly); needs either a UiTdatabank developer key + confirmation
+  # this venue is actually listed there, or reverse-engineering the page's
+  # own bundled JS for its real AJAX endpoint.
   - name: GC Pianofabriek
     url: https://www.pianofabriek.be/activiteiten
     method: auto
