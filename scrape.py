@@ -17,7 +17,8 @@ from zoneinfo import ZoneInfo
 import yaml
 from dateutil import parser as dateparser
 
-from extract import CATEGORIES, classify_categories, extract
+from extract import (CATEGORIES, TAGS, classify_categories, classify_tags,
+                      extract, translate_events)
 
 ROOT = Path(__file__).parent
 OUT = ROOT / "docs"
@@ -32,17 +33,35 @@ def load_config() -> tuple[dict, list[dict]]:
     return cfg.get("defaults", {}) or {}, cfg.get("sources", []) or []
 
 
-def load_category_cache() -> dict[str, str]:
-    """uid -> category id, from the previously published events.json, so a run only
-    asks the LLM to classify events it hasn't seen before."""
+def _previous_events() -> list[dict]:
     path = OUT / "events.json"
     if not path.exists():
-        return {}
+        return []
     try:
         data = json.loads(path.read_text(encoding="utf-8"))
     except (json.JSONDecodeError, OSError):
-        return {}
-    return {e["uid"]: e["category"] for e in data.get("events", []) if e.get("category")}
+        return []
+    return data.get("events", [])
+
+
+def load_category_cache() -> dict[str, str]:
+    """uid -> category id, from the previously published events.json, so a run only
+    asks the LLM to classify events it hasn't seen before."""
+    return {e["uid"]: e["category"] for e in _previous_events() if e.get("category")}
+
+
+def load_tag_cache() -> dict[str, list[str]]:
+    """uid -> tag id list, from the previously published events.json."""
+    return {e["uid"]: e["tags"] for e in _previous_events() if e.get("tags")}
+
+
+def load_translation_cache() -> dict[str, dict]:
+    """uid -> already-translated {title, description, location}, from the
+    previously published events.json, so a run only pays to translate events
+    it hasn't seen before."""
+    return {e["uid"]: {"title": e.get("title", ""), "description": e.get("description", ""),
+                        "location": e.get("location", "")}
+            for e in _previous_events() if e.get("title")}
 
 
 def within_window(iso: str, tz: str, past_days: int, horizon_days: int) -> bool:
@@ -89,6 +108,7 @@ def build_ics(events: list[dict], tz: str, alarm_minutes: int = 120) -> str:
              "METHOD:PUBLISH", "X-WR-CALNAME:Neighbourhood events",
              f"X-WR-TIMEZONE:{tz}"]
     now = datetime.now(ZoneInfo("UTC")).strftime("%Y%m%dT%H%M%SZ")
+    tag_by_id = {t["id"]: t["label"] for t in TAGS}
     for ev in events:
         lines += [
             "BEGIN:VEVENT",
@@ -112,6 +132,7 @@ def build_ics(events: list[dict], tz: str, alarm_minutes: int = 120) -> str:
         cat_meta = next((c for c in CATEGORIES if c["id"] == ev.get("category")), None)
         if cat_meta:
             cats.append(cat_meta["label"])
+        cats += [tag_by_id[t] for t in ev.get("tags", []) if t in tag_by_id]
         lines.append(fold("CATEGORIES:" + ics_escape(",".join(cats))))
         if not ev["all_day"]:
             lines += ["BEGIN:VALARM", "ACTION:DISPLAY",
@@ -158,13 +179,18 @@ def main() -> int:
         time.sleep(delay)
 
     events = sorted(all_events.values(), key=lambda e: e["start"])
-    classify_categories(events, defaults.get("llm_model", "claude-haiku-4-5"),
-                         load_category_cache())
+    model = defaults.get("llm_model", "claude-haiku-4-5")
+    # Translate first so categorising/tagging both work from the same clean
+    # English text as the published page, instead of a mix of languages.
+    translate_events(events, model, load_translation_cache())
+    classify_categories(events, model, load_category_cache())
+    classify_tags(events, model, load_tag_cache())
     payload = {
         "generated": datetime.now(ZoneInfo(tz)).isoformat(),
         "timezone": tz,
         "sources": source_meta,
         "categories": CATEGORIES,
+        "tags": TAGS,
         "report": report,
         "events": events,
     }

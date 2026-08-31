@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Agenda du quartier — Saint-Gilles</title>
-<meta name="description" content="Concerts, expos, ateliers et rencontres près de chez vous, à Saint-Gilles et alentours — rassemblés depuis les sites des associations du quartier.">
-<meta property="og:title" content="Agenda du quartier">
-<meta property="og:description" content="Qu'est-ce qui se passe autour de chez nous ?">
+<title>Neighbourhood Agenda — Saint-Gilles</title>
+<meta name="description" content="Concerts, exhibitions, workshops and meet-ups near you in Saint-Gilles and around — gathered straight from local organisations' own websites.">
+<meta property="og:title" content="Neighbourhood Agenda">
+<meta property="og:description" content="What's happening around you?">
 <meta property="og:type" content="website">
 <meta name="theme-color" content="#F7F6F2">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23171717'/%3E%3Ccircle cx='16' cy='16' r='7' fill='%23FF5A36'/%3E%3C/svg%3E">
@@ -93,7 +93,8 @@
   .card:hover{transform:translateY(-2px);box-shadow:0 8px 22px -12px rgba(23,23,23,.28)}
   @media (prefers-reduced-motion:reduce){ .card{transition:none} .card:hover{transform:none} }
   .thumb{aspect-ratio:16/9;display:flex;align-items:center;justify-content:center;font-size:2.3rem;
-    border-bottom:1px solid var(--rule)}
+    border-bottom:1px solid var(--rule);overflow:hidden;position:relative}
+  .thumb img{width:100%;height:100%;object-fit:cover;display:block}
   .card .body{padding:.85rem .95rem 1rem;display:flex;flex-direction:column;gap:.3rem;flex:1}
   .card .cat{font-size:.68rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);
     display:flex;align-items:center;gap:.3rem}
@@ -104,6 +105,13 @@
   .card .meta .venue{display:flex;align-items:center;gap:.35rem;margin-top:.1rem}
   .card .meta .venue .swatch{width:.55rem;height:.55rem;border-radius:99px;flex:none}
   .card .free{color:var(--accent);font-weight:700}
+  .card .tagrow{display:flex;flex-wrap:wrap;gap:.3rem;margin-top:.4rem}
+
+  /* small tag chips, on cards and list rows ---------------------------*/
+  .tagchip{font-size:.64rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;
+    background:#F1F0EB;color:var(--ink-soft);border-radius:99px;padding:.18rem .55rem;white-space:nowrap}
+  .tagchip.recurring{background:#EAF1FB;color:#1B5FC4}
+  .tagchip.free{background:#FFEFE9;color:#C43E1B}
 
   /* horizontal scroll on mobile for tonight/weekend ------------------ */
   .hscroll{display:flex;gap:1.1rem;overflow-x:auto;padding-bottom:.3rem;-webkit-overflow-scrolling:touch;scroll-snap-type:x proximity}
@@ -119,6 +127,13 @@
   .catcard[aria-pressed="true"]{background:var(--ink);color:#fff;border-color:var(--ink)}
   .catcard[aria-pressed="true"] .ct{color:#cfcfcf}
 
+  /* tag filter row ------------------------------------------------------*/
+  .tagfiltergrid{display:flex;flex-wrap:wrap;gap:.5rem}
+  .tagfilterbtn{background:var(--card);border:1px solid var(--rule);border-radius:99px;
+    padding:.4rem .85rem;font-size:.78rem;font-weight:700;letter-spacing:.03em;text-transform:uppercase;
+    min-height:38px;color:var(--ink-soft)}
+  .tagfilterbtn[aria-pressed="true"]{background:var(--ink);color:#fff;border-color:var(--ink)}
+
   /* skeletons ---------------------------------------------------------*/
   @keyframes shimmer{0%{background-position:-120% 0}100%{background-position:120% 0}}
   .skel{background:linear-gradient(90deg,var(--card) 25%,#EFEEE8 37%,var(--card) 63%);background-size:400% 100%;
@@ -133,12 +148,12 @@
   .field{display:flex;align-items:center;gap:.45rem;background:var(--card);border:1px solid var(--rule);
     border-radius:99px;padding:.45rem .9rem;min-height:44px}
   .field select{border:0;background:none;cursor:pointer;font-size:.86rem;font-weight:600}
-  details.sources{margin-top:0}
-  details.sources summary{cursor:pointer;font-size:.86rem;font-weight:600;color:var(--ink-soft);list-style:none;
+  details.sources,details.tagfilter{margin-top:0}
+  details.sources summary,details.tagfilter summary{cursor:pointer;font-size:.86rem;font-weight:600;color:var(--ink-soft);list-style:none;
     display:inline-flex;align-items:center;gap:.35rem;min-height:44px}
-  details.sources summary::-webkit-details-marker{display:none}
-  details.sources summary:before{content:"▸";font-size:.7rem;transition:transform .15s}
-  details.sources[open] summary:before{transform:rotate(90deg)}
+  details.sources summary::-webkit-details-marker,details.tagfilter summary::-webkit-details-marker{display:none}
+  details.sources summary:before,details.tagfilter summary:before{content:"▸";font-size:.7rem;transition:transform .15s}
+  details.sources[open] summary:before,details.tagfilter[open] summary:before{transform:rotate(90deg)}
   .srclist{display:flex;flex-wrap:wrap;gap:.5rem;margin:.8rem 0 0}
   .srcbtn{display:flex;align-items:center;gap:.4rem;background:var(--card);border:1px solid var(--rule);
     border-radius:99px;padding:.35rem .8rem;font-size:.8rem;min-height:38px}
@@ -173,7 +188,7 @@
   @media (max-width:520px){ .ev{grid-template-columns:1fr;gap:.2rem} }
   .ev .when{font-variant-numeric:tabular-nums;color:var(--ink-soft);font-size:.85rem;padding-top:.15rem}
   .ev h4{font-size:1.02rem;line-height:1.28;margin:0 0 .2rem;font-weight:700}
-  .ev .tags{display:flex;flex-wrap:wrap;gap:.2rem 1rem;align-items:center;margin-bottom:.1rem}
+  .ev .tags{display:flex;flex-wrap:wrap;gap:.2rem .6rem;align-items:center;margin-bottom:.1rem}
   .ev .cattag{font-size:.7rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
   .ev .org{display:inline-flex;align-items:center;gap:.35rem;font-size:.82rem;color:var(--ink-soft)}
   .ev .org .swatch{width:.55rem;height:.55rem;border-radius:99px;flex:none}
@@ -181,6 +196,7 @@
     color:#fff;border-radius:99px;padding:.1rem .5rem}
   .ev .where{font-size:.82rem;color:var(--ink-soft)}
   .ev .desc{font-size:.88rem;margin:.35rem 0 0;max-width:62ch;color:var(--ink-soft)}
+  .ev .tagrow{display:flex;flex-wrap:wrap;gap:.3rem;margin-top:.45rem}
   .actions{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.6rem}
   .actions a,.actions button{
     background:var(--card);border:1px solid var(--rule);border-radius:99px;padding:.4rem .85rem;
@@ -216,12 +232,12 @@
 
 <div class="topbar">
   <div class="wrap row">
-    <a class="brand" href="#top"><span class="dot"></span>Agenda du quartier</a>
+    <a class="brand" href="#top"><span class="dot"></span>Neighbourhood Agenda</a>
     <nav class="desktop-nav">
-      <a href="#top">Explorer</a>
-      <a href="#calendrier">Calendrier</a>
-      <a href="#" id="mapLink" title="La carte arrive bientôt">Carte</a>
-      <a class="cta" id="submitLink" href="#">+ Proposer</a>
+      <a href="#top">Explore</a>
+      <a href="#calendrier">Calendar</a>
+      <a href="#" id="mapLink" title="Map coming soon">Map</a>
+      <a class="cta" id="submitLink" href="#">+ Suggest</a>
     </nav>
   </div>
 </div>
@@ -229,75 +245,80 @@
 <div class="wrap">
 
 <header class="hero" id="top">
-  <h1>Qu'est-ce qui se passe autour de vous&nbsp;?</h1>
-  <p id="tagline">Concerts, expos, ateliers et rencontres près de chez vous, rassemblés depuis les sites des associations du quartier.</p>
+  <h1>What's happening around you?</h1>
+  <p id="tagline">Concerts, exhibitions, workshops and meet-ups near you, gathered straight from local organisations' own websites.</p>
   <label class="searchfield">
     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
-    <input id="q" type="search" placeholder="Rechercher un événement, un lieu…" aria-label="Rechercher un événement">
+    <input id="q" type="search" placeholder="Search an event, a venue…" aria-label="Search an event">
   </label>
-  <div class="qf-row" role="group" aria-label="Filtres rapides">
-    <button class="pill-btn" id="qfTonight" aria-pressed="false">Ce soir</button>
-    <button class="pill-btn" id="qfFree" aria-pressed="false">Gratuit</button>
-    <button class="pill-btn" id="qfWeekend" aria-pressed="false">Ce week-end</button>
+  <div class="qf-row" role="group" aria-label="Quick filters">
+    <button class="pill-btn" id="qfTonight" aria-pressed="false">Tonight</button>
+    <button class="pill-btn" id="qfFree" aria-pressed="false">Free</button>
+    <button class="pill-btn" id="qfWeekend" aria-pressed="false">This weekend</button>
   </div>
-  <div class="meta" style="margin-top:1rem"><span id="updated" class="linkish" style="text-decoration:none;cursor:default">Chargement…</span></div>
+  <div class="meta" style="margin-top:1rem"><span id="updated" class="linkish" style="text-decoration:none;cursor:default">Loading…</span></div>
 </header>
 
 <div id="notices"></div>
 
 <section class="section" id="tonightSection">
   <div class="section-head">
-    <h2>Ce soir</h2>
-    <a class="see-all" href="#calendrier">Voir tout le calendrier →</a>
+    <h2>Tonight</h2>
+    <a class="see-all" href="#calendrier">See full calendar →</a>
   </div>
   <div id="tonightBox"><div class="hscroll"><div class="skel"></div><div class="skel"></div><div class="skel"></div><div class="skel"></div></div></div>
 </section>
 
 <section class="section" id="weekendSection">
   <div class="section-head">
-    <h2>Ce week-end</h2>
-    <a class="see-all" href="#calendrier">Voir tout le calendrier →</a>
+    <h2>This weekend</h2>
+    <a class="see-all" href="#calendrier">See full calendar →</a>
   </div>
   <div id="weekendBox"><div class="hscroll"><div class="skel"></div><div class="skel"></div><div class="skel"></div><div class="skel"></div></div></div>
 </section>
 
 <section class="section" id="categorySection">
-  <div class="section-head"><h2>Explorer par catégorie</h2></div>
+  <div class="section-head"><h2>Explore by category</h2></div>
   <div class="catgrid" id="cats"></div>
 </section>
 
 <section class="section" id="calendrier">
   <div class="section-head">
-    <h2>Calendrier</h2>
-    <div class="viewtabs" role="group" aria-label="Mode d'affichage">
-      <button id="viewList" aria-pressed="true">Liste</button>
-      <button id="viewMonth" aria-pressed="false">Mois</button>
+    <h2>Calendar</h2>
+    <div class="viewtabs" role="group" aria-label="View mode">
+      <button id="viewList" aria-pressed="true">List</button>
+      <button id="viewMonth" aria-pressed="false">Month</button>
     </div>
   </div>
 
   <div class="calctrls">
     <div class="field">
-      <label for="range">Période</label>
+      <label for="range">Period</label>
       <select id="range">
-        <option value="all" selected>Tout ce qui vient</option>
-        <option value="7">7 prochains jours</option>
-        <option value="30">30 prochains jours</option>
+        <option value="all" selected>Everything upcoming</option>
+        <option value="7">Next 7 days</option>
+        <option value="30">Next 30 days</option>
       </select>
     </div>
-    <button class="linkish" id="subscribe">S'abonner à tout le calendrier</button>
-    <button class="linkish" id="copyfeed">Copier le lien du flux</button>
+    <button class="linkish" id="subscribe">Subscribe to the full calendar</button>
+    <button class="linkish" id="copyfeed">Copy feed link</button>
   </div>
 
   <div id="monthView" hidden>
     <div class="monthbar">
       <h3 id="monthname">—</h3>
       <div>
-        <button id="prev" aria-label="Mois précédent">‹</button>
-        <button id="next" aria-label="Mois suivant">›</button>
+        <button id="prev" aria-label="Previous month">‹</button>
+        <button id="next" aria-label="Next month">›</button>
       </div>
     </div>
     <table class="cal"><thead><tr id="dow"></tr></thead><tbody id="grid"></tbody></table>
   </div>
+
+  <details class="tagfilter">
+    <summary>Filter by tag (<span id="tagCount">0</span> active)</summary>
+    <div class="tagfiltergrid" id="tagfilters" style="margin-top:.8rem"></div>
+  </details>
 
   <details class="sources">
     <summary>Sources (<span id="srcCount">0</span>)</summary>
@@ -309,23 +330,23 @@
 
 <section class="section" id="submit">
   <div class="missing">
-    <h2>Il manque quelque chose&nbsp;?</h2>
-    <p>Vous connaissez un événement ou un site qu'on devrait suivre&nbsp;?</p>
+    <h2>Missing something?</h2>
+    <p>Know an event or a website we should be following?</p>
     <div class="row">
-      <a id="proposeEvent" href="#">Proposer un événement</a>
-      <a class="ghost" id="suggestSite" href="#">Suggérer un site</a>
+      <a id="proposeEvent" href="#">Suggest an event</a>
+      <a class="ghost" id="suggestSite" href="#">Suggest a website</a>
     </div>
   </div>
 </section>
 
 </div>
 
-<footer class="site wrap">Agenda automatique du quartier — pas d'inscription, pas de compte, juste ce qui se passe à côté de chez vous.</footer>
+<footer class="site wrap">Automatic neighbourhood agenda — no sign-up, no account, just what's happening near you.</footer>
 
 <nav class="bottomnav">
-  <a href="#top"><span class="ic">🏠</span>Explorer</a>
-  <a href="#calendrier"><span class="ic">📅</span>Calendrier</a>
-  <a id="mapLinkMobile" href="#"><span class="ic">🗺️</span>Carte</a>
+  <a href="#top"><span class="ic">🏠</span>Explore</a>
+  <a href="#calendrier"><span class="ic">📅</span>Calendar</a>
+  <a id="mapLinkMobile" href="#"><span class="ic">🗺️</span>Map</a>
 </nav>
 
 <div class="toast" id="toast" role="status"></div>
@@ -335,26 +356,32 @@
 const CONTACT_EMAIL = "you@example.org";
 
 const state = {
-  data:null, hidden:new Set(), hiddenCat:new Set(), catById:{},
+  data:null, hidden:new Set(), hiddenCat:new Set(), catById:{}, tagById:{},
+  activeTags:new Set(), tz:"Europe/Brussels",
   month:null, picked:null, q:"", range:"all",
   qf:{tonight:false, free:false, weekend:false}, view:"list",
 };
 
 const pad = n => String(n).padStart(2,"0");
 const dayKey = iso => { const d=new Date(iso); return `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`; };
-const fmtTime = iso => new Date(iso).toLocaleTimeString("fr-BE",{hour:"2-digit",minute:"2-digit"});
+// Events are tied to a real place in Brussels, so their time always shows in
+// Brussels local time - never the viewer's own, which would be wrong for
+// anyone browsing from outside that timezone.
+const fmtTime = iso => new Date(iso).toLocaleTimeString("en-GB",
+  {hour:"2-digit",minute:"2-digit",timeZone:state.tz});
 
 // Never word-split a locale-formatted string - part order varies by ICU build.
 // formatToParts() gives named parts regardless of how they're arranged.
 function dateParts(iso, opts){
-  const parts = new Intl.DateTimeFormat("fr-BE", opts).formatToParts(new Date(iso));
+  const parts = new Intl.DateTimeFormat("en-GB", {...opts, timeZone:state.tz}).formatToParts(new Date(iso));
   const get = t => (parts.find(p=>p.type===t)||{}).value || "";
   return {weekday:get("weekday"), day:get("day"), month:get("month"), year:get("year")};
 }
 const fmtCardDate = iso => { const p = dateParts(iso, {weekday:"short",day:"numeric",month:"short"});
   return `${p.weekday} ${p.day} ${p.month}`; };
-const FREE_RE = /\b(gratuit|gratis|entr[ée]e libre|free|toegang vrij)\b/i;
-const isFree = e => FREE_RE.test(`${e.title} ${e.description}`);
+const FREE_RE = /\b(free|no charge|free admission|free entry|complimentary|gratuit|gratis|entr[ée]e libre|toegang vrij)\b/i;
+const isFree = e => (e.tags||[]).includes("free") || FREE_RE.test(`${e.title} ${e.description}`);
+const isRecurring = e => (e.tags||[]).includes("recurring");
 
 function toast(msg){ const t=document.getElementById("toast"); t.textContent=msg; t.classList.add("on"); setTimeout(()=>t.classList.remove("on"),2200); }
 
@@ -368,10 +395,10 @@ function weekendRange(now){
 function soonLabel(e){
   const now = new Date(), start = new Date(e.start), end = e.end ? new Date(e.end) : null;
   if(e.all_day) return "";
-  if(end && now >= start && now <= end) return "En cours";
+  if(end && now >= start && now <= end) return "Ongoing";
   const diffMin = Math.round((start-now)/60000);
   if(diffMin >= 0 && diffMin <= 180){
-    return diffMin < 60 ? `Dans ${diffMin} min` : `Dans ${Math.round(diffMin/60)} h`;
+    return diffMin < 60 ? `In ${diffMin} min` : `In ${Math.round(diffMin/60)} h`;
   }
   return "";
 }
@@ -384,33 +411,36 @@ async function load(){
     state.data = await res.json();
   }catch(err){
     document.getElementById("agenda").innerHTML =
-      `<div class="empty"><h3>Pas encore de données</h3>
-       <p>Le fichier <code>events.json</code> est introuvable. Lancez <code>python scrape.py</code>,
-       puis rechargez cette page. En local, servez le dossier avec <code>python -m http.server</code> :
-       ouvrir le fichier directement bloque le chargement.</p></div>`;
-    document.getElementById("updated").textContent = "Aucune donnée";
+      `<div class="empty"><h3>No data yet</h3>
+       <p>The file <code>events.json</code> wasn't found. Run <code>python scrape.py</code>,
+       then reload this page. Locally, serve the folder with <code>python -m http.server</code> —
+       opening the file directly blocks loading.</p></div>`;
+    document.getElementById("updated").textContent = "No data";
     document.getElementById("tonightBox").innerHTML = "";
     document.getElementById("weekendBox").innerHTML = "";
     return;
   }
   const d = state.data;
+  state.tz = d.timezone || "Europe/Brussels";
   const notices = [];
-  if(d.sample) notices.push(["", "Données d'exemple. Remplacez sources.yml par vos vraies sources, puis relancez scrape.py."]);
+  if(d.sample) notices.push(["", "Sample data. Replace sources.yml with your real sources, then run scrape.py again."]);
 
   const ageHours = (Date.now() - new Date(d.generated).getTime()) / 36e5;
   if(ageHours > 48) notices.push(["stale",
-    `Dernière mise à jour il y a ${Math.floor(ageHours/24)} jours. La collecte automatique ne tourne plus : vérifiez l'onglet Actions du dépôt.`]);
+    `Last updated ${Math.floor(ageHours/24)} days ago. The automatic collection seems to have stopped — check the repository's Actions tab.`]);
 
   const silent = (d.sources||[]).filter(s => s.count === 0).map(s => s.name);
   if(silent.length) notices.push(["",
-    `Aucun événement trouvé pour : ${silent.join(", ")}. Ces sites ont peut-être changé de structure — relancez probe.py.`]);
+    `No events found for: ${silent.join(", ")}. These sites may have changed structure — run probe.py again.`]);
 
   const box = document.getElementById("notices");
   box.innerHTML = notices.map(([cls,msg]) => `<div class="notice ${cls}">${esc(msg)}</div>`).join("");
   document.getElementById("updated").textContent =
-    `${d.events.length} événements · mis à jour le ${new Date(d.generated).toLocaleString("fr-BE",{dateStyle:"medium",timeStyle:"short"})}`;
+    `${d.events.length} events · updated ${new Date(d.generated).toLocaleString("en-GB",{dateStyle:"medium",timeStyle:"short"})}`;
   state.catById = {};
   (d.categories||[]).forEach(c => state.catById[c.id] = c);
+  state.tagById = {};
+  (d.tags||[]).forEach(t => state.tagById[t.id] = t);
   const now = new Date();
   const thisMonth = d.events.some(e => { const s=new Date(e.start);
     return s.getFullYear()===now.getFullYear() && s.getMonth()===now.getMonth(); });
@@ -418,10 +448,10 @@ async function load(){
   state.month = new Date(anchor.getFullYear(), anchor.getMonth(), 1);
 
   const mailtoBase = (subject) => `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}`;
-  document.getElementById("proposeEvent").href = mailtoBase("Agenda du quartier — je propose un événement");
-  document.getElementById("suggestSite").href = mailtoBase("Agenda du quartier — un site à suivre");
+  document.getElementById("proposeEvent").href = mailtoBase("Neighbourhood Agenda — I'd like to suggest an event");
+  document.getElementById("suggestSite").href = mailtoBase("Neighbourhood Agenda — a website to follow");
 
-  renderSources(); renderCats(); renderAll();
+  renderSources(); renderCats(); renderTagFilters(); renderAll();
 }
 
 // ------------------------------------------------------------ filtering
@@ -430,6 +460,7 @@ function baseFiltered(){
   return state.data.events.filter(e=>{
     if(state.hidden.has(e.source)) return false;
     if(e.category && state.hiddenCat.has(e.category)) return false;
+    if(state.activeTags.size && ![...state.activeTags].every(t => (e.tags||[]).includes(t))) return false;
     const catLabel = (state.catById[e.category]||{}).label || "";
     if(q && !(`${e.title} ${e.location} ${e.description} ${e.source} ${catLabel}`.toLowerCase().includes(q))) return false;
     return true;
@@ -460,7 +491,7 @@ function renderSources(){
     const b = document.createElement("button");
     b.className = "srcbtn";
     b.setAttribute("aria-pressed", String(!state.hidden.has(s.name)));
-    b.title = `${s.url}\nméthode : ${s.method}`;
+    b.title = `${s.url}\nmethod: ${s.method}`;
     b.innerHTML = `<span class="swatch" style="background:${s.colour}"></span>
                    <span>${esc(s.name)}</span><span style="color:var(--ink-faint)">${s.count}</span>`;
     b.onclick = ()=>{
@@ -499,16 +530,56 @@ function renderCats(){
   });
 }
 
+// ------------------------------------------------------------------ tags
+function renderTagFilters(){
+  const box = document.getElementById("tagfilters");
+  box.innerHTML = "";
+  const counts = {};
+  state.data.events.forEach(e => (e.tags||[]).forEach(t => { counts[t] = (counts[t]||0) + 1; }));
+  (state.data.tags||[]).filter(t => counts[t.id]).forEach(t=>{
+    const b = document.createElement("button");
+    b.className = "tagfilterbtn";
+    b.setAttribute("aria-pressed", String(state.activeTags.has(t.id)));
+    b.textContent = `${t.label} (${counts[t.id]})`;
+    b.onclick = ()=>{
+      state.activeTags.has(t.id) ? state.activeTags.delete(t.id) : state.activeTags.add(t.id);
+      document.getElementById("tagCount").textContent = state.activeTags.size;
+      renderTagFilters(); renderAll();
+    };
+    box.appendChild(b);
+  });
+  document.getElementById("tagCount").textContent = state.activeTags.size;
+}
+
+function tagChipsHTML(e, max){
+  const tags = (e.tags||[]).filter(t => t !== "free"); // free already has its own badge
+  const list = max ? tags.slice(0, max) : tags;
+  return list.map(t=>{
+    const meta = state.tagById[t];
+    const cls = t === "recurring" ? "tagchip recurring" : "tagchip";
+    return `<span class="${cls}">${esc(meta ? meta.label : t)}</span>`;
+  }).join("");
+}
+
 // ------------------------------------------------------- tonight/weekend
 function thumbHTML(e){
   const cat = state.catById[e.category];
   const emoji = cat ? cat.emoji : "📍";
+  if(e.image){
+    return `<div class="thumb">
+      <img src="${esc(e.image)}" alt="" loading="lazy"
+           onerror="this.parentElement.style.background='color-mix(in srgb, ${e.colour} 16%, var(--card))';this.parentElement.innerHTML='<span aria-hidden=true>${emoji}</span>'">
+    </div>`;
+  }
   return `<div class="thumb" aria-hidden="true" style="background:color-mix(in srgb, ${e.colour} 16%, var(--card))">${emoji}</div>`;
 }
 
 function cardHTML(e){
   const cat = state.catById[e.category];
-  const dateLine = e.all_day ? fmtCardDate(e.start) : `${fmtCardDate(e.start)} · ${fmtTime(e.start)}`;
+  const recurring = isRecurring(e);
+  const dateLine = recurring && e.end && dayKey(e.end) !== dayKey(e.start)
+    ? `Ongoing through ${fmtCardDate(e.end)}`
+    : (e.all_day ? fmtCardDate(e.start) : `${fmtCardDate(e.start)} · ${fmtTime(e.start)}`);
   const soon = soonLabel(e);
   const free = isFree(e);
   return `<a class="card" href="${esc(e.url)}" target="_blank" rel="noopener">
@@ -517,7 +588,8 @@ function cardHTML(e){
       <div class="cat">${cat ? esc(cat.label) : ""}${soon ? `<span class="soon">${esc(soon)}</span>` : ""}</div>
       <h3>${esc(e.title)}</h3>
       <div class="meta">${esc(dateLine)}</div>
-      <div class="meta venue"><span class="swatch" style="background:${e.colour}"></span>${esc(e.source)}${free ? ` · <span class="free">Gratuit</span>` : ""}</div>
+      <div class="meta venue"><span class="swatch" style="background:${e.colour}"></span>${esc(e.source)}${free ? ` · <span class="free">Free</span>` : ""}</div>
+      <div class="tagrow">${free ? `<span class="tagchip free">Free</span>` : ""}${tagChipsHTML(e, 3)}</div>
     </div>
   </a>`;
 }
@@ -528,9 +600,9 @@ function renderTonight(){
     .sort((a,b)=> new Date(a.start) - new Date(b.start));
   const box = document.getElementById("tonightBox");
   if(!list.length){
-    box.innerHTML = `<div class="empty"><h3>Rien de prévu ce soir</h3>
-      <p>Essayez plutôt le week-end.</p>
-      <a class="linkish" href="#weekendSection">Voir le week-end →</a></div>`;
+    box.innerHTML = `<div class="empty"><h3>Nothing planned tonight</h3>
+      <p>Try the weekend instead.</p>
+      <a class="linkish" href="#weekendSection">See the weekend →</a></div>`;
     return;
   }
   box.innerHTML = `<div class="hscroll">${list.slice(0,8).map(cardHTML).join("")}</div>`;
@@ -542,9 +614,9 @@ function renderWeekend(){
     .sort((a,b)=> new Date(a.start) - new Date(b.start));
   const box = document.getElementById("weekendBox");
   if(!list.length){
-    box.innerHTML = `<div class="empty"><h3>Rien de prévu ce week-end pour l'instant</h3>
-      <p>Regardez le calendrier complet pour ce qui vient ensuite.</p>
-      <a class="linkish" href="#calendrier">Voir le calendrier →</a></div>`;
+    box.innerHTML = `<div class="empty"><h3>Nothing planned this weekend yet</h3>
+      <p>Check the full calendar for what's coming up next.</p>
+      <a class="linkish" href="#calendrier">See the calendar →</a></div>`;
     return;
   }
   box.innerHTML = `<div class="hscroll">${list.slice(0,8).map(cardHTML).join("")}</div>`;
@@ -554,9 +626,9 @@ function renderWeekend(){
 function renderGrid(){
   const m = state.month, y = m.getFullYear(), mo = m.getMonth();
   document.getElementById("monthname").textContent =
-    m.toLocaleDateString("fr-BE",{month:"long",year:"numeric"});
+    m.toLocaleDateString("en-GB",{month:"long",year:"numeric"});
   const dow = document.getElementById("dow");
-  dow.innerHTML = ["lu","ma","me","je","ve","sa","di"].map(d=>`<th>${d}</th>`).join("");
+  dow.innerHTML = ["Mo","Tu","We","Th","Fr","Sa","Su"].map(d=>`<th>${d}</th>`).join("");
 
   const byDay = {};
   visible().forEach(e=>{ (byDay[dayKey(e.start)] ||= []).push(e); });
@@ -573,7 +645,7 @@ function renderGrid(){
     const bars = evs.slice(0,6).map(e=>`<span class="bar" style="background:${e.colour}"></span>`).join("");
     const cls = ["day", key===todayKey?"today":"", key===state.picked?"picked":""].join(" ");
     row += `<td class="${cls}" data-key="${key}" tabindex="0" role="button"
-             aria-label="${d} ${evs.length} événement(s)"><span class="dnum">${d}</span><div class="bars">${bars}</div></td>`;
+             aria-label="${d}, ${evs.length} event(s)"><span class="dnum">${d}</span><div class="bars">${bars}</div></td>`;
     cell++;
     if(cell%7===0){ html += `<tr>${row}</tr>`; row=""; }
   }
@@ -598,16 +670,16 @@ function renderAgenda(){
   const list = visible();
   const box = document.getElementById("agenda");
   if(!list.length){
-    box.innerHTML = `<div class="empty"><h3>Aucun événement ne correspond à ces filtres</h3>
-      <p>Réactivez une source, videz la recherche ou cliquez de nouveau sur le jour sélectionné.</p>
-      <button class="linkish" id="clearFilters">Réinitialiser les filtres</button></div>`;
+    box.innerHTML = `<div class="empty"><h3>No events match these filters</h3>
+      <p>Re-enable a source, clear the search, or click the selected day again.</p>
+      <button class="linkish" id="clearFilters">Reset filters</button></div>`;
     const btn = document.getElementById("clearFilters");
     if(btn) btn.onclick = ()=>{
-      state.hidden.clear(); state.hiddenCat.clear(); state.picked=null; state.q="";
+      state.hidden.clear(); state.hiddenCat.clear(); state.activeTags.clear(); state.picked=null; state.q="";
       state.qf = {tonight:false, free:false, weekend:false};
       document.getElementById("q").value = "";
       ["qfTonight","qfFree","qfWeekend"].forEach(id=>document.getElementById(id).setAttribute("aria-pressed","false"));
-      renderSources(); renderCats(); renderAll();
+      renderSources(); renderCats(); renderTagFilters(); renderAll();
     };
     return;
   }
@@ -629,7 +701,9 @@ function renderAgenda(){
 }
 
 function evHTML(e){
-  const when = e.all_day ? "toute la journée"
+  const recurring = isRecurring(e);
+  const when = recurring && e.end && dayKey(e.end) !== dayKey(e.start) ? "ongoing"
+    : e.all_day ? "all day"
     : fmtTime(e.start) + (e.end && dayKey(e.end)===dayKey(e.start) ? "–"+fmtTime(e.end) : "");
   const cat = state.catById[e.category];
   const soon = soonLabel(e);
@@ -640,15 +714,15 @@ function evHTML(e){
       <div class="tags">
         ${cat ? `<span class="cattag">${cat.emoji} ${esc(cat.label)}</span>` : ""}
         ${soon ? `<span class="soontag">${esc(soon)}</span>` : ""}
-        ${free ? `<span class="cattag" style="color:var(--ink-soft)">Gratuit</span>` : ""}
       </div>
       <h4>${esc(e.title)}</h4>
       <div class="org"><span class="swatch" style="background:${e.colour}"></span>${esc(e.source)}</div>
       ${e.location ? `<div class="where">${esc(e.location)}</div>` : ""}
       ${e.description ? `<p class="desc">${esc(e.description)}</p>` : ""}
+      <div class="tagrow">${free ? `<span class="tagchip free">Free</span>` : ""}${tagChipsHTML(e)}</div>
       <div class="actions">
-        <button data-uid="${e.uid}">Ajouter à mon agenda</button>
-        <a href="${esc(e.url)}" target="_blank" rel="noopener">Voir sur le site →</a>
+        <button data-uid="${e.uid}">Add to my calendar</button>
+        <a href="${esc(e.url)}" target="_blank" rel="noopener">View on site →</a>
       </div>
     </div>
   </article>`;
@@ -665,8 +739,8 @@ const icsEsc = s => String(s||"").replace(/\\/g,"\\\\").replace(/;/g,"\\;").repl
 function downloadICS(e){
   if(!e) return;
   const mins = 120;
-  const L = ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//agenda-du-quartier//EN","BEGIN:VEVENT",
-    "UID:"+e.uid+"@agenda-du-quartier",
+  const L = ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//neighbourhood-agenda//EN","BEGIN:VEVENT",
+    "UID:"+e.uid+"@neighbourhood-agenda",
     "DTSTAMP:"+new Date().toISOString().replace(/[-:]/g,"").replace(/\.\d{3}/,""),
     "DTSTART"+icsStamp(e.start,e.all_day)];
   if(e.end) L.push("DTEND"+icsStamp(e.end,e.all_day));
@@ -683,7 +757,7 @@ function downloadICS(e){
   a.download = e.title.replace(/[^\p{L}\p{N}]+/gu,"-").slice(0,50).replace(/^-|-$/g,"") + ".ics";
   document.body.appendChild(a); a.click(); a.remove();
   setTimeout(()=>URL.revokeObjectURL(a.href), 4000);
-  toast("Fichier .ics téléchargé — ouvrez-le pour l'ajouter à votre agenda");
+  toast("Calendar file downloaded — open it to add this event to your calendar");
 }
 
 const feedURL = () => new URL("events.ics", location.href).href;
@@ -727,11 +801,11 @@ document.getElementById("subscribe").onclick = ()=>{
   location.href = feedURL().replace(/^https?:/, "webcal:");
 };
 document.getElementById("copyfeed").onclick = async ()=>{
-  try{ await navigator.clipboard.writeText(feedURL()); toast("Lien du flux copié"); }
-  catch{ prompt("Copiez ce lien :", feedURL()); }
+  try{ await navigator.clipboard.writeText(feedURL()); toast("Feed link copied"); }
+  catch{ prompt("Copy this link:", feedURL()); }
 };
 ["mapLink","mapLinkMobile"].forEach(id=>{
-  document.getElementById(id).onclick = (ev)=>{ ev.preventDefault(); toast("La carte arrive bientôt"); };
+  document.getElementById(id).onclick = (ev)=>{ ev.preventDefault(); toast("Map coming soon"); };
 });
 document.getElementById("submitLink").onclick = (ev)=>{
   ev.preventDefault();
