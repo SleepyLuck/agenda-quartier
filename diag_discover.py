@@ -16,8 +16,22 @@ from bs4 import BeautifulSoup
 UA = "neighbourhood-events/1.0 (personal event aggregator; contact: you@example.org)"
 TIMEOUT = 15
 
+# User-confirmed URLs (real, not guessed) - still probed to determine method.
 CANDIDATES = {
-    "Le Jacques Franck": "https://lejacquesfranck.be",
+    "Recyclart": "https://recyclart.be/fr/agenda",
+    "Maxima": "https://communa.be/les-lieux/maxima/",
+    "Le Jacques Franck": "https://www.lejacquesfranck.be/",
+    "Fuse": "https://www.fuse.be/",
+    "Goudblommeke in Papier": "https://goudblommekeinpapier.be/",
+    "Le Poche": "https://poche.be/",
+    "Sounds Jazz Club": "https://www.sounds.brussels/",
+    "U-Square": "https://usquare.brussels/en",
+    "BRASS": "https://www.lebrass.be/",
+    "WIELS": "https://wiels.org/en",
+
+    # Best-guess root domains from general knowledge - not yet confirmed by
+    # the user. This script's job is to sanity-check each one (page title,
+    # CMS, any obvious agenda link) before any of them go into sources.yml.
     "Maison des Cultures de Saint-Gilles": "https://mcsaintgilles.be",
     "Maison du Peuple": "https://lamaisondupeuple.be",
     "Maison Poème": "https://maisonpoeme.be",
@@ -30,18 +44,9 @@ CANDIDATES = {
     "Maison Hannon": "https://maisonhannon.brussels",
     "Passerelle Louise": "https://passerellelouise.be",
     "CréaNova": "https://creanova.be",
-    "BRASS": "https://brass.brussels",
-    "WIELS": "https://wiels.org",
-    "Maxima": "https://maxima.brussels",
     "GC Ten Weyngaert": "https://tenweyngaert.be",
     "Fondation A Stichting": "https://a-stichting.be",
     "Park Poétik": "https://parkpoetik.be",
-    "Recyclart": "https://recyclart.be",
-    "Fuse": "https://fuse.be",
-    "Le Poche": "https://poche.be",
-    "Goudblommeke in Papier": "https://goudblommekeinpapier.be",
-    "Sounds Jazz Club": "https://soundsjazzclub.be",
-    "U-Square": "https://usquare.brussels",
     "Le Senghor": "https://senghor.be",
     "Flagey": "https://flagey.be",
     "Théâtre Mercelis": "https://theatremercelis.be",
