@@ -14,40 +14,141 @@ defaults:
   request_delay_seconds: 1.5
   horizon_days: 120
   keep_past_days: 1
-  llm_model: claude-haiku-4-5-20251001   # check current model names in the API docs
+  llm_model: claude-haiku-4-5   # check current model names in the API docs
 
 sources:
   # --- La Vieille Chéchette, rue du Monténégro 2-6 ------------------------
-  # WARNING: as of 31/08/2026 a fetch of chechette.be returned a Home Depot
-  # product-catalogue clone, not the café's site. Open it in your browser
-  # before enabling. If the domain really is lost, remove this entry —
-  # a scraper would otherwise fill your calendar with dinner plates.
-  # The archived version of the site looks like WordPress + The Events
-  # Calendar (times rendered as "17 h 00 min"), so `wordpress` is the
-  # method to try first once the domain is confirmed healthy.
+  # Checked live via probe.py on 31/08/2026 (an earlier note here about the
+  # domain resolving to a Home Depot clone no longer holds — the real site is
+  # back, WordPress 6.9). The Events Calendar REST API 404s (plugin not
+  # installed), but the page embeds 4 schema.org Event nodes in ld+json, so
+  # `jsonld` is the rung that actually works here — `auto` will reach it.
   - name: La Vieille Chéchette
     url: https://chechette.be/lagenda/
-    method: wordpress
+    method: auto
     colour: "#E8336D"
-    enabled: false
 
   # --- GC Pianofabriek, Fortstraat 35 ------------------------------------
-  # Automated fetching of pianofabriek.be was refused on robots grounds.
-  # Check `python probe.py https://www.pianofabriek.be/activiteiten` — if the
-  # first line says DISALLOWED, do not override it silently; their events are
-  # also published to UiTdatabank (publiq), which has a proper public API and
-  # is the polite route.
+  # robots.txt allows crawling. The agenda is filled in by JavaScript after
+  # load (confirmed via probe.py: 0 ld+json Event nodes, ~0 date-like
+  # strings in the plain-fetch text), so ics/wordpress/jsonld/llm on the raw
+  # HTML all find nothing. UiTdatabank (an earlier note here suggested it)
+  # turned out not to be a free fix — no reference to it anywhere in this
+  # page's own HTML/JS, and its public search API requires a developer key.
+  # method: browser (verified 31/08/2026) renders the page with headless
+  # Chromium first, which does surface real events with clean dates
+  # ("za 12.09.2026" etc.), then runs jsonld/llm extraction against the
+  # rendered HTML. Needs ANTHROPIC_API_KEY, same as the plain llm rung.
   - name: GC Pianofabriek
     url: https://www.pianofabriek.be/activiteiten
-    method: auto
+    method: browser
     colour: "#1B6FE0"
 
   # --- La Tricoterie, rue Théodore Verhaegen 158 -------------------------
-  # URL parameters (?id_mot=, &jour=, &debut_partenaires=) are the SPIP CMS
-  # signature. SPIP does not emit schema.org data by default, so this will
-  # probably fall through to the llm rung. Check probe.py for an .ics link
-  # first — the SPIP agenda plugin sometimes exposes one.
+  # Checked live via probe.py on 31/08/2026. URL parameters (?id_mot=,
+  # &jour=, &debut_partenaires=) are the SPIP CMS signature; SPIP emits no
+  # schema.org data, confirmed (0 ld+json Event nodes). robots.txt disallows
+  # ClaudeBot/GPTBot/ChatGPT-User/CCBot by name but not this scraper's own
+  # identified UA. The page text has ~586 date-like strings, so the `llm`
+  # rung should work well here — it just needs ANTHROPIC_API_KEY set as a
+  # repository secret, which it currently isn't.
   - name: La Tricoterie
     url: https://www.tricoterie.be/fr/agenda/l-agenda-culturel/?lang=fr
     method: auto
     colour: "#00937A"
+
+  # --- Batch of 35 candidate venues, checked 31/08/2026 via a discovery ---
+  # script run on GitHub's runner (this sandbox has no general web access).
+  # For each: does the domain resolve, does the title match the venue, and
+  # is there a findable agenda page. 19 came back clean and are below with
+  # their real agenda URL. 13 hit a dead/parked domain or failed DNS
+  # entirely and are NOT added - the user needs to supply the real URL for:
+  # Maison des Cultures de Saint-Gilles, Maison du Peuple (parked domain),
+  # Maison du Livre (parked/firewalled domain), Cellule 133, Petit Kings
+  # Comedy Club, Garage Cultural, Maison Hannon, Passerelle Louise,
+  # CréaNova, Fondation A Stichting, Théâtre Mercelis, Théâtre de la Toison
+  # d'Or (parked domain), La Madeleine (SSL error). 3 more are ambiguous and
+  # not added either: Musée Horta (real site, but no agenda page found -
+  # might just not run a rotating events programme), Maxima (resolves to
+  # Communa's page *about* the venue, not clearly an events listing), CIVA
+  # (civa.brussels redirects to kanal.brussels - possibly a real
+  # rebrand/merger, possibly wrong; needs confirming before scraping it as
+  # "CIVA"). method: auto for all except GC Ten Weyngaert, which fingerprints
+  # as the exact same Drupal 10 + Commerce 3 stack as GC Pianofabriek - a
+  # strong signal it's JS-rendered too, so it starts on method: browser.
+
+  - name: Recyclart
+    url: https://recyclart.be/fr/agenda
+    method: auto
+
+  - name: Le Jacques Franck
+    url: https://www.lejacquesfranck.be/agenda
+    method: auto
+
+  - name: Fuse
+    url: https://www.fuse.be/events
+    method: auto
+
+  - name: Goudblommeke in Papier
+    url: https://goudblommekeinpapier.be/agenda/
+    method: auto
+
+  - name: Le Poche
+    url: https://poche.be/shows
+    method: auto
+
+  - name: Sounds Jazz Club
+    url: https://www.sounds.brussels/agenda/
+    method: auto
+
+  - name: U-Square
+    url: https://usquare.brussels/en/agenda
+    method: auto
+
+  - name: BRASS
+    url: https://www.lebrass.be/
+    method: auto
+
+  - name: WIELS
+    url: https://wiels.org/en/events
+    method: auto
+
+  - name: Maison Poème
+    url: https://maisonpoeme.be/
+    method: auto
+
+  - name: CCLJ
+    url: https://cclj.be/notre-agenda/
+    method: auto
+
+  - name: GC Ten Weyngaert
+    url: https://www.tenweyngaert.be/activiteiten
+    method: browser
+
+  - name: Park Poétik
+    url: https://parkpoetik.be/nl/agenda/
+    method: auto
+
+  - name: Le Senghor
+    url: https://www.senghor.be/agenda/
+    method: auto
+
+  - name: Flagey
+    url: https://www.flagey.be/agenda
+    method: auto
+
+  - name: BOZAR
+    url: https://www.bozar.be/en/calendar
+    method: auto
+
+  - name: KVS
+    url: https://www.kvs.be/fr/agenda
+    method: auto
+
+  - name: Kaaitheater
+    url: https://kaaitheater.be/nl/agenda
+    method: auto
+
+  - name: Ancienne Belgique
+    url: https://www.abconcerts.be/fr/agenda
+    method: auto

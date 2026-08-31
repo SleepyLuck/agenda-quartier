@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Neighbourhood Agenda — Saint-Gilles</title>
+<meta name="description" content="Concerts, exhibitions, workshops and meet-ups near you in Saint-Gilles and around — gathered straight from local organisations' own websites.">
+<meta property="og:title" content="Neighbourhood Agenda">
+<meta property="og:description" content="What's happening around you?">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#F7F6F2">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23171717'/%3E%3Ccircle cx='16' cy='16' r='7' fill='%23FF5A36'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400..800;1,14..32,400..700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#F7F6F2; --ink:#171717; --ink-soft:#6F6F6F; --ink-faint:#9A9A93;
+    --rule:#DDDDD8; --card:#FFFFFF; --accent:#FF5A36; --accent-ink:#FFFFFF;
+    --focus:#171717;
+    --sp:clamp(1rem,2.5vw,2rem);
+    --radius:14px;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%; scroll-behavior:smooth}
+  @media (prefers-reduced-motion:reduce){ html{scroll-behavior:auto} }
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:"Inter",-apple-system,Segoe UI,sans-serif;
+    font-size:16px; line-height:1.5; padding-bottom:4.2rem;
+  }
+  @media (min-width:701px){ body{padding-bottom:0} }
+  a{color:inherit}
+  button,select,input{font:inherit;color:inherit}
+  button{cursor:pointer}
+  :focus-visible{outline:2px solid var(--focus); outline-offset:2px}
+  h1,h2,h3,h4{font-weight:700;letter-spacing:-.01em;margin:0}
+
+  .wrap{max-width:1320px;margin:0 auto;padding:0 var(--sp)}
+  .eyebrow{font-size:.76rem;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-soft)}
+  .pill-btn{display:inline-flex;align-items:center;gap:.35rem;background:var(--card);border:1px solid var(--rule);
+    border-radius:99px;padding:.5rem 1rem;font-size:.86rem;font-weight:600;min-height:44px}
+  .pill-btn:hover{border-color:var(--ink)}
+  .pill-btn[aria-pressed="true"]{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .linkish{background:none;border:0;padding:0;text-decoration:underline;text-underline-offset:3px;cursor:pointer;font-size:.86rem;color:var(--ink-soft)}
+  .linkish:hover{color:var(--ink)}
+
+  /* topbar ----------------------------------------------------------- */
+  .topbar{position:sticky;top:0;z-index:20;background:rgba(247,246,242,.92);backdrop-filter:blur(6px);border-bottom:1px solid var(--rule)}
+  .topbar .row{display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:.85rem 0}
+  .brand{display:flex;align-items:center;gap:.5rem;font-weight:800;font-size:1.05rem;letter-spacing:-.01em;text-decoration:none}
+  .brand .dot{width:.6rem;height:.6rem;border-radius:99px;background:var(--accent);flex:none}
+  nav.desktop-nav{display:none;gap:1.6rem;align-items:center;font-size:.92rem;font-weight:600}
+  nav.desktop-nav a{text-decoration:none;color:var(--ink-soft)}
+  nav.desktop-nav a:hover{color:var(--ink)}
+  nav.desktop-nav .cta{background:var(--accent);color:var(--accent-ink);border-radius:99px;padding:.5rem 1.1rem}
+  nav.desktop-nav .cta:hover{opacity:.9;color:var(--accent-ink)}
+  @media (min-width:701px){ nav.desktop-nav{display:flex} }
+
+  /* bottom mobile nav -------------------------------------------------*/
+  .bottomnav{position:fixed;left:0;right:0;bottom:0;z-index:20;display:flex;background:var(--card);
+    border-top:1px solid var(--rule);padding:.3rem 0 max(.3rem,env(safe-area-inset-bottom))}
+  @media (min-width:701px){ .bottomnav{display:none} }
+  .bottomnav a{flex:1;display:flex;flex-direction:column;align-items:center;gap:.15rem;padding:.4rem 0;
+    text-decoration:none;color:var(--ink-soft);font-size:.68rem;font-weight:600;min-height:44px}
+  .bottomnav a .ic{font-size:1.15rem}
+
+  /* hero ---------------------------------------------------------------*/
+  .hero{padding:2.6rem 0 1.6rem}
+  .hero h1{font-size:clamp(2rem,5.4vw,3.1rem);line-height:1.04;letter-spacing:-.02em;max-width:16ch}
+  .hero p{margin:.7rem 0 0;color:var(--ink-soft);max-width:52ch;font-size:1.02rem}
+  .searchfield{margin-top:1.3rem;display:flex;align-items:center;gap:.6rem;background:var(--card);
+    border:1px solid var(--rule);border-radius:99px;padding:.2rem .3rem .2rem 1.1rem;max-width:34rem}
+  .searchfield svg{flex:none;opacity:.5}
+  .searchfield input{flex:1;border:0;background:none;padding:.7rem 0;min-width:0;font-size:.98rem}
+  .searchfield input::placeholder{color:var(--ink-faint)}
+  .qf-row{display:flex;flex-wrap:wrap;gap:.55rem;margin-top:1.1rem}
+
+  /* generic section ------------------------------------------------- */
+  .section{padding:2.1rem 0}
+  .section + .section{border-top:1px solid var(--rule)}
+  .section-head{display:flex;align-items:baseline;justify-content:space-between;gap:1rem;margin-bottom:1.1rem}
+  .section-head h2{font-size:1.5rem;letter-spacing:-.01em}
+  .section-head .see-all{font-size:.86rem;font-weight:600;text-decoration:none;color:var(--ink-soft);white-space:nowrap}
+  .section-head .see-all:hover{color:var(--ink)}
+
+  /* card grids -------------------------------------------------------*/
+  .cardgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.1rem}
+  @media (max-width:980px){ .cardgrid{grid-template-columns:repeat(2,1fr)} }
+  @media (max-width:560px){ .cardgrid{grid-template-columns:1fr} }
+  .card{background:var(--card);border:1px solid var(--rule);border-radius:var(--radius);overflow:hidden;
+    display:flex;flex-direction:column;text-decoration:none;color:inherit;transition:transform .15s,box-shadow .15s}
+  .card:hover{transform:translateY(-2px);box-shadow:0 8px 22px -12px rgba(23,23,23,.28)}
+  @media (prefers-reduced-motion:reduce){ .card{transition:none} .card:hover{transform:none} }
+  .thumb{aspect-ratio:16/9;display:flex;align-items:center;justify-content:center;font-size:2.3rem;
+    border-bottom:1px solid var(--rule);overflow:hidden;position:relative}
+  .thumb img{width:100%;height:100%;object-fit:cover;display:block}
+  .card .body{padding:.85rem .95rem 1rem;display:flex;flex-direction:column;gap:.3rem;flex:1}
+  .card .cat{font-size:.68rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);
+    display:flex;align-items:center;gap:.3rem}
+  .card .soon{margin-left:auto;font-size:.66rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;
+    background:var(--ink);color:#fff;border-radius:99px;padding:.15rem .5rem}
+  .card h3{font-size:1rem;line-height:1.28;margin:.1rem 0 0}
+  .card .meta{font-size:.82rem;color:var(--ink-soft);margin-top:.15rem}
+  .card .meta .venue{display:flex;align-items:center;gap:.35rem;margin-top:.1rem}
+  .card .meta .venue .swatch{width:.55rem;height:.55rem;border-radius:99px;flex:none}
+  .card .free{color:var(--accent);font-weight:700}
+  .card .tagrow{display:flex;flex-wrap:wrap;gap:.3rem;margin-top:.4rem}
+
+  /* small tag chips, on cards and list rows ---------------------------*/
+  .tagchip{font-size:.64rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;
+    background:#F1F0EB;color:var(--ink-soft);border-radius:99px;padding:.18rem .55rem;white-space:nowrap}
+  .tagchip.recurring{background:#EAF1FB;color:#1B5FC4}
+  .tagchip.free{background:#FFEFE9;color:#C43E1B}
+
+  /* horizontal scroll on mobile for tonight/weekend ------------------ */
+  .hscroll{display:flex;gap:1.1rem;overflow-x:auto;padding-bottom:.3rem;-webkit-overflow-scrolling:touch;scroll-snap-type:x proximity}
+  .hscroll .card{min-width:15.5rem;scroll-snap-align:start}
+  @media (min-width:701px){ .hscroll{display:grid;grid-template-columns:repeat(4,1fr);overflow:visible} }
+
+  /* category grid ------------------------------------------------------*/
+  .catgrid{display:flex;flex-wrap:wrap;gap:.6rem}
+  .catcard{display:flex;align-items:center;gap:.5rem;background:var(--card);border:1px solid var(--rule);
+    border-radius:99px;padding:.55rem 1rem .55rem .7rem;font-size:.88rem;font-weight:600;min-height:44px}
+  .catcard .emoji{font-size:1.05rem}
+  .catcard .ct{color:var(--ink-faint);font-weight:500}
+  .catcard[aria-pressed="true"]{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .catcard[aria-pressed="true"] .ct{color:#cfcfcf}
+
+  /* tag filter row ------------------------------------------------------*/
+  .tagfiltergrid{display:flex;flex-wrap:wrap;gap:.5rem}
+  .tagfilterbtn{background:var(--card);border:1px solid var(--rule);border-radius:99px;
+    padding:.4rem .85rem;font-size:.78rem;font-weight:700;letter-spacing:.03em;text-transform:uppercase;
+    min-height:38px;color:var(--ink-soft)}
+  .tagfilterbtn[aria-pressed="true"]{background:var(--ink);color:#fff;border-color:var(--ink)}
+
+  /* skeletons ---------------------------------------------------------*/
+  @keyframes shimmer{0%{background-position:-120% 0}100%{background-position:120% 0}}
+  .skel{background:linear-gradient(90deg,var(--card) 25%,#EFEEE8 37%,var(--card) 63%);background-size:400% 100%;
+    animation:shimmer 1.4s ease infinite;border-radius:var(--radius);border:1px solid var(--rule);height:13.5rem}
+  @media (prefers-reduced-motion:reduce){ .skel{animation:none} }
+
+  /* calendar section --------------------------------------------------*/
+  .viewtabs{display:inline-flex;background:var(--card);border:1px solid var(--rule);border-radius:99px;padding:.2rem}
+  .viewtabs button{border:0;background:none;border-radius:99px;padding:.4rem .9rem;font-size:.84rem;font-weight:600;color:var(--ink-soft);min-height:38px}
+  .viewtabs button[aria-pressed="true"]{background:var(--ink);color:#fff}
+  .calctrls{display:flex;flex-wrap:wrap;align-items:center;gap:.7rem;margin:1.1rem 0 1.4rem}
+  .field{display:flex;align-items:center;gap:.45rem;background:var(--card);border:1px solid var(--rule);
+    border-radius:99px;padding:.45rem .9rem;min-height:44px}
+  .field select{border:0;background:none;cursor:pointer;font-size:.86rem;font-weight:600}
+  details.sources,details.tagfilter{margin-top:0}
+  details.sources summary,details.tagfilter summary{cursor:pointer;font-size:.86rem;font-weight:600;color:var(--ink-soft);list-style:none;
+    display:inline-flex;align-items:center;gap:.35rem;min-height:44px}
+  details.sources summary::-webkit-details-marker,details.tagfilter summary::-webkit-details-marker{display:none}
+  details.sources summary:before,details.tagfilter summary:before{content:"▸";font-size:.7rem;transition:transform .15s}
+  details.sources[open] summary:before,details.tagfilter[open] summary:before{transform:rotate(90deg)}
+  .srclist{display:flex;flex-wrap:wrap;gap:.5rem;margin:.8rem 0 0}
+  .srcbtn{display:flex;align-items:center;gap:.4rem;background:var(--card);border:1px solid var(--rule);
+    border-radius:99px;padding:.35rem .8rem;font-size:.8rem;min-height:38px}
+  .srcbtn .swatch{width:.6rem;height:.6rem;border-radius:99px;flex:none}
+  .srcbtn[aria-pressed="false"]{opacity:.4}
+
+  /* month grid ---------------------------------------------------------*/
+  .monthbar{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:.7rem}
+  .monthbar h3{font-size:1.15rem}
+  .monthbar div{display:flex;gap:.3rem}
+  .monthbar button{background:var(--card);border:1px solid var(--rule);border-radius:99px;width:2.2rem;height:2.2rem;line-height:1}
+  .monthbar button:hover{background:var(--ink);color:#fff;border-color:var(--ink)}
+  table.cal{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--rule);border-radius:var(--radius);overflow:hidden}
+  table.cal th{font-size:.68rem;font-weight:600;color:var(--ink-faint);padding:.5rem 0;border-bottom:1px solid var(--rule)}
+  table.cal td{border:1px solid var(--rule);height:3.4rem;vertical-align:top;padding:.25rem .3rem}
+  td.day{cursor:pointer}
+  td.day:hover{background:#FBFAF7}
+  td.out{background:#F1F0EB;color:var(--ink-faint);cursor:default}
+  td.today .dnum{background:var(--accent);color:#fff;border-radius:99px}
+  td.picked{background:#FBFAF7;box-shadow:inset 0 0 0 2px var(--ink)}
+  .dnum{font-size:.72rem;color:var(--ink-soft);display:inline-flex;align-items:center;justify-content:center;
+    width:1.35rem;height:1.35rem;border-radius:99px}
+  .bars{display:flex;flex-wrap:wrap;gap:2px;margin-top:3px}
+  .bar{height:4px;width:8px;border-radius:99px}
+
+  /* agenda list (compact rows, primary browsing surface) -------------- */
+  .daygroup{margin-bottom:1.7rem;scroll-margin-top:4.5rem}
+  .dayhead{display:flex;align-items:baseline;gap:.6rem;border-bottom:1px solid var(--ink);padding-bottom:.35rem;margin-bottom:.6rem}
+  .dayhead .dd{font-weight:800;font-size:1.3rem;letter-spacing:-.02em}
+  .dayhead .rest{color:var(--ink-soft);font-size:.86rem}
+  .ev{display:grid;grid-template-columns:4.6rem 1fr;gap:.9rem;padding:.7rem 0;border-bottom:1px solid var(--rule)}
+  @media (max-width:520px){ .ev{grid-template-columns:1fr;gap:.2rem} }
+  .ev .when{font-variant-numeric:tabular-nums;color:var(--ink-soft);font-size:.85rem;padding-top:.15rem}
+  .ev h4{font-size:1.02rem;line-height:1.28;margin:0 0 .2rem;font-weight:700}
+  .ev .tags{display:flex;flex-wrap:wrap;gap:.2rem .6rem;align-items:center;margin-bottom:.1rem}
+  .ev .cattag{font-size:.7rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
+  .ev .org{display:inline-flex;align-items:center;gap:.35rem;font-size:.82rem;color:var(--ink-soft)}
+  .ev .org .swatch{width:.55rem;height:.55rem;border-radius:99px;flex:none}
+  .ev .soontag{font-size:.66rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;background:var(--ink);
+    color:#fff;border-radius:99px;padding:.1rem .5rem}
+  .ev .where{font-size:.82rem;color:var(--ink-soft)}
+  .ev .desc{font-size:.88rem;margin:.35rem 0 0;max-width:62ch;color:var(--ink-soft)}
+  .ev .tagrow{display:flex;flex-wrap:wrap;gap:.3rem;margin-top:.45rem}
+  .actions{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.6rem}
+  .actions a,.actions button{
+    background:var(--card);border:1px solid var(--rule);border-radius:99px;padding:.4rem .85rem;
+    font-size:.82rem;font-weight:600;text-decoration:none;min-height:38px;display:inline-flex;align-items:center;gap:.3rem
+  }
+  .actions a:hover,.actions button:hover{background:var(--ink);color:#fff;border-color:var(--ink)}
+
+  .empty{background:var(--card);border:1px dashed var(--rule);border-radius:var(--radius);padding:1.6rem;max-width:60ch}
+  .empty h3{margin:0 0 .4rem;font-size:1.1rem}
+  .empty p{color:var(--ink-soft);margin:0 0 .8rem}
+  .notice{background:#FFF3E9;border:1px solid #F3C7A6;border-radius:var(--radius);padding:.7rem .9rem;margin-bottom:.7rem;font-size:.88rem}
+  .notice.stale{background:#FDEAEA;border-color:#E6ABAB}
+  #notices:not(:empty){margin:1rem 0 0}
+
+  /* missing something ---------------------------------------------------*/
+  .missing{background:var(--card);border:1px solid var(--rule);border-radius:var(--radius);padding:2rem;text-align:center}
+  .missing h2{font-size:1.4rem}
+  .missing p{color:var(--ink-soft);margin:.5rem 0 1.2rem}
+  .missing .row{display:flex;flex-wrap:wrap;gap:.7rem;justify-content:center}
+  .missing .row a{background:var(--ink);color:#fff;border-radius:99px;padding:.65rem 1.3rem;text-decoration:none;font-weight:600;font-size:.9rem}
+  .missing .row a.ghost{background:none;color:var(--ink);border:1px solid var(--rule)}
+
+  footer.site{padding:1.8rem 0 2.4rem;color:var(--ink-faint);font-size:.8rem;text-align:center}
+
+  .toast{position:fixed;left:50%;bottom:4.6rem;transform:translateX(-50%);background:var(--ink);color:#fff;
+    border-radius:99px;padding:.6rem 1.1rem;font-size:.86rem;opacity:0;pointer-events:none;transition:opacity .18s;z-index:30}
+  @media (min-width:701px){ .toast{bottom:1.5rem} }
+  .toast.on{opacity:1}
+  [hidden]{display:none !important}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap row">
+    <a class="brand" href="#top"><span class="dot"></span>Neighbourhood Agenda</a>
+    <nav class="desktop-nav">
+      <a href="#top">Explore</a>
+      <a href="#calendrier">Calendar</a>
+      <a href="#" id="mapLink" title="Map coming soon">Map</a>
+      <a class="cta" id="submitLink" href="#">+ Suggest</a>
+    </nav>
+  </div>
+</div>
+
+<div class="wrap">
+
+<header class="hero" id="top">
+  <h1>What's happening around you?</h1>
+  <p id="tagline">Concerts, exhibitions, workshops and meet-ups near you, gathered straight from local organisations' own websites.</p>
+  <label class="searchfield">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+    <input id="q" type="search" placeholder="Search an event, a venue…" aria-label="Search an event">
+  </label>
+  <div class="qf-row" role="group" aria-label="Quick filters">
+    <button class="pill-btn" id="qfTonight" aria-pressed="false">Tonight</button>
+    <button class="pill-btn" id="qfFree" aria-pressed="false">Free</button>
+    <button class="pill-btn" id="qfWeekend" aria-pressed="false">This weekend</button>
+  </div>
+  <div class="meta" style="margin-top:1rem"><span id="updated" class="linkish" style="text-decoration:none;cursor:default">Loading…</span></div>
+</header>
+
+<div id="notices"></div>
+
+<section class="section" id="tonightSection">
+  <div class="section-head">
+    <h2>Tonight</h2>
+    <a class="see-all" href="#calendrier">See full calendar →</a>
+  </div>
+  <div id="tonightBox"><div class="hscroll"><div class="skel"></div><div class="skel"></div><div class="skel"></div><div class="skel"></div></div></div>
+</section>
+
+<section class="section" id="weekendSection">
+  <div class="section-head">
+    <h2>This weekend</h2>
+    <a class="see-all" href="#calendrier">See full calendar →</a>
+  </div>
+  <div id="weekendBox"><div class="hscroll"><div class="skel"></div><div class="skel"></div><div class="skel"></div><div class="skel"></div></div></div>
+</section>
+
+<section class="section" id="categorySection">
+  <div class="section-head"><h2>Explore by category</h2></div>
+  <div class="catgrid" id="cats"></div>
+</section>
+
+<section class="section" id="calendrier">
+  <div class="section-head">
+    <h2>Calendar</h2>
+    <div class="viewtabs" role="group" aria-label="View mode">
+      <button id="viewList" aria-pressed="true">List</button>
+      <button id="viewMonth" aria-pressed="false">Month</button>
+    </div>
+  </div>
+
+  <div class="calctrls">
+    <div class="field">
+      <label for="range">Period</label>
+      <select id="range">
+        <option value="all" selected>Everything upcoming</option>
+        <option value="7">Next 7 days</option>
+        <option value="30">Next 30 days</option>
+      </select>
+    </div>
+    <button class="linkish" id="subscribe">Subscribe to the full calendar</button>
+    <button class="linkish" id="copyfeed">Copy feed link</button>
+  </div>
+
+  <div id="monthView" hidden>
+    <div class="monthbar">
+      <h3 id="monthname">—</h3>
+      <div>
+        <button id="prev" aria-label="Previous month">‹</button>
+        <button id="next" aria-label="Next month">›</button>
+      </div>
+    </div>
+    <table class="cal"><thead><tr id="dow"></tr></thead><tbody id="grid"></tbody></table>
+  </div>
+
+  <details class="tagfilter">
+    <summary>Filter by tag (<span id="tagCount">0</span> active)</summary>
+    <div class="tagfiltergrid" id="tagfilters" style="margin-top:.8rem"></div>
+  </details>
+
+  <details class="sources">
+    <summary>Sources (<span id="srcCount">0</span>)</summary>
+    <div class="srclist" id="sources"></div>
+  </details>
+
+  <main id="agenda" aria-live="polite" style="margin-top:1.4rem"></main>
+</section>
+
+<section class="section" id="submit">
+  <div class="missing">
+    <h2>Missing something?</h2>
+    <p>Know an event or a website we should be following?</p>
+    <div class="row">
+      <a id="proposeEvent" href="#">Suggest an event</a>
+      <a class="ghost" id="suggestSite" href="#">Suggest a website</a>
+    </div>
+  </div>
+</section>
+
+</div>
+
+<footer class="site wrap">Automatic neighbourhood agenda — no sign-up, no account, just what's happening near you.</footer>
+
+<nav class="bottomnav">
+  <a href="#top"><span class="ic">🏠</span>Explore</a>
+  <a href="#calendrier"><span class="ic">📅</span>Calendar</a>
+  <a id="mapLinkMobile" href="#"><span class="ic">🗺️</span>Map</a>
+</nav>
+
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+// Replace with a real contact address to receive submissions/suggestions.
+const CONTACT_EMAIL = "you@example.org";
+
+const state = {
+  data:null, hidden:new Set(), hiddenCat:new Set(), catById:{}, tagById:{},
+  activeTags:new Set(), tz:"Europe/Brussels",
+  month:null, picked:null, q:"", range:"all",
+  qf:{tonight:false, free:false, weekend:false}, view:"list",
+};
+
+const pad = n => String(n).padStart(2,"0");
+const dayKey = iso => { const d=new Date(iso); return `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`; };
+// Events are tied to a real place in Brussels, so their time always shows in
+// Brussels local time - never the viewer's own, which would be wrong for
+// anyone browsing from outside that timezone.
+const fmtTime = iso => new Date(iso).toLocaleTimeString("en-GB",
+  {hour:"2-digit",minute:"2-digit",timeZone:state.tz});
+
+// Never word-split a locale-formatted string - part order varies by ICU build.
+// formatToParts() gives named parts regardless of how they're arranged.
+function dateParts(iso, opts){
+  const parts = new Intl.DateTimeFormat("en-GB", {...opts, timeZone:state.tz}).formatToParts(new Date(iso));
+  const get = t => (parts.find(p=>p.type===t)||{}).value || "";
+  return {weekday:get("weekday"), day:get("day"), month:get("month"), year:get("year")};
+}
+const fmtCardDate = iso => { const p = dateParts(iso, {weekday:"short",day:"numeric",month:"short"});
+  return `${p.weekday} ${p.day} ${p.month}`; };
+const FREE_RE = /\b(free|no charge|free admission|free entry|complimentary|gratuit|gratis|entr[ée]e libre|toegang vrij)\b/i;
+const isFree = e => (e.tags||[]).includes("free") || FREE_RE.test(`${e.title} ${e.description}`);
+const isRecurring = e => (e.tags||[]).includes("recurring");
+
+function toast(msg){ const t=document.getElementById("toast"); t.textContent=msg; t.classList.add("on"); setTimeout(()=>t.classList.remove("on"),2200); }
+
+function weekendRange(now){
+  const day = now.getDay(); // 0 = Sunday
+  const fri = new Date(now); fri.setHours(0,0,0,0); fri.setDate(fri.getDate() + (day===0? -2 : (day<=5? 5-day : -1)));
+  const sun = new Date(fri); sun.setDate(fri.getDate()+2); sun.setHours(23,59,59,999);
+  return [fri, sun];
+}
+
+function soonLabel(e){
+  const now = new Date(), start = new Date(e.start), end = e.end ? new Date(e.end) : null;
+  if(e.all_day) return "";
+  if(end && now >= start && now <= end) return "Ongoing";
+  const diffMin = Math.round((start-now)/60000);
+  if(diffMin >= 0 && diffMin <= 180){
+    return diffMin < 60 ? `In ${diffMin} min` : `In ${Math.round(diffMin/60)} h`;
+  }
+  return "";
+}
+
+// ---------------------------------------------------------------- load
+async function load(){
+  try{
+    const res = await fetch("events.json",{cache:"no-store"});
+    if(!res.ok) throw new Error(res.status);
+    state.data = await res.json();
+  }catch(err){
+    document.getElementById("agenda").innerHTML =
+      `<div class="empty"><h3>No data yet</h3>
+       <p>The file <code>events.json</code> wasn't found. Run <code>python scrape.py</code>,
+       then reload this page. Locally, serve the folder with <code>python -m http.server</code> —
+       opening the file directly blocks loading.</p></div>`;
+    document.getElementById("updated").textContent = "No data";
+    document.getElementById("tonightBox").innerHTML = "";
+    document.getElementById("weekendBox").innerHTML = "";
+    return;
+  }
+  const d = state.data;
+  state.tz = d.timezone || "Europe/Brussels";
+  const notices = [];
+  if(d.sample) notices.push(["", "Sample data. Replace sources.yml with your real sources, then run scrape.py again."]);
+
+  const ageHours = (Date.now() - new Date(d.generated).getTime()) / 36e5;
+  if(ageHours > 48) notices.push(["stale",
+    `Last updated ${Math.floor(ageHours/24)} days ago. The automatic collection seems to have stopped — check the repository's Actions tab.`]);
+
+  const silent = (d.sources||[]).filter(s => s.count === 0).map(s => s.name);
+  if(silent.length) notices.push(["",
+    `No events found for: ${silent.join(", ")}. These sites may have changed structure — run probe.py again.`]);
+
+  const box = document.getElementById("notices");
+  box.innerHTML = notices.map(([cls,msg]) => `<div class="notice ${cls}">${esc(msg)}</div>`).join("");
+  document.getElementById("updated").textContent =
+    `${d.events.length} events · updated ${new Date(d.generated).toLocaleString("en-GB",{dateStyle:"medium",timeStyle:"short"})}`;
+  state.catById = {};
+  (d.categories||[]).forEach(c => state.catById[c.id] = c);
+  state.tagById = {};
+  (d.tags||[]).forEach(t => state.tagById[t.id] = t);
+  const now = new Date();
+  const thisMonth = d.events.some(e => { const s=new Date(e.start);
+    return s.getFullYear()===now.getFullYear() && s.getMonth()===now.getMonth(); });
+  const anchor = thisMonth || !d.events[0] ? now : new Date(d.events[0].start);
+  state.month = new Date(anchor.getFullYear(), anchor.getMonth(), 1);
+
+  const mailtoBase = (subject) => `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(subject)}`;
+  document.getElementById("proposeEvent").href = mailtoBase("Neighbourhood Agenda — I'd like to suggest an event");
+  document.getElementById("suggestSite").href = mailtoBase("Neighbourhood Agenda — a website to follow");
+
+  renderSources(); renderCats(); renderTagFilters(); renderAll();
+}
+
+// ------------------------------------------------------------ filtering
+function baseFiltered(){
+  const q = state.q.trim().toLowerCase();
+  return state.data.events.filter(e=>{
+    if(state.hidden.has(e.source)) return false;
+    if(e.category && state.hiddenCat.has(e.category)) return false;
+    if(state.activeTags.size && ![...state.activeTags].every(t => (e.tags||[]).includes(t))) return false;
+    const catLabel = (state.catById[e.category]||{}).label || "";
+    if(q && !(`${e.title} ${e.location} ${e.description} ${e.source} ${catLabel}`.toLowerCase().includes(q))) return false;
+    return true;
+  });
+}
+
+function visible(){
+  const now = new Date();
+  const limit = state.range === "all" ? null : new Date(now.getTime() + Number(state.range)*864e5);
+  const todayKey = dayKey(now.toISOString());
+  const [wkFri, wkSun] = weekendRange(now);
+  return baseFiltered().filter(e=>{
+    if(limit && new Date(e.start) > limit) return false;
+    if(state.picked && dayKey(e.start) !== state.picked) return false;
+    if(state.qf.tonight && dayKey(e.start) !== todayKey) return false;
+    if(state.qf.free && !isFree(e)) return false;
+    if(state.qf.weekend){ const s=new Date(e.start); if(s < wkFri || s > wkSun) return false; }
+    return true;
+  });
+}
+
+// -------------------------------------------------------------- sources
+function renderSources(){
+  const box = document.getElementById("sources");
+  box.innerHTML = "";
+  document.getElementById("srcCount").textContent = state.data.sources.length;
+  state.data.sources.forEach(s=>{
+    const b = document.createElement("button");
+    b.className = "srcbtn";
+    b.setAttribute("aria-pressed", String(!state.hidden.has(s.name)));
+    b.title = `${s.url}\nmethod: ${s.method}`;
+    b.innerHTML = `<span class="swatch" style="background:${s.colour}"></span>
+                   <span>${esc(s.name)}</span><span style="color:var(--ink-faint)">${s.count}</span>`;
+    b.onclick = ()=>{
+      state.hidden.has(s.name) ? state.hidden.delete(s.name) : state.hidden.add(s.name);
+      b.setAttribute("aria-pressed", String(!state.hidden.has(s.name)));
+      renderAll();
+    };
+    box.appendChild(b);
+  });
+}
+
+// ------------------------------------------------------------ categories
+function renderCats(){
+  const box = document.getElementById("cats");
+  box.innerHTML = "";
+  const counts = {};
+  state.data.events.forEach(e => { if(e.category) counts[e.category] = (counts[e.category]||0) + 1; });
+  (state.data.categories||[]).filter(c => counts[c.id]).forEach(c=>{
+    const b = document.createElement("button");
+    b.className = "catcard";
+    const active = state.hiddenCat.size > 0 && !state.hiddenCat.has(c.id);
+    b.setAttribute("aria-pressed", String(active));
+    b.title = c.hint;
+    b.innerHTML = `<span class="emoji" aria-hidden="true">${c.emoji}</span><span>${esc(c.label)}</span><span class="ct">${counts[c.id]}</span>`;
+    b.onclick = ()=>{
+      const allIds = (state.data.categories||[]).map(c=>c.id);
+      if(active){
+        state.hiddenCat.clear();
+      }else{
+        state.hiddenCat = new Set(allIds.filter(id => id !== c.id));
+      }
+      renderCats(); renderAll();
+      document.getElementById("calendrier").scrollIntoView({behavior:"smooth", block:"start"});
+    };
+    box.appendChild(b);
+  });
+}
+
+// ------------------------------------------------------------------ tags
+function renderTagFilters(){
+  const box = document.getElementById("tagfilters");
+  box.innerHTML = "";
+  const counts = {};
+  state.data.events.forEach(e => (e.tags||[]).forEach(t => { counts[t] = (counts[t]||0) + 1; }));
+  (state.data.tags||[]).filter(t => counts[t.id]).forEach(t=>{
+    const b = document.createElement("button");
+    b.className = "tagfilterbtn";
+    b.setAttribute("aria-pressed", String(state.activeTags.has(t.id)));
+    b.textContent = `${t.label} (${counts[t.id]})`;
+    b.onclick = ()=>{
+      state.activeTags.has(t.id) ? state.activeTags.delete(t.id) : state.activeTags.add(t.id);
+      document.getElementById("tagCount").textContent = state.activeTags.size;
+      renderTagFilters(); renderAll();
+    };
+    box.appendChild(b);
+  });
+  document.getElementById("tagCount").textContent = state.activeTags.size;
+}
+
+function tagChipsHTML(e, max){
+  const tags = (e.tags||[]).filter(t => t !== "free"); // free already has its own badge
+  const list = max ? tags.slice(0, max) : tags;
+  return list.map(t=>{
+    const meta = state.tagById[t];
+    const cls = t === "recurring" ? "tagchip recurring" : "tagchip";
+    return `<span class="${cls}">${esc(meta ? meta.label : t)}</span>`;
+  }).join("");
+}
+
+// ------------------------------------------------------- tonight/weekend
+function thumbHTML(e){
+  const cat = state.catById[e.category];
+  const emoji = cat ? cat.emoji : "📍";
+  if(e.image){
+    return `<div class="thumb">
+      <img src="${esc(e.image)}" alt="" loading="lazy"
+           onerror="this.parentElement.style.background='color-mix(in srgb, ${e.colour} 16%, var(--card))';this.parentElement.innerHTML='<span aria-hidden=true>${emoji}</span>'">
+    </div>`;
+  }
+  return `<div class="thumb" aria-hidden="true" style="background:color-mix(in srgb, ${e.colour} 16%, var(--card))">${emoji}</div>`;
+}
+
+function cardHTML(e){
+  const cat = state.catById[e.category];
+  const recurring = isRecurring(e);
+  const dateLine = recurring && e.end && dayKey(e.end) !== dayKey(e.start)
+    ? `Ongoing through ${fmtCardDate(e.end)}`
+    : (e.all_day ? fmtCardDate(e.start) : `${fmtCardDate(e.start)} · ${fmtTime(e.start)}`);
+  const soon = soonLabel(e);
+  const free = isFree(e);
+  return `<a class="card" href="${esc(e.url)}" target="_blank" rel="noopener">
+    ${thumbHTML(e)}
+    <div class="body">
+      <div class="cat">${cat ? esc(cat.label) : ""}${soon ? `<span class="soon">${esc(soon)}</span>` : ""}</div>
+      <h3>${esc(e.title)}</h3>
+      <div class="meta">${esc(dateLine)}</div>
+      <div class="meta venue"><span class="swatch" style="background:${e.colour}"></span>${esc(e.source)}${free ? ` · <span class="free">Free</span>` : ""}</div>
+      <div class="tagrow">${free ? `<span class="tagchip free">Free</span>` : ""}${tagChipsHTML(e, 3)}</div>
+    </div>
+  </a>`;
+}
+
+function renderTonight(){
+  const now = new Date(), todayKey = dayKey(now.toISOString());
+  const list = baseFiltered().filter(e => dayKey(e.start) === todayKey)
+    .sort((a,b)=> new Date(a.start) - new Date(b.start));
+  const box = document.getElementById("tonightBox");
+  if(!list.length){
+    box.innerHTML = `<div class="empty"><h3>Nothing planned tonight</h3>
+      <p>Try the weekend instead.</p>
+      <a class="linkish" href="#weekendSection">See the weekend →</a></div>`;
+    return;
+  }
+  box.innerHTML = `<div class="hscroll">${list.slice(0,8).map(cardHTML).join("")}</div>`;
+}
+
+function renderWeekend(){
+  const [fri, sun] = weekendRange(new Date());
+  const list = baseFiltered().filter(e => { const s=new Date(e.start); return s>=fri && s<=sun; })
+    .sort((a,b)=> new Date(a.start) - new Date(b.start));
+  const box = document.getElementById("weekendBox");
+  if(!list.length){
+    box.innerHTML = `<div class="empty"><h3>Nothing planned this weekend yet</h3>
+      <p>Check the full calendar for what's coming up next.</p>
+      <a class="linkish" href="#calendrier">See the calendar →</a></div>`;
+    return;
+  }
+  box.innerHTML = `<div class="hscroll">${list.slice(0,8).map(cardHTML).join("")}</div>`;
+}
+
+// ----------------------------------------------------------- month grid
+function renderGrid(){
+  const m = state.month, y = m.getFullYear(), mo = m.getMonth();
+  document.getElementById("monthname").textContent =
+    m.toLocaleDateString("en-GB",{month:"long",year:"numeric"});
+  const dow = document.getElementById("dow");
+  dow.innerHTML = ["Mo","Tu","We","Th","Fr","Sa","Su"].map(d=>`<th>${d}</th>`).join("");
+
+  const byDay = {};
+  visible().forEach(e=>{ (byDay[dayKey(e.start)] ||= []).push(e); });
+
+  const firstDow = (new Date(y,mo,1).getDay()+6)%7;      // Monday = 0
+  const total = new Date(y,mo+1,0).getDate();
+  const todayKey = dayKey(new Date().toISOString());
+  let html = "", cell = 0, row = "";
+
+  for(let i=0;i<firstDow;i++){ row += `<td class="out"></td>`; cell++; }
+  for(let d=1; d<=total; d++){
+    const key = `${y}-${pad(mo+1)}-${pad(d)}`;
+    const evs = byDay[key] || [];
+    const bars = evs.slice(0,6).map(e=>`<span class="bar" style="background:${e.colour}"></span>`).join("");
+    const cls = ["day", key===todayKey?"today":"", key===state.picked?"picked":""].join(" ");
+    row += `<td class="${cls}" data-key="${key}" tabindex="0" role="button"
+             aria-label="${d}, ${evs.length} event(s)"><span class="dnum">${d}</span><div class="bars">${bars}</div></td>`;
+    cell++;
+    if(cell%7===0){ html += `<tr>${row}</tr>`; row=""; }
+  }
+  while(cell%7!==0){ row += `<td class="out"></td>`; cell++; }
+  if(row) html += `<tr>${row}</tr>`;
+  const grid = document.getElementById("grid");
+  grid.innerHTML = html;
+  grid.querySelectorAll("td.day").forEach(td=>{
+    const pick = ()=>{
+      state.picked = (state.picked === td.dataset.key) ? null : td.dataset.key;
+      renderAll();
+      const g = document.getElementById("d"+td.dataset.key);
+      if(g) g.scrollIntoView({behavior:"smooth", block:"start"});
+    };
+    td.onclick = pick;
+    td.onkeydown = ev => { if(ev.key==="Enter"||ev.key===" "){ ev.preventDefault(); pick(); } };
+  });
+}
+
+// --------------------------------------------------------------- agenda
+function renderAgenda(){
+  const list = visible();
+  const box = document.getElementById("agenda");
+  if(!list.length){
+    box.innerHTML = `<div class="empty"><h3>No events match these filters</h3>
+      <p>Re-enable a source, clear the search, or click the selected day again.</p>
+      <button class="linkish" id="clearFilters">Reset filters</button></div>`;
+    const btn = document.getElementById("clearFilters");
+    if(btn) btn.onclick = ()=>{
+      state.hidden.clear(); state.hiddenCat.clear(); state.activeTags.clear(); state.picked=null; state.q="";
+      state.qf = {tonight:false, free:false, weekend:false};
+      document.getElementById("q").value = "";
+      ["qfTonight","qfFree","qfWeekend"].forEach(id=>document.getElementById(id).setAttribute("aria-pressed","false"));
+      renderSources(); renderCats(); renderTagFilters(); renderAll();
+    };
+    return;
+  }
+  const groups = {};
+  list.forEach(e=>{ (groups[dayKey(e.start)] ||= []).push(e); });
+
+  box.innerHTML = Object.keys(groups).sort().map(key=>{
+    const p = dateParts(groups[key][0].start, {weekday:"long",month:"long",year:"numeric"});
+    return `<section class="daygroup" id="d${key}">
+      <div class="dayhead"><span class="dd">${key.slice(8)}</span>
+      <span class="rest">${esc(p.month)} ${esc(p.year)} — ${esc(p.weekday)}</span></div>
+      ${groups[key].map(evHTML).join("")}
+    </section>`;
+  }).join("");
+
+  box.querySelectorAll("button[data-uid]").forEach(b=>{
+    b.onclick = ()=> downloadICS(state.data.events.find(e=>e.uid===b.dataset.uid));
+  });
+}
+
+function evHTML(e){
+  const recurring = isRecurring(e);
+  const when = recurring && e.end && dayKey(e.end) !== dayKey(e.start) ? "ongoing"
+    : e.all_day ? "all day"
+    : fmtTime(e.start) + (e.end && dayKey(e.end)===dayKey(e.start) ? "–"+fmtTime(e.end) : "");
+  const cat = state.catById[e.category];
+  const soon = soonLabel(e);
+  const free = isFree(e);
+  return `<article class="ev">
+    <div class="when">${when}</div>
+    <div>
+      <div class="tags">
+        ${cat ? `<span class="cattag">${cat.emoji} ${esc(cat.label)}</span>` : ""}
+        ${soon ? `<span class="soontag">${esc(soon)}</span>` : ""}
+      </div>
+      <h4>${esc(e.title)}</h4>
+      <div class="org"><span class="swatch" style="background:${e.colour}"></span>${esc(e.source)}</div>
+      ${e.location ? `<div class="where">${esc(e.location)}</div>` : ""}
+      ${e.description ? `<p class="desc">${esc(e.description)}</p>` : ""}
+      <div class="tagrow">${free ? `<span class="tagchip free">Free</span>` : ""}${tagChipsHTML(e)}</div>
+      <div class="actions">
+        <button data-uid="${e.uid}">Add to my calendar</button>
+        <a href="${esc(e.url)}" target="_blank" rel="noopener">View on site →</a>
+      </div>
+    </div>
+  </article>`;
+}
+
+// ------------------------------------------------------------------ ICS
+function icsStamp(iso, allDay){
+  const d = new Date(iso);
+  if(allDay) return ";VALUE=DATE:" + d.getFullYear()+pad(d.getMonth()+1)+pad(d.getDate());
+  return ":" + d.toISOString().replace(/[-:]/g,"").replace(/\.\d{3}/,"");
+}
+const icsEsc = s => String(s||"").replace(/\\/g,"\\\\").replace(/;/g,"\\;").replace(/,/g,"\\,").replace(/\n/g,"\\n");
+
+function downloadICS(e){
+  if(!e) return;
+  const mins = 120;
+  const L = ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//neighbourhood-agenda//EN","BEGIN:VEVENT",
+    "UID:"+e.uid+"@neighbourhood-agenda",
+    "DTSTAMP:"+new Date().toISOString().replace(/[-:]/g,"").replace(/\.\d{3}/,""),
+    "DTSTART"+icsStamp(e.start,e.all_day)];
+  if(e.end) L.push("DTEND"+icsStamp(e.end,e.all_day));
+  L.push("SUMMARY:"+icsEsc(e.title));
+  if(e.location) L.push("LOCATION:"+icsEsc(e.location));
+  if(e.url) L.push("URL:"+e.url);
+  L.push("DESCRIPTION:"+icsEsc([e.description, e.url].filter(Boolean).join("\n")));
+  L.push("BEGIN:VALARM","ACTION:DISPLAY","TRIGGER:-PT"+mins+"M",
+                      "DESCRIPTION:"+icsEsc(e.title),"END:VALARM");
+  L.push("END:VEVENT","END:VCALENDAR");
+  const blob = new Blob([L.join("\r\n")+"\r\n"],{type:"text/calendar;charset=utf-8"});
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = e.title.replace(/[^\p{L}\p{N}]+/gu,"-").slice(0,50).replace(/^-|-$/g,"") + ".ics";
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(()=>URL.revokeObjectURL(a.href), 4000);
+  toast("Calendar file downloaded — open it to add this event to your calendar");
+}
+
+const feedURL = () => new URL("events.ics", location.href).href;
+
+// ------------------------------------------------------------------ misc
+const esc = s => String(s??"").replace(/[&<>"']/g, c =>
+  ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+
+function renderAll(){
+  renderTonight(); renderWeekend();
+  if(state.view === "month") renderGrid();
+  renderAgenda();
+}
+
+function setView(v){
+  state.view = v;
+  document.getElementById("viewList").setAttribute("aria-pressed", String(v==="list"));
+  document.getElementById("viewMonth").setAttribute("aria-pressed", String(v==="month"));
+  document.getElementById("monthView").hidden = v !== "month";
+  if(v==="month") renderGrid();
+}
+
+document.getElementById("viewList").onclick = ()=> setView("list");
+document.getElementById("viewMonth").onclick = ()=> setView("month");
+document.getElementById("prev").onclick = ()=>{ state.month.setMonth(state.month.getMonth()-1); renderGrid(); };
+document.getElementById("next").onclick = ()=>{ state.month.setMonth(state.month.getMonth()+1); renderGrid(); };
+document.getElementById("q").oninput = e => { state.q = e.target.value; renderAll(); };
+document.getElementById("range").onchange = e => { state.range = e.target.value; renderAll(); };
+
+function toggleQF(key, btnId){
+  const btn = document.getElementById(btnId);
+  state.qf[key] = !state.qf[key];
+  btn.setAttribute("aria-pressed", String(state.qf[key]));
+  renderAll();
+}
+document.getElementById("qfTonight").onclick = ()=> toggleQF("tonight","qfTonight");
+document.getElementById("qfFree").onclick = ()=> toggleQF("free","qfFree");
+document.getElementById("qfWeekend").onclick = ()=> toggleQF("weekend","qfWeekend");
+
+document.getElementById("subscribe").onclick = ()=>{
+  location.href = feedURL().replace(/^https?:/, "webcal:");
+};
+document.getElementById("copyfeed").onclick = async ()=>{
+  try{ await navigator.clipboard.writeText(feedURL()); toast("Feed link copied"); }
+  catch{ prompt("Copy this link:", feedURL()); }
+};
+["mapLink","mapLinkMobile"].forEach(id=>{
+  document.getElementById(id).onclick = (ev)=>{ ev.preventDefault(); toast("Map coming soon"); };
+});
+document.getElementById("submitLink").onclick = (ev)=>{
+  ev.preventDefault();
+  document.getElementById("submit").scrollIntoView({behavior:"smooth", block:"start"});
+};
+
+load();
+</script>
+</body>
+</html>

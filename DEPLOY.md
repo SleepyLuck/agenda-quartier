@@ -49,6 +49,11 @@ Settings → Secrets and variables → Actions → New repository secret → nam
 workflows triggered by forks. Set a spending limit on the key: a runaway loop on a page with
 hundreds of events is the realistic failure mode, not an attacker.
 
+If the key was created under an organisation (an "identity-linked" key rather than a plain
+project key), the API also requires the workspace it belongs to — the run log will say so
+explicitly (`anthropic-workspace-id is required...`) if this applies to you. Find the workspace
+ID in the console and add it as a second repository secret, `ANTHROPIC_WORKSPACE_ID`.
+
 If every source resolves to `ics`, `wordpress` or `jsonld`, skip this step entirely. The
 scraper runs fine without the key and simply never reaches the `llm` rung.
 

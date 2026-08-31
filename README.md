@@ -43,6 +43,15 @@ Edit `sources.yml`:
 | `jsonld` | `schema.org/Event` in a `<script type="application/ld+json">` | exact when present |
 | `llm` | `ANTHROPIC_API_KEY` set | works on anything, occasionally wrong |
 
+A fifth method, `browser`, is **not** part of `auto` — set it explicitly per source. It renders
+the page with headless Chromium (via Playwright) before extraction, for agendas where the
+events are injected by JavaScript after load and the plain HTML has nothing in it — `probe.py`
+will show ~0 date-like strings in that case. It then runs the same `jsonld`/`llm` extraction
+against the rendered page, so it still needs `ANTHROPIC_API_KEY` unless the rendered page
+happens to carry ld+json. It's slower (a real browser launch per source) and CI needs an extra
+`playwright install --with-deps chromium` step — reach for it only when `probe.py` confirms
+the other four genuinely can't see the data.
+
 Before adding a site, check for the free options: open the page source and search for
 `ld+json`, try `<site>/wp-json/tribe/events/v1/events`, and look for a "subscribe"/"iCal"
 link on the agenda page. Each one you find is one source that will never silently drift.
@@ -62,6 +71,40 @@ whether the dates are injected by JavaScript, in which case no rung will see the
 need to find the underlying feed instead.
 
 `python scrape.py --dry-run` then prints what each source returned, still writing nothing.
+
+## Categories
+
+Every event is filed under one of a fixed set of categories (Music, Culture & Arts, Film &
+Cinema, Markets & Fairs, Civic & Local Politics, and so on — see `CATEGORIES` in `extract.py`
+for the full list). A model classifies each new event from its title and description; this
+needs `ANTHROPIC_API_KEY` set, same as the `llm` extraction method. Without a key, everything
+files under "Other" rather than failing the run.
+
+Classification only costs an API call for events not seen on a previous run — `scrape.py`
+reads the category already assigned in the last published `docs/events.json` and reuses it, so
+a normal twice-daily refresh only classifies whatever's new. Categories double as an ICS
+`CATEGORIES` entry (alongside the source organisation) and as a filter in the page's sidebar.
+
+## Tags, translation and images
+
+Each event also gets zero or more tags from a fixed list (Free, Kids, Family, Evening, Late
+Night, Outdoor, Drop-in, Registration Required, Live, Dance, Food & Drink, Activism,
+Sustainability, Accessible, Recurring — see `TAGS` in `extract.py`). `free`/`evening`/`late-night`
+are worked out from the event's own time and a free-text regex; `recurring` is also set
+automatically for anything spanning 3+ days (an exhibition, not a single date). The rest come
+from the same kind of cached, title/description-only model call as categories.
+
+Titles, descriptions and locations are translated to English before classification (again
+cached by event, so a repeat run only translates what's new) — proper nouns and venue names are
+left alone. Without `ANTHROPIC_API_KEY` set, tagging falls back to just the deterministic tags
+and translation is skipped entirely (events stay in their original language) rather than
+failing the run.
+
+Per-event images come through automatically wherever the source page structures them (schema.org
+`image`, or The Events Calendar's WordPress API); for sources scraped by the `llm` rung, where
+the image is stripped along with the rest of the markup before the text ever reaches the model,
+each event instead falls back to that page's own `og:image` — a real photo rather than a blank
+placeholder, just not a unique one per event.
 
 ## Publish it
 
