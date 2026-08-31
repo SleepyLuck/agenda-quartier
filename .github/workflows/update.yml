@@ -27,6 +27,9 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      - name: TEMP diagnostic probe
+        run: python probe.py --all | tee -a "$GITHUB_STEP_SUMMARY"
+
       - name: Collect events
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
