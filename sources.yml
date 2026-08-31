@@ -18,35 +18,38 @@ defaults:
 
 sources:
   # --- La Vieille Chéchette, rue du Monténégro 2-6 ------------------------
-  # WARNING: as of 31/08/2026 a fetch of chechette.be returned a Home Depot
-  # product-catalogue clone, not the café's site. Open it in your browser
-  # before enabling. If the domain really is lost, remove this entry —
-  # a scraper would otherwise fill your calendar with dinner plates.
-  # The archived version of the site looks like WordPress + The Events
-  # Calendar (times rendered as "17 h 00 min"), so `wordpress` is the
-  # method to try first once the domain is confirmed healthy.
+  # Checked live via probe.py on 31/08/2026 (an earlier note here about the
+  # domain resolving to a Home Depot clone no longer holds — the real site is
+  # back, WordPress 6.9). The Events Calendar REST API 404s (plugin not
+  # installed), but the page embeds 4 schema.org Event nodes in ld+json, so
+  # `jsonld` is the rung that actually works here — `auto` will reach it.
   - name: La Vieille Chéchette
     url: https://chechette.be/lagenda/
-    method: wordpress
+    method: auto
     colour: "#E8336D"
-    enabled: false
 
   # --- GC Pianofabriek, Fortstraat 35 ------------------------------------
-  # Automated fetching of pianofabriek.be was refused on robots grounds.
-  # Check `python probe.py https://www.pianofabriek.be/activiteiten` — if the
-  # first line says DISALLOWED, do not override it silently; their events are
-  # also published to UiTdatabank (publiq), which has a proper public API and
-  # is the polite route.
+  # Checked live via probe.py on 31/08/2026: robots.txt actually allows
+  # crawling (an earlier note here saying it was disallowed no longer
+  # holds), but that doesn't matter — the page has 0 ld+json Event nodes and
+  # ~0 date-like strings in its rendered text, meaning the agenda is filled
+  # in by JavaScript after load. No rung here (ics/wordpress/jsonld/llm) can
+  # see it; the LLM rung would just get an empty page. Their events are also
+  # published to UiTdatabank (publiq), which has a proper public API and is
+  # the polite, working route — not yet wired up in extract.py.
   - name: GC Pianofabriek
     url: https://www.pianofabriek.be/activiteiten
     method: auto
     colour: "#1B6FE0"
 
   # --- La Tricoterie, rue Théodore Verhaegen 158 -------------------------
-  # URL parameters (?id_mot=, &jour=, &debut_partenaires=) are the SPIP CMS
-  # signature. SPIP does not emit schema.org data by default, so this will
-  # probably fall through to the llm rung. Check probe.py for an .ics link
-  # first — the SPIP agenda plugin sometimes exposes one.
+  # Checked live via probe.py on 31/08/2026. URL parameters (?id_mot=,
+  # &jour=, &debut_partenaires=) are the SPIP CMS signature; SPIP emits no
+  # schema.org data, confirmed (0 ld+json Event nodes). robots.txt disallows
+  # ClaudeBot/GPTBot/ChatGPT-User/CCBot by name but not this scraper's own
+  # identified UA. The page text has ~586 date-like strings, so the `llm`
+  # rung should work well here — it just needs ANTHROPIC_API_KEY set as a
+  # repository secret, which it currently isn't.
   - name: La Tricoterie
     url: https://www.tricoterie.be/fr/agenda/l-agenda-culturel/?lang=fr
     method: auto
