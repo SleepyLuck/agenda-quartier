@@ -36,6 +36,9 @@ jobs:
       - name: Install Playwright's Chromium (for JS-rendered sources)
         run: playwright install --with-deps chromium
 
+      - name: TEMP diagnostic - discover new venue URLs
+        run: python diag_discover.py
+
       - name: Collect events
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
