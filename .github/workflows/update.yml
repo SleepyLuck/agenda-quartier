@@ -27,11 +27,14 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: TEMP diagnostic - can a headless browser see the agenda?
-        run: |
-          pip install playwright
-          playwright install --with-deps chromium
-          python diag_browser.py
+      - name: Cache Playwright browsers
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
+
+      - name: Install Playwright's Chromium (for JS-rendered sources)
+        run: playwright install --with-deps chromium
 
       - name: Collect events
         env:

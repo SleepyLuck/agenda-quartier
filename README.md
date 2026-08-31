@@ -43,6 +43,15 @@ Edit `sources.yml`:
 | `jsonld` | `schema.org/Event` in a `<script type="application/ld+json">` | exact when present |
 | `llm` | `ANTHROPIC_API_KEY` set | works on anything, occasionally wrong |
 
+A fifth method, `browser`, is **not** part of `auto` — set it explicitly per source. It renders
+the page with headless Chromium (via Playwright) before extraction, for agendas where the
+events are injected by JavaScript after load and the plain HTML has nothing in it — `probe.py`
+will show ~0 date-like strings in that case. It then runs the same `jsonld`/`llm` extraction
+against the rendered page, so it still needs `ANTHROPIC_API_KEY` unless the rendered page
+happens to carry ld+json. It's slower (a real browser launch per source) and CI needs an extra
+`playwright install --with-deps chromium` step — reach for it only when `probe.py` confirms
+the other four genuinely can't see the data.
+
 Before adding a site, check for the free options: open the page source and search for
 `ld+json`, try `<site>/wp-json/tribe/events/v1/events`, and look for a "subscribe"/"iCal"
 link on the agenda page. Each one you find is one source that will never silently drift.

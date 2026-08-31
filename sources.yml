@@ -29,24 +29,19 @@ sources:
     colour: "#E8336D"
 
   # --- GC Pianofabriek, Fortstraat 35 ------------------------------------
-  # Checked live via probe.py on 31/08/2026: robots.txt actually allows
-  # crawling (an earlier note here saying it was disallowed no longer
-  # holds), but that doesn't matter — the page has 0 ld+json Event nodes and
-  # ~0 date-like strings in its rendered text, meaning the agenda is filled
-  # in by JavaScript after load. No rung here (ics/wordpress/jsonld/llm) can
-  # see it.
-  # Investigated 31/08/2026 whether UiTdatabank (publiq) could stand in, per
-  # an earlier (unverified) note here: the page's own HTML/JS has no
-  # reference to UiTdatabank/publiq at all, and UiTdatabank's public search
-  # API requires an API key (401 on every unauthenticated probe) — it's not
-  # a free drop-in fix. Whatever populates this page client-side wasn't
-  # identified from the static assets alone. Left enabled (reports found=0
-  # harmlessly); needs either a UiTdatabank developer key + confirmation
-  # this venue is actually listed there, or reverse-engineering the page's
-  # own bundled JS for its real AJAX endpoint.
+  # robots.txt allows crawling. The agenda is filled in by JavaScript after
+  # load (confirmed via probe.py: 0 ld+json Event nodes, ~0 date-like
+  # strings in the plain-fetch text), so ics/wordpress/jsonld/llm on the raw
+  # HTML all find nothing. UiTdatabank (an earlier note here suggested it)
+  # turned out not to be a free fix — no reference to it anywhere in this
+  # page's own HTML/JS, and its public search API requires a developer key.
+  # method: browser (verified 31/08/2026) renders the page with headless
+  # Chromium first, which does surface real events with clean dates
+  # ("za 12.09.2026" etc.), then runs jsonld/llm extraction against the
+  # rendered HTML. Needs ANTHROPIC_API_KEY, same as the plain llm rung.
   - name: GC Pianofabriek
     url: https://www.pianofabriek.be/activiteiten
-    method: auto
+    method: browser
     colour: "#1B6FE0"
 
   # --- La Tricoterie, rue Théodore Verhaegen 158 -------------------------

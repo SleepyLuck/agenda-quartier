@@ -1,10 +1,16 @@
 """Turn a web page into a list of events.
 
-Four strategies, tried in order of reliability:
+Four strategies, tried in order of reliability when method is "auto":
   1. ics       - the site publishes an iCalendar feed
   2. wordpress - the site runs The Events Calendar plugin (REST API)
   3. jsonld    - the page embeds schema.org Event data
   4. llm       - last resort: send the page text to a model and ask for JSON
+
+A fifth strategy, "browser", is opt-in only (not part of "auto"): it renders
+the page with a headless browser first, for agendas filled in by JavaScript
+after load where the plain HTML has no event data at all. Set it explicitly
+per source in sources.yml when probe.py shows ~0 date-like strings in the
+page text but the site clearly has an agenda.
 
 Every strategy returns the same dict shape, see normalise_event().
 """
@@ -61,6 +67,29 @@ def fetch(url: str, respect_robots: bool = True) -> str:
     if "charset" not in r.headers.get("content-type", "").lower():
         r.encoding = r.apparent_encoding or "utf-8"   # accents break without this
     return r.text
+
+
+def fetch_rendered(url: str, respect_robots: bool = True, wait_ms: int = 3000) -> str:
+    """Like fetch(), but executes the page's JavaScript first via a headless
+    browser. For agendas where the plain HTML has no event data at all -
+    only reach for this when probe.py confirms that's actually the case."""
+    if respect_robots and not robots_allows(url):
+        raise PermissionError(f"robots.txt disallows {url}")
+    from playwright.sync_api import Error as PlaywrightError
+    from playwright.sync_api import sync_playwright
+
+    with sync_playwright() as p:
+        browser = p.chromium.launch(args=["--no-sandbox"])
+        try:
+            page = browser.new_page(user_agent=UA)
+            try:
+                page.goto(url, wait_until="networkidle", timeout=TIMEOUT * 1000)
+            except PlaywrightError:
+                pass  # sites that poll continuously never reach networkidle; use what loaded
+            page.wait_for_timeout(wait_ms)
+            return page.content()
+        finally:
+            browser.close()
 
 
 # ---------------------------------------------------------------- helpers
@@ -436,6 +465,11 @@ def extract(source_cfg: dict, defaults: dict) -> tuple[list[dict], str, str]:
                 events = parse_jsonld(fetch(url, robots), name, url, tz)
             elif step == "llm":
                 events = parse_llm(fetch(url, robots), name, url, tz, model)
+            elif step == "browser":
+                rendered = fetch_rendered(url, robots)
+                events = parse_jsonld(rendered, name, url, tz)
+                if not events:
+                    events = parse_llm(rendered, name, url, tz, model)
             else:
                 continue
             if events:
