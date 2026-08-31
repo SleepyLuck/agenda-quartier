@@ -300,6 +300,19 @@ Page text:
 {text}"""
 
 
+def call_anthropic(body: dict, api_key: str) -> dict:
+    """POST to the Messages API. Raises with the response body included, so a
+    4xx (bad model name, no credit, etc.) is diagnosable from the log alone."""
+    r = requests.post(
+        "https://api.anthropic.com/v1/messages",
+        headers={"x-api-key": api_key, "anthropic-version": "2023-06-01",
+                 "content-type": "application/json"},
+        json=body, timeout=120)
+    if not r.ok:
+        raise requests.HTTPError(f"{r.status_code} {r.reason}: {r.text[:300]}", response=r)
+    return r.json()
+
+
 def parse_llm(html: str, source: str, page_url: str, tz: str, model: str) -> list[dict]:
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
@@ -318,13 +331,8 @@ def parse_llm(html: str, source: str, page_url: str, tz: str, model: str) -> lis
                 today=datetime.now().date().isoformat(), url=page_url, text=text),
         }],
     }
-    r = requests.post(
-        "https://api.anthropic.com/v1/messages",
-        headers={"x-api-key": api_key, "anthropic-version": "2023-06-01",
-                 "content-type": "application/json"},
-        json=body, timeout=120)
-    r.raise_for_status()
-    reply = "".join(b.get("text", "") for b in r.json().get("content", [])
+    data = call_anthropic(body, api_key)
+    reply = "".join(b.get("text", "") for b in data.get("content", [])
                     if b.get("type") == "text").strip()
     reply = re.sub(r"^```(?:json)?|```$", "", reply, flags=re.M).strip()
     try:
@@ -422,13 +430,8 @@ def classify_categories(events: list[dict], model: str, cache: dict[str, str]) -
         }
         mapping: dict = {}
         try:
-            r = requests.post(
-                "https://api.anthropic.com/v1/messages",
-                headers={"x-api-key": api_key, "anthropic-version": "2023-06-01",
-                         "content-type": "application/json"},
-                json=body, timeout=120)
-            r.raise_for_status()
-            reply = "".join(b.get("text", "") for b in r.json().get("content", [])
+            data = call_anthropic(body, api_key)
+            reply = "".join(b.get("text", "") for b in data.get("content", [])
                             if b.get("type") == "text").strip()
             reply = re.sub(r"^```(?:json)?|```$", "", reply, flags=re.M).strip()
             mapping = json.loads(reply)
@@ -448,7 +451,7 @@ def extract(source_cfg: dict, defaults: dict) -> tuple[list[dict], str, str]:
     tz = source_cfg.get("tz") or defaults.get("timezone", "Europe/Brussels")
     method = source_cfg.get("method", "auto")
     robots = source_cfg.get("respect_robots", defaults.get("respect_robots", True))
-    model = defaults.get("llm_model", "claude-haiku-4-5-20251001")
+    model = defaults.get("llm_model", "claude-haiku-4-5")
 
     order = [method] if method != "auto" else ["ics", "wordpress", "jsonld", "llm"]
     last_error = ""

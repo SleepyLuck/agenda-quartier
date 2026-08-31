@@ -158,7 +158,7 @@ def main() -> int:
         time.sleep(delay)
 
     events = sorted(all_events.values(), key=lambda e: e["start"])
-    classify_categories(events, defaults.get("llm_model", "claude-haiku-4-5-20251001"),
+    classify_categories(events, defaults.get("llm_model", "claude-haiku-4-5"),
                          load_category_cache())
     payload = {
         "generated": datetime.now(ZoneInfo(tz)).isoformat(),

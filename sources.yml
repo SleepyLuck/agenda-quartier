@@ -14,7 +14,7 @@ defaults:
   request_delay_seconds: 1.5
   horizon_days: 120
   keep_past_days: 1
-  llm_model: claude-haiku-4-5-20251001   # check current model names in the API docs
+  llm_model: claude-haiku-4-5   # check current model names in the API docs
 
 sources:
   # --- La Vieille Chéchette, rue du Monténégro 2-6 ------------------------
