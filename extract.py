@@ -795,12 +795,22 @@ def translate_events(events: list[dict], model: str, cache: dict[str, dict]) -> 
 # --------------------------------------------------------- time enrichment
 
 TIME_IN_TEXT_RE = re.compile(r"\b([01]?\d|2[0-3])[:h]([0-5]\d)\b")
+TIME_KEYWORD_RE = re.compile(
+    r"\b(doors?|starts?|begins?|opens?|show(?:time)?s?|portes?|d[ée]but|ouverture|aanvang|begint?)\b", re.I)
 
 
 def find_time_in_text(text: str) -> tuple[int, int] | None:
-    """First plausible HH:MM (or HHhMM) in text."""
-    m = TIME_IN_TEXT_RE.search(text)
-    return (int(m.group(1)), int(m.group(2))) if m else None
+    """A plausible-looking HH:MM (or HHhMM) is not automatically a showtime -
+    seen in production: Le Jacques Franck's detail pages returned 01:26,
+    01:42, 01:31... real embedded-video durations, not opening times, from
+    an earlier version of this function that trusted the first bare match
+    anywhere on the page. Only trust one that sits within a short window
+    after an explicit time-context word (doors, start, ouverture...)."""
+    for kw in TIME_KEYWORD_RE.finditer(text):
+        m = TIME_IN_TEXT_RE.search(text, kw.end(), kw.end() + 25)
+        if m:
+            return int(m.group(1)), int(m.group(2))
+    return None
 
 
 def enrich_event_time(ev: dict, tz: str, respect_robots: bool) -> str | None:

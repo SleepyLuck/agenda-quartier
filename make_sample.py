@@ -19,6 +19,14 @@ IMG = "https://picsum.photos/seed/{seed}/640/360"
 # (source index, day offset, hour, minute, end hour offset in days (None = same-day),
 #  title, location, description, category, extra tag ids, image seed or None)
 RAW = [
+    (3, 0, 20, 0, None, "Concert: string quartet", "Concert Hall, main auditorium",
+     "Doors 19:30.", "music", ["live"], "quartet"),
+    (2, 0, 19, 30, None, "Opening: local photographers group show", "Committee gallery room",
+     "Wine and small bites.", "culture-arts", ["free"], "opening"),
+    (0, 0, 18, 0, None, "Play reading: new voices in Brussels theatre", "Community centre, room 2",
+     "", "culture-arts", ["live"], None),
+    (1, 0, 12, 30, None, "Lunchtime documentary screening", "Library auditorium",
+     "Bring your own lunch.", "film-cinema", ["free", "drop-in"], "cinema"),
     (0, 1, 18, 30, None, "Repair Café", "Church Street 12",
      "Bring a broken appliance and we'll fix it together.", "environment", ["drop-in", "sustainability"], "repair"),
     (1, 2, 10, 0, None, "Storytime in French and Dutch", "Children's section",
