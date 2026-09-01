@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-01T16:05:53.932487+02:00",
+  "generated": "2026-09-01T15:36:38.164792+02:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
@@ -618,7 +618,7 @@
       ]
     },
     {
-      "title": "Meet and Greet - Soupah! Cup of tea? Fruit me!",
+      "title": "Afternoon Tea Chat: Soupah! Cup of tea? Fruit me!",
       "start": "2026-09-02T00:00:00+02:00",
       "end": null,
       "all_day": true,
@@ -631,8 +631,10 @@
       "colour": "#7B49D6",
       "time_checked": 2,
       "translated": true,
-      "category": "culture-arts",
-      "tags": []
+      "category": "community-social",
+      "tags": [
+        "food-drink"
+      ]
     },
     {
       "title": "Supermarket - Plants & Seeds",
@@ -786,8 +788,7 @@
       "category": "film-cinema",
       "tags": [
         "evening",
-        "live",
-        "recurring"
+        "live"
       ]
     },
     {
@@ -844,8 +845,7 @@
       "category": "film-cinema",
       "tags": [
         "evening",
-        "live",
-        "recurring"
+        "live"
       ]
     },
     {
@@ -912,7 +912,7 @@
       "all_day": false,
       "location": "Studio 5",
       "description": "Documentary special screening with director in attendance",
-      "url": "https://www.flagey.be/en/agenda/res-nullius-n94f",
+      "url": "https://www.flagey.be/en/order/add/event/49443",
       "image": null,
       "source": "Flagey",
       "uid": "ed7b430feafaea6a",
@@ -920,8 +920,7 @@
       "translated": true,
       "category": "film-cinema",
       "tags": [
-        "evening",
-        "recurring"
+        "evening"
       ]
     },
     {
@@ -960,6 +959,25 @@
       "tags": [
         "evening",
         "live"
+      ]
+    },
+    {
+      "title": "shoe/farmburen",
+      "start": "2026-09-03T20:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "De Kriekelaar",
+      "description": "Dance",
+      "url": "https://kaaitheater.be/nl/agenda/26-27/shoe-farm",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "0af57fcaa86d15e8",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "dance",
+        "evening"
       ]
     },
     {
@@ -1020,25 +1038,6 @@
       ]
     },
     {
-      "title": "shoe/farmburen",
-      "start": "2026-09-03T20:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "De Kriekelaar",
-      "description": "Dance",
-      "url": "https://kaaitheater.be/nl/agenda/26-27/shoe-farm",
-      "image": null,
-      "source": "Kaaitheater",
-      "uid": "0af57fcaa86d15e8",
-      "colour": "#7B49D6",
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "dance",
-        "evening"
-      ]
-    },
-    {
       "title": "The End of Oak Street",
       "start": "2026-09-03T21:00:00+02:00",
       "end": null,
@@ -1084,7 +1083,7 @@
       "location": "Fuse Brussels, Room 01",
       "description": "NIKOLINA, Ornella, Gaiveu, Osmos",
       "url": "https://www.fuse.be/events/fuse-presents-nikolina-ornella",
-      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788269842",
+      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788259484",
       "source": "Fuse",
       "uid": "580dba2c7b4522ef",
       "colour": "#C0392B",
@@ -1249,8 +1248,7 @@
       "category": "film-cinema",
       "tags": [
         "evening",
-        "live",
-        "recurring"
+        "live"
       ]
     },
     {
@@ -1260,7 +1258,7 @@
       "all_day": false,
       "location": "Bozar",
       "description": "A Night of Mellon Collie and Infinite Sadness",
-      "url": "https://www.bozar.be/en/calendar/billy-corgar",
+      "url": "https://www.bozar.be/en/calendar/billy-corgan",
       "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
       "source": "BOZAR",
       "uid": "06c5543f8cebb243",
@@ -1307,8 +1305,7 @@
       "category": "film-cinema",
       "tags": [
         "evening",
-        "live",
-        "recurring"
+        "live"
       ]
     },
     {
@@ -1395,7 +1392,7 @@
       "location": "Fuse Brussels, Room 01",
       "description": "Nørbak, Tauceti, LaDetail, Hadone",
       "url": "https://www.fuse.be/events/fuse-presents-hadone-curates-w-nørbak-tauceti",
-      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788269842",
+      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788259484",
       "source": "Fuse",
       "uid": "65ee7f39ba9478c6",
       "colour": "#C0392B",
@@ -1453,8 +1450,8 @@
       "start": "2026-09-05T19:00:00+02:00",
       "end": null,
       "all_day": false,
-      "location": "AB",
-      "description": "One of the essential new voices in contemporary soul music",
+      "location": "Ancienne Belgique",
+      "description": "One of contemporary soul's essential new voices",
       "url": "https://www.abconcerts.be/fr/agenda/yebba/a10Qw00000GTKoXIAX",
       "image": "https://abconcerts.be/assets/website/components/images/og-image.a79fdf49.jpg",
       "source": "Ancienne Belgique",
@@ -1679,7 +1676,7 @@
       "all_day": true,
       "location": "Le Jacques Franck",
       "description": "10 days of screenings! Free admission",
-      "url": "https://lejacquesfranck.be/event/le-jacques-franck-fait-son-cinema/2026-09-06/",
+      "url": "https://lejacquesfranck.be/event/le-jacques-franck-fait-son-cinéma/2026-09-06/",
       "image": "https://lejacquesfranck.be/resources/assets/img/logo-og.png",
       "source": "Le Jacques Franck",
       "uid": "d53e661c1b9902f1",
@@ -1803,8 +1800,7 @@
       "translated": true,
       "category": "film-cinema",
       "tags": [
-        "live",
-        "recurring"
+        "live"
       ]
     },
     {
@@ -1938,8 +1934,7 @@
       "translated": true,
       "category": "film-cinema",
       "tags": [
-        "evening",
-        "recurring"
+        "evening"
       ]
     },
     {
@@ -2128,8 +2123,8 @@
       "start": "2026-09-08T19:00:00+02:00",
       "end": null,
       "all_day": false,
-      "location": "AB",
-      "description": "An energetic performance blending punk, jazz, hip-hop and electronic influences",
+      "location": "Ancienne Belgique",
+      "description": "A high-energy show blending punk, jazz, hip-hop and electronic influences",
       "url": "https://www.abconcerts.be/fr/agenda/ecca-vandal/a10Qw00000GkWWjIAN",
       "image": "https://abconcerts.be/assets/website/components/images/og-image.a79fdf49.jpg",
       "source": "Ancienne Belgique",
@@ -2605,7 +2600,7 @@
       "location": "Fuse Brussels, Room 01",
       "description": "2HOT2PLAY, ALT8, Maëlle, ATARAXY",
       "url": "https://www.fuse.be/events/fuse-presents-2hot2play-alt8",
-      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788269842",
+      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788259484",
       "source": "Fuse",
       "uid": "a729cd04668ba94f",
       "colour": "#C0392B",
@@ -2901,7 +2896,7 @@
       "location": "Fuse Brussels, Room 01",
       "description": "Andy C, FarFlow, Cedex & Higher Underground, Bredren, Boycot, Sassy Girl",
       "url": "https://www.fuse.be/events/fuse-presents-andy-c",
-      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788269842",
+      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788259484",
       "source": "Fuse",
       "uid": "1181c38f8dea9464",
       "colour": "#C0392B",
@@ -2954,21 +2949,22 @@
       ]
     },
     {
-      "title": "KRAPP / KVS - Copyriot",
+      "title": "KRAPP / KVS Copyriot",
       "start": "2026-09-12T00:00:00+02:00",
       "end": "2027-05-29T00:00:00+02:00",
       "all_day": true,
       "location": "KVS",
-      "description": "",
+      "description": "KRAPP / KVS. Language: NL. Subtitles: FR, EN",
       "url": "https://www.kvs.be/fr/Evenement/copyriot-2",
       "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
       "source": "KVS",
-      "uid": "9fd0d14c7c28b900",
+      "uid": "ecb47ffe501ed59b",
       "colour": "#E07A00",
       "time_checked": 2,
       "translated": true,
       "category": "culture-arts",
       "tags": [
+        "live",
         "recurring"
       ]
     },
@@ -3083,25 +3079,6 @@
       ]
     },
     {
-      "title": "Copyriot",
-      "start": "2026-09-12T20:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "CC De Factorij",
-      "description": "Theater by Krapp, KVS",
-      "url": "https://kaaitheater.be/nl/agenda/26-27/copyriot",
-      "image": null,
-      "source": "Kaaitheater",
-      "uid": "2c9617a1a3d1cf15",
-      "colour": "#7B49D6",
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "evening",
-        "live"
-      ]
-    },
-    {
       "title": "F*CK LOLITA",
       "start": "2026-09-12T20:30:00+02:00",
       "end": null,
@@ -3112,6 +3089,25 @@
       "image": null,
       "source": "Kaaitheater",
       "uid": "4882ad83a98c543f",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "evening",
+        "live"
+      ]
+    },
+    {
+      "title": "Copyriot",
+      "start": "2026-09-12T20:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "CC De Factorij",
+      "description": "Theater by Krapp, KVS",
+      "url": "https://kaaitheater.be/nl/agenda/26-27/copyriot",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "2c9617a1a3d1cf15",
       "colour": "#7B49D6",
       "translated": true,
       "category": "culture-arts",
@@ -3146,11 +3142,10 @@
       "location": "Fuse Brussels, Room 01 & Motion",
       "description": "future.666, DJ Hyperdrive, Miamor, Rare Mamba, Nico Morano",
       "url": "https://www.fuse.be/events/voodoo-village-afterparty",
-      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788269842",
+      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788259484",
       "source": "Fuse",
       "uid": "b8f4781c2fbe9cfa",
       "colour": "#C0392B",
-      "time_checked": 2,
       "translated": true,
       "category": "music",
       "tags": [
@@ -3244,7 +3239,6 @@
       "source": "La Vieille Chéchette",
       "uid": "823aed52da90ad0b",
       "colour": "#E8336D",
-      "time_checked": 2,
       "translated": true,
       "category": "talks-discussions",
       "tags": [
@@ -3302,7 +3296,6 @@
       "source": "La Vieille Chéchette",
       "uid": "a43a904789c6b981",
       "colour": "#E8336D",
-      "time_checked": 2,
       "translated": true,
       "category": "food-drink",
       "tags": [
@@ -3323,7 +3316,6 @@
       "source": "GC Pianofabriek",
       "uid": "f9261825d2fea01b",
       "colour": "#1B6FE0",
-      "time_checked": 2,
       "translated": true,
       "category": "culture-arts",
       "tags": [
@@ -3333,9 +3325,9 @@
     },
     {
       "title": "A Beginner's Guide to John Coltrane by Guy Peters",
-      "start": "2026-09-15T19:30:00+02:00",
+      "start": "2026-09-15T00:00:00+02:00",
       "end": null,
-      "all_day": false,
+      "all_day": true,
       "location": "Ancienne Belgique",
       "description": "Lecture on jazz's most influential innovator. Free - registration required",
       "url": "https://www.abconcerts.be/fr/agenda/a-beginners-guide-to-john-coltrane-door-guy-peters/a10Qw00000OvNBoIAN",
@@ -3343,7 +3335,6 @@
       "source": "Ancienne Belgique",
       "uid": "3b6db98f3bd8bbcd",
       "colour": "#C0392B",
-      "time_checked": 2,
       "translated": true,
       "category": "talks-discussions",
       "tags": [
@@ -3365,7 +3356,6 @@
       "source": "La Vieille Chéchette",
       "uid": "d27c11b377186b93",
       "colour": "#E8336D",
-      "time_checked": 2,
       "translated": true,
       "category": "music",
       "tags": [
@@ -3375,24 +3365,20 @@
       ]
     },
     {
-      "title": "STADPLURAAL | Hostile Architecture: A guided tour walking over, under, and through with Stripping Architecture",
+      "title": "STADPLURAAL | Hostile Architecture: Walking over, under, and through – guided tour",
       "start": "2026-09-16T00:00:00+02:00",
       "end": null,
-      "all_day": false,
+      "all_day": true,
       "location": "Recyclart",
-      "description": "",
+      "description": "w/ Stripping Architecture",
       "url": "https://recyclart.be/fr/agenda/stadpluraal-hostile-architecture-walking-over-under-and-through-guided-tour",
       "image": "https://recyclart.be/build/assets/og-image-DfQ-XJK0.png",
       "source": "Recyclart",
-      "uid": "f6fe5798f2ae3a50",
+      "uid": "58e8fba208765c13",
       "colour": "#E07A00",
-      "time_checked": 2,
       "translated": true,
       "category": "talks-discussions",
-      "tags": [
-        "late-night",
-        "outdoor"
-      ]
+      "tags": []
     },
     {
       "title": "(John) Coltrane 100: A Love Supreme - Salva Sanchis & Anne Teresa De Keersmaeker",
@@ -3406,7 +3392,6 @@
       "source": "Ancienne Belgique",
       "uid": "44879015689a323b",
       "colour": "#C0392B",
-      "time_checked": 2,
       "translated": true,
       "category": "culture-arts",
       "tags": [
@@ -3417,9 +3402,9 @@
     },
     {
       "title": "Screening SǒN & Live Soundtrack",
-      "start": "2026-09-16T19:30:00+02:00",
+      "start": "2026-09-16T00:00:00+02:00",
       "end": null,
-      "all_day": false,
+      "all_day": true,
       "location": "Ancienne Belgique",
       "description": "Unique screening of a short film with live musical accompaniment. Free",
       "url": "https://www.abconcerts.be/fr/agenda/screening-sn-live-soundtrack/a10Qw00000GqIHPIA3",
@@ -3427,7 +3412,6 @@
       "source": "Ancienne Belgique",
       "uid": "5b9f5a7e74bd2093",
       "colour": "#C0392B",
-      "time_checked": 2,
       "translated": true,
       "category": "film-cinema",
       "tags": [
@@ -3505,7 +3489,6 @@
       "source": "GC Pianofabriek",
       "uid": "a877e76cd0c31ec0",
       "colour": "#1B6FE0",
-      "time_checked": 2,
       "translated": true,
       "category": "talks-discussions",
       "tags": [
@@ -3516,9 +3499,9 @@
     },
     {
       "title": "Look Who's Talking: Annaïk Lou Pitteloud & Maxime Perriot",
-      "start": "2026-09-17T11:00:00+02:00",
+      "start": "2026-09-17T00:00:00+02:00",
       "end": null,
-      "all_day": false,
+      "all_day": true,
       "location": "WIELS, Avenue Van Volxemlaan 354, 1190 Brussels",
       "description": "Guided tour event",
       "url": "https://wiels.org/en/events/look-whos-talking-annaik-lou-pitteloud-maxime-perriot",
@@ -3526,18 +3509,15 @@
       "source": "WIELS",
       "uid": "0038fc11c20ba076",
       "colour": "#E07A00",
-      "time_checked": 2,
       "translated": true,
       "category": "talks-discussions",
-      "tags": [
-        "live"
-      ]
+      "tags": []
     },
     {
       "title": "Back/Stage Opening Reception",
-      "start": "2026-09-17T18:00:00+02:00",
+      "start": "2026-09-17T00:00:00+02:00",
       "end": null,
-      "all_day": false,
+      "all_day": true,
       "location": "Ancienne Belgique",
       "description": "Free",
       "url": "https://www.abconcerts.be/fr/agenda/vernissage-backstage/a10Qw00000Ii3flIAB",
@@ -3545,7 +3525,6 @@
       "source": "Ancienne Belgique",
       "uid": "ce2095768717a51e",
       "colour": "#C0392B",
-      "time_checked": 2,
       "translated": true,
       "category": "culture-arts",
       "tags": [
@@ -3677,7 +3656,6 @@
       "source": "La Vieille Chéchette",
       "uid": "582eac9dd0faa23b",
       "colour": "#E8336D",
-      "time_checked": 2,
       "translated": true,
       "category": "music",
       "tags": [
@@ -3687,23 +3665,21 @@
       ]
     },
     {
-      "title": "Re#encounter Release Party with Kaito & Joos + Black Koyo + Jawad",
+      "title": "Release party Re#encounter",
       "start": "2026-09-18T00:00:00+02:00",
       "end": null,
-      "all_day": false,
+      "all_day": true,
       "location": "Recyclart",
-      "description": "",
+      "description": "w/ Kaito & Joos + Black Koyo + Jawad",
       "url": "https://recyclart.be/fr/agenda/release-party-re-encounter",
       "image": "https://recyclart.be/build/assets/og-image-DfQ-XJK0.png",
       "source": "Recyclart",
-      "uid": "4f13ac15de48e5f5",
+      "uid": "8750752a77a3d09c",
       "colour": "#E07A00",
-      "time_checked": 2,
       "translated": true,
       "category": "music",
       "tags": [
         "dance",
-        "late-night",
         "live"
       ]
     },
@@ -3715,11 +3691,10 @@
       "location": "Fuse Brussels, Room 01",
       "description": "Clara Cuvé, PETERBLUE, JEKKAMAÏ, Holiness",
       "url": "https://www.fuse.be/events/fuse-presents-sesh-w-clara-cuvé-peterblue",
-      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788269842",
+      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788259484",
       "source": "Fuse",
       "uid": "eb789e8673c2f646",
       "colour": "#C0392B",
-      "time_checked": 2,
       "translated": true,
       "category": "music",
       "tags": [
@@ -3729,9 +3704,9 @@
     },
     {
       "title": "Heritage Days: the Blomme Building",
-      "start": "2026-09-18T11:00:00+02:00",
+      "start": "2026-09-18T00:00:00+02:00",
       "end": "2026-09-19T00:00:00+02:00",
-      "all_day": false,
+      "all_day": true,
       "location": "WIELS, Avenue Van Volxemlaan 354, 1190 Brussels",
       "description": "Guided tour of the Blomme Building",
       "url": "https://wiels.org/en/events/journees-du-patrimoine-visites-guides-du-batiment-blomme",
@@ -3739,7 +3714,6 @@
       "source": "WIELS",
       "uid": "8324ab3846d3b783",
       "colour": "#E07A00",
-      "time_checked": 2,
       "translated": true,
       "category": "talks-discussions",
       "tags": []
@@ -3756,7 +3730,6 @@
       "source": "GC Ten Weyngaert",
       "uid": "fbf451977f305cee",
       "colour": "#0F8CA8",
-      "time_checked": 2,
       "translated": true,
       "category": "film-cinema",
       "tags": [
@@ -3775,7 +3748,6 @@
       "source": "KVS",
       "uid": "d7109050856c0762",
       "colour": "#E07A00",
-      "time_checked": 2,
       "translated": true,
       "category": "culture-arts",
       "tags": [
@@ -3906,7 +3878,6 @@
       "source": "La Vieille Chéchette",
       "uid": "ab0374aac5d814ca",
       "colour": "#E8336D",
-      "time_checked": 2,
       "translated": true,
       "category": "talks-discussions",
       "tags": [
@@ -3921,11 +3892,10 @@
       "location": "Fuse Brussels, Room 01",
       "description": "PACT (live), Romain Garcia (live)",
       "url": "https://www.fuse.be/events/fuse-presents-pact-joachim-pastor-joris-delacroix-teho",
-      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788269842",
+      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788259484",
       "source": "Fuse",
       "uid": "0d085f1c97d74a1e",
       "colour": "#C0392B",
-      "time_checked": 2,
       "translated": true,
       "category": "music",
       "tags": [
@@ -3945,7 +3915,6 @@
       "source": "BRASS",
       "uid": "2feed3aa81f093c2",
       "colour": "#00937A",
-      "time_checked": 2,
       "translated": true,
       "category": "culture-arts",
       "tags": [
@@ -3964,7 +3933,6 @@
       "source": "GC Ten Weyngaert",
       "uid": "ac866f26123a018e",
       "colour": "#0F8CA8",
-      "time_checked": 2,
       "translated": true,
       "category": "film-cinema",
       "tags": [
@@ -3983,7 +3951,6 @@
       "source": "KVS",
       "uid": "d09e20e7f053cc6d",
       "colour": "#E07A00",
-      "time_checked": 2,
       "translated": true,
       "category": "culture-arts",
       "tags": [
@@ -4134,7 +4101,6 @@
       "source": "GC Ten Weyngaert",
       "uid": "c79507c2711b942e",
       "colour": "#0F8CA8",
-      "time_checked": 2,
       "translated": true,
       "category": "markets-fairs",
       "tags": [
@@ -4172,7 +4138,6 @@
       "source": "La Vieille Chéchette",
       "uid": "743ed3a4539540a8",
       "colour": "#E8336D",
-      "time_checked": 2,
       "translated": true,
       "category": "talks-discussions",
       "tags": [
@@ -4192,7 +4157,6 @@
       "source": "La Vieille Chéchette",
       "uid": "31d932d1b1211e03",
       "colour": "#E8336D",
-      "time_checked": 2,
       "translated": true,
       "category": "food-drink",
       "tags": [
@@ -4234,7 +4198,6 @@
       "source": "La Vieille Chéchette",
       "uid": "af60cb5155b12ffb",
       "colour": "#E8336D",
-      "time_checked": 2,
       "translated": true,
       "category": "music",
       "tags": [
@@ -4255,7 +4218,6 @@
       "source": "GC Pianofabriek",
       "uid": "bba6e402389cb872",
       "colour": "#1B6FE0",
-      "time_checked": 2,
       "translated": true,
       "category": "family-children",
       "tags": [
@@ -4276,7 +4238,6 @@
       "source": "GC Pianofabriek",
       "uid": "c46aa53ee473e3a5",
       "colour": "#1B6FE0",
-      "time_checked": 2,
       "translated": true,
       "category": "family-children",
       "tags": [
@@ -4286,29 +4247,28 @@
       ]
     },
     {
-      "title": "Customization Workshop: Wheelchairs, Crutches, Canes with Fogo",
+      "title": "Customisation Workshop ★ Wheelchair, Crutches, Canes ★",
       "start": "2026-09-23T00:00:00+02:00",
       "end": null,
-      "all_day": false,
+      "all_day": true,
       "location": "Recyclart",
-      "description": "",
+      "description": "w/ Fogo",
       "url": "https://recyclart.be/fr/agenda/customisation-workshop-fauteuil-roulant-bequilles-cannes",
       "image": "https://recyclart.be/build/assets/og-image-DfQ-XJK0.png",
       "source": "Recyclart",
-      "uid": "88ffe1a846a3bbf2",
+      "uid": "3cd13051519e4037",
       "colour": "#E07A00",
-      "time_checked": 2,
       "translated": true,
       "category": "workshops-creative",
       "tags": [
-        "late-night"
+        "accessible"
       ]
     },
     {
       "title": "Sewing Drop-in Hours",
       "start": "2026-09-23T00:00:00+02:00",
       "end": "2026-12-16T00:00:00+01:00",
-      "all_day": false,
+      "all_day": true,
       "location": "Recyclart",
       "description": "Sewing permanence",
       "url": "https://recyclart.be/fr/agenda/permanence-couture",
@@ -4316,7 +4276,6 @@
       "source": "Recyclart",
       "uid": "08559cd85a493a45",
       "colour": "#E07A00",
-      "time_checked": 2,
       "translated": true,
       "category": "workshops-creative",
       "tags": [
@@ -4338,7 +4297,6 @@
       "source": "KVS",
       "uid": "20d6ac9fc7a0aaff",
       "colour": "#E07A00",
-      "time_checked": 2,
       "translated": true,
       "category": "culture-arts",
       "tags": [
@@ -4372,7 +4330,7 @@
       "all_day": false,
       "location": "Studio 5",
       "description": "Cinema - documentary, special screening with director in attendance. €0.00–€10.50",
-      "url": "https://www.flagey.be/en/agenda/res-nullius-n94f",
+      "url": "https://www.flagey.be/en/order/add/event/49446",
       "image": null,
       "source": "Flagey",
       "uid": "5ff568d34b06f8cf",
@@ -4396,7 +4354,6 @@
       "source": "La Vieille Chéchette",
       "uid": "913ee27cf1c58fe3",
       "colour": "#E8336D",
-      "time_checked": 2,
       "translated": true,
       "category": "community-social",
       "tags": [
@@ -4416,7 +4373,6 @@
       "source": "GC Pianofabriek",
       "uid": "49e0a8bcc622617c",
       "colour": "#1B6FE0",
-      "time_checked": 2,
       "translated": true,
       "category": "talks-discussions",
       "tags": [
@@ -4437,7 +4393,6 @@
       "source": "GC Pianofabriek",
       "uid": "6d524653a65d3639",
       "colour": "#1B6FE0",
-      "time_checked": 2,
       "translated": true,
       "category": "family-children",
       "tags": [
@@ -4458,7 +4413,6 @@
       "source": "GC Pianofabriek",
       "uid": "a977796cc3a90e32",
       "colour": "#1B6FE0",
-      "time_checked": 2,
       "translated": true,
       "category": "family-children",
       "tags": [
@@ -4468,22 +4422,20 @@
       ]
     },
     {
-      "title": "Haunted Folklore with Phantom Wizard + Ghazal Faghihi",
+      "title": "Haunted Folklore",
       "start": "2026-09-24T00:00:00+02:00",
       "end": null,
-      "all_day": false,
+      "all_day": true,
       "location": "Recyclart",
-      "description": "",
+      "description": "w/ Phantom Wizard + Ghazal Faghihi",
       "url": "https://recyclart.be/fr/agenda/haunted-folklore-3",
       "image": "https://recyclart.be/build/assets/og-image-DfQ-XJK0.png",
       "source": "Recyclart",
-      "uid": "32cba8eb81cdd5df",
+      "uid": "84e56b39e7aa9dde",
       "colour": "#E07A00",
-      "time_checked": 2,
       "translated": true,
       "category": "music",
       "tags": [
-        "late-night",
         "live"
       ]
     },
@@ -4499,7 +4451,6 @@
       "source": "GC Ten Weyngaert",
       "uid": "e14b81ae940cd1c0",
       "colour": "#0F8CA8",
-      "time_checked": 2,
       "translated": true,
       "category": "food-drink",
       "tags": [
@@ -4546,23 +4497,20 @@
       ]
     },
     {
-      "title": "Exheat presents: Truck Lips Premiere with Deli Girls + Wanton Witch + Djabaldjass",
+      "title": "Exheat presents: Truck Lips Premiere",
       "start": "2026-09-25T00:00:00+02:00",
       "end": null,
-      "all_day": false,
+      "all_day": true,
       "location": "Recyclart",
-      "description": "",
+      "description": "w/ Deli Girls + Wanton Witch + Djabaldjass",
       "url": "https://recyclart.be/fr/agenda/exheat-presents-truck-lips-premiere",
       "image": "https://recyclart.be/build/assets/og-image-DfQ-XJK0.png",
       "source": "Recyclart",
-      "uid": "4b5d02951a7d29f1",
+      "uid": "dbb44ccaf8e9b380",
       "colour": "#E07A00",
-      "time_checked": 2,
       "translated": true,
       "category": "music",
       "tags": [
-        "dance",
-        "late-night",
         "live"
       ]
     },
@@ -4578,7 +4526,6 @@
       "source": "GC Ten Weyngaert",
       "uid": "29ca1929ae85beb0",
       "colour": "#0F8CA8",
-      "time_checked": 2,
       "translated": true,
       "category": "culture-arts",
       "tags": [
@@ -4654,7 +4601,6 @@
       "source": "GC Pianofabriek",
       "uid": "5530130fceb72fef",
       "colour": "#1B6FE0",
-      "time_checked": 2,
       "translated": true,
       "category": "music",
       "tags": [
@@ -4674,7 +4620,6 @@
       "source": "GC Pianofabriek",
       "uid": "d14460d23adaeeee",
       "colour": "#1B6FE0",
-      "time_checked": 2,
       "translated": true,
       "category": "music",
       "tags": [
@@ -4691,11 +4636,10 @@
       "location": "Fuse Brussels, Room 01",
       "description": "Featuring Polar Inertia (LIVE), Luigi Tozzi (LIVE), Zara, Yogg, T.A.M.22",
       "url": "https://www.fuse.be/events/fuse-presents-polar-inertia-live-luigi-tozzi-live",
-      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788269842",
+      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788259484",
       "source": "Fuse",
       "uid": "a2b28632df1d2144",
       "colour": "#C0392B",
-      "time_checked": 2,
       "translated": true,
       "category": "music",
       "tags": [
@@ -4827,7 +4771,6 @@
       "source": "La Vieille Chéchette",
       "uid": "4c662ccdcfaa7c01",
       "colour": "#E8336D",
-      "time_checked": 2,
       "translated": true,
       "category": "food-drink",
       "tags": [
@@ -4848,7 +4791,6 @@
       "source": "Le Poche",
       "uid": "c6386813b0191358",
       "colour": "#8A7500",
-      "time_checked": 2,
       "translated": true,
       "category": "culture-arts",
       "tags": [
@@ -4868,7 +4810,6 @@
       "source": "La Vieille Chéchette",
       "uid": "1c9e251a0601f0c5",
       "colour": "#E8336D",
-      "time_checked": 2,
       "translated": true,
       "category": "music",
       "tags": [
@@ -4888,7 +4829,6 @@
       "source": "KVS",
       "uid": "e127d54f51c6107a",
       "colour": "#E07A00",
-      "time_checked": 2,
       "translated": true,
       "category": "culture-arts",
       "tags": [
@@ -4928,7 +4868,6 @@
       "source": "GC Pianofabriek",
       "uid": "0aae0ae9c93a3649",
       "colour": "#1B6FE0",
-      "time_checked": 2,
       "translated": true,
       "category": "talks-discussions",
       "tags": [
@@ -4957,23 +4896,20 @@
       ]
     },
     {
-      "title": "Female Boyfriends with Nazanin + Mona Felah + Erykah + Butch PM + Aili",
+      "title": "Female Boyfriends",
       "start": "2026-10-02T00:00:00+02:00",
       "end": "2026-10-03T00:00:00+02:00",
-      "all_day": false,
+      "all_day": true,
       "location": "Recyclart",
-      "description": "",
+      "description": "w/ Nazanin + Mona Felah + Erykah + Butch PM + Aili",
       "url": "https://recyclart.be/fr/agenda/female-boyfriends",
       "image": "https://recyclart.be/build/assets/og-image-DfQ-XJK0.png",
       "source": "Recyclart",
-      "uid": "b6521a45905b9320",
+      "uid": "6c7bc8c0687cf14b",
       "colour": "#E07A00",
-      "time_checked": 2,
       "translated": true,
       "category": "music",
       "tags": [
-        "dance",
-        "late-night",
         "live"
       ]
     },
@@ -4985,11 +4921,10 @@
       "location": "Fuse Brussels, Room 01",
       "description": "Featuring The Ghost, Gonno, Penelope, Nefeli",
       "url": "https://www.fuse.be/events/fuse-presents-the-ghost-gonno",
-      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788269842",
+      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788259484",
       "source": "Fuse",
       "uid": "96a87d70251094ee",
       "colour": "#C0392B",
-      "time_checked": 2,
       "translated": true,
       "category": "music",
       "tags": [
@@ -5009,7 +4944,6 @@
       "source": "BRASS",
       "uid": "3e31ece64a1dd345",
       "colour": "#00937A",
-      "time_checked": 2,
       "translated": true,
       "category": "festivals-celebrations",
       "tags": [
@@ -5030,7 +4964,6 @@
       "source": "BRASS",
       "uid": "81b92188f51a8c66",
       "colour": "#00937A",
-      "time_checked": 2,
       "translated": true,
       "category": "culture-arts",
       "tags": [
@@ -5044,7 +4977,7 @@
       "all_day": false,
       "location": "BRASS",
       "description": "Concert",
-      "url": "https://shop.utick.net/?pos=BRASS&module=ACTIVITYSERIEDETAILS&s=0F9FC0F7-FD72-0592-DF8D-5633BFB59C1C",
+      "url": "https://www.lebrass.be/event/concert-agisme/",
       "image": "https://www.lebrass.be/wp-content/uploads/2025/12/rq-181016-BRASS-ext-05-04-1200-min-1024x576.jpg",
       "source": "BRASS",
       "uid": "b2c6830a4c227b6d",
@@ -5068,7 +5001,6 @@
       "source": "KVS",
       "uid": "a150069a82674347",
       "colour": "#E07A00",
-      "time_checked": 2,
       "translated": true,
       "category": "culture-arts",
       "tags": [
@@ -5087,7 +5019,6 @@
       "source": "KVS",
       "uid": "e7de9b53f59178e1",
       "colour": "#E07A00",
-      "time_checked": 2,
       "translated": true,
       "category": "culture-arts",
       "tags": [
@@ -5107,7 +5038,6 @@
       "source": "GC Ten Weyngaert",
       "uid": "41ae97e170c64ef4",
       "colour": "#0F8CA8",
-      "time_checked": 2,
       "translated": true,
       "category": "family-children",
       "tags": [
@@ -5122,7 +5052,7 @@
       "all_day": false,
       "location": "",
       "description": "Concert - Francofaune Festival (doors and bar open at 7:00 PM)",
-      "url": "https://billetterie.francofaune.be/bf63c16c73b64d2bace73a9cc92b8a0b/preventes/6-oct",
+      "url": "https://www.lebrass.be/event/francofaune26/",
       "image": "https://www.lebrass.be/wp-content/uploads/2025/12/rq-181016-BRASS-ext-05-04-1200-min-1024x576.jpg",
       "source": "BRASS",
       "uid": "897e0cc82be5ac76",
@@ -5147,7 +5077,6 @@
       "source": "GC Ten Weyngaert",
       "uid": "b2143bdc6ee3122a",
       "colour": "#0F8CA8",
-      "time_checked": 2,
       "translated": true,
       "category": "family-children",
       "tags": [
@@ -5167,7 +5096,6 @@
       "source": "KVS",
       "uid": "b444557d8537bdaf",
       "colour": "#E07A00",
-      "time_checked": 2,
       "translated": true,
       "category": "environment",
       "tags": [
@@ -5231,22 +5159,21 @@
       ]
     },
     {
-      "title": "Yard One Sound System with Ossia + The Untouchables + Izzy Lindqwister + Sasha Sykes + Maliman",
+      "title": "Yard One Sound System",
       "start": "2026-10-09T00:00:00+02:00",
       "end": null,
       "all_day": true,
       "location": "Recyclart",
-      "description": "",
+      "description": "w/ Ossia + The untouchables + Izzy Lindqwister + Sasha Sykes + Maliman",
       "url": "https://recyclart.be/fr/agenda/yard-one-sound-system",
       "image": "https://recyclart.be/build/assets/og-image-DfQ-XJK0.png",
       "source": "Recyclart",
-      "uid": "a7b25080c5bca46a",
+      "uid": "bf18df8f22b0752f",
       "colour": "#E07A00",
       "translated": true,
       "category": "music",
       "tags": [
         "dance",
-        "late-night",
         "live"
       ]
     },
@@ -5258,7 +5185,7 @@
       "location": "Fuse Brussels, Room 01 & Motion",
       "description": "Featuring Fenrick and Riana Holley performing all night",
       "url": "https://www.fuse.be/events/fuse-presents-fenrick-all-night-long-riana-holley-all-night-long",
-      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788269842",
+      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788259484",
       "source": "Fuse",
       "uid": "fe02f835af8cb600",
       "colour": "#C0392B",
@@ -5472,22 +5399,21 @@
       ]
     },
     {
-      "title": "End of Residency: Cripping the City with Fogo + Isidora Draskovic & Valentina Donato + The Wheelies Project",
+      "title": "End of Residency: Cripping the City",
       "start": "2026-10-14T00:00:00+02:00",
       "end": null,
       "all_day": true,
       "location": "Recyclart",
-      "description": "",
+      "description": "w/ Fogo + Isidora Draskovic & Valentina Donato + The Wheelies Project",
       "url": "https://recyclart.be/fr/agenda/end-of-residency-cripping-the-city",
       "image": "https://recyclart.be/build/assets/og-image-DfQ-XJK0.png",
       "source": "Recyclart",
-      "uid": "2943aeb124692dd6",
+      "uid": "96a8d211b753d5d8",
       "colour": "#E07A00",
       "translated": true,
       "category": "talks-discussions",
       "tags": [
-        "late-night",
-        "live"
+        "accessible"
       ]
     },
     {
@@ -5529,22 +5455,21 @@
       ]
     },
     {
-      "title": "QueerZineFest #3 with Micro-publishing Fair + Performances + DJ Sets + Exhibitions \"I Hate Being in Love\" & \"Cut Flower Flavors\"",
+      "title": "QueerZineFest #3",
       "start": "2026-10-17T00:00:00+02:00",
       "end": "2026-10-18T00:00:00+02:00",
       "all_day": true,
       "location": "Recyclart",
-      "description": "",
+      "description": "w/ Micro-publishing Fair + Performances + DJ sets + Expos I hate being in love & Saveurs fleurs coupées",
       "url": "https://recyclart.be/fr/agenda/queerzinefest-3",
       "image": "https://recyclart.be/build/assets/og-image-DfQ-XJK0.png",
       "source": "Recyclart",
-      "uid": "8e4e0190c00fb9ec",
+      "uid": "151f96b01457b3dc",
       "colour": "#E07A00",
       "translated": true,
       "category": "festivals-celebrations",
       "tags": [
         "dance",
-        "late-night",
         "live"
       ]
     },
@@ -5626,40 +5551,38 @@
       ]
     },
     {
-      "title": "\"Unchild'd – Roots of the Mediterranean\" by Associazione Culturale Raizes",
+      "title": "Unchilded – Roots of the Mediterranean",
       "start": "2026-10-22T00:00:00+02:00",
       "end": null,
       "all_day": true,
       "location": "Recyclart",
-      "description": "",
+      "description": "by Associazione Culturale Raizes",
       "url": "https://recyclart.be/fr/agenda/unchilded-roots-of-the-mediterranean",
       "image": "https://recyclart.be/build/assets/og-image-DfQ-XJK0.png",
       "source": "Recyclart",
-      "uid": "e5485228f044e294",
+      "uid": "392163caeb6b6da1",
       "colour": "#E07A00",
       "translated": true,
       "category": "culture-arts",
       "tags": [
-        "late-night",
         "live"
       ]
     },
     {
-      "title": "Carrosseries with Marion Laser + Grunge Gone Broadway + TBA",
+      "title": "Carrosseries",
       "start": "2026-10-24T00:00:00+02:00",
       "end": null,
       "all_day": true,
       "location": "Recyclart",
-      "description": "",
+      "description": "w/ Marion Laser + Grunge Gone Broadway + TBA",
       "url": "https://recyclart.be/fr/agenda/carrosseries-2",
       "image": "https://recyclart.be/build/assets/og-image-DfQ-XJK0.png",
       "source": "Recyclart",
-      "uid": "683abd21828349a3",
+      "uid": "243c2afff535289f",
       "colour": "#E07A00",
       "translated": true,
       "category": "music",
       "tags": [
-        "dance",
         "live"
       ]
     },
@@ -5837,7 +5760,7 @@
       "location": "Fuse Brussels, Room 01",
       "description": "Silva Bumba",
       "url": "https://www.fuse.be/events/fuse-presents-silva-bumba",
-      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788269842",
+      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788259484",
       "source": "Fuse",
       "uid": "084344da9e9c368a",
       "colour": "#C0392B",
@@ -5946,19 +5869,19 @@
       ]
     },
     {
-      "title": "Learning Through Trial and Error 7-9 years",
+      "title": "Met vallen en opstaan 7-9 jaar",
       "start": "2026-11-03T00:00:00+01:00",
       "end": "2026-11-06T00:00:00+01:00",
       "all_day": true,
       "location": "Gemeenschapscentrum Pianofabriek vzw, Sint-Gillis",
-      "description": "Multiple art forms",
+      "description": "Multiple art forms - 7-9 years",
       "url": "https://www.pianofabriek.be/activiteiten/met-vallen-en-opstaan-7-9-jaar",
       "image": null,
       "source": "GC Pianofabriek",
-      "uid": "72714717c71f9cf4",
+      "uid": "d5e9e34ab4deaec6",
       "colour": "#1B6FE0",
       "translated": true,
-      "category": "workshops-creative",
+      "category": "family-children",
       "tags": [
         "kids",
         "recurring"
