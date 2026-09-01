@@ -825,6 +825,17 @@ def find_time_in_text(text: str) -> tuple[int, int] | None:
     return None
 
 
+# Known limitation, confirmed via a live diagnostic (01/09/2026): a detail
+# page for a multi-screening programme (e.g. Le Jacques Franck's cinema
+# season) lists one date+time pair per session in a table
+# ("Lun 7 sept 9h30", "Ven 11 sept 20h30"...) rather than one time near one
+# occurrence's own keyword - find_time_in_text() has no per-date structure
+# to work with, so these correctly fall through to all_day rather than
+# guessing which row belongs to which of the event's several own dates.
+# Parsing that table properly would need a dedicated per-source rule, not a
+# general text heuristic - not attempted here.
+
+
 def enrich_event_time(ev: dict, tz: str, respect_robots: bool) -> str | None:
     """Confirmed via a live diagnostic (01/09/2026) that several listing
     pages simply never state a time next to the date at all - not a
