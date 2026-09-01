@@ -552,6 +552,7 @@ TAGS = [
     {"id": "sustainability", "label": "Sustainability"},
     {"id": "accessible", "label": "Accessible"},
     {"id": "recurring", "label": "Recurring"},
+    {"id": "adults", "label": "18+"},
 ]
 TAG_IDS = {t["id"] for t in TAGS}
 TAG_HINTS = {
@@ -567,6 +568,10 @@ TAG_HINTS = {
     "sustainability": "environment, repair, upcycling, ecology, gardening",
     "accessible": "explicitly wheelchair-accessible or accessibility-focused",
     "recurring": "happens on a repeating schedule (weekly, monthly) rather than once",
+    "adults": "explicitly 18+ / adults-only - an age restriction is actually stated, or the "
+              "content is explicitly sexual/erotic/adult in nature. Do not guess from a late "
+              "time slot, alcohol being served, or mature themes alone - only tag this when "
+              "the text itself says so (e.g. \"18+\", \"adults only\", \"not suitable for minors\").",
 }
 LLM_TAG_IDS = set(TAG_HINTS)  # the deterministic ones (free/evening/late-night) are excluded
 

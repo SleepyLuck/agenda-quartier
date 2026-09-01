@@ -115,6 +115,7 @@
     background:#F1F0EB;color:var(--ink-soft);border-radius:99px;padding:.18rem .55rem;white-space:nowrap}
   .tagchip.recurring{background:#EAF1FB;color:#1B5FC4}
   .tagchip.free{background:#FFEFE9;color:#C43E1B}
+  .tagchip.adults{background:var(--ink);color:#fff}
 
   /* horizontal scroll on mobile for tonight/weekend ------------------ */
   .hscroll{display:flex;gap:1.1rem;overflow-x:auto;padding-bottom:.3rem;-webkit-overflow-scrolling:touch;scroll-snap-type:x proximity}
@@ -261,6 +262,7 @@
     <button class="pill-btn" id="qfTonight" aria-pressed="false">Tonight</button>
     <button class="pill-btn" id="qfFree" aria-pressed="false">Free</button>
     <button class="pill-btn" id="qfWeekend" aria-pressed="false">This weekend</button>
+    <button class="pill-btn" id="qfAdults" aria-pressed="false">18+ only</button>
   </div>
   <div class="meta" style="margin-top:1rem"><span id="updated" class="linkish" style="text-decoration:none;cursor:default">Loading…</span></div>
 </header>
@@ -304,6 +306,16 @@
         <option value="all" selected>Everything upcoming</option>
         <option value="7">Next 7 days</option>
         <option value="30">Next 30 days</option>
+      </select>
+    </div>
+    <div class="field">
+      <label for="timeband">Time of day</label>
+      <select id="timeband">
+        <option value="all" selected>Any time</option>
+        <option value="morning">Morning (before 12:00)</option>
+        <option value="afternoon">Afternoon (12:00–17:00)</option>
+        <option value="evening">Evening (17:00–22:00)</option>
+        <option value="late-night">Late night (after 22:00)</option>
       </select>
     </div>
     <button class="linkish" id="subscribe">Subscribe to the full calendar</button>
@@ -363,9 +375,9 @@ const CONTACT_EMAIL = "you@example.org";
 
 const state = {
   data:null, hidden:new Set(), hiddenCat:new Set(), catById:{}, tagById:{},
-  activeTags:new Set(), tz:"Europe/Brussels",
+  activeTags:new Set(), tz:"Europe/Brussels", timeband:"all",
   month:null, picked:null, q:"", range:"all",
-  qf:{tonight:false, free:false, weekend:false}, view:"list",
+  qf:{tonight:false, free:false, weekend:false, adults:false}, view:"list",
 };
 
 const pad = n => String(n).padStart(2,"0");
@@ -388,6 +400,23 @@ const fmtCardDate = iso => { const p = dateParts(iso, {weekday:"short",day:"nume
 const FREE_RE = /\b(free|no charge|free admission|free entry|complimentary|gratuit|gratis|entr[ée]e libre|toegang vrij)\b/i;
 const isFree = e => (e.tags||[]).includes("free") || FREE_RE.test(`${e.title} ${e.description}`);
 const isRecurring = e => (e.tags||[]).includes("recurring");
+const isAdults = e => (e.tags||[]).includes("adults");
+
+// Brussels-local hour, regardless of the viewer's own timezone - same
+// reasoning as fmtTime/dateParts above.
+const localHour = iso => Number(new Intl.DateTimeFormat("en-GB",
+  {hour:"2-digit", hourCycle:"h23", timeZone:state.tz}).format(new Date(iso)));
+
+function matchesTimeband(e, band){
+  if(band === "all") return true;
+  if(e.all_day) return false;
+  const h = localHour(e.start);
+  if(band === "morning") return h >= 5 && h < 12;
+  if(band === "afternoon") return h >= 12 && h < 17;
+  if(band === "evening") return h >= 17 && h < 22;
+  if(band === "late-night") return h >= 22 || h < 5;
+  return true;
+}
 
 function toast(msg){ const t=document.getElementById("toast"); t.textContent=msg; t.classList.add("on"); setTimeout(()=>t.classList.remove("on"),2200); }
 
@@ -467,6 +496,8 @@ function baseFiltered(){
     if(state.hidden.has(e.source)) return false;
     if(e.category && state.hiddenCat.has(e.category)) return false;
     if(state.activeTags.size && ![...state.activeTags].every(t => (e.tags||[]).includes(t))) return false;
+    if(state.qf.adults && !isAdults(e)) return false;
+    if(!matchesTimeband(e, state.timeband)) return false;
     const catLabel = (state.catById[e.category]||{}).label || "";
     if(q && !(`${e.title} ${e.location} ${e.description} ${e.source} ${catLabel}`.toLowerCase().includes(q))) return false;
     return true;
@@ -562,7 +593,7 @@ function tagChipsHTML(e, max){
   const list = max ? tags.slice(0, max) : tags;
   return list.map(t=>{
     const meta = state.tagById[t];
-    const cls = t === "recurring" ? "tagchip recurring" : "tagchip";
+    const cls = (t === "recurring" || t === "adults") ? `tagchip ${t}` : "tagchip";
     return `<span class="${cls}">${esc(meta ? meta.label : t)}</span>`;
   }).join("");
 }
@@ -686,9 +717,11 @@ function renderAgenda(){
     const btn = document.getElementById("clearFilters");
     if(btn) btn.onclick = ()=>{
       state.hidden.clear(); state.hiddenCat.clear(); state.activeTags.clear(); state.picked=null; state.q="";
-      state.qf = {tonight:false, free:false, weekend:false};
+      state.qf = {tonight:false, free:false, weekend:false, adults:false};
+      state.timeband = "all";
       document.getElementById("q").value = "";
-      ["qfTonight","qfFree","qfWeekend"].forEach(id=>document.getElementById(id).setAttribute("aria-pressed","false"));
+      document.getElementById("timeband").value = "all";
+      ["qfTonight","qfFree","qfWeekend","qfAdults"].forEach(id=>document.getElementById(id).setAttribute("aria-pressed","false"));
       renderSources(); renderCats(); renderTagFilters(); renderAll();
     };
     return;
@@ -803,6 +836,7 @@ document.getElementById("prev").onclick = ()=>{ state.month.setMonth(state.month
 document.getElementById("next").onclick = ()=>{ state.month.setMonth(state.month.getMonth()+1); renderGrid(); };
 document.getElementById("q").oninput = e => { state.q = e.target.value; renderAll(); };
 document.getElementById("range").onchange = e => { state.range = e.target.value; renderAll(); };
+document.getElementById("timeband").onchange = e => { state.timeband = e.target.value; renderAll(); };
 
 function toggleQF(key, btnId){
   const btn = document.getElementById(btnId);
@@ -813,6 +847,7 @@ function toggleQF(key, btnId){
 document.getElementById("qfTonight").onclick = ()=> toggleQF("tonight","qfTonight");
 document.getElementById("qfFree").onclick = ()=> toggleQF("free","qfFree");
 document.getElementById("qfWeekend").onclick = ()=> toggleQF("weekend","qfWeekend");
+document.getElementById("qfAdults").onclick = ()=> toggleQF("adults","qfAdults");
 
 document.getElementById("subscribe").onclick = ()=>{
   location.href = feedURL().replace(/^https?:/, "webcal:");

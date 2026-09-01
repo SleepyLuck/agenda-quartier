@@ -35,6 +35,8 @@ RAW = [
      "7am to 4pm, around a hundred stalls.", "markets-fairs", ["free", "outdoor", "family"], "market"),
     (3, 15, 23, 0, None, "Electro night", "Main hall",
      "", "music", ["dance", "live"], "electro"),
+    (3, 16, 21, 0, None, "Late-night cabaret (18+)", "Main hall",
+     "Adults only - explicit content.", "culture-arts", ["live", "adults"], None),
     (0, 17, 12, 0, None, "Neighbourhood shared meal", "Pedestrian street",
      "Everyone brings a dish.", "community-social", ["free", "food-drink", "outdoor", "family"], "meal"),
     (1, 22, 19, 30, None, "Book club", "Reading room",
