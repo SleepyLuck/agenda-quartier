@@ -796,14 +796,19 @@ def translate_events(events: list[dict], model: str, cache: dict[str, dict]) -> 
 
 TIME_IN_TEXT_RE = re.compile(r"\b([01]?\d|2[0-3])[:h]([0-5]\d)\b")
 TIME_KEYWORD_RE = re.compile(
-    r"\b(doors?|starts?|begins?|opens?|show(?:time)?s?|portes?|d[ée]but|ouverture|aanvang|begint?)\b", re.I)
+    r"\b(doors?|starts?|begins?|opens?|show(?:time)?s?|portes?|d[ée]but|ouverture|aanvang|begint?"
+    r"|s[ée]ances?|vertoning(?:en)?)\b", re.I)
 
 # Bump this whenever find_time_in_text()/enrich_event_time() logic changes in
 # a way that should invalidate previously-cached results (see load_time_cache
 # in scrape.py) - otherwise a fix here never actually re-runs for events a
 # prior, buggier version already marked time_checked. v2: keyword-proximity
-# rewrite that fixed Le Jacques Franck's 01:26/01:42-style garbage times.
-TIME_CACHE_VERSION = 2
+# rewrite that fixed Le Jacques Franck's 01:26/01:42-style garbage times. v3:
+# added séance/vertoning (FR/NL for a cinema screening) - Le Jacques Franck's
+# "cinema" event lost a real 09:30 time to v2's stricter keyword list because
+# its detail page states the time next to "Séance" rather than any of v2's
+# doors/start/opens-style words.
+TIME_CACHE_VERSION = 3
 
 
 def find_time_in_text(text: str) -> tuple[int, int] | None:

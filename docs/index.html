@@ -536,6 +536,11 @@ const FREE_RE = /\b(free|no charge|free admission|free entry|complimentary|gratu
 const isFree = e => (e.tags||[]).includes("free") || FREE_RE.test(`${e.title} ${e.description}`);
 const isRecurring = e => (e.tags||[]).includes("recurring");
 const isAdults = e => (e.tags||[]).includes("adults");
+// A recurring single-sitting event (a weekly workshop, not a multi-day
+// exhibition) only ever carries one occurrence's own date/time - showing
+// just "9 Dec" reads as one-off and makes the series look missing on every
+// other Wednesday. Label it by weekday instead so the pattern is obvious.
+const weekdayLabel = iso => dateParts(iso, {weekday:"long"}).weekday + "s";
 
 // Brussels-local hour, regardless of the viewer's own timezone - same
 // reasoning as fmtTime/dateParts above.
@@ -774,7 +779,17 @@ function rowThumbHTML(e){
 }
 
 function whenColHTML(e, compact){
-  if(e.all_day) return `<span class="allday">${compact ? "All&nbsp;day" : "All day"}</span>`;
+  // A single-sitting recurring event (weekly workshop) vs. a multi-day-span
+  // one (an exhibition, handled separately by its own callers) - this one
+  // still has a real time to show, just needs the weekly pattern alongside it.
+  const weekly = isRecurring(e) && !e.all_day && !(e.end && dayKey(e.end) !== dayKey(e.start));
+  if(e.all_day){
+    const label = compact ? "All&nbsp;day" : "All day";
+    return `<span class="allday">${isRecurring(e) ? "Recurring" : label}</span>`;
+  }
+  if(weekly && !compact){
+    return `${esc(fmtTime(e.start))}<span class="end">${esc(weekdayLabel(e.start))}</span>`;
+  }
   const endTxt = (!compact && e.end && dayKey(e.end)===dayKey(e.start))
     ? `<span class="end">until ${esc(fmtTime(e.end))}</span>` : "";
   return `${esc(fmtTime(e.start))}${endTxt}`;
@@ -819,8 +834,11 @@ function miniRowHTML(e){
 function cardHTML(e){
   const cat = state.catById[e.category];
   const recurring = isRecurring(e);
-  const dateLine = recurring && e.end && dayKey(e.end) !== dayKey(e.start)
+  const multiDay = recurring && e.end && dayKey(e.end) !== dayKey(e.start);
+  const dateLine = multiDay
     ? `Ongoing through ${fmtCardDate(e.end)}`
+    : recurring
+    ? (e.all_day ? weekdayLabel(e.start) : `${weekdayLabel(e.start)} · ${fmtTime(e.start)}`)
     : (e.all_day ? fmtCardDate(e.start) : `${fmtCardDate(e.start)} · ${fmtTime(e.start)}`);
   const soon = soonLabel(e);
   const free = isFree(e);

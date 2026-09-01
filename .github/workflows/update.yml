@@ -36,12 +36,6 @@ jobs:
       - name: Install Playwright's Chromium (for JS-rendered sources)
         run: playwright install --with-deps chromium
 
-      - name: TEMP diagnostic - BRASS /activites page for a fuller weekly listing
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          ANTHROPIC_WORKSPACE_ID: ${{ secrets.ANTHROPIC_WORKSPACE_ID }}
-        run: python diag_brass2.py
-
       - name: Collect events
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}

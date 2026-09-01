@@ -56,6 +56,9 @@ RAW = [
     (1, 4, None, None, 32, "Photo exhibition: \"Our Street, Then and Now\"", "Library gallery",
      "A recurring exhibition running for several weeks - drop in any time during opening hours.",
      "culture-arts", ["free", "drop-in"], "exhibition"),
+    (0, 3, 15, 0, None, "Digital help sessions for seniors", "Community centre, room 1",
+     "Drop in with your phone, tablet or laptop questions - no appointment needed.",
+     "workshops-creative", ["drop-in", "recurring"], None),
 ]
 
 events = []
