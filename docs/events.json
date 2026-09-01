@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-01T11:45:58.620900+02:00",
+  "generated": "2026-09-01T13:47:33.198170+02:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
@@ -27,7 +27,7 @@
       "name": "Recyclart",
       "url": "https://recyclart.be/fr/agenda",
       "colour": "#E07A00",
-      "count": 20,
+      "count": 19,
       "method": "llm"
     },
     {
@@ -83,8 +83,8 @@
       "name": "WIELS",
       "url": "https://wiels.org/en/events",
       "colour": "#E07A00",
-      "count": 0,
-      "method": "none"
+      "count": 10,
+      "method": "browser"
     },
     {
       "name": "Maison Poème",
@@ -153,7 +153,7 @@
       "name": "Ancienne Belgique",
       "url": "https://www.abconcerts.be/fr/agenda",
       "colour": "#C0392B",
-      "count": 10,
+      "count": 9,
       "method": "llm"
     }
   ],
@@ -315,6 +315,10 @@
     {
       "id": "recurring",
       "label": "Recurring"
+    },
+    {
+      "id": "adults",
+      "label": "18+"
     }
   ],
   "report": [
@@ -342,8 +346,8 @@
     {
       "source": "Recyclart",
       "method": "llm",
-      "found": 22,
-      "kept": 20,
+      "found": 20,
+      "kept": 19,
       "note": ""
     },
     {
@@ -397,10 +401,10 @@
     },
     {
       "source": "WIELS",
-      "method": "none",
-      "found": 0,
-      "kept": 0,
-      "note": "wordpress: HTTPError: 404 Client Error: Not Found for url: https://wiels.org/wp-json/tribe/events/v1/events?per_page=50"
+      "method": "browser",
+      "found": 12,
+      "kept": 10,
+      "note": ""
     },
     {
       "source": "Maison Poème",
@@ -435,7 +439,7 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "note": "wordpress: HTTPError: 404 Client Error: Not Found for url: https://www.senghor.be/wp-json/tribe/events/v1/events?per_page=50"
+      "note": "llm: ConnectTimeout: HTTPSConnectionPool(host='www.senghor.be', port=443): Max retries exceeded with url: /agenda/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.senghor.be', port=443) at 0"
     },
     {
       "source": "Flagey",
@@ -468,8 +472,8 @@
     {
       "source": "Ancienne Belgique",
       "method": "llm",
-      "found": 10,
-      "kept": 10,
+      "found": 9,
+      "kept": 9,
       "note": ""
     }
   ],
@@ -486,6 +490,7 @@
       "source": "La Vieille Chéchette",
       "uid": "753db5a6ca8771eb",
       "colour": "#E8336D",
+      "time_checked": true,
       "translated": true,
       "category": "food-drink",
       "tags": [
@@ -494,20 +499,22 @@
       ]
     },
     {
-      "title": "NEW AGENDA OUT!",
+      "title": "Kets Wednesday Workshops",
       "start": "2026-09-01T00:00:00+02:00",
-      "end": "2026-10-31T00:00:00+01:00",
+      "end": "2027-06-28T00:00:00+02:00",
       "all_day": true,
-      "location": "Recyclart",
-      "description": "New agenda announcement",
-      "url": "https://recyclart.be/fr/agenda",
-      "image": "https://recyclart.be/build/assets/og-image-DfQ-XJK0.png",
-      "source": "Recyclart",
-      "uid": "5aae6e37ec453d8f",
+      "location": "WIELS, Avenue Van Volxemlaan 354, 1190 Brussels",
+      "description": "Family & kids workshop series",
+      "url": "https://wiels.org/en/events",
+      "image": "https://wiels.org/actions/assets/generate-transform?transformId=17",
+      "source": "WIELS",
+      "uid": "b12bbf3be5037723",
       "colour": "#E07A00",
       "translated": true,
-      "category": "other",
+      "category": "family-children",
       "tags": [
+        "family",
+        "kids",
         "recurring"
       ]
     },
@@ -569,9 +576,9 @@
     },
     {
       "title": "6:30 PM La Vieille Chéchette Choir",
-      "start": "2026-09-02T00:00:00+02:00",
+      "start": "2026-09-02T18:30:00+02:00",
       "end": "2026-09-02T00:00:00+02:00",
-      "all_day": true,
+      "all_day": false,
       "location": "",
       "description": "",
       "url": "https://chechette.be/events/18h30-chorale-de-la-vieille-chechette/",
@@ -579,9 +586,11 @@
       "source": "La Vieille Chéchette",
       "uid": "8719422e285d9668",
       "colour": "#E8336D",
+      "time_checked": true,
       "translated": true,
       "category": "music",
       "tags": [
+        "evening",
         "live"
       ]
     },
@@ -820,6 +829,7 @@
       "source": "La Vieille Chéchette",
       "uid": "bc371431dc6e43b6",
       "colour": "#E8336D",
+      "time_checked": true,
       "translated": true,
       "category": "music",
       "tags": [
@@ -919,44 +929,6 @@
       ]
     },
     {
-      "title": "The Truthful",
-      "start": "2026-09-03T20:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Theater 1150",
-      "description": "Theater by Lieselot Siddiki, CAMPO",
-      "url": "https://kaaitheater.be/nl/agenda",
-      "image": null,
-      "source": "Kaaitheater",
-      "uid": "8737abe938759270",
-      "colour": "#7B49D6",
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "evening",
-        "live"
-      ]
-    },
-    {
-      "title": "Ki no nagare",
-      "start": "2026-09-03T20:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Gare Maritime",
-      "description": "Circus by Collectif Malunés, Arne Sabbe",
-      "url": "https://kaaitheater.be/nl/agenda",
-      "image": null,
-      "source": "Kaaitheater",
-      "uid": "e3435ac20ec934b4",
-      "colour": "#7B49D6",
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "evening",
-        "live"
-      ]
-    },
-    {
       "title": "shoe/farm",
       "start": "2026-09-03T20:30:00+02:00",
       "end": null,
@@ -995,6 +967,44 @@
       ]
     },
     {
+      "title": "The Truthful",
+      "start": "2026-09-03T20:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Theater 1150",
+      "description": "Theater by Lieselot Siddiki, CAMPO",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "8737abe938759270",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "evening",
+        "live"
+      ]
+    },
+    {
+      "title": "Ki no nagare",
+      "start": "2026-09-03T20:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Gare Maritime",
+      "description": "Circus by Collectif Malunés, Arne Sabbe",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "e3435ac20ec934b4",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "evening",
+        "live"
+      ]
+    },
+    {
       "title": "The End of Oak Street",
       "start": "2026-09-03T21:00:00+02:00",
       "end": null,
@@ -1014,9 +1024,9 @@
     },
     {
       "title": "7:30 PM Cassiof and Iva Mai Concert",
-      "start": "2026-09-04T00:00:00+02:00",
+      "start": "2026-09-04T19:30:00+02:00",
       "end": "2026-09-04T00:00:00+02:00",
-      "all_day": true,
+      "all_day": false,
       "location": "",
       "description": "Cassiof, a Brussels band performing French pop-rap chanson. A concert to sweep us all away.",
       "url": "https://chechette.be/events/19h30-concert-cassiof-et-iva-mai/",
@@ -1024,9 +1034,11 @@
       "source": "La Vieille Chéchette",
       "uid": "768aa032e0c116ca",
       "colour": "#E8336D",
+      "time_checked": true,
       "translated": true,
       "category": "music",
       "tags": [
+        "evening",
         "live"
       ]
     },
@@ -1038,7 +1050,7 @@
       "location": "Fuse Brussels, Room 01",
       "description": "NIKOLINA, Ornella, Gaiveu, Osmos",
       "url": "https://www.fuse.be/events",
-      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788170947",
+      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788259484",
       "source": "Fuse",
       "uid": "580dba2c7b4522ef",
       "colour": "#C0392B",
@@ -1047,6 +1059,24 @@
       "tags": [
         "dance",
         "live"
+      ]
+    },
+    {
+      "title": "Free Nocturne",
+      "start": "2026-09-04T00:00:00+02:00",
+      "end": null,
+      "all_day": true,
+      "location": "WIELS, Avenue Van Volxemlaan 354, 1190 Brussels",
+      "description": "Free evening opening",
+      "url": "https://wiels.org/en/events",
+      "image": "https://wiels.org/actions/assets/generate-transform?transformId=17",
+      "source": "WIELS",
+      "uid": "62c267086a89eb82",
+      "colour": "#E07A00",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "free"
       ]
     },
     {
@@ -1319,7 +1349,7 @@
       "location": "Fuse Brussels, Room 01",
       "description": "Nørbak, Tauceti, LaDetail, Hadone",
       "url": "https://www.fuse.be/events",
-      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788170947",
+      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788259484",
       "source": "Fuse",
       "uid": "65ee7f39ba9478c6",
       "colour": "#C0392B",
@@ -1329,6 +1359,38 @@
         "dance",
         "live"
       ]
+    },
+    {
+      "title": "Opening: Ali Cherri - Soul Witness",
+      "start": "2026-09-05T00:00:00+02:00",
+      "end": null,
+      "all_day": true,
+      "location": "WIELS, Avenue Van Volxemlaan 354, 1190 Brussels",
+      "description": "Exhibition opening",
+      "url": "https://wiels.org/en/events",
+      "image": "https://wiels.org/actions/assets/generate-transform?transformId=17",
+      "source": "WIELS",
+      "uid": "3b6337c2aba3dca0",
+      "colour": "#E07A00",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": []
+    },
+    {
+      "title": "Lecture: Dominiek Hoens",
+      "start": "2026-09-05T00:00:00+02:00",
+      "end": null,
+      "all_day": true,
+      "location": "WIELS, Avenue Van Volxemlaan 354, 1190 Brussels",
+      "description": "Lecture event",
+      "url": "https://wiels.org/en/events",
+      "image": "https://wiels.org/actions/assets/generate-transform?transformId=17",
+      "source": "WIELS",
+      "uid": "5a86302d11fd966b",
+      "colour": "#E07A00",
+      "translated": true,
+      "category": "talks-discussions",
+      "tags": []
     },
     {
       "title": "Magec / the Desert",
@@ -1628,22 +1690,6 @@
       ]
     },
     {
-      "title": "SYD",
-      "start": "2026-09-06T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Ancienne Belgique",
-      "description": "Cancelled",
-      "url": "https://www.abconcerts.be/fr/agenda",
-      "image": "https://abconcerts.be/assets/website/components/images/og-image.a79fdf49.jpg",
-      "source": "Ancienne Belgique",
-      "uid": "d242f8f9c02ec278",
-      "colour": "#C0392B",
-      "translated": true,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "Frames",
       "start": "2026-09-06T11:00:00+02:00",
       "end": null,
@@ -1917,6 +1963,7 @@
       "source": "La Vieille Chéchette",
       "uid": "2204c8763532c4a6",
       "colour": "#E8336D",
+      "time_checked": true,
       "translated": true,
       "category": "food-drink",
       "tags": [
@@ -1959,6 +2006,24 @@
       "category": "film-cinema",
       "tags": [
         "live"
+      ]
+    },
+    {
+      "title": "Ibon Landa Amutxategi: Pas",
+      "start": "2026-09-08T00:00:00+02:00",
+      "end": "2026-09-25T00:00:00+02:00",
+      "all_day": true,
+      "location": "WIELS, Avenue Van Volxemlaan 354, 1190 Brussels",
+      "description": "Affiliate exhibition",
+      "url": "https://wiels.org/en/events",
+      "image": "https://wiels.org/actions/assets/generate-transform?transformId=17",
+      "source": "WIELS",
+      "uid": "6ff5ff790012179e",
+      "colour": "#E07A00",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "recurring"
       ]
     },
     {
@@ -2057,9 +2122,9 @@
     },
     {
       "title": "6:30pm La Vieille Chéchette Choir",
-      "start": "2026-09-09T00:00:00+02:00",
+      "start": "2026-09-09T18:30:00+02:00",
       "end": "2026-09-09T00:00:00+02:00",
-      "all_day": true,
+      "all_day": false,
       "location": "",
       "description": "",
       "url": "https://chechette.be/events/18h30-chorale-de-la-vieille-chechette/",
@@ -2067,9 +2132,11 @@
       "source": "La Vieille Chéchette",
       "uid": "429ebf24495d560a",
       "colour": "#E8336D",
+      "time_checked": true,
       "translated": true,
       "category": "music",
       "tags": [
+        "evening",
         "live"
       ]
     },
@@ -2127,6 +2194,24 @@
       "category": "workshops-creative",
       "tags": [
         "kids",
+        "recurring"
+      ]
+    },
+    {
+      "title": "Lucas Gallo: Diciembre (2025)",
+      "start": "2026-09-09T00:00:00+02:00",
+      "end": "2026-09-19T00:00:00+02:00",
+      "all_day": true,
+      "location": "WIELS, Avenue Van Volxemlaan 354, 1190 Brussels",
+      "description": "Screening event",
+      "url": "https://wiels.org/en/events",
+      "image": "https://wiels.org/actions/assets/generate-transform?transformId=17",
+      "source": "WIELS",
+      "uid": "3839d8a22434fdf9",
+      "colour": "#E07A00",
+      "translated": true,
+      "category": "film-cinema",
+      "tags": [
         "recurring"
       ]
     },
@@ -2207,25 +2292,6 @@
       ]
     },
     {
-      "title": "FRANK",
-      "start": "2026-09-09T20:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "KVS BOX",
-      "description": "Dance by Cherish Menzo, GRIP, Theater Utrecht, Dance On Ensemble",
-      "url": "https://kaaitheater.be/nl/agenda",
-      "image": null,
-      "source": "Kaaitheater",
-      "uid": "30134c86c288516f",
-      "colour": "#7B49D6",
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "dance",
-        "evening"
-      ]
-    },
-    {
       "title": "Badke(remix)",
       "start": "2026-09-09T20:30:00+02:00",
       "end": null,
@@ -2236,6 +2302,25 @@
       "image": null,
       "source": "Kaaitheater",
       "uid": "462ab4bcab77ea97",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "dance",
+        "evening"
+      ]
+    },
+    {
+      "title": "FRANK",
+      "start": "2026-09-09T20:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "KVS BOX",
+      "description": "Dance by Cherish Menzo, GRIP, Theater Utrecht, Dance On Ensemble",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "30134c86c288516f",
       "colour": "#7B49D6",
       "translated": true,
       "category": "culture-arts",
@@ -2275,6 +2360,7 @@
       "source": "La Vieille Chéchette",
       "uid": "1b5d268fa48fc322",
       "colour": "#E8336D",
+      "time_checked": true,
       "translated": true,
       "category": "talks-discussions",
       "tags": [
@@ -2456,25 +2542,6 @@
       ]
     },
     {
-      "title": "Badke(remix)",
-      "start": "2026-09-10T20:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "CC De Factorij",
-      "description": "Dance by laGeste, Stereo48",
-      "url": "https://kaaitheater.be/nl/agenda",
-      "image": null,
-      "source": "Kaaitheater",
-      "uid": "f42f28fac11c6e83",
-      "colour": "#7B49D6",
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "dance",
-        "evening"
-      ]
-    },
-    {
       "title": "La Noche de Aparición",
       "start": "2026-09-10T20:30:00+02:00",
       "end": null,
@@ -2485,6 +2552,25 @@
       "image": null,
       "source": "Kaaitheater",
       "uid": "1e8fb18c84a8a433",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "dance",
+        "evening"
+      ]
+    },
+    {
+      "title": "Badke(remix)",
+      "start": "2026-09-10T20:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "CC De Factorij",
+      "description": "Dance by laGeste, Stereo48",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "f42f28fac11c6e83",
       "colour": "#7B49D6",
       "translated": true,
       "category": "culture-arts",
@@ -2556,7 +2642,7 @@
       "location": "Fuse Brussels, Room 01",
       "description": "2HOT2PLAY, ALT8, Maëlle, ATARAXY",
       "url": "https://www.fuse.be/events",
-      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788170947",
+      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788259484",
       "source": "Fuse",
       "uid": "a729cd04668ba94f",
       "colour": "#C0392B",
@@ -2575,7 +2661,7 @@
       "location": "Théâtre de Poche, 1a Chemin du Gymnase 1000 Bruxelles",
       "description": "Patrick Masset / Théâtre d'1 jour",
       "url": "https://poche.be/shows",
-      "image": "https://poche.be/img/meta/7eb75d7dc93f0225817fda69fbae57edmeta.jpg",
+      "image": "https://poche.be/images/theatre-foyer.jpg",
       "source": "Le Poche",
       "uid": "5882ef98aaabd666",
       "colour": "#8A7500",
@@ -2585,6 +2671,22 @@
         "live",
         "recurring"
       ]
+    },
+    {
+      "title": "Conversation: Ali Cherri and Helena Kritis at RendezVous",
+      "start": "2026-09-11T00:00:00+02:00",
+      "end": null,
+      "all_day": true,
+      "location": "WIELS, Avenue Van Volxemlaan 354, 1190 Brussels",
+      "description": "Conversation event",
+      "url": "https://wiels.org/en/events",
+      "image": "https://wiels.org/actions/assets/generate-transform?transformId=17",
+      "source": "WIELS",
+      "uid": "df9bc8a95cf3b6d1",
+      "colour": "#E07A00",
+      "translated": true,
+      "category": "talks-discussions",
+      "tags": []
     },
     {
       "title": "Res Nullius",
@@ -2843,7 +2945,7 @@
       "location": "Fuse Brussels, Room 01",
       "description": "Andy C, FarFlow, Cedex & Higher Underground, Bredren, Boycot, Sassy Girl",
       "url": "https://www.fuse.be/events",
-      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788170947",
+      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788259484",
       "source": "Fuse",
       "uid": "1181c38f8dea9464",
       "colour": "#C0392B",
@@ -2851,6 +2953,24 @@
       "category": "music",
       "tags": [
         "dance",
+        "live"
+      ]
+    },
+    {
+      "title": "Miriam Stoney: Ununits of Gravitas",
+      "start": "2026-09-12T00:00:00+02:00",
+      "end": null,
+      "all_day": true,
+      "location": "WIELS, Avenue Van Volxemlaan 354, 1190 Brussels",
+      "description": "Performance event",
+      "url": "https://wiels.org/en/events",
+      "image": "https://wiels.org/actions/assets/generate-transform?transformId=17",
+      "source": "WIELS",
+      "uid": "8726c3f218716f42",
+      "colour": "#E07A00",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
         "live"
       ]
     },
@@ -3053,25 +3173,6 @@
       ]
     },
     {
-      "title": "Copyriot",
-      "start": "2026-09-12T20:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "CC De Factorij",
-      "description": "Theater by Krapp, KVS",
-      "url": "https://kaaitheater.be/nl/agenda",
-      "image": null,
-      "source": "Kaaitheater",
-      "uid": "2c9617a1a3d1cf15",
-      "colour": "#7B49D6",
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "evening",
-        "live"
-      ]
-    },
-    {
       "title": "F*CK LOLITA",
       "start": "2026-09-12T20:30:00+02:00",
       "end": null,
@@ -3082,6 +3183,25 @@
       "image": null,
       "source": "Kaaitheater",
       "uid": "4882ad83a98c543f",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "evening",
+        "live"
+      ]
+    },
+    {
+      "title": "Copyriot",
+      "start": "2026-09-12T20:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "CC De Factorij",
+      "description": "Theater by Krapp, KVS",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "2c9617a1a3d1cf15",
       "colour": "#7B49D6",
       "translated": true,
       "category": "culture-arts",
@@ -3116,7 +3236,7 @@
       "location": "Fuse Brussels, Room 01 & Motion",
       "description": "future.666, DJ Hyperdrive, Miamor, Rare Mamba, Nico Morano",
       "url": "https://www.fuse.be/events",
-      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788170947",
+      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788259484",
       "source": "Fuse",
       "uid": "b8f4781c2fbe9cfa",
       "colour": "#C0392B",
@@ -3228,6 +3348,7 @@
       "source": "La Vieille Chéchette",
       "uid": "823aed52da90ad0b",
       "colour": "#E8336D",
+      "time_checked": true,
       "translated": true,
       "category": "talks-discussions",
       "tags": [
@@ -3285,6 +3406,7 @@
       "source": "La Vieille Chéchette",
       "uid": "a43a904789c6b981",
       "colour": "#E8336D",
+      "time_checked": true,
       "translated": true,
       "category": "food-drink",
       "tags": [
@@ -3334,9 +3456,9 @@
     },
     {
       "title": "6:30pm La Vieille Chéchette Choir",
-      "start": "2026-09-16T00:00:00+02:00",
+      "start": "2026-09-16T18:30:00+02:00",
       "end": "2026-09-16T00:00:00+02:00",
-      "all_day": true,
+      "all_day": false,
       "location": "",
       "description": "",
       "url": "https://chechette.be/events/18h30-chorale-de-la-vieille-chechette/",
@@ -3344,9 +3466,11 @@
       "source": "La Vieille Chéchette",
       "uid": "d27c11b377186b93",
       "colour": "#E8336D",
+      "time_checked": true,
       "translated": true,
       "category": "music",
       "tags": [
+        "evening",
         "live",
         "recurring"
       ]
@@ -3485,6 +3609,22 @@
       ]
     },
     {
+      "title": "Look Who's Talking: Annaïk Lou Pitteloud & Maxime Perriot",
+      "start": "2026-09-17T00:00:00+02:00",
+      "end": null,
+      "all_day": true,
+      "location": "WIELS, Avenue Van Volxemlaan 354, 1190 Brussels",
+      "description": "Guided tour event",
+      "url": "https://wiels.org/en/events",
+      "image": "https://wiels.org/actions/assets/generate-transform?transformId=17",
+      "source": "WIELS",
+      "uid": "0038fc11c20ba076",
+      "colour": "#E07A00",
+      "translated": true,
+      "category": "talks-discussions",
+      "tags": []
+    },
+    {
       "title": "Back/Stage Opening Reception",
       "start": "2026-09-17T00:00:00+02:00",
       "end": null,
@@ -3614,9 +3754,9 @@
     },
     {
       "title": "7:30pm Jun Sandson Concert",
-      "start": "2026-09-18T00:00:00+02:00",
+      "start": "2026-09-18T19:30:00+02:00",
       "end": "2026-09-18T00:00:00+02:00",
-      "all_day": true,
+      "all_day": false,
       "location": "",
       "description": "Jun Sandson is a multidisciplinary indie pop artist, singer-songwriter, and performer. A quirky clown spinning through sounds somewhere between raw blues, free folk, and experimental music. A delightfully odd character, half-deaf, singing melancholic \"melocoton\" songs to lift people's spirits again!",
       "url": "https://chechette.be/events/19h30-concert-jun-sandson/",
@@ -3624,9 +3764,11 @@
       "source": "La Vieille Chéchette",
       "uid": "582eac9dd0faa23b",
       "colour": "#E8336D",
+      "time_checked": true,
       "translated": true,
       "category": "music",
       "tags": [
+        "evening",
         "free",
         "live"
       ]
@@ -3676,7 +3818,7 @@
       "location": "Fuse Brussels, Room 01",
       "description": "Clara Cuvé, PETERBLUE, JEKKAMAÏ, Holiness",
       "url": "https://www.fuse.be/events",
-      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788170947",
+      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788259484",
       "source": "Fuse",
       "uid": "eb789e8673c2f646",
       "colour": "#C0392B",
@@ -3686,6 +3828,22 @@
         "dance",
         "live"
       ]
+    },
+    {
+      "title": "Heritage Days: the Blomme Building",
+      "start": "2026-09-18T00:00:00+02:00",
+      "end": "2026-09-19T00:00:00+02:00",
+      "all_day": true,
+      "location": "WIELS, Avenue Van Volxemlaan 354, 1190 Brussels",
+      "description": "Guided tour of the Blomme Building",
+      "url": "https://wiels.org/en/events",
+      "image": "https://wiels.org/actions/assets/generate-transform?transformId=17",
+      "source": "WIELS",
+      "uid": "8324ab3846d3b783",
+      "colour": "#E07A00",
+      "translated": true,
+      "category": "talks-discussions",
+      "tags": []
     },
     {
       "title": "Losing Daylight: Short Films and Concert",
@@ -3871,9 +4029,9 @@
     },
     {
       "title": "11am Literary Encounter with Romain Lemire and Thomas Prédour",
-      "start": "2026-09-19T00:00:00+02:00",
+      "start": "2026-09-19T10:30:00+02:00",
       "end": "2026-09-19T00:00:00+02:00",
-      "all_day": true,
+      "all_day": false,
       "location": "",
       "description": "Romain Lemire received the Goncourt Prize for First Novel for \"Clément,\" a powerful account of the incest he and his brothers endured for years. He will receive the title of Doctor Honoris Causa from ULB on September 18th. Thomas Prédour created the show \"It Was Just a Game,\" from which he developed a self-published book that also addresses the theme of incest. They will discuss together the reasons that led them to write on this subject and will read passages...",
       "url": "https://chechette.be/events/11h-rencontre-litteraire-avec-romain-lemire-et-thomas-predour/",
@@ -3881,6 +4039,7 @@
       "source": "La Vieille Chéchette",
       "uid": "ab0374aac5d814ca",
       "colour": "#E8336D",
+      "time_checked": true,
       "translated": true,
       "category": "talks-discussions",
       "tags": [
@@ -3895,7 +4054,7 @@
       "location": "Fuse Brussels, Room 01",
       "description": "PACT (live), Romain Garcia (live)",
       "url": "https://www.fuse.be/events",
-      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788170947",
+      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788259484",
       "source": "Fuse",
       "uid": "0d085f1c97d74a1e",
       "colour": "#C0392B",
@@ -3962,16 +4121,16 @@
       ]
     },
     {
-      "title": "★ Grand Opening ★",
+      "title": "Joyeuse Ouverture",
       "start": "2026-09-19T14:00:00+02:00",
       "end": null,
       "all_day": false,
       "location": "BRASS",
-      "description": "Music, hip-hop dance, performances, games, and more",
+      "description": "Music, hip hop dance, performances, games and more",
       "url": "https://www.lebrass.be/",
       "image": "https://www.lebrass.be/wp-content/uploads/2025/12/rq-181016-BRASS-ext-05-04-1200-min-1024x576.jpg",
       "source": "BRASS",
-      "uid": "f72b5d559a491902",
+      "uid": "f472b8919af71bea",
       "colour": "#00937A",
       "translated": true,
       "category": "festivals-celebrations",
@@ -4087,25 +4246,6 @@
       ]
     },
     {
-      "title": "A Delicious and Responsible Buffet",
-      "start": "2026-09-20T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "La Tricoterie",
-      "description": "Sunday buffet with organic homemade preparations, sweet and savoury options",
-      "url": "https://www.tricoterie.be/fr/agenda/l-agenda-culturel/?lang=fr",
-      "image": null,
-      "source": "La Tricoterie",
-      "uid": "274e172f0c6a7f00",
-      "colour": "#00937A",
-      "translated": true,
-      "category": "food-drink",
-      "tags": [
-        "food-drink",
-        "recurring"
-      ]
-    },
-    {
       "title": "Drag Brunch",
       "start": "2026-09-20T00:00:00+02:00",
       "end": null,
@@ -4176,6 +4316,25 @@
       "category": "markets-fairs",
       "tags": [
         "drop-in"
+      ]
+    },
+    {
+      "title": "A Delicious and Responsible Buffet",
+      "start": "2026-09-20T10:00:00+02:00",
+      "end": "2026-09-20T14:30:00+02:00",
+      "all_day": false,
+      "location": "La Tricoterie",
+      "description": "Sunday buffet with organic homemade preparations, sweet and savoury options",
+      "url": "https://www.tricoterie.be/fr/agenda/l-agenda-culturel/?lang=fr",
+      "image": null,
+      "source": "La Tricoterie",
+      "uid": "274e172f0c6a7f00",
+      "colour": "#00937A",
+      "translated": true,
+      "category": "food-drink",
+      "tags": [
+        "food-drink",
+        "recurring"
       ]
     },
     {
@@ -4264,6 +4423,7 @@
       "source": "La Vieille Chéchette",
       "uid": "743ed3a4539540a8",
       "colour": "#E8336D",
+      "time_checked": true,
       "translated": true,
       "category": "talks-discussions",
       "tags": [
@@ -4283,6 +4443,7 @@
       "source": "La Vieille Chéchette",
       "uid": "31d932d1b1211e03",
       "colour": "#E8336D",
+      "time_checked": true,
       "translated": true,
       "category": "food-drink",
       "tags": [
@@ -4314,9 +4475,9 @@
     },
     {
       "title": "6:30pm La Vieille Chéchette Choir",
-      "start": "2026-09-23T00:00:00+02:00",
+      "start": "2026-09-23T18:30:00+02:00",
       "end": "2026-09-23T00:00:00+02:00",
-      "all_day": true,
+      "all_day": false,
       "location": "",
       "description": "",
       "url": "https://chechette.be/events/18h30-chorale-de-la-vieille-chechette/",
@@ -4324,9 +4485,11 @@
       "source": "La Vieille Chéchette",
       "uid": "af60cb5155b12ffb",
       "colour": "#E8336D",
+      "time_checked": true,
       "translated": true,
       "category": "music",
       "tags": [
+        "evening",
         "live",
         "recurring"
       ]
@@ -4469,9 +4632,9 @@
     },
     {
       "title": "7:30pm Friends of Le Monde Diplomatique",
-      "start": "2026-09-24T00:00:00+02:00",
+      "start": "2026-09-24T19:30:00+02:00",
       "end": "2026-09-24T00:00:00+02:00",
-      "all_day": true,
+      "all_day": false,
       "location": "",
       "description": "",
       "url": "https://chechette.be/events/19h30-ami-es-du-monde-diplomatique/",
@@ -4479,9 +4642,11 @@
       "source": "La Vieille Chéchette",
       "uid": "913ee27cf1c58fe3",
       "colour": "#E8336D",
+      "time_checked": true,
       "translated": true,
       "category": "community-social",
       "tags": [
+        "evening",
         "recurring"
       ]
     },
@@ -4813,7 +4978,7 @@
       "location": "Fuse Brussels, Room 01",
       "description": "Featuring Polar Inertia (LIVE), Luigi Tozzi (LIVE), Zara, Yogg, T.A.M.22",
       "url": "https://www.fuse.be/events",
-      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788170947",
+      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788259484",
       "source": "Fuse",
       "uid": "a2b28632df1d2144",
       "colour": "#C0392B",
@@ -4980,6 +5145,7 @@
       "source": "La Vieille Chéchette",
       "uid": "4c662ccdcfaa7c01",
       "colour": "#E8336D",
+      "time_checked": true,
       "translated": true,
       "category": "food-drink",
       "tags": [
@@ -4996,7 +5162,7 @@
       "location": "Théâtre de Poche, Bruxelles",
       "description": "David Paquet | Ilyas Mettioui",
       "url": "https://poche.be/shows",
-      "image": "https://poche.be/img/meta/7eb75d7dc93f0225817fda69fbae57edmeta.jpg",
+      "image": "https://poche.be/images/theatre-foyer.jpg",
       "source": "Le Poche",
       "uid": "c6386813b0191358",
       "colour": "#8A7500",
@@ -5009,9 +5175,9 @@
     },
     {
       "title": "6:30pm La Vieille Chéchette Choir",
-      "start": "2026-09-30T00:00:00+02:00",
+      "start": "2026-09-30T18:30:00+02:00",
       "end": "2026-09-30T00:00:00+02:00",
-      "all_day": true,
+      "all_day": false,
       "location": "",
       "description": "",
       "url": "https://chechette.be/events/18h30-chorale-de-la-vieille-chechette/",
@@ -5019,9 +5185,11 @@
       "source": "La Vieille Chéchette",
       "uid": "1c9e251a0601f0c5",
       "colour": "#E8336D",
+      "time_checked": true,
       "translated": true,
       "category": "music",
       "tags": [
+        "evening",
         "live"
       ]
     },
@@ -5130,7 +5298,7 @@
       "location": "Fuse Brussels, Room 01",
       "description": "Featuring The Ghost, Gonno, Penelope, Nefeli",
       "url": "https://www.fuse.be/events",
-      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788170947",
+      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788259484",
       "source": "Fuse",
       "uid": "96a87d70251094ee",
       "colour": "#C0392B",
@@ -5255,16 +5423,16 @@
       ]
     },
     {
-      "title": "Cazaar + Ismaaël.le - Festival Francofaune",
+      "title": "Cazaar + Ismaaël.le",
       "start": "2026-10-06T20:00:00+02:00",
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "Concerts (doors and bar open at 7pm)",
+      "description": "Concert - Francofaune Festival (doors and bar open at 7:00 PM)",
       "url": "https://www.lebrass.be/",
       "image": "https://www.lebrass.be/wp-content/uploads/2025/12/rq-181016-BRASS-ext-05-04-1200-min-1024x576.jpg",
       "source": "BRASS",
-      "uid": "c0e4902d8b1252dc",
+      "uid": "897e0cc82be5ac76",
       "colour": "#00937A",
       "translated": true,
       "category": "music",
@@ -5394,7 +5562,7 @@
       "location": "Fuse Brussels, Room 01 & Motion",
       "description": "Featuring Fenrick and Riana Holley performing all night",
       "url": "https://www.fuse.be/events",
-      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788170947",
+      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788259484",
       "source": "Fuse",
       "uid": "fe02f835af8cb600",
       "colour": "#C0392B",
@@ -5921,6 +6089,7 @@
       "translated": true,
       "category": "workshops-creative",
       "tags": [
+        "recurring",
         "registration-required"
       ]
     },
@@ -5967,7 +6136,7 @@
       "location": "Fuse Brussels, Room 01",
       "description": "Silva Bumba",
       "url": "https://www.fuse.be/events",
-      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788170947",
+      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788259484",
       "source": "Fuse",
       "uid": "084344da9e9c368a",
       "colour": "#C0392B",
@@ -6102,7 +6271,7 @@
       "location": "Théâtre de Poche, 1a Chemin du Gymnase 1000 Bruxelles",
       "description": "Hélène Vignal / Georges Lini",
       "url": "https://poche.be/shows",
-      "image": "https://poche.be/img/meta/7eb75d7dc93f0225817fda69fbae57edmeta.jpg",
+      "image": "https://poche.be/images/theatre-foyer.jpg",
       "source": "Le Poche",
       "uid": "07f1d28fa4ec2bc1",
       "colour": "#8A7500",
@@ -6249,7 +6418,7 @@
       "location": "Théâtre National",
       "description": "Eline Schumacher",
       "url": "https://poche.be/shows",
-      "image": "https://poche.be/img/meta/7eb75d7dc93f0225817fda69fbae57edmeta.jpg",
+      "image": "https://poche.be/images/theatre-foyer.jpg",
       "source": "Le Poche",
       "uid": "a0dada9563981894",
       "colour": "#8A7500",
@@ -6344,7 +6513,7 @@
       "location": "Théâtre de Poche, 1a Chemin du Gymnase 1000 Bruxelles",
       "description": "Agnès Limbos / Compagnie Gare Centrale",
       "url": "https://poche.be/shows",
-      "image": "https://poche.be/img/meta/7eb75d7dc93f0225817fda69fbae57edmeta.jpg",
+      "image": "https://poche.be/images/theatre-foyer.jpg",
       "source": "Le Poche",
       "uid": "0afde20a71b417d4",
       "colour": "#8A7500",
@@ -6370,6 +6539,7 @@
       "translated": true,
       "category": "workshops-creative",
       "tags": [
+        "recurring",
         "registration-required"
       ]
     },
@@ -6458,7 +6628,7 @@
       "location": "Théâtre de Poche, 1a Chemin du Gymnase 1000 Bruxelles",
       "description": "Ahmed Madani",
       "url": "https://poche.be/shows",
-      "image": "https://poche.be/img/meta/7eb75d7dc93f0225817fda69fbae57edmeta.jpg",
+      "image": "https://poche.be/images/theatre-foyer.jpg",
       "source": "Le Poche",
       "uid": "96c15ca81997e331",
       "colour": "#8A7500",
@@ -6522,6 +6692,7 @@
       "category": "workshops-creative",
       "tags": [
         "kids",
+        "recurring",
         "registration-required"
       ]
     },
