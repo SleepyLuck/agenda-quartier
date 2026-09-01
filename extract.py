@@ -798,6 +798,13 @@ TIME_IN_TEXT_RE = re.compile(r"\b([01]?\d|2[0-3])[:h]([0-5]\d)\b")
 TIME_KEYWORD_RE = re.compile(
     r"\b(doors?|starts?|begins?|opens?|show(?:time)?s?|portes?|d[ée]but|ouverture|aanvang|begint?)\b", re.I)
 
+# Bump this whenever find_time_in_text()/enrich_event_time() logic changes in
+# a way that should invalidate previously-cached results (see load_time_cache
+# in scrape.py) - otherwise a fix here never actually re-runs for events a
+# prior, buggier version already marked time_checked. v2: keyword-proximity
+# rewrite that fixed Le Jacques Franck's 01:26/01:42-style garbage times.
+TIME_CACHE_VERSION = 2
+
 
 def find_time_in_text(text: str) -> tuple[int, int] | None:
     """A plausible-looking HH:MM (or HHhMM) is not automatically a showtime -
@@ -860,7 +867,7 @@ def enrich_missing_times(events: list[dict], tz: str, respect_robots: bool,
         cached = cache.get(e["uid"])
         if cached:
             e["start"], e["all_day"] = cached["start"], cached["all_day"]
-            e["time_checked"] = True
+            e["time_checked"] = TIME_CACHE_VERSION
             continue
         if fetched >= max_new or e.get("url") in listing_urls:
             continue
@@ -869,7 +876,7 @@ def enrich_missing_times(events: list[dict], tz: str, respect_robots: bool,
         if new_start:
             e["start"] = new_start
             e["all_day"] = False
-        e["time_checked"] = True
+        e["time_checked"] = TIME_CACHE_VERSION
         time.sleep(delay)
 
 

@@ -17,8 +17,8 @@ from zoneinfo import ZoneInfo
 import yaml
 from dateutil import parser as dateparser
 
-from extract import (CATEGORIES, TAGS, classify_categories, classify_tags,
-                      enrich_missing_times, extract, translate_events)
+from extract import (CATEGORIES, TAGS, TIME_CACHE_VERSION, classify_categories,
+                      classify_tags, enrich_missing_times, extract, translate_events)
 
 ROOT = Path(__file__).parent
 OUT = ROOT / "docs"
@@ -69,9 +69,13 @@ def load_translation_cache() -> dict[str, dict]:
 
 def load_time_cache() -> dict[str, dict]:
     """uid -> {start, all_day}, for events whose detail page has already been
-    checked for a time (successfully or not) - see enrich_missing_times()."""
+    checked for a time (successfully or not) - see enrich_missing_times().
+    Only trusts entries stamped with the current TIME_CACHE_VERSION, so a fix
+    to the time-extraction logic invalidates stale cached results (a bare
+    `time_checked: true` from before versioning existed doesn't match either,
+    so it's treated as unchecked too) instead of replaying old garbage forever."""
     return {e["uid"]: {"start": e["start"], "all_day": e["all_day"]}
-            for e in _previous_events() if e.get("time_checked")}
+            for e in _previous_events() if e.get("time_checked") == TIME_CACHE_VERSION}
 
 
 def within_window(iso: str, tz: str, past_days: int, horizon_days: int) -> bool:
