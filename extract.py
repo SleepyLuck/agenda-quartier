@@ -117,6 +117,7 @@ def normalise_event(raw: dict, source: str, page_url: str, tz: str) -> dict | No
         "url": url,
         "image": image or None,
         "source": source,
+        "llm_recurring": bool(raw.get("recurring")),
     }
     ev["uid"] = hashlib.sha1(
         f"{source}|{ev['title'].lower()}|{ev['start'][:10]}".encode()
@@ -327,11 +328,25 @@ event in your reply - which should be rare - list evening and weekend events
 first. This is a last-resort tiebreaker, never a reason to leave out daytime or
 weekday events when you have room for them.)
 
+Before including something, check that it's an actual event a visitor could
+show up to - a specific dated happening with a real title, not a site
+announcement. Skip things like "closed for summer", "new agenda out", "back
+in September", newsletter/membership prompts, and opening-hours notices -
+these are administrative text that sometimes gets mixed in among real
+listings, not events themselves.
+
 Return ONLY a JSON array, no prose, no markdown fences.
 
 Each element: {{"title": str, "start": "YYYY-MM-DDTHH:MM" or "YYYY-MM-DD",
 "end": same or null, "location": str, "description": str (max 200 chars),
-"url": absolute link to the event page or null}}
+"url": absolute link to the event's own page if one is given (not just the
+listing page) or null, "recurring": bool}}
+
+"recurring" is true for something on a repeating schedule (a weekly class,
+"every Tuesday", a standing open mic) or an exhibition/installation running
+across a date range rather than a single sitting - false for a normal
+one-off dated show, screening, or talk, even if it's part of a season or
+festival with many other one-off entries.
 
 Rules:
 - Today's date is {today}. Only real, dated events. Skip navigation, past-event
@@ -340,6 +355,9 @@ Rules:
   already passed, in which case use the next year. Do not skip further ahead
   than that - a local venue's page almost never lists anything more than a
   few months out.
+- The listing page often only states a date, not a time - if no time is
+  genuinely stated anywhere near that event, use "YYYY-MM-DD" with no time
+  rather than guessing one. Don't default to midnight or invent a time.
 - If you find no events, return [].
 
 Page URL: {url}
@@ -593,9 +611,13 @@ Events:
 
 
 def deterministic_tags(e: dict) -> set[str]:
-    """Tags computed from the event's own start/end time rather than guessed by a
-    model - free/evening/late-night from the clock, recurring from a multi-day span
-    (an exhibition or installation "10 Sep - 20 Oct" rather than a single date)."""
+    """Tags computed from the event's own data rather than guessed by a model -
+    free/evening/late-night from the clock, recurring from either a multi-day
+    span (an exhibition "10 Sep - 20 Oct" rather than a single date) or the
+    llm rung's own recurring/false-vs-true call at extraction time, when it
+    made one (see LLM_PROMPT's "recurring" field - that pass sees the full
+    page context, e.g. "every Tuesday" phrasing, that a later uid-only tag
+    pass never gets to look at)."""
     tags: set[str] = set()
     if FREE_RE.search(f"{e.get('title', '')} {e.get('description', '')}"):
         tags.add("free")
@@ -616,6 +638,8 @@ def deterministic_tags(e: dict) -> set[str]:
                 tags.add("recurring")
         except ValueError:
             pass
+    if e.get("llm_recurring"):
+        tags.add("recurring")
     return tags
 
 
@@ -627,6 +651,7 @@ def classify_tags(events: list[dict], model: str, cache: dict[str, list[str]]) -
     todo = []
     for e in events:
         det = deterministic_tags(e)
+        e.pop("llm_recurring", None)  # internal-only, folded into det already
         if e["uid"] in cache:
             e["tags"] = sorted(det | set(cache[e["uid"]]))
         else:
@@ -741,6 +766,77 @@ def translate_events(events: list[dict], model: str, cache: dict[str, dict]) -> 
             if t.get("location"):
                 e["location"] = clean_text(t["location"])
             e["translated"] = True
+
+
+# --------------------------------------------------------- time enrichment
+
+TIME_IN_TEXT_RE = re.compile(r"\b([01]?\d|2[0-3])[:h]([0-5]\d)\b")
+
+
+def find_time_in_text(text: str) -> tuple[int, int] | None:
+    """First plausible HH:MM (or HHhMM) in text."""
+    m = TIME_IN_TEXT_RE.search(text)
+    return (int(m.group(1)), int(m.group(2))) if m else None
+
+
+def enrich_event_time(ev: dict, tz: str, respect_robots: bool) -> str | None:
+    """Confirmed via a live diagnostic (01/09/2026) that several listing
+    pages simply never state a time next to the date at all - not a
+    parsing bug, the information isn't on that page. But the event's own
+    detail page usually has it, either as schema.org Event data or as
+    plain text ("Doors 20:00" etc.). Returns a new ISO start with a real
+    time, or None if the detail page has nothing better either."""
+    if not ev.get("url") or not ev["url"].startswith("http"):
+        return None
+    try:
+        html = fetch(ev["url"], respect_robots)
+    except Exception:
+        return None
+    for node in parse_jsonld(html, ev["source"], ev["url"], tz):
+        if node["start"][:10] == ev["start"][:10] and not node["all_day"]:
+            return node["start"]
+    soup = BeautifulSoup(html, "lxml")
+    for tag in soup(["script", "style", "noscript", "svg"]):
+        tag.decompose()
+    found = find_time_in_text(soup.get_text(" "))
+    if not found:
+        return None
+    hour, minute = found
+    try:
+        base = datetime.fromisoformat(ev["start"])
+    except ValueError:
+        return None
+    return base.replace(hour=hour, minute=minute).isoformat()
+
+
+def enrich_missing_times(events: list[dict], tz: str, respect_robots: bool,
+                          delay: float, listing_urls: set[str],
+                          cache: dict[str, dict], max_new: int = 60) -> None:
+    """For all_day events, try to recover a real time from their own detail
+    page - skipped when an event's "url" is just the venue's listing page
+    (nothing new to fetch there), and capped per run since this is one
+    extra HTTP request per event; whatever's left over just tries again
+    next run. `cache` (uid -> {{start, all_day}}) holds every event this has
+    ever been tried for, success or not, so a page confirmed to have no
+    time isn't refetched forever."""
+    fetched = 0
+    for e in events:
+        if not e.get("all_day"):
+            continue
+        cached = cache.get(e["uid"])
+        if cached:
+            e["start"], e["all_day"] = cached["start"], cached["all_day"]
+            e["time_checked"] = True
+            continue
+        if fetched >= max_new or e.get("url") in listing_urls:
+            continue
+        fetched += 1
+        new_start = enrich_event_time(e, tz, respect_robots)
+        if new_start:
+            e["start"] = new_start
+            e["all_day"] = False
+        e["time_checked"] = True
+        time.sleep(delay)
 
 
 # ------------------------------------------------------------ orchestration

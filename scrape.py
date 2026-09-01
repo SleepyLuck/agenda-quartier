@@ -18,7 +18,7 @@ import yaml
 from dateutil import parser as dateparser
 
 from extract import (CATEGORIES, TAGS, classify_categories, classify_tags,
-                      extract, translate_events)
+                      enrich_missing_times, extract, translate_events)
 
 ROOT = Path(__file__).parent
 OUT = ROOT / "docs"
@@ -65,6 +65,13 @@ def load_translation_cache() -> dict[str, dict]:
     return {e["uid"]: {"title": e.get("title", ""), "description": e.get("description", ""),
                         "location": e.get("location", "")}
             for e in _previous_events() if e.get("translated")}
+
+
+def load_time_cache() -> dict[str, dict]:
+    """uid -> {start, all_day}, for events whose detail page has already been
+    checked for a time (successfully or not) - see enrich_missing_times()."""
+    return {e["uid"]: {"start": e["start"], "all_day": e["all_day"]}
+            for e in _previous_events() if e.get("time_checked")}
 
 
 def within_window(iso: str, tz: str, past_days: int, horizon_days: int) -> bool:
@@ -183,6 +190,11 @@ def main() -> int:
 
     events = sorted(all_events.values(), key=lambda e: e["start"])
     model = defaults.get("llm_model", "claude-haiku-4-5")
+    # Several listing pages state a date but no time at all (confirmed live,
+    # not a parsing bug) - the event's own detail page usually has it.
+    listing_urls = {src["url"] for src in sources}
+    enrich_missing_times(events, tz, defaults.get("respect_robots", True), delay,
+                          listing_urls, load_time_cache())
     # Translate first so categorising/tagging both work from the same clean
     # English text as the published page, instead of a mix of languages.
     translate_events(events, model, load_translation_cache())

@@ -109,9 +109,14 @@ sources:
     url: https://www.lebrass.be/
     method: auto
 
+  # Confirmed 01/09/2026 via a live diagnostic: the plain-fetch HTML is
+  # 181KB but strips down to just 7.4KB of real text with zero event
+  # content ("nocturne" - a real upcoming event the user named - appears
+  # nowhere in it). Same JS-rendered-client-side signature as GC
+  # Pianofabriek/GC Ten Weyngaert, so the same fix applies: browser.
   - name: WIELS
     url: https://wiels.org/en/events
-    method: auto
+    method: browser
 
   - name: Maison Poème
     url: https://maisonpoeme.be/
