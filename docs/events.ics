@@ -6,31 +6,26 @@ METHOD:PUBLISH
 X-WR-CALNAME:Neighbourhood events
 X-WR-TIMEZONE:Europe/Brussels
 BEGIN:VEVENT
-UID:2084f50b35a9cdf7@neighbourhood-events
-DTSTAMP:20260831T215457Z
-DTSTART;VALUE=DATE:20260831
-SUMMARY:Last Day of Holiday Fun
-LOCATION:Gemeenschapscentrum Ten Weyngaert\, Vorst
-URL:https://www.tenweyngaert.be/activiteiten
-DESCRIPTION:Fitness\, gym\, dance and martial arts for children ages 3-12
- \nhttps://www.tenweyngaert.be/activiteiten
-CATEGORIES:GC Ten Weyngaert\,Family & Children\,Dance\,Kids
-END:VEVENT
-BEGIN:VEVENT
-UID:0b31def4b56c4365@neighbourhood-events
-DTSTAMP:20260831T215457Z
-DTSTART;VALUE=DATE:20260831
-DTEND;VALUE=DATE:20260920
-SUMMARY:Bozar Rooftop 2026
-LOCATION:Bozar\, Brussels
-URL:https://www.bozar.be/en/calendar
-DESCRIPTION:Pali Pali ✕ Bento Architecture. Free entry.\nhttps://www.bo
- zar.be/en/calendar
-CATEGORIES:BOZAR\,Culture & Arts\,Free\,Recurring
+UID:753db5a6ca8771eb@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260901
+SUMMARY:5-7 PM organic produce baskets - Ferme de Nadir
+LOCATION:La Vieille Chéchette\, Bruxelles
+URL:https://chechette.be/events/17h-19h-paniers-bio-ferme-de-nadir/
+DESCRIPTION:Fresh vegetables year-round! Each year\, households commit to
+  picking up a basket of vegetables weekly and building local food sovere
+ ignty. This is our CSA—our Community Supported Agriculture. The basket
+  contents are a delightful mix of classic vegetables and exciting new fl
+ avors\, grown without synthetic fertilizers\, pesticides\, herbicides\, 
+ or fossil fuel machinery\, but with plenty of love.\nhttps://chechette.b
+ e/events/17h-19h-paniers-bio-ferme-de-nadir/
+CATEGORIES:La Vieille Chéchette\,Food & Drink\,Food & Drink\,Sustainabil
+ ity
 END:VEVENT
 BEGIN:VEVENT
 UID:5aae6e37ec453d8f@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20261031
 SUMMARY:NEW AGENDA OUT!
@@ -41,7 +36,7 @@ CATEGORIES:Recyclart\,Other\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:07b05e1c14b51328@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260901
 DTEND;VALUE=DATE:20260929
 SUMMARY:Baby Library
@@ -52,8 +47,20 @@ DESCRIPTION:Parenting activities for ages 18-99\nhttps://www.tenweyngaert
 CATEGORIES:GC Ten Weyngaert\,Family & Children\,Family\,Recurring
 END:VEVENT
 BEGIN:VEVENT
+UID:9771873799f77f26@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260920
+SUMMARY:Bozar Rooftop 2026
+LOCATION:Bozar Brussels
+URL:https://www.bozar.be/en/calendar
+DESCRIPTION:Pali Pali ✕ Bento Architecture. Free entry.\nhttps://www.bo
+ zar.be/en/calendar
+CATEGORIES:BOZAR\,Culture & Arts\,Free\,Recurring
+END:VEVENT
+BEGIN:VEVENT
 UID:9e586c4cd8603a54@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260901
 SUMMARY:The Waterboys Fisherman's Blues Revue
 LOCATION:Ancienne Belgique
@@ -63,8 +70,17 @@ DESCRIPTION:The Waterboys performing Fisherman's Blues Revue\nhttps://www
 CATEGORIES:Ancienne Belgique\,Music\,Live
 END:VEVENT
 BEGIN:VEVENT
+UID:8719422e285d9668@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260902
+SUMMARY:6:30 PM La Vieille Chéchette Choir
+URL:https://chechette.be/events/18h30-chorale-de-la-vieille-chechette/
+CATEGORIES:La Vieille Chéchette\,Music\,Live
+END:VEVENT
+BEGIN:VEVENT
 UID:0339bb27699be137@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260902
 SUMMARY:Afternoon Tea Chat: Soupah! Cup of tea? Fruit me!
 LOCATION:Le Jacques Franck
@@ -75,7 +91,7 @@ CATEGORIES:Le Jacques Franck\,Community & Social\,Food & Drink
 END:VEVENT
 BEGIN:VEVENT
 UID:bdde232437aa0246@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260902
 SUMMARY:Supermarket - Plants & Seeds
 LOCATION:Usquare
@@ -84,7 +100,7 @@ CATEGORIES:U-Square\,Markets & Fairs\,Sustainability
 END:VEVENT
 BEGIN:VEVENT
 UID:c1088c5e96cc0f7f@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260902
 SUMMARY:Supermarket - Plant and Seed Exchange
 LOCATION:Usquare
@@ -93,7 +109,7 @@ CATEGORIES:U-Square\,Markets & Fairs\,Sustainability
 END:VEVENT
 BEGIN:VEVENT
 UID:4f521379ffc3382a@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260902
 SUMMARY:State of the Future
 LOCATION:KVS
@@ -103,7 +119,7 @@ CATEGORIES:KVS\,Culture & Arts\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:551c7789d90b0186@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260902
 DTEND;VALUE=DATE:20260903
 SUMMARY:Chapters of Celebration
@@ -116,7 +132,7 @@ CATEGORIES:KVS\,Culture & Arts\,Dance\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:236cc2e1774337cd@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260902T151500Z
 SUMMARY:Donkey Skin
 LOCATION:Studio 5
@@ -130,8 +146,22 @@ DESCRIPTION:Donkey Skin
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:80063e2e66d289b3@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260902T153000Z
+SUMMARY:State of the Future
+LOCATION:KVS BOL
+URL:https://kaaitheater.be/nl/agenda
+CATEGORIES:Kaaitheater\,Other\,Evening
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:State of the Future
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:d4792b79a1c06e45@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260902T170000Z
 SUMMARY:PHAT KAT – 30 YEARS DETROIT HIPHOP
 LOCATION:Jazz&resist
@@ -147,7 +177,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:52e17263b666c49e@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260902T170500Z
 SUMMARY:Bay of Angels
 LOCATION:Studio 5
@@ -162,8 +192,39 @@ DESCRIPTION:Bay of Angels
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:43aa690c9438de76@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260902T183000Z
+SUMMARY:shoe/farm
+LOCATION:De Kriekelaar
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Dance\nhttps://kaaitheater.be/nl/agenda
+CATEGORIES:Kaaitheater\,Culture & Arts\,Dance\,Evening
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:shoe/farm
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:034242da99627f65@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260902T183000Z
+SUMMARY:Chapters of Celebration
+LOCATION:KVS BOX
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Dance by Benjamin Abel Meirhaeghe\, Wouter Deltour\, Muziekth
+ eater Transparant\nhttps://kaaitheater.be/nl/agenda
+CATEGORIES:Kaaitheater\,Culture & Arts\,Dance\,Evening
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Chapters of Celebration
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:eb84983dd95bf426@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260902T185000Z
 SUMMARY:Teenage Sex and Death at Camp Miasma
 LOCATION:Studio 5
@@ -178,8 +239,21 @@ DESCRIPTION:Teenage Sex and Death at Camp Miasma
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:bc371431dc6e43b6@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260903
+SUMMARY:7 PM Niña Maleza Concert
+URL:https://chechette.be/events/19h-concert-nina-maleza-2/
+DESCRIPTION:Niña Maleza is a Brussels trio blending voice\, melodies\, a
+ nd harmonies. Rebellious\, bold\, committed\, and poetic music evoking m
+ igration\, roots\, love\, and resistance. Stories are whispered and memo
+ ries evoked.\nhttps://chechette.be/events/19h-concert-nina-maleza-2/
+CATEGORIES:La Vieille Chéchette\,Music\,Live
+END:VEVENT
+BEGIN:VEVENT
 UID:5b3a7641e3c2701c@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260903
 DTEND;VALUE=DATE:20261217
 SUMMARY:Community Yoga
@@ -190,7 +264,7 @@ CATEGORIES:Recyclart\,Sport & Wellbeing\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:5af345413074f7aa@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260903T150000Z
 SUMMARY:Hen
 LOCATION:Studio 5
@@ -205,7 +279,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ed7b430feafaea6a@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260903T170000Z
 SUMMARY:Res Nullius
 LOCATION:Studio 5
@@ -221,7 +295,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d5918156fd3a98c0@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260903T173000Z
 SUMMARY:Emmylou Harris
 LOCATION:Bozar\, Brussels
@@ -236,7 +310,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b4d3510e62be8bae@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260903T183000Z
 SUMMARY:TONADA
 LOCATION:Jazz&resist
@@ -251,8 +325,71 @@ DESCRIPTION:TONADA
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:8737abe938759270@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260903T183000Z
+SUMMARY:The Truthful
+LOCATION:Theater 1150
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Theater by Lieselot Siddiki\, CAMPO\nhttps://kaaitheater.be/n
+ l/agenda
+CATEGORIES:Kaaitheater\,Culture & Arts\,Evening\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:The Truthful
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e3435ac20ec934b4@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260903T183000Z
+SUMMARY:Ki no nagare
+LOCATION:Gare Maritime
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Circus by Collectif Malunés\, Arne Sabbe\nhttps://kaaitheate
+ r.be/nl/agenda
+CATEGORIES:Kaaitheater\,Culture & Arts\,Evening\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Ki no nagare
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6bcba0e475cb2705@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260903T183000Z
+SUMMARY:shoe/farm
+LOCATION:De Kriekelaar
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Dance\nhttps://kaaitheater.be/nl/agenda
+CATEGORIES:Kaaitheater\,Culture & Arts\,Dance\,Evening
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:shoe/farm
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c3d217441f87b9d0@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260903T183000Z
+SUMMARY:Chapters of Celebration
+LOCATION:KVS BOX
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Dance by Benjamin Abel Meirhaeghe\, Wouter Deltour\, Muziekth
+ eater Transparant\nhttps://kaaitheater.be/nl/agenda
+CATEGORIES:Kaaitheater\,Culture & Arts\,Dance\,Evening
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Chapters of Celebration
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:82ca252d2bf6ee03@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260903T190000Z
 SUMMARY:The End of Oak Street
 LOCATION:Studio 5
@@ -266,8 +403,20 @@ DESCRIPTION:The End of Oak Street
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:768aa032e0c116ca@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260904
+SUMMARY:7:30 PM Cassiof and Iva Mai Concert
+URL:https://chechette.be/events/19h30-concert-cassiof-et-iva-mai/
+DESCRIPTION:Cassiof\, a Brussels band performing French pop-rap chanson. 
+ A concert to sweep us all away.\nhttps://chechette.be/events/19h30-conce
+ rt-cassiof-et-iva-mai/
+CATEGORIES:La Vieille Chéchette\,Music\,Live
+END:VEVENT
+BEGIN:VEVENT
 UID:580dba2c7b4522ef@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260904
 SUMMARY:Fuse presents: NIKOLINA & Ornella
 LOCATION:Fuse Brussels\, Room 01
@@ -278,7 +427,7 @@ CATEGORIES:Fuse\,Music\,Dance\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:d49e847b5db10cdf@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260904
 SUMMARY:Art in the Grip of the Far Right?
 LOCATION:KVS
@@ -288,7 +437,7 @@ CATEGORIES:KVS\,Talks & Discussions\,Free
 END:VEVENT
 BEGIN:VEVENT
 UID:340e7f07cf308d73@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260904
 SUMMARY:Bedouine
 LOCATION:Ancienne Belgique
@@ -299,7 +448,7 @@ CATEGORIES:Ancienne Belgique\,Music\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:151f9fb935888827@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260904
 SUMMARY:Ca7riel & Paco Amoroso
 LOCATION:Ancienne Belgique
@@ -307,8 +456,24 @@ URL:https://www.abconcerts.be/fr/agenda
 CATEGORIES:Ancienne Belgique\,Music\,Live
 END:VEVENT
 BEGIN:VEVENT
+UID:3f3de5c73b1a82d9@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260904T150000Z
+SUMMARY:Art in the Grip of the Far Right?
+LOCATION:KVS TOP
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Debate by Etcetera\, Het Theaterfestival\nhttps://kaaitheater
+ .be/nl/agenda
+CATEGORIES:Kaaitheater\,Talks & Discussions\,Evening\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Art in the Grip of the Far Right?
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:730e9426a59dce5f@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260904T151500Z
 SUMMARY:We\, the Orchestra
 LOCATION:Studio 5
@@ -323,8 +488,24 @@ DESCRIPTION:We\, the Orchestra
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:f7a1f3edefbd52b0@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260904T153000Z
+SUMMARY:Plum Road Tea Dream
+LOCATION:Kaaistudios
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Performance by Samuel Baidoo\nhttps://kaaitheater.be/nl/agend
+ a
+CATEGORIES:Kaaitheater\,Culture & Arts\,Evening\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Plum Road Tea Dream
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:b2bf7d1f2c6fb456@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260904T170000Z
 SUMMARY:Le Vertige
 LOCATION:Studio 5
@@ -340,7 +521,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:06c5543f8cebb243@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260904T180000Z
 SUMMARY:Billy Corgan
 LOCATION:Bozar\, Brussels
@@ -356,7 +537,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:1724c471ca3b7792@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260904T183000Z
 SUMMARY:TRIBUTE TO HERBIE HANCOCK
 LOCATION:Jazz&resist
@@ -372,7 +553,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fc21d8997a7ae743@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260904T183000Z
 SUMMARY:The Unknown
 LOCATION:Studio 5
@@ -387,8 +568,55 @@ DESCRIPTION:The Unknown
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:104108dbf3298f60@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260904T183000Z
+SUMMARY:ALKIBIADES
+LOCATION:CC De Factorij
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Theater by Zuidpool\nhttps://kaaitheater.be/nl/agenda
+CATEGORIES:Kaaitheater\,Culture & Arts\,Evening\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:ALKIBIADES
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8097139d5cd4316c@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260904T183000Z
+SUMMARY:Ki no nagare
+LOCATION:Gare Maritime
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Circus by Collectif Malunés\, Arne Sabbe\nhttps://kaaitheate
+ r.be/nl/agenda
+CATEGORIES:Kaaitheater\,Culture & Arts\,Evening\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Ki no nagare
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:54ccf951d95bb966@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260904T183000Z
+SUMMARY:The Truthful
+LOCATION:Theater 1150
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Theater by Lieselot Siddiki\, CAMPO\nhttps://kaaitheater.be/n
+ l/agenda
+CATEGORIES:Kaaitheater\,Culture & Arts\,Evening\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:The Truthful
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:e9c3845c7a0f9e4c@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260905
 SUMMARY:MANU CHAO I ULTRA ACOUSTIC + NEPHTYS - Sold Out!
 LOCATION:Place Van Meenen
@@ -398,7 +626,7 @@ CATEGORIES:Le Jacques Franck\,Music\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:65ee7f39ba9478c6@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260905
 SUMMARY:Fuse presents: Hadone curates w/ Nørbak & Tauceti
 LOCATION:Fuse Brussels\, Room 01
@@ -409,7 +637,7 @@ CATEGORIES:Fuse\,Music\,Dance\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:43154d2d31adf87c@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260905
 DTEND;VALUE=DATE:20260906
 SUMMARY:Magec / the Desert
@@ -421,7 +649,7 @@ CATEGORIES:KVS\,Culture & Arts\,Dance\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:a6c66d2b19299790@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260905
 SUMMARY:Yebba + Astyn
 LOCATION:Ancienne Belgique
@@ -431,8 +659,23 @@ DESCRIPTION:One of the essential new voices of contemporary soul\nhttps:/
 CATEGORIES:Ancienne Belgique\,Music\,Live
 END:VEVENT
 BEGIN:VEVENT
+UID:e7a35332bb5e112f@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260905T090000Z
+SUMMARY:Amai Speciaal Chapeau (3+)
+LOCATION:De Kriekelaar
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Theater by DE MAAN & 4Hoog\nhttps://kaaitheater.be/nl/agenda
+CATEGORIES:Kaaitheater\,Culture & Arts\,Kids\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Amai Speciaal Chapeau (3+)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:43ea1900f1830a81@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260905T121500Z
 SUMMARY:The Odyssey
 LOCATION:Studio 5
@@ -446,8 +689,39 @@ DESCRIPTION:The Odyssey
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:bfc3ac2975098f0a@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260905T123000Z
+SUMMARY:Frames
+LOCATION:SAAMO
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Circus by Not Standing / Alexander Vantournhout\nhttps://kaai
+ theater.be/nl/agenda
+CATEGORIES:Kaaitheater\,Culture & Arts\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Frames
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:21351d8239b7d27c@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260905T143000Z
+SUMMARY:Hugs & Handshakes
+LOCATION:Maria-Boodschaplyceum
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:By THERE THERE Company\nhttps://kaaitheater.be/nl/agenda
+CATEGORIES:Kaaitheater\,Culture & Arts\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Hugs & Handshakes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:f24d5c9c5e166d79@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260905T153000Z
 SUMMARY:The Umbrellas of Cherbourg
 LOCATION:Studio 5
@@ -461,8 +735,24 @@ DESCRIPTION:The Umbrellas of Cherbourg
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:e94a1adf53a470f6@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260905T160000Z
+SUMMARY:Magec / the Desert
+LOCATION:KVS BOL
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Dance by Radouan Mriziga\, A7LA5\nhttps://kaaitheater.be/nl/a
+ genda
+CATEGORIES:Kaaitheater\,Culture & Arts\,Dance\,Evening
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Magec / the Desert
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:9f15a03a5487fe2f@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260905T172000Z
 SUMMARY:Le Vertige
 LOCATION:Studio 5
@@ -477,7 +767,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:11faf0b233e228d1@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260905T183000Z
 SUMMARY:BRUSSELS SALSA PROJECT
 LOCATION:Jazz&resist
@@ -491,8 +781,39 @@ DESCRIPTION:BRUSSELS SALSA PROJECT
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:0ab2ffa65b784534@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260905T183000Z
+SUMMARY:ALKIBIADES
+LOCATION:CC De Factorij
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Theater by Zuidpool\nhttps://kaaitheater.be/nl/agenda
+CATEGORIES:Kaaitheater\,Culture & Arts\,Evening\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:ALKIBIADES
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:741680f0d1a9ad73@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260905T183000Z
+SUMMARY:Ki no nagare
+LOCATION:Gare Maritime
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Circus by Collectif Malunés\, Arne Sabbe\nhttps://kaaitheate
+ r.be/nl/agenda
+CATEGORIES:Kaaitheater\,Culture & Arts\,Evening\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Ki no nagare
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:487d67ef1b806311@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260905T184500Z
 SUMMARY:Teenage Sex and Death at Camp Miasma
 LOCATION:Studio 5
@@ -507,7 +828,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d53e661c1b9902f1@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260906
 DTEND;VALUE=DATE:20260917
 SUMMARY:LE JACQUES FRANCK GOES TO THE CINEMA!
@@ -519,7 +840,7 @@ CATEGORIES:Le Jacques Franck\,Film & Cinema\,Drop-in\,Free\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:78d7359064e5a0ee@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260906
 SUMMARY:Carmen\, the Rebellious Bird
 LOCATION:Le Jacques Franck
@@ -530,7 +851,7 @@ CATEGORIES:Le Jacques Franck\,Culture & Arts\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:b5aaeddbd9e18f60@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260906
 SUMMARY:Sambizanga
 LOCATION:Le Jacques Franck
@@ -540,7 +861,7 @@ CATEGORIES:Le Jacques Franck\,Film & Cinema\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:d242f8f9c02ec278@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260906
 SUMMARY:SYD
 LOCATION:Ancienne Belgique
@@ -549,8 +870,39 @@ DESCRIPTION:Cancelled\nhttps://www.abconcerts.be/fr/agenda
 CATEGORIES:Ancienne Belgique\,Other
 END:VEVENT
 BEGIN:VEVENT
+UID:af376600fc31ac50@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260906T090000Z
+SUMMARY:Frames
+LOCATION:SAAMO
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Circus by Not Standing / Alexander Vantournhout\nhttps://kaai
+ theater.be/nl/agenda
+CATEGORIES:Kaaitheater\,Culture & Arts\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Frames
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c09f0d69beb64176@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260906T113000Z
+SUMMARY:Hugs & Handshakes
+LOCATION:Maria-Boodschaplyceum
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:By THERE THERE Company\nhttps://kaaitheater.be/nl/agenda
+CATEGORIES:Kaaitheater\,Culture & Arts\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Hugs & Handshakes
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:643900a2fb01948b@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260906T120000Z
 SUMMARY:Lola
 LOCATION:Studio 5
@@ -565,7 +917,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f735db8de008e621@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260906T130000Z
 DTEND:20260906T190000Z
 SUMMARY:Back-to-School Party — Season 5
@@ -584,8 +936,24 @@ DESCRIPTION:Back-to-School Party — Season 5
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:5bd42d4e4d389b06@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260906T130000Z
+SUMMARY:Magec / the Desert
+LOCATION:KVS BOL
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Dance by Radouan Mriziga\, A7LA5\nhttps://kaaitheater.be/nl/a
+ genda
+CATEGORIES:Kaaitheater\,Culture & Arts\,Dance
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Magec / the Desert
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:ff50c1958cf84624@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260906T134500Z
 SUMMARY:The Unknown
 LOCATION:Studio 5
@@ -600,7 +968,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c0a83dad2b8ed195@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260906T150000Z
 SUMMARY:ISAAC
 LOCATION:Jazz&resist
@@ -615,7 +983,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cd82dba8489e4a52@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260906T160000Z
 DTEND:20261219T140000Z
 SUMMARY:Unruly Roses
@@ -635,8 +1003,24 @@ DESCRIPTION:Unruly Roses
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:c797afa809f27a59@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260906T160000Z
+SUMMARY:Ki no nagare
+LOCATION:Gare Maritime
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Circus by Collectif Malunés\, Arne Sabbe\nhttps://kaaitheate
+ r.be/nl/agenda
+CATEGORIES:Kaaitheater\,Culture & Arts\,Evening\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Ki no nagare
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:37e0cc4c84b8f051@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260906T162000Z
 SUMMARY:Dark Diamond
 LOCATION:Studio 5
@@ -651,7 +1035,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d3132f399492adff@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260906T183000Z
 SUMMARY:Onoda: 10\,000 Nights in the Jungle
 LOCATION:Studio 5
@@ -666,7 +1050,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a76e34d67a48239f@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260907
 SUMMARY:The Song of the Forests
 LOCATION:Le Jacques Franck
@@ -677,7 +1061,7 @@ CATEGORIES:Le Jacques Franck\,Film & Cinema\,Free\,Kids
 END:VEVENT
 BEGIN:VEVENT
 UID:1b4d8ea38e908148@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260907
 SUMMARY:In Waves
 LOCATION:Le Jacques Franck
@@ -688,7 +1072,7 @@ CATEGORIES:Le Jacques Franck\,Film & Cinema\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:1a5e1b1838c7d944@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260907T170000Z
 DTEND:20260831T190000Z
 SUMMARY:Reading bell hooks\, Living Culture: Arts\, Representations and S
@@ -709,8 +1093,26 @@ DESCRIPTION:Reading bell hooks\, Living Culture: Arts\, Representations a
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:2204c8763532c4a6@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260908
+SUMMARY:5-7pm Organic Produce Baskets from Nadir Farm
+LOCATION:La Vieille Chéchette\, Bruxelles
+URL:https://chechette.be/events/17h-19h-paniers-bio-ferme-de-nadir/
+DESCRIPTION:Fresh vegetable baskets all year round! Each year\, household
+ s commit to picking up a weekly vegetable basket and building local food
+  sovereignty. This is our CSA\, our Community Supported Agriculture. The
+  basket contents are a delightful mix of classic vegetables and exciting
+  new flavors that we cultivate without fertilizers\, pesticides\, herbic
+ ides\, or fossil fuel-powered tools—just lots of love.\nhttps://cheche
+ tte.be/events/17h-19h-paniers-bio-ferme-de-nadir/
+CATEGORIES:La Vieille Chéchette\,Food & Drink\,Food & Drink\,Sustainabil
+ ity
+END:VEVENT
+BEGIN:VEVENT
 UID:018edc961b3206fe@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260908
 DTEND;VALUE=DATE:20261215
 SUMMARY:Folkpractica
@@ -722,7 +1124,7 @@ CATEGORIES:GC Pianofabriek\,Sport & Wellbeing\,Dance\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:b89f3d704d90f9a6@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260908
 SUMMARY:Allah Is Not Obliged
 LOCATION:Le Jacques Franck
@@ -732,7 +1134,7 @@ CATEGORIES:Le Jacques Franck\,Film & Cinema\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:97c3c4036c32cd1a@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260908
 SUMMARY:Gala of the Auras
 LOCATION:KVS
@@ -743,7 +1145,7 @@ CATEGORIES:KVS\,Culture & Arts\,Free\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:0b33ef90170e0226@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260908
 DTEND;VALUE=DATE:20260909
 SUMMARY:FRANK
@@ -756,7 +1158,7 @@ CATEGORIES:KVS\,Culture & Arts\,Dance\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:a388d936b63cff10@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260908
 SUMMARY:Ecca Vandal + Freddy Forbidden
 LOCATION:Ancienne Belgique
@@ -766,8 +1168,49 @@ DESCRIPTION:An energetic show blending punk\, jazz\, hip-hop and electron
 CATEGORIES:Ancienne Belgique\,Music\,Live
 END:VEVENT
 BEGIN:VEVENT
+UID:2f0b985b2cd5eec6@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260908T160000Z
+SUMMARY:Gala van de Aura's
+LOCATION:KVS BOL
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:By Het Theaterfestival\, de Acteursgilde\, NTGent\, KVS\, Ton
+ eelhuis\nhttps://kaaitheater.be/nl/agenda
+CATEGORIES:Kaaitheater\,Culture & Arts\,Evening\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Gala van de Aura's
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d8bc4a3c6bbea833@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260908T183000Z
+SUMMARY:FRANK
+LOCATION:KVS BOX
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Dance by Cherish Menzo\, GRIP\, Theater Utrecht\, Dance On En
+ semble\nhttps://kaaitheater.be/nl/agenda
+CATEGORIES:Kaaitheater\,Culture & Arts\,Dance\,Evening
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:FRANK
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:429ebf24495d560a@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20260909
+SUMMARY:6:30pm La Vieille Chéchette Choir
+URL:https://chechette.be/events/18h30-chorale-de-la-vieille-chechette/
+CATEGORIES:La Vieille Chéchette\,Music\,Live
+END:VEVENT
+BEGIN:VEVENT
 UID:dd376d7d582a4f5c@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260909
 DTEND;VALUE=DATE:20270609
 SUMMARY:Afropop Dance Classes Ages 9-12
@@ -779,7 +1222,7 @@ CATEGORIES:GC Pianofabriek\,Family & Children\,Dance\,Kids\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:9b657526f1ff5fba@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260909
 SUMMARY:Short Films TEFF - The Extraordinary Film Festival
 LOCATION:Le Jacques Franck
@@ -789,7 +1232,7 @@ CATEGORIES:Le Jacques Franck\,Film & Cinema\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:00e30b0f0782b06b@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260909
 DTEND;VALUE=DATE:20260916
 SUMMARY:Machines & Robots from Cardboard
@@ -801,7 +1244,7 @@ CATEGORIES:BRASS\,Workshops & Creative\,Kids\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:4d5ad76e1581edac@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260909T150000Z
 SUMMARY:Dark Diamond
 LOCATION:Studio 5
@@ -817,7 +1260,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:64c9e444612e785a@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260909T171000Z
 SUMMARY:Rose
 LOCATION:Studio 5
@@ -833,7 +1276,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:5b137ad4b2bfc4e0@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260909T173000Z
 DTEND:20260909T200000Z
 SUMMARY:Poetry\, No Need to Fear! — CotCotCot Celebrates 15 Years
@@ -853,8 +1296,54 @@ DESCRIPTION:Poetry\, No Need to Fear! — CotCotCot Celebrates 15 Years
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:24d1b5a5616e60fd@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260909T180000Z
+SUMMARY:Carminho
+LOCATION:Bozar Brussels
+URL:https://www.bozar.be/en/calendar
+DESCRIPTION:Concert. From 39 €\nhttps://www.bozar.be/en/calendar
+CATEGORIES:BOZAR\,Music\,Evening\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Carminho
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:30134c86c288516f@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260909T183000Z
+SUMMARY:FRANK
+LOCATION:KVS BOX
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Dance by Cherish Menzo\, GRIP\, Theater Utrecht\, Dance On En
+ semble\nhttps://kaaitheater.be/nl/agenda
+CATEGORIES:Kaaitheater\,Culture & Arts\,Dance\,Evening
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:FRANK
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:462ab4bcab77ea97@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260909T183000Z
+SUMMARY:Badke(remix)
+LOCATION:CC De Factorij
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Dance by laGeste\, Stereo48\nhttps://kaaitheater.be/nl/agenda
+CATEGORIES:Kaaitheater\,Culture & Arts\,Dance\,Evening
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Badke(remix)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:cfcc962d19875517@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260909T190000Z
 SUMMARY:Akira
 LOCATION:Studio 5
@@ -869,8 +1358,27 @@ DESCRIPTION:Akira
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:1b5d268fa48fc322@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260910
+SUMMARY:6pm Lecture Performance: Be Passive and Shut Up! Or How Classist 
+ Policies Keep Us From Real Democracy
+URL:https://chechette.be/events/18h-conference-gesticulee-sois-passif-et-
+ tais-toi-ou-comment-les-politiques-classistes-nous-eloignent-dune-vraie-
+ democratie/
+DESCRIPTION:Since 2010\, Donatienne has been helping households make the 
+ most of energy-efficient and socially-minded housing to meet energy savi
+ ngs and comfort goals. It's complicated\, right?! Really\, she's above a
+ ll a social worker! And that's what she's standing up for today.\nhttps:
+ //chechette.be/events/18h-conference-gesticulee-sois-passif-et-tais-toi-
+ ou-comment-les-politiques-classistes-nous-eloignent-dune-vraie-democrati
+ e/
+CATEGORIES:La Vieille Chéchette\,Talks & Discussions\,Live
+END:VEVENT
+BEGIN:VEVENT
 UID:36880d5e0ef88508@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260910
 SUMMARY:Bora Pianofabriek × Speakeasy
 LOCATION:Gemeenschapscentrum Pianofabriek vzw\, Sint-Gillis
@@ -880,7 +1388,7 @@ CATEGORIES:GC Pianofabriek\,Talks & Discussions\,Drop-in\,Free\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:ccfdf7e263fc5b6f@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20261004
 SUMMARY:EXPO It's a Party in the Chaos
@@ -893,7 +1401,7 @@ CATEGORIES:GC Pianofabriek\,Culture & Arts\,Drop-in\,Free\,Live\,Recurrin
 END:VEVENT
 BEGIN:VEVENT
 UID:14fc5c6426312ba8@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20261203
 SUMMARY:Couture Club
@@ -904,7 +1412,7 @@ CATEGORIES:Recyclart\,Workshops & Creative\,Recurring\,Sustainability
 END:VEVENT
 BEGIN:VEVENT
 UID:afdaa2d75fd8466e@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260910T142000Z
 SUMMARY:Akira
 LOCATION:Studio 5
@@ -920,7 +1428,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:03b5f31d6d9bf5d8@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260910T164000Z
 SUMMARY:Rose
 LOCATION:Studio 5
@@ -935,26 +1443,39 @@ DESCRIPTION:Rose
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:983f0eda864216e2@neighbourhood-events
-DTSTAMP:20260831T215457Z
-DTSTART:20260910T181500Z
-SUMMARY:Brussels Philharmonic & Dirk Brossé - Star Wars: Return of the J
- edi - In Concert
-LOCATION:Studio 4
-URL:https://www.flagey.be/agenda
-DESCRIPTION:Music/cinema - classical\, orchestra\, music & visuals. €5.
- 00–€61.00. Waiting list\nhttps://www.flagey.be/agenda
-CATEGORIES:Flagey\,Music\,Evening\,Live\,Registration Required
+UID:80b1054bb3daddd8@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260910T170000Z
+SUMMARY:Bonjour Mademoiselleke (10+)
+LOCATION:De Kriekelaar
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Youth theater by De Maan\nhttps://kaaitheater.be/nl/agenda
+CATEGORIES:Kaaitheater\,Culture & Arts\,Evening\,Kids\,Live
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT120M
-DESCRIPTION:Brussels Philharmonic & Dirk Brossé - Star Wars: Return of t
- he Jedi - In Concert
+DESCRIPTION:Bonjour Mademoiselleke (10+)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d9ad0af2bc9416da@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260910T181500Z
+SUMMARY:Star Wars: Return of the Jedi - In Concert
+LOCATION:Studio 4
+URL:https://www.flagey.be/agenda
+DESCRIPTION:Classical orchestra music & visuals concert\nhttps://www.flag
+ ey.be/agenda
+CATEGORIES:Flagey\,Music\,Evening\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Star Wars: Return of the Jedi - In Concert
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:404f105188b4db02@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260910T183000Z
 SUMMARY:LE MINISTÈRE
 LOCATION:Jazz&resist
@@ -969,7 +1490,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0a4e1709a99c3303@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260910T183000Z
 SUMMARY:Onoda: 10\,000 Nights in the Jungle
 LOCATION:Studio 5
@@ -984,8 +1505,39 @@ DESCRIPTION:Onoda: 10\,000 Nights in the Jungle
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:f42f28fac11c6e83@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260910T183000Z
+SUMMARY:Badke(remix)
+LOCATION:CC De Factorij
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Dance by laGeste\, Stereo48\nhttps://kaaitheater.be/nl/agenda
+CATEGORIES:Kaaitheater\,Culture & Arts\,Dance\,Evening
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Badke(remix)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1e8fb18c84a8a433@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260910T183000Z
+SUMMARY:La Noche de Aparición
+LOCATION:RITCS Campus Kaai (Anderlecht)
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Dance by Désirée 0100\, Lulu Muñoz\nhttps://kaaitheater.be
+ /nl/agenda
+CATEGORIES:Kaaitheater\,Culture & Arts\,Dance\,Evening
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:La Noche de Aparición
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:79a089f8bc59e57b@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260911
 SUMMARY:Bora Pianofabriek × Speakeasy × Jam Poetik
 LOCATION:Gemeenschapscentrum Pianofabriek vzw\, Sint-Gillis
@@ -996,7 +1548,7 @@ CATEGORIES:GC Pianofabriek\,Music\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:472caa42eb1f1bfe@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260911
 SUMMARY:Recyclart Reopening
 LOCATION:Recyclart
@@ -1007,7 +1559,7 @@ CATEGORIES:Recyclart\,Festivals & Celebrations\,Food & Drink\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:3b48a741d48d9a19@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20261031
 SUMMARY:Exposition Bar Resto "Cut Flowers Flavors"
@@ -1018,7 +1570,7 @@ CATEGORIES:Recyclart\,Culture & Arts\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:a729cd04668ba94f@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260911
 SUMMARY:Fuse presents: 2HOT2PLAY & ALT8
 LOCATION:Fuse Brussels\, Room 01
@@ -1029,7 +1581,7 @@ CATEGORIES:Fuse\,Music\,Dance\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:5882ef98aaabd666@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260911
 DTEND;VALUE=DATE:20260926
 SUMMARY:Manicomio\, or the Pleasure of Being Useless
@@ -1040,7 +1592,7 @@ CATEGORIES:Le Poche\,Culture & Arts\,Live\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:49ef23c08a0a391c@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260911T153000Z
 SUMMARY:Res Nullius
 LOCATION:Studio 5
@@ -1056,7 +1608,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9ddf7026431ffd3a@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260911T170000Z
 SUMMARY:Teenage Sex and Death at Camp Miasma
 LOCATION:Studio 5
@@ -1071,8 +1623,39 @@ DESCRIPTION:Teenage Sex and Death at Camp Miasma
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:b881ebd72db55749@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260911T170000Z
+SUMMARY:Bonjour Mademoiselleke (10+)
+LOCATION:De Kriekelaar
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Youth theater by De Maan\nhttps://kaaitheater.be/nl/agenda
+CATEGORIES:Kaaitheater\,Culture & Arts\,Evening\,Kids\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Bonjour Mademoiselleke (10+)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a14bf13cd250a331@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260911T170000Z
+SUMMARY:The Moon in your Mouth
+LOCATION:Kaaistudios
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Performance by Samah Hijawi\, KWP\nhttps://kaaitheater.be/nl/
+ agenda
+CATEGORIES:Kaaitheater\,Culture & Arts\,Evening\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:The Moon in your Mouth
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:6e3ce623490fee2b@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260911T180000Z
 DTEND:20260911T200000Z
 SUMMARY:Storm Beasts
@@ -1091,26 +1674,24 @@ DESCRIPTION:Storm Beasts
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:874c2347404526d8@neighbourhood-events
-DTSTAMP:20260831T215457Z
+UID:1954f93a96d2c0d9@neighbourhood-events
+DTSTAMP:20260901T094558Z
 DTSTART:20260911T181500Z
-SUMMARY:Brussels Philharmonic & Dirk Brossé - Star Wars: Return of the J
- edi - In Concert
+SUMMARY:Star Wars: Return of the Jedi - In Concert
 LOCATION:Studio 4
 URL:https://www.flagey.be/agenda
-DESCRIPTION:Music/cinema - classical\, orchestra\, music & visuals. €5.
- 00–€61.00. Waiting list\nhttps://www.flagey.be/agenda
-CATEGORIES:Flagey\,Music\,Evening\,Live\,Registration Required
+DESCRIPTION:Classical orchestra music & visuals concert\nhttps://www.flag
+ ey.be/agenda
+CATEGORIES:Flagey\,Music\,Evening\,Live
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT120M
-DESCRIPTION:Brussels Philharmonic & Dirk Brossé - Star Wars: Return of t
- he Jedi - In Concert
+DESCRIPTION:Star Wars: Return of the Jedi - In Concert
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:85c563ad474e99a9@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260911T183000Z
 SUMMARY:BRUNO CASTELLUCCI BELGIAN ALL-STARS 'LATIN LEGACY'
 LOCATION:Jazz&resist
@@ -1123,8 +1704,40 @@ DESCRIPTION:BRUNO CASTELLUCCI BELGIAN ALL-STARS 'LATIN LEGACY'
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:c4015b28935b1407@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260911T183000Z
+SUMMARY:La Noche de Aparición
+LOCATION:RITCS Campus Kaai (Anderlecht)
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Dance by Désirée 0100\, Lulu Muñoz\nhttps://kaaitheater.be
+ /nl/agenda
+CATEGORIES:Kaaitheater\,Culture & Arts\,Dance\,Evening
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:La Noche de Aparición
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f482ccc7af9159b4@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260911T183000Z
+SUMMARY:Dancing with My Ex / Bailando con mi ex
+LOCATION:Beursschouwburg
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Theater by Neal Leemput\, De Studio\nhttps://kaaitheater.be/n
+ l/agenda
+CATEGORIES:Kaaitheater\,Culture & Arts\,Evening\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Dancing with My Ex / Bailando con mi ex
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:c82fcf6fdaab9d4c@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260911T190500Z
 SUMMARY:The Unknown
 LOCATION:Studio 5
@@ -1140,7 +1753,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f499a04c7b67c60f@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260912
 SUMMARY:Bora Pianofabriek × Panorama Brasilis
 LOCATION:Gemeenschapscentrum Pianofabriek vzw\, Sint-Gillis
@@ -1150,7 +1763,7 @@ CATEGORIES:GC Pianofabriek\,Music\,Drop-in\,Free\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:9ff417909195b5af@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260912
 SUMMARY:Cinéclube Panorama Brasilis: Bonds of the Matriarch
 LOCATION:Gemeenschapscentrum Pianofabriek vzw\, Sint-Gillis
@@ -1161,7 +1774,7 @@ CATEGORIES:GC Pianofabriek\,Film & Cinema\,Drop-in\,Free\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:e7a93911103bbc97@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260912
 SUMMARY:Zazaclub w/ Klein & XT1ANA (live) + Shauwdii + Soa420+ iced latti
  na + VINESSETT
@@ -1172,7 +1785,7 @@ CATEGORIES:Recyclart\,Music\,Dance\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:1181c38f8dea9464@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260912
 SUMMARY:Fuse presents: Andy C
 LOCATION:Fuse Brussels\, Room 01
@@ -1183,7 +1796,7 @@ CATEGORIES:Fuse\,Music\,Dance\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:377ba47c4f24e78a@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260912
 SUMMARY:F*CK LOLITA
 LOCATION:KVS
@@ -1194,7 +1807,7 @@ CATEGORIES:KVS\,Culture & Arts\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:daecf6ccb05efc22@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260912
 DTEND;VALUE=DATE:20270529
 SUMMARY:KRAPP / KVS
@@ -1204,8 +1817,24 @@ DESCRIPTION:Copyriot. Theater.\nhttps://www.kvs.be/fr/agenda
 CATEGORIES:KVS\,Culture & Arts\,Live\,Recurring
 END:VEVENT
 BEGIN:VEVENT
+UID:3b2b7b9773345f57@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260912T110000Z
+SUMMARY:The Moon in your Mouth
+LOCATION:Kaaistudios
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Performance by Samah Hijawi\, KWP\nhttps://kaaitheater.be/nl/
+ agenda
+CATEGORIES:Kaaitheater\,Culture & Arts\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:The Moon in your Mouth
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:212411e81413bae0@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260912T120000Z
 SUMMARY:Rose
 LOCATION:Studio 5
@@ -1220,7 +1849,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:83c6fea4c3c7e927@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260912T120000Z
 SUMMARY:Traces of the Military and Conquest in Etterbeek
 LOCATION:Etterbeek
@@ -1236,7 +1865,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2bbc514a26de5737@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260912T135000Z
 SUMMARY:Bay og Angels
 LOCATION:Studio 5
@@ -1251,8 +1880,24 @@ DESCRIPTION:Bay og Angels
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:d9a20bc6543e82a6@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260912T140000Z
+SUMMARY:Dancing with My Ex / Bailando con mi ex
+LOCATION:Beursschouwburg
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Theater by Neal Leemput\, De Studio\nhttps://kaaitheater.be/n
+ l/agenda
+CATEGORIES:Kaaitheater\,Culture & Arts\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Dancing with My Ex / Bailando con mi ex
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:e4a83fd7d78840da@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260912T153500Z
 SUMMARY:Lola
 LOCATION:Studio 5
@@ -1267,7 +1912,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ae0c97eae1cf0a82@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260912T172000Z
 SUMMARY:Le Vertige
 LOCATION:Studio 5
@@ -1281,27 +1926,9 @@ DESCRIPTION:Le Vertige
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:d428f71082b444a3@neighbourhood-events
-DTSTAMP:20260831T215457Z
-DTSTART:20260912T181500Z
-SUMMARY:Brussels Philharmonic & Dirk Brossé - Star Wars: Return of the J
- edi - In Concert
-LOCATION:Studio 4
-URL:https://www.flagey.be/agenda
-DESCRIPTION:Music/cinema - classical\, orchestra\, music & visuals. €5.
- 00–€61.00. Waiting list\nhttps://www.flagey.be/agenda
-CATEGORIES:Flagey\,Music\,Evening\,Live\,Registration Required
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT120M
-DESCRIPTION:Brussels Philharmonic & Dirk Brossé - Star Wars: Return of t
- he Jedi - In Concert
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:96f9dc340ac491da@neighbourhood-events
-DTSTAMP:20260831T215457Z
-DTSTART:20260912T183000Z
+DTSTAMP:20260901T094558Z
+DTSTART:20260912T180000Z
 SUMMARY:One Sound One Pulse
 LOCATION:Jazz&resist
 URL:https://www.sounds.brussels/agenda/
@@ -1315,8 +1942,55 @@ DESCRIPTION:One Sound One Pulse
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:8cb404d65f087cca@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260912T181500Z
+SUMMARY:Star Wars: Return of the Jedi - In Concert
+LOCATION:Studio 4
+URL:https://www.flagey.be/agenda
+DESCRIPTION:Classical orchestra music & visuals concert\nhttps://www.flag
+ ey.be/agenda
+CATEGORIES:Flagey\,Music\,Evening\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Star Wars: Return of the Jedi - In Concert
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2c9617a1a3d1cf15@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260912T183000Z
+SUMMARY:Copyriot
+LOCATION:CC De Factorij
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Theater by Krapp\, KVS\nhttps://kaaitheater.be/nl/agenda
+CATEGORIES:Kaaitheater\,Culture & Arts\,Evening\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Copyriot
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4882ad83a98c543f@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260912T183000Z
+SUMMARY:F*CK LOLITA
+LOCATION:KVS BOL
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Theater by Het Zuidelijk Toneel\nhttps://kaaitheater.be/nl/ag
+ enda
+CATEGORIES:Kaaitheater\,Culture & Arts\,Evening\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:F*CK LOLITA
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:67b379dd9774ddf8@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260912T184500Z
 SUMMARY:The Odyssey
 LOCATION:Studio 5
@@ -1331,7 +2005,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b8f4781c2fbe9cfa@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260913
 SUMMARY:Voodoo Village x BCCO afterparty
 LOCATION:Fuse Brussels\, Room 01 & Motion
@@ -1342,7 +2016,7 @@ CATEGORIES:Fuse\,Music\,Dance
 END:VEVENT
 BEGIN:VEVENT
 UID:b141f1b878a1d2ac@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260913T123000Z
 SUMMARY:The Unknown
 LOCATION:Studio 5
@@ -1358,7 +2032,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:40f294a5c465415c@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260913T150000Z
 SUMMARY:TRINO COLECTIVO
 LOCATION:Jazz&resist
@@ -1374,7 +2048,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:db790a63491eff47@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260913T150500Z
 SUMMARY:Le Vertige
 LOCATION:Studio 5
@@ -1390,7 +2064,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:8d4688624c589124@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260913T163000Z
 SUMMARY:Akira
 LOCATION:Studio 5
@@ -1406,7 +2080,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fe888303829cf45a@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260913T185000Z
 SUMMARY:Teenage Sex and Death at Camp Miasma
 LOCATION:Studio 5
@@ -1421,8 +2095,21 @@ DESCRIPTION:Teenage Sex and Death at Camp Miasma
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:823aed52da90ad0b@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260914
+SUMMARY:6pm Exploration of 'Rule of Law': Bourgeois Order by Elsa Marcel
+URL:https://chechette.be/events/18h-arpentage-de-etat-de-droit-ordre-bour
+ geois-delsa-marcel/
+DESCRIPTION:Rule of Law: Bourgeois Order. In the face of authoritarian go
+ vernments\, police violence\, and colonial reaction...\nhttps://chechett
+ e.be/events/18h-arpentage-de-etat-de-droit-ordre-bourgeois-delsa-marcel/
+CATEGORIES:La Vieille Chéchette\,Talks & Discussions\,Live
+END:VEVENT
+BEGIN:VEVENT
 UID:04f5047ef1411e46@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260914T160000Z
 DTEND:20260914T170000Z
 SUMMARY:"We Are Not Condemned to Cowardice"
@@ -1442,7 +2129,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:eb51727e8caf3f69@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260914T173000Z
 DTEND:20260914T200000Z
 SUMMARY:Crossing the Fascist Storm
@@ -1462,8 +2149,26 @@ DESCRIPTION:Crossing the Fascist Storm
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:a43a904789c6b981@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260915
+SUMMARY:5-7pm organic produce boxes from Nadir Farm
+LOCATION:La Vieille Chéchette\, Bruxelles
+URL:https://chechette.be/events/17h-19h-paniers-bio-ferme-de-nadir/
+DESCRIPTION:Fresh vegetable boxes all year round! Every year\, households
+  commit to picking up a weekly vegetable box and building local food sov
+ ereignty. It's our CSA—our Community Supported Agriculture initiative.
+  The box contents are a delightful blend of classic vegetables and excit
+ ing new flavors\, which we grow without synthetic fertilizers\, pesticid
+ es\, herbicides\, or fossil fuel-powered tools\, but with plenty of love
+ .\nhttps://chechette.be/events/17h-19h-paniers-bio-ferme-de-nadir/
+CATEGORIES:La Vieille Chéchette\,Food & Drink\,Food & Drink\,Recurring\,
+ Sustainability
+END:VEVENT
+BEGIN:VEVENT
 UID:f9261825d2fea01b@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260915
 DTEND;VALUE=DATE:20261215
 SUMMARY:Folk Dance Level 1 Beginners
@@ -1475,7 +2180,7 @@ CATEGORIES:GC Pianofabriek\,Culture & Arts\,Dance\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:3b6db98f3bd8bbcd@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260915
 SUMMARY:A Beginner's Guide to John Coltrane by Guy Peters
 LOCATION:Ancienne Belgique
@@ -1486,8 +2191,17 @@ CATEGORIES:Ancienne Belgique\,Talks & Discussions\,Free\,Live\,Registrati
  on Required
 END:VEVENT
 BEGIN:VEVENT
+UID:d27c11b377186b93@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260916
+SUMMARY:6:30pm La Vieille Chéchette Choir
+URL:https://chechette.be/events/18h30-chorale-de-la-vieille-chechette/
+CATEGORIES:La Vieille Chéchette\,Music\,Live\,Recurring
+END:VEVENT
+BEGIN:VEVENT
 UID:58e8fba208765c13@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260916
 SUMMARY:STADPLURAAL | Hostile Architecture: Walking over\, under\, and th
  rough – guided tour
@@ -1499,7 +2213,7 @@ CATEGORIES:Recyclart\,Talks & Discussions\,Outdoor
 END:VEVENT
 BEGIN:VEVENT
 UID:44879015689a323b@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260916
 SUMMARY:(John) Coltrane 100: A Love Supreme - Salva Sanchis & Anne Teresa
   De Keersmaeker
@@ -1511,7 +2225,7 @@ CATEGORIES:Ancienne Belgique\,Culture & Arts\,Dance\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:5b9f5a7e74bd2093@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260916
 SUMMARY:Screening SǒN & Live Soundtrack
 LOCATION:Ancienne Belgique
@@ -1522,7 +2236,7 @@ CATEGORIES:Ancienne Belgique\,Film & Cinema\,Drop-in\,Free\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:f52bba806c6ebfbb@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260916T151500Z
 SUMMARY:Lola
 LOCATION:Studio 5
@@ -1538,7 +2252,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:632aa3559b6ea192@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260916T173000Z
 DTEND:20260916T200000Z
 SUMMARY:Women's Kiaï
@@ -1557,8 +2271,24 @@ DESCRIPTION:Women's Kiaï
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:438d3856714ad3d1@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260916T180000Z
+SUMMARY:A Love Supreme
+LOCATION:Ancienne Belgique
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Dance by Salva Sanchis\, Anne Teresa De Keersmaeker\, Rosas\n
+ https://kaaitheater.be/nl/agenda
+CATEGORIES:Kaaitheater\,Culture & Arts\,Dance\,Evening
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:A Love Supreme
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:a877e76cd0c31ec0@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260917
 SUMMARY:1060 Pitch#7 Gendered Perspectives
 LOCATION:Gemeenschapscentrum Pianofabriek vzw\, Sint-Gillis
@@ -1568,20 +2298,8 @@ DESCRIPTION:Multiple art forms. Free event\nhttps://www.pianofabriek.be/a
 CATEGORIES:GC Pianofabriek\,Talks & Discussions\,Drop-in\,Free\,Live
 END:VEVENT
 BEGIN:VEVENT
-UID:ce4f6cd0683ae2d0@neighbourhood-events
-DTSTAMP:20260831T215457Z
-DTSTART;VALUE=DATE:20260917
-DTEND;VALUE=DATE:20270617
-SUMMARY:Slameke
-LOCATION:Gemeenschapscentrum Pianofabriek vzw\, Sint-Gillis
-URL:https://www.pianofabriek.be/activiteiten
-DESCRIPTION:Poetry\, for ages 18-99\, free\nhttps://www.pianofabriek.be/a
- ctiviteiten
-CATEGORIES:GC Pianofabriek\,Talks & Discussions\,Free\,Live\,Recurring
-END:VEVENT
-BEGIN:VEVENT
 UID:ce2095768717a51e@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260917
 SUMMARY:Back/Stage Opening Reception
 LOCATION:Ancienne Belgique
@@ -1590,8 +2308,22 @@ DESCRIPTION:Free\nhttps://www.abconcerts.be/fr/agenda
 CATEGORIES:Ancienne Belgique\,Culture & Arts\,Drop-in\,Free
 END:VEVENT
 BEGIN:VEVENT
+UID:6bb93a73846ea9b6@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260917T140000Z
+SUMMARY:Every Contact Leaves a Trace
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Film\nhttps://kaaitheater.be/nl/agenda
+CATEGORIES:Kaaitheater\,Film & Cinema
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Every Contact Leaves a Trace
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:c38a09d3afe2d6c2@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260917T154500Z
 SUMMARY:Le Vertige
 LOCATION:Studio 5
@@ -1606,8 +2338,40 @@ DESCRIPTION:Le Vertige
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:e088e85d177a81f0@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260917T170000Z
+SUMMARY:With Love Not For Love
+LOCATION:Park van Vorst
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Performance by La Candidate Sans-Papiers\nhttps://kaaitheater
+ .be/nl/agenda
+CATEGORIES:Kaaitheater\,Culture & Arts\,Evening\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:With Love Not For Love
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:affa1de259be2b41@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260917T180000Z
+SUMMARY:A Love Supreme
+LOCATION:Ancienne Belgique
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Dance by Salva Sanchis\, Anne Teresa De Keersmaeker\, Rosas\n
+ https://kaaitheater.be/nl/agenda
+CATEGORIES:Kaaitheater\,Culture & Arts\,Dance\,Evening
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:A Love Supreme
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:fc0107c16996e880@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260917T183000Z
 SUMMARY:A NIGHT DEDICATED TO CHICK COREA
 LOCATION:Jazz&resist
@@ -1622,7 +2386,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:4b954a45ec0115e9@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260917T190500Z
 SUMMARY:Dark Diamond
 LOCATION:Studio 5
@@ -1637,8 +2401,23 @@ DESCRIPTION:Dark Diamond
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:582eac9dd0faa23b@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260918
+SUMMARY:7:30pm Jun Sandson Concert
+URL:https://chechette.be/events/19h30-concert-jun-sandson/
+DESCRIPTION:Jun Sandson is a multidisciplinary indie pop artist\, singer-
+ songwriter\, and performer. A quirky clown spinning through sounds somew
+ here between raw blues\, free folk\, and experimental music. A delightfu
+ lly odd character\, half-deaf\, singing melancholic "melocoton" songs to
+  lift people's spirits again!\nhttps://chechette.be/events/19h30-concert
+ -jun-sandson/
+CATEGORIES:La Vieille Chéchette\,Music\,Free\,Live
+END:VEVENT
+BEGIN:VEVENT
 UID:2cf3294b5becc205@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260918
 SUMMARY:Ensemble La Française: À Table!
 LOCATION:La Tricoterie
@@ -1649,7 +2428,7 @@ CATEGORIES:La Tricoterie\,Talks & Discussions\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:8750752a77a3d09c@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260918
 SUMMARY:Release party Re#encounter
 LOCATION:Recyclart
@@ -1660,7 +2439,7 @@ CATEGORIES:Recyclart\,Music\,Dance\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:eb789e8673c2f646@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260918
 SUMMARY:Fuse presents: SESH w/ Clara Cuvé & PETERBLUE
 LOCATION:Fuse Brussels\, Room 01
@@ -1671,7 +2450,7 @@ CATEGORIES:Fuse\,Music\,Dance\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:fbf451977f305cee@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260918
 SUMMARY:Losing Daylight: Short Films and Concert
 LOCATION:Gemeenschapscentrum Ten Weyngaert\, Vorst
@@ -1682,7 +2461,7 @@ CATEGORIES:GC Ten Weyngaert\,Film & Cinema\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:d7109050856c0762@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260918
 DTEND;VALUE=DATE:20260919
 SUMMARY:For Blinky Palermo
@@ -1693,8 +2472,23 @@ DESCRIPTION:Marc Vanrunxt & Georgia Vardarou / Kunst/Werk\nhttps://www.kv
 CATEGORIES:KVS\,Culture & Arts\,Live
 END:VEVENT
 BEGIN:VEVENT
+UID:cfd056aff954e834@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260918T140000Z
+SUMMARY:(Revolution\, Keep Your Promise) Red Love
+LOCATION:Rosas Performance Space
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Film\nhttps://kaaitheater.be/nl/agenda
+CATEGORIES:Kaaitheater\,Film & Cinema
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:(Revolution\, Keep Your Promise) Red Love
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:71583e0d81b31f21@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260918T150000Z
 SUMMARY:Rose
 LOCATION:Studio 5
@@ -1710,7 +2504,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ad842f70cfa009aa@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260918T165000Z
 SUMMARY:Akira
 LOCATION:Studio 5
@@ -1726,7 +2520,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:1bf2ed73c3a68c5a@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260918T170000Z
 SUMMARY:Tribute to Mac Miller - Beats Night Orchestra
 LOCATION:Jazz&resist
@@ -1740,8 +2534,24 @@ DESCRIPTION:Tribute to Mac Miller - Beats Night Orchestra
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:3376b9377fd65814@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260918T173000Z
+SUMMARY:Pirate Care
+LOCATION:Rosas Performance Space
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Lecture by Valeria Graziano\, Tomislav Medak\nhttps://kaaithe
+ ater.be/nl/agenda
+CATEGORIES:Kaaitheater\,Talks & Discussions\,Evening\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Pirate Care
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:5ccd832660cf034a@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260918T180000Z
 DTEND:20260918T200000Z
 SUMMARY:My Little Big Chop
@@ -1761,8 +2571,24 @@ DESCRIPTION:My Little Big Chop
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:43cbb56f177b85f7@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260918T180000Z
+SUMMARY:A Love Supreme
+LOCATION:Ancienne Belgique
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Dance by Salva Sanchis\, Anne Teresa De Keersmaeker\, Rosas\n
+ https://kaaitheater.be/nl/agenda
+CATEGORIES:Kaaitheater\,Culture & Arts\,Dance\,Evening
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:A Love Supreme
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:3aec2eaf6200af10@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260918T191000Z
 SUMMARY:Teenage Sex and Death at Camp Miasma
 LOCATION:Studio 5
@@ -1777,8 +2603,26 @@ DESCRIPTION:Teenage Sex and Death at Camp Miasma
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:ab0374aac5d814ca@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART;VALUE=DATE:20260919
+DTEND;VALUE=DATE:20260919
+SUMMARY:11am Literary Encounter with Romain Lemire and Thomas Prédour
+URL:https://chechette.be/events/11h-rencontre-litteraire-avec-romain-lemi
+ re-et-thomas-predour/
+DESCRIPTION:Romain Lemire received the Goncourt Prize for First Novel for
+  "Clément\," a powerful account of the incest he and his brothers endur
+ ed for years. He will receive the title of Doctor Honoris Causa from ULB
+  on September 18th. Thomas Prédour created the show "It Was Just a Game
+ \," from which he developed a self-published book that also addresses th
+ e theme of incest. They will discuss together the reasons that led them 
+ to write on this subject and will read passages...\nhttps://chechette.be
+ /events/11h-rencontre-litteraire-avec-romain-lemire-et-thomas-predour/
+CATEGORIES:La Vieille Chéchette\,Talks & Discussions\,Live
+END:VEVENT
+BEGIN:VEVENT
 UID:0d085f1c97d74a1e@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260919
 SUMMARY:Fuse presents: PACT (Joachim Pastor + Joris Delacroix + Teho)
 LOCATION:Fuse Brussels\, Room 01
@@ -1789,18 +2633,18 @@ CATEGORIES:Fuse\,Music\,Dance\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:2feed3aa81f093c2@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20260920
 SUMMARY:Heritage Days
 LOCATION:WIELS+BRASS+Marais
 URL:https://www.lebrass.be/
 DESCRIPTION:Immersive tour\nhttps://www.lebrass.be/
-CATEGORIES:BRASS\,Culture & Arts
+CATEGORIES:BRASS\,Culture & Arts\,Outdoor
 END:VEVENT
 BEGIN:VEVENT
 UID:ac866f26123a018e@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260919
 SUMMARY:11.11.11-Vorst: 'Pesta Babi'\, Documentary and Discussion
 LOCATION:Gemeenschapscentrum Ten Weyngaert\, Vorst
@@ -1811,7 +2655,7 @@ CATEGORIES:GC Ten Weyngaert\,Film & Cinema\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:d09e20e7f053cc6d@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260919
 DTEND;VALUE=DATE:20270501
 SUMMARY:Cry (no) more
@@ -1822,24 +2666,24 @@ DESCRIPTION:Dina Dooreman / KVS. Mixed media.\nhttps://www.kvs.be/fr/agen
 CATEGORIES:KVS\,Culture & Arts\,Live\,Recurring
 END:VEVENT
 BEGIN:VEVENT
-UID:f472b8919af71bea@neighbourhood-events
-DTSTAMP:20260831T215457Z
+UID:f72b5d559a491902@neighbourhood-events
+DTSTAMP:20260901T094558Z
 DTSTART:20260919T120000Z
-SUMMARY:Joyful Opening
+SUMMARY:★ Grand Opening ★
 LOCATION:BRASS
 URL:https://www.lebrass.be/
-DESCRIPTION:Music\, hip hop dance\, performances\, games\, and more\nhttp
+DESCRIPTION:Music\, hip-hop dance\, performances\, games\, and more\nhttp
  s://www.lebrass.be/
 CATEGORIES:BRASS\,Festivals & Celebrations\,Dance\,Family\,Live
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT120M
-DESCRIPTION:Joyful Opening
+DESCRIPTION:★ Grand Opening ★
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f0d803ddf479f90b@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260919T131500Z
 SUMMARY:Res Nullius
 LOCATION:Studio 5
@@ -1854,8 +2698,23 @@ DESCRIPTION:Res Nullius
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:d1e59808daba9ddf@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260919T140000Z
+SUMMARY:The Deviant Majority (from Basaglia to Brazil)
+LOCATION:Rosas Performance Space
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Film\nhttps://kaaitheater.be/nl/agenda
+CATEGORIES:Kaaitheater\,Film & Cinema
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:The Deviant Majority (from Basaglia to Brazil)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:e3db61835b373f88@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260919T144000Z
 SUMMARY:The Unknown
 LOCATION:Studio 5
@@ -1870,8 +2729,38 @@ DESCRIPTION:The Unknown
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:a4ce9c7d58e6a8ae@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260919T150000Z
+SUMMARY:Across Generations: Ruptures and Intersections
+LOCATION:Rosas Performance Space
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Conversations\nhttps://kaaitheater.be/nl/agenda
+CATEGORIES:Kaaitheater\,Talks & Discussions\,Evening\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Across Generations: Ruptures and Intersections
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9b210fa42e7ab7b2@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260919T173000Z
+SUMMARY:The Fantasy and Necessity of Solidarity
+LOCATION:Rosas Performance Space
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Talk by Sarah Schulman\nhttps://kaaitheater.be/nl/agenda
+CATEGORIES:Kaaitheater\,Talks & Discussions\,Evening\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:The Fantasy and Necessity of Solidarity
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:24e9822930b526c9@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260919T183000Z
 SUMMARY:Aboubakar Traoré & Guillaume Codutti Meet Taitamuki
 LOCATION:Jazz&resist
@@ -1887,7 +2776,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:274e172f0c6a7f00@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260920
 SUMMARY:A Delicious and Responsible Buffet
 LOCATION:La Tricoterie
@@ -1899,7 +2788,7 @@ CATEGORIES:La Tricoterie\,Food & Drink\,Food & Drink\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:052a46ee7677c69a@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260920
 SUMMARY:Drag Brunch
 LOCATION:La Tricoterie
@@ -1910,7 +2799,7 @@ CATEGORIES:La Tricoterie\,Food & Drink\,Food & Drink\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:f888bf123f663b33@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260920
 SUMMARY:Handpan Introduction
 LOCATION:La Tricoterie
@@ -1922,7 +2811,7 @@ CATEGORIES:La Tricoterie\,Workshops & Creative\,Registration Required
 END:VEVENT
 BEGIN:VEVENT
 UID:26cc48a22e3ddfda@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260920
 SUMMARY:Talk: "Storytelling and Society" - Telling Stories in the Chaos A
  round Us
@@ -1935,7 +2824,7 @@ CATEGORIES:La Tricoterie\,Talks & Discussions\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:c79507c2711b942e@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260920
 SUMMARY:Closing Reception TW Photo Club Exhibition: Photo Flea Market
 LOCATION:Gemeenschapscentrum Ten Weyngaert\, Vorst
@@ -1946,7 +2835,7 @@ CATEGORIES:GC Ten Weyngaert\,Markets & Fairs\,Drop-in
 END:VEVENT
 BEGIN:VEVENT
 UID:597d489883119f8b@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260920T080000Z
 DTEND:20260920T123000Z
 SUMMARY:Little Knitters
@@ -1964,7 +2853,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b48318bc2fb50f18@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260920T140000Z
 SUMMARY:Half & Half - Sunday Pop Dance Party
 LOCATION:Jazz&resist
@@ -1978,7 +2867,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0787ba9a560245a6@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260920T170500Z
 SUMMARY:Rose
 LOCATION:Studio 5
@@ -1994,7 +2883,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2c5fd2bc12da8746@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260920T190000Z
 SUMMARY:Akira
 LOCATION:Studio 5
@@ -2009,8 +2898,42 @@ DESCRIPTION:Akira
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:743ed3a4539540a8@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260921
+SUMMARY:6pm Walking Tour through "Eaters—Stories of Those Who Devour\, 
+ Savor\, or Fast Excessively" by Lauren Malka
+URL:https://chechette.be/events/18h-arpentage-de-mangeuses-histoire-de-ce
+ lles-qui-devorent-savourent-ou-se-privent-a-lexces-de-lauren-malka/
+DESCRIPTION:In Eaters\, journalist and podcaster Lauren Malka investigate
+ s women's relationship with food and their bodies. Tracing through histo
+ ry\, literature\, and culture...\nhttps://chechette.be/events/18h-arpent
+ age-de-mangeuses-histoire-de-celles-qui-devorent-savourent-ou-se-privent
+ -a-lexces-de-lauren-malka/
+CATEGORIES:La Vieille Chéchette\,Talks & Discussions\,Live\,Outdoor
+END:VEVENT
+BEGIN:VEVENT
+UID:31d932d1b1211e03@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260922
+SUMMARY:5-7pm organic produce boxes from Nadir Farm
+LOCATION:La Vieille Chéchette\, Bruxelles
+URL:https://chechette.be/events/17h-19h-paniers-bio-ferme-de-nadir/
+DESCRIPTION:Fresh vegetable boxes all year round! Every year\, households
+  commit to picking up a weekly vegetable box and building local food sov
+ ereignty. It's our CSA—our Community Supported Agriculture initiative.
+  The box contents are a delightful blend of classic vegetables and excit
+ ing new flavors\, which we grow without synthetic fertilizers\, pesticid
+ es\, herbicides\, or fossil fuel-powered tools\, but with plenty of love
+ .\nhttps://chechette.be/events/17h-19h-paniers-bio-ferme-de-nadir/
+CATEGORIES:La Vieille Chéchette\,Food & Drink\,Food & Drink\,Recurring\,
+ Sustainability
+END:VEVENT
+BEGIN:VEVENT
 UID:ac0b96ce465a5bb5@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260922T110000Z
 DTEND:20260926T140000Z
 SUMMARY:Stone Garden
@@ -2031,8 +2954,17 @@ DESCRIPTION:Stone Garden
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:af60cb5155b12ffb@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260923
+SUMMARY:6:30pm La Vieille Chéchette Choir
+URL:https://chechette.be/events/18h30-chorale-de-la-vieille-chechette/
+CATEGORIES:La Vieille Chéchette\,Music\,Live\,Recurring
+END:VEVENT
+BEGIN:VEVENT
 UID:bba6e402389cb872@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20261216
 SUMMARY:Circus Skills for Ages 4-5
@@ -2044,7 +2976,7 @@ CATEGORIES:GC Pianofabriek\,Family & Children\,Dance\,Kids\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:c46aa53ee473e3a5@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20270508
 SUMMARY:Everyone's an Actor Ages 8-11
@@ -2056,7 +2988,7 @@ CATEGORIES:GC Pianofabriek\,Family & Children\,Kids\,Live\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:3cd13051519e4037@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260923
 SUMMARY:Customisation Workshop ★ Wheelchair\, Crutches\, Walking Canes 
  ★
@@ -2068,7 +3000,7 @@ CATEGORIES:Recyclart\,Workshops & Creative\,Accessible\,Sustainability
 END:VEVENT
 BEGIN:VEVENT
 UID:08559cd85a493a45@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260923
 DTEND;VALUE=DATE:20261216
 SUMMARY:Sewing Drop-in Hours
@@ -2080,7 +3012,7 @@ CATEGORIES:Recyclart\,Workshops & Creative\,Drop-in\,Recurring\,Sustainab
 END:VEVENT
 BEGIN:VEVENT
 UID:20d6ac9fc7a0aaff@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260923
 SUMMARY:Imprisoned Gods
 LOCATION:KVS
@@ -2090,8 +3022,24 @@ DESCRIPTION:Lukah Katangila / Ultima Vez. Dance.\nhttps://www.kvs.be/fr/a
 CATEGORIES:KVS\,Culture & Arts\,Dance\,Live
 END:VEVENT
 BEGIN:VEVENT
+UID:832c5c5c0f75db3c@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260923T170000Z
+SUMMARY:Again Forever
+LOCATION:Les Halles de Schaerbeek
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Dance by Lisa Vereertbrugghen\, CAMPO\nhttps://kaaitheater.be
+ /nl/agenda
+CATEGORIES:Kaaitheater\,Culture & Arts\,Dance\,Evening
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Again Forever
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:5ff568d34b06f8cf@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260923T170500Z
 SUMMARY:Res Nullius
 LOCATION:Studio 5
@@ -2106,8 +3054,17 @@ DESCRIPTION:Res Nullius
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:913ee27cf1c58fe3@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260924
+SUMMARY:7:30pm Friends of Le Monde Diplomatique
+URL:https://chechette.be/events/19h30-ami-es-du-monde-diplomatique/
+CATEGORIES:La Vieille Chéchette\,Community & Social\,Recurring
+END:VEVENT
+BEGIN:VEVENT
 UID:49e0a8bcc622617c@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260924
 SUMMARY:1060 Pitch #8 Ecosystems
 LOCATION:Gemeenschapscentrum Pianofabriek vzw\, Sint-Gillis
@@ -2118,7 +3075,7 @@ CATEGORIES:GC Pianofabriek\,Talks & Discussions\,Drop-in\,Free\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:6d524653a65d3639@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20270527
 SUMMARY:Circus for Ages 8-11
@@ -2130,7 +3087,7 @@ CATEGORIES:GC Pianofabriek\,Family & Children\,Dance\,Kids\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:a977796cc3a90e32@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20270527
 SUMMARY:Circus for Ages 6-7
@@ -2142,7 +3099,7 @@ CATEGORIES:GC Pianofabriek\,Family & Children\,Dance\,Kids\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:84e56b39e7aa9dde@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260924
 SUMMARY:Haunted Folklore
 LOCATION:Recyclart
@@ -2153,7 +3110,7 @@ CATEGORIES:Recyclart\,Music\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:e14b81ae940cd1c0@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260924
 SUMMARY:World Kitchen: Japan
 LOCATION:Gemeenschapscentrum Ten Weyngaert\, Vorst
@@ -2164,7 +3121,7 @@ CATEGORIES:GC Ten Weyngaert\,Food & Drink\,Food & Drink
 END:VEVENT
 BEGIN:VEVENT
 UID:178209518e4dc753@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260924T150000Z
 SUMMARY:Rose
 LOCATION:Studio 5
@@ -2179,8 +3136,24 @@ DESCRIPTION:Rose
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:0d0ea43918780c72@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260924T180000Z
+SUMMARY:Again Forever
+LOCATION:Les Halles de Schaerbeek
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Dance by Lisa Vereertbrugghen\, CAMPO\nhttps://kaaitheater.be
+ /nl/agenda
+CATEGORIES:Kaaitheater\,Culture & Arts\,Dance\,Evening
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Again Forever
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:da961274c474403e@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260924T183000Z
 SUMMARY:Japan Night - From Jazz to Funk
 LOCATION:Jazz&resist
@@ -2194,7 +3167,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:119b5c1f39e58336@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260924T190000Z
 SUMMARY:Akira
 LOCATION:Studio 5
@@ -2210,7 +3183,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dbb44ccaf8e9b380@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260925
 SUMMARY:Exheat Presents: Truck Lips Premiere
 LOCATION:Recyclart
@@ -2221,7 +3194,7 @@ CATEGORIES:Recyclart\,Music\,Dance\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:29ca1929ae85beb0@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260925
 SUMMARY:Don Vitalski's Legendary Tuesday Club
 LOCATION:Gemeenschapscentrum Ten Weyngaert\, Vorst
@@ -2231,7 +3204,7 @@ CATEGORIES:GC Ten Weyngaert\,Culture & Arts\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:c7db3482420027b1@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260925T143000Z
 SUMMARY:Akira
 LOCATION:Studio 5
@@ -2247,7 +3220,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0c4b7902151a5ebf@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260925T180000Z
 DTEND:20260925T200000Z
 SUMMARY:From O to A
@@ -2264,8 +3237,24 @@ DESCRIPTION:From O to A
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:bb873b7cd8333cad@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART:20260925T180000Z
+SUMMARY:Again Forever
+LOCATION:Les Halles de Schaerbeek
+URL:https://kaaitheater.be/nl/agenda
+DESCRIPTION:Dance by Lisa Vereertbrugghen\, CAMPO\nhttps://kaaitheater.be
+ /nl/agenda
+CATEGORIES:Kaaitheater\,Culture & Arts\,Dance\,Evening
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Again Forever
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:d491a368f21d67a3@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260925T183000Z
 SUMMARY:YIORGOS BERERIS TRIO
 LOCATION:Sounds Brussels
@@ -2281,7 +3270,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:5530130fceb72fef@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260926
 DTEND;VALUE=DATE:20270605
 SUMMARY:Musical Awakening Ages 3.5-6
@@ -2293,7 +3282,7 @@ CATEGORIES:GC Pianofabriek\,Music\,Kids\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:d14460d23adaeeee@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260926
 DTEND;VALUE=DATE:20270605
 SUMMARY:Musical Awakening Ages 0-3 with Parents
@@ -2305,7 +3294,7 @@ CATEGORIES:GC Pianofabriek\,Music\,Family\,Kids\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:a2b28632df1d2144@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260926
 SUMMARY:Fuse presents: Polar Inertia (live) & Luigi Tozzi (live)
 LOCATION:Fuse Brussels\, Room 01
@@ -2316,7 +3305,7 @@ CATEGORIES:Fuse\,Music\,Dance\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:462783b1204476a1@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260926T090000Z
 DTEND:20260926T120000Z
 SUMMARY:Offline
@@ -2336,7 +3325,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:80149f5a9af92cd8@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260926T120000Z
 SUMMARY:Le Vertige
 LOCATION:Studio 5
@@ -2352,7 +3341,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0f7108f965d5f078@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260926T151000Z
 SUMMARY:Bay of Angels
 LOCATION:Studio 5
@@ -2368,7 +3357,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:13a8662db0fa1c0f@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260926T183000Z
 SUMMARY:PASATEMPO REBETIKO
 LOCATION:Sounds Brussels
@@ -2382,7 +3371,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:acb7453b29aa02c0@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260927T130000Z
 DTEND:20260927T143000Z
 SUMMARY:Two Minute Chance
@@ -2408,7 +3397,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0f28b49810d89077@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260927T143000Z
 SUMMARY:Rose
 LOCATION:Studio 5
@@ -2424,7 +3413,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:294677e597a0a0c6@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260927T150000Z
 SUMMARY:ALCHEME & THE BOSS BROTHERS
 LOCATION:Sounds Brussels
@@ -2439,7 +3428,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0bf01e7f4e7510b3@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260927T183500Z
 SUMMARY:Onoda: 10\,000 Nights in the Jungle
 LOCATION:Studio 5
@@ -2454,8 +3443,26 @@ DESCRIPTION:Onoda: 10\,000 Nights in the Jungle
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:4c662ccdcfaa7c01@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260929
+SUMMARY:5-7pm organic produce boxes from Nadir Farm
+LOCATION:La Vieille Chéchette\, Bruxelles
+URL:https://chechette.be/events/17h-19h-paniers-bio-ferme-de-nadir/
+DESCRIPTION:Fresh vegetable boxes all year round! Every year\, households
+  commit to picking up a weekly vegetable box and building local food sov
+ ereignty. It's our CSA—our Community Supported Agriculture initiative.
+  The box contents are a delightful blend of classic vegetables and excit
+ ing new flavors\, which we grow without synthetic fertilizers\, pesticid
+ es\, herbicides\, or fossil fuel-powered tools\, but with plenty of love
+ .\nhttps://chechette.be/events/17h-19h-paniers-bio-ferme-de-nadir/
+CATEGORIES:La Vieille Chéchette\,Food & Drink\,Food & Drink\,Recurring\,
+ Sustainability
+END:VEVENT
+BEGIN:VEVENT
 UID:c6386813b0191358@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20261017
 SUMMARY:Spring's Awakening
@@ -2465,8 +3472,17 @@ DESCRIPTION:David Paquet | Ilyas Mettioui\nhttps://poche.be/shows
 CATEGORIES:Le Poche\,Culture & Arts\,Live\,Recurring
 END:VEVENT
 BEGIN:VEVENT
+UID:1c9e251a0601f0c5@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20260930
+SUMMARY:6:30pm La Vieille Chéchette Choir
+URL:https://chechette.be/events/18h30-chorale-de-la-vieille-chechette/
+CATEGORIES:La Vieille Chéchette\,Music\,Live
+END:VEVENT
+BEGIN:VEVENT
 UID:e127d54f51c6107a@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:WIPCOOP - Work in Progress 2026
@@ -2478,7 +3494,7 @@ CATEGORIES:KVS\,Culture & Arts\,Drop-in\,Free\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:944c59829eccdd68@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20260930T160000Z
 DTEND:20260930T170000Z
 SUMMARY:Whatever the Material
@@ -2499,7 +3515,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0aae0ae9c93a3649@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20270610
 SUMMARY:Speakeasy
@@ -2511,7 +3527,7 @@ CATEGORIES:GC Pianofabriek\,Talks & Discussions\,Free\,Live\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:7e621d590b4d7b06@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20261001T180000Z
 SUMMARY:FREDERICO HELIODORO QUARTET
 LOCATION:Sounds Brussels
@@ -2527,7 +3543,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6c7bc8c0687cf14b@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 SUMMARY:Female Boyfriends
@@ -2539,7 +3555,7 @@ CATEGORIES:Recyclart\,Music\,Dance\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:96a87d70251094ee@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261002
 SUMMARY:Fuse presents: The Ghost & Gonno
 LOCATION:Fuse Brussels\, Room 01
@@ -2550,7 +3566,7 @@ CATEGORIES:Fuse\,Music\,Dance\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:3e31ece64a1dd345@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261011
 SUMMARY:Rage Against Ageism Festival
@@ -2562,7 +3578,7 @@ CATEGORIES:BRASS\,Festivals & Celebrations\,Dance\,Live\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:81b92188f51a8c66@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261011
 SUMMARY:Rage Against Ageism Exhibition
@@ -2573,7 +3589,7 @@ CATEGORIES:BRASS\,Culture & Arts\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:b2c6830a4c227b6d@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20261002T180000Z
 SUMMARY:Eve Libertine & James De Backer + Miriam
 LOCATION:BRASS
@@ -2588,7 +3604,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a150069a82674347@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261003
 SUMMARY:This Is (Not) the Evolution Theory of Comfort
 LOCATION:KVS
@@ -2599,7 +3615,7 @@ CATEGORIES:KVS\,Culture & Arts\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:e7de9b53f59178e1@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20270404
 SUMMARY:Paris & Miki
@@ -2610,7 +3626,7 @@ CATEGORIES:KVS\,Culture & Arts\,Live\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:41ae97e170c64ef4@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261006
 DTEND;VALUE=DATE:20261027
 SUMMARY:Baby Library
@@ -2621,23 +3637,22 @@ DESCRIPTION:Parenting activity for ages 18-99\nhttps://www.tenweyngaert.b
 CATEGORIES:GC Ten Weyngaert\,Family & Children\,Family\,Recurring
 END:VEVENT
 BEGIN:VEVENT
-UID:897e0cc82be5ac76@neighbourhood-events
-DTSTAMP:20260831T215457Z
+UID:c0e4902d8b1252dc@neighbourhood-events
+DTSTAMP:20260901T094558Z
 DTSTART:20261006T180000Z
-SUMMARY:Cazaar + Ismaaël.le
+SUMMARY:Cazaar + Ismaaël.le - Festival Francofaune
 URL:https://www.lebrass.be/
-DESCRIPTION:Concert Francofaune Festival. Doors and bar 7:00 PM\nhttps://
- www.lebrass.be/
-CATEGORIES:BRASS\,Music\,Evening\,Live
+DESCRIPTION:Concerts (doors and bar open at 7pm)\nhttps://www.lebrass.be/
+CATEGORIES:BRASS\,Music\,Evening\,Food & Drink\,Live
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT120M
-DESCRIPTION:Cazaar + Ismaaël.le
+DESCRIPTION:Cazaar + Ismaaël.le - Festival Francofaune
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b2143bdc6ee3122a@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261007
 SUMMARY:Film Screening - Chubby Dik and the Missing Plush Toy (3+)
 LOCATION:Gemeenschapscentrum Ten Weyngaert\, Vorst
@@ -2648,7 +3663,7 @@ CATEGORIES:GC Ten Weyngaert\,Family & Children\,Free\,Kids
 END:VEVENT
 BEGIN:VEVENT
 UID:b444557d8537bdaf@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261007
 SUMMARY:Repair Café
 LOCATION:KVS
@@ -2658,7 +3673,7 @@ CATEGORIES:KVS\,Environment\,Drop-in\,Free\,Sustainability
 END:VEVENT
 BEGIN:VEVENT
 UID:7e2b7d8b91b1de54@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261008
 SUMMARY:Francofaune: Clarence Pinko + Coup Dur + NORD//NOIR + VioleTT Pi
 LOCATION:Gemeenschapscentrum Pianofabriek vzw\, Sint-Gillis
@@ -2669,7 +3684,7 @@ CATEGORIES:GC Pianofabriek\,Music\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:9dd6be1d1572e764@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261009
 SUMMARY:Natural Love
@@ -2680,7 +3695,7 @@ CATEGORIES:KVS\,Culture & Arts\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:5e83c8dacd78af00@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261009
 SUMMARY:A Room of His Own
@@ -2691,7 +3706,7 @@ CATEGORIES:KVS\,Culture & Arts\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:bf18df8f22b0752f@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261009
 SUMMARY:Yard One Sound System
 LOCATION:Recyclart
@@ -2702,7 +3717,7 @@ CATEGORIES:Recyclart\,Music\,Dance\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:fe02f835af8cb600@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261009
 SUMMARY:Fuse presents: Fenrick (all night long) & Riana Holley (all night
   long)
@@ -2714,7 +3729,7 @@ CATEGORIES:Fuse\,Music\,Dance\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:9db35711169e3a65@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261009
 SUMMARY:Opening: Collectief '180°'
 LOCATION:Gemeenschapscentrum Ten Weyngaert\, Vorst
@@ -2725,7 +3740,7 @@ CATEGORIES:GC Ten Weyngaert\,Culture & Arts\,Drop-in\,Free
 END:VEVENT
 BEGIN:VEVENT
 UID:03221f658d456f1f@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261009
 SUMMARY:Collectief: Fabric of the Future
 LOCATION:Gemeenschapscentrum Ten Weyngaert\, Vorst
@@ -2736,7 +3751,7 @@ CATEGORIES:GC Ten Weyngaert\,Culture & Arts\,Drop-in
 END:VEVENT
 BEGIN:VEVENT
 UID:0f225baaed91df7b@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261010
 SUMMARY:Le Motel x Magugu + Warzou (DJ set)
 LOCATION:Recyclart
@@ -2746,7 +3761,7 @@ CATEGORIES:Recyclart\,Music\,Dance
 END:VEVENT
 BEGIN:VEVENT
 UID:84de369f597d88db@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20261010T120000Z
 DTEND:20261010T160000Z
 SUMMARY:Cuizine'tou
@@ -2762,7 +3777,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:24cd38fb9f48ce20@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20261010T120000Z
 DTEND:20261010T160000Z
 SUMMARY:Vitrines Parcours FrancoFaune
@@ -2777,7 +3792,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:329b3efc3dc35133@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20261011T130000Z
 DTEND:20261011T153000Z
 SUMMARY:Three Little Grey Men
@@ -2797,7 +3812,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d7ecd67e2d4902be@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20261011T140000Z
 DTEND:20261011T180000Z
 SUMMARY:Festival FrancoFaune
@@ -2812,7 +3827,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d7cf6484bc893a97@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20261012T080000Z
 DTEND:20261012T150000Z
 SUMMARY:10 Years of Media Education Practice
@@ -2827,8 +3842,20 @@ DESCRIPTION:10 Years of Media Education Practice
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:1d38cdecee280d2b@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261017
+SUMMARY:Expo Welcome in Digitopia
+LOCATION:Gemeenschapscentrum Pianofabriek vzw\, Sint-Gillis
+URL:https://www.pianofabriek.be/activiteiten
+DESCRIPTION:Community expo\, free\, ages 1 and up\nhttps://www.pianofabri
+ ek.be/activiteiten
+CATEGORIES:GC Pianofabriek\,Community & Social\,Family\,Free\,Recurring
+END:VEVENT
+BEGIN:VEVENT
 UID:d670e51c43a1cf3f@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20270609
 SUMMARY:TRILLfabriek Ages 6-9
@@ -2840,7 +3867,7 @@ CATEGORIES:GC Pianofabriek\,Family & Children\,Kids\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:b222b323898b3ea3@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20270609
 SUMMARY:TRILLfabriek Ages 10-12
@@ -2852,7 +3879,7 @@ CATEGORIES:GC Pianofabriek\,Family & Children\,Kids\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:96a8d211b753d5d8@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261014
 SUMMARY:End of Residency: Cripping the City
 LOCATION:Recyclart
@@ -2863,7 +3890,7 @@ CATEGORIES:Recyclart\,Culture & Arts\,Accessible\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:18ac5734a5377c3c@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261019
 SUMMARY:Broken Home\, My Shrine
@@ -2874,7 +3901,7 @@ CATEGORIES:KVS\,Culture & Arts\,Live\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:a4a64a45266e4cc5@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261016
 SUMMARY:A Hearty Fries Against Poverty - film The Old Oak
 LOCATION:Gemeenschapscentrum Ten Weyngaert\, Vorst
@@ -2884,7 +3911,7 @@ CATEGORIES:GC Ten Weyngaert\,Film & Cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:151f96b01457b3dc@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
 SUMMARY:QueerZineFest #3
@@ -2896,7 +3923,7 @@ CATEGORIES:Recyclart\,Markets & Fairs\,Dance\,Drop-in\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:13f02fbdda68bd1e@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261018
 SUMMARY:Home Sweet Home (2+) - Achref Adhadhi
 LOCATION:Gemeenschapscentrum Ten Weyngaert\, Vorst
@@ -2907,7 +3934,7 @@ CATEGORIES:GC Ten Weyngaert\,Family & Children\,Family\,Kids\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:813f369775f2a4ca@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261018
 SUMMARY:Solidarity Meal 'Jacket Potatoes'
 LOCATION:Gemeenschapscentrum Ten Weyngaert\, Vorst
@@ -2917,7 +3944,7 @@ CATEGORIES:GC Ten Weyngaert\,Community & Social\,Activism\,Food & Drink
 END:VEVENT
 BEGIN:VEVENT
 UID:75122c6c08cd6a86@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
 SUMMARY:Drowsy Drift - sleep + drift + walk
@@ -2929,7 +3956,7 @@ CATEGORIES:GC Ten Weyngaert\,Culture & Arts\,Free\,Late Night\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:390cfa7b86c9e2ee@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261022
 SUMMARY:Schweinerei
@@ -2941,7 +3968,7 @@ CATEGORIES:KVS\,Culture & Arts\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:392163caeb6b6da1@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261022
 SUMMARY:"UNCHILDED – Roots of the Mediterranean"
 LOCATION:Recyclart
@@ -2952,7 +3979,7 @@ CATEGORIES:Recyclart\,Culture & Arts
 END:VEVENT
 BEGIN:VEVENT
 UID:243c2afff535289f@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261024
 SUMMARY:Carrosseries
 LOCATION:Recyclart
@@ -2963,7 +3990,7 @@ CATEGORIES:Recyclart\,Culture & Arts\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:138a40dbe0236d11@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261024
 SUMMARY:Clothing Swap at Ten Weyngaert
 LOCATION:Gemeenschapscentrum Ten Weyngaert\, Vorst
@@ -2975,7 +4002,7 @@ CATEGORIES:GC Ten Weyngaert\,Community & Social\,Drop-in\,Free\,Sustainab
 END:VEVENT
 BEGIN:VEVENT
 UID:3fa8d449c805935d@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261025
 SUMMARY:The Comfort Tree - film Têtes Brûlées with discussion
 LOCATION:Gemeenschapscentrum Ten Weyngaert\, Vorst
@@ -2986,7 +4013,7 @@ CATEGORIES:GC Ten Weyngaert\,Film & Cinema\,Drop-in\,Free\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:a56ec8b66ae7ec0d@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261026
 SUMMARY:The Comfort Tree – Creative Workshop: Making Comfort Stones
 LOCATION:Gemeenschapscentrum Ten Weyngaert\, Vorst
@@ -2997,7 +4024,7 @@ CATEGORIES:GC Ten Weyngaert\,Workshops & Creative\,Kids
 END:VEVENT
 BEGIN:VEVENT
 UID:b59975924fe8ca27@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261026
 SUMMARY:Filem'On x CineMOUV'teens: Christy and his brother
 LOCATION:Gemeenschapscentrum Ten Weyngaert\, Vorst
@@ -3008,7 +4035,7 @@ CATEGORIES:GC Ten Weyngaert\,Film & Cinema\,Free\,Kids
 END:VEVENT
 BEGIN:VEVENT
 UID:833f63f56f03cf43@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20261026T100000Z
 DTEND:20261030T160000Z
 SUMMARY:Workshop Ages 13-18: Horror Film
@@ -3025,7 +4052,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9efcf256685a8951@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261028
 SUMMARY:HERE\, ME AS AN EMPRESS - MOLENSTRAAT 103/BUS 5
 LOCATION:KVS
@@ -3035,7 +4062,7 @@ CATEGORIES:KVS\,Culture & Arts\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:84b821da1f3d6f18@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20261028T130000Z
 DTEND:20261028T150000Z
 SUMMARY:Digital Cafés [Seniors]
@@ -3051,7 +4078,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b2a9871e8c0a0bc2@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20261028T183000Z
 DTEND:20261028T210000Z
 SUMMARY:The Pigeon and the Lazarus Bird
@@ -3071,7 +4098,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3fe2b4ce19829746@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:From Athens to Brussels with love
@@ -3081,7 +4108,7 @@ CATEGORIES:Recyclart\,Community & Social
 END:VEVENT
 BEGIN:VEVENT
 UID:084344da9e9c368a@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261031
 SUMMARY:Fuse presents: Silva Bumba
 LOCATION:Fuse Brussels\, Room 01
@@ -3091,7 +4118,7 @@ CATEGORIES:Fuse\,Music\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:e1bc165b13eae796@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20261031T100000Z
 DTEND:20261031T130000Z
 SUMMARY:Offline
@@ -3111,7 +4138,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c33271728f3b6e0d@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261106
 SUMMARY:Sports and Play Week for Primary School Children
@@ -3124,7 +4151,7 @@ CATEGORIES:GC Ten Weyngaert\,Family & Children\,Kids\,Recurring\,Registra
 END:VEVENT
 BEGIN:VEVENT
 UID:35d49c9579c41bac@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261102
 DTEND;VALUE=DATE:20261106
 SUMMARY:Sports and Play Week for Preschoolers
@@ -3137,7 +4164,7 @@ CATEGORIES:GC Ten Weyngaert\,Family & Children\,Kids\,Recurring\,Registra
 END:VEVENT
 BEGIN:VEVENT
 UID:3d1adc0fb5b3b25c@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261106
 SUMMARY:A Journey Through Film History Ages 10-12
@@ -3149,7 +4176,7 @@ CATEGORIES:GC Pianofabriek\,Family & Children\,Kids\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:5bbf5e776ab062e5@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261106
 SUMMARY:Trial and Error Ages 5-6
@@ -3161,7 +4188,7 @@ CATEGORIES:GC Pianofabriek\,Family & Children\,Kids\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:d5e9e34ab4deaec6@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261106
 SUMMARY:Trial and Error Ages 7-9
@@ -3173,7 +4200,7 @@ CATEGORIES:GC Pianofabriek\,Family & Children\,Kids\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:07f1d28fa4ec2bc1@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261120
 SUMMARY:Queen Kong
@@ -3184,7 +4211,7 @@ CATEGORIES:Le Poche\,Culture & Arts\,Live\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:351840099f04ef84@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261107
 SUMMARY:This Is Not Black: Act II
@@ -3195,7 +4222,7 @@ CATEGORIES:KVS\,Culture & Arts\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:0867c57a1d4094fe@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20261106T180000Z
 DTEND:20261106T200000Z
 SUMMARY:Quartier Monde | The Rise of Fascism
@@ -3211,7 +4238,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:86e5ee024fb8e4e3@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20261106T190000Z
 DTEND:20261106T210000Z
 SUMMARY:This Is Not Goodbye
@@ -3230,8 +4257,19 @@ DESCRIPTION:This Is Not Goodbye
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:f8d1931c885e370c@neighbourhood-events
+DTSTAMP:20260901T094558Z
+DTSTART;VALUE=DATE:20261108
+SUMMARY:The Comfort Tree - film To Kill a Butterfly with discussion
+LOCATION:Gemeenschapscentrum Ten Weyngaert vzw\, Vorst
+URL:https://www.tenweyngaert.be/activiteiten
+DESCRIPTION:Documentary with post-screening discussion. Free\nhttps://www
+ .tenweyngaert.be/activiteiten
+CATEGORIES:GC Ten Weyngaert\,Film & Cinema\,Free\,Live
+END:VEVENT
+BEGIN:VEVENT
 UID:b47fb206c9dc4c5e@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20261109T183000Z
 DTEND:20261109T210000Z
 SUMMARY:Letters on Enthusiasm — Launch Evening
@@ -3252,7 +4290,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:db7612a96060b71b@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:Spaghetti Western
@@ -3264,7 +4302,7 @@ CATEGORIES:KVS\,Culture & Arts\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:6b4362de43016b93@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20261114T113000Z
 DTEND:20261114T210000Z
 SUMMARY:Monique Dorsel in the Spotlight
@@ -3279,7 +4317,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a0dada9563981894@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261121
 SUMMARY:Juliet and Romeo at the National Theatre
@@ -3290,7 +4328,7 @@ CATEGORIES:Le Poche\,Culture & Arts\,Live\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:f5d6eb15713798dc@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261118
 SUMMARY:MINDBLOWERS @ PRÓXIMAMENTE
 LOCATION:KVS
@@ -3301,7 +4339,7 @@ CATEGORIES:KVS\,Culture & Arts\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:5b1a001a68d8f94b@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:The Corner of the Dead
@@ -3313,7 +4351,7 @@ CATEGORIES:KVS\,Culture & Arts\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:342c5a2aeb003dcd@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20261118T183000Z
 DTEND:20261118T210000Z
 SUMMARY:Sylvie Savon
@@ -3333,7 +4371,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:89e54b5ac191b589@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20261120T190000Z
 DTEND:20261120T210000Z
 SUMMARY:Prophetic Dance on the Strange Island
@@ -3354,7 +4392,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0afde20a71b417d4@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261128
 SUMMARY:Face to Face
@@ -3366,7 +4404,7 @@ CATEGORIES:Le Poche\,Culture & Arts\,Live\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:fc87f59dcd110363@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20261125T130000Z
 DTEND:20261125T150000Z
 SUMMARY:Digital Cafés [Seniors]
@@ -3382,7 +4420,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3e2a762f2090569d@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20261127T173000Z
 DTEND:20261127T183000Z
 SUMMARY:Darya & Dounya
@@ -3403,7 +4441,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:985456d01a6fe5c4@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20261127T190000Z
 DTEND:20261127T210000Z
 SUMMARY:The Living Souls of the Great Egrets
@@ -3424,7 +4462,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:82b5f23540a52542@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20261128T100000Z
 DTEND:20261128T130000Z
 SUMMARY:Offline
@@ -3444,7 +4482,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:649bce1ccc491069@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20261130T183000Z
 DTEND:20261130T210000Z
 SUMMARY:Diana's Tree Evening
@@ -3463,7 +4501,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:96c15ca81997e331@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261212
 SUMMARY:We the Tiny
@@ -3474,7 +4512,7 @@ CATEGORIES:Le Poche\,Culture & Arts\,Live\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:8566b09f604c65ef@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20261204T190000Z
 DTEND:20261204T210000Z
 SUMMARY:Bands of Hysterics
@@ -3495,7 +4533,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1a33fa82b3741b6@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20261206T140000Z
 DTEND:20261206T160000Z
 SUMMARY:ERASMUS PLEADS FOR PEACE
@@ -3520,7 +4558,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:4c4dd11b5b84910b@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20261209T140000Z
 DTEND:20261209T153000Z
 SUMMARY:Wednesday Digital Sessions [Ages 8-12]
@@ -3536,7 +4574,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dd0e0d8fef79d16f@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20261209T190000Z
 DTEND:20261209T210000Z
 SUMMARY:The Staart
@@ -3556,7 +4594,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ee192eeebf98931c@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20261210T170000Z
 DTEND:20261210T183000Z
 SUMMARY:Under the Gaze of Camille Claudel's Statues
@@ -3577,7 +4615,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:7f61b0f74288fec4@neighbourhood-events
-DTSTAMP:20260831T215457Z
+DTSTAMP:20260901T094558Z
 DTSTART:20261219T100000Z
 DTEND:20261219T130000Z
 SUMMARY:Offline

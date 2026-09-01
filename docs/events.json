@@ -1,12 +1,12 @@
 {
-  "generated": "2026-08-31T23:54:57.974762+02:00",
+  "generated": "2026-09-01T11:45:58.620900+02:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
       "name": "La Vieille Chéchette",
       "url": "https://chechette.be/lagenda/",
       "colour": "#E8336D",
-      "count": 0,
+      "count": 18,
       "method": "jsonld"
     },
     {
@@ -104,7 +104,7 @@
       "name": "GC Ten Weyngaert",
       "url": "https://www.tenweyngaert.be/activiteiten",
       "colour": "#0F8CA8",
-      "count": 24,
+      "count": 21,
       "method": "browser"
     },
     {
@@ -132,7 +132,7 @@
       "name": "BOZAR",
       "url": "https://www.bozar.be/en/calendar",
       "colour": "#00937A",
-      "count": 3,
+      "count": 4,
       "method": "llm"
     },
     {
@@ -146,8 +146,8 @@
       "name": "Kaaitheater",
       "url": "https://kaaitheater.be/nl/agenda",
       "colour": "#7B49D6",
-      "count": 0,
-      "method": "none"
+      "count": 56,
+      "method": "llm"
     },
     {
       "name": "Ancienne Belgique",
@@ -321,8 +321,8 @@
     {
       "source": "La Vieille Chéchette",
       "method": "jsonld",
-      "found": 4,
-      "kept": 0,
+      "found": 18,
+      "kept": 18,
       "note": ""
     },
     {
@@ -419,8 +419,8 @@
     {
       "source": "GC Ten Weyngaert",
       "method": "browser",
-      "found": 25,
-      "kept": 24,
+      "found": 22,
+      "kept": 21,
       "note": ""
     },
     {
@@ -447,8 +447,8 @@
     {
       "source": "BOZAR",
       "method": "llm",
-      "found": 3,
-      "kept": 3,
+      "found": 4,
+      "kept": 4,
       "note": ""
     },
     {
@@ -460,10 +460,10 @@
     },
     {
       "source": "Kaaitheater",
-      "method": "none",
-      "found": 0,
-      "kept": 0,
-      "note": "wordpress: HTTPError: 404 Client Error: Not Found for url: https://kaaitheater.be/wp-json/tribe/events/v1/events?per_page=50"
+      "method": "llm",
+      "found": 56,
+      "kept": 56,
+      "note": ""
     },
     {
       "source": "Ancienne Belgique",
@@ -475,41 +475,22 @@
   ],
   "events": [
     {
-      "title": "Last Day of Holiday Fun",
-      "start": "2026-08-31T00:00:00+02:00",
-      "end": null,
+      "title": "5-7 PM organic produce baskets - Ferme de Nadir",
+      "start": "2026-09-01T00:00:00+02:00",
+      "end": "2026-09-01T00:00:00+02:00",
       "all_day": true,
-      "location": "Gemeenschapscentrum Ten Weyngaert, Vorst",
-      "description": "Fitness, gym, dance and martial arts for children ages 3-12",
-      "url": "https://www.tenweyngaert.be/activiteiten",
-      "image": null,
-      "source": "GC Ten Weyngaert",
-      "uid": "2084f50b35a9cdf7",
-      "colour": "#0F8CA8",
+      "location": "La Vieille Chéchette, Bruxelles",
+      "description": "Fresh vegetables year-round! Each year, households commit to picking up a basket of vegetables weekly and building local food sovereignty. This is our CSA—our Community Supported Agriculture. The basket contents are a delightful mix of classic vegetables and exciting new flavors, grown without synthetic fertilizers, pesticides, herbicides, or fossil fuel machinery, but with plenty of love.",
+      "url": "https://chechette.be/events/17h-19h-paniers-bio-ferme-de-nadir/",
+      "image": "https://chechette.be/wp-content/uploads/2025/05/ferme-Nadir-985x1024-1-e1747293928519.jpg",
+      "source": "La Vieille Chéchette",
+      "uid": "753db5a6ca8771eb",
+      "colour": "#E8336D",
       "translated": true,
-      "category": "family-children",
+      "category": "food-drink",
       "tags": [
-        "dance",
-        "kids"
-      ]
-    },
-    {
-      "title": "Bozar Rooftop 2026",
-      "start": "2026-08-31T00:00:00+02:00",
-      "end": "2026-09-20T00:00:00+02:00",
-      "all_day": true,
-      "location": "Bozar, Brussels",
-      "description": "Pali Pali ✕ Bento Architecture. Free entry.",
-      "url": "https://www.bozar.be/en/calendar",
-      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
-      "source": "BOZAR",
-      "uid": "0b31def4b56c4365",
-      "colour": "#00937A",
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "free",
-        "recurring"
+        "food-drink",
+        "sustainability"
       ]
     },
     {
@@ -550,6 +531,25 @@
       ]
     },
     {
+      "title": "Bozar Rooftop 2026",
+      "start": "2026-09-01T00:00:00+02:00",
+      "end": "2026-09-20T00:00:00+02:00",
+      "all_day": true,
+      "location": "Bozar Brussels",
+      "description": "Pali Pali ✕ Bento Architecture. Free entry.",
+      "url": "https://www.bozar.be/en/calendar",
+      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
+      "source": "BOZAR",
+      "uid": "9771873799f77f26",
+      "colour": "#00937A",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "free",
+        "recurring"
+      ]
+    },
+    {
       "title": "The Waterboys Fisherman's Blues Revue",
       "start": "2026-09-01T00:00:00+02:00",
       "end": null,
@@ -561,6 +561,24 @@
       "source": "Ancienne Belgique",
       "uid": "9e586c4cd8603a54",
       "colour": "#C0392B",
+      "translated": true,
+      "category": "music",
+      "tags": [
+        "live"
+      ]
+    },
+    {
+      "title": "6:30 PM La Vieille Chéchette Choir",
+      "start": "2026-09-02T00:00:00+02:00",
+      "end": "2026-09-02T00:00:00+02:00",
+      "all_day": true,
+      "location": "",
+      "description": "",
+      "url": "https://chechette.be/events/18h30-chorale-de-la-vieille-chechette/",
+      "image": null,
+      "source": "La Vieille Chéchette",
+      "uid": "8719422e285d9668",
+      "colour": "#E8336D",
       "translated": true,
       "category": "music",
       "tags": [
@@ -678,6 +696,24 @@
       ]
     },
     {
+      "title": "State of the Future",
+      "start": "2026-09-02T17:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "KVS BOL",
+      "description": "",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "80063e2e66d289b3",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
       "title": "PHAT KAT – 30 YEARS DETROIT HIPHOP",
       "start": "2026-09-02T19:00:00+02:00",
       "end": null,
@@ -716,6 +752,44 @@
       ]
     },
     {
+      "title": "shoe/farm",
+      "start": "2026-09-02T20:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "De Kriekelaar",
+      "description": "Dance",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "43aa690c9438de76",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "dance",
+        "evening"
+      ]
+    },
+    {
+      "title": "Chapters of Celebration",
+      "start": "2026-09-02T20:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "KVS BOX",
+      "description": "Dance by Benjamin Abel Meirhaeghe, Wouter Deltour, Muziektheater Transparant",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "034242da99627f65",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "dance",
+        "evening"
+      ]
+    },
+    {
       "title": "Teenage Sex and Death at Camp Miasma",
       "start": "2026-09-02T20:50:00+02:00",
       "end": null,
@@ -731,6 +805,24 @@
       "category": "film-cinema",
       "tags": [
         "evening",
+        "live"
+      ]
+    },
+    {
+      "title": "7 PM Niña Maleza Concert",
+      "start": "2026-09-03T00:00:00+02:00",
+      "end": "2026-09-03T00:00:00+02:00",
+      "all_day": true,
+      "location": "",
+      "description": "Niña Maleza is a Brussels trio blending voice, melodies, and harmonies. Rebellious, bold, committed, and poetic music evoking migration, roots, love, and resistance. Stories are whispered and memories evoked.",
+      "url": "https://chechette.be/events/19h-concert-nina-maleza-2/",
+      "image": null,
+      "source": "La Vieille Chéchette",
+      "uid": "bc371431dc6e43b6",
+      "colour": "#E8336D",
+      "translated": true,
+      "category": "music",
+      "tags": [
         "live"
       ]
     },
@@ -827,6 +919,82 @@
       ]
     },
     {
+      "title": "The Truthful",
+      "start": "2026-09-03T20:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Theater 1150",
+      "description": "Theater by Lieselot Siddiki, CAMPO",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "8737abe938759270",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "evening",
+        "live"
+      ]
+    },
+    {
+      "title": "Ki no nagare",
+      "start": "2026-09-03T20:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Gare Maritime",
+      "description": "Circus by Collectif Malunés, Arne Sabbe",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "e3435ac20ec934b4",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "evening",
+        "live"
+      ]
+    },
+    {
+      "title": "shoe/farm",
+      "start": "2026-09-03T20:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "De Kriekelaar",
+      "description": "Dance",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "6bcba0e475cb2705",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "dance",
+        "evening"
+      ]
+    },
+    {
+      "title": "Chapters of Celebration",
+      "start": "2026-09-03T20:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "KVS BOX",
+      "description": "Dance by Benjamin Abel Meirhaeghe, Wouter Deltour, Muziektheater Transparant",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "c3d217441f87b9d0",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "dance",
+        "evening"
+      ]
+    },
+    {
       "title": "The End of Oak Street",
       "start": "2026-09-03T21:00:00+02:00",
       "end": null,
@@ -842,6 +1010,24 @@
       "category": "film-cinema",
       "tags": [
         "evening"
+      ]
+    },
+    {
+      "title": "7:30 PM Cassiof and Iva Mai Concert",
+      "start": "2026-09-04T00:00:00+02:00",
+      "end": "2026-09-04T00:00:00+02:00",
+      "all_day": true,
+      "location": "",
+      "description": "Cassiof, a Brussels band performing French pop-rap chanson. A concert to sweep us all away.",
+      "url": "https://chechette.be/events/19h30-concert-cassiof-et-iva-mai/",
+      "image": null,
+      "source": "La Vieille Chéchette",
+      "uid": "768aa032e0c116ca",
+      "colour": "#E8336D",
+      "translated": true,
+      "category": "music",
+      "tags": [
+        "live"
       ]
     },
     {
@@ -918,6 +1104,25 @@
       ]
     },
     {
+      "title": "Art in the Grip of the Far Right?",
+      "start": "2026-09-04T17:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "KVS TOP",
+      "description": "Debate by Etcetera, Het Theaterfestival",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "3f3de5c73b1a82d9",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "talks-discussions",
+      "tags": [
+        "evening",
+        "live"
+      ]
+    },
+    {
       "title": "We, the Orchestra",
       "start": "2026-09-04T17:15:00+02:00",
       "end": null,
@@ -931,6 +1136,25 @@
       "colour": "#1B6FE0",
       "translated": true,
       "category": "film-cinema",
+      "tags": [
+        "evening",
+        "live"
+      ]
+    },
+    {
+      "title": "Plum Road Tea Dream",
+      "start": "2026-09-04T17:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Kaaistudios",
+      "description": "Performance by Samuel Baidoo",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "f7a1f3edefbd52b0",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
       "tags": [
         "evening",
         "live"
@@ -1013,6 +1237,63 @@
       ]
     },
     {
+      "title": "ALKIBIADES",
+      "start": "2026-09-04T20:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "CC De Factorij",
+      "description": "Theater by Zuidpool",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "104108dbf3298f60",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "evening",
+        "live"
+      ]
+    },
+    {
+      "title": "Ki no nagare",
+      "start": "2026-09-04T20:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Gare Maritime",
+      "description": "Circus by Collectif Malunés, Arne Sabbe",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "8097139d5cd4316c",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "evening",
+        "live"
+      ]
+    },
+    {
+      "title": "The Truthful",
+      "start": "2026-09-04T20:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Theater 1150",
+      "description": "Theater by Lieselot Siddiki, CAMPO",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "54ccf951d95bb966",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "evening",
+        "live"
+      ]
+    },
+    {
       "title": "MANU CHAO I ULTRA ACOUSTIC + NEPHTYS - Sold Out!",
       "start": "2026-09-05T00:00:00+02:00",
       "end": null,
@@ -1087,6 +1368,25 @@
       ]
     },
     {
+      "title": "Amai Speciaal Chapeau (3+)",
+      "start": "2026-09-05T11:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "De Kriekelaar",
+      "description": "Theater by DE MAAN & 4Hoog",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "e7a35332bb5e112f",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "kids",
+        "live"
+      ]
+    },
+    {
       "title": "The Odyssey",
       "start": "2026-09-05T14:15:00+02:00",
       "end": null,
@@ -1100,6 +1400,42 @@
       "colour": "#1B6FE0",
       "translated": true,
       "category": "film-cinema",
+      "tags": [
+        "live"
+      ]
+    },
+    {
+      "title": "Frames",
+      "start": "2026-09-05T14:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "SAAMO",
+      "description": "Circus by Not Standing / Alexander Vantournhout",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "bfc3ac2975098f0a",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "live"
+      ]
+    },
+    {
+      "title": "Hugs & Handshakes",
+      "start": "2026-09-05T16:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Maria-Boodschaplyceum",
+      "description": "By THERE THERE Company",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "21351d8239b7d27c",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
       "tags": [
         "live"
       ]
@@ -1119,6 +1455,25 @@
       "translated": true,
       "category": "film-cinema",
       "tags": [
+        "evening"
+      ]
+    },
+    {
+      "title": "Magec / the Desert",
+      "start": "2026-09-05T18:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "KVS BOL",
+      "description": "Dance by Radouan Mriziga, A7LA5",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "e94a1adf53a470f6",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "dance",
         "evening"
       ]
     },
@@ -1156,6 +1511,44 @@
       "category": "music",
       "tags": [
         "dance",
+        "evening",
+        "live"
+      ]
+    },
+    {
+      "title": "ALKIBIADES",
+      "start": "2026-09-05T20:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "CC De Factorij",
+      "description": "Theater by Zuidpool",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "0ab2ffa65b784534",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "evening",
+        "live"
+      ]
+    },
+    {
+      "title": "Ki no nagare",
+      "start": "2026-09-05T20:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Gare Maritime",
+      "description": "Circus by Collectif Malunés, Arne Sabbe",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "741680f0d1a9ad73",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
         "evening",
         "live"
       ]
@@ -1251,6 +1644,42 @@
       "tags": []
     },
     {
+      "title": "Frames",
+      "start": "2026-09-06T11:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "SAAMO",
+      "description": "Circus by Not Standing / Alexander Vantournhout",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "af376600fc31ac50",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "live"
+      ]
+    },
+    {
+      "title": "Hugs & Handshakes",
+      "start": "2026-09-06T13:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Maria-Boodschaplyceum",
+      "description": "By THERE THERE Company",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "c09f0d69beb64176",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "live"
+      ]
+    },
+    {
       "title": "Lola",
       "start": "2026-09-06T14:00:00+02:00",
       "end": null,
@@ -1288,6 +1717,24 @@
         "free",
         "live",
         "outdoor"
+      ]
+    },
+    {
+      "title": "Magec / the Desert",
+      "start": "2026-09-06T15:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "KVS BOL",
+      "description": "Dance by Radouan Mriziga, A7LA5",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "5bd42d4e4d389b06",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "dance"
       ]
     },
     {
@@ -1345,6 +1792,25 @@
         "evening",
         "recurring",
         "sustainability"
+      ]
+    },
+    {
+      "title": "Ki no nagare",
+      "start": "2026-09-06T18:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Gare Maritime",
+      "description": "Circus by Collectif Malunés, Arne Sabbe",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "c797afa809f27a59",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "evening",
+        "live"
       ]
     },
     {
@@ -1440,6 +1906,25 @@
       ]
     },
     {
+      "title": "5-7pm Organic Produce Baskets from Nadir Farm",
+      "start": "2026-09-08T00:00:00+02:00",
+      "end": "2026-09-08T00:00:00+02:00",
+      "all_day": true,
+      "location": "La Vieille Chéchette, Bruxelles",
+      "description": "Fresh vegetable baskets all year round! Each year, households commit to picking up a weekly vegetable basket and building local food sovereignty. This is our CSA, our Community Supported Agriculture. The basket contents are a delightful mix of classic vegetables and exciting new flavors that we cultivate without fertilizers, pesticides, herbicides, or fossil fuel-powered tools—just lots of love.",
+      "url": "https://chechette.be/events/17h-19h-paniers-bio-ferme-de-nadir/",
+      "image": "https://chechette.be/wp-content/uploads/2025/05/ferme-Nadir-985x1024-1-e1747293928519.jpg",
+      "source": "La Vieille Chéchette",
+      "uid": "2204c8763532c4a6",
+      "colour": "#E8336D",
+      "translated": true,
+      "category": "food-drink",
+      "tags": [
+        "food-drink",
+        "sustainability"
+      ]
+    },
+    {
       "title": "Folkpractica",
       "start": "2026-09-08T00:00:00+02:00",
       "end": "2026-12-15T00:00:00+01:00",
@@ -1526,6 +2011,62 @@
       "source": "Ancienne Belgique",
       "uid": "a388d936b63cff10",
       "colour": "#C0392B",
+      "translated": true,
+      "category": "music",
+      "tags": [
+        "live"
+      ]
+    },
+    {
+      "title": "Gala van de Aura's",
+      "start": "2026-09-08T18:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "KVS BOL",
+      "description": "By Het Theaterfestival, de Acteursgilde, NTGent, KVS, Toneelhuis",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "2f0b985b2cd5eec6",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "evening",
+        "live"
+      ]
+    },
+    {
+      "title": "FRANK",
+      "start": "2026-09-08T20:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "KVS BOX",
+      "description": "Dance by Cherish Menzo, GRIP, Theater Utrecht, Dance On Ensemble",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "d8bc4a3c6bbea833",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "dance",
+        "evening"
+      ]
+    },
+    {
+      "title": "6:30pm La Vieille Chéchette Choir",
+      "start": "2026-09-09T00:00:00+02:00",
+      "end": "2026-09-09T00:00:00+02:00",
+      "all_day": true,
+      "location": "",
+      "description": "",
+      "url": "https://chechette.be/events/18h30-chorale-de-la-vieille-chechette/",
+      "image": null,
+      "source": "La Vieille Chéchette",
+      "uid": "429ebf24495d560a",
+      "colour": "#E8336D",
       "translated": true,
       "category": "music",
       "tags": [
@@ -1647,6 +2188,63 @@
       ]
     },
     {
+      "title": "Carminho",
+      "start": "2026-09-09T20:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Bozar Brussels",
+      "description": "Concert. From 39 €",
+      "url": "https://www.bozar.be/en/calendar",
+      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
+      "source": "BOZAR",
+      "uid": "24d1b5a5616e60fd",
+      "colour": "#00937A",
+      "translated": true,
+      "category": "music",
+      "tags": [
+        "evening",
+        "live"
+      ]
+    },
+    {
+      "title": "FRANK",
+      "start": "2026-09-09T20:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "KVS BOX",
+      "description": "Dance by Cherish Menzo, GRIP, Theater Utrecht, Dance On Ensemble",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "30134c86c288516f",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "dance",
+        "evening"
+      ]
+    },
+    {
+      "title": "Badke(remix)",
+      "start": "2026-09-09T20:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "CC De Factorij",
+      "description": "Dance by laGeste, Stereo48",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "462ab4bcab77ea97",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "dance",
+        "evening"
+      ]
+    },
+    {
       "title": "Akira",
       "start": "2026-09-09T21:00:00+02:00",
       "end": null,
@@ -1662,6 +2260,24 @@
       "category": "film-cinema",
       "tags": [
         "evening",
+        "live"
+      ]
+    },
+    {
+      "title": "6pm Lecture Performance: Be Passive and Shut Up! Or How Classist Policies Keep Us From Real Democracy",
+      "start": "2026-09-10T00:00:00+02:00",
+      "end": "2026-09-10T00:00:00+02:00",
+      "all_day": true,
+      "location": "",
+      "description": "Since 2010, Donatienne has been helping households make the most of energy-efficient and socially-minded housing to meet energy savings and comfort goals. It's complicated, right?! Really, she's above all a social worker! And that's what she's standing up for today.",
+      "url": "https://chechette.be/events/18h-conference-gesticulee-sois-passif-et-tais-toi-ou-comment-les-politiques-classistes-nous-eloignent-dune-vraie-democratie/",
+      "image": null,
+      "source": "La Vieille Chéchette",
+      "uid": "1b5d268fa48fc322",
+      "colour": "#E8336D",
+      "translated": true,
+      "category": "talks-discussions",
+      "tags": [
         "live"
       ]
     },
@@ -1763,23 +2379,42 @@
       ]
     },
     {
-      "title": "Brussels Philharmonic & Dirk Brossé - Star Wars: Return of the Jedi - In Concert",
+      "title": "Bonjour Mademoiselleke (10+)",
+      "start": "2026-09-10T19:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "De Kriekelaar",
+      "description": "Youth theater by De Maan",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "80b1054bb3daddd8",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "evening",
+        "kids",
+        "live"
+      ]
+    },
+    {
+      "title": "Star Wars: Return of the Jedi - In Concert",
       "start": "2026-09-10T20:15:00+02:00",
       "end": null,
       "all_day": false,
       "location": "Studio 4",
-      "description": "Music/cinema - classical, orchestra, music & visuals. €5.00–€61.00. Waiting list",
+      "description": "Classical orchestra music & visuals concert",
       "url": "https://www.flagey.be/agenda",
       "image": null,
       "source": "Flagey",
-      "uid": "983f0eda864216e2",
+      "uid": "d9ad0af2bc9416da",
       "colour": "#1B6FE0",
       "translated": true,
       "category": "music",
       "tags": [
         "evening",
-        "live",
-        "registration-required"
+        "live"
       ]
     },
     {
@@ -1818,6 +2453,44 @@
       "tags": [
         "evening",
         "live"
+      ]
+    },
+    {
+      "title": "Badke(remix)",
+      "start": "2026-09-10T20:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "CC De Factorij",
+      "description": "Dance by laGeste, Stereo48",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "f42f28fac11c6e83",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "dance",
+        "evening"
+      ]
+    },
+    {
+      "title": "La Noche de Aparición",
+      "start": "2026-09-10T20:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "RITCS Campus Kaai (Anderlecht)",
+      "description": "Dance by Désirée 0100, Lulu Muñoz",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "1e8fb18c84a8a433",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "dance",
+        "evening"
       ]
     },
     {
@@ -1952,6 +2625,45 @@
       ]
     },
     {
+      "title": "Bonjour Mademoiselleke (10+)",
+      "start": "2026-09-11T19:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "De Kriekelaar",
+      "description": "Youth theater by De Maan",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "b881ebd72db55749",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "evening",
+        "kids",
+        "live"
+      ]
+    },
+    {
+      "title": "The Moon in your Mouth",
+      "start": "2026-09-11T19:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Kaaistudios",
+      "description": "Performance by Samah Hijawi, KWP",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "a14bf13cd250a331",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "evening",
+        "live"
+      ]
+    },
+    {
       "title": "Storm Beasts",
       "start": "2026-09-11T20:00:00+02:00",
       "end": "2026-09-11T22:00:00+02:00",
@@ -1971,23 +2683,22 @@
       ]
     },
     {
-      "title": "Brussels Philharmonic & Dirk Brossé - Star Wars: Return of the Jedi - In Concert",
+      "title": "Star Wars: Return of the Jedi - In Concert",
       "start": "2026-09-11T20:15:00+02:00",
       "end": null,
       "all_day": false,
       "location": "Studio 4",
-      "description": "Music/cinema - classical, orchestra, music & visuals. €5.00–€61.00. Waiting list",
+      "description": "Classical orchestra music & visuals concert",
       "url": "https://www.flagey.be/agenda",
       "image": null,
       "source": "Flagey",
-      "uid": "874c2347404526d8",
+      "uid": "1954f93a96d2c0d9",
       "colour": "#1B6FE0",
       "translated": true,
       "category": "music",
       "tags": [
         "evening",
-        "live",
-        "registration-required"
+        "live"
       ]
     },
     {
@@ -2004,6 +2715,44 @@
       "colour": "#E8336D",
       "translated": true,
       "category": "music",
+      "tags": [
+        "evening",
+        "live"
+      ]
+    },
+    {
+      "title": "La Noche de Aparición",
+      "start": "2026-09-11T20:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "RITCS Campus Kaai (Anderlecht)",
+      "description": "Dance by Désirée 0100, Lulu Muñoz",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "c4015b28935b1407",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "dance",
+        "evening"
+      ]
+    },
+    {
+      "title": "Dancing with My Ex / Bailando con mi ex",
+      "start": "2026-09-11T20:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Beursschouwburg",
+      "description": "Theater by Neal Leemput, De Studio",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "f482ccc7af9159b4",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
       "tags": [
         "evening",
         "live"
@@ -2143,6 +2892,24 @@
       ]
     },
     {
+      "title": "The Moon in your Mouth",
+      "start": "2026-09-12T13:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Kaaistudios",
+      "description": "Performance by Samah Hijawi, KWP",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "3b2b7b9773345f57",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "live"
+      ]
+    },
+    {
       "title": "Rose",
       "start": "2026-09-12T14:00:00+02:00",
       "end": null,
@@ -2193,6 +2960,24 @@
       "tags": []
     },
     {
+      "title": "Dancing with My Ex / Bailando con mi ex",
+      "start": "2026-09-12T16:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Beursschouwburg",
+      "description": "Theater by Neal Leemput, De Studio",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "d9a20bc6543e82a6",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "live"
+      ]
+    },
+    {
       "title": "Lola",
       "start": "2026-09-12T17:35:00+02:00",
       "end": null,
@@ -2229,28 +3014,8 @@
       ]
     },
     {
-      "title": "Brussels Philharmonic & Dirk Brossé - Star Wars: Return of the Jedi - In Concert",
-      "start": "2026-09-12T20:15:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 4",
-      "description": "Music/cinema - classical, orchestra, music & visuals. €5.00–€61.00. Waiting list",
-      "url": "https://www.flagey.be/agenda",
-      "image": null,
-      "source": "Flagey",
-      "uid": "d428f71082b444a3",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "evening",
-        "live",
-        "registration-required"
-      ]
-    },
-    {
       "title": "One Sound One Pulse",
-      "start": "2026-09-12T20:30:00+02:00",
+      "start": "2026-09-12T20:00:00+02:00",
       "end": null,
       "all_day": false,
       "location": "Jazz&resist",
@@ -2264,6 +3029,63 @@
       "category": "music",
       "tags": [
         "dance",
+        "evening",
+        "live"
+      ]
+    },
+    {
+      "title": "Star Wars: Return of the Jedi - In Concert",
+      "start": "2026-09-12T20:15:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Studio 4",
+      "description": "Classical orchestra music & visuals concert",
+      "url": "https://www.flagey.be/agenda",
+      "image": null,
+      "source": "Flagey",
+      "uid": "8cb404d65f087cca",
+      "colour": "#1B6FE0",
+      "translated": true,
+      "category": "music",
+      "tags": [
+        "evening",
+        "live"
+      ]
+    },
+    {
+      "title": "Copyriot",
+      "start": "2026-09-12T20:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "CC De Factorij",
+      "description": "Theater by Krapp, KVS",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "2c9617a1a3d1cf15",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "evening",
+        "live"
+      ]
+    },
+    {
+      "title": "F*CK LOLITA",
+      "start": "2026-09-12T20:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "KVS BOL",
+      "description": "Theater by Het Zuidelijk Toneel",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "4882ad83a98c543f",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
         "evening",
         "live"
       ]
@@ -2395,6 +3217,24 @@
       ]
     },
     {
+      "title": "6pm Exploration of 'Rule of Law': Bourgeois Order by Elsa Marcel",
+      "start": "2026-09-14T00:00:00+02:00",
+      "end": "2026-09-14T00:00:00+02:00",
+      "all_day": true,
+      "location": "",
+      "description": "Rule of Law: Bourgeois Order. In the face of authoritarian governments, police violence, and colonial reaction...",
+      "url": "https://chechette.be/events/18h-arpentage-de-etat-de-droit-ordre-bourgeois-delsa-marcel/",
+      "image": null,
+      "source": "La Vieille Chéchette",
+      "uid": "823aed52da90ad0b",
+      "colour": "#E8336D",
+      "translated": true,
+      "category": "talks-discussions",
+      "tags": [
+        "live"
+      ]
+    },
+    {
       "title": "\"We Are Not Condemned to Cowardice\"",
       "start": "2026-09-14T18:00:00+02:00",
       "end": "2026-09-14T19:00:00+02:00",
@@ -2434,6 +3274,26 @@
       ]
     },
     {
+      "title": "5-7pm organic produce boxes from Nadir Farm",
+      "start": "2026-09-15T00:00:00+02:00",
+      "end": "2026-09-15T00:00:00+02:00",
+      "all_day": true,
+      "location": "La Vieille Chéchette, Bruxelles",
+      "description": "Fresh vegetable boxes all year round! Every year, households commit to picking up a weekly vegetable box and building local food sovereignty. It's our CSA—our Community Supported Agriculture initiative. The box contents are a delightful blend of classic vegetables and exciting new flavors, which we grow without synthetic fertilizers, pesticides, herbicides, or fossil fuel-powered tools, but with plenty of love.",
+      "url": "https://chechette.be/events/17h-19h-paniers-bio-ferme-de-nadir/",
+      "image": "https://chechette.be/wp-content/uploads/2025/05/ferme-Nadir-985x1024-1-e1747293928519.jpg",
+      "source": "La Vieille Chéchette",
+      "uid": "a43a904789c6b981",
+      "colour": "#E8336D",
+      "translated": true,
+      "category": "food-drink",
+      "tags": [
+        "food-drink",
+        "recurring",
+        "sustainability"
+      ]
+    },
+    {
       "title": "Folk Dance Level 1 Beginners",
       "start": "2026-09-15T00:00:00+02:00",
       "end": "2026-12-15T00:00:00+01:00",
@@ -2470,6 +3330,25 @@
         "free",
         "live",
         "registration-required"
+      ]
+    },
+    {
+      "title": "6:30pm La Vieille Chéchette Choir",
+      "start": "2026-09-16T00:00:00+02:00",
+      "end": "2026-09-16T00:00:00+02:00",
+      "all_day": true,
+      "location": "",
+      "description": "",
+      "url": "https://chechette.be/events/18h30-chorale-de-la-vieille-chechette/",
+      "image": null,
+      "source": "La Vieille Chéchette",
+      "uid": "d27c11b377186b93",
+      "colour": "#E8336D",
+      "translated": true,
+      "category": "music",
+      "tags": [
+        "live",
+        "recurring"
       ]
     },
     {
@@ -2567,6 +3446,25 @@
       ]
     },
     {
+      "title": "A Love Supreme",
+      "start": "2026-09-16T20:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Ancienne Belgique",
+      "description": "Dance by Salva Sanchis, Anne Teresa De Keersmaeker, Rosas",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "438d3856714ad3d1",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "dance",
+        "evening"
+      ]
+    },
+    {
       "title": "1060 Pitch#7 Gendered Perspectives",
       "start": "2026-09-17T00:00:00+02:00",
       "end": null,
@@ -2584,26 +3482,6 @@
         "drop-in",
         "free",
         "live"
-      ]
-    },
-    {
-      "title": "Slameke",
-      "start": "2026-09-17T00:00:00+02:00",
-      "end": "2027-06-17T00:00:00+02:00",
-      "all_day": true,
-      "location": "Gemeenschapscentrum Pianofabriek vzw, Sint-Gillis",
-      "description": "Poetry, for ages 18-99, free",
-      "url": "https://www.pianofabriek.be/activiteiten",
-      "image": null,
-      "source": "GC Pianofabriek",
-      "uid": "ce4f6cd0683ae2d0",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "talks-discussions",
-      "tags": [
-        "free",
-        "live",
-        "recurring"
       ]
     },
     {
@@ -2626,6 +3504,22 @@
       ]
     },
     {
+      "title": "Every Contact Leaves a Trace",
+      "start": "2026-09-17T16:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Film",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "6bb93a73846ea9b6",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "film-cinema",
+      "tags": []
+    },
+    {
       "title": "Le Vertige",
       "start": "2026-09-17T17:45:00+02:00",
       "end": null,
@@ -2640,6 +3534,44 @@
       "translated": true,
       "category": "film-cinema",
       "tags": [
+        "evening"
+      ]
+    },
+    {
+      "title": "With Love Not For Love",
+      "start": "2026-09-17T19:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Park van Vorst",
+      "description": "Performance by La Candidate Sans-Papiers",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "e088e85d177a81f0",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "evening",
+        "live"
+      ]
+    },
+    {
+      "title": "A Love Supreme",
+      "start": "2026-09-17T20:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Ancienne Belgique",
+      "description": "Dance by Salva Sanchis, Anne Teresa De Keersmaeker, Rosas",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "affa1de259be2b41",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "dance",
         "evening"
       ]
     },
@@ -2678,6 +3610,25 @@
       "category": "film-cinema",
       "tags": [
         "evening"
+      ]
+    },
+    {
+      "title": "7:30pm Jun Sandson Concert",
+      "start": "2026-09-18T00:00:00+02:00",
+      "end": "2026-09-18T00:00:00+02:00",
+      "all_day": true,
+      "location": "",
+      "description": "Jun Sandson is a multidisciplinary indie pop artist, singer-songwriter, and performer. A quirky clown spinning through sounds somewhere between raw blues, free folk, and experimental music. A delightfully odd character, half-deaf, singing melancholic \"melocoton\" songs to lift people's spirits again!",
+      "url": "https://chechette.be/events/19h30-concert-jun-sandson/",
+      "image": null,
+      "source": "La Vieille Chéchette",
+      "uid": "582eac9dd0faa23b",
+      "colour": "#E8336D",
+      "translated": true,
+      "category": "music",
+      "tags": [
+        "free",
+        "live"
       ]
     },
     {
@@ -2773,6 +3724,22 @@
       ]
     },
     {
+      "title": "(Revolution, Keep Your Promise) Red Love",
+      "start": "2026-09-18T16:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Rosas Performance Space",
+      "description": "Film",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "cfd056aff954e834",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "film-cinema",
+      "tags": []
+    },
+    {
       "title": "Rose",
       "start": "2026-09-18T17:00:00+02:00",
       "end": null,
@@ -2828,6 +3795,25 @@
       ]
     },
     {
+      "title": "Pirate Care",
+      "start": "2026-09-18T19:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Rosas Performance Space",
+      "description": "Lecture by Valeria Graziano, Tomislav Medak",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "3376b9377fd65814",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "talks-discussions",
+      "tags": [
+        "evening",
+        "live"
+      ]
+    },
+    {
       "title": "My Little Big Chop",
       "start": "2026-09-18T20:00:00+02:00",
       "end": "2026-09-18T22:00:00+02:00",
@@ -2847,6 +3833,25 @@
       ]
     },
     {
+      "title": "A Love Supreme",
+      "start": "2026-09-18T20:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Ancienne Belgique",
+      "description": "Dance by Salva Sanchis, Anne Teresa De Keersmaeker, Rosas",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "43cbb56f177b85f7",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "dance",
+        "evening"
+      ]
+    },
+    {
       "title": "Teenage Sex and Death at Camp Miasma",
       "start": "2026-09-18T21:10:00+02:00",
       "end": null,
@@ -2862,6 +3867,24 @@
       "category": "film-cinema",
       "tags": [
         "evening"
+      ]
+    },
+    {
+      "title": "11am Literary Encounter with Romain Lemire and Thomas Prédour",
+      "start": "2026-09-19T00:00:00+02:00",
+      "end": "2026-09-19T00:00:00+02:00",
+      "all_day": true,
+      "location": "",
+      "description": "Romain Lemire received the Goncourt Prize for First Novel for \"Clément,\" a powerful account of the incest he and his brothers endured for years. He will receive the title of Doctor Honoris Causa from ULB on September 18th. Thomas Prédour created the show \"It Was Just a Game,\" from which he developed a self-published book that also addresses the theme of incest. They will discuss together the reasons that led them to write on this subject and will read passages...",
+      "url": "https://chechette.be/events/11h-rencontre-litteraire-avec-romain-lemire-et-thomas-predour/",
+      "image": null,
+      "source": "La Vieille Chéchette",
+      "uid": "ab0374aac5d814ca",
+      "colour": "#E8336D",
+      "translated": true,
+      "category": "talks-discussions",
+      "tags": [
+        "live"
       ]
     },
     {
@@ -2897,7 +3920,9 @@
       "colour": "#00937A",
       "translated": true,
       "category": "culture-arts",
-      "tags": []
+      "tags": [
+        "outdoor"
+      ]
     },
     {
       "title": "11.11.11-Vorst: 'Pesta Babi', Documentary and Discussion",
@@ -2937,16 +3962,16 @@
       ]
     },
     {
-      "title": "Joyful Opening",
+      "title": "★ Grand Opening ★",
       "start": "2026-09-19T14:00:00+02:00",
       "end": null,
       "all_day": false,
       "location": "BRASS",
-      "description": "Music, hip hop dance, performances, games, and more",
+      "description": "Music, hip-hop dance, performances, games, and more",
       "url": "https://www.lebrass.be/",
       "image": "https://www.lebrass.be/wp-content/uploads/2025/12/rq-181016-BRASS-ext-05-04-1200-min-1024x576.jpg",
       "source": "BRASS",
-      "uid": "f472b8919af71bea",
+      "uid": "f72b5d559a491902",
       "colour": "#00937A",
       "translated": true,
       "category": "festivals-celebrations",
@@ -2973,6 +3998,22 @@
       "tags": []
     },
     {
+      "title": "The Deviant Majority (from Basaglia to Brazil)",
+      "start": "2026-09-19T16:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Rosas Performance Space",
+      "description": "Film",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "d1e59808daba9ddf",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "film-cinema",
+      "tags": []
+    },
+    {
       "title": "The Unknown",
       "start": "2026-09-19T16:40:00+02:00",
       "end": null,
@@ -2987,6 +4028,44 @@
       "translated": true,
       "category": "film-cinema",
       "tags": []
+    },
+    {
+      "title": "Across Generations: Ruptures and Intersections",
+      "start": "2026-09-19T17:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Rosas Performance Space",
+      "description": "Conversations",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "a4ce9c7d58e6a8ae",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "talks-discussions",
+      "tags": [
+        "evening",
+        "live"
+      ]
+    },
+    {
+      "title": "The Fantasy and Necessity of Solidarity",
+      "start": "2026-09-19T19:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Rosas Performance Space",
+      "description": "Talk by Sarah Schulman",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "9b210fa42e7ab7b2",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "talks-discussions",
+      "tags": [
+        "evening",
+        "live"
+      ]
     },
     {
       "title": "Aboubakar Traoré & Guillaume Codutti Meet Taitamuki",
@@ -3174,6 +4253,45 @@
       ]
     },
     {
+      "title": "6pm Walking Tour through \"Eaters—Stories of Those Who Devour, Savor, or Fast Excessively\" by Lauren Malka",
+      "start": "2026-09-21T00:00:00+02:00",
+      "end": "2026-09-21T00:00:00+02:00",
+      "all_day": true,
+      "location": "",
+      "description": "In Eaters, journalist and podcaster Lauren Malka investigates women's relationship with food and their bodies. Tracing through history, literature, and culture...",
+      "url": "https://chechette.be/events/18h-arpentage-de-mangeuses-histoire-de-celles-qui-devorent-savourent-ou-se-privent-a-lexces-de-lauren-malka/",
+      "image": null,
+      "source": "La Vieille Chéchette",
+      "uid": "743ed3a4539540a8",
+      "colour": "#E8336D",
+      "translated": true,
+      "category": "talks-discussions",
+      "tags": [
+        "live",
+        "outdoor"
+      ]
+    },
+    {
+      "title": "5-7pm organic produce boxes from Nadir Farm",
+      "start": "2026-09-22T00:00:00+02:00",
+      "end": "2026-09-22T00:00:00+02:00",
+      "all_day": true,
+      "location": "La Vieille Chéchette, Bruxelles",
+      "description": "Fresh vegetable boxes all year round! Every year, households commit to picking up a weekly vegetable box and building local food sovereignty. It's our CSA—our Community Supported Agriculture initiative. The box contents are a delightful blend of classic vegetables and exciting new flavors, which we grow without synthetic fertilizers, pesticides, herbicides, or fossil fuel-powered tools, but with plenty of love.",
+      "url": "https://chechette.be/events/17h-19h-paniers-bio-ferme-de-nadir/",
+      "image": "https://chechette.be/wp-content/uploads/2025/05/ferme-Nadir-985x1024-1-e1747293928519.jpg",
+      "source": "La Vieille Chéchette",
+      "uid": "31d932d1b1211e03",
+      "colour": "#E8336D",
+      "translated": true,
+      "category": "food-drink",
+      "tags": [
+        "food-drink",
+        "recurring",
+        "sustainability"
+      ]
+    },
+    {
       "title": "Stone Garden",
       "start": "2026-09-22T13:00:00+02:00",
       "end": "2026-09-26T16:00:00+02:00",
@@ -3191,6 +4309,25 @@
         "dance",
         "live",
         "outdoor",
+        "recurring"
+      ]
+    },
+    {
+      "title": "6:30pm La Vieille Chéchette Choir",
+      "start": "2026-09-23T00:00:00+02:00",
+      "end": "2026-09-23T00:00:00+02:00",
+      "all_day": true,
+      "location": "",
+      "description": "",
+      "url": "https://chechette.be/events/18h30-chorale-de-la-vieille-chechette/",
+      "image": null,
+      "source": "La Vieille Chéchette",
+      "uid": "af60cb5155b12ffb",
+      "colour": "#E8336D",
+      "translated": true,
+      "category": "music",
+      "tags": [
+        "live",
         "recurring"
       ]
     },
@@ -3293,6 +4430,25 @@
       ]
     },
     {
+      "title": "Again Forever",
+      "start": "2026-09-23T19:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Les Halles de Schaerbeek",
+      "description": "Dance by Lisa Vereertbrugghen, CAMPO",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "832c5c5c0f75db3c",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "dance",
+        "evening"
+      ]
+    },
+    {
       "title": "Res Nullius",
       "start": "2026-09-23T19:05:00+02:00",
       "end": null,
@@ -3309,6 +4465,24 @@
       "tags": [
         "evening",
         "live"
+      ]
+    },
+    {
+      "title": "7:30pm Friends of Le Monde Diplomatique",
+      "start": "2026-09-24T00:00:00+02:00",
+      "end": "2026-09-24T00:00:00+02:00",
+      "all_day": true,
+      "location": "",
+      "description": "",
+      "url": "https://chechette.be/events/19h30-ami-es-du-monde-diplomatique/",
+      "image": null,
+      "source": "La Vieille Chéchette",
+      "uid": "913ee27cf1c58fe3",
+      "colour": "#E8336D",
+      "translated": true,
+      "category": "community-social",
+      "tags": [
+        "recurring"
       ]
     },
     {
@@ -3426,6 +4600,25 @@
       ]
     },
     {
+      "title": "Again Forever",
+      "start": "2026-09-24T20:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Les Halles de Schaerbeek",
+      "description": "Dance by Lisa Vereertbrugghen, CAMPO",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "0d0ea43918780c72",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "dance",
+        "evening"
+      ]
+    },
+    {
       "title": "Japan Night - From Jazz to Funk",
       "start": "2026-09-24T20:30:00+02:00",
       "end": null,
@@ -3533,6 +4726,25 @@
       "tags": [
         "evening",
         "live"
+      ]
+    },
+    {
+      "title": "Again Forever",
+      "start": "2026-09-25T20:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Les Halles de Schaerbeek",
+      "description": "Dance by Lisa Vereertbrugghen, CAMPO",
+      "url": "https://kaaitheater.be/nl/agenda",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "bb873b7cd8333cad",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "dance",
+        "evening"
       ]
     },
     {
@@ -3757,6 +4969,26 @@
       ]
     },
     {
+      "title": "5-7pm organic produce boxes from Nadir Farm",
+      "start": "2026-09-29T00:00:00+02:00",
+      "end": "2026-09-29T00:00:00+02:00",
+      "all_day": true,
+      "location": "La Vieille Chéchette, Bruxelles",
+      "description": "Fresh vegetable boxes all year round! Every year, households commit to picking up a weekly vegetable box and building local food sovereignty. It's our CSA—our Community Supported Agriculture initiative. The box contents are a delightful blend of classic vegetables and exciting new flavors, which we grow without synthetic fertilizers, pesticides, herbicides, or fossil fuel-powered tools, but with plenty of love.",
+      "url": "https://chechette.be/events/17h-19h-paniers-bio-ferme-de-nadir/",
+      "image": "https://chechette.be/wp-content/uploads/2025/05/ferme-Nadir-985x1024-1-e1747293928519.jpg",
+      "source": "La Vieille Chéchette",
+      "uid": "4c662ccdcfaa7c01",
+      "colour": "#E8336D",
+      "translated": true,
+      "category": "food-drink",
+      "tags": [
+        "food-drink",
+        "recurring",
+        "sustainability"
+      ]
+    },
+    {
       "title": "Spring's Awakening",
       "start": "2026-09-29T00:00:00+02:00",
       "end": "2026-10-17T00:00:00+02:00",
@@ -3773,6 +5005,24 @@
       "tags": [
         "live",
         "recurring"
+      ]
+    },
+    {
+      "title": "6:30pm La Vieille Chéchette Choir",
+      "start": "2026-09-30T00:00:00+02:00",
+      "end": "2026-09-30T00:00:00+02:00",
+      "all_day": true,
+      "location": "",
+      "description": "",
+      "url": "https://chechette.be/events/18h30-chorale-de-la-vieille-chechette/",
+      "image": null,
+      "source": "La Vieille Chéchette",
+      "uid": "1c9e251a0601f0c5",
+      "colour": "#E8336D",
+      "translated": true,
+      "category": "music",
+      "tags": [
+        "live"
       ]
     },
     {
@@ -4005,21 +5255,22 @@
       ]
     },
     {
-      "title": "Cazaar + Ismaaël.le",
+      "title": "Cazaar + Ismaaël.le - Festival Francofaune",
       "start": "2026-10-06T20:00:00+02:00",
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "Concert Francofaune Festival. Doors and bar 7:00 PM",
+      "description": "Concerts (doors and bar open at 7pm)",
       "url": "https://www.lebrass.be/",
       "image": "https://www.lebrass.be/wp-content/uploads/2025/12/rq-181016-BRASS-ext-05-04-1200-min-1024x576.jpg",
       "source": "BRASS",
-      "uid": "897e0cc82be5ac76",
+      "uid": "c0e4902d8b1252dc",
       "colour": "#00937A",
       "translated": true,
       "category": "music",
       "tags": [
         "evening",
+        "food-drink",
         "live"
       ]
     },
@@ -4295,6 +5546,26 @@
       "category": "talks-discussions",
       "tags": [
         "registration-required"
+      ]
+    },
+    {
+      "title": "Expo Welcome in Digitopia",
+      "start": "2026-10-13T00:00:00+02:00",
+      "end": "2026-10-17T00:00:00+02:00",
+      "all_day": true,
+      "location": "Gemeenschapscentrum Pianofabriek vzw, Sint-Gillis",
+      "description": "Community expo, free, ages 1 and up",
+      "url": "https://www.pianofabriek.be/activiteiten",
+      "image": null,
+      "source": "GC Pianofabriek",
+      "uid": "1d38cdecee280d2b",
+      "colour": "#1B6FE0",
+      "translated": true,
+      "category": "community-social",
+      "tags": [
+        "family",
+        "free",
+        "recurring"
       ]
     },
     {
@@ -4895,6 +6166,25 @@
       "category": "music",
       "tags": [
         "evening",
+        "live"
+      ]
+    },
+    {
+      "title": "The Comfort Tree - film To Kill a Butterfly with discussion",
+      "start": "2026-11-08T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "Gemeenschapscentrum Ten Weyngaert vzw, Vorst",
+      "description": "Documentary with post-screening discussion. Free",
+      "url": "https://www.tenweyngaert.be/activiteiten",
+      "image": null,
+      "source": "GC Ten Weyngaert",
+      "uid": "f8d1931c885e370c",
+      "colour": "#0F8CA8",
+      "translated": true,
+      "category": "film-cinema",
+      "tags": [
+        "free",
         "live"
       ]
     },
