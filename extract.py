@@ -337,10 +337,16 @@ listings, not events themselves.
 
 Return ONLY a JSON array, no prose, no markdown fences.
 
+Some links in the text appear as "label [https://...]" - that trailing
+bracket is that link's real target. When one of those labels is (or sits
+right next to) an event's own title, ticket link, or "more info" link, copy
+that exact URL into "url" for that event. Otherwise use null - don't invent
+or reuse the page's own URL as a guess.
+
 Each element: {{"title": str, "start": "YYYY-MM-DDTHH:MM" or "YYYY-MM-DD",
 "end": same or null, "location": str, "description": str (max 200 chars),
-"url": absolute link to the event's own page if one is given (not just the
-listing page) or null, "recurring": bool}}
+"url": that event's own bracketed link if one is given, else null,
+"recurring": bool}}
 
 "recurring" is true for something on a repeating schedule (a weekly class,
 "every Tuesday", a standing open mic) or an exhibition/installation running
@@ -380,6 +386,23 @@ def call_anthropic(body: dict, api_key: str) -> dict:
     return r.json()
 
 
+def linkify(soup: BeautifulSoup, base_url: str) -> None:
+    """get_text() drops every href - so without this, the model extracting
+    events from plain text alone can never return a real per-event link, and
+    normalise_event() silently falls back to the listing page's own URL for
+    every event. Inlines each link's target next to its visible text (e.g.
+    "Free Nocturne [https://wiels.org/en/events/free-nocturne]") so the URL
+    travels through get_text() as an ordinary token the model can copy."""
+    for a in soup.find_all("a", href=True):
+        href = a["href"].strip()
+        if not href or href.startswith("#") or href.lower().startswith(("javascript:", "mailto:", "tel:")):
+            continue
+        label = a.get_text(strip=True)
+        if not label:
+            continue
+        a.replace_with(f"{label} [{urljoin(base_url, href)}]")
+
+
 def parse_llm(html: str, source: str, page_url: str, tz: str, model: str,
               horizon_days: int = 120, keep_past_days: int = 1) -> list[dict]:
     api_key = os.environ.get("ANTHROPIC_API_KEY")
@@ -388,6 +411,7 @@ def parse_llm(html: str, source: str, page_url: str, tz: str, model: str,
     soup = BeautifulSoup(html, "lxml")
     for tag in soup(["script", "style", "noscript", "svg"]):
         tag.decompose()
+    linkify(soup, page_url)
     text = re.sub(r"\n{3,}", "\n\n", soup.get_text("\n"))[:24000]
 
     body = {
