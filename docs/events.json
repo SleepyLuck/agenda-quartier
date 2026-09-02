@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-01T21:09:34.847756+02:00",
+  "generated": "2026-09-02T11:16:56.906038+02:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
       "name": "La Vieille Chéchette",
       "url": "https://chechette.be/lagenda/",
       "colour": "#E8336D",
-      "count": 18,
+      "count": 17,
       "method": "jsonld"
     },
     {
@@ -69,7 +69,7 @@
       "name": "U-Square",
       "url": "https://usquare.brussels/en/agenda",
       "colour": "#1B6FE0",
-      "count": 2,
+      "count": 0,
       "method": "llm"
     },
     {
@@ -104,7 +104,7 @@
       "name": "GC Ten Weyngaert",
       "url": "https://www.tenweyngaert.be/activiteiten",
       "colour": "#0F8CA8",
-      "count": 24,
+      "count": 23,
       "method": "browser"
     },
     {
@@ -125,7 +125,7 @@
       "name": "Flagey",
       "url": "https://www.flagey.be/agenda",
       "colour": "#1B6FE0",
-      "count": 37,
+      "count": 14,
       "method": "llm"
     },
     {
@@ -326,7 +326,7 @@
       "source": "La Vieille Chéchette",
       "method": "jsonld",
       "found": 18,
-      "kept": 18,
+      "kept": 17,
       "note": ""
     },
     {
@@ -388,14 +388,14 @@
     {
       "source": "U-Square",
       "method": "llm",
-      "found": 5,
-      "kept": 2,
+      "found": 3,
+      "kept": 0,
       "note": ""
     },
     {
       "source": "BRASS",
       "method": "llm",
-      "found": 15,
+      "found": 16,
       "kept": 14,
       "note": ""
     },
@@ -424,7 +424,7 @@
       "source": "GC Ten Weyngaert",
       "method": "browser",
       "found": 25,
-      "kept": 24,
+      "kept": 23,
       "note": ""
     },
     {
@@ -439,13 +439,13 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "note": "llm: ConnectTimeout: HTTPSConnectionPool(host='www.senghor.be', port=443): Max retries exceeded with url: /agenda/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.senghor.be', port=443) at 0"
+      "note": "wordpress: HTTPError: 404 Client Error: Not Found for url: https://www.senghor.be/wp-json/tribe/events/v1/events?per_page=50"
     },
     {
       "source": "Flagey",
       "method": "llm",
-      "found": 37,
-      "kept": 37,
+      "found": 14,
+      "kept": 14,
       "note": ""
     },
     {
@@ -479,106 +479,6 @@
   ],
   "events": [
     {
-      "title": "5-7 PM organic produce baskets - Ferme de Nadir",
-      "start": "2026-09-01T00:00:00+02:00",
-      "end": "2026-09-01T00:00:00+02:00",
-      "all_day": true,
-      "location": "La Vieille Chéchette, Bruxelles",
-      "description": "Fresh vegetables year-round! Each year, households commit to picking up a basket of vegetables weekly and building local food sovereignty. This is our CSA—our Community Supported Agriculture. The basket contents are a delightful mix of classic vegetables and exciting new flavors, grown without synthetic fertilizers, pesticides, herbicides, or fossil fuel machinery, but with plenty of love.",
-      "url": "https://chechette.be/events/17h-19h-paniers-bio-ferme-de-nadir/",
-      "image": "https://chechette.be/wp-content/uploads/2025/05/ferme-Nadir-985x1024-1-e1747293928519.jpg",
-      "source": "La Vieille Chéchette",
-      "uid": "753db5a6ca8771eb",
-      "colour": "#E8336D",
-      "time_checked": 3,
-      "translated": true,
-      "category": "food-drink",
-      "tags": [
-        "food-drink",
-        "sustainability"
-      ]
-    },
-    {
-      "title": "Kets Wednesday Workshops",
-      "start": "2026-09-01T11:00:00+02:00",
-      "end": "2027-06-28T00:00:00+02:00",
-      "all_day": false,
-      "location": "WIELS, Avenue Van Volxemlaan 354, 1190 Brussels",
-      "description": "Family & kids workshop series",
-      "url": "https://wiels.org/en/events/ateliers-kets-du-mercredi",
-      "image": "https://wiels.org/actions/assets/generate-transform?transformId=17",
-      "source": "WIELS",
-      "uid": "b12bbf3be5037723",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "family-children",
-      "tags": [
-        "family",
-        "kids",
-        "recurring"
-      ]
-    },
-    {
-      "title": "Baby Library",
-      "start": "2026-09-01T00:00:00+02:00",
-      "end": "2026-09-29T00:00:00+02:00",
-      "all_day": true,
-      "location": "Gemeenschapscentrum Ten Weyngaert, Vorst",
-      "description": "Parenting activities for ages 18-99",
-      "url": "https://www.tenweyngaert.be/activiteiten/babytheek-8",
-      "image": null,
-      "source": "GC Ten Weyngaert",
-      "uid": "07b05e1c14b51328",
-      "colour": "#0F8CA8",
-      "time_checked": 3,
-      "translated": true,
-      "category": "family-children",
-      "tags": [
-        "family",
-        "recurring"
-      ]
-    },
-    {
-      "title": "Bozar Rooftop 2026",
-      "start": "2026-09-01T00:00:00+02:00",
-      "end": "2026-09-20T00:00:00+02:00",
-      "all_day": true,
-      "location": "Bozar",
-      "description": "Pali Pali ✕ Bento Architecture",
-      "url": "https://www.bozar.be/en/calendar/bozar-rooftop-2026",
-      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
-      "source": "BOZAR",
-      "uid": "9771873799f77f26",
-      "colour": "#00937A",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "recurring"
-      ]
-    },
-    {
-      "title": "The Waterboys Fisherman's Blues Revue",
-      "start": "2026-09-01T19:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Ancienne Belgique",
-      "description": "The Waterboys performing Fisherman's Blues Revue",
-      "url": "https://www.abconcerts.be/fr/agenda/the-waterboys-fishermans-blues-revue/a10Qw00000HhUqgIAF",
-      "image": "https://abconcerts.be/assets/website/components/images/og-image.a79fdf49.jpg",
-      "source": "Ancienne Belgique",
-      "uid": "9e586c4cd8603a54",
-      "colour": "#C0392B",
-      "time_checked": 3,
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "evening",
-        "live"
-      ]
-    },
-    {
       "title": "6:30 PM La Vieille Chéchette Choir",
       "start": "2026-09-02T00:00:00+02:00",
       "end": "2026-09-02T00:00:00+02:00",
@@ -599,61 +499,60 @@
       ]
     },
     {
-      "title": "Meetup & Tea - Soupah! Cup of tea? Fruit me!",
+      "title": "Meet and Greet – Soupah! Cup of tea? Fruit me! - Exhibition by Renée Lorie and Erien Withouck",
       "start": "2026-09-02T00:00:00+02:00",
       "end": null,
       "all_day": true,
       "location": "Le Jacques Franck",
-      "description": "Exhibition by Renée Lorie and Erien Withouck",
+      "description": "Meet and greet gathering around the exhibition by Renée Lorie and Erien Withouck",
       "url": "https://lejacquesfranck.be/event/rencontre-gouter-i-soupah-cup-of-tea-fruit-me/2026-09-02/",
       "image": "https://lejacquesfranck.be/resources/assets/img/logo-og.png",
       "source": "Le Jacques Franck",
-      "uid": "0339bb27699be137",
+      "uid": "911314a14564ef0e",
       "colour": "#7B49D6",
       "time_checked": 3,
       "translated": true,
       "category": "culture-arts",
+      "tags": []
+    },
+    {
+      "title": "Kets Wednesday Workshops",
+      "start": "2026-09-02T00:00:00+02:00",
+      "end": "2027-06-28T00:00:00+02:00",
+      "all_day": true,
+      "location": "WIELS, Avenue Van Volxemlaan 354, 1190 Brussels",
+      "description": "Family & kets workshop program",
+      "url": "https://wiels.org/en/events/ateliers-kets-du-mercredi",
+      "image": "https://wiels.org/actions/assets/generate-transform?transformId=17",
+      "source": "WIELS",
+      "uid": "8cf0ef35e5367c45",
+      "colour": "#E07A00",
+      "time_checked": 3,
+      "translated": true,
+      "category": "family-children",
       "tags": [
-        "food-drink"
+        "family",
+        "kids",
+        "recurring"
       ]
     },
     {
-      "title": "Supermarket - Plants & Seeds",
+      "title": "Bozar Rooftop 2026",
       "start": "2026-09-02T00:00:00+02:00",
-      "end": null,
+      "end": "2026-09-20T00:00:00+02:00",
       "all_day": true,
-      "location": "Usquare",
-      "description": "",
-      "url": "https://usquare.brussels/en/agenda/2026/04/supermarket-plants-seeds",
-      "image": null,
-      "source": "U-Square",
-      "uid": "bdde232437aa0246",
-      "colour": "#1B6FE0",
+      "location": "Bozar",
+      "description": "Pali Pali ✕ Bento Architecture",
+      "url": "https://www.bozar.be/en/calendar/bozar-rooftop-2026",
+      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
+      "source": "BOZAR",
+      "uid": "f940f2d9aca1f15d",
+      "colour": "#00937A",
       "time_checked": 3,
       "translated": true,
-      "category": "markets-fairs",
+      "category": "culture-arts",
       "tags": [
-        "late-night",
-        "sustainability"
-      ]
-    },
-    {
-      "title": "Supermarket - Plant and Seed Exchange",
-      "start": "2026-09-02T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Usquare",
-      "description": "",
-      "url": "https://usquare.brussels/en/agenda/2026/08/supermerket-bourse-aux-plantes-et-aux-graines",
-      "image": null,
-      "source": "U-Square",
-      "uid": "c1088c5e96cc0f7f",
-      "colour": "#1B6FE0",
-      "time_checked": 3,
-      "translated": true,
-      "category": "markets-fairs",
-      "tags": [
-        "sustainability"
+        "recurring"
       ]
     },
     {
@@ -756,7 +655,7 @@
     {
       "title": "Bay og Angels",
       "start": "2026-09-02T19:05:00+02:00",
-      "end": null,
+      "end": "2026-09-26T00:00:00+02:00",
       "all_day": false,
       "location": "Studio 5",
       "description": "Cinema, drama",
@@ -769,7 +668,8 @@
       "category": "film-cinema",
       "tags": [
         "evening",
-        "live"
+        "live",
+        "recurring"
       ]
     },
     {
@@ -813,7 +713,7 @@
     {
       "title": "Teenage Sex and Death at Camp Miasma",
       "start": "2026-09-02T20:50:00+02:00",
-      "end": null,
+      "end": "2026-09-18T00:00:00+02:00",
       "all_day": false,
       "location": "Studio 5",
       "description": "Cinema - comedy. €7.00–€10.50",
@@ -890,7 +790,7 @@
     {
       "title": "Res Nullius",
       "start": "2026-09-03T19:00:00+02:00",
-      "end": null,
+      "end": "2026-09-23T00:00:00+02:00",
       "all_day": false,
       "location": "Studio 5",
       "description": "Documentary special screening with director in attendance",
@@ -1218,7 +1118,7 @@
     {
       "title": "Le Vertige",
       "start": "2026-09-04T19:00:00+02:00",
-      "end": null,
+      "end": "2026-09-26T00:00:00+02:00",
       "all_day": false,
       "location": "Studio 5",
       "description": "Cinema - comedy. €7.00–€10.50",
@@ -1242,10 +1142,10 @@
       "all_day": false,
       "location": "Bozar",
       "description": "A Night of Mellon Collie and Infinite Sadness",
-      "url": "https://www.bozar.be/en/calendar/billy-corgar",
+      "url": "https://www.bozar.be/en/calendar/billy-corgan",
       "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
       "source": "BOZAR",
-      "uid": "06c5543f8cebb243",
+      "uid": "2d7729d58a2c8f08",
       "colour": "#00937A",
       "translated": true,
       "category": "music",
@@ -1276,7 +1176,7 @@
     {
       "title": "The Unknown",
       "start": "2026-09-04T20:30:00+02:00",
-      "end": null,
+      "end": "2026-09-19T00:00:00+02:00",
       "all_day": false,
       "location": "Studio 5",
       "description": "Cinema - drama. €7.00–€10.50",
@@ -1431,16 +1331,16 @@
       ]
     },
     {
-      "title": "Yebba+ Astyn",
+      "title": "Yebba + Astyn",
       "start": "2026-09-05T19:00:00+02:00",
       "end": null,
       "all_day": false,
-      "location": "AB",
+      "location": "Ancienne Belgique",
       "description": "One of the essential new voices in contemporary soul",
       "url": "https://www.abconcerts.be/fr/agenda/yebba/a10Qw00000GTKoXIAX",
       "image": "https://abconcerts.be/assets/website/components/images/og-image.a79fdf49.jpg",
       "source": "Ancienne Belgique",
-      "uid": "e3943ddf0f6ff53f",
+      "uid": "a6c66d2b19299790",
       "colour": "#C0392B",
       "time_checked": 3,
       "translated": true,
@@ -1561,24 +1461,6 @@
       ]
     },
     {
-      "title": "Le Vertige",
-      "start": "2026-09-05T19:20:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Comedy film",
-      "url": "https://www.flagey.be/en/agenda/le-vertige-5dhn",
-      "image": null,
-      "source": "Flagey",
-      "uid": "9f15a03a5487fe2f",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "BRUSSELS SALSA PROJECT",
       "start": "2026-09-05T20:30:00+02:00",
       "end": null,
@@ -1634,24 +1516,6 @@
       "tags": [
         "evening",
         "live"
-      ]
-    },
-    {
-      "title": "Teenage Sex and Death at Camp Miasma",
-      "start": "2026-09-05T20:45:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Comedy film",
-      "url": "https://www.flagey.be/en/agenda/teenage-sex-and-death-at-camp-miasma-812s",
-      "image": null,
-      "source": "Flagey",
-      "uid": "487d67ef1b806311",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "evening"
       ]
     },
     {
@@ -1716,24 +1580,6 @@
       ]
     },
     {
-      "title": "Onoda: 10,000 Nights in the Jungle",
-      "start": "2026-09-06T00:00:00+02:00",
-      "end": "2026-09-27T00:00:00+02:00",
-      "all_day": true,
-      "location": "Studio 5",
-      "description": "Cinema screening",
-      "url": "https://www.flagey.be/agenda",
-      "image": null,
-      "source": "Flagey",
-      "uid": "d3132f399492adff",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "recurring"
-      ]
-    },
-    {
       "title": "SYD",
       "start": "2026-09-06T19:00:00+02:00",
       "end": null,
@@ -1791,7 +1637,7 @@
     {
       "title": "Lola",
       "start": "2026-09-06T14:00:00+02:00",
-      "end": null,
+      "end": "2026-09-16T00:00:00+02:00",
       "all_day": false,
       "location": "Studio 5",
       "description": "Drama cinema",
@@ -1845,24 +1691,6 @@
       "category": "culture-arts",
       "tags": [
         "dance"
-      ]
-    },
-    {
-      "title": "The Unknown",
-      "start": "2026-09-06T15:45:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Drama cinema",
-      "url": "https://www.flagey.be/en/agenda/the-unknown-n9hf",
-      "image": null,
-      "source": "Flagey",
-      "uid": "ff50c1958cf84624",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "live"
       ]
     },
     {
@@ -1926,7 +1754,7 @@
     {
       "title": "Dark Diamond",
       "start": "2026-09-06T18:20:00+02:00",
-      "end": null,
+      "end": "2026-09-17T00:00:00+02:00",
       "all_day": false,
       "location": "Studio 5",
       "description": "Drama cinema",
@@ -2124,16 +1952,16 @@
       ]
     },
     {
-      "title": "Ecca Vandal+ Freddy Forbidden",
+      "title": "Ecca Vandal + Freddy Forbidden",
       "start": "2026-09-08T19:00:00+02:00",
       "end": null,
       "all_day": false,
-      "location": "AB",
-      "description": "High-energy performance blending punk, jazz, hip-hop and electronic influences",
+      "location": "Ancienne Belgique",
+      "description": "An energetic show blending punk, jazz, hip-hop and electronic influences",
       "url": "https://www.abconcerts.be/fr/agenda/ecca-vandal/a10Qw00000GkWWjIAN",
       "image": "https://abconcerts.be/assets/website/components/images/og-image.a79fdf49.jpg",
       "source": "Ancienne Belgique",
-      "uid": "282adf0db7b2adef",
+      "uid": "a388d936b63cff10",
       "colour": "#C0392B",
       "time_checked": 3,
       "translated": true,
@@ -2298,25 +2126,6 @@
       "category": "film-cinema",
       "tags": [
         "recurring"
-      ]
-    },
-    {
-      "title": "Dark Diamond",
-      "start": "2026-09-09T17:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Cinema - drama. €7.00–€10.50",
-      "url": "https://www.flagey.be/en/agenda/dark-diamond-f5pq",
-      "image": null,
-      "source": "Flagey",
-      "uid": "4d5ad76e1581edac",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "evening",
-        "live"
       ]
     },
     {
@@ -2538,25 +2347,6 @@
       ]
     },
     {
-      "title": "La Noche de Aparición",
-      "start": "2026-09-10T20:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "RITCS Campus Kaai (Anderlecht)",
-      "description": "Dance by Désirée 0100, Lulu Muñoz",
-      "url": "https://kaaitheater.be/nl/agenda/26-27/la-noche-de-aparicion",
-      "image": null,
-      "source": "Kaaitheater",
-      "uid": "1e8fb18c84a8a433",
-      "colour": "#7B49D6",
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "dance",
-        "evening"
-      ]
-    },
-    {
       "title": "Badke(remix)",
       "start": "2026-09-10T20:30:00+02:00",
       "end": null,
@@ -2567,6 +2357,25 @@
       "image": null,
       "source": "Kaaitheater",
       "uid": "f42f28fac11c6e83",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "dance",
+        "evening"
+      ]
+    },
+    {
+      "title": "La Noche de Aparición",
+      "start": "2026-09-10T20:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "RITCS Campus Kaai (Anderlecht)",
+      "description": "Dance by Désirée 0100, Lulu Muñoz",
+      "url": "https://kaaitheater.be/nl/agenda/26-27/la-noche-de-aparicion",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "1e8fb18c84a8a433",
       "colour": "#7B49D6",
       "translated": true,
       "category": "culture-arts",
@@ -2698,44 +2507,6 @@
       ]
     },
     {
-      "title": "Res Nullius",
-      "start": "2026-09-11T17:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Cinema - documentary, special screening. €0.00–€10.50",
-      "url": "https://www.flagey.be/en/agenda/res-nullius-n94f",
-      "image": null,
-      "source": "Flagey",
-      "uid": "49ef23c08a0a391c",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "evening",
-        "live"
-      ]
-    },
-    {
-      "title": "Teenage Sex and Death at Camp Miasma",
-      "start": "2026-09-11T19:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Cinema - comedy. €7.00–€10.50",
-      "url": "https://www.flagey.be/en/agenda/teenage-sex-and-death-at-camp-miasma-812s",
-      "image": null,
-      "source": "Flagey",
-      "uid": "9ddf7026431ffd3a",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "evening",
-        "live"
-      ]
-    },
-    {
       "title": "Bonjour Mademoiselleke (10+)",
       "start": "2026-09-11T19:00:00+02:00",
       "end": null,
@@ -2848,24 +2619,6 @@
       "tags": [
         "evening",
         "live"
-      ]
-    },
-    {
-      "title": "The Unknown",
-      "start": "2026-09-11T21:05:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Cinema - drama. €7.00–€10.50",
-      "url": "https://www.flagey.be/en/agenda/the-unknown-n9hf",
-      "image": null,
-      "source": "Flagey",
-      "uid": "c82fcf6fdaab9d4c",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "evening"
       ]
     },
     {
@@ -3031,24 +2784,6 @@
       ]
     },
     {
-      "title": "Bay og Angels",
-      "start": "2026-09-12T15:50:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Cinema, drama",
-      "url": "https://www.flagey.be/en/agenda/bay-og-angels-qnxt",
-      "image": null,
-      "source": "Flagey",
-      "uid": "2bbc514a26de5737",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "live"
-      ]
-    },
-    {
       "title": "Dancing with My Ex / Bailando con mi ex",
       "start": "2026-09-12T16:00:00+02:00",
       "end": null,
@@ -3064,42 +2799,6 @@
       "category": "culture-arts",
       "tags": [
         "live"
-      ]
-    },
-    {
-      "title": "Lola",
-      "start": "2026-09-12T17:35:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Drama film",
-      "url": "https://www.flagey.be/en/agenda/lola-1t5r",
-      "image": null,
-      "source": "Flagey",
-      "uid": "e4a83fd7d78840da",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Le Vertige",
-      "start": "2026-09-12T19:20:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Comedy film",
-      "url": "https://www.flagey.be/en/agenda/le-vertige-5dhn",
-      "image": null,
-      "source": "Flagey",
-      "uid": "ae0c97eae1cf0a82",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "evening"
       ]
     },
     {
@@ -3199,24 +2898,6 @@
       ]
     },
     {
-      "title": "The Unknown",
-      "start": "2026-09-13T14:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Cinema - drama. €7.00–€10.50",
-      "url": "https://www.flagey.be/en/agenda/the-unknown-n9hf",
-      "image": null,
-      "source": "Flagey",
-      "uid": "b141f1b878a1d2ac",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "live"
-      ]
-    },
-    {
       "title": "TRINO COLECTIVO",
       "start": "2026-09-13T17:00:00+02:00",
       "end": null,
@@ -3234,42 +2915,6 @@
         "dance",
         "evening",
         "live"
-      ]
-    },
-    {
-      "title": "Le Vertige",
-      "start": "2026-09-13T17:05:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Cinema - comedy. €7.00–€10.50",
-      "url": "https://www.flagey.be/en/agenda/le-vertige-5dhn",
-      "image": null,
-      "source": "Flagey",
-      "uid": "db790a63491eff47",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Teenage Sex and Death at Camp Miasma",
-      "start": "2026-09-13T20:50:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Cinema - comedy. €7.00–€10.50",
-      "url": "https://www.flagey.be/en/agenda/teenage-sex-and-death-at-camp-miasma-812s",
-      "image": null,
-      "source": "Flagey",
-      "uid": "fe888303829cf45a",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "evening"
       ]
     },
     {
@@ -3478,24 +3123,6 @@
       ]
     },
     {
-      "title": "Lola",
-      "start": "2026-09-16T17:15:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Cinema - drama. €7.00–€10.50",
-      "url": "https://www.flagey.be/en/agenda/lola-1t5r",
-      "image": null,
-      "source": "Flagey",
-      "uid": "f52bba806c6ebfbb",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "Women's Kiaï",
       "start": "2026-09-16T19:30:00+02:00",
       "end": "2026-09-16T22:00:00+02:00",
@@ -3593,6 +3220,25 @@
       ]
     },
     {
+      "title": "Gaminconnu",
+      "start": "2026-09-17T19:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Ancienne Belgique",
+      "description": "An evening organized by Willem Mevis, the official photographer of AB",
+      "url": "https://www.abconcerts.be/fr/agenda/gaminconnu/a10Qw00000GqIHQIA3",
+      "image": "https://abconcerts.be/assets/website/components/images/og-image.a79fdf49.jpg",
+      "source": "Ancienne Belgique",
+      "uid": "414d0c471c6bc7c8",
+      "colour": "#C0392B",
+      "time_checked": 3,
+      "translated": true,
+      "category": "community-social",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
       "title": "Every Contact Leaves a Trace",
       "start": "2026-09-17T16:00:00+02:00",
       "end": null,
@@ -3608,24 +3254,6 @@
       "category": "film-cinema",
       "tags": [
         "live"
-      ]
-    },
-    {
-      "title": "Le Vertige",
-      "start": "2026-09-17T17:45:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Cinema - comedy. €7.00–€10.50",
-      "url": "https://www.flagey.be/en/agenda/le-vertige-5dhn",
-      "image": null,
-      "source": "Flagey",
-      "uid": "c38a09d3afe2d6c2",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "evening"
       ]
     },
     {
@@ -3683,24 +3311,6 @@
       "tags": [
         "evening",
         "live"
-      ]
-    },
-    {
-      "title": "Dark Diamond",
-      "start": "2026-09-17T21:05:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Cinema - drama. €7.00–€10.50",
-      "url": "https://www.flagey.be/en/agenda/dark-diamond-f5pq",
-      "image": null,
-      "source": "Flagey",
-      "uid": "4b954a45ec0115e9",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "evening"
       ]
     },
     {
@@ -3915,24 +3525,6 @@
       ]
     },
     {
-      "title": "Teenage Sex and Death at Camp Miasma",
-      "start": "2026-09-18T21:10:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Cinema - comedy. €7.00–€10.50",
-      "url": "https://www.flagey.be/en/agenda/teenage-sex-and-death-at-camp-miasma-812s",
-      "image": null,
-      "source": "Flagey",
-      "uid": "3aec2eaf6200af10",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "11am Literary Encounter with Romain Lemire and Thomas Prédour",
       "start": "2026-09-19T00:00:00+02:00",
       "end": "2026-09-19T00:00:00+02:00",
@@ -4050,24 +3642,6 @@
       ]
     },
     {
-      "title": "Res Nullius",
-      "start": "2026-09-19T15:15:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Cinema - documentary, special screening. €0.00–€10.50",
-      "url": "https://www.flagey.be/en/agenda/res-nullius-n94f",
-      "image": null,
-      "source": "Flagey",
-      "uid": "f0d803ddf479f90b",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "live"
-      ]
-    },
-    {
       "title": "The Deviant Majority (from Basaglia to Brazil)",
       "start": "2026-09-19T16:00:00+02:00",
       "end": null,
@@ -4079,24 +3653,6 @@
       "source": "Kaaitheater",
       "uid": "d1e59808daba9ddf",
       "colour": "#7B49D6",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "live"
-      ]
-    },
-    {
-      "title": "The Unknown",
-      "start": "2026-09-19T16:40:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Cinema - drama. €7.00–€10.50",
-      "url": "https://www.flagey.be/en/agenda/the-unknown-n9hf",
-      "image": null,
-      "source": "Flagey",
-      "uid": "e3db61835b373f88",
-      "colour": "#1B6FE0",
       "translated": true,
       "category": "film-cinema",
       "tags": [
@@ -4420,25 +3976,6 @@
       "tags": [
         "dance",
         "evening"
-      ]
-    },
-    {
-      "title": "Res Nullius",
-      "start": "2026-09-23T19:05:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Cinema - documentary, special screening with director in attendance. €0.00–€10.50",
-      "url": "https://www.flagey.be/en/agenda/res-nullius-n94f",
-      "image": null,
-      "source": "Flagey",
-      "uid": "5ff568d34b06f8cf",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "evening",
-        "live"
       ]
     },
     {
@@ -4778,43 +4315,6 @@
         "drop-in",
         "free",
         "recurring"
-      ]
-    },
-    {
-      "title": "Le Vertige",
-      "start": "2026-09-26T14:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Cinema - comedy. €7.00–€10.50",
-      "url": "https://www.flagey.be/en/agenda/le-vertige-5dhn",
-      "image": null,
-      "source": "Flagey",
-      "uid": "80149f5a9af92cd8",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "live"
-      ]
-    },
-    {
-      "title": "Bay og Angels",
-      "start": "2026-09-26T17:10:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Cinema, drama",
-      "url": "https://www.flagey.be/en/agenda/bay-og-angels-qnxt",
-      "image": null,
-      "source": "Flagey",
-      "uid": "0f7108f965d5f078",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "evening",
-        "live"
       ]
     },
     {
@@ -5789,7 +5289,7 @@
       "all_day": false,
       "location": "BRASS",
       "description": "Workshop",
-      "url": "https://www.lebrass.be/event/stage-film-horreur/",
+      "url": "https://www.lebrass.be/event/stage-film-horreur-2/",
       "image": "https://www.lebrass.be/wp-content/uploads/2025/12/rq-181016-BRASS-ext-05-04-1200-min-1024x576.jpg",
       "source": "BRASS",
       "uid": "833f63f56f03cf43",
@@ -6173,7 +5673,7 @@
       ]
     },
     {
-      "title": "Juliet and Romeo at the National Theatre",
+      "title": "JULIETTE ET ROMÉO",
       "start": "2026-11-17T00:00:00+01:00",
       "end": "2026-11-21T00:00:00+01:00",
       "all_day": true,
@@ -6182,7 +5682,7 @@
       "url": "https://poche.be/spectacles/2026-juliette-et-romeo-au-theatre-national",
       "image": "https://poche.be/images/theatre-foyer.jpg",
       "source": "Le Poche",
-      "uid": "a0dada9563981894",
+      "uid": "00068adc93a32c11",
       "colour": "#8A7500",
       "time_checked": 3,
       "translated": true,
@@ -6287,6 +5787,24 @@
       "category": "culture-arts",
       "tags": [
         "live",
+        "recurring"
+      ]
+    },
+    {
+      "title": "Digital Cafés [Seniors]",
+      "start": "2026-11-25T14:00:00+01:00",
+      "end": "2026-11-25T16:00:00+01:00",
+      "all_day": false,
+      "location": "Bia Bouquet",
+      "description": "workshops",
+      "url": "https://www.lebrass.be/event/ateliers-cafesnumeriques-2026/",
+      "image": "https://www.lebrass.be/wp-content/uploads/2025/12/rq-181016-BRASS-ext-05-04-1200-min-1024x576.jpg",
+      "source": "BRASS",
+      "uid": "fc87f59dcd110363",
+      "colour": "#00937A",
+      "translated": true,
+      "category": "workshops-creative",
+      "tags": [
         "recurring"
       ]
     },
