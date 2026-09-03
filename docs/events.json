@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-02T21:11:07.661543+02:00",
+  "generated": "2026-09-03T11:27:51.045477+02:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
       "name": "La Vieille Chéchette",
       "url": "https://chechette.be/lagenda/",
       "colour": "#E8336D",
-      "count": 17,
+      "count": 16,
       "method": "jsonld"
     },
     {
@@ -34,7 +34,7 @@
       "name": "Le Jacques Franck",
       "url": "https://www.lejacquesfranck.be/agenda",
       "colour": "#7B49D6",
-      "count": 10,
+      "count": 9,
       "method": "llm"
     },
     {
@@ -132,7 +132,7 @@
       "name": "BOZAR",
       "url": "https://www.bozar.be/en/calendar",
       "colour": "#00937A",
-      "count": 4,
+      "count": 5,
       "method": "llm"
     },
     {
@@ -146,7 +146,7 @@
       "name": "Kaaitheater",
       "url": "https://kaaitheater.be/nl/agenda",
       "colour": "#7B49D6",
-      "count": 56,
+      "count": 53,
       "method": "llm"
     },
     {
@@ -326,7 +326,7 @@
       "source": "La Vieille Chéchette",
       "method": "jsonld",
       "found": 18,
-      "kept": 17,
+      "kept": 16,
       "note": ""
     },
     {
@@ -354,7 +354,7 @@
       "source": "Le Jacques Franck",
       "method": "llm",
       "found": 11,
-      "kept": 10,
+      "kept": 9,
       "note": ""
     },
     {
@@ -439,7 +439,7 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "note": "wordpress: HTTPError: 404 Client Error: Not Found for url: https://www.senghor.be/wp-json/tribe/events/v1/events?per_page=50"
+      "note": "llm: ConnectTimeout: HTTPSConnectionPool(host='www.senghor.be', port=443): Max retries exceeded with url: /agenda/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.senghor.be', port=443) at 0"
     },
     {
       "source": "Flagey",
@@ -451,8 +451,8 @@
     {
       "source": "BOZAR",
       "method": "llm",
-      "found": 4,
-      "kept": 4,
+      "found": 5,
+      "kept": 5,
       "note": ""
     },
     {
@@ -465,8 +465,8 @@
     {
       "source": "Kaaitheater",
       "method": "llm",
-      "found": 56,
-      "kept": 56,
+      "found": 53,
+      "kept": 53,
       "note": ""
     },
     {
@@ -478,124 +478,6 @@
     }
   ],
   "events": [
-    {
-      "title": "6:30 PM La Vieille Chéchette Choir",
-      "start": "2026-09-02T00:00:00+02:00",
-      "end": "2026-09-02T00:00:00+02:00",
-      "all_day": true,
-      "location": "",
-      "description": "",
-      "url": "https://chechette.be/events/18h30-chorale-de-la-vieille-chechette/",
-      "image": null,
-      "source": "La Vieille Chéchette",
-      "uid": "8719422e285d9668",
-      "colour": "#E8336D",
-      "time_checked": 3,
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "evening",
-        "live"
-      ]
-    },
-    {
-      "title": "Tea & Treats Meetup | Soupah! Cup of tea? Fruit me!",
-      "start": "2026-09-02T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Le Jacques Franck",
-      "description": "A casual meetup and tasting around Renée Lorie and Erien Withouck's exhibition",
-      "url": "https://lejacquesfranck.be/event/rencontre-gouter-i-soupah-cup-of-tea-fruit-me/2026-09-02/",
-      "image": "https://lejacquesfranck.be/resources/assets/img/logo-og.png",
-      "source": "Le Jacques Franck",
-      "uid": "839dcaa8b64bf440",
-      "colour": "#7B49D6",
-      "time_checked": 3,
-      "translated": true,
-      "category": "food-drink",
-      "tags": [
-        "food-drink"
-      ]
-    },
-    {
-      "title": "Kets Wednesday Workshops",
-      "start": "2026-09-02T00:00:00+02:00",
-      "end": "2027-06-28T00:00:00+02:00",
-      "all_day": true,
-      "location": "WIELS, Avenue Van Volxemlaan 354, 1190 Brussels",
-      "description": "Family & kets workshop program",
-      "url": "https://wiels.org/en/events/ateliers-kets-du-mercredi",
-      "image": "https://wiels.org/actions/assets/generate-transform?transformId=17",
-      "source": "WIELS",
-      "uid": "8cf0ef35e5367c45",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "family-children",
-      "tags": [
-        "family",
-        "kids",
-        "recurring"
-      ]
-    },
-    {
-      "title": "Bozar Rooftop 2026",
-      "start": "2026-09-02T00:00:00+02:00",
-      "end": "2026-09-20T00:00:00+02:00",
-      "all_day": true,
-      "location": "Bozar",
-      "description": "Pali Pali ✕ Bento Architecture",
-      "url": "https://www.bozar.be/en/calendar/bozar-rooftop-2026",
-      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
-      "source": "BOZAR",
-      "uid": "f940f2d9aca1f15d",
-      "colour": "#00937A",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "recurring"
-      ]
-    },
-    {
-      "title": "Chapters of Celebration",
-      "start": "2026-09-02T00:00:00+02:00",
-      "end": "2026-09-03T00:00:00+02:00",
-      "all_day": true,
-      "location": "KVS",
-      "description": "TheaterFestival 2026. Benjamin Abel Meirhaeghe - Wouter Deltour - Muziektheater Transparant. Music theater, dance.",
-      "url": "https://www.kvs.be/fr/Evenement/chapters-of-celebration-2",
-      "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
-      "source": "KVS",
-      "uid": "551c7789d90b0186",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "dance",
-        "evening",
-        "live"
-      ]
-    },
-    {
-      "title": "State of the Future",
-      "start": "2026-09-02T17:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "KVS BOL",
-      "description": "",
-      "url": "https://kaaitheater.be/nl/agenda/26-27/state-future",
-      "image": null,
-      "source": "Kaaitheater",
-      "uid": "80063e2e66d289b3",
-      "colour": "#7B49D6",
-      "translated": true,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
     {
       "title": "PHAT KAT – 30 YEARS DETROIT HIPHOP",
       "start": "2026-09-02T19:00:00+02:00",
@@ -613,44 +495,6 @@
       "tags": [
         "evening",
         "live"
-      ]
-    },
-    {
-      "title": "Chapters of Celebration",
-      "start": "2026-09-02T20:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "KVS BOX",
-      "description": "Dance by Benjamin Abel Meirhaeghe, Wouter Deltour, Muziektheater Transparant",
-      "url": "https://kaaitheater.be/nl/agenda/26-27/chapters-celebration-0",
-      "image": null,
-      "source": "Kaaitheater",
-      "uid": "034242da99627f65",
-      "colour": "#7B49D6",
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "dance",
-        "evening"
-      ]
-    },
-    {
-      "title": "shoe/farmburen",
-      "start": "2026-09-02T20:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "De Kriekelaar",
-      "description": "Dance",
-      "url": "https://kaaitheater.be/nl/agenda/26-27/shoe-farm",
-      "image": null,
-      "source": "Kaaitheater",
-      "uid": "09ac6a2baf318cd3",
-      "colour": "#7B49D6",
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "dance",
-        "evening"
       ]
     },
     {
@@ -693,13 +537,72 @@
       ]
     },
     {
+      "title": "Kets Wednesday Workshops",
+      "start": "2026-09-03T11:00:00+02:00",
+      "end": "2027-06-28T00:00:00+02:00",
+      "all_day": false,
+      "location": "WIELS",
+      "description": "Family and kids workshop program",
+      "url": "https://wiels.org/en/events/ateliers-kets-du-mercredi",
+      "image": "https://wiels.org/actions/assets/generate-transform?transformId=17",
+      "source": "WIELS",
+      "uid": "940c16495706fd21",
+      "colour": "#E07A00",
+      "time_checked": 3,
+      "translated": true,
+      "category": "family-children",
+      "tags": [
+        "family",
+        "kids",
+        "recurring"
+      ]
+    },
+    {
+      "title": "Bozar Rooftop 2026",
+      "start": "2026-09-03T00:00:00+02:00",
+      "end": "2026-09-20T00:00:00+02:00",
+      "all_day": true,
+      "location": "Bozar, Brussels",
+      "description": "Pali Pali ✕ Bento Architecture",
+      "url": "https://www.bozar.be/en/calendar/bozar-rooftop-2026",
+      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
+      "source": "BOZAR",
+      "uid": "cd96637a5acc0c5d",
+      "colour": "#00937A",
+      "time_checked": 3,
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "title": "Chapters of Celebration",
+      "start": "2026-09-03T00:00:00+02:00",
+      "end": null,
+      "all_day": true,
+      "location": "KVS",
+      "description": "TheaterFestival 2026. Benjamin Abel Meirhaeghe - Wouter Deltour - Muziektheater Transparent",
+      "url": "https://www.kvs.be/fr/Evenement/chapters-of-celebration-2",
+      "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
+      "source": "KVS",
+      "uid": "26ea735de50bfd20",
+      "colour": "#E07A00",
+      "time_checked": 3,
+      "translated": true,
+      "category": "festivals-celebrations",
+      "tags": [
+        "live"
+      ]
+    },
+    {
       "title": "Hen",
       "start": "2026-09-03T17:00:00+02:00",
       "end": null,
       "all_day": false,
       "location": "Studio 5",
       "description": "Drama and comedy film",
-      "url": "https://www.flagey.be/agenda",
+      "url": "https://www.flagey.be/en/order/add/event/49417",
       "image": null,
       "source": "Flagey",
       "uid": "5af345413074f7aa",
@@ -717,7 +620,7 @@
       "all_day": false,
       "location": "Studio 5",
       "description": "Documentary special screening with director in attendance",
-      "url": "https://www.flagey.be/agenda",
+      "url": "https://www.flagey.be/en/order/add/event/49443",
       "image": null,
       "source": "Flagey",
       "uid": "ed7b430feafaea6a",
@@ -768,6 +671,25 @@
       ]
     },
     {
+      "title": "The Truthful",
+      "start": "2026-09-03T20:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Theater 1150",
+      "description": "Theater by Lieselot Siddiki, CAMPO",
+      "url": "https://kaaitheater.be/nl/agenda/26-27/truthful",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "8737abe938759270",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "evening",
+        "live"
+      ]
+    },
+    {
       "title": "Ki no nagare",
       "start": "2026-09-03T20:30:00+02:00",
       "end": null,
@@ -787,7 +709,7 @@
       ]
     },
     {
-      "title": "shoe/farmburen",
+      "title": "shoe/farm",
       "start": "2026-09-03T20:30:00+02:00",
       "end": null,
       "all_day": false,
@@ -796,7 +718,7 @@
       "url": "https://kaaitheater.be/nl/agenda/26-27/shoe-farm",
       "image": null,
       "source": "Kaaitheater",
-      "uid": "0af57fcaa86d15e8",
+      "uid": "6bcba0e475cb2705",
       "colour": "#7B49D6",
       "translated": true,
       "category": "culture-arts",
@@ -825,32 +747,13 @@
       ]
     },
     {
-      "title": "The Truthful",
-      "start": "2026-09-03T20:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Theater 1150",
-      "description": "Theater by Lieselot Siddiki, CAMPO",
-      "url": "https://kaaitheater.be/nl/agenda/26-27/truthful",
-      "image": null,
-      "source": "Kaaitheater",
-      "uid": "8737abe938759270",
-      "colour": "#7B49D6",
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "evening",
-        "live"
-      ]
-    },
-    {
       "title": "The End of Oak Street",
       "start": "2026-09-03T21:00:00+02:00",
       "end": null,
       "all_day": false,
       "location": "Studio 5",
       "description": "Film",
-      "url": "https://www.flagey.be/agenda",
+      "url": "https://www.flagey.be/en/order/add/event/49466",
       "image": null,
       "source": "Flagey",
       "uid": "82ca252d2bf6ee03",
@@ -962,7 +865,7 @@
       ]
     },
     {
-      "title": "Ca7riel & Paco Amoroso",
+      "title": "Ca7riel & Paco Amoroso + siREn cAlls",
       "start": "2026-09-04T19:00:00+02:00",
       "end": null,
       "all_day": false,
@@ -971,7 +874,7 @@
       "url": "https://www.abconcerts.be/fr/agenda/ca7riel-paco-amoroso/a10Qw00000KEtnWIAT",
       "image": "https://abconcerts.be/assets/website/components/images/og-image.a79fdf49.jpg",
       "source": "Ancienne Belgique",
-      "uid": "151f9fb935888827",
+      "uid": "faf2b877c9d7ba58",
       "colour": "#C0392B",
       "time_checked": 3,
       "translated": true,
@@ -1007,7 +910,7 @@
       "all_day": false,
       "location": "Studio 5",
       "description": "Cinema - documentary. €7.00–€10.50",
-      "url": "https://www.flagey.be/agenda",
+      "url": "https://www.flagey.be/en/order/add/event/49437",
       "image": null,
       "source": "Flagey",
       "uid": "730e9426a59dce5f",
@@ -1045,7 +948,7 @@
       "all_day": false,
       "location": "Studio 5",
       "description": "Cinema - comedy. €7.00–€10.50",
-      "url": "https://www.flagey.be/agenda",
+      "url": "https://www.flagey.be/en/order/add/event/49484",
       "image": null,
       "source": "Flagey",
       "uid": "b2bf7d1f2c6fb456",
@@ -1103,7 +1006,7 @@
       "all_day": false,
       "location": "Studio 5",
       "description": "Cinema - drama. €7.00–€10.50",
-      "url": "https://www.flagey.be/agenda",
+      "url": "https://www.flagey.be/en/order/add/event/49421",
       "image": null,
       "source": "Flagey",
       "uid": "fc21d8997a7ae743",
@@ -1117,16 +1020,16 @@
       ]
     },
     {
-      "title": "The Truthful",
+      "title": "Ki no nagare",
       "start": "2026-09-04T20:30:00+02:00",
       "end": null,
       "all_day": false,
-      "location": "Theater 1150",
-      "description": "Theater by Lieselot Siddiki, CAMPO",
-      "url": "https://kaaitheater.be/nl/agenda/26-27/truthful",
+      "location": "Gare Maritime",
+      "description": "Circus by Collectif Malunés, Arne Sabbe",
+      "url": "https://kaaitheater.be/nl/agenda/26-27/ki-no-nagare",
       "image": null,
       "source": "Kaaitheater",
-      "uid": "54ccf951d95bb966",
+      "uid": "8097139d5cd4316c",
       "colour": "#7B49D6",
       "translated": true,
       "category": "culture-arts",
@@ -1155,16 +1058,16 @@
       ]
     },
     {
-      "title": "Ki no nagare",
+      "title": "The Truthful",
       "start": "2026-09-04T20:30:00+02:00",
       "end": null,
       "all_day": false,
-      "location": "Gare Maritime",
-      "description": "Circus by Collectif Malunés, Arne Sabbe",
-      "url": "https://kaaitheater.be/nl/agenda/26-27/ki-no-nagare",
+      "location": "Theater 1150",
+      "description": "Theater by Lieselot Siddiki, CAMPO",
+      "url": "https://kaaitheater.be/nl/agenda/26-27/truthful",
       "image": null,
       "source": "Kaaitheater",
-      "uid": "8097139d5cd4316c",
+      "uid": "54ccf951d95bb966",
       "colour": "#7B49D6",
       "translated": true,
       "category": "culture-arts",
@@ -1254,16 +1157,16 @@
       ]
     },
     {
-      "title": "Yebba+ Astyn",
+      "title": "Yebba + Astyn",
       "start": "2026-09-05T19:00:00+02:00",
       "end": null,
       "all_day": false,
       "location": "Ancienne Belgique",
-      "description": "One of the essential new voices in contemporary soul",
+      "description": "One of contemporary soul's most essential new voices",
       "url": "https://www.abconcerts.be/fr/agenda/yebba/a10Qw00000GTKoXIAX",
       "image": "https://abconcerts.be/assets/website/components/images/og-image.a79fdf49.jpg",
       "source": "Ancienne Belgique",
-      "uid": "e3943ddf0f6ff53f",
+      "uid": "a6c66d2b19299790",
       "colour": "#C0392B",
       "time_checked": 3,
       "translated": true,
@@ -1299,7 +1202,7 @@
       "all_day": false,
       "location": "Studio 5",
       "description": "Action and adventure film",
-      "url": "https://www.flagey.be/agenda",
+      "url": "https://www.flagey.be/en/order/add/event/49475",
       "image": null,
       "source": "Flagey",
       "uid": "43ea1900f1830a81",
@@ -1353,7 +1256,7 @@
       "all_day": false,
       "location": "Studio 5",
       "description": "Film",
-      "url": "https://www.flagey.be/agenda",
+      "url": "https://www.flagey.be/en/order/add/event/49435",
       "image": null,
       "source": "Flagey",
       "uid": "f24d5c9c5e166d79",
@@ -1390,7 +1293,7 @@
       "all_day": false,
       "location": "Studio 5",
       "description": "Cinema comedy",
-      "url": "https://www.flagey.be/agenda",
+      "url": "https://www.flagey.be/en/order/add/event/49485",
       "image": null,
       "source": "Flagey",
       "uid": "9f15a03a5487fe2f",
@@ -1422,25 +1325,6 @@
       ]
     },
     {
-      "title": "ALKIBIADES",
-      "start": "2026-09-05T20:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "CC De Factorij",
-      "description": "Theater by Zuidpool",
-      "url": "https://kaaitheater.be/nl/agenda/26-27/alkibiades",
-      "image": null,
-      "source": "Kaaitheater",
-      "uid": "0ab2ffa65b784534",
-      "colour": "#7B49D6",
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "evening",
-        "live"
-      ]
-    },
-    {
       "title": "Ki no nagare",
       "start": "2026-09-05T20:30:00+02:00",
       "end": null,
@@ -1460,13 +1344,32 @@
       ]
     },
     {
+      "title": "ALKIBIADES",
+      "start": "2026-09-05T20:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "CC De Factorij",
+      "description": "Theater by Zuidpool",
+      "url": "https://kaaitheater.be/nl/agenda/26-27/alkibiades",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "0ab2ffa65b784534",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "evening",
+        "live"
+      ]
+    },
+    {
       "title": "Teenage Sex and Death at Camp Miasma",
       "start": "2026-09-05T20:45:00+02:00",
       "end": null,
       "all_day": false,
       "location": "Studio 5",
       "description": "Cinema comedy",
-      "url": "https://www.flagey.be/agenda",
+      "url": "https://www.flagey.be/en/order/add/event/49461",
       "image": null,
       "source": "Flagey",
       "uid": "487d67ef1b806311",
@@ -1600,7 +1503,7 @@
       "all_day": false,
       "location": "Studio 5",
       "description": "Drama cinema",
-      "url": "https://www.flagey.be/agenda",
+      "url": "https://www.flagey.be/en/order/add/event/49478",
       "image": null,
       "source": "Flagey",
       "uid": "643900a2fb01948b",
@@ -1659,7 +1562,7 @@
       "all_day": false,
       "location": "Studio 5",
       "description": "Cinema drama",
-      "url": "https://www.flagey.be/agenda",
+      "url": "https://www.flagey.be/en/order/add/event/49422",
       "image": null,
       "source": "Flagey",
       "uid": "ff50c1958cf84624",
@@ -1733,7 +1636,7 @@
       "all_day": false,
       "location": "Studio 5",
       "description": "Drama cinema",
-      "url": "https://www.flagey.be/agenda",
+      "url": "https://www.flagey.be/en/order/add/event/49412",
       "image": null,
       "source": "Flagey",
       "uid": "37e0cc4c84b8f051",
@@ -1752,7 +1655,7 @@
       "all_day": false,
       "location": "Studio 5",
       "description": "Cinema drama history",
-      "url": "https://www.flagey.be/agenda",
+      "url": "https://www.flagey.be/en/order/add/event/49438",
       "image": null,
       "source": "Flagey",
       "uid": "d3132f399492adff",
@@ -1945,7 +1848,7 @@
       ]
     },
     {
-      "title": "Ecca Vandal+ Freddy Forbidden",
+      "title": "Ecca Vandal + Freddy Forbidden",
       "start": "2026-09-08T19:00:00+02:00",
       "end": null,
       "all_day": false,
@@ -1954,7 +1857,7 @@
       "url": "https://www.abconcerts.be/fr/agenda/ecca-vandal/a10Qw00000GkWWjIAN",
       "image": "https://abconcerts.be/assets/website/components/images/og-image.a79fdf49.jpg",
       "source": "Ancienne Belgique",
-      "uid": "282adf0db7b2adef",
+      "uid": "a388d936b63cff10",
       "colour": "#C0392B",
       "time_checked": 3,
       "translated": true,
@@ -2096,7 +1999,9 @@
       "time_checked": 3,
       "translated": true,
       "category": "talks-discussions",
-      "tags": []
+      "tags": [
+        "live"
+      ]
     },
     {
       "title": "Lucas Gallo: Diciembre (2025)",
@@ -2124,7 +2029,7 @@
       "all_day": false,
       "location": "Studio 5",
       "description": "Cinema drama",
-      "url": "https://www.flagey.be/agenda",
+      "url": "https://www.flagey.be/en/order/add/event/49413",
       "image": null,
       "source": "Flagey",
       "uid": "4d5ad76e1581edac",
@@ -2142,7 +2047,7 @@
       "all_day": false,
       "location": "Studio 5",
       "description": "Cinema drama history",
-      "url": "https://www.flagey.be/agenda",
+      "url": "https://www.flagey.be/en/order/add/event/49447",
       "image": null,
       "source": "Flagey",
       "uid": "64c9e444612e785a",
@@ -2192,25 +2097,6 @@
       ]
     },
     {
-      "title": "FRANK",
-      "start": "2026-09-09T20:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "KVS BOX",
-      "description": "Dance by Cherish Menzo, GRIP, Theater Utrecht, Dance On Ensemble",
-      "url": "https://kaaitheater.be/nl/agenda/26-27/frank",
-      "image": null,
-      "source": "Kaaitheater",
-      "uid": "30134c86c288516f",
-      "colour": "#7B49D6",
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "dance",
-        "evening"
-      ]
-    },
-    {
       "title": "Badke(remix)",
       "start": "2026-09-09T20:30:00+02:00",
       "end": null,
@@ -2221,6 +2107,25 @@
       "image": null,
       "source": "Kaaitheater",
       "uid": "462ab4bcab77ea97",
+      "colour": "#7B49D6",
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "dance",
+        "evening"
+      ]
+    },
+    {
+      "title": "FRANK",
+      "start": "2026-09-09T20:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "KVS BOX",
+      "description": "Dance by Cherish Menzo, GRIP, Theater Utrecht, Dance On Ensemble",
+      "url": "https://kaaitheater.be/nl/agenda/26-27/frank",
+      "image": null,
+      "source": "Kaaitheater",
+      "uid": "30134c86c288516f",
       "colour": "#7B49D6",
       "translated": true,
       "category": "culture-arts",
@@ -2339,7 +2244,7 @@
       "all_day": false,
       "location": "Studio 5",
       "description": "Cinema drama history",
-      "url": "https://www.flagey.be/agenda",
+      "url": "https://www.flagey.be/en/order/add/event/49448",
       "image": null,
       "source": "Flagey",
       "uid": "03b5f31d6d9bf5d8",
@@ -2396,7 +2301,7 @@
       "all_day": false,
       "location": "Studio 5",
       "description": "Cinema drama history",
-      "url": "https://www.flagey.be/agenda",
+      "url": "https://www.flagey.be/en/order/add/event/49439",
       "image": null,
       "source": "Flagey",
       "uid": "0a4e1709a99c3303",
@@ -2574,7 +2479,7 @@
       "all_day": false,
       "location": "Studio 5",
       "description": "Cinema documentary special screening",
-      "url": "https://www.flagey.be/agenda",
+      "url": "https://www.flagey.be/en/order/add/event/49444",
       "image": null,
       "source": "Flagey",
       "uid": "49ef23c08a0a391c",
@@ -2592,7 +2497,7 @@
       "all_day": false,
       "location": "Studio 5",
       "description": "Cinema comedy",
-      "url": "https://www.flagey.be/agenda",
+      "url": "https://www.flagey.be/en/order/add/event/49462",
       "image": null,
       "source": "Flagey",
       "uid": "9ddf7026431ffd3a",
@@ -2662,6 +2567,25 @@
       ]
     },
     {
+      "title": "Belgian National Orchestra, Halls & Vinnitskaya",
+      "start": "2026-09-11T20:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Bozar, Brussels",
+      "description": "Mahler's Titan. From 24 €",
+      "url": "https://www.bozar.be/en/calendar/belgian-national-orchestra-halls-vinnitskaya",
+      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
+      "source": "BOZAR",
+      "uid": "65779b9b45b4a2d7",
+      "colour": "#00937A",
+      "translated": true,
+      "category": "music",
+      "tags": [
+        "evening",
+        "live"
+      ]
+    },
+    {
       "title": "BRUNO CASTELLUCCI BELGIAN ALL-STARS 'LATIN LEGACY'",
       "start": "2026-09-11T20:30:00+02:00",
       "end": null,
@@ -2725,7 +2649,7 @@
       "all_day": false,
       "location": "Studio 5",
       "description": "Cinema drama",
-      "url": "https://www.flagey.be/agenda",
+      "url": "https://www.flagey.be/en/order/add/event/49423",
       "image": null,
       "source": "Flagey",
       "uid": "c82fcf6fdaab9d4c",
@@ -2841,26 +2765,6 @@
       ]
     },
     {
-      "title": "Copyriot",
-      "start": "2026-09-12T00:00:00+02:00",
-      "end": "2027-05-29T00:00:00+02:00",
-      "all_day": true,
-      "location": "KVS",
-      "description": "KRAPP / KVS. Language: NL. Subtitles: FR, EN",
-      "url": "https://www.kvs.be/fr/Evenement/copyriot-2",
-      "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
-      "source": "KVS",
-      "uid": "a7c84266e72d54f6",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "live",
-        "recurring"
-      ]
-    },
-    {
       "title": "F*CK LOLITA",
       "start": "2026-09-12T00:00:00+02:00",
       "end": null,
@@ -2878,6 +2782,26 @@
       "tags": [
         "evening",
         "live"
+      ]
+    },
+    {
+      "title": "Copyriot",
+      "start": "2026-09-12T00:00:00+02:00",
+      "end": "2027-05-29T00:00:00+02:00",
+      "all_day": true,
+      "location": "KVS",
+      "description": "KRAPP / KVS. Language: NL. Subtitles: FR, EN",
+      "url": "https://www.kvs.be/fr/Evenement/copyriot-2",
+      "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
+      "source": "KVS",
+      "uid": "a7c84266e72d54f6",
+      "colour": "#E07A00",
+      "time_checked": 3,
+      "translated": true,
+      "category": "culture-arts",
+      "tags": [
+        "live",
+        "recurring"
       ]
     },
     {
@@ -2939,7 +2863,7 @@
       "all_day": false,
       "location": "Studio 5",
       "description": "Cinema drama",
-      "url": "https://www.flagey.be/agenda",
+      "url": "https://www.flagey.be/en/order/add/event/49479",
       "image": null,
       "source": "Flagey",
       "uid": "e4a83fd7d78840da",
@@ -2957,7 +2881,7 @@
       "all_day": false,
       "location": "Studio 5",
       "description": "Cinema comedy",
-      "url": "https://www.flagey.be/agenda",
+      "url": "https://www.flagey.be/en/order/add/event/49486",
       "image": null,
       "source": "Flagey",
       "uid": "ae0c97eae1cf0a82",
@@ -3033,7 +2957,7 @@
       "all_day": false,
       "location": "Studio 5",
       "description": "Action, adventure film",
-      "url": "https://www.flagey.be/agenda",
+      "url": "https://www.flagey.be/en/order/add/event/49476",
       "image": null,
       "source": "Flagey",
       "uid": "67b379dd9774ddf8",
@@ -3071,7 +2995,7 @@
       "all_day": false,
       "location": "Studio 5",
       "description": "Cinema drama",
-      "url": "https://www.flagey.be/agenda",
+      "url": "https://www.flagey.be/en/order/add/event/49424",
       "image": null,
       "source": "Flagey",
       "uid": "b141f1b878a1d2ac",
@@ -3107,7 +3031,7 @@
       "all_day": false,
       "location": "Studio 5",
       "description": "Cinema comedy",
-      "url": "https://www.flagey.be/agenda",
+      "url": "https://www.flagey.be/en/order/add/event/49487",
       "image": null,
       "source": "Flagey",
       "uid": "db790a63491eff47",
@@ -3125,7 +3049,7 @@
       "all_day": false,
       "location": "Studio 5",
       "description": "Cinema comedy",
-      "url": "https://www.flagey.be/agenda",
+      "url": "https://www.flagey.be/en/order/add/event/49463",
       "image": null,
       "source": "Flagey",
       "uid": "fe888303829cf45a",
@@ -3348,7 +3272,7 @@
       "all_day": false,
       "location": "Studio 5",
       "description": "Cinema drama",
-      "url": "https://www.flagey.be/agenda",
+      "url": "https://www.flagey.be/en/order/add/event/49480",
       "image": null,
       "source": "Flagey",
       "uid": "f52bba806c6ebfbb",
@@ -3500,7 +3424,7 @@
       "all_day": false,
       "location": "Studio 5",
       "description": "Cinema comedy",
-      "url": "https://www.flagey.be/agenda",
+      "url": "https://www.flagey.be/en/order/add/event/49488",
       "image": null,
       "source": "Flagey",
       "uid": "c38a09d3afe2d6c2",
@@ -3575,7 +3499,7 @@
       "all_day": false,
       "location": "Studio 5",
       "description": "Cinema drama",
-      "url": "https://www.flagey.be/agenda",
+      "url": "https://www.flagey.be/en/order/add/event/49414",
       "image": null,
       "source": "Flagey",
       "uid": "4b954a45ec0115e9",
@@ -3803,7 +3727,7 @@
       "all_day": false,
       "location": "Studio 5",
       "description": "Cinema comedy",
-      "url": "https://www.flagey.be/agenda",
+      "url": "https://www.flagey.be/en/order/add/event/49464",
       "image": null,
       "source": "Flagey",
       "uid": "3aec2eaf6200af10",
@@ -3938,7 +3862,7 @@
       "all_day": false,
       "location": "Studio 5",
       "description": "Cinema documentary special screening",
-      "url": "https://www.flagey.be/agenda",
+      "url": "https://www.flagey.be/en/order/add/event/49445",
       "image": null,
       "source": "Flagey",
       "uid": "f0d803ddf479f90b",
@@ -3972,7 +3896,7 @@
       "all_day": false,
       "location": "Studio 5",
       "description": "Cinema drama",
-      "url": "https://www.flagey.be/agenda",
+      "url": "https://www.flagey.be/en/order/add/event/49425",
       "image": null,
       "source": "Flagey",
       "uid": "e3db61835b373f88",
@@ -4307,7 +4231,7 @@
       "all_day": false,
       "location": "Studio 5",
       "description": "Free special screening in presence of director",
-      "url": "https://www.flagey.be/agenda",
+      "url": "https://www.flagey.be/en/order/add/event/49446",
       "image": null,
       "source": "Flagey",
       "uid": "5ff568d34b06f8cf",
@@ -4664,7 +4588,7 @@
       "all_day": false,
       "location": "Studio 5",
       "description": "Cinema comedy",
-      "url": "https://www.flagey.be/agenda",
+      "url": "https://www.flagey.be/en/order/add/event/49489",
       "image": null,
       "source": "Flagey",
       "uid": "80149f5a9af92cd8",
@@ -4736,7 +4660,7 @@
       "all_day": false,
       "location": "Studio 5",
       "description": "Cinema drama history",
-      "url": "https://www.flagey.be/agenda",
+      "url": "https://www.flagey.be/en/order/add/event/49440",
       "image": null,
       "source": "Flagey",
       "uid": "0bf01e7f4e7510b3",
