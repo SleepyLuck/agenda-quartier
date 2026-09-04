@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-04T11:13:48.693326+02:00",
+  "generated": "2026-09-04T20:43:31.316025+02:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
@@ -90,7 +90,7 @@
       "name": "Maison Poème",
       "url": "https://maisonpoeme.be/",
       "colour": "#7B49D6",
-      "count": 30,
+      "count": 31,
       "method": "jsonld"
     },
     {
@@ -410,7 +410,7 @@
       "source": "Maison Poème",
       "method": "jsonld",
       "found": 31,
-      "kept": 30,
+      "kept": 31,
       "note": ""
     },
     {
@@ -1239,6 +1239,24 @@
         "dance",
         "evening",
         "live"
+      ]
+    },
+    {
+      "title": "Par.Sek",
+      "start": "2026-11-25T20:00:00+01:00",
+      "end": "2026-11-25T21:00:00+01:00",
+      "all_day": false,
+      "location": "Maison poème, Rue d'Écosse 30, 1060 Saint-Gilles",
+      "description": "C’est la fin du monde, mais heureusement PAR.SEK est là. Quelque part entre le Berghain et la sortie 3 direction Castorama, le duo français d’electropunk invente un désespoir 2.0 qui donne envie de kiIer jusqu’au crash. Lyrics abrasives ou consolantes comme des free hugs, orfèvrerie sonore aux confins du code et de la dentelle : pur miroir […]",
+      "url": "https://maisonpoeme.be/",
+      "image": "https://maisonpoeme.be/wp-content/uploads/2026/09/PAR.SEK-SOL-Manon-Sabatier-CARRE-1024x1024.jpg",
+      "source": "Maison Poème",
+      "uid": "97bf80a5c6dccbe2",
+      "colour": "#7B49D6",
+      "category": "other",
+      "tags": [
+        "evening",
+        "free"
       ]
     },
     {
