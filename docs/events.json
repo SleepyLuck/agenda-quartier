@@ -1,20 +1,20 @@
 {
-  "generated": "2026-09-03T21:05:40.937825+02:00",
+  "generated": "2026-09-04T11:13:48.693326+02:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
       "name": "La Vieille Chéchette",
       "url": "https://chechette.be/lagenda/",
       "colour": "#E8336D",
-      "count": 16,
+      "count": 15,
       "method": "jsonld"
     },
     {
       "name": "GC Pianofabriek",
       "url": "https://www.pianofabriek.be/activiteiten",
       "colour": "#1B6FE0",
-      "count": 24,
-      "method": "browser"
+      "count": 0,
+      "method": "none"
     },
     {
       "name": "La Tricoterie",
@@ -27,22 +27,22 @@
       "name": "Recyclart",
       "url": "https://recyclart.be/fr/agenda",
       "colour": "#E07A00",
-      "count": 19,
-      "method": "llm"
+      "count": 0,
+      "method": "none"
     },
     {
       "name": "Le Jacques Franck",
       "url": "https://www.lejacquesfranck.be/agenda",
       "colour": "#7B49D6",
-      "count": 10,
-      "method": "llm"
+      "count": 0,
+      "method": "none"
     },
     {
       "name": "Fuse",
       "url": "https://www.fuse.be/events",
       "colour": "#C0392B",
-      "count": 13,
-      "method": "llm"
+      "count": 0,
+      "method": "none"
     },
     {
       "name": "Goudblommeke in Papier",
@@ -55,36 +55,36 @@
       "name": "Le Poche",
       "url": "https://poche.be/shows",
       "colour": "#8A7500",
-      "count": 6,
-      "method": "llm"
+      "count": 0,
+      "method": "none"
     },
     {
       "name": "Sounds Jazz Club",
       "url": "https://www.sounds.brussels/agenda/",
       "colour": "#E8336D",
-      "count": 17,
-      "method": "llm"
+      "count": 0,
+      "method": "none"
     },
     {
       "name": "U-Square",
       "url": "https://usquare.brussels/en/agenda",
       "colour": "#1B6FE0",
       "count": 0,
-      "method": "llm"
+      "method": "none"
     },
     {
       "name": "BRASS",
       "url": "https://www.lebrass.be/",
       "colour": "#00937A",
-      "count": 13,
-      "method": "llm"
+      "count": 0,
+      "method": "none"
     },
     {
       "name": "WIELS",
       "url": "https://wiels.org/en/events",
       "colour": "#E07A00",
-      "count": 11,
-      "method": "browser"
+      "count": 0,
+      "method": "none"
     },
     {
       "name": "Maison Poème",
@@ -104,8 +104,8 @@
       "name": "GC Ten Weyngaert",
       "url": "https://www.tenweyngaert.be/activiteiten",
       "colour": "#0F8CA8",
-      "count": 23,
-      "method": "browser"
+      "count": 0,
+      "method": "none"
     },
     {
       "name": "Park Poétik",
@@ -125,22 +125,22 @@
       "name": "Flagey",
       "url": "https://www.flagey.be/agenda",
       "colour": "#1B6FE0",
-      "count": 40,
-      "method": "llm"
+      "count": 0,
+      "method": "none"
     },
     {
       "name": "BOZAR",
       "url": "https://www.bozar.be/en/calendar",
       "colour": "#00937A",
-      "count": 5,
-      "method": "llm"
+      "count": 0,
+      "method": "none"
     },
     {
       "name": "KVS",
       "url": "https://www.kvs.be/fr/agenda",
       "colour": "#E07A00",
-      "count": 24,
-      "method": "llm"
+      "count": 0,
+      "method": "none"
     },
     {
       "name": "Kaaitheater",
@@ -326,43 +326,43 @@
       "source": "La Vieille Chéchette",
       "method": "jsonld",
       "found": 18,
-      "kept": 16,
+      "kept": 15,
       "note": ""
     },
     {
       "source": "GC Pianofabriek",
-      "method": "browser",
-      "found": 25,
-      "kept": 24,
-      "note": ""
+      "method": "none",
+      "found": 0,
+      "kept": 0,
+      "note": "browser: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgr"
     },
     {
       "source": "La Tricoterie",
       "method": "none",
       "found": 0,
       "kept": 0,
-      "note": "wordpress: HTTPError: 404 Client Error: Not Found for url: https://www.tricoterie.be/wp-json/tribe/events/v1/events?per_page=50"
+      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
     },
     {
       "source": "Recyclart",
-      "method": "llm",
-      "found": 21,
-      "kept": 19,
-      "note": ""
+      "method": "none",
+      "found": 0,
+      "kept": 0,
+      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
     },
     {
       "source": "Le Jacques Franck",
-      "method": "llm",
-      "found": 11,
-      "kept": 10,
-      "note": ""
+      "method": "none",
+      "found": 0,
+      "kept": 0,
+      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
     },
     {
       "source": "Fuse",
-      "method": "llm",
-      "found": 17,
-      "kept": 13,
-      "note": ""
+      "method": "none",
+      "found": 0,
+      "kept": 0,
+      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
     },
     {
       "source": "Goudblommeke in Papier",
@@ -373,38 +373,38 @@
     },
     {
       "source": "Le Poche",
-      "method": "llm",
-      "found": 14,
-      "kept": 6,
-      "note": ""
+      "method": "none",
+      "found": 0,
+      "kept": 0,
+      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
     },
     {
       "source": "Sounds Jazz Club",
-      "method": "llm",
-      "found": 18,
-      "kept": 17,
-      "note": ""
+      "method": "none",
+      "found": 0,
+      "kept": 0,
+      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
     },
     {
       "source": "U-Square",
-      "method": "llm",
-      "found": 3,
+      "method": "none",
+      "found": 0,
       "kept": 0,
-      "note": ""
+      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
     },
     {
       "source": "BRASS",
-      "method": "llm",
-      "found": 14,
-      "kept": 13,
-      "note": ""
+      "method": "none",
+      "found": 0,
+      "kept": 0,
+      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
     },
     {
       "source": "WIELS",
-      "method": "browser",
-      "found": 12,
-      "kept": 11,
-      "note": ""
+      "method": "none",
+      "found": 0,
+      "kept": 0,
+      "note": "browser: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgr"
     },
     {
       "source": "Maison Poème",
@@ -422,45 +422,45 @@
     },
     {
       "source": "GC Ten Weyngaert",
-      "method": "browser",
-      "found": 25,
-      "kept": 23,
-      "note": ""
+      "method": "none",
+      "found": 0,
+      "kept": 0,
+      "note": "browser: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgr"
     },
     {
       "source": "Park Poétik",
       "method": "none",
       "found": 0,
       "kept": 0,
-      "note": "wordpress: HTTPError: 404 Client Error: Not Found for url: https://parkpoetik.be/wp-json/tribe/events/v1/events?per_page=50"
+      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
     },
     {
       "source": "Le Senghor",
       "method": "none",
       "found": 0,
       "kept": 0,
-      "note": "wordpress: HTTPError: 404 Client Error: Not Found for url: https://www.senghor.be/wp-json/tribe/events/v1/events?per_page=50"
+      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
     },
     {
       "source": "Flagey",
-      "method": "llm",
-      "found": 40,
-      "kept": 40,
-      "note": ""
+      "method": "none",
+      "found": 0,
+      "kept": 0,
+      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
     },
     {
       "source": "BOZAR",
-      "method": "llm",
-      "found": 5,
-      "kept": 5,
-      "note": ""
+      "method": "none",
+      "found": 0,
+      "kept": 0,
+      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
     },
     {
       "source": "KVS",
-      "method": "llm",
-      "found": 24,
-      "kept": 24,
-      "note": ""
+      "method": "none",
+      "found": 0,
+      "kept": 0,
+      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
     },
     {
       "source": "Kaaitheater",
@@ -479,142 +479,6 @@
   ],
   "events": [
     {
-      "title": "7 PM Niña Maleza Concert",
-      "start": "2026-09-03T00:00:00+02:00",
-      "end": "2026-09-03T00:00:00+02:00",
-      "all_day": true,
-      "location": "",
-      "description": "Niña Maleza is a Brussels trio blending voice, melodies, and harmonies. Rebellious, bold, committed, and poetic music evoking migration, roots, love, and resistance. Stories are whispered and memories evoked.",
-      "url": "https://chechette.be/events/19h-concert-nina-maleza-2/",
-      "image": null,
-      "source": "La Vieille Chéchette",
-      "uid": "bc371431dc6e43b6",
-      "colour": "#E8336D",
-      "time_checked": 3,
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "live"
-      ]
-    },
-    {
-      "title": "Community Yoga",
-      "start": "2026-09-03T00:00:00+02:00",
-      "end": "2026-12-17T00:00:00+01:00",
-      "all_day": false,
-      "location": "Recyclart",
-      "description": "Community yoga",
-      "url": "https://recyclart.be/fr/agenda/yoga-communautaire-1",
-      "image": "https://recyclart.be/build/assets/og-image-DfQ-XJK0.png",
-      "source": "Recyclart",
-      "uid": "5b3a7641e3c2701c",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "sport-wellbeing",
-      "tags": [
-        "late-night",
-        "recurring"
-      ]
-    },
-    {
-      "title": "Kets Wednesday Workshops",
-      "start": "2026-09-03T11:00:00+02:00",
-      "end": "2027-06-28T00:00:00+02:00",
-      "all_day": false,
-      "location": "WIELS",
-      "description": "Family and kids workshop program",
-      "url": "https://wiels.org/en/events/ateliers-kets-du-mercredi",
-      "image": "https://wiels.org/actions/assets/generate-transform?transformId=13",
-      "source": "WIELS",
-      "uid": "940c16495706fd21",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "family-children",
-      "tags": [
-        "family",
-        "kids",
-        "recurring"
-      ]
-    },
-    {
-      "title": "Bozar Rooftop 2026",
-      "start": "2026-09-03T00:00:00+02:00",
-      "end": "2026-09-20T00:00:00+02:00",
-      "all_day": true,
-      "location": "Bozar, Brussels",
-      "description": "Pali Pali ✕ Bento Architecture",
-      "url": "https://www.bozar.be/en/calendar/bozar-rooftop-2026",
-      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
-      "source": "BOZAR",
-      "uid": "cd96637a5acc0c5d",
-      "colour": "#00937A",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "recurring"
-      ]
-    },
-    {
-      "title": "Chapters of Celebration",
-      "start": "2026-09-03T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "KVS",
-      "description": "TheaterFestival 2026. Benjamin Abel Meirhaeghe - Wouter Deltour - Muziektheater Transparent",
-      "url": "https://www.kvs.be/fr/Evenement/chapters-of-celebration-2",
-      "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
-      "source": "KVS",
-      "uid": "26ea735de50bfd20",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "festivals-celebrations",
-      "tags": [
-        "live"
-      ]
-    },
-    {
-      "title": "Emmylou Harris",
-      "start": "2026-09-03T19:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Bozar",
-      "description": "European Farewell Tour",
-      "url": "https://www.bozar.be/en/calendar/emmylou-harris",
-      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
-      "source": "BOZAR",
-      "uid": "d5918156fd3a98c0",
-      "colour": "#00937A",
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "evening",
-        "live"
-      ]
-    },
-    {
-      "title": "TONADA",
-      "start": "2026-09-03T20:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Jazz&resist",
-      "description": "A Celebration of Bullerengue Traditions",
-      "url": "https://www.sounds.brussels/jazz-concert/tonada/",
-      "image": "https://www.sounds.brussels/wp-content/uploads/2026/07/sounds-social-1024x576-1.jpg",
-      "source": "Sounds Jazz Club",
-      "uid": "b4d3510e62be8bae",
-      "colour": "#E8336D",
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "evening",
-        "live"
-      ]
-    },
-    {
       "title": "7:30 PM Cassiof and Iva Mai Concert",
       "start": "2026-09-04T00:00:00+02:00",
       "end": "2026-09-04T00:00:00+02:00",
@@ -632,415 +496,6 @@
       "tags": [
         "evening",
         "live"
-      ]
-    },
-    {
-      "title": "Fuse presents: NIKOLINA & Ornella",
-      "start": "2026-09-04T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Fuse Brussels, Room 01",
-      "description": "NIKOLINA, Ornella, Gaiveu, Osmos",
-      "url": "https://www.fuse.be/events/fuse-presents-nikolina-ornella",
-      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788368690",
-      "source": "Fuse",
-      "uid": "580dba2c7b4522ef",
-      "colour": "#C0392B",
-      "time_checked": 3,
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "dance",
-        "late-night",
-        "live"
-      ]
-    },
-    {
-      "title": "Opening: Ali Cherri - Soul Witness",
-      "start": "2026-09-04T11:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "WIELS, Avenue Van Volxemlaan 354, 1190 Brussels",
-      "description": "Exhibition opening",
-      "url": "https://wiels.org/en/events/opening-ali-cherri-soul-witness",
-      "image": "https://wiels.org/actions/assets/generate-transform?transformId=13",
-      "source": "WIELS",
-      "uid": "258f55f974545389",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "live"
-      ]
-    },
-    {
-      "title": "Art in the Grip of the Far Right?",
-      "start": "2026-09-04T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "KVS",
-      "description": "Free",
-      "url": "https://www.kvs.be/fr/Evenement/kunst-in-de-greep-van-uiterst-rechts-2",
-      "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
-      "source": "KVS",
-      "uid": "d49e847b5db10cdf",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "talks-discussions",
-      "tags": [
-        "evening",
-        "free"
-      ]
-    },
-    {
-      "title": "We, the Orchestra",
-      "start": "2026-09-04T17:15:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Cinema - documentary. €7.00–€10.50",
-      "url": "https://www.flagey.be/en/agenda/nous-l-orchestre-9xv5",
-      "image": null,
-      "source": "Flagey",
-      "uid": "730e9426a59dce5f",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "evening",
-        "live"
-      ]
-    },
-    {
-      "title": "Le Vertige",
-      "start": "2026-09-04T19:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Cinema - comedy. €7.00–€10.50",
-      "url": "https://www.flagey.be/en/agenda/le-vertige-5dhn",
-      "image": null,
-      "source": "Flagey",
-      "uid": "b2bf7d1f2c6fb456",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "evening",
-        "live",
-        "recurring"
-      ]
-    },
-    {
-      "title": "Billy Corgan",
-      "start": "2026-09-04T20:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Bozar",
-      "description": "A Night of Mellon Collie and Infinite Sadness",
-      "url": "https://www.bozar.be/en/calendar/billy-corgan",
-      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
-      "source": "BOZAR",
-      "uid": "06c5543f8cebb243",
-      "colour": "#00937A",
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "evening",
-        "live"
-      ]
-    },
-    {
-      "title": "TRIBUTE TO HERBIE HANCOCK",
-      "start": "2026-09-04T20:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Jazz&resist",
-      "description": "Felix De Clerck Trio plays Herbie",
-      "url": "https://www.sounds.brussels/jazz-concert/tribute-to-herbie-hancock/",
-      "image": "https://www.sounds.brussels/wp-content/uploads/2026/07/sounds-social-1024x576-1.jpg",
-      "source": "Sounds Jazz Club",
-      "uid": "1724c471ca3b7792",
-      "colour": "#E8336D",
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "evening",
-        "live"
-      ]
-    },
-    {
-      "title": "The Unknown",
-      "start": "2026-09-04T20:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Cinema - drama. €7.00–€10.50",
-      "url": "https://www.flagey.be/en/agenda/the-unknown-n9hf",
-      "image": null,
-      "source": "Flagey",
-      "uid": "fc21d8997a7ae743",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "evening",
-        "live",
-        "recurring"
-      ]
-    },
-    {
-      "title": "MANU CHAO I ULTRA ACOUSTIC + NEPHTYS - Sold Out!",
-      "start": "2026-09-05T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Place Van Meenen",
-      "description": "Concerts",
-      "url": "https://lejacquesfranck.be/event/manu-chao-i-ultra-acustico/2026-09-05/",
-      "image": "https://lejacquesfranck.be/resources/assets/img/logo-og.png",
-      "source": "Le Jacques Franck",
-      "uid": "e9c3845c7a0f9e4c",
-      "colour": "#7B49D6",
-      "time_checked": 3,
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "live"
-      ]
-    },
-    {
-      "title": "Fuse presents: Hadone curates w/ Nørbak & Tauceti",
-      "start": "2026-09-05T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Fuse Brussels, Room 01",
-      "description": "Nørbak, Tauceti, LaDetail, Hadone",
-      "url": "https://www.fuse.be/events/fuse-presents-hadone-curates-w-nørbak-tauceti",
-      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788368690",
-      "source": "Fuse",
-      "uid": "65ee7f39ba9478c6",
-      "colour": "#C0392B",
-      "time_checked": 3,
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "dance",
-        "late-night",
-        "live"
-      ]
-    },
-    {
-      "title": "Lecture: Dominiek Hoens",
-      "start": "2026-09-05T11:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "WIELS, Avenue Van Volxemlaan 354, 1190 Brussels",
-      "description": "Lecture event",
-      "url": "https://wiels.org/en/events/lecture-dominiek-hoens",
-      "image": "https://wiels.org/actions/assets/generate-transform?transformId=13",
-      "source": "WIELS",
-      "uid": "5a86302d11fd966b",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "talks-discussions",
-      "tags": [
-        "live"
-      ]
-    },
-    {
-      "title": "Magec / the Desert",
-      "start": "2026-09-05T00:00:00+02:00",
-      "end": "2026-09-06T00:00:00+02:00",
-      "all_day": true,
-      "location": "KVS",
-      "description": "TheaterFestival 2026. Radouan Mriziga / A7LA5. Dance.",
-      "url": "https://www.kvs.be/fr/Evenement/magec-the-desert-2",
-      "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
-      "source": "KVS",
-      "uid": "43154d2d31adf87c",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "dance",
-        "evening",
-        "live"
-      ]
-    },
-    {
-      "title": "The Odyssey",
-      "start": "2026-09-05T14:15:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Action and adventure film",
-      "url": "https://www.flagey.be/en/agenda/the-odyssey-56ln",
-      "image": null,
-      "source": "Flagey",
-      "uid": "43ea1900f1830a81",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "live"
-      ]
-    },
-    {
-      "title": "The Umbrellas of Cherbourg",
-      "start": "2026-09-05T17:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Film",
-      "url": "https://www.flagey.be/en/agenda/the-umbrellas-of-cherbourg-fd9q",
-      "image": null,
-      "source": "Flagey",
-      "uid": "f24d5c9c5e166d79",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Le Vertige",
-      "start": "2026-09-05T19:20:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Cinema comedy",
-      "url": "https://www.flagey.be/en/agenda/le-vertige-5dhn",
-      "image": null,
-      "source": "Flagey",
-      "uid": "9f15a03a5487fe2f",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "BRUSSELS SALSA PROJECT",
-      "start": "2026-09-05T20:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Jazz&resist",
-      "description": "Season Opening: Salsa",
-      "url": "https://www.sounds.brussels/jazz-concert/brussels-salsa-project-4/",
-      "image": "https://www.sounds.brussels/wp-content/uploads/2026/07/sounds-social-1024x576-1.jpg",
-      "source": "Sounds Jazz Club",
-      "uid": "11faf0b233e228d1",
-      "colour": "#E8336D",
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "dance",
-        "evening",
-        "live"
-      ]
-    },
-    {
-      "title": "Teenage Sex and Death at Camp Miasma",
-      "start": "2026-09-05T20:45:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Cinema comedy",
-      "url": "https://www.flagey.be/en/agenda/teenage-sex-and-death-at-camp-miasma-812s",
-      "image": null,
-      "source": "Flagey",
-      "uid": "487d67ef1b806311",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "LE JACQUES FRANCK GOES TO THE CINEMA!",
-      "start": "2026-09-06T00:00:00+02:00",
-      "end": "2026-09-17T00:00:00+02:00",
-      "all_day": true,
-      "location": "Le Jacques Franck",
-      "description": "10 days of screenings! Free admission",
-      "url": "https://lejacquesfranck.be/event/le-jacques-franck-fait-son-cinema/2026-09-06/",
-      "image": "https://lejacquesfranck.be/resources/assets/img/logo-og.png",
-      "source": "Le Jacques Franck",
-      "uid": "d53e661c1b9902f1",
-      "colour": "#7B49D6",
-      "time_checked": 3,
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "drop-in",
-        "free",
-        "recurring"
-      ]
-    },
-    {
-      "title": "Carmen, the Rebellious Bird",
-      "start": "2026-09-06T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Le Jacques Franck",
-      "description": "Animation | Musical Comedy | Drama | Romance",
-      "url": "https://lejacquesfranck.be/event/carmen-loiseau-rebelle/2026-09-06/",
-      "image": "https://lejacquesfranck.be/resources/assets/img/logo-og.png",
-      "source": "Le Jacques Franck",
-      "uid": "78d7359064e5a0ee",
-      "colour": "#7B49D6",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "late-night",
-        "live"
-      ]
-    },
-    {
-      "title": "Sambizanga",
-      "start": "2026-09-06T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Le Jacques Franck",
-      "description": "Drama",
-      "url": "https://lejacquesfranck.be/event/sambizanga/2026-09-06/",
-      "image": "https://lejacquesfranck.be/resources/assets/img/logo-og.png",
-      "source": "Le Jacques Franck",
-      "uid": "b5aaeddbd9e18f60",
-      "colour": "#7B49D6",
-      "time_checked": 3,
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "late-night",
-        "live"
-      ]
-    },
-    {
-      "title": "Lola",
-      "start": "2026-09-06T14:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Drama cinema",
-      "url": "https://www.flagey.be/en/agenda/lola-1t5r",
-      "image": null,
-      "source": "Flagey",
-      "uid": "643900a2fb01948b",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "live",
-        "recurring"
       ]
     },
     {
@@ -1066,41 +521,6 @@
       ]
     },
     {
-      "title": "The Unknown",
-      "start": "2026-09-06T15:45:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Cinema drama",
-      "url": "https://www.flagey.be/en/agenda/the-unknown-n9hf",
-      "image": null,
-      "source": "Flagey",
-      "uid": "ff50c1958cf84624",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "ISAAC",
-      "start": "2026-09-06T17:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Jazz&resist",
-      "description": "Rock, beats and chaos",
-      "url": "https://www.sounds.brussels/jazz-concert/isaac/",
-      "image": "https://www.sounds.brussels/wp-content/uploads/2026/07/sounds-social-1024x576-1.jpg",
-      "source": "Sounds Jazz Club",
-      "uid": "c0a83dad2b8ed195",
-      "colour": "#E8336D",
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "evening",
-        "live"
-      ]
-    },
-    {
       "title": "Unruly Roses",
       "start": "2026-09-06T18:00:00+02:00",
       "end": "2026-12-19T15:00:00+01:00",
@@ -1118,84 +538,6 @@
         "evening",
         "recurring",
         "sustainability"
-      ]
-    },
-    {
-      "title": "Dark Diamond",
-      "start": "2026-09-06T18:20:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Drama cinema",
-      "url": "https://www.flagey.be/en/agenda/dark-diamond-f5pq",
-      "image": null,
-      "source": "Flagey",
-      "uid": "37e0cc4c84b8f051",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "evening",
-        "recurring"
-      ]
-    },
-    {
-      "title": "Onoda: 10,000 Nights in the Jungle",
-      "start": "2026-09-06T20:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Cinema drama history",
-      "url": "https://www.flagey.be/en/agenda/onoda-10-000-nights-in-the-jungle-ljrg",
-      "image": null,
-      "source": "Flagey",
-      "uid": "d3132f399492adff",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "The Song of the Forests",
-      "start": "2026-09-07T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Le Jacques Franck",
-      "description": "Documentary | School | Primary | Free",
-      "url": "https://lejacquesfranck.be/event/le-chant-des-forets/2026-09-07/",
-      "image": "https://lejacquesfranck.be/resources/assets/img/logo-og.png",
-      "source": "Le Jacques Franck",
-      "uid": "a76e34d67a48239f",
-      "colour": "#7B49D6",
-      "time_checked": 3,
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "free",
-        "kids",
-        "late-night"
-      ]
-    },
-    {
-      "title": "In Waves",
-      "start": "2026-09-07T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Le Jacques Franck",
-      "description": "Animation, Drama, Romance",
-      "url": "https://lejacquesfranck.be/event/in-waves/2026-09-07/",
-      "image": "https://lejacquesfranck.be/resources/assets/img/logo-og.png",
-      "source": "Le Jacques Franck",
-      "uid": "1b4d8ea38e908148",
-      "colour": "#7B49D6",
-      "time_checked": 3,
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "late-night",
-        "live"
       ]
     },
     {
@@ -1238,107 +580,6 @@
       ]
     },
     {
-      "title": "Folkpractica",
-      "start": "2026-09-08T00:00:00+02:00",
-      "end": "2026-12-15T00:00:00+01:00",
-      "all_day": true,
-      "location": "Gemeenschapscentrum Pianofabriek vzw, Sint-Gillis",
-      "description": "Folk dance and world dance, for ages 18-99",
-      "url": "https://www.pianofabriek.be/activiteiten/folkpractica-0",
-      "image": null,
-      "source": "GC Pianofabriek",
-      "uid": "018edc961b3206fe",
-      "colour": "#1B6FE0",
-      "time_checked": 3,
-      "translated": true,
-      "category": "sport-wellbeing",
-      "tags": [
-        "dance",
-        "recurring"
-      ]
-    },
-    {
-      "title": "Allah Is Not Obliged",
-      "start": "2026-09-08T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Le Jacques Franck",
-      "description": "Animation, Drama",
-      "url": "https://lejacquesfranck.be/event/allah-nest-pas-oblige/2026-09-08/",
-      "image": "https://lejacquesfranck.be/resources/assets/img/logo-og.png",
-      "source": "Le Jacques Franck",
-      "uid": "b89f3d704d90f9a6",
-      "colour": "#7B49D6",
-      "time_checked": 3,
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "late-night",
-        "live"
-      ]
-    },
-    {
-      "title": "Ibon Landa Amutxategi: Pas",
-      "start": "2026-09-08T11:00:00+02:00",
-      "end": "2026-09-25T00:00:00+02:00",
-      "all_day": false,
-      "location": "WIELS, Avenue Van Volxemlaan 354, 1190 Brussels",
-      "description": "Affiliate exhibition",
-      "url": "https://wiels.org/en/events/ibon-landa-amutxategi-aussi",
-      "image": "https://wiels.org/actions/assets/generate-transform?transformId=13",
-      "source": "WIELS",
-      "uid": "6ff5ff790012179e",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "recurring"
-      ]
-    },
-    {
-      "title": "Gala of the Auras",
-      "start": "2026-09-08T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "KVS",
-      "description": "TheaterFestival 2026. TheaterFestival, Actors' Guild, NTGent, KVS and Toneelhuis. Free",
-      "url": "https://www.kvs.be/fr/Evenement/gala-van-de-aura-s-2",
-      "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
-      "source": "KVS",
-      "uid": "97c3c4036c32cd1a",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "evening",
-        "free",
-        "live"
-      ]
-    },
-    {
-      "title": "FRANK",
-      "start": "2026-09-08T00:00:00+02:00",
-      "end": "2026-09-09T00:00:00+02:00",
-      "all_day": true,
-      "location": "KVS",
-      "description": "TheaterFestival 2026. Cherish Menzo / GRIP & Theater Utrecht in collaboration with Dance On Ensemble. Dance.",
-      "url": "https://www.kvs.be/fr/Evenement/frank-5",
-      "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
-      "source": "KVS",
-      "uid": "0b33ef90170e0226",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "dance",
-        "evening",
-        "live"
-      ]
-    },
-    {
       "title": "6:30pm La Vieille Chéchette Choir",
       "start": "2026-09-09T00:00:00+02:00",
       "end": "2026-09-09T00:00:00+02:00",
@@ -1356,155 +597,6 @@
       "tags": [
         "evening",
         "live"
-      ]
-    },
-    {
-      "title": "TEA PARTY het huis van lilo w/ sugar coating services",
-      "start": "2026-09-09T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Gemeenschapscentrum Pianofabriek vzw, Sint-Gillis",
-      "description": "Pop and rock",
-      "url": "https://www.pianofabriek.be/activiteiten/tea-party-het-huis-van-lilo-w/sugar-coating-services",
-      "image": null,
-      "source": "GC Pianofabriek",
-      "uid": "7371da5f84147a2c",
-      "colour": "#1B6FE0",
-      "time_checked": 3,
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "food-drink",
-        "live"
-      ]
-    },
-    {
-      "title": "Short Films TEFF - The Extraordinary Film Festival",
-      "start": "2026-09-09T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Le Jacques Franck",
-      "description": "Inclusive screening",
-      "url": "https://lejacquesfranck.be/event/courts-metrages-teff/2026-09-09/",
-      "image": "https://lejacquesfranck.be/resources/assets/img/logo-og.png",
-      "source": "Le Jacques Franck",
-      "uid": "9b657526f1ff5fba",
-      "colour": "#7B49D6",
-      "time_checked": 3,
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "live"
-      ]
-    },
-    {
-      "title": "Made In Saint-Gilles 1",
-      "start": "2026-09-09T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Le Jacques Franck",
-      "description": "Courts & Moyen Métrages",
-      "url": "https://lejacquesfranck.be/event/made-in-saint-gilles-1/2026-09-09/",
-      "image": "https://lejacquesfranck.be/resources/assets/img/logo-og.png",
-      "source": "Le Jacques Franck",
-      "uid": "7f42e6eeec5a258a",
-      "colour": "#7B49D6",
-      "time_checked": 3,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "Machines & Robots from Cardboard",
-      "start": "2026-09-09T00:00:00+02:00",
-      "end": "2026-09-16T00:00:00+02:00",
-      "all_day": true,
-      "location": "BRASS",
-      "description": "Workshops on September 9, 10, 11, 14, 15, 16",
-      "url": "https://www.lebrass.be/event/atelier-robots/",
-      "image": "https://www.lebrass.be/wp-content/uploads/2025/12/rq-181016-BRASS-ext-05-04-1200-min-1024x576.jpg",
-      "source": "BRASS",
-      "uid": "00e30b0f0782b06b",
-      "colour": "#00937A",
-      "time_checked": 3,
-      "translated": true,
-      "category": "workshops-creative",
-      "tags": [
-        "kids",
-        "recurring"
-      ]
-    },
-    {
-      "title": "Lubumbashi Biennale 2026: A conversation with Sorana Munsya",
-      "start": "2026-09-09T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "WIELS, Avenue Van Volxemlaan 354, 1190 Brussels",
-      "description": "Hosted conversation (FR)",
-      "url": "https://wiels.org/en/events/f",
-      "image": "https://wiels.org/actions/assets/generate-transform?transformId=13",
-      "source": "WIELS",
-      "uid": "e23fe74f2ae89b5e",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "talks-discussions",
-      "tags": [
-        "live"
-      ]
-    },
-    {
-      "title": "Lucas Gallo: Diciembre (2025)",
-      "start": "2026-09-09T11:00:00+02:00",
-      "end": "2026-09-19T00:00:00+02:00",
-      "all_day": false,
-      "location": "WIELS, Avenue Van Volxemlaan 354, 1190 Brussels",
-      "description": "Screening event",
-      "url": "https://wiels.org/en/events/lucas-gallo-diciembre-2025",
-      "image": "https://wiels.org/actions/assets/generate-transform?transformId=13",
-      "source": "WIELS",
-      "uid": "3839d8a22434fdf9",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "recurring"
-      ]
-    },
-    {
-      "title": "Dark Diamond",
-      "start": "2026-09-09T17:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Cinema drama",
-      "url": "https://www.flagey.be/en/agenda/dark-diamond-f5pq",
-      "image": null,
-      "source": "Flagey",
-      "uid": "4d5ad76e1581edac",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Rose",
-      "start": "2026-09-09T19:10:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Cinema drama history",
-      "url": "https://www.flagey.be/en/agenda/rose-rc67",
-      "image": null,
-      "source": "Flagey",
-      "uid": "64c9e444612e785a",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "evening"
       ]
     },
     {
@@ -1527,42 +619,6 @@
       ]
     },
     {
-      "title": "Carminho",
-      "start": "2026-09-09T20:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Bozar",
-      "description": "",
-      "url": "https://www.bozar.be/en/calendar/carminho-0",
-      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
-      "source": "BOZAR",
-      "uid": "24d1b5a5616e60fd",
-      "colour": "#00937A",
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "evening",
-        "live"
-      ]
-    },
-    {
-      "title": "Akira",
-      "start": "2026-09-09T21:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Animated action, drama, and fantasy film",
-      "url": "https://www.flagey.be/en/agenda/akira-f95q",
-      "image": null,
-      "source": "Flagey",
-      "uid": "cfcc962d19875517",
-      "colour": "#1B6FE0",
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "6pm Lecture Performance: Be Passive and Shut Up! Or How Classist Policies Keep Us From Real Democracy",
       "start": "2026-09-10T00:00:00+02:00",
       "end": "2026-09-10T00:00:00+02:00",
@@ -1582,317 +638,6 @@
       ]
     },
     {
-      "title": "Bora Pianofabriek × Speakeasy",
-      "start": "2026-09-10T20:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Gemeenschapscentrum Pianofabriek vzw, Sint-Gillis",
-      "description": "Poetry. Free event",
-      "url": "https://www.pianofabriek.be/activiteiten/bora-pianofabriek-speakeasy",
-      "image": null,
-      "source": "GC Pianofabriek",
-      "uid": "36880d5e0ef88508",
-      "colour": "#1B6FE0",
-      "time_checked": 3,
-      "translated": true,
-      "category": "talks-discussions",
-      "tags": [
-        "drop-in",
-        "evening",
-        "free",
-        "live"
-      ]
-    },
-    {
-      "title": "Concert at House van Lilo w/ URSULA VI × HANNEKE × HOMMYBIRD",
-      "start": "2026-09-10T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Gemeenschapscentrum Pianofabriek vzw, Sint-Gillis",
-      "description": "Pop and rock",
-      "url": "https://www.pianofabriek.be/activiteiten/concert-huis-van-lilo-w/ursula-vi-hanneke-hommybird",
-      "image": null,
-      "source": "GC Pianofabriek",
-      "uid": "2933b37a894c986d",
-      "colour": "#1B6FE0",
-      "time_checked": 3,
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "live"
-      ]
-    },
-    {
-      "title": "EXPO It's a Party in the Chaos",
-      "start": "2026-09-10T00:00:00+02:00",
-      "end": "2026-10-04T00:00:00+02:00",
-      "all_day": true,
-      "location": "Gemeenschapscentrum Pianofabriek vzw, Sint-Gillis",
-      "description": "Multiple art forms. Free event",
-      "url": "https://www.pianofabriek.be/activiteiten/expo-cest-la-fete-dans-le-chaos",
-      "image": null,
-      "source": "GC Pianofabriek",
-      "uid": "ccfdf7e263fc5b6f",
-      "colour": "#1B6FE0",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "drop-in",
-        "free",
-        "live",
-        "recurring"
-      ]
-    },
-    {
-      "title": "Couture Club",
-      "start": "2026-09-10T00:00:00+02:00",
-      "end": "2026-12-03T00:00:00+01:00",
-      "all_day": false,
-      "location": "Recyclart",
-      "description": "Sewing club",
-      "url": "https://recyclart.be/fr/agenda/couture-club-7",
-      "image": "https://recyclart.be/build/assets/og-image-DfQ-XJK0.png",
-      "source": "Recyclart",
-      "uid": "14fc5c6426312ba8",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "workshops-creative",
-      "tags": [
-        "late-night",
-        "recurring",
-        "sustainability"
-      ]
-    },
-    {
-      "title": "Akira",
-      "start": "2026-09-10T16:20:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Animated action, drama, and fantasy film",
-      "url": "https://www.flagey.be/en/agenda/akira-f95q",
-      "image": null,
-      "source": "Flagey",
-      "uid": "afdaa2d75fd8466e",
-      "colour": "#1B6FE0",
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "Rose",
-      "start": "2026-09-10T18:40:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Cinema drama history",
-      "url": "https://www.flagey.be/en/agenda/rose-rc67",
-      "image": null,
-      "source": "Flagey",
-      "uid": "03b5f31d6d9bf5d8",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Brussels Philharmonic & Dirk Brossé - Star Wars: Return of the Jedi - In Concert",
-      "start": "2026-09-10T20:15:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 4",
-      "description": "Classical orchestra concert with film visuals",
-      "url": "https://www.flagey.be/en/agenda/brussels-philharmonic-and-dirk-brosse-dwx9",
-      "image": null,
-      "source": "Flagey",
-      "uid": "983f0eda864216e2",
-      "colour": "#1B6FE0",
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "LE MINISTÈRE",
-      "start": "2026-09-10T20:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Jazz&resist",
-      "description": "A Nu Jazz Exploration",
-      "url": "https://www.sounds.brussels/jazz-concert/le-ministere/",
-      "image": "https://www.sounds.brussels/wp-content/uploads/2026/07/sounds-social-1024x576-1.jpg",
-      "source": "Sounds Jazz Club",
-      "uid": "404f105188b4db02",
-      "colour": "#E8336D",
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "evening",
-        "live"
-      ]
-    },
-    {
-      "title": "Onoda: 10,000 Nights in the Jungle",
-      "start": "2026-09-10T20:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Cinema drama history",
-      "url": "https://www.flagey.be/en/agenda/onoda-10-000-nights-in-the-jungle-ljrg",
-      "image": null,
-      "source": "Flagey",
-      "uid": "0a4e1709a99c3303",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Bora Pianofabriek × Speakeasy × Jam Poetik",
-      "start": "2026-09-11T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Gemeenschapscentrum Pianofabriek vzw, Sint-Gillis",
-      "description": "Jazz and blues event",
-      "url": "https://www.pianofabriek.be/activiteiten/bora-pianofabriek-speakeasy-jam-poetik",
-      "image": null,
-      "source": "GC Pianofabriek",
-      "uid": "79a089f8bc59e57b",
-      "colour": "#1B6FE0",
-      "time_checked": 3,
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "evening",
-        "live"
-      ]
-    },
-    {
-      "title": "Recyclart Reopening",
-      "start": "2026-09-11T00:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Recyclart",
-      "description": "Vernissage, factory tours, creative meetings, concerts, DJ, food & drinks",
-      "url": "https://recyclart.be/fr/agenda/recyclart-reopening",
-      "image": "https://recyclart.be/build/assets/og-image-DfQ-XJK0.png",
-      "source": "Recyclart",
-      "uid": "472caa42eb1f1bfe",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "festivals-celebrations",
-      "tags": [
-        "food-drink",
-        "late-night",
-        "live"
-      ]
-    },
-    {
-      "title": "Exposition Bar Resto \"Cut Flowers Flavors\"",
-      "start": "2026-09-11T00:00:00+02:00",
-      "end": "2026-10-31T00:00:00+01:00",
-      "all_day": false,
-      "location": "Recyclart Bar Resto",
-      "description": "Exhibition",
-      "url": "https://recyclart.be/fr/agenda/exposition-bar-resto-saveur-fleurs-coupees",
-      "image": "https://recyclart.be/build/assets/og-image-DfQ-XJK0.png",
-      "source": "Recyclart",
-      "uid": "3b48a741d48d9a19",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "late-night",
-        "recurring"
-      ]
-    },
-    {
-      "title": "Fuse presents: 2HOT2PLAY & ALT8",
-      "start": "2026-09-11T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Fuse Brussels, Room 01",
-      "description": "2HOT2PLAY, ALT8, Maëlle, ATARAXY",
-      "url": "https://www.fuse.be/events/fuse-presents-2hot2play-alt8",
-      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788368690",
-      "source": "Fuse",
-      "uid": "a729cd04668ba94f",
-      "colour": "#C0392B",
-      "time_checked": 3,
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "dance",
-        "late-night",
-        "live"
-      ]
-    },
-    {
-      "title": "Manicomio, or the Pleasure of Being Useless",
-      "start": "2026-09-11T00:00:00+02:00",
-      "end": "2026-09-26T00:00:00+02:00",
-      "all_day": true,
-      "location": "Théâtre de Poche, 1a Chemin du Gymnase 1000 Bruxelles",
-      "description": "Patrick Masset / Théâtre d'1 jour",
-      "url": "https://poche.be/spectacles/2026-manicomio-ou-le-plaisir-detre-inutile",
-      "image": "https://poche.be/images/theatre-foyer.jpg",
-      "source": "Le Poche",
-      "uid": "5882ef98aaabd666",
-      "colour": "#8A7500",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "evening",
-        "live",
-        "recurring"
-      ]
-    },
-    {
-      "title": "Conversation: Ali Cherri and Helena Kritis at RendezVous",
-      "start": "2026-09-11T11:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "WIELS, Avenue Van Volxemlaan 354, 1190 Brussels",
-      "description": "Conversation event",
-      "url": "https://wiels.org/en/events/conversation-ali-cherri-and-helena-kritis-at-rendezvous",
-      "image": "https://wiels.org/actions/assets/generate-transform?transformId=13",
-      "source": "WIELS",
-      "uid": "df9bc8a95cf3b6d1",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "talks-discussions",
-      "tags": [
-        "live"
-      ]
-    },
-    {
-      "title": "Teenage Sex and Death at Camp Miasma",
-      "start": "2026-09-11T19:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Cinema comedy",
-      "url": "https://www.flagey.be/en/agenda/teenage-sex-and-death-at-camp-miasma-812s",
-      "image": null,
-      "source": "Flagey",
-      "uid": "9ddf7026431ffd3a",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "Storm Beasts",
       "start": "2026-09-11T20:00:00+02:00",
       "end": "2026-09-11T22:00:00+02:00",
@@ -1909,386 +654,6 @@
       "tags": [
         "evening",
         "live"
-      ]
-    },
-    {
-      "title": "Belgian National Orchestra, Halls & Vinnitskaya",
-      "start": "2026-09-11T20:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Bozar, Brussels",
-      "description": "Mahler's Titan. From 24 €",
-      "url": "https://www.bozar.be/en/calendar/belgian-national-orchestra-halls-vinnitskaya",
-      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
-      "source": "BOZAR",
-      "uid": "65779b9b45b4a2d7",
-      "colour": "#00937A",
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "evening",
-        "live"
-      ]
-    },
-    {
-      "title": "Brussels Philharmonic & Dirk Brossé - Star Wars: Return of the Jedi - In Concert",
-      "start": "2026-09-11T20:15:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 4",
-      "description": "Classical orchestra concert with film visuals",
-      "url": "https://www.flagey.be/en/agenda/brussels-philharmonic-and-dirk-brosse-dwx9",
-      "image": null,
-      "source": "Flagey",
-      "uid": "874c2347404526d8",
-      "colour": "#1B6FE0",
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "BRUNO CASTELLUCCI BELGIAN ALL-STARS 'LATIN LEGACY'",
-      "start": "2026-09-11T20:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Jazz&resist",
-      "description": "",
-      "url": "https://www.sounds.brussels/jazz-concert/bruno-castellucci-belgian-all-stars-latin-legacy/",
-      "image": "https://www.sounds.brussels/wp-content/uploads/2026/07/sounds-social-1024x576-1.jpg",
-      "source": "Sounds Jazz Club",
-      "uid": "85c563ad474e99a9",
-      "colour": "#E8336D",
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "evening",
-        "live"
-      ]
-    },
-    {
-      "title": "The Unknown",
-      "start": "2026-09-11T21:05:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Cinema drama",
-      "url": "https://www.flagey.be/en/agenda/the-unknown-n9hf",
-      "image": null,
-      "source": "Flagey",
-      "uid": "c82fcf6fdaab9d4c",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Bora Pianofabriek × Panorama Brasilis",
-      "start": "2026-09-12T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Gemeenschapscentrum Pianofabriek vzw, Sint-Gillis",
-      "description": "Free event",
-      "url": "https://www.pianofabriek.be/activiteiten/bora-pianofabriek-panorama-brasilis",
-      "image": null,
-      "source": "GC Pianofabriek",
-      "uid": "f499a04c7b67c60f",
-      "colour": "#1B6FE0",
-      "time_checked": 3,
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "drop-in",
-        "evening",
-        "free",
-        "live"
-      ]
-    },
-    {
-      "title": "Cinéclube Panorama Brasilis: Bonds of the Matriarch",
-      "start": "2026-09-12T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Gemeenschapscentrum Pianofabriek vzw, Sint-Gillis",
-      "description": "Documentary. Free event",
-      "url": "https://www.pianofabriek.be/activiteiten/cineclube-panorama-brasilis-bonds-matriarch",
-      "image": null,
-      "source": "GC Pianofabriek",
-      "uid": "9ff417909195b5af",
-      "colour": "#1B6FE0",
-      "time_checked": 3,
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "drop-in",
-        "free",
-        "live"
-      ]
-    },
-    {
-      "title": "Zazaclub w/ Klein & XT1ANA (live) + Shauwdii + Soa420+ iced lattina + VINESSETT",
-      "start": "2026-09-12T00:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Recyclart",
-      "description": "Live music and DJ event",
-      "url": "https://recyclart.be/fr/agenda/zazaclub-w-klein-shauwdii-mystique-vinessett-b2b-iced-lattina",
-      "image": "https://recyclart.be/build/assets/og-image-DfQ-XJK0.png",
-      "source": "Recyclart",
-      "uid": "e7a93911103bbc97",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "dance",
-        "late-night",
-        "live"
-      ]
-    },
-    {
-      "title": "Fuse presents: Andy C",
-      "start": "2026-09-12T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Fuse Brussels, Room 01",
-      "description": "Andy C, FarFlow, Cedex & Higher Underground, Bredren, Boycot, Sassy Girl",
-      "url": "https://www.fuse.be/events/fuse-presents-andy-c",
-      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788368690",
-      "source": "Fuse",
-      "uid": "1181c38f8dea9464",
-      "colour": "#C0392B",
-      "time_checked": 3,
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "dance",
-        "late-night",
-        "live"
-      ]
-    },
-    {
-      "title": "Miriam Stoney: Ununits of Gravitas",
-      "start": "2026-09-12T11:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "WIELS, Avenue Van Volxemlaan 354, 1190 Brussels",
-      "description": "Performance event",
-      "url": "https://wiels.org/en/events/performance-ununits-of-gravitas-by-miriam-stoney-2",
-      "image": "https://wiels.org/actions/assets/generate-transform?transformId=13",
-      "source": "WIELS",
-      "uid": "8726c3f218716f42",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "live"
-      ]
-    },
-    {
-      "title": "F*CK LOLITA",
-      "start": "2026-09-12T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "KVS",
-      "description": "Het TheaterFestival 2026. Het Zuidelijk Toneel. Theater.",
-      "url": "https://www.kvs.be/fr/Evenement/f-ck-lolita-2",
-      "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
-      "source": "KVS",
-      "uid": "377ba47c4f24e78a",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "evening",
-        "live"
-      ]
-    },
-    {
-      "title": "Copyriot",
-      "start": "2026-09-12T00:00:00+02:00",
-      "end": "2027-05-29T00:00:00+02:00",
-      "all_day": true,
-      "location": "KVS",
-      "description": "KRAPP / KVS. Language: NL. Subtitles: FR, EN",
-      "url": "https://www.kvs.be/fr/Evenement/copyriot-2",
-      "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
-      "source": "KVS",
-      "uid": "a7c84266e72d54f6",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "live",
-        "recurring"
-      ]
-    },
-    {
-      "title": "Rose",
-      "start": "2026-09-12T14:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Cinema drama history",
-      "url": "https://www.flagey.be/en/agenda/rose-rc67",
-      "image": null,
-      "source": "Flagey",
-      "uid": "212411e81413bae0",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": []
-    },
-    {
-      "title": "Lola",
-      "start": "2026-09-12T17:35:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Cinema drama",
-      "url": "https://www.flagey.be/en/agenda/lola-1t5r",
-      "image": null,
-      "source": "Flagey",
-      "uid": "e4a83fd7d78840da",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "One Sound One Pulse",
-      "start": "2026-09-12T20:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Jazz&resist",
-      "description": "ACOUSTIC AFROBLEND - DJ SET - REGGAE",
-      "url": "https://www.sounds.brussels/jazz-concert/pee-diamond-diwane-band/",
-      "image": "https://www.sounds.brussels/wp-content/uploads/2026/07/sounds-social-1024x576-1.jpg",
-      "source": "Sounds Jazz Club",
-      "uid": "96f9dc340ac491da",
-      "colour": "#E8336D",
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "dance",
-        "evening",
-        "live"
-      ]
-    },
-    {
-      "title": "The Odyssey",
-      "start": "2026-09-12T20:45:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Action, adventure film",
-      "url": "https://www.flagey.be/en/agenda/the-odyssey-56ln",
-      "image": null,
-      "source": "Flagey",
-      "uid": "67b379dd9774ddf8",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Voodoo Village x BCCO afterparty",
-      "start": "2026-09-13T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Fuse Brussels, Room 01 & Motion",
-      "description": "future.666, DJ Hyperdrive, Miamor, Rare Mamba, Nico Morano",
-      "url": "https://www.fuse.be/events/voodoo-village-afterparty",
-      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788368690",
-      "source": "Fuse",
-      "uid": "b8f4781c2fbe9cfa",
-      "colour": "#C0392B",
-      "time_checked": 3,
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "dance",
-        "late-night"
-      ]
-    },
-    {
-      "title": "The Unknown",
-      "start": "2026-09-13T14:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Cinema drama",
-      "url": "https://www.flagey.be/en/agenda/the-unknown-n9hf",
-      "image": null,
-      "source": "Flagey",
-      "uid": "b141f1b878a1d2ac",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": []
-    },
-    {
-      "title": "TRINO COLECTIVO",
-      "start": "2026-09-13T17:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Jazz&resist",
-      "description": "Traditional Chilean Cueca with a Contemporary Brussels Twist",
-      "url": "https://www.sounds.brussels/jazz-concert/trino-colectivo/",
-      "image": "https://www.sounds.brussels/wp-content/uploads/2026/07/sounds-social-1024x576-1.jpg",
-      "source": "Sounds Jazz Club",
-      "uid": "40f294a5c465415c",
-      "colour": "#E8336D",
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "dance",
-        "evening",
-        "live"
-      ]
-    },
-    {
-      "title": "Akira",
-      "start": "2026-09-13T18:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Animated action, drama, and fantasy film",
-      "url": "https://www.flagey.be/en/agenda/akira-f95q",
-      "image": null,
-      "source": "Flagey",
-      "uid": "8d4688624c589124",
-      "colour": "#1B6FE0",
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Teenage Sex and Death at Camp Miasma",
-      "start": "2026-09-13T20:50:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Cinema comedy",
-      "url": "https://www.flagey.be/en/agenda/teenage-sex-and-death-at-camp-miasma-812s",
-      "image": null,
-      "source": "Flagey",
-      "uid": "fe888303829cf45a",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "evening"
       ]
     },
     {
@@ -2371,26 +736,6 @@
       ]
     },
     {
-      "title": "Folk Dance Level 1 Beginners",
-      "start": "2026-09-15T00:00:00+02:00",
-      "end": "2026-12-15T00:00:00+01:00",
-      "all_day": true,
-      "location": "Gemeenschapscentrum Pianofabriek vzw, Sint-Gillis",
-      "description": "Folk and world dance, for ages 18-99",
-      "url": "https://www.pianofabriek.be/activiteiten/folkdans-niveau-1-beginners",
-      "image": null,
-      "source": "GC Pianofabriek",
-      "uid": "f9261825d2fea01b",
-      "colour": "#1B6FE0",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "dance",
-        "recurring"
-      ]
-    },
-    {
       "title": "6:30pm La Vieille Chéchette Choir",
       "start": "2026-09-16T00:00:00+02:00",
       "end": "2026-09-16T00:00:00+02:00",
@@ -2412,42 +757,6 @@
       ]
     },
     {
-      "title": "STADPLURAAL | Hostile Architecture : Walking over, under, and through – guided tour w/ Stripping Architecture",
-      "start": "2026-09-16T00:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Recyclart",
-      "description": "",
-      "url": "https://recyclart.be/fr/agenda/stadpluraal-hostile-architecture-walking-over-under-and-through-guided-tour",
-      "image": "https://recyclart.be/build/assets/og-image-DfQ-XJK0.png",
-      "source": "Recyclart",
-      "uid": "f6fe5798f2ae3a50",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "category": "other",
-      "tags": [
-        "late-night"
-      ]
-    },
-    {
-      "title": "Lola",
-      "start": "2026-09-16T17:15:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Cinema drama",
-      "url": "https://www.flagey.be/en/agenda/lola-1t5r",
-      "image": null,
-      "source": "Flagey",
-      "uid": "f52bba806c6ebfbb",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "Women's Kiaï",
       "start": "2026-09-16T19:30:00+02:00",
       "end": "2026-09-16T22:00:00+02:00",
@@ -2464,81 +773,6 @@
       "tags": [
         "evening",
         "live"
-      ]
-    },
-    {
-      "title": "1060 Pitch#7 Gendered Perspectives",
-      "start": "2026-09-17T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Gemeenschapscentrum Pianofabriek vzw, Sint-Gillis",
-      "description": "Multiple art forms. Free event",
-      "url": "https://www.pianofabriek.be/activiteiten/1060-pitch7-gendered-perspectives",
-      "image": null,
-      "source": "GC Pianofabriek",
-      "uid": "a877e76cd0c31ec0",
-      "colour": "#1B6FE0",
-      "time_checked": 3,
-      "translated": true,
-      "category": "talks-discussions",
-      "tags": [
-        "drop-in",
-        "free",
-        "live"
-      ]
-    },
-    {
-      "title": "Look Who's Talking: Annaïk Lou Pitteloud & Maxime Perriot",
-      "start": "2026-09-17T11:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "WIELS, Avenue Van Volxemlaan 354, 1190 Brussels",
-      "description": "Guided tour event",
-      "url": "https://wiels.org/en/events/look-whos-talking-annaik-lou-pitteloud-maxime-perriot",
-      "image": "https://wiels.org/actions/assets/generate-transform?transformId=13",
-      "source": "WIELS",
-      "uid": "0038fc11c20ba076",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "talks-discussions",
-      "tags": []
-    },
-    {
-      "title": "A NIGHT DEDICATED TO CHICK COREA",
-      "start": "2026-09-17T20:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Jazz&resist",
-      "description": "TRIBUTE TO CHICK COREA",
-      "url": "https://www.sounds.brussels/jazz-concert/a-night-dedicated-to-chick-corea/",
-      "image": "https://www.sounds.brussels/wp-content/uploads/2026/07/sounds-social-1024x576-1.jpg",
-      "source": "Sounds Jazz Club",
-      "uid": "fc0107c16996e880",
-      "colour": "#E8336D",
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "evening",
-        "live"
-      ]
-    },
-    {
-      "title": "Dark Diamond",
-      "start": "2026-09-17T21:05:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Cinema drama",
-      "url": "https://www.flagey.be/en/agenda/dark-diamond-f5pq",
-      "image": null,
-      "source": "Flagey",
-      "uid": "4b954a45ec0115e9",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "evening"
       ]
     },
     {
@@ -2563,152 +797,6 @@
       ]
     },
     {
-      "title": "Re#encounter Release party presents: angels and demons at play",
-      "start": "2026-09-18T00:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Recyclart",
-      "description": "",
-      "url": "https://recyclart.be/fr/agenda/release-party-re-encounter",
-      "image": "https://recyclart.be/build/assets/og-image-DfQ-XJK0.png",
-      "source": "Recyclart",
-      "uid": "6720a9c3d804c5f2",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "category": "other",
-      "tags": [
-        "late-night"
-      ]
-    },
-    {
-      "title": "Fuse presents: SESH w/ Clara Cuvé & PETERBLUE",
-      "start": "2026-09-18T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Fuse Brussels, Room 01",
-      "description": "Clara Cuvé, PETERBLUE, JEKKAMAÏ, Holiness",
-      "url": "https://www.fuse.be/events/fuse-presents-sesh-w-clara-cuvé-peterblue",
-      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788368690",
-      "source": "Fuse",
-      "uid": "eb789e8673c2f646",
-      "colour": "#C0392B",
-      "time_checked": 3,
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "dance",
-        "live"
-      ]
-    },
-    {
-      "title": "Heritage Days: the Blomme Building",
-      "start": "2026-09-18T11:00:00+02:00",
-      "end": "2026-09-19T00:00:00+02:00",
-      "all_day": false,
-      "location": "WIELS, Avenue Van Volxemlaan 354, 1190 Brussels",
-      "description": "Guided tour of the Blomme Building",
-      "url": "https://wiels.org/en/events/journees-du-patrimoine-visites-guides-du-batiment-blomme",
-      "image": "https://wiels.org/actions/assets/generate-transform?transformId=13",
-      "source": "WIELS",
-      "uid": "8324ab3846d3b783",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "talks-discussions",
-      "tags": []
-    },
-    {
-      "title": "Losing Daylight: Short Films and Concert",
-      "start": "2026-09-18T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Gemeenschapscentrum Ten Weyngaert, Vorst",
-      "description": "Short films and concert",
-      "url": "https://www.tenweyngaert.be/activiteiten/losing-daylight-kortfilms-en-concert",
-      "image": null,
-      "source": "GC Ten Weyngaert",
-      "uid": "fbf451977f305cee",
-      "colour": "#0F8CA8",
-      "time_checked": 3,
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "live"
-      ]
-    },
-    {
-      "title": "For Blinky Palermo",
-      "start": "2026-09-18T00:00:00+02:00",
-      "end": "2026-09-19T00:00:00+02:00",
-      "all_day": true,
-      "location": "KVS",
-      "description": "Marc Vanrunxt & Georgia Vardarou / Kunst/Werk",
-      "url": "https://www.kvs.be/fr/Evenement/for-blinky-palermo-2",
-      "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
-      "source": "KVS",
-      "uid": "d7109050856c0762",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "live"
-      ]
-    },
-    {
-      "title": "Rose",
-      "start": "2026-09-18T17:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Drama and history film",
-      "url": "https://www.flagey.be/en/agenda/rose-rc67",
-      "image": null,
-      "source": "Flagey",
-      "uid": "71583e0d81b31f21",
-      "colour": "#1B6FE0",
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Akira",
-      "start": "2026-09-18T18:50:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Animated action, drama, and fantasy film",
-      "url": "https://www.flagey.be/en/agenda/akira-f95q",
-      "image": null,
-      "source": "Flagey",
-      "uid": "ad842f70cfa009aa",
-      "colour": "#1B6FE0",
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Tribute to Mac Miller - Beats Night Orchestra",
-      "start": "2026-09-18T19:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Jazz&resist",
-      "description": "Sold out",
-      "url": "https://www.sounds.brussels/jazz-concert/tribute-to-mac-miller-beats-night-orchestra/",
-      "image": "https://www.sounds.brussels/wp-content/uploads/2026/07/sounds-social-1024x576-1.jpg",
-      "source": "Sounds Jazz Club",
-      "uid": "1bf2ed73c3a68c5a",
-      "colour": "#E8336D",
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "evening",
-        "live"
-      ]
-    },
-    {
       "title": "My Little Big Chop",
       "start": "2026-09-18T20:00:00+02:00",
       "end": "2026-09-18T22:00:00+02:00",
@@ -2728,24 +816,6 @@
       ]
     },
     {
-      "title": "Teenage Sex and Death at Camp Miasma",
-      "start": "2026-09-18T21:10:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Cinema comedy",
-      "url": "https://www.flagey.be/en/agenda/teenage-sex-and-death-at-camp-miasma-812s",
-      "image": null,
-      "source": "Flagey",
-      "uid": "3aec2eaf6200af10",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "11am Literary Encounter with Romain Lemire and Thomas Prédour",
       "start": "2026-09-19T00:00:00+02:00",
       "end": "2026-09-19T00:00:00+02:00",
@@ -2762,228 +832,6 @@
       "category": "talks-discussions",
       "tags": [
         "live"
-      ]
-    },
-    {
-      "title": "Fuse presents: PACT (Joachim Pastor + Joris Delacroix + Teho)",
-      "start": "2026-09-19T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Fuse Brussels, Room 01",
-      "description": "PACT (live), Romain Garcia (live)",
-      "url": "https://www.fuse.be/events/fuse-presents-pact-joachim-pastor-joris-delacroix-teho",
-      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788368690",
-      "source": "Fuse",
-      "uid": "0d085f1c97d74a1e",
-      "colour": "#C0392B",
-      "time_checked": 3,
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "dance",
-        "live"
-      ]
-    },
-    {
-      "title": "Heritage Days",
-      "start": "2026-09-19T00:00:00+02:00",
-      "end": "2026-09-20T00:00:00+02:00",
-      "all_day": true,
-      "location": "WIELS+BRASS+Marais",
-      "description": "Immersive tour",
-      "url": "https://www.lebrass.be/event/heritage-days/",
-      "image": "https://www.lebrass.be/wp-content/uploads/2025/12/rq-181016-BRASS-ext-05-04-1200-min-1024x576.jpg",
-      "source": "BRASS",
-      "uid": "2feed3aa81f093c2",
-      "colour": "#00937A",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "outdoor"
-      ]
-    },
-    {
-      "title": "11.11.11-Vorst: 'Pesta Babi', Documentary and Discussion",
-      "start": "2026-09-19T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Gemeenschapscentrum Ten Weyngaert, Vorst",
-      "description": "Documentary and discussion",
-      "url": "https://www.tenweyngaert.be/activiteiten/111111-vorst-pesta-babi-documentaire-en-nabespreking",
-      "image": null,
-      "source": "GC Ten Weyngaert",
-      "uid": "ac866f26123a018e",
-      "colour": "#0F8CA8",
-      "time_checked": 3,
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "live"
-      ]
-    },
-    {
-      "title": "Cry (no) more",
-      "start": "2026-09-19T00:00:00+02:00",
-      "end": "2027-05-01T00:00:00+02:00",
-      "all_day": true,
-      "location": "KVS",
-      "description": "Dina Dooreman / KVS. Mixed media.",
-      "url": "https://www.kvs.be/fr/Evenement/cry-no-more-2",
-      "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
-      "source": "KVS",
-      "uid": "d09e20e7f053cc6d",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "live",
-        "recurring"
-      ]
-    },
-    {
-      "title": "★ Joyful Opening ★",
-      "start": "2026-09-19T14:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "BRASS",
-      "description": "Music · hip hop dance · performances · games and more",
-      "url": "https://www.lebrass.be/event/jo2026/",
-      "image": "https://www.lebrass.be/wp-content/uploads/2025/12/rq-181016-BRASS-ext-05-04-1200-min-1024x576.jpg",
-      "source": "BRASS",
-      "uid": "f72b5d559a491902",
-      "colour": "#00937A",
-      "translated": true,
-      "category": "festivals-celebrations",
-      "tags": [
-        "dance",
-        "family",
-        "live"
-      ]
-    },
-    {
-      "title": "The Unknown",
-      "start": "2026-09-19T16:40:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Cinema drama",
-      "url": "https://www.flagey.be/en/agenda/the-unknown-n9hf",
-      "image": null,
-      "source": "Flagey",
-      "uid": "e3db61835b373f88",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": []
-    },
-    {
-      "title": "Aboubakar Traoré & Guillaume Codutti Meet Taitamuki",
-      "start": "2026-09-19T20:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Jazz&resist",
-      "description": "West African meets Latin traditions",
-      "url": "https://www.sounds.brussels/jazz-concert/aboubakar-traore-guillaume-codutti-rencontrent-taitamuki/",
-      "image": "https://www.sounds.brussels/wp-content/uploads/2026/07/sounds-social-1024x576-1.jpg",
-      "source": "Sounds Jazz Club",
-      "uid": "24e9822930b526c9",
-      "colour": "#E8336D",
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "evening",
-        "live"
-      ]
-    },
-    {
-      "title": "Look Who's Talking: Finissage Tour with Pauline Hatzigeorgiou",
-      "start": "2026-09-20T11:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "WIELS, Avenue Van Volxemlaan 354, 1190 Brussels",
-      "description": "Guided tour in English",
-      "url": "https://wiels.org/en/events/look-whos-talking-pauline-hatzigeorgiou-3-2",
-      "image": "https://wiels.org/actions/assets/generate-transform?transformId=13",
-      "source": "WIELS",
-      "uid": "466c04c4d642f452",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "talks-discussions",
-      "tags": []
-    },
-    {
-      "title": "Closing Reception TW Photo Club Exhibition: Photo Flea Market",
-      "start": "2026-09-20T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Gemeenschapscentrum Ten Weyngaert, Vorst",
-      "description": "Photo club exhibition closing and photo brocante",
-      "url": "https://www.tenweyngaert.be/activiteiten/finissage-expo-tw-fotoclub-fotobrocante",
-      "image": null,
-      "source": "GC Ten Weyngaert",
-      "uid": "c79507c2711b942e",
-      "colour": "#0F8CA8",
-      "time_checked": 3,
-      "translated": true,
-      "category": "markets-fairs",
-      "tags": [
-        "drop-in"
-      ]
-    },
-    {
-      "title": "Half & Half - Sunday Pop Dance Party",
-      "start": "2026-09-20T16:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Jazz&resist",
-      "description": "",
-      "url": "https://www.sounds.brussels/jazz-concert/half-%c2%a7-half-bal-pop-du-dimanche-4/",
-      "image": "https://www.sounds.brussels/wp-content/uploads/2026/07/sounds-social-1024x576-1.jpg",
-      "source": "Sounds Jazz Club",
-      "uid": "b48318bc2fb50f18",
-      "colour": "#E8336D",
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "dance",
-        "live"
-      ]
-    },
-    {
-      "title": "Rose",
-      "start": "2026-09-20T19:05:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Drama and history film",
-      "url": "https://www.flagey.be/en/agenda/rose-rc67",
-      "image": null,
-      "source": "Flagey",
-      "uid": "0787ba9a560245a6",
-      "colour": "#1B6FE0",
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Akira",
-      "start": "2026-09-20T21:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Animated action, drama, and fantasy film",
-      "url": "https://www.flagey.be/en/agenda/akira-f95q",
-      "image": null,
-      "source": "Flagey",
-      "uid": "2c5fd2bc12da8746",
-      "colour": "#1B6FE0",
-      "category": "other",
-      "tags": [
-        "evening"
       ]
     },
     {
@@ -3070,108 +918,6 @@
       ]
     },
     {
-      "title": "Circus Skills for Ages 4-5",
-      "start": "2026-09-23T00:00:00+02:00",
-      "end": "2026-12-16T00:00:00+01:00",
-      "all_day": true,
-      "location": "Gemeenschapscentrum Pianofabriek vzw, Sint-Gillis",
-      "description": "Acrobatics, gymnastics, dance and martial arts for ages 4-5",
-      "url": "https://www.pianofabriek.be/activiteiten/circomotoriek-4-5-jaar",
-      "image": null,
-      "source": "GC Pianofabriek",
-      "uid": "bba6e402389cb872",
-      "colour": "#1B6FE0",
-      "time_checked": 3,
-      "translated": true,
-      "category": "family-children",
-      "tags": [
-        "dance",
-        "kids",
-        "recurring"
-      ]
-    },
-    {
-      "title": "Everyone's an Actor Ages 8-11",
-      "start": "2026-09-23T00:00:00+02:00",
-      "end": "2027-05-08T00:00:00+02:00",
-      "all_day": true,
-      "location": "Gemeenschapscentrum Pianofabriek vzw, Sint-Gillis",
-      "description": "Theater for ages 8-11",
-      "url": "https://www.pianofabriek.be/activiteiten/allemaal-acteur-8-11j",
-      "image": null,
-      "source": "GC Pianofabriek",
-      "uid": "c46aa53ee473e3a5",
-      "colour": "#1B6FE0",
-      "time_checked": 3,
-      "translated": true,
-      "category": "family-children",
-      "tags": [
-        "kids",
-        "live",
-        "recurring"
-      ]
-    },
-    {
-      "title": "Customisation Workshop ★ Fauteuil roulant, Béquilles, Cannes ★ w/ Fogo",
-      "start": "2026-09-23T00:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Recyclart",
-      "description": "",
-      "url": "https://recyclart.be/fr/agenda/customisation-workshop-fauteuil-roulant-bequilles-cannes",
-      "image": "https://recyclart.be/build/assets/og-image-DfQ-XJK0.png",
-      "source": "Recyclart",
-      "uid": "88ffe1a846a3bbf2",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "category": "other",
-      "tags": [
-        "late-night"
-      ]
-    },
-    {
-      "title": "Sewing Drop-in Hours",
-      "start": "2026-09-23T00:00:00+02:00",
-      "end": "2026-12-16T00:00:00+01:00",
-      "all_day": false,
-      "location": "Recyclart",
-      "description": "Sewing permanence",
-      "url": "https://recyclart.be/fr/agenda/permanence-couture-1",
-      "image": "https://recyclart.be/build/assets/og-image-DfQ-XJK0.png",
-      "source": "Recyclart",
-      "uid": "08559cd85a493a45",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "workshops-creative",
-      "tags": [
-        "drop-in",
-        "late-night",
-        "recurring",
-        "sustainability"
-      ]
-    },
-    {
-      "title": "Imprisoned Gods",
-      "start": "2026-09-23T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "KVS",
-      "description": "Lukah Katangila / Ultima Vez. Dance.",
-      "url": "https://www.kvs.be/fr/Evenement/imprisoned-gods-2",
-      "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
-      "source": "KVS",
-      "uid": "20d6ac9fc7a0aaff",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "dance",
-        "live"
-      ]
-    },
-    {
       "title": "7:30pm Friends of Le Monde Diplomatique",
       "start": "2026-09-24T00:00:00+02:00",
       "end": "2026-09-24T00:00:00+02:00",
@@ -3192,230 +938,6 @@
       ]
     },
     {
-      "title": "1060 Pitch #8 Ecosystems",
-      "start": "2026-09-24T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Gemeenschapscentrum Pianofabriek vzw, Sint-Gillis",
-      "description": "Multiple art forms. Free event",
-      "url": "https://www.pianofabriek.be/activiteiten/1060-pitch8-ecosystems",
-      "image": null,
-      "source": "GC Pianofabriek",
-      "uid": "49e0a8bcc622617c",
-      "colour": "#1B6FE0",
-      "time_checked": 3,
-      "translated": true,
-      "category": "talks-discussions",
-      "tags": [
-        "drop-in",
-        "free",
-        "live"
-      ]
-    },
-    {
-      "title": "Circus for Ages 8-11",
-      "start": "2026-09-24T00:00:00+02:00",
-      "end": "2027-05-27T00:00:00+02:00",
-      "all_day": true,
-      "location": "Gemeenschapscentrum Pianofabriek vzw, Sint-Gillis",
-      "description": "Acrobatics, gymnastics, dance and martial arts for ages 8-11",
-      "url": "https://www.pianofabriek.be/activiteiten/circus-8-11-jaar",
-      "image": null,
-      "source": "GC Pianofabriek",
-      "uid": "6d524653a65d3639",
-      "colour": "#1B6FE0",
-      "time_checked": 3,
-      "translated": true,
-      "category": "family-children",
-      "tags": [
-        "dance",
-        "kids",
-        "recurring"
-      ]
-    },
-    {
-      "title": "Circus for Ages 6-7",
-      "start": "2026-09-24T00:00:00+02:00",
-      "end": "2027-05-27T00:00:00+02:00",
-      "all_day": true,
-      "location": "Gemeenschapscentrum Pianofabriek vzw, Sint-Gillis",
-      "description": "Acrobatics, gymnastics, dance and martial arts for ages 6-7",
-      "url": "https://www.pianofabriek.be/activiteiten/circus-6-7-jaar",
-      "image": null,
-      "source": "GC Pianofabriek",
-      "uid": "a977796cc3a90e32",
-      "colour": "#1B6FE0",
-      "time_checked": 3,
-      "translated": true,
-      "category": "family-children",
-      "tags": [
-        "dance",
-        "kids",
-        "recurring"
-      ]
-    },
-    {
-      "title": "Haunted Folklore w/ Phantom Wizard + Ghazal Faghihi",
-      "start": "2026-09-24T00:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Recyclart",
-      "description": "",
-      "url": "https://recyclart.be/fr/agenda/haunted-folklore-3",
-      "image": "https://recyclart.be/build/assets/og-image-DfQ-XJK0.png",
-      "source": "Recyclart",
-      "uid": "32cba8eb81cdd5df",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "category": "other",
-      "tags": [
-        "late-night"
-      ]
-    },
-    {
-      "title": "World Kitchen: Japan",
-      "start": "2026-09-24T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Gemeenschapscentrum Ten Weyngaert, Vorst",
-      "description": "Cooking workshop for ages 18-99",
-      "url": "https://www.tenweyngaert.be/activiteiten/wereldkeuken-japan",
-      "image": null,
-      "source": "GC Ten Weyngaert",
-      "uid": "e14b81ae940cd1c0",
-      "colour": "#0F8CA8",
-      "time_checked": 3,
-      "translated": true,
-      "category": "food-drink",
-      "tags": [
-        "food-drink"
-      ]
-    },
-    {
-      "title": "Rose",
-      "start": "2026-09-24T17:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Drama and history film",
-      "url": "https://www.flagey.be/en/agenda/rose-rc67",
-      "image": null,
-      "source": "Flagey",
-      "uid": "178209518e4dc753",
-      "colour": "#1B6FE0",
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Japan Night - From Jazz to Funk",
-      "start": "2026-09-24T20:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Jazz&resist",
-      "description": "",
-      "url": "https://www.sounds.brussels/jazz-concert/japan-night-from-jazz-to-funk/",
-      "image": "https://www.sounds.brussels/wp-content/uploads/2026/07/sounds-social-1024x576-1.jpg",
-      "source": "Sounds Jazz Club",
-      "uid": "da961274c474403e",
-      "colour": "#E8336D",
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "dance",
-        "evening",
-        "live"
-      ]
-    },
-    {
-      "title": "Akira",
-      "start": "2026-09-24T21:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Animated action, drama, and fantasy film",
-      "url": "https://www.flagey.be/en/agenda/akira-f95q",
-      "image": null,
-      "source": "Flagey",
-      "uid": "119b5c1f39e58336",
-      "colour": "#1B6FE0",
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Exheat presents : Truck Lips Premiere w/ Deli Girls + Le Kaiju + Djabaldjass",
-      "start": "2026-09-25T00:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Recyclart",
-      "description": "",
-      "url": "https://recyclart.be/fr/agenda/exheat-presents-truck-lips-premiere",
-      "image": "https://recyclart.be/build/assets/og-image-DfQ-XJK0.png",
-      "source": "Recyclart",
-      "uid": "dfa52ad7e00ec60b",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "category": "other",
-      "tags": [
-        "late-night"
-      ]
-    },
-    {
-      "title": "Don Vitalski's Legendary Tuesday Club",
-      "start": "2026-09-25T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Gemeenschapscentrum Ten Weyngaert, Vorst",
-      "description": "Theater performance",
-      "url": "https://www.tenweyngaert.be/activiteiten/don-vitalskis-legendarische-dinsdagclub",
-      "image": null,
-      "source": "GC Ten Weyngaert",
-      "uid": "29ca1929ae85beb0",
-      "colour": "#0F8CA8",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "live"
-      ]
-    },
-    {
-      "title": "Cour Klassiek 2026",
-      "start": "2026-09-25T00:00:00+02:00",
-      "end": "2026-09-26T00:00:00+02:00",
-      "all_day": true,
-      "location": "Gemeenschapscentrum Ten Weyngaert vzw, Vorst",
-      "description": "Gratis klassieke muziek",
-      "url": "https://www.tenweyngaert.be/activiteiten/cour-klassiek-2026",
-      "image": null,
-      "source": "GC Ten Weyngaert",
-      "uid": "255dbed7968181a8",
-      "colour": "#0F8CA8",
-      "time_checked": 3,
-      "category": "other",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "title": "Akira",
-      "start": "2026-09-25T16:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Animated action, drama, and fantasy film",
-      "url": "https://www.flagey.be/en/agenda/akira-f95q",
-      "image": null,
-      "source": "Flagey",
-      "uid": "c7db3482420027b1",
-      "colour": "#1B6FE0",
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "From O to A",
       "start": "2026-09-25T20:00:00+02:00",
       "end": "2026-09-25T22:00:00+02:00",
@@ -3431,86 +953,6 @@
       "category": "music",
       "tags": [
         "evening",
-        "live"
-      ]
-    },
-    {
-      "title": "YIORGOS BERERIS TRIO",
-      "start": "2026-09-25T20:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Sounds Brussels",
-      "description": "Mediterranean Jazz Journey",
-      "url": "https://www.sounds.brussels/jazz-concert/yiorgos-bereris-trio/",
-      "image": "https://www.sounds.brussels/wp-content/uploads/2026/07/sounds-social-1024x576-1.jpg",
-      "source": "Sounds Jazz Club",
-      "uid": "d491a368f21d67a3",
-      "colour": "#E8336D",
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "evening",
-        "live"
-      ]
-    },
-    {
-      "title": "Musical Awakening Ages 3.5-6",
-      "start": "2026-09-26T00:00:00+02:00",
-      "end": "2027-06-05T00:00:00+02:00",
-      "all_day": true,
-      "location": "Gemeenschapscentrum Pianofabriek vzw, Sint-Gillis",
-      "description": "Jazz and blues for ages 3-6",
-      "url": "https://www.pianofabriek.be/activiteiten/musical-awakening-35j-6j",
-      "image": null,
-      "source": "GC Pianofabriek",
-      "uid": "5530130fceb72fef",
-      "colour": "#1B6FE0",
-      "time_checked": 3,
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "kids",
-        "recurring"
-      ]
-    },
-    {
-      "title": "Musical Awakening Ages 0-3 with Parents",
-      "start": "2026-09-26T00:00:00+02:00",
-      "end": "2027-06-05T00:00:00+02:00",
-      "all_day": true,
-      "location": "Gemeenschapscentrum Pianofabriek vzw, Sint-Gillis",
-      "description": "Jazz and blues for ages 0-3",
-      "url": "https://www.pianofabriek.be/activiteiten/musical-awakening-0j-3j-ouders",
-      "image": null,
-      "source": "GC Pianofabriek",
-      "uid": "d14460d23adaeeee",
-      "colour": "#1B6FE0",
-      "time_checked": 3,
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "family",
-        "kids",
-        "recurring"
-      ]
-    },
-    {
-      "title": "Fuse presents: Polar Inertia (live) & Luigi Tozzi (live)",
-      "start": "2026-09-26T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Fuse Brussels, Room 01",
-      "description": "Featuring Polar Inertia (LIVE), Luigi Tozzi (LIVE), Zara, Yogg, T.A.M.22",
-      "url": "https://www.fuse.be/events/fuse-presents-polar-inertia-live-luigi-tozzi-live",
-      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788368690",
-      "source": "Fuse",
-      "uid": "a2b28632df1d2144",
-      "colour": "#C0392B",
-      "time_checked": 3,
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "dance",
         "live"
       ]
     },
@@ -3535,25 +977,6 @@
       ]
     },
     {
-      "title": "PASATEMPO REBETIKO",
-      "start": "2026-09-26T20:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Sounds Brussels",
-      "description": "",
-      "url": "https://www.sounds.brussels/jazz-concert/pasatempo-rebetiko-jam/",
-      "image": "https://www.sounds.brussels/wp-content/uploads/2026/07/sounds-social-1024x576-1.jpg",
-      "source": "Sounds Jazz Club",
-      "uid": "13a8662db0fa1c0f",
-      "colour": "#E8336D",
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "evening",
-        "live"
-      ]
-    },
-    {
       "title": "Two Minute Chance",
       "start": "2026-09-27T15:00:00+02:00",
       "end": "2026-09-27T16:30:00+02:00",
@@ -3569,58 +992,6 @@
       "category": "music",
       "tags": [
         "live"
-      ]
-    },
-    {
-      "title": "Rose",
-      "start": "2026-09-27T16:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Drama and history film",
-      "url": "https://www.flagey.be/en/agenda/rose-rc67",
-      "image": null,
-      "source": "Flagey",
-      "uid": "0f28b49810d89077",
-      "colour": "#1B6FE0",
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "ALCHEME & THE BOSS BROTHERS",
-      "start": "2026-09-27T17:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Sounds Brussels",
-      "description": "Poetic, eclectic, rock",
-      "url": "https://www.sounds.brussels/jazz-concert/alcheme-the-boss-brothers/",
-      "image": "https://www.sounds.brussels/wp-content/uploads/2026/07/sounds-social-1024x576-1.jpg",
-      "source": "Sounds Jazz Club",
-      "uid": "294677e597a0a0c6",
-      "colour": "#E8336D",
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "evening",
-        "live"
-      ]
-    },
-    {
-      "title": "Onoda: 10,000 Nights in the Jungle",
-      "start": "2026-09-27T20:35:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio 5",
-      "description": "Cinema drama history",
-      "url": "https://www.flagey.be/en/agenda/onoda-10-000-nights-in-the-jungle-ljrg",
-      "image": null,
-      "source": "Flagey",
-      "uid": "0bf01e7f4e7510b3",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "evening"
       ]
     },
     {
@@ -3645,26 +1016,6 @@
       ]
     },
     {
-      "title": "Spring's Awakening",
-      "start": "2026-09-29T00:00:00+02:00",
-      "end": "2026-10-17T00:00:00+02:00",
-      "all_day": true,
-      "location": "Théâtre de Poche, Bruxelles",
-      "description": "David Paquet | Ilyas Mettioui",
-      "url": "https://poche.be/spectacles/2026-leveil-du-printemps",
-      "image": "https://poche.be/images/theatre-foyer.jpg",
-      "source": "Le Poche",
-      "uid": "c6386813b0191358",
-      "colour": "#8A7500",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "live",
-        "recurring"
-      ]
-    },
-    {
       "title": "6:30pm La Vieille Chéchette Choir",
       "start": "2026-09-30T00:00:00+02:00",
       "end": "2026-09-30T00:00:00+02:00",
@@ -3685,27 +1036,6 @@
       ]
     },
     {
-      "title": "WIPCOOP - Work in Progress 2026",
-      "start": "2026-09-30T00:00:00+02:00",
-      "end": "2026-10-01T00:00:00+02:00",
-      "all_day": true,
-      "location": "KVS",
-      "description": "Mestizo Arts Platform / KVS. Mixed. Free",
-      "url": "https://www.kvs.be/fr/Evenement/wipcoop-work-in-progress-2026-2",
-      "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
-      "source": "KVS",
-      "uid": "e127d54f51c6107a",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "drop-in",
-        "free",
-        "live"
-      ]
-    },
-    {
       "title": "Whatever the Material",
       "start": "2026-09-30T18:00:00+02:00",
       "end": "2026-09-30T19:00:00+02:00",
@@ -3722,470 +1052,6 @@
       "tags": [
         "evening",
         "live"
-      ]
-    },
-    {
-      "title": "Debateville 9-14 years old",
-      "start": "2026-10-01T00:00:00+02:00",
-      "end": "2027-05-20T00:00:00+02:00",
-      "all_day": true,
-      "location": "Gemeenschapscentrum Pianofabriek vzw, Sint-Gillis",
-      "description": "Theater",
-      "url": "https://www.pianofabriek.be/activiteiten/debateville-9-14-jaar",
-      "image": null,
-      "source": "GC Pianofabriek",
-      "uid": "5a2165dcf092cff7",
-      "colour": "#1B6FE0",
-      "time_checked": 3,
-      "translated": true,
-      "category": "family-children",
-      "tags": [
-        "kids",
-        "live",
-        "recurring"
-      ]
-    },
-    {
-      "title": "FREDERICO HELIODORO QUARTET",
-      "start": "2026-10-01T20:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Sounds Brussels",
-      "description": "Modern Brazilian Jazz Explorations",
-      "url": "https://www.sounds.brussels/jazz-concert/frederico-heliodoro-quartet/",
-      "image": "https://www.sounds.brussels/wp-content/uploads/2026/07/sounds-social-1024x576-1.jpg",
-      "source": "Sounds Jazz Club",
-      "uid": "7e621d590b4d7b06",
-      "colour": "#E8336D",
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "evening",
-        "live"
-      ]
-    },
-    {
-      "title": "Mirsat × Shurfa film festival",
-      "start": "2026-10-02T20:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Gemeenschapscentrum Pianofabriek vzw, Sint-Gillis",
-      "description": "Film",
-      "url": "https://www.pianofabriek.be/activiteiten/mirsat-shurfa-film-festival",
-      "image": null,
-      "source": "GC Pianofabriek",
-      "uid": "2638643bdc4997fd",
-      "colour": "#1B6FE0",
-      "time_checked": 3,
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Female Boyfriends w/ Rafaël G + Nazanin + Mona Felah + Erykah + Butch PM",
-      "start": "2026-10-02T00:00:00+02:00",
-      "end": "2026-10-03T00:00:00+02:00",
-      "all_day": false,
-      "location": "Recyclart",
-      "description": "",
-      "url": "https://recyclart.be/fr/agenda/female-boyfriends",
-      "image": "https://recyclart.be/build/assets/og-image-DfQ-XJK0.png",
-      "source": "Recyclart",
-      "uid": "0b2693452b14e69a",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "category": "other",
-      "tags": [
-        "late-night"
-      ]
-    },
-    {
-      "title": "Fuse presents: The Ghost & Gonno",
-      "start": "2026-10-02T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Fuse Brussels, Room 01",
-      "description": "Featuring The Ghost, Gonno, Penelope, Nefeli",
-      "url": "https://www.fuse.be/events/fuse-presents-the-ghost-gonno",
-      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788368690",
-      "source": "Fuse",
-      "uid": "96a87d70251094ee",
-      "colour": "#C0392B",
-      "time_checked": 3,
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "dance",
-        "live"
-      ]
-    },
-    {
-      "title": "Rage Against Ageism Festival",
-      "start": "2026-10-02T00:00:00+02:00",
-      "end": "2026-10-11T00:00:00+02:00",
-      "all_day": true,
-      "location": "BRASS",
-      "description": "Dance, concerts, exhibition, conference, workshop",
-      "url": "https://www.lebrass.be/event/festival-agisme/",
-      "image": "https://www.lebrass.be/wp-content/uploads/2025/12/rq-181016-BRASS-ext-05-04-1200-min-1024x576.jpg",
-      "source": "BRASS",
-      "uid": "3e31ece64a1dd345",
-      "colour": "#00937A",
-      "time_checked": 3,
-      "translated": true,
-      "category": "festivals-celebrations",
-      "tags": [
-        "dance",
-        "live",
-        "recurring"
-      ]
-    },
-    {
-      "title": "Rage Against Ageism Exhibition",
-      "start": "2026-10-02T00:00:00+02:00",
-      "end": "2026-10-11T00:00:00+02:00",
-      "all_day": true,
-      "location": "BRASS",
-      "description": "Visual arts",
-      "url": "https://www.lebrass.be/event/expo-agisme/",
-      "image": "https://www.lebrass.be/wp-content/uploads/2025/12/rq-181016-BRASS-ext-05-04-1200-min-1024x576.jpg",
-      "source": "BRASS",
-      "uid": "81b92188f51a8c66",
-      "colour": "#00937A",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "recurring"
-      ]
-    },
-    {
-      "title": "Eve Libertine & James De Backer + Miriam",
-      "start": "2026-10-02T20:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "BRASS",
-      "description": "Concert",
-      "url": "https://www.lebrass.be/event/concert-agisme/",
-      "image": "https://www.lebrass.be/wp-content/uploads/2025/12/rq-181016-BRASS-ext-05-04-1200-min-1024x576.jpg",
-      "source": "BRASS",
-      "uid": "b2c6830a4c227b6d",
-      "colour": "#00937A",
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "evening",
-        "live"
-      ]
-    },
-    {
-      "title": "This Is (Not) the Evolution Theory of Comfort",
-      "start": "2026-10-03T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "KVS",
-      "description": "Aya Sabi & Dounia Mahammed / Monty. Theater.",
-      "url": "https://www.kvs.be/fr/Evenement/dit-is-niet-de-evolutietheorie-van-de-troost-2",
-      "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
-      "source": "KVS",
-      "uid": "a150069a82674347",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "live"
-      ]
-    },
-    {
-      "title": "Paris & Miki",
-      "start": "2026-10-04T00:00:00+02:00",
-      "end": "2027-04-04T00:00:00+02:00",
-      "all_day": true,
-      "location": "KVS",
-      "description": "Michael De Cock / KVS. Theater.",
-      "url": "https://www.kvs.be/fr/Evenement/paris-miki",
-      "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
-      "source": "KVS",
-      "uid": "e7de9b53f59178e1",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "live",
-        "recurring"
-      ]
-    },
-    {
-      "title": "Baby Library",
-      "start": "2026-10-06T00:00:00+02:00",
-      "end": "2026-10-27T00:00:00+01:00",
-      "all_day": true,
-      "location": "Gemeenschapscentrum Ten Weyngaert, Vorst",
-      "description": "Parenting activity for ages 18-99",
-      "url": "https://www.tenweyngaert.be/activiteiten/babytheek-7",
-      "image": null,
-      "source": "GC Ten Weyngaert",
-      "uid": "41ae97e170c64ef4",
-      "colour": "#0F8CA8",
-      "time_checked": 3,
-      "translated": true,
-      "category": "family-children",
-      "tags": [
-        "family",
-        "recurring"
-      ]
-    },
-    {
-      "title": "Cazaar + Ismaaël.le",
-      "start": "2026-10-06T20:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Concert - Francofaune Festival (doors and bar open at 7:00 PM)",
-      "url": "https://www.lebrass.be/event/francofaune26/",
-      "image": "https://www.lebrass.be/wp-content/uploads/2025/12/rq-181016-BRASS-ext-05-04-1200-min-1024x576.jpg",
-      "source": "BRASS",
-      "uid": "897e0cc82be5ac76",
-      "colour": "#00937A",
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "evening",
-        "food-drink",
-        "live"
-      ]
-    },
-    {
-      "title": "Film Screening - Chubby Dik and the Missing Plush Toy (3+)",
-      "start": "2026-10-07T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Gemeenschapscentrum Ten Weyngaert, Vorst",
-      "description": "Animation for ages 3-99. Free",
-      "url": "https://www.tenweyngaert.be/activiteiten/cine-kade-dikke-dik-en-de-verdwenen-knuffel-3",
-      "image": null,
-      "source": "GC Ten Weyngaert",
-      "uid": "b2143bdc6ee3122a",
-      "colour": "#0F8CA8",
-      "time_checked": 3,
-      "translated": true,
-      "category": "family-children",
-      "tags": [
-        "free",
-        "kids"
-      ]
-    },
-    {
-      "title": "Repair Café",
-      "start": "2026-10-07T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "KVS",
-      "description": "Free",
-      "url": "https://www.kvs.be/fr/Evenement/repair-cafe-23",
-      "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
-      "source": "KVS",
-      "uid": "b444557d8537bdaf",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "environment",
-      "tags": [
-        "drop-in",
-        "free",
-        "sustainability"
-      ]
-    },
-    {
-      "title": "Francofaune: Clarence Pinko + Coup Dur + NORD//NOIR + VioleTT Pi",
-      "start": "2026-10-08T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Gemeenschapscentrum Pianofabriek vzw, Sint-Gillis",
-      "description": "Pop and rock, for ages 18-99",
-      "url": "https://www.pianofabriek.be/activiteiten/francofaune-clarence-pinko-coup-dur-nord/noir-violett-pi",
-      "image": null,
-      "source": "GC Pianofabriek",
-      "uid": "7e2b7d8b91b1de54",
-      "colour": "#1B6FE0",
-      "time_checked": 3,
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "live"
-      ]
-    },
-    {
-      "title": "Natural Love",
-      "start": "2026-10-08T00:00:00+02:00",
-      "end": "2026-10-09T00:00:00+02:00",
-      "all_day": true,
-      "location": "KVS",
-      "description": "ANDREW GRAHAM / LAGESTE. Dance.",
-      "url": "https://www.kvs.be/fr/Evenement/o-amor-natural-2",
-      "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
-      "source": "KVS",
-      "uid": "9dd6be1d1572e764",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "live"
-      ]
-    },
-    {
-      "title": "A Room of His Own",
-      "start": "2026-10-08T00:00:00+02:00",
-      "end": "2026-10-09T00:00:00+02:00",
-      "all_day": true,
-      "location": "KVS",
-      "description": "NONA DEMEY GALLAGHER. Theater.",
-      "url": "https://www.kvs.be/fr/Evenement/a-room-of-his-own-2",
-      "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
-      "source": "KVS",
-      "uid": "5e83c8dacd78af00",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "live"
-      ]
-    },
-    {
-      "title": "Yard One Sound System w/ Ossia + The untouchables + Izzy Lindqwister + Sasha Sykes + Maliman",
-      "start": "2026-10-09T00:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Recyclart",
-      "description": "",
-      "url": "https://recyclart.be/fr/agenda/yard-one-sound-system",
-      "image": "https://recyclart.be/build/assets/og-image-DfQ-XJK0.png",
-      "source": "Recyclart",
-      "uid": "a7b25080c5bca46a",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "category": "other",
-      "tags": [
-        "late-night"
-      ]
-    },
-    {
-      "title": "Fuse presents: Fenrick (all night long) & Riana Holley (all night long)",
-      "start": "2026-10-09T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Fuse Brussels, Room 01 & Motion",
-      "description": "Featuring Fenrick and Riana Holley performing all night",
-      "url": "https://www.fuse.be/events/fuse-presents-fenrick-all-night-long-riana-holley-all-night-long",
-      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788368690",
-      "source": "Fuse",
-      "uid": "fe02f835af8cb600",
-      "colour": "#C0392B",
-      "time_checked": 3,
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "dance",
-        "live"
-      ]
-    },
-    {
-      "title": "Opening: Collectief '180°'",
-      "start": "2026-10-09T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Gemeenschapscentrum Ten Weyngaert, Vorst",
-      "description": "Multiple art forms for ages 10-110. Free admission",
-      "url": "https://www.tenweyngaert.be/activiteiten/vernissage-collectief-le-180deg",
-      "image": null,
-      "source": "GC Ten Weyngaert",
-      "uid": "9db35711169e3a65",
-      "colour": "#0F8CA8",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "drop-in",
-        "free"
-      ]
-    },
-    {
-      "title": "Collectief: Fabric of the Future",
-      "start": "2026-10-09T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Gemeenschapscentrum Ten Weyngaert, Vorst",
-      "description": "Decorative art for ages 10-110",
-      "url": "https://www.tenweyngaert.be/activiteiten/collectief-weefsel-van-de-toekomst",
-      "image": null,
-      "source": "GC Ten Weyngaert",
-      "uid": "03221f658d456f1f",
-      "colour": "#0F8CA8",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "drop-in"
-      ]
-    },
-    {
-      "title": "Le Motel x Magugu + Warzou (DJ set)",
-      "start": "2026-10-10T00:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Recyclart",
-      "description": "Event with DJ set",
-      "url": "https://recyclart.be/fr/agenda/le-motel-x-magugu-tba",
-      "image": "https://recyclart.be/build/assets/og-image-DfQ-XJK0.png",
-      "source": "Recyclart",
-      "uid": "0f225baaed91df7b",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "dance",
-        "late-night"
-      ]
-    },
-    {
-      "title": "Fuse presents: ÜBERKIKZ (all night long) & Altered Circuits w/ Curses",
-      "start": "2026-10-10T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Fuse Brussels",
-      "description": "Room 01: ÜBERKIKZ (all night long). Motion: Curses, Innershades, Thwang",
-      "url": "https://www.fuse.be/events/fuse-presents-überkikz-all-night-long",
-      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788368690",
-      "source": "Fuse",
-      "uid": "26c50fe58082fc93",
-      "colour": "#C0392B",
-      "time_checked": 3,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "Cuizine'tou",
-      "start": "2026-10-10T14:00:00+02:00",
-      "end": "2026-10-10T18:00:00+02:00",
-      "all_day": false,
-      "location": "BRASS",
-      "description": "Cooking workshop",
-      "url": "https://www.lebrass.be/event/atelier-cuizinetou-26/",
-      "image": "https://www.lebrass.be/wp-content/uploads/2025/12/rq-181016-BRASS-ext-05-04-1200-min-1024x576.jpg",
-      "source": "BRASS",
-      "uid": "84de369f597d88db",
-      "colour": "#00937A",
-      "translated": true,
-      "category": "food-drink",
-      "tags": [
-        "drop-in"
       ]
     },
     {
@@ -4241,374 +1107,6 @@
       "tags": []
     },
     {
-      "title": "10 Years of Media Education Practice",
-      "start": "2026-10-12T10:00:00+02:00",
-      "end": "2026-10-12T17:00:00+02:00",
-      "all_day": false,
-      "location": "BRASS",
-      "description": "Training course",
-      "url": "https://www.lebrass.be/event/formation-educmedias/",
-      "image": "https://www.lebrass.be/wp-content/uploads/2025/12/rq-181016-BRASS-ext-05-04-1200-min-1024x576.jpg",
-      "source": "BRASS",
-      "uid": "d7cf6484bc893a97",
-      "colour": "#00937A",
-      "translated": true,
-      "category": "talks-discussions",
-      "tags": [
-        "registration-required"
-      ]
-    },
-    {
-      "title": "Expo Welcome in Digitopia",
-      "start": "2026-10-13T00:00:00+02:00",
-      "end": "2026-10-17T00:00:00+02:00",
-      "all_day": true,
-      "location": "Gemeenschapscentrum Pianofabriek vzw, Sint-Gillis",
-      "description": "Community expo, free, ages 1 and up",
-      "url": "https://www.pianofabriek.be/activiteiten/expo-welcome-digitopia",
-      "image": null,
-      "source": "GC Pianofabriek",
-      "uid": "1d38cdecee280d2b",
-      "colour": "#1B6FE0",
-      "time_checked": 3,
-      "translated": true,
-      "category": "community-social",
-      "tags": [
-        "family",
-        "free",
-        "recurring"
-      ]
-    },
-    {
-      "title": "End of Residency : Cripping the City w/ Fogo + Isidora Draskovic & Valentina Donato + The Wheelies Project",
-      "start": "2026-10-14T00:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Recyclart",
-      "description": "",
-      "url": "https://recyclart.be/fr/agenda/end-of-residency-cripping-the-city",
-      "image": "https://recyclart.be/build/assets/og-image-DfQ-XJK0.png",
-      "source": "Recyclart",
-      "uid": "2943aeb124692dd6",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "category": "other",
-      "tags": [
-        "late-night"
-      ]
-    },
-    {
-      "title": "Broken Home, My Shrine",
-      "start": "2026-10-15T00:00:00+02:00",
-      "end": "2026-10-19T00:00:00+02:00",
-      "all_day": true,
-      "location": "KVS",
-      "description": "Alix Konadu/Moussem & KVS",
-      "url": "https://www.kvs.be/fr/Evenement/broken-home-my-shrine-2",
-      "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
-      "source": "KVS",
-      "uid": "18ac5734a5377c3c",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "live",
-        "recurring"
-      ]
-    },
-    {
-      "title": "A Hearty Fries Against Poverty - film The Old Oak",
-      "start": "2026-10-16T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Gemeenschapscentrum Ten Weyngaert, Vorst",
-      "description": "Film screening",
-      "url": "https://www.tenweyngaert.be/activiteiten/een-stevige-patat-tegen-armoede-film-old-oak",
-      "image": null,
-      "source": "GC Ten Weyngaert",
-      "uid": "a4a64a45266e4cc5",
-      "colour": "#0F8CA8",
-      "time_checked": 3,
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "food-drink",
-        "live"
-      ]
-    },
-    {
-      "title": "QueerZineFest #3 w/ Micro-publishing Fair + Performances + Dj sets + Expos I hate being in love & Saveurs fleurs coupées",
-      "start": "2026-10-17T00:00:00+02:00",
-      "end": "2026-10-18T00:00:00+02:00",
-      "all_day": false,
-      "location": "Recyclart",
-      "description": "",
-      "url": "https://recyclart.be/fr/agenda/queerzinefest-3",
-      "image": "https://recyclart.be/build/assets/og-image-DfQ-XJK0.png",
-      "source": "Recyclart",
-      "uid": "2ba325dc5cd9e0a2",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "category": "other",
-      "tags": [
-        "late-night"
-      ]
-    },
-    {
-      "title": "Solidarity Meal 'Jacket Potatoes'",
-      "start": "2026-10-18T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Gemeenschapscentrum Ten Weyngaert, Vorst",
-      "description": "Solidarity meal",
-      "url": "https://www.tenweyngaert.be/activiteiten/solidariteitsmaaltijd-jacket-potatoes",
-      "image": null,
-      "source": "GC Ten Weyngaert",
-      "uid": "813f369775f2a4ca",
-      "colour": "#0F8CA8",
-      "time_checked": 3,
-      "translated": true,
-      "category": "community-social",
-      "tags": [
-        "activism",
-        "food-drink"
-      ]
-    },
-    {
-      "title": "Home Sweet Home (2+) - Achref Adhadhi",
-      "start": "2026-10-18T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Gemeenschapscentrum Ten Weyngaert, Vorst",
-      "description": "Theater performance for ages 2+",
-      "url": "https://www.tenweyngaert.be/activiteiten/thuis-best-2-achref-adhadhi",
-      "image": null,
-      "source": "GC Ten Weyngaert",
-      "uid": "13f02fbdda68bd1e",
-      "colour": "#0F8CA8",
-      "time_checked": 3,
-      "translated": true,
-      "category": "family-children",
-      "tags": [
-        "family",
-        "kids",
-        "live"
-      ]
-    },
-    {
-      "title": "Drowsy Drift - sleep + drift + walk",
-      "start": "2026-10-18T00:00:00+02:00",
-      "end": "2026-10-19T00:00:00+02:00",
-      "all_day": true,
-      "location": "Gemeenschapscentrum Ten Weyngaert, Vorst",
-      "description": "Multi-arts performance. Free",
-      "url": "https://www.tenweyngaert.be/activiteiten/drowsy-drift-sleep-drift-walk",
-      "image": null,
-      "source": "GC Ten Weyngaert",
-      "uid": "75122c6c08cd6a86",
-      "colour": "#0F8CA8",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "free",
-        "late-night",
-        "live"
-      ]
-    },
-    {
-      "title": "Schweinerei",
-      "start": "2026-10-21T00:00:00+02:00",
-      "end": "2026-10-22T00:00:00+02:00",
-      "all_day": true,
-      "location": "KVS",
-      "description": "Lieselot Siddiki / LOD Muziektheater",
-      "url": "https://www.kvs.be/fr/Evenement/schweinerei-2",
-      "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
-      "source": "KVS",
-      "uid": "390cfa7b86c9e2ee",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "live"
-      ]
-    },
-    {
-      "title": "\"UNCHILDED – Roots of the Mediterranean\" by Associazione Culturale Raizes",
-      "start": "2026-10-22T00:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Recyclart",
-      "description": "",
-      "url": "https://recyclart.be/fr/agenda/unchilded-roots-of-the-mediterranean",
-      "image": "https://recyclart.be/build/assets/og-image-DfQ-XJK0.png",
-      "source": "Recyclart",
-      "uid": "e5485228f044e294",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "category": "other",
-      "tags": [
-        "late-night"
-      ]
-    },
-    {
-      "title": "Carrosseries w/ Marion Laser + Grunge Gone Broadway + TBA",
-      "start": "2026-10-24T00:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Recyclart",
-      "description": "",
-      "url": "https://recyclart.be/fr/agenda/carrosseries-2",
-      "image": "https://recyclart.be/build/assets/og-image-DfQ-XJK0.png",
-      "source": "Recyclart",
-      "uid": "683abd21828349a3",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "category": "other",
-      "tags": [
-        "late-night"
-      ]
-    },
-    {
-      "title": "Clothing Swap at Ten Weyngaert",
-      "start": "2026-10-24T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Gemeenschapscentrum Ten Weyngaert, Vorst",
-      "description": "Clothing swap event. Free",
-      "url": "https://www.tenweyngaert.be/activiteiten/kledingswap-ten-weyngaert",
-      "image": null,
-      "source": "GC Ten Weyngaert",
-      "uid": "138a40dbe0236d11",
-      "colour": "#0F8CA8",
-      "time_checked": 3,
-      "translated": true,
-      "category": "community-social",
-      "tags": [
-        "drop-in",
-        "free",
-        "sustainability"
-      ]
-    },
-    {
-      "title": "The Comfort Tree - film Têtes Brûlées with discussion",
-      "start": "2026-10-25T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Gemeenschapscentrum Ten Weyngaert, Vorst",
-      "description": "Film screening and discussion. Free",
-      "url": "https://www.tenweyngaert.be/activiteiten/de-troostboom-film-tetes-brulees-met-nabespreking",
-      "image": null,
-      "source": "GC Ten Weyngaert",
-      "uid": "3fa8d449c805935d",
-      "colour": "#0F8CA8",
-      "time_checked": 3,
-      "translated": true,
-      "category": "film-cinema",
-      "tags": [
-        "drop-in",
-        "free",
-        "live"
-      ]
-    },
-    {
-      "title": "The Comfort Tree – Creative Workshop: Making Comfort Stones",
-      "start": "2026-10-26T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "Gemeenschapscentrum Ten Weyngaert, Vorst",
-      "description": "Meaning, philosophy and spirituality workshop for ages 10-99",
-      "url": "https://www.tenweyngaert.be/activiteiten/de-troostboom-creatieve-workshop-koesterstenen-maken",
-      "image": null,
-      "source": "GC Ten Weyngaert",
-      "uid": "a56ec8b66ae7ec0d",
-      "colour": "#0F8CA8",
-      "time_checked": 3,
-      "translated": true,
-      "category": "workshops-creative",
-      "tags": [
-        "kids"
-      ]
-    },
-    {
-      "title": "Filem'On x CineMOUV'teens: Christy and his brother",
-      "start": "2026-10-26T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "Gemeenschapscentrum Ten Weyngaert vzw, Vorst",
-      "description": "Film",
-      "url": "https://www.tenweyngaert.be/activiteiten/filemon-x-cinemouvteens-christy-and-his-brother",
-      "image": null,
-      "source": "GC Ten Weyngaert",
-      "uid": "b59975924fe8ca27",
-      "colour": "#0F8CA8",
-      "time_checked": 3,
-      "translated": true,
-      "category": "film-cinema",
-      "tags": []
-    },
-    {
-      "title": "Workshop Ages 13-18: Horror Film",
-      "start": "2026-10-26T11:00:00+01:00",
-      "end": "2026-10-30T17:00:00+01:00",
-      "all_day": false,
-      "location": "BRASS",
-      "description": "Workshop",
-      "url": "https://www.lebrass.be/event/stage-film-horreur-2/",
-      "image": "https://www.lebrass.be/wp-content/uploads/2025/12/rq-181016-BRASS-ext-05-04-1200-min-1024x576.jpg",
-      "source": "BRASS",
-      "uid": "833f63f56f03cf43",
-      "colour": "#00937A",
-      "translated": true,
-      "category": "workshops-creative",
-      "tags": [
-        "kids",
-        "recurring",
-        "registration-required"
-      ]
-    },
-    {
-      "title": "HERE, ME AS AN EMPRESS - MOLENSTRAAT 103/BUS 5",
-      "start": "2026-10-28T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "KVS",
-      "description": "Veerle Baetens & Bo Spaenc",
-      "url": "https://www.kvs.be/fr/Evenement/hier-ik-als-keizerin-molenstraat-103-bus-5-2",
-      "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
-      "source": "KVS",
-      "uid": "9efcf256685a8951",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "live"
-      ]
-    },
-    {
-      "title": "Digital Cafés [Seniors]",
-      "start": "2026-10-28T14:00:00+01:00",
-      "end": "2026-10-28T16:00:00+01:00",
-      "all_day": false,
-      "location": "Bia Bouquet",
-      "description": "Digital workshops",
-      "url": "https://www.lebrass.be/event/ateliers-cafesnumeriques-2026/",
-      "image": "https://www.lebrass.be/wp-content/uploads/2025/12/rq-181016-BRASS-ext-05-04-1200-min-1024x576.jpg",
-      "source": "BRASS",
-      "uid": "84b821da1f3d6f18",
-      "colour": "#00937A",
-      "translated": true,
-      "category": "workshops-creative",
-      "tags": [
-        "recurring",
-        "registration-required"
-      ]
-    },
-    {
       "title": "The Pigeon and the Lazarus Bird",
       "start": "2026-10-28T19:30:00+01:00",
       "end": "2026-10-28T22:00:00+01:00",
@@ -4625,44 +1123,6 @@
       "tags": [
         "evening",
         "live"
-      ]
-    },
-    {
-      "title": "From Athens to Brussels with love",
-      "start": "2026-10-31T00:00:00+01:00",
-      "end": "2026-11-01T00:00:00+01:00",
-      "all_day": false,
-      "location": "Recyclart",
-      "description": "",
-      "url": "https://recyclart.be/fr/agenda/from-athens-to-brussels-with-love-2",
-      "image": "https://recyclart.be/build/assets/og-image-DfQ-XJK0.png",
-      "source": "Recyclart",
-      "uid": "3fe2b4ce19829746",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "community-social",
-      "tags": [
-        "late-night"
-      ]
-    },
-    {
-      "title": "Fuse presents: Silva Bumpa",
-      "start": "2026-10-31T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "Room 01",
-      "description": "Line-up: Silva Bumpa, TBA, TBA, TBA",
-      "url": "https://www.fuse.be/events/fuse-presents-silva-bumba",
-      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788368690",
-      "source": "Fuse",
-      "uid": "98a8ee4871e99446",
-      "colour": "#C0392B",
-      "time_checked": 3,
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "dance"
       ]
     },
     {
@@ -4683,166 +1143,6 @@
         "drop-in",
         "free",
         "recurring"
-      ]
-    },
-    {
-      "title": "Sports and Play Week for Primary School Children",
-      "start": "2026-11-02T00:00:00+01:00",
-      "end": "2026-11-06T00:00:00+01:00",
-      "all_day": true,
-      "location": "Gemeenschapscentrum Ten Weyngaert, Vorst",
-      "description": "Multi-sport and games for ages 6-12",
-      "url": "https://www.tenweyngaert.be/activiteiten/sport-en-speelweek-voor-lagere-schoolkinderen",
-      "image": null,
-      "source": "GC Ten Weyngaert",
-      "uid": "c33271728f3b6e0d",
-      "colour": "#0F8CA8",
-      "time_checked": 3,
-      "translated": true,
-      "category": "family-children",
-      "tags": [
-        "kids",
-        "recurring",
-        "registration-required"
-      ]
-    },
-    {
-      "title": "Sports and Play Week for Preschoolers",
-      "start": "2026-11-02T00:00:00+01:00",
-      "end": "2026-11-06T00:00:00+01:00",
-      "all_day": true,
-      "location": "Gemeenschapscentrum Ten Weyngaert, Vorst",
-      "description": "Multi-sport and games for ages 3-6",
-      "url": "https://www.tenweyngaert.be/activiteiten/sport-en-speelweek-voor-kleuters",
-      "image": null,
-      "source": "GC Ten Weyngaert",
-      "uid": "35d49c9579c41bac",
-      "colour": "#0F8CA8",
-      "time_checked": 3,
-      "translated": true,
-      "category": "family-children",
-      "tags": [
-        "kids",
-        "recurring",
-        "registration-required"
-      ]
-    },
-    {
-      "title": "A Journey Through Film History Ages 10-12",
-      "start": "2026-11-03T00:00:00+01:00",
-      "end": "2026-11-06T00:00:00+01:00",
-      "all_day": true,
-      "location": "Gemeenschapscentrum Pianofabriek vzw, Sint-Gillis",
-      "description": "Audiovisual art for ages 10-12",
-      "url": "https://www.pianofabriek.be/activiteiten/reis-door-de-filmtijd-10-12-jaar",
-      "image": null,
-      "source": "GC Pianofabriek",
-      "uid": "3d1adc0fb5b3b25c",
-      "colour": "#1B6FE0",
-      "time_checked": 3,
-      "translated": true,
-      "category": "family-children",
-      "tags": [
-        "kids",
-        "recurring"
-      ]
-    },
-    {
-      "title": "Trial and Error Ages 5-6",
-      "start": "2026-11-03T00:00:00+01:00",
-      "end": "2026-11-06T00:00:00+01:00",
-      "all_day": true,
-      "location": "Gemeenschapscentrum Pianofabriek vzw, Sint-Gillis",
-      "description": "Multiple art forms for ages 5-6",
-      "url": "https://www.pianofabriek.be/activiteiten/met-vallen-en-opstaan-5-6-jaar",
-      "image": null,
-      "source": "GC Pianofabriek",
-      "uid": "5bbf5e776ab062e5",
-      "colour": "#1B6FE0",
-      "time_checked": 3,
-      "translated": true,
-      "category": "family-children",
-      "tags": [
-        "kids",
-        "recurring"
-      ]
-    },
-    {
-      "title": "Trial and Error 7-9 years old",
-      "start": "2026-11-03T00:00:00+01:00",
-      "end": "2026-11-06T00:00:00+01:00",
-      "all_day": true,
-      "location": "Gemeenschapscentrum Pianofabriek vzw, Sint-Gillis",
-      "description": "Multiple art forms",
-      "url": "https://www.pianofabriek.be/activiteiten/met-vallen-en-opstaan-7-9-jaar",
-      "image": null,
-      "source": "GC Pianofabriek",
-      "uid": "72714717c71f9cf4",
-      "colour": "#1B6FE0",
-      "time_checked": 3,
-      "translated": true,
-      "category": "family-children",
-      "tags": [
-        "kids",
-        "recurring"
-      ]
-    },
-    {
-      "title": "Queen Kong",
-      "start": "2026-11-03T00:00:00+01:00",
-      "end": "2026-11-20T00:00:00+01:00",
-      "all_day": true,
-      "location": "Théâtre de Poche, 1a Chemin du Gymnase 1000 Bruxelles",
-      "description": "Hélène Vignal / Georges Lini",
-      "url": "https://poche.be/spectacles/2026-queen-kong",
-      "image": "https://poche.be/images/theatre-foyer.jpg",
-      "source": "Le Poche",
-      "uid": "07f1d28fa4ec2bc1",
-      "colour": "#8A7500",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "live",
-        "recurring"
-      ]
-    },
-    {
-      "title": "This Is Not Black: Act II",
-      "start": "2026-11-05T00:00:00+01:00",
-      "end": "2026-11-07T00:00:00+01:00",
-      "all_day": true,
-      "location": "KVS",
-      "description": "Alesandra Seutin / KVS",
-      "url": "https://www.kvs.be/fr/Evenement/ceci-n-est-pas-noire-act-ii-2",
-      "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
-      "source": "KVS",
-      "uid": "351840099f04ef84",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "live"
-      ]
-    },
-    {
-      "title": "Quartier Monde | The Rise of Fascism",
-      "start": "2026-11-06T19:00:00+01:00",
-      "end": "2026-11-06T21:00:00+01:00",
-      "all_day": false,
-      "location": "Maison de Quartier Saint-Antoine",
-      "description": "Meeting",
-      "url": "https://www.lebrass.be/event/quartiermonde-fascisme/",
-      "image": "https://www.lebrass.be/wp-content/uploads/2025/12/rq-181016-BRASS-ext-05-04-1200-min-1024x576.jpg",
-      "source": "BRASS",
-      "uid": "0867c57a1d4094fe",
-      "colour": "#00937A",
-      "translated": true,
-      "category": "activism-justice",
-      "tags": [
-        "activism",
-        "evening"
       ]
     },
     {
@@ -4884,41 +1184,6 @@
       ]
     },
     {
-      "title": "Spaghetti Western",
-      "start": "2026-11-12T00:00:00+01:00",
-      "end": "2026-11-13T00:00:00+01:00",
-      "all_day": true,
-      "location": "KVS",
-      "description": "Aurélie Di Marino & Renée Goethijn / Kunstenwerkplaats",
-      "url": "https://www.kvs.be/fr/Evenement/spaghetti-western-2",
-      "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
-      "source": "KVS",
-      "uid": "db7612a96060b71b",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "live"
-      ]
-    },
-    {
-      "title": "Fuse presents: 20YRS Klockworks w/ Ben Klock, DVS1 & Steve Rachmad aka STERAC (house set)",
-      "start": "2026-11-14T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "Fuse Brussels",
-      "description": "Room 01: Ben Klock, DVS1, Newa, Altinbas. Motion: Steve Rachmad aka STERAC (house set), Zouzibabe, She The DJ",
-      "url": "https://www.fuse.be/events/fuse-presents-20yrs-klockwors-w-ben-klock-dvs1",
-      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788368690",
-      "source": "Fuse",
-      "uid": "f3d2d283204eb702",
-      "colour": "#C0392B",
-      "time_checked": 3,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "Monique Dorsel in the Spotlight",
       "start": "2026-11-14T12:30:00+01:00",
       "end": "2026-11-14T22:00:00+01:00",
@@ -4930,64 +1195,6 @@
       "source": "Maison Poème",
       "uid": "6b4362de43016b93",
       "colour": "#7B49D6",
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "live"
-      ]
-    },
-    {
-      "title": "JULIETTE ET ROMÉO",
-      "start": "2026-11-17T00:00:00+01:00",
-      "end": "2026-11-21T00:00:00+01:00",
-      "all_day": true,
-      "location": "Théâtre National",
-      "description": "Eline Schumacher",
-      "url": "https://poche.be/spectacles/2026-juliette-et-romeo-au-theatre-national",
-      "image": "https://poche.be/images/theatre-foyer.jpg",
-      "source": "Le Poche",
-      "uid": "00068adc93a32c11",
-      "colour": "#8A7500",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "live",
-        "recurring"
-      ]
-    },
-    {
-      "title": "MINDBLOWERS @ PRÓXIMAMENTE",
-      "start": "2026-11-18T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "KVS",
-      "description": "PRÓXIMAMENTE 2026. KVS & VUB. Mixed format.",
-      "url": "https://www.kvs.be/fr/Evenement/mindblowers-proximamente-2",
-      "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
-      "source": "KVS",
-      "uid": "f5d6eb15713798dc",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "live"
-      ]
-    },
-    {
-      "title": "The Corner of the Dead",
-      "start": "2026-11-18T00:00:00+01:00",
-      "end": "2026-11-19T00:00:00+01:00",
-      "all_day": true,
-      "location": "KVS",
-      "description": "PRÓXIMAMENTE 2026. By Sebastián Rubio & Yanira Dávila. Theater.",
-      "url": "https://www.kvs.be/fr/Evenement/el-rincon-de-los-muertos-2",
-      "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
-      "source": "KVS",
-      "uid": "5b1a001a68d8f94b",
-      "colour": "#E07A00",
-      "time_checked": 3,
       "translated": true,
       "category": "culture-arts",
       "tags": [
@@ -5015,25 +1222,6 @@
       ]
     },
     {
-      "title": "Ojo salvaje",
-      "start": "2026-11-20T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "KVS",
-      "description": "Sebastián Escalona",
-      "url": "https://www.kvs.be/fr/Evenement/ojo-salvaje-2",
-      "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
-      "source": "KVS",
-      "uid": "58bb6f85956c89c2",
-      "colour": "#E07A00",
-      "time_checked": 3,
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "live"
-      ]
-    },
-    {
       "title": "Prophetic Dance on the Strange Island",
       "start": "2026-11-20T20:00:00+01:00",
       "end": "2026-11-20T22:00:00+01:00",
@@ -5051,26 +1239,6 @@
         "dance",
         "evening",
         "live"
-      ]
-    },
-    {
-      "title": "Face to Face",
-      "start": "2026-11-24T00:00:00+01:00",
-      "end": "2026-11-28T00:00:00+01:00",
-      "all_day": true,
-      "location": "Théâtre de Poche, 1a Chemin du Gymnase 1000 Bruxelles",
-      "description": "Agnès Limbos / Compagnie Gare Centrale",
-      "url": "https://poche.be/spectacles/2026-face-a-face",
-      "image": "https://poche.be/images/theatre-foyer.jpg",
-      "source": "Le Poche",
-      "uid": "0afde20a71b417d4",
-      "colour": "#8A7500",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "live",
-        "recurring"
       ]
     },
     {
@@ -5151,26 +1319,6 @@
       ]
     },
     {
-      "title": "We the Tiny",
-      "start": "2026-12-01T00:00:00+01:00",
-      "end": "2026-12-12T00:00:00+01:00",
-      "all_day": true,
-      "location": "Théâtre de Poche, 1a Chemin du Gymnase 1000 Bruxelles",
-      "description": "Ahmed Madani",
-      "url": "https://poche.be/spectacles/2026-nous-les-minuscules",
-      "image": "https://poche.be/images/theatre-foyer.jpg",
-      "source": "Le Poche",
-      "uid": "96c15ca81997e331",
-      "colour": "#8A7500",
-      "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "live",
-        "recurring"
-      ]
-    },
-    {
       "title": "Bands of Hysterics",
       "start": "2026-12-04T20:00:00+01:00",
       "end": "2026-12-04T22:00:00+01:00",
@@ -5205,26 +1353,6 @@
       "category": "culture-arts",
       "tags": [
         "live"
-      ]
-    },
-    {
-      "title": "Wednesday Digital Sessions [Ages 8-12]",
-      "start": "2026-12-09T15:00:00+01:00",
-      "end": "2026-12-09T16:30:00+01:00",
-      "all_day": false,
-      "location": "BIBLIF",
-      "description": "Digital workshops",
-      "url": "https://www.lebrass.be/event/mercredisnumeriques-2627/",
-      "image": "https://www.lebrass.be/wp-content/uploads/2025/12/rq-181016-BRASS-ext-05-04-1200-min-1024x576.jpg",
-      "source": "BRASS",
-      "uid": "4c4dd11b5b84910b",
-      "colour": "#00937A",
-      "translated": true,
-      "category": "workshops-creative",
-      "tags": [
-        "kids",
-        "recurring",
-        "registration-required"
       ]
     },
     {
