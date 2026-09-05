@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-04T20:43:31.316025+02:00",
+  "generated": "2026-09-05T10:44:34.939118+02:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
       "name": "La Vieille Chéchette",
       "url": "https://chechette.be/lagenda/",
       "colour": "#E8336D",
-      "count": 15,
+      "count": 14,
       "method": "jsonld"
     },
     {
@@ -326,7 +326,7 @@
       "source": "La Vieille Chéchette",
       "method": "jsonld",
       "found": 18,
-      "kept": 15,
+      "kept": 14,
       "note": ""
     },
     {
@@ -478,26 +478,6 @@
     }
   ],
   "events": [
-    {
-      "title": "7:30 PM Cassiof and Iva Mai Concert",
-      "start": "2026-09-04T00:00:00+02:00",
-      "end": "2026-09-04T00:00:00+02:00",
-      "all_day": true,
-      "location": "",
-      "description": "Cassiof, a Brussels band performing French pop-rap chanson. A concert to sweep us all away.",
-      "url": "https://chechette.be/events/19h30-concert-cassiof-et-iva-mai/",
-      "image": null,
-      "source": "La Vieille Chéchette",
-      "uid": "768aa032e0c116ca",
-      "colour": "#E8336D",
-      "time_checked": 3,
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "evening",
-        "live"
-      ]
-    },
     {
       "title": "Back-to-School Party — Season 5",
       "start": "2026-09-06T15:00:00+02:00",
