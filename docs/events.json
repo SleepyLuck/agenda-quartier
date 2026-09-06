@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-06T11:03:55.812647+02:00",
+  "generated": "2026-09-06T19:57:10.135933+02:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
@@ -48,7 +48,7 @@
       "name": "Goudblommeke in Papier",
       "url": "https://goudblommekeinpapier.be/agenda/",
       "colour": "#0F8CA8",
-      "count": 3,
+      "count": 4,
       "method": "wordpress"
     },
     {
@@ -367,8 +367,8 @@
     {
       "source": "Goudblommeke in Papier",
       "method": "wordpress",
-      "found": 3,
-      "kept": 3,
+      "found": 4,
+      "kept": 4,
       "note": ""
     },
     {
@@ -439,7 +439,7 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
+      "note": "llm: ConnectTimeout: HTTPSConnectionPool(host='www.senghor.be', port=443): Max retries exceeded with url: /agenda/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.senghor.be', port=443) at 0"
     },
     {
       "source": "Flagey",
@@ -1124,6 +1124,21 @@
         "free",
         "recurring"
       ]
+    },
+    {
+      "title": "Er was eens een molenaarsdochter…",
+      "start": "2026-11-01T15:00:00+01:00",
+      "end": "2026-11-01T17:00:00+01:00",
+      "all_day": false,
+      "location": "Het Goudblommeke in Papier",
+      "description": "over de betekenis van de molen en de molenaar in sagen en sprookjes Zondag 1 november 2026 om 15 u. In het Goudblommeke in Papier Cellebroerstraat 55 1000 Brussel Toen molens nog een vanzelfsprekende verschijning aan de horizon waren, grifte het beeld van de molen en de molenaar zich diep in de volksziel en uitte zich in de volkscultuur. In sprookjes, volksliedjes, legendes en spreekwoorden werd de molen een veelzijdig symbool. Ook de mulder groeide uit tot een fascinerende, archetypische figuur met vele gedaantes. Duik mee in deze wondere wereld van de molinologie waar vernuft en verbeelding,",
+      "url": "https://goudblommekeinpapier.be/event/er-was-eens-een-molenaarsdochter/",
+      "image": "https://goudblommekeinpapier.be/wp-content/uploads/2026/01/BoeketjeGoudgeblomd-e1768249155571.jpeg",
+      "source": "Goudblommeke in Papier",
+      "uid": "0a9348c201d2d1bb",
+      "colour": "#0F8CA8",
+      "category": "other",
+      "tags": []
     },
     {
       "title": "This Is Not Goodbye",
