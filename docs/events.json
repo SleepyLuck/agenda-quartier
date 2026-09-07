@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-07T11:54:15.304670+02:00",
+  "generated": "2026-09-07T21:31:15.396831+02:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
@@ -90,7 +90,7 @@
       "name": "Maison Poème",
       "url": "https://maisonpoeme.be/",
       "colour": "#7B49D6",
-      "count": 30,
+      "count": 28,
       "method": "jsonld"
     },
     {
@@ -409,8 +409,8 @@
     {
       "source": "Maison Poème",
       "method": "jsonld",
-      "found": 30,
-      "kept": 30,
+      "found": 29,
+      "kept": 28,
       "note": ""
     },
     {
@@ -439,7 +439,7 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "note": "llm: ReadTimeout: HTTPSConnectionPool(host='www.senghor.be', port=443): Read timed out. (read timeout=25)"
+      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
     },
     {
       "source": "Flagey",
@@ -478,45 +478,6 @@
     }
   ],
   "events": [
-    {
-      "title": "Unruly Roses",
-      "start": "2026-09-06T18:00:00+02:00",
-      "end": "2026-12-19T15:00:00+01:00",
-      "all_day": false,
-      "location": "Maison poème, Rue d'Écosse 30, 1060 Saint-Gilles",
-      "description": "The hollyhock (alcea rosea) is a perennial plant whose name is thought to derive from 'Rose from Overseas.' All its parts are edible and its medicinal properties have been recognized since antiquity. Their presence in Brussels creates a striking contrast: their wild, untamed nature, their large colorful flowers disturb the urban order and we […]",
-      "url": "https://maisonpoeme.be/",
-      "image": "https://maisonpoeme.be/wp-content/uploads/2026/06/000051-688x1024.jpg",
-      "source": "Maison Poème",
-      "uid": "cd82dba8489e4a52",
-      "colour": "#7B49D6",
-      "translated": true,
-      "category": "environment",
-      "tags": [
-        "evening",
-        "recurring",
-        "sustainability"
-      ]
-    },
-    {
-      "title": "Reading bell hooks, Living Culture: Arts, Representations and Spaces of Belonging and Resistance",
-      "start": "2026-09-07T19:00:00+02:00",
-      "end": "2026-08-31T21:00:00+02:00",
-      "all_day": false,
-      "location": "Maison poème, Rue d'Écosse 30, 1060 Saint-Gilles",
-      "description": "To mark the release of Non silenciées: Affirm, Rebel, Live, Maison poème and The Gallery Wetsi present a public discussion on the contemporary relevance of bell hooks' thinking. Afrofeminist sociologist and essayist Fania Noël will dialogue with art historian and curator Anne Wetsi Mpoma about two works by bell […]",
-      "url": "https://maisonpoeme.be/",
-      "image": "https://maisonpoeme.be/wp-content/uploads/2026/08/Fania-Noel-Thomassaint-1024x1024.jpg",
-      "source": "Maison Poème",
-      "uid": "1a5e1b1838c7d944",
-      "colour": "#7B49D6",
-      "translated": true,
-      "category": "talks-discussions",
-      "tags": [
-        "activism",
-        "evening"
-      ]
-    },
     {
       "title": "5-7pm Organic Produce Baskets from Nadir Farm",
       "start": "2026-09-08T00:00:00+02:00",
