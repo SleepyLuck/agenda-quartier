@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-06T19:57:10.135933+02:00",
+  "generated": "2026-09-07T11:54:15.304670+02:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
@@ -90,7 +90,7 @@
       "name": "Maison Poème",
       "url": "https://maisonpoeme.be/",
       "colour": "#7B49D6",
-      "count": 31,
+      "count": 30,
       "method": "jsonld"
     },
     {
@@ -409,8 +409,8 @@
     {
       "source": "Maison Poème",
       "method": "jsonld",
-      "found": 31,
-      "kept": 31,
+      "found": 30,
+      "kept": 30,
       "note": ""
     },
     {
@@ -439,7 +439,7 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "note": "llm: ConnectTimeout: HTTPSConnectionPool(host='www.senghor.be', port=443): Max retries exceeded with url: /agenda/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.senghor.be', port=443) at 0"
+      "note": "llm: ReadTimeout: HTTPSConnectionPool(host='www.senghor.be', port=443): Read timed out. (read timeout=25)"
     },
     {
       "source": "Flagey",
@@ -478,28 +478,6 @@
     }
   ],
   "events": [
-    {
-      "title": "Back-to-School Party — Season 5",
-      "start": "2026-09-06T15:00:00+02:00",
-      "end": "2026-09-06T21:00:00+02:00",
-      "all_day": false,
-      "location": "Maison poème, Rue d'Écosse 30, 1060 Saint-Gilles",
-      "description": "A big celebration to kick off this 5th season, on the street and inside the House, featuring concerts, DJ sets, performances, a creator marketplace and lots of surprises! It's free with no reservation needed—just drop by, we'd love to have you!",
-      "url": "https://maisonpoeme.be/",
-      "image": "https://maisonpoeme.be/wp-content/uploads/2026/06/visuel-carre-1024x1024.jpg",
-      "source": "Maison Poème",
-      "uid": "f735db8de008e621",
-      "colour": "#7B49D6",
-      "translated": true,
-      "category": "festivals-celebrations",
-      "tags": [
-        "drop-in",
-        "family",
-        "free",
-        "live",
-        "outdoor"
-      ]
-    },
     {
       "title": "Unruly Roses",
       "start": "2026-09-06T18:00:00+02:00",
