@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-08T21:09:06.096868+02:00",
+  "generated": "2026-09-09T11:20:53.701120+02:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
       "name": "La Vieille Chéchette",
       "url": "https://chechette.be/lagenda/",
       "colour": "#E8336D",
-      "count": 14,
+      "count": 13,
       "method": "jsonld"
     },
     {
@@ -90,7 +90,7 @@
       "name": "Maison Poème",
       "url": "https://maisonpoeme.be/",
       "colour": "#7B49D6",
-      "count": 28,
+      "count": 27,
       "method": "jsonld"
     },
     {
@@ -326,7 +326,7 @@
       "source": "La Vieille Chéchette",
       "method": "jsonld",
       "found": 18,
-      "kept": 14,
+      "kept": 13,
       "note": ""
     },
     {
@@ -410,7 +410,7 @@
       "source": "Maison Poème",
       "method": "jsonld",
       "found": 29,
-      "kept": 28,
+      "kept": 27,
       "note": ""
     },
     {
@@ -478,26 +478,6 @@
     }
   ],
   "events": [
-    {
-      "title": "5-7pm Organic Produce Baskets from Nadir Farm",
-      "start": "2026-09-08T00:00:00+02:00",
-      "end": "2026-09-08T00:00:00+02:00",
-      "all_day": true,
-      "location": "La Vieille Chéchette, Bruxelles",
-      "description": "Fresh vegetable baskets all year round! Each year, households commit to picking up a weekly vegetable basket and building local food sovereignty. This is our CSA, our Community Supported Agriculture. The basket contents are a delightful mix of classic vegetables and exciting new flavors that we cultivate without fertilizers, pesticides, herbicides, or fossil fuel-powered tools—just lots of love.",
-      "url": "https://chechette.be/events/17h-19h-paniers-bio-ferme-de-nadir/",
-      "image": "https://chechette.be/wp-content/uploads/2025/05/ferme-Nadir-985x1024-1-e1747293928519.jpg",
-      "source": "La Vieille Chéchette",
-      "uid": "2204c8763532c4a6",
-      "colour": "#E8336D",
-      "time_checked": 3,
-      "translated": true,
-      "category": "food-drink",
-      "tags": [
-        "food-drink",
-        "sustainability"
-      ]
-    },
     {
       "title": "6:30pm La Vieille Chéchette Choir",
       "start": "2026-09-09T00:00:00+02:00",
@@ -1110,24 +1090,6 @@
       "category": "talks-discussions",
       "tags": [
         "evening",
-        "live"
-      ]
-    },
-    {
-      "title": "Monique Dorsel in the Spotlight",
-      "start": "2026-11-14T12:30:00+01:00",
-      "end": "2026-11-14T22:00:00+01:00",
-      "all_day": false,
-      "location": "Maison poème, Rue d'Écosse 30, 1060 Saint-Gilles",
-      "description": "",
-      "url": "https://maisonpoeme.be/",
-      "image": "https://maisonpoeme.be/wp-content/uploads/2026/02/Monique-Dorsel-1024x1024.png",
-      "source": "Maison Poème",
-      "uid": "6b4362de43016b93",
-      "colour": "#7B49D6",
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
         "live"
       ]
     },
