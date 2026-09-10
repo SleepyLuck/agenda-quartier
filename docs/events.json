@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-09T21:01:25.897585+02:00",
+  "generated": "2026-09-10T11:19:18.660409+02:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
       "name": "La Vieille Chéchette",
       "url": "https://chechette.be/lagenda/",
       "colour": "#E8336D",
-      "count": 13,
+      "count": 11,
       "method": "jsonld"
     },
     {
@@ -90,7 +90,7 @@
       "name": "Maison Poème",
       "url": "https://maisonpoeme.be/",
       "colour": "#7B49D6",
-      "count": 27,
+      "count": 26,
       "method": "jsonld"
     },
     {
@@ -325,8 +325,8 @@
     {
       "source": "La Vieille Chéchette",
       "method": "jsonld",
-      "found": 18,
-      "kept": 13,
+      "found": 17,
+      "kept": 11,
       "note": ""
     },
     {
@@ -409,8 +409,8 @@
     {
       "source": "Maison Poème",
       "method": "jsonld",
-      "found": 29,
-      "kept": 27,
+      "found": 28,
+      "kept": 26,
       "note": ""
     },
     {
@@ -439,7 +439,7 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "note": "llm: ConnectTimeout: HTTPSConnectionPool(host='www.senghor.be', port=443): Max retries exceeded with url: /agenda/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.senghor.be', port=443) at 0"
+      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
     },
     {
       "source": "Flagey",
@@ -478,64 +478,6 @@
     }
   ],
   "events": [
-    {
-      "title": "6:30pm La Vieille Chéchette Choir",
-      "start": "2026-09-09T00:00:00+02:00",
-      "end": "2026-09-09T00:00:00+02:00",
-      "all_day": true,
-      "location": "",
-      "description": "",
-      "url": "https://chechette.be/events/18h30-chorale-de-la-vieille-chechette/",
-      "image": null,
-      "source": "La Vieille Chéchette",
-      "uid": "429ebf24495d560a",
-      "colour": "#E8336D",
-      "time_checked": 3,
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "evening",
-        "live"
-      ]
-    },
-    {
-      "title": "Poetry, No Need to Fear! — CotCotCot Celebrates 15 Years",
-      "start": "2026-09-09T19:30:00+02:00",
-      "end": "2026-09-09T22:00:00+02:00",
-      "all_day": false,
-      "location": "Maison poème, Rue d'Écosse 30, 1060 Saint-Gilles",
-      "description": "On September 9th, CotCotCot editions takes over Maison poème to showcase the poetic side of their catalog through 5 readings, accompanied by a musical composition by Raphaël Decoster, musician from the band Turfu and illustrator of the album All My Pebbles. For this special evening, designed for their 15th anniversary, we […]",
-      "url": "https://maisonpoeme.be/",
-      "image": "https://maisonpoeme.be/wp-content/uploads/2026/06/2c25a9_9ccd6b600aab477dafcd20a25aa32ce9mv2-1024x724.jpg",
-      "source": "Maison Poème",
-      "uid": "5b137ad4b2bfc4e0",
-      "colour": "#7B49D6",
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "evening",
-        "live"
-      ]
-    },
-    {
-      "title": "6pm Lecture Performance: Be Passive and Shut Up! Or How Classist Policies Keep Us From Real Democracy",
-      "start": "2026-09-10T00:00:00+02:00",
-      "end": "2026-09-10T00:00:00+02:00",
-      "all_day": true,
-      "location": "",
-      "description": "Since 2010, Donatienne has been helping households make the most of energy-efficient and socially-minded housing to meet energy savings and comfort goals. It's complicated, right?! Really, she's above all a social worker! And that's what she's standing up for today.",
-      "url": "https://chechette.be/events/18h-conference-gesticulee-sois-passif-et-tais-toi-ou-comment-les-politiques-classistes-nous-eloignent-dune-vraie-democratie/",
-      "image": null,
-      "source": "La Vieille Chéchette",
-      "uid": "1b5d268fa48fc322",
-      "colour": "#E8336D",
-      "time_checked": 3,
-      "translated": true,
-      "category": "talks-discussions",
-      "tags": [
-        "live"
-      ]
-    },
     {
       "title": "Storm Beasts",
       "start": "2026-09-11T20:00:00+02:00",
