@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-14T22:03:23.869928+02:00",
+  "generated": "2026-09-15T11:43:55.491541+02:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
       "name": "La Vieille Chéchette",
       "url": "https://chechette.be/lagenda/",
       "colour": "#E8336D",
-      "count": 11,
+      "count": 10,
       "method": "jsonld"
     },
     {
@@ -326,7 +326,7 @@
       "source": "La Vieille Chéchette",
       "method": "jsonld",
       "found": 17,
-      "kept": 11,
+      "kept": 10,
       "note": ""
     },
     {
@@ -478,25 +478,6 @@
     }
   ],
   "events": [
-    {
-      "title": "6pm Exploration of 'Rule of Law': Bourgeois Order by Elsa Marcel",
-      "start": "2026-09-14T00:00:00+02:00",
-      "end": "2026-09-14T00:00:00+02:00",
-      "all_day": true,
-      "location": "",
-      "description": "Rule of Law: Bourgeois Order. In the face of authoritarian governments, police violence, and colonial reaction...",
-      "url": "https://chechette.be/events/18h-arpentage-de-etat-de-droit-ordre-bourgeois-delsa-marcel/",
-      "image": null,
-      "source": "La Vieille Chéchette",
-      "uid": "823aed52da90ad0b",
-      "colour": "#E8336D",
-      "time_checked": 3,
-      "translated": true,
-      "category": "talks-discussions",
-      "tags": [
-        "live"
-      ]
-    },
     {
       "title": "5-7pm organic produce boxes from Nadir Farm",
       "start": "2026-09-15T00:00:00+02:00",
