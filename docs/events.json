@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-16T21:14:07.980250+02:00",
+  "generated": "2026-09-17T11:50:18.629118+02:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
       "name": "La Vieille Chéchette",
       "url": "https://chechette.be/lagenda/",
       "colour": "#E8336D",
-      "count": 9,
+      "count": 8,
       "method": "jsonld"
     },
     {
@@ -90,7 +90,7 @@
       "name": "Maison Poème",
       "url": "https://maisonpoeme.be/",
       "colour": "#7B49D6",
-      "count": 23,
+      "count": 22,
       "method": "jsonld"
     },
     {
@@ -326,7 +326,7 @@
       "source": "La Vieille Chéchette",
       "method": "jsonld",
       "found": 17,
-      "kept": 9,
+      "kept": 8,
       "note": ""
     },
     {
@@ -409,8 +409,8 @@
     {
       "source": "Maison Poème",
       "method": "jsonld",
-      "found": 25,
-      "kept": 23,
+      "found": 24,
+      "kept": 22,
       "note": ""
     },
     {
@@ -439,7 +439,7 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
+      "note": "llm: ConnectTimeout: HTTPSConnectionPool(host='www.senghor.be', port=443): Max retries exceeded with url: /agenda/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.senghor.be', port=443) at 0"
     },
     {
       "source": "Flagey",
@@ -478,46 +478,6 @@
     }
   ],
   "events": [
-    {
-      "title": "6:30pm La Vieille Chéchette Choir",
-      "start": "2026-09-16T00:00:00+02:00",
-      "end": "2026-09-16T00:00:00+02:00",
-      "all_day": true,
-      "location": "",
-      "description": "",
-      "url": "https://chechette.be/events/18h30-chorale-de-la-vieille-chechette/",
-      "image": null,
-      "source": "La Vieille Chéchette",
-      "uid": "d27c11b377186b93",
-      "colour": "#E8336D",
-      "time_checked": 3,
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "evening",
-        "live",
-        "recurring"
-      ]
-    },
-    {
-      "title": "Women's Kiaï",
-      "start": "2026-09-16T19:30:00+02:00",
-      "end": "2026-09-16T22:00:00+02:00",
-      "all_day": false,
-      "location": "Maison poème, Rue d'Écosse 30, 1060 Saint-Gilles",
-      "description": "In an improvised dojo at the heart of the Women's House in Schaerbeek, Brussels, women gather to experience a unique space at the intersection of body and voice. Through exercises inspired by karate and theater led by Valérie Gimenez, they explore their limits, fears, and breath.",
-      "url": "https://maisonpoeme.be/",
-      "image": "https://maisonpoeme.be/wp-content/uploads/2026/06/Femmes_Kiai_web_titre-1024x1024.jpg",
-      "source": "Maison Poème",
-      "uid": "632aa3559b6ea192",
-      "colour": "#7B49D6",
-      "translated": true,
-      "category": "sport-wellbeing",
-      "tags": [
-        "evening",
-        "live"
-      ]
-    },
     {
       "title": "7:30pm Jun Sandson Concert",
       "start": "2026-09-18T00:00:00+02:00",
