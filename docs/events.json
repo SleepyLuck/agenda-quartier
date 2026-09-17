@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-17T11:50:18.629118+02:00",
+  "generated": "2026-09-17T21:29:31.404079+02:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
@@ -432,7 +432,7 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
+      "note": "llm: PermissionError: robots.txt disallows https://parkpoetik.be/nl/agenda/"
     },
     {
       "source": "Le Senghor",
