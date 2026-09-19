@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-19T11:09:27.224035+02:00",
+  "generated": "2026-09-19T20:19:12.268493+02:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
@@ -432,14 +432,14 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
+      "note": "llm: PermissionError: robots.txt disallows https://parkpoetik.be/nl/agenda/"
     },
     {
       "source": "Le Senghor",
       "method": "none",
       "found": 0,
       "kept": 0,
-      "note": "llm: ConnectTimeout: HTTPSConnectionPool(host='www.senghor.be', port=443): Max retries exceeded with url: /agenda/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.senghor.be', port=443) at 0"
+      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
     },
     {
       "source": "Flagey",
