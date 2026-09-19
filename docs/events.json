@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-18T20:46:24.054533+02:00",
+  "generated": "2026-09-19T11:09:27.224035+02:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
       "name": "La Vieille Chéchette",
       "url": "https://chechette.be/lagenda/",
       "colour": "#E8336D",
-      "count": 8,
+      "count": 7,
       "method": "jsonld"
     },
     {
@@ -90,7 +90,7 @@
       "name": "Maison Poème",
       "url": "https://maisonpoeme.be/",
       "colour": "#7B49D6",
-      "count": 22,
+      "count": 21,
       "method": "jsonld"
     },
     {
@@ -326,7 +326,7 @@
       "source": "La Vieille Chéchette",
       "method": "jsonld",
       "found": 17,
-      "kept": 8,
+      "kept": 7,
       "note": ""
     },
     {
@@ -409,8 +409,8 @@
     {
       "source": "Maison Poème",
       "method": "jsonld",
-      "found": 24,
-      "kept": 22,
+      "found": 23,
+      "kept": 21,
       "note": ""
     },
     {
@@ -439,7 +439,7 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
+      "note": "llm: ConnectTimeout: HTTPSConnectionPool(host='www.senghor.be', port=443): Max retries exceeded with url: /agenda/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.senghor.be', port=443) at 0"
     },
     {
       "source": "Flagey",
@@ -478,46 +478,6 @@
     }
   ],
   "events": [
-    {
-      "title": "7:30pm Jun Sandson Concert",
-      "start": "2026-09-18T00:00:00+02:00",
-      "end": "2026-09-18T00:00:00+02:00",
-      "all_day": true,
-      "location": "",
-      "description": "Jun Sandson is a multidisciplinary indie pop artist, singer-songwriter, and performer. A quirky clown spinning through sounds somewhere between raw blues, free folk, and experimental music. A delightfully odd character, half-deaf, singing melancholic \"melocoton\" songs to lift people's spirits again!",
-      "url": "https://chechette.be/events/19h30-concert-jun-sandson/",
-      "image": null,
-      "source": "La Vieille Chéchette",
-      "uid": "582eac9dd0faa23b",
-      "colour": "#E8336D",
-      "time_checked": 3,
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "evening",
-        "free",
-        "live"
-      ]
-    },
-    {
-      "title": "My Little Big Chop",
-      "start": "2026-09-18T20:00:00+02:00",
-      "end": "2026-09-18T22:00:00+02:00",
-      "all_day": false,
-      "location": "Maison poème, Rue d'Écosse 30, 1060 Saint-Gilles",
-      "description": "As a DEI (Diversity, Equity and Inclusion) officer at a startup, Emma faces a string of romantic and hair-related mishaps. Usually she keeps a low profile, but her wig is irritating and mirrors have become unbearable. Her YouTube aunties warned her: there's no going back. She's turning 30 tomorrow and ready to make her mark [...]",
-      "url": "https://maisonpoeme.be/",
-      "image": "https://maisonpoeme.be/wp-content/uploads/2026/06/A7C08289-e1782743858681-1024x1024.jpg",
-      "source": "Maison Poème",
-      "uid": "5ccd832660cf034a",
-      "colour": "#7B49D6",
-      "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "evening",
-        "live"
-      ]
-    },
     {
       "title": "11am Literary Encounter with Romain Lemire and Thomas Prédour",
       "start": "2026-09-19T00:00:00+02:00",
