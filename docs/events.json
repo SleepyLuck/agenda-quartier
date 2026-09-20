@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-19T20:19:12.268493+02:00",
+  "generated": "2026-09-20T11:36:33.181930+02:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
       "name": "La Vieille Chéchette",
       "url": "https://chechette.be/lagenda/",
       "colour": "#E8336D",
-      "count": 7,
+      "count": 6,
       "method": "jsonld"
     },
     {
@@ -326,7 +326,7 @@
       "source": "La Vieille Chéchette",
       "method": "jsonld",
       "found": 17,
-      "kept": 7,
+      "kept": 6,
       "note": ""
     },
     {
@@ -432,14 +432,14 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "note": "llm: PermissionError: robots.txt disallows https://parkpoetik.be/nl/agenda/"
+      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
     },
     {
       "source": "Le Senghor",
       "method": "none",
       "found": 0,
       "kept": 0,
-      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
+      "note": "llm: ConnectTimeout: HTTPSConnectionPool(host='www.senghor.be', port=443): Max retries exceeded with url: /agenda/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.senghor.be', port=443) at 0"
     },
     {
       "source": "Flagey",
@@ -478,25 +478,6 @@
     }
   ],
   "events": [
-    {
-      "title": "11am Literary Encounter with Romain Lemire and Thomas Prédour",
-      "start": "2026-09-19T00:00:00+02:00",
-      "end": "2026-09-19T00:00:00+02:00",
-      "all_day": true,
-      "location": "",
-      "description": "Romain Lemire received the Goncourt Prize for First Novel for \"Clément,\" a powerful account of the incest he and his brothers endured for years. He will receive the title of Doctor Honoris Causa from ULB on September 18th. Thomas Prédour created the show \"It Was Just a Game,\" from which he developed a self-published book that also addresses the theme of incest. They will discuss together the reasons that led them to write on this subject and will read passages...",
-      "url": "https://chechette.be/events/11h-rencontre-litteraire-avec-romain-lemire-et-thomas-predour/",
-      "image": null,
-      "source": "La Vieille Chéchette",
-      "uid": "ab0374aac5d814ca",
-      "colour": "#E8336D",
-      "time_checked": 3,
-      "translated": true,
-      "category": "talks-discussions",
-      "tags": [
-        "live"
-      ]
-    },
     {
       "title": "18h30 Arpentage de « Mangeuses – Histoire de celles qui dévorent, savourent ou se privent à l’excès » de Lauren Malka",
       "start": "2026-09-21T00:00:00+02:00",
