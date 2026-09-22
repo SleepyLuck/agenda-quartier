@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-21T22:17:22.338223+02:00",
+  "generated": "2026-09-22T11:35:32.908362+02:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
       "name": "La Vieille Chéchette",
       "url": "https://chechette.be/lagenda/",
       "colour": "#E8336D",
-      "count": 6,
+      "count": 5,
       "method": "jsonld"
     },
     {
@@ -326,7 +326,7 @@
       "source": "La Vieille Chéchette",
       "method": "jsonld",
       "found": 17,
-      "kept": 6,
+      "kept": 5,
       "note": ""
     },
     {
@@ -439,7 +439,7 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "note": "llm: ConnectTimeout: HTTPSConnectionPool(host='www.senghor.be', port=443): Max retries exceeded with url: /agenda/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.senghor.be', port=443) at 0"
+      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
     },
     {
       "source": "Flagey",
@@ -478,22 +478,6 @@
     }
   ],
   "events": [
-    {
-      "title": "18h30 Arpentage de « Mangeuses – Histoire de celles qui dévorent, savourent ou se privent à l’excès » de Lauren Malka",
-      "start": "2026-09-21T00:00:00+02:00",
-      "end": "2026-09-21T00:00:00+02:00",
-      "all_day": true,
-      "location": "",
-      "description": "<!-- wp:image {\"id\":6637,\"width\":\"405px\",\"height\":\"auto\",\"aspectRatio\":\"0.7998134763348099\",\"sizeSlug\":\"large\",\"linkDestination\":\"none\"} --> <figure class=\"wp-block-image size-large is-resized\"><img src=\"https://chechette.be/wp-content/uploads/2026/08/arpentage-21_09-1-819x1024.png\" alt=\"\" class=\"wp-image-6637\" style=\"aspect-ratio:0.7998134763348099;width:405px;height:auto\"/></figure> <!-- /wp:image --> <!-- wp:image {\"id\":6638,\"width\":\"276px\",\"height\":\"auto\",\"aspectRatio\":\"0.60626105893562\",\"sizeSlug\":\"full\",\"linkDestination\":\"none\"} --> <figure class=\"wp-block-image size-full is-resized\"><im",
-      "url": "https://chechette.be/events/18h-arpentage-de-mangeuses-histoire-de-celles-qui-devorent-savourent-ou-se-privent-a-lexces-de-lauren-malka/",
-      "image": null,
-      "source": "La Vieille Chéchette",
-      "uid": "e808afd1ef52ffa4",
-      "colour": "#E8336D",
-      "time_checked": 3,
-      "category": "other",
-      "tags": []
-    },
     {
       "title": "5-7pm organic produce boxes from Nadir Farm",
       "start": "2026-09-22T00:00:00+02:00",
