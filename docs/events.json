@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-22T21:24:24.998099+02:00",
+  "generated": "2026-09-23T11:45:06.188795+02:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
       "name": "La Vieille Chéchette",
       "url": "https://chechette.be/lagenda/",
       "colour": "#E8336D",
-      "count": 5,
+      "count": 4,
       "method": "jsonld"
     },
     {
@@ -326,7 +326,7 @@
       "source": "La Vieille Chéchette",
       "method": "jsonld",
       "found": 17,
-      "kept": 5,
+      "kept": 4,
       "note": ""
     },
     {
@@ -383,7 +383,7 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
+      "note": "llm: ReadTimeout: HTTPSConnectionPool(host='www.sounds.brussels', port=443): Read timed out. (read timeout=25)"
     },
     {
       "source": "U-Square",
@@ -409,7 +409,7 @@
     {
       "source": "Maison Poème",
       "method": "jsonld",
-      "found": 23,
+      "found": 24,
       "kept": 21,
       "note": ""
     },
@@ -478,27 +478,6 @@
     }
   ],
   "events": [
-    {
-      "title": "5-7pm organic produce boxes from Nadir Farm",
-      "start": "2026-09-22T00:00:00+02:00",
-      "end": "2026-09-22T00:00:00+02:00",
-      "all_day": true,
-      "location": "La Vieille Chéchette, Bruxelles",
-      "description": "Fresh vegetable boxes all year round! Every year, households commit to picking up a weekly vegetable box and building local food sovereignty. It's our CSA—our Community Supported Agriculture initiative. The box contents are a delightful blend of classic vegetables and exciting new flavors, which we grow without synthetic fertilizers, pesticides, herbicides, or fossil fuel-powered tools, but with plenty of love.",
-      "url": "https://chechette.be/events/17h-19h-paniers-bio-ferme-de-nadir/",
-      "image": "https://chechette.be/wp-content/uploads/2025/05/ferme-Nadir-985x1024-1-e1747293928519.jpg",
-      "source": "La Vieille Chéchette",
-      "uid": "31d932d1b1211e03",
-      "colour": "#E8336D",
-      "time_checked": 3,
-      "translated": true,
-      "category": "food-drink",
-      "tags": [
-        "food-drink",
-        "recurring",
-        "sustainability"
-      ]
-    },
     {
       "title": "Stone Garden",
       "start": "2026-09-22T13:00:00+02:00",
