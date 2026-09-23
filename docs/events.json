@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-23T11:45:06.188795+02:00",
+  "generated": "2026-09-23T21:21:12.961286+02:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
@@ -90,7 +90,7 @@
       "name": "Maison Poème",
       "url": "https://maisonpoeme.be/",
       "colour": "#7B49D6",
-      "count": 21,
+      "count": 20,
       "method": "jsonld"
     },
     {
@@ -383,7 +383,7 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "note": "llm: ReadTimeout: HTTPSConnectionPool(host='www.sounds.brussels', port=443): Read timed out. (read timeout=25)"
+      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
     },
     {
       "source": "U-Square",
@@ -410,7 +410,7 @@
       "source": "Maison Poème",
       "method": "jsonld",
       "found": 24,
-      "kept": 21,
+      "kept": 20,
       "note": ""
     },
     {
@@ -478,27 +478,6 @@
     }
   ],
   "events": [
-    {
-      "title": "Stone Garden",
-      "start": "2026-09-22T13:00:00+02:00",
-      "end": "2026-09-26T16:00:00+02:00",
-      "all_day": false,
-      "location": "Maison poème, Rue d'Écosse 30, 1060 Saint-Gilles",
-      "description": "A workshop combining hands-on practices, writing, interviews and explorations of public space, culminating in a choreographic, visual and sonic performance outside. Stone Garden is an attempt to make our differences resonate through a poetic gesture in the street. An invitation to listen to each other, to connect [...]",
-      "url": "https://maisonpoeme.be/",
-      "image": "https://maisonpoeme.be/wp-content/uploads/2026/06/©SebastienDebuyl2-1024x768.jpg",
-      "source": "Maison Poème",
-      "uid": "ac0b96ce465a5bb5",
-      "colour": "#7B49D6",
-      "translated": true,
-      "category": "workshops-creative",
-      "tags": [
-        "dance",
-        "live",
-        "outdoor",
-        "recurring"
-      ]
-    },
     {
       "title": "6:30pm La Vieille Chéchette Choir",
       "start": "2026-09-23T00:00:00+02:00",
