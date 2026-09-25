@@ -1,12 +1,12 @@
 {
-  "generated": "2026-09-24T21:42:32.241258+02:00",
+  "generated": "2026-09-25T11:57:16.312420+02:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
       "name": "La Vieille Chéchette",
       "url": "https://chechette.be/lagenda/",
       "colour": "#E8336D",
-      "count": 3,
+      "count": 2,
       "method": "jsonld"
     },
     {
@@ -326,7 +326,7 @@
       "source": "La Vieille Chéchette",
       "method": "jsonld",
       "found": 17,
-      "kept": 3,
+      "kept": 2,
       "note": ""
     },
     {
@@ -439,7 +439,7 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "note": "llm: ConnectTimeout: HTTPSConnectionPool(host='www.senghor.be', port=443): Max retries exceeded with url: /agenda/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.senghor.be', port=443) at 0"
+      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
     },
     {
       "source": "Flagey",
@@ -478,26 +478,6 @@
     }
   ],
   "events": [
-    {
-      "title": "7:30pm Friends of Le Monde Diplomatique",
-      "start": "2026-09-24T00:00:00+02:00",
-      "end": "2026-09-24T00:00:00+02:00",
-      "all_day": true,
-      "location": "",
-      "description": "",
-      "url": "https://chechette.be/events/19h30-ami-es-du-monde-diplomatique/",
-      "image": null,
-      "source": "La Vieille Chéchette",
-      "uid": "913ee27cf1c58fe3",
-      "colour": "#E8336D",
-      "time_checked": 3,
-      "translated": true,
-      "category": "community-social",
-      "tags": [
-        "evening",
-        "recurring"
-      ]
-    },
     {
       "title": "From O to A",
       "start": "2026-09-25T20:00:00+02:00",
