@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-25T11:57:16.312420+02:00",
+  "generated": "2026-09-25T21:43:20.746574+02:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
@@ -90,7 +90,7 @@
       "name": "Maison Poème",
       "url": "https://maisonpoeme.be/",
       "colour": "#7B49D6",
-      "count": 20,
+      "count": 21,
       "method": "jsonld"
     },
     {
@@ -409,8 +409,8 @@
     {
       "source": "Maison Poème",
       "method": "jsonld",
-      "found": 24,
-      "kept": 20,
+      "found": 25,
+      "kept": 21,
       "note": ""
     },
     {
@@ -664,6 +664,23 @@
       "tags": [
         "evening",
         "live"
+      ]
+    },
+    {
+      "title": "Parcours Minigolf – Sorties de résidences 2026",
+      "start": "2026-10-30T19:30:00+01:00",
+      "end": "2026-10-30T23:00:00+01:00",
+      "all_day": false,
+      "location": "Bamp, Avenue Sleeckx 37, 1030 Schaerbeek",
+      "description": "",
+      "url": "https://maisonpoeme.be/",
+      "image": "https://maisonpoeme.be/wp-content/uploads/2026/09/parcours-minigolf-1024x1024.jpg",
+      "source": "Maison Poème",
+      "uid": "2734425d8d6a2a97",
+      "colour": "#7B49D6",
+      "category": "other",
+      "tags": [
+        "evening"
       ]
     },
     {
