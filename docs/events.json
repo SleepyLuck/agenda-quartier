@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-25T21:43:20.746574+02:00",
+  "generated": "2026-09-26T11:40:10.460173+02:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
@@ -90,7 +90,7 @@
       "name": "Maison Poème",
       "url": "https://maisonpoeme.be/",
       "colour": "#7B49D6",
-      "count": 21,
+      "count": 20,
       "method": "jsonld"
     },
     {
@@ -409,8 +409,8 @@
     {
       "source": "Maison Poème",
       "method": "jsonld",
-      "found": 25,
-      "kept": 21,
+      "found": 24,
+      "kept": 20,
       "note": ""
     },
     {
@@ -478,25 +478,6 @@
     }
   ],
   "events": [
-    {
-      "title": "From O to A",
-      "start": "2026-09-25T20:00:00+02:00",
-      "end": "2026-09-25T22:00:00+02:00",
-      "all_day": false,
-      "location": "Maison poème, Rue d'Écosse 30, 1060 Saint-Gilles",
-      "description": "An evening of duo concerts. Featuring an unconventional concert by Karin Clercq and Pascal Charpentier, with an intimate version of Raphaële Germser's repertoire as opener!",
-      "url": "https://maisonpoeme.be/",
-      "image": "https://maisonpoeme.be/wp-content/uploads/2026/06/3F3KsNhJdpJi-Karin-Clercq-De-l-O-dans-l-A-photo-1024x1024.jpg",
-      "source": "Maison Poème",
-      "uid": "0c4b7902151a5ebf",
-      "colour": "#7B49D6",
-      "translated": true,
-      "category": "music",
-      "tags": [
-        "evening",
-        "live"
-      ]
-    },
     {
       "title": "Offline",
       "start": "2026-09-26T11:00:00+02:00",
