@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-26T11:40:10.460173+02:00",
+  "generated": "2026-09-26T20:55:30.790644+02:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
@@ -90,7 +90,7 @@
       "name": "Maison Poème",
       "url": "https://maisonpoeme.be/",
       "colour": "#7B49D6",
-      "count": 20,
+      "count": 19,
       "method": "jsonld"
     },
     {
@@ -409,8 +409,8 @@
     {
       "source": "Maison Poème",
       "method": "jsonld",
-      "found": 24,
-      "kept": 20,
+      "found": 22,
+      "kept": 19,
       "note": ""
     },
     {
@@ -439,7 +439,7 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
+      "note": "llm: ConnectTimeout: HTTPSConnectionPool(host='www.senghor.be', port=443): Max retries exceeded with url: /agenda/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.senghor.be', port=443) at 0"
     },
     {
       "source": "Flagey",
@@ -478,26 +478,6 @@
     }
   ],
   "events": [
-    {
-      "title": "Offline",
-      "start": "2026-09-26T11:00:00+02:00",
-      "end": "2026-09-26T14:00:00+02:00",
-      "all_day": false,
-      "location": "Maison poème, Rue d'Écosse 30, 1060 Saint-Gilles",
-      "description": "One Saturday per month at the Maison poème bar. Free admission. 11am-2pm. How to feed your imagination without screens? Once a month, Maison poème invites you for a timeless moment to pause, read and connect, away from screens. 11am-1pm: silent reading",
-      "url": "https://maisonpoeme.be/",
-      "image": "https://maisonpoeme.be/wp-content/uploads/2026/06/format-carre-1024x1024.jpg",
-      "source": "Maison Poème",
-      "uid": "462783b1204476a1",
-      "colour": "#7B49D6",
-      "translated": true,
-      "category": "community-social",
-      "tags": [
-        "drop-in",
-        "free",
-        "recurring"
-      ]
-    },
     {
       "title": "Two Minute Chance",
       "start": "2026-09-27T15:00:00+02:00",
