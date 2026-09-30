@@ -42,15 +42,13 @@ jobs:
           ANTHROPIC_WORKSPACE_ID: ${{ secrets.ANTHROPIC_WORKSPACE_ID }}
         run: python scrape.py | tee run.log
 
-      - name: Fail if nothing was collected
+      - name: Check for a regression before publishing
         run: |
-          COUNT=$(python -c "import json;print(len(json.load(open('docs/events.json'))['events']))")
-          echo "$COUNT events collected" >> $GITHUB_STEP_SUMMARY
+          echo '## Run log' >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
           cat run.log >> $GITHUB_STEP_SUMMARY
-          if [ "$COUNT" -eq 0 ]; then
-            echo "Every source returned nothing - not overwriting the published calendar."
-            exit 1
-          fi
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          python check_regression.py
 
       - name: Commit updated calendar
         run: |

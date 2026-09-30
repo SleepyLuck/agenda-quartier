@@ -37,6 +37,26 @@ TIMEOUT = 25
 _robots_cache: dict[str, RobotFileParser | None] = {}
 
 
+# Distinct exception types so extract() can tell a doomed-for-the-whole-run
+# problem (no API credit, bad key) apart from an ordinary per-source fetch
+# failure, instead of both collapsing into the same generic error string -
+# see the incident where a billing failure silently emptied 19/22 sources
+# and nothing in the log said why.
+class BillingError(Exception):
+    """The Anthropic API itself rejected the request - no credit, bad/expired
+    key, or an org auth problem (401/403, or a 400 whose body talks about
+    billing). Retrying the same page won't help; retrying ANY page won't
+    help until this is fixed, which is why extract() uses this to short-
+    circuit every other LLM call for the rest of the run."""
+
+
+class LLMJSONError(Exception):
+    """The API call itself succeeded, but the model's reply wasn't the JSON
+    array parse_llm() asked for (truncated by max_tokens, or it wrapped the
+    answer in prose despite the prompt). Distinct from BillingError - this
+    is a per-page problem, not a whole-run one."""
+
+
 # ---------------------------------------------------------------- fetching
 
 def robots_allows(url: str) -> bool:
@@ -382,7 +402,15 @@ def call_anthropic(body: dict, api_key: str) -> dict:
     r = requests.post("https://api.anthropic.com/v1/messages",
                        headers=headers, json=body, timeout=120)
     if not r.ok:
-        raise requests.HTTPError(f"{r.status_code} {r.reason}: {r.text[:300]}", response=r)
+        detail = f"{r.status_code} {r.reason}: {r.text[:300]}"
+        # 401/403 are always an auth problem; a 400 is only "billing" when the
+        # body actually says so (a bad model name is also a 400, but retrying
+        # other sources isn't hopeless the way it is for real billing/auth).
+        if r.status_code in (401, 403) or (
+            r.status_code == 400 and re.search(r"credit balance|billing", r.text, re.I)
+        ):
+            raise BillingError(detail)
+        raise requests.HTTPError(detail, response=r)
     return r.json()
 
 
@@ -434,8 +462,8 @@ def parse_llm(html: str, source: str, page_url: str, tz: str, model: str,
     reply = re.sub(r"^```(?:json)?|```$", "", reply, flags=re.M).strip()
     try:
         items = json.loads(reply)
-    except json.JSONDecodeError:
-        return []
+    except json.JSONDecodeError as exc:
+        raise LLMJSONError(f"{exc}: reply was {reply[:200]!r}") from exc
     now = datetime.now(ZoneInfo(tz))
     window_start = now - timedelta(days=keep_past_days)
     window_end = now + timedelta(days=horizon_days)
@@ -918,8 +946,23 @@ def fill_fallback_images(events: list[dict], page_html: str | None, url: str, ro
             e["image"] = fallback
 
 
-def extract(source_cfg: dict, defaults: dict) -> tuple[list[dict], str, str]:
-    """Returns (events, method_used, note)."""
+def extract(source_cfg: dict, defaults: dict, skip_llm: bool = False
+            ) -> tuple[list[dict], str, str, str]:
+    """Returns (events, method_used, note, error_class).
+
+    error_class is "" on success, otherwise one of:
+      billing  - the Anthropic API itself rejected the request (no credit,
+                 bad key, auth) - not this source's fault, and every other
+                 llm/browser source this run will fail the same way
+      site     - couldn't fetch or wasn't allowed to (HTTP error, timeout,
+                 robots.txt disallow)
+      parse    - fetched fine, but that rung's parser found zero events
+      llm-json - the model replied, but not with the JSON array asked for
+
+    skip_llm short-circuits every step that would call the LLM without even
+    trying - set by the caller once a billing error has already been seen
+    this run, so the other 15+ llm-rung sources fail in one line each
+    instead of each making (and failing) their own doomed API call."""
     name = source_cfg["name"]
     url = source_cfg["url"]
     tz = source_cfg.get("tz") or defaults.get("timezone", "Europe/Brussels")
@@ -931,8 +974,13 @@ def extract(source_cfg: dict, defaults: dict) -> tuple[list[dict], str, str]:
 
     order = [method] if method != "auto" else ["ics", "wordpress", "jsonld", "llm"]
     last_error = ""
+    error_class = ""
 
     for step in order:
+        if step == "llm" and skip_llm:
+            last_error = last_error or "llm: skipped (billing failure earlier this run)"
+            error_class = "billing"
+            continue
         page_html = None  # kept when we already have it, so the image fallback is free
         try:
             if step == "ics":
@@ -952,17 +1000,32 @@ def extract(source_cfg: dict, defaults: dict) -> tuple[list[dict], str, str]:
             elif step == "browser":
                 page_html = fetch_rendered(url, robots)
                 events = parse_jsonld(page_html, name, url, tz)
-                if not events:
+                if not events and not skip_llm:
                     events = parse_llm(page_html, name, url, tz, model,
                                         horizon_days, keep_past_days)
+                elif not events:
+                    last_error = "browser: jsonld empty, llm skipped (billing failure earlier this run)"
+                    error_class = "billing"
             else:
                 continue
             if events:
                 fill_fallback_images(events, page_html, url, robots)
-                return events, step, ""
-            last_error = last_error or f"{step}: nothing found"
+                return events, step, "", ""
+            if error_class != "billing":
+                last_error = last_error or f"{step}: nothing found"
+                error_class = error_class or "parse"
+        except BillingError as exc:
+            last_error = f"{step}: {exc}"[:200]
+            error_class = "billing"
+        except LLMJSONError as exc:
+            last_error = f"{step}: {exc}"[:200]
+            error_class = "llm-json"
+        except PermissionError as exc:  # robots.txt disallow
+            last_error = f"{step}: {exc}"[:200]
+            error_class = "site"
         except Exception as exc:  # keep going; one bad source must not stop the run
             last_error = f"{step}: {type(exc).__name__}: {exc}"[:200]
+            error_class = "site"
             time.sleep(0.5)
 
-    return [], "none", last_error
+    return [], "none", last_error, error_class

@@ -33,15 +33,18 @@ def load_config() -> tuple[dict, list[dict]]:
     return cfg.get("defaults", {}) or {}, cfg.get("sources", []) or []
 
 
-def _previous_events() -> list[dict]:
+def _previous_payload() -> dict:
     path = OUT / "events.json"
     if not path.exists():
-        return []
+        return {}
     try:
-        data = json.loads(path.read_text(encoding="utf-8"))
+        return json.loads(path.read_text(encoding="utf-8"))
     except (json.JSONDecodeError, OSError):
-        return []
-    return data.get("events", [])
+        return {}
+
+
+def _previous_events() -> list[dict]:
+    return _previous_payload().get("events", [])
 
 
 def load_category_cache() -> dict[str, str]:
@@ -168,15 +171,33 @@ def main() -> int:
     horizon = int(defaults.get("horizon_days", 120))
     past = int(defaults.get("keep_past_days", 1))
 
+    # Carry-forward: a source that fails outright this run (site down, robots
+    # changed, billing) shouldn't make its events vanish from the page - keep
+    # showing whatever it last actually delivered, marked stale, until it
+    # recovers. Indexed by source name against the previously PUBLISHED
+    # payload, not this run's in-progress one.
+    prev_payload = _previous_payload()
+    prev_events_by_source: dict[str, list[dict]] = {}
+    for e in prev_payload.get("events", []):
+        prev_events_by_source.setdefault(e.get("source", ""), []).append(e)
+    prev_source_meta_by_name = {s["name"]: s for s in prev_payload.get("sources", [])}
+    today_iso = datetime.now(ZoneInfo(tz)).date().isoformat()
+
     all_events: dict[str, dict] = {}
     report, source_meta = [], []
+    # Set on the first billing/auth failure from the API itself - every other
+    # llm/browser source this run is doomed the same way, so stop paying for
+    # (and logging) 15+ more identical failures. See extract()'s skip_llm.
+    billing_broken = False
 
     for i, src in enumerate(sources):
         colour = src.get("colour") or PALETTE[i % len(PALETTE)]
         if not src.get("enabled", True):
             print(f"{src['name']:<38} skipped (enabled: false)")
             continue
-        events, method, note = extract(src, defaults)
+        events, method, note, error_class = extract(src, defaults, skip_llm=billing_broken)
+        if error_class == "billing":
+            billing_broken = True
         kept = 0
         for ev in events:
             if not within_window(ev["start"], tz, past, horizon):
@@ -184,12 +205,42 @@ def main() -> int:
             ev["colour"] = colour
             all_events.setdefault(ev["uid"], ev)
             kept += 1
-        source_meta.append({"name": src["name"], "url": src["url"],
-                            "colour": colour, "count": kept, "method": method})
-        report.append({"source": src["name"], "method": method,
-                       "found": len(events), "kept": kept, "note": note})
-        print(f"{src['name']:<38} {method:<10} found={len(events):<4} kept={kept}"
-              + (f"  [{note}]" if note else ""))
+
+        carried = 0
+        stale = False
+        last_ok = today_iso
+        if kept == 0:
+            prev_meta = prev_source_meta_by_name.get(src["name"], {})
+            prev_last_ok = prev_meta.get("last_ok")
+            if prev_events_by_source.get(src["name"]) or prev_last_ok:
+                stale = True
+                last_ok = prev_last_ok or (prev_payload.get("generated", today_iso) or today_iso)[:10]
+                for ev in prev_events_by_source.get(src["name"], []):
+                    if not within_window(ev["start"], tz, past, horizon):
+                        continue
+                    ev = dict(ev)
+                    ev["colour"] = colour
+                    ev["stale"] = True
+                    all_events.setdefault(ev["uid"], ev)
+                    carried += 1
+            else:
+                stale = False
+                last_ok = None
+
+        source_meta.append({"name": src["name"], "url": src["url"], "colour": colour,
+                            "count": kept + carried, "method": method,
+                            "stale": stale, "last_ok": last_ok})
+        report.append({"source": src["name"], "method": method, "found": len(events),
+                       "kept": kept, "carried": carried, "stale": stale,
+                       "error_class": error_class, "note": note})
+        line = f"{src['name']:<38} {method:<10} found={len(events):<4} kept={kept}"
+        if carried:
+            line += f"  carried={carried} (stale since {last_ok})"
+        if error_class:
+            line += f"  [{error_class}] {note}"
+        elif note:
+            line += f"  [{note}]"
+        print(line)
         time.sleep(delay)
 
     events = sorted(all_events.values(), key=lambda e: e["start"])
