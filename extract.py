@@ -1005,11 +1005,19 @@ def extract(source_cfg: dict, defaults: dict, skip_llm: bool = False
     order = [method] if method != "auto" else ["ics", "wordpress", "jsonld", "llm"]
     last_error = ""
     error_class = ""
+    # A robots.txt disallow on this exact URL (ics/jsonld/llm all fetch the
+    # same source_cfg["url"]) blocks every later same-URL rung too, llm
+    # included - confirmed in production (CCLJ): without this, skip_llm's
+    # billing relabel below overwrote a source's real, billing-independent
+    # failure reason with a misleading "billing" that implied "fixed once
+    # credit is restored", when robots would keep blocking it regardless.
+    robots_blocked = False
 
     for step in order:
         if step == "llm" and skip_llm:
-            last_error = last_error or "llm: skipped (billing failure earlier this run)"
-            error_class = "billing"
+            if not robots_blocked:
+                last_error = "llm: skipped (billing failure earlier this run)"
+                error_class = "billing"
             continue
         page_html = None  # kept when we already have it, so the image fallback is free
         try:
@@ -1033,7 +1041,7 @@ def extract(source_cfg: dict, defaults: dict, skip_llm: bool = False
                 if not events and not skip_llm:
                     events = parse_llm(page_html, name, url, tz, model,
                                         horizon_days, keep_past_days)
-                elif not events:
+                elif not events and not robots_blocked:
                     last_error = "browser: jsonld empty, llm skipped (billing failure earlier this run)"
                     error_class = "billing"
             else:
@@ -1053,6 +1061,8 @@ def extract(source_cfg: dict, defaults: dict, skip_llm: bool = False
         except PermissionError as exc:  # robots.txt disallow
             last_error = f"{step}: {exc}"[:200]
             error_class = "site"
+            if step in ("ics", "jsonld", "llm"):  # these fetch source_cfg["url"] directly
+                robots_blocked = True
         except Exception as exc:  # keep going; one bad source must not stop the run
             last_error = f"{step}: {type(exc).__name__}: {exc}"[:200]
             error_class = "site"
