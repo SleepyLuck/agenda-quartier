@@ -49,13 +49,23 @@ def _previous_events() -> list[dict]:
 
 def load_category_cache() -> dict[str, str]:
     """uid -> category id, from the previously published events.json, so a run only
-    asks the LLM to classify events it hasn't seen before."""
-    return {e["uid"]: e["category"] for e in _previous_events() if e.get("category")}
+    asks the LLM to classify events it hasn't seen before. Only trusts entries the
+    model actually classified (category_llm) - a failed or partial batch falls back
+    to "other" for display without that marker (see classify_categories), so it's
+    correctly treated as not-yet-classified here instead of caching the fallback
+    forever (confirmed in production: a billing outage permanently mis-filed events
+    into "Other" before this marker existed)."""
+    return {e["uid"]: e["category"] for e in _previous_events() if e.get("category_llm")}
 
 
 def load_tag_cache() -> dict[str, list[str]]:
-    """uid -> tag id list, from the previously published events.json."""
-    return {e["uid"]: e["tags"] for e in _previous_events() if e.get("tags")}
+    """uid -> tag id list, from the previously published events.json. Only trusts
+    entries the model actually reviewed (tags_llm_done) - a failed or partial batch
+    falls back to deterministic-only tags for display without that marker (see
+    classify_tags), so it's correctly retried here instead of caching bare
+    free/evening-style tags as if the LLM-only ones had been considered and found
+    not to apply."""
+    return {e["uid"]: e["tags"] for e in _previous_events() if e.get("tags_llm_done")}
 
 
 def load_translation_cache() -> dict[str, dict]:

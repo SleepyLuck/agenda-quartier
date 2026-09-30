@@ -559,18 +559,26 @@ Events:
 
 def classify_categories(events: list[dict], model: str, cache: dict[str, str]) -> None:
     """Assign a category id to each event, in place. Reuses `cache` (uid -> category id)
-    for events already classified on a previous run, so a run only pays for new events."""
+    for events already classified on a previous run, so a run only pays for new events.
+
+    `category` always gets a real value (falls back to "other" for display even when
+    the call fails), but `category_llm` is only set True when the model itself actually
+    returned that uid - load_category_cache() in scrape.py only trusts entries carrying
+    that marker. Without it, a failed batch's blanket "other" fallback got cached as a
+    real classification forever (confirmed in production: a billing outage silently and
+    permanently mis-filed every event it touched into "Other")."""
     todo = [e for e in events if e["uid"] not in cache]
     for e in events:
         if e["uid"] in cache:
             e["category"] = cache[e["uid"]]
+            e["category_llm"] = True
 
     if not todo:
         return
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
         for e in todo:
-            e["category"] = "other"
+            e["category"] = "other"  # not cached - retried once a key exists
         return
 
     cat_list = "\n".join(f'- {c["id"]}: {c["label"]} — {c["hint"]}' for c in CATEGORIES)
@@ -593,12 +601,18 @@ def classify_categories(events: list[dict], model: str, cache: dict[str, str]) -
             reply = "".join(b.get("text", "") for b in data.get("content", [])
                             if b.get("type") == "text").strip()
             reply = re.sub(r"^```(?:json)?|```$", "", reply, flags=re.M).strip()
-            mapping = json.loads(reply)
+            parsed = json.loads(reply)
+            mapping = parsed if isinstance(parsed, dict) else {}
         except Exception:
             mapping = {}
         for e in chunk:
             cat = mapping.get(e["uid"])
-            e["category"] = cat if cat in CATEGORY_IDS else "other"
+            if cat in CATEGORY_IDS:
+                e["category"] = cat
+                e["category_llm"] = True
+            else:
+                e["category"] = "other"  # display fallback only - uid missing/invalid,
+                # not cached, so a failed or partial batch retries this event next run
 
 
 # -------------------------------------------------------------------- tags
@@ -699,13 +713,23 @@ def classify_tags(events: list[dict], model: str, cache: dict[str, list[str]]) -
     """Assign tags to each event, in place. `cache` (uid -> tag id list) is the
     previous run's full tag list per event; deterministic tags are always
     recomputed fresh (cheap, and harmless if the logic above ever changes), the
-    LLM-chosen ones are only asked for once per event."""
+    LLM-chosen ones are only asked for once per event.
+
+    `tags` always gets a real value (deterministic tags alone if the model
+    step is unavailable or fails), but `tags_llm_done` is only set True once
+    the model has actually weighed in for that uid - load_tag_cache() in
+    scrape.py only trusts entries carrying that marker. Without it, a failed
+    batch's bare deterministic tags (often non-empty - free/evening/etc.)
+    looked exactly like a complete, reviewed answer and got cached as one,
+    permanently losing every LLM-only tag (kids, outdoor, registration-
+    required...) for that event."""
     todo = []
     for e in events:
         det = deterministic_tags(e)
         e.pop("llm_recurring", None)  # internal-only, folded into det already
         if e["uid"] in cache:
             e["tags"] = sorted(det | set(cache[e["uid"]]))
+            e["tags_llm_done"] = True
         else:
             e["_pending_det_tags"] = det
             todo.append(e)
@@ -715,7 +739,7 @@ def classify_tags(events: list[dict], model: str, cache: dict[str, list[str]]) -
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
         for e in todo:
-            e["tags"] = sorted(e.pop("_pending_det_tags"))
+            e["tags"] = sorted(e.pop("_pending_det_tags"))  # not cached - retried once a key exists
         return
 
     tag_list = "\n".join(f'- {tid}: {TAG_HINTS[tid]}' for tid in LLM_TAG_IDS)
@@ -738,14 +762,20 @@ def classify_tags(events: list[dict], model: str, cache: dict[str, list[str]]) -
             reply = "".join(b.get("text", "") for b in data.get("content", [])
                             if b.get("type") == "text").strip()
             reply = re.sub(r"^```(?:json)?|```$", "", reply, flags=re.M).strip()
-            mapping = json.loads(reply)
+            parsed = json.loads(reply)
+            mapping = parsed if isinstance(parsed, dict) else {}
         except Exception:
             mapping = {}
         for e in chunk:
             det = e.pop("_pending_det_tags")
             picked = mapping.get(e["uid"])
-            valid = {t for t in picked if t in LLM_TAG_IDS} if isinstance(picked, list) else set()
-            e["tags"] = sorted(det | valid)
+            if isinstance(picked, list):
+                valid = {t for t in picked if t in LLM_TAG_IDS}
+                e["tags"] = sorted(det | valid)
+                e["tags_llm_done"] = True
+            else:
+                e["tags"] = sorted(det)  # display fallback only - uid missing from the
+                # reply, not cached, so a failed or partial batch retries this event
 
 
 # --------------------------------------------------------------- translation
