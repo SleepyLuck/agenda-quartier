@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-30T21:00:34.251529+02:00",
+  "generated": "2026-09-30T21:20:53.602253+02:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
@@ -394,7 +394,7 @@
       "carried": 0,
       "stale": false,
       "error_class": "billing",
-      "note": "wordpress: HTTPError: 404 Client Error: Not Found for url: https://www.tricoterie.be/wp-json/tribe/events/v1/events?per_page=50"
+      "note": "llm: skipped (billing failure earlier this run)"
     },
     {
       "source": "Recyclart",
@@ -404,7 +404,7 @@
       "carried": 0,
       "stale": false,
       "error_class": "billing",
-      "note": "wordpress: HTTPError: 404 Client Error: Not Found for url: https://recyclart.be/wp-json/tribe/events/v1/events?per_page=50"
+      "note": "llm: skipped (billing failure earlier this run)"
     },
     {
       "source": "Le Jacques Franck",
@@ -414,7 +414,7 @@
       "carried": 0,
       "stale": false,
       "error_class": "billing",
-      "note": "wordpress: HTTPError: 404 Client Error: Not Found for url: https://www.lejacquesfranck.be/wp-json/tribe/events/v1/events?per_page=50"
+      "note": "llm: skipped (billing failure earlier this run)"
     },
     {
       "source": "Fuse",
@@ -424,7 +424,7 @@
       "carried": 0,
       "stale": false,
       "error_class": "billing",
-      "note": "wordpress: HTTPError: 404 Client Error: Not Found for url: https://www.fuse.be/wp-json/tribe/events/v1/events?per_page=50"
+      "note": "llm: skipped (billing failure earlier this run)"
     },
     {
       "source": "Goudblommeke in Papier",
@@ -444,7 +444,7 @@
       "carried": 0,
       "stale": false,
       "error_class": "billing",
-      "note": "wordpress: HTTPError: 404 Client Error: Not Found for url: https://poche.be/wp-json/tribe/events/v1/events?per_page=50"
+      "note": "llm: skipped (billing failure earlier this run)"
     },
     {
       "source": "Sounds Jazz Club",
@@ -454,7 +454,7 @@
       "carried": 0,
       "stale": false,
       "error_class": "billing",
-      "note": "wordpress: HTTPError: 404 Client Error: Not Found for url: https://www.sounds.brussels/wp-json/tribe/events/v1/events?per_page=50"
+      "note": "llm: skipped (billing failure earlier this run)"
     },
     {
       "source": "U-Square",
@@ -464,7 +464,7 @@
       "carried": 0,
       "stale": false,
       "error_class": "billing",
-      "note": "wordpress: HTTPError: 404 Client Error: Not Found for url: https://usquare.brussels/wp-json/tribe/events/v1/events?per_page=50"
+      "note": "llm: skipped (billing failure earlier this run)"
     },
     {
       "source": "BRASS",
@@ -474,7 +474,7 @@
       "carried": 0,
       "stale": false,
       "error_class": "billing",
-      "note": "wordpress: HTTPError: 404 Client Error: Not Found for url: https://www.lebrass.be/wp-json/tribe/events/v1/events?per_page=50"
+      "note": "llm: skipped (billing failure earlier this run)"
     },
     {
       "source": "WIELS",
@@ -503,7 +503,7 @@
       "kept": 0,
       "carried": 0,
       "stale": false,
-      "error_class": "billing",
+      "error_class": "site",
       "note": "jsonld: robots.txt disallows https://cclj.be/notre-agenda/"
     },
     {
@@ -524,7 +524,7 @@
       "carried": 0,
       "stale": false,
       "error_class": "billing",
-      "note": "wordpress: HTTPError: 404 Client Error: Not Found for url: https://parkpoetik.be/wp-json/tribe/events/v1/events?per_page=50"
+      "note": "llm: skipped (billing failure earlier this run)"
     },
     {
       "source": "Le Senghor",
@@ -534,7 +534,7 @@
       "carried": 0,
       "stale": false,
       "error_class": "billing",
-      "note": "wordpress: HTTPError: 404 Client Error: Not Found for url: https://www.senghor.be/wp-json/tribe/events/v1/events?per_page=50"
+      "note": "llm: skipped (billing failure earlier this run)"
     },
     {
       "source": "Flagey",
@@ -544,7 +544,7 @@
       "carried": 0,
       "stale": false,
       "error_class": "billing",
-      "note": "wordpress: HTTPError: 404 Client Error: Not Found for url: https://www.flagey.be/en/wp-json/tribe/events/v1/events?per_page=50"
+      "note": "llm: skipped (billing failure earlier this run)"
     },
     {
       "source": "BOZAR",
@@ -554,7 +554,7 @@
       "carried": 0,
       "stale": false,
       "error_class": "billing",
-      "note": "wordpress: HTTPError: 404 Client Error: Not Found for url: https://www.bozar.be/wp-json/tribe/events/v1/events?per_page=50"
+      "note": "llm: skipped (billing failure earlier this run)"
     },
     {
       "source": "KVS",
@@ -564,7 +564,7 @@
       "carried": 0,
       "stale": false,
       "error_class": "billing",
-      "note": "wordpress: HTTPError: 404 Client Error: Not Found for url: https://www.kvs.be/wp-json/tribe/events/v1/events?per_page=50"
+      "note": "llm: skipped (billing failure earlier this run)"
     },
     {
       "source": "Kaaitheater",
@@ -574,7 +574,7 @@
       "carried": 0,
       "stale": false,
       "error_class": "billing",
-      "note": "wordpress: HTTPError: 404 Client Error: Not Found for url: https://kaaitheater.be/wp-json/tribe/events/v1/events?per_page=50"
+      "note": "llm: skipped (billing failure earlier this run)"
     },
     {
       "source": "Ancienne Belgique",
@@ -584,7 +584,7 @@
       "carried": 0,
       "stale": false,
       "error_class": "billing",
-      "note": "wordpress: HTTPError: 404 Client Error: Not Found for url: https://www.abconcerts.be/wp-json/tribe/events/v1/events?per_page=50"
+      "note": "llm: skipped (billing failure earlier this run)"
     }
   ],
   "events": [
