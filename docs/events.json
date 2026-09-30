@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-30T12:51:43.243105+02:00",
+  "generated": "2026-09-30T21:00:34.251529+02:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
@@ -7,154 +7,198 @@
       "url": "https://chechette.be/lagenda/",
       "colour": "#E8336D",
       "count": 1,
-      "method": "jsonld"
+      "method": "jsonld",
+      "stale": false,
+      "last_ok": "2026-09-30"
     },
     {
       "name": "GC Pianofabriek",
       "url": "https://www.pianofabriek.be/activiteiten",
       "colour": "#1B6FE0",
       "count": 0,
-      "method": "none"
+      "method": "none",
+      "stale": false,
+      "last_ok": null
     },
     {
       "name": "La Tricoterie",
       "url": "https://www.tricoterie.be/fr/agenda/l-agenda-culturel/?lang=fr",
       "colour": "#00937A",
       "count": 0,
-      "method": "none"
+      "method": "none",
+      "stale": false,
+      "last_ok": null
     },
     {
       "name": "Recyclart",
       "url": "https://recyclart.be/fr/agenda",
       "colour": "#E07A00",
       "count": 0,
-      "method": "none"
+      "method": "none",
+      "stale": false,
+      "last_ok": null
     },
     {
       "name": "Le Jacques Franck",
       "url": "https://www.lejacquesfranck.be/agenda",
       "colour": "#7B49D6",
       "count": 0,
-      "method": "none"
+      "method": "none",
+      "stale": false,
+      "last_ok": null
     },
     {
       "name": "Fuse",
       "url": "https://www.fuse.be/events",
       "colour": "#C0392B",
       "count": 0,
-      "method": "none"
+      "method": "none",
+      "stale": false,
+      "last_ok": null
     },
     {
       "name": "Goudblommeke in Papier",
       "url": "https://goudblommekeinpapier.be/agenda/",
       "colour": "#0F8CA8",
       "count": 3,
-      "method": "wordpress"
+      "method": "wordpress",
+      "stale": false,
+      "last_ok": "2026-09-30"
     },
     {
       "name": "Le Poche",
       "url": "https://poche.be/shows",
       "colour": "#8A7500",
       "count": 0,
-      "method": "none"
+      "method": "none",
+      "stale": false,
+      "last_ok": null
     },
     {
       "name": "Sounds Jazz Club",
       "url": "https://www.sounds.brussels/agenda/",
       "colour": "#E8336D",
       "count": 0,
-      "method": "none"
+      "method": "none",
+      "stale": false,
+      "last_ok": null
     },
     {
       "name": "U-Square",
       "url": "https://usquare.brussels/en/agenda",
       "colour": "#1B6FE0",
       "count": 0,
-      "method": "none"
+      "method": "none",
+      "stale": false,
+      "last_ok": null
     },
     {
       "name": "BRASS",
       "url": "https://www.lebrass.be/",
       "colour": "#00937A",
       "count": 0,
-      "method": "none"
+      "method": "none",
+      "stale": false,
+      "last_ok": null
     },
     {
       "name": "WIELS",
       "url": "https://wiels.org/en/events",
       "colour": "#E07A00",
       "count": 0,
-      "method": "none"
+      "method": "none",
+      "stale": false,
+      "last_ok": null
     },
     {
       "name": "Maison Poème",
       "url": "https://maisonpoeme.be/",
       "colour": "#7B49D6",
-      "count": 19,
-      "method": "jsonld"
+      "count": 18,
+      "method": "jsonld",
+      "stale": false,
+      "last_ok": "2026-09-30"
     },
     {
       "name": "CCLJ",
       "url": "https://cclj.be/notre-agenda/",
       "colour": "#C0392B",
       "count": 0,
-      "method": "none"
+      "method": "none",
+      "stale": false,
+      "last_ok": null
     },
     {
       "name": "GC Ten Weyngaert",
       "url": "https://www.tenweyngaert.be/activiteiten",
       "colour": "#0F8CA8",
       "count": 0,
-      "method": "none"
+      "method": "none",
+      "stale": false,
+      "last_ok": null
     },
     {
       "name": "Park Poétik",
       "url": "https://parkpoetik.be/nl/agenda/",
       "colour": "#8A7500",
       "count": 0,
-      "method": "none"
+      "method": "none",
+      "stale": false,
+      "last_ok": null
     },
     {
       "name": "Le Senghor",
       "url": "https://www.senghor.be/agenda/",
       "colour": "#E8336D",
       "count": 0,
-      "method": "none"
+      "method": "none",
+      "stale": false,
+      "last_ok": null
     },
     {
       "name": "Flagey",
       "url": "https://www.flagey.be/agenda",
       "colour": "#1B6FE0",
       "count": 0,
-      "method": "none"
+      "method": "none",
+      "stale": false,
+      "last_ok": null
     },
     {
       "name": "BOZAR",
       "url": "https://www.bozar.be/en/calendar",
       "colour": "#00937A",
       "count": 0,
-      "method": "none"
+      "method": "none",
+      "stale": false,
+      "last_ok": null
     },
     {
       "name": "KVS",
       "url": "https://www.kvs.be/fr/agenda",
       "colour": "#E07A00",
       "count": 0,
-      "method": "none"
+      "method": "none",
+      "stale": false,
+      "last_ok": null
     },
     {
       "name": "Kaaitheater",
       "url": "https://kaaitheater.be/nl/agenda",
       "colour": "#7B49D6",
       "count": 0,
-      "method": "none"
+      "method": "none",
+      "stale": false,
+      "last_ok": null
     },
     {
       "name": "Ancienne Belgique",
       "url": "https://www.abconcerts.be/fr/agenda",
       "colour": "#C0392B",
       "count": 0,
-      "method": "none"
+      "method": "none",
+      "stale": false,
+      "last_ok": null
     }
   ],
   "categories": [
@@ -327,6 +371,9 @@
       "method": "jsonld",
       "found": 17,
       "kept": 1,
+      "carried": 0,
+      "stale": false,
+      "error_class": "",
       "note": ""
     },
     {
@@ -334,41 +381,59 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "note": "browser: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgr"
+      "carried": 0,
+      "stale": false,
+      "error_class": "billing",
+      "note": "browser: 401 Unauthorized: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"API key is invalid.\"},\"request_id\":null}"
     },
     {
       "source": "La Tricoterie",
       "method": "none",
       "found": 0,
       "kept": 0,
-      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
+      "carried": 0,
+      "stale": false,
+      "error_class": "billing",
+      "note": "wordpress: HTTPError: 404 Client Error: Not Found for url: https://www.tricoterie.be/wp-json/tribe/events/v1/events?per_page=50"
     },
     {
       "source": "Recyclart",
       "method": "none",
       "found": 0,
       "kept": 0,
-      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
+      "carried": 0,
+      "stale": false,
+      "error_class": "billing",
+      "note": "wordpress: HTTPError: 404 Client Error: Not Found for url: https://recyclart.be/wp-json/tribe/events/v1/events?per_page=50"
     },
     {
       "source": "Le Jacques Franck",
       "method": "none",
       "found": 0,
       "kept": 0,
-      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
+      "carried": 0,
+      "stale": false,
+      "error_class": "billing",
+      "note": "wordpress: HTTPError: 404 Client Error: Not Found for url: https://www.lejacquesfranck.be/wp-json/tribe/events/v1/events?per_page=50"
     },
     {
       "source": "Fuse",
       "method": "none",
       "found": 0,
       "kept": 0,
-      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
+      "carried": 0,
+      "stale": false,
+      "error_class": "billing",
+      "note": "wordpress: HTTPError: 404 Client Error: Not Found for url: https://www.fuse.be/wp-json/tribe/events/v1/events?per_page=50"
     },
     {
       "source": "Goudblommeke in Papier",
       "method": "wordpress",
       "found": 3,
       "kept": 3,
+      "carried": 0,
+      "stale": false,
+      "error_class": "",
       "note": ""
     },
     {
@@ -376,41 +441,59 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
+      "carried": 0,
+      "stale": false,
+      "error_class": "billing",
+      "note": "wordpress: HTTPError: 404 Client Error: Not Found for url: https://poche.be/wp-json/tribe/events/v1/events?per_page=50"
     },
     {
       "source": "Sounds Jazz Club",
       "method": "none",
       "found": 0,
       "kept": 0,
-      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
+      "carried": 0,
+      "stale": false,
+      "error_class": "billing",
+      "note": "wordpress: HTTPError: 404 Client Error: Not Found for url: https://www.sounds.brussels/wp-json/tribe/events/v1/events?per_page=50"
     },
     {
       "source": "U-Square",
       "method": "none",
       "found": 0,
       "kept": 0,
-      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
+      "carried": 0,
+      "stale": false,
+      "error_class": "billing",
+      "note": "wordpress: HTTPError: 404 Client Error: Not Found for url: https://usquare.brussels/wp-json/tribe/events/v1/events?per_page=50"
     },
     {
       "source": "BRASS",
       "method": "none",
       "found": 0,
       "kept": 0,
-      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
+      "carried": 0,
+      "stale": false,
+      "error_class": "billing",
+      "note": "wordpress: HTTPError: 404 Client Error: Not Found for url: https://www.lebrass.be/wp-json/tribe/events/v1/events?per_page=50"
     },
     {
       "source": "WIELS",
       "method": "none",
       "found": 0,
       "kept": 0,
-      "note": "browser: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgr"
+      "carried": 0,
+      "stale": false,
+      "error_class": "billing",
+      "note": "browser: jsonld empty, llm skipped (billing failure earlier this run)"
     },
     {
       "source": "Maison Poème",
       "method": "jsonld",
-      "found": 22,
-      "kept": 19,
+      "found": 21,
+      "kept": 18,
+      "carried": 0,
+      "stale": false,
+      "error_class": "",
       "note": ""
     },
     {
@@ -418,63 +501,90 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "note": "llm: PermissionError: robots.txt disallows https://cclj.be/notre-agenda/"
+      "carried": 0,
+      "stale": false,
+      "error_class": "billing",
+      "note": "jsonld: robots.txt disallows https://cclj.be/notre-agenda/"
     },
     {
       "source": "GC Ten Weyngaert",
       "method": "none",
       "found": 0,
       "kept": 0,
-      "note": "browser: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgr"
+      "carried": 0,
+      "stale": false,
+      "error_class": "billing",
+      "note": "browser: jsonld empty, llm skipped (billing failure earlier this run)"
     },
     {
       "source": "Park Poétik",
       "method": "none",
       "found": 0,
       "kept": 0,
-      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
+      "carried": 0,
+      "stale": false,
+      "error_class": "billing",
+      "note": "wordpress: HTTPError: 404 Client Error: Not Found for url: https://parkpoetik.be/wp-json/tribe/events/v1/events?per_page=50"
     },
     {
       "source": "Le Senghor",
       "method": "none",
       "found": 0,
       "kept": 0,
-      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
+      "carried": 0,
+      "stale": false,
+      "error_class": "billing",
+      "note": "wordpress: HTTPError: 404 Client Error: Not Found for url: https://www.senghor.be/wp-json/tribe/events/v1/events?per_page=50"
     },
     {
       "source": "Flagey",
       "method": "none",
       "found": 0,
       "kept": 0,
-      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
+      "carried": 0,
+      "stale": false,
+      "error_class": "billing",
+      "note": "wordpress: HTTPError: 404 Client Error: Not Found for url: https://www.flagey.be/en/wp-json/tribe/events/v1/events?per_page=50"
     },
     {
       "source": "BOZAR",
       "method": "none",
       "found": 0,
       "kept": 0,
-      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
+      "carried": 0,
+      "stale": false,
+      "error_class": "billing",
+      "note": "wordpress: HTTPError: 404 Client Error: Not Found for url: https://www.bozar.be/wp-json/tribe/events/v1/events?per_page=50"
     },
     {
       "source": "KVS",
       "method": "none",
       "found": 0,
       "kept": 0,
-      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
+      "carried": 0,
+      "stale": false,
+      "error_class": "billing",
+      "note": "wordpress: HTTPError: 404 Client Error: Not Found for url: https://www.kvs.be/wp-json/tribe/events/v1/events?per_page=50"
     },
     {
       "source": "Kaaitheater",
       "method": "none",
       "found": 0,
       "kept": 0,
-      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
+      "carried": 0,
+      "stale": false,
+      "error_class": "billing",
+      "note": "wordpress: HTTPError: 404 Client Error: Not Found for url: https://kaaitheater.be/wp-json/tribe/events/v1/events?per_page=50"
     },
     {
       "source": "Ancienne Belgique",
       "method": "none",
       "found": 0,
       "kept": 0,
-      "note": "llm: HTTPError: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade "
+      "carried": 0,
+      "stale": false,
+      "error_class": "billing",
+      "note": "wordpress: HTTPError: 404 Client Error: Not Found for url: https://www.abconcerts.be/wp-json/tribe/events/v1/events?per_page=50"
     }
   ],
   "events": [
@@ -492,30 +602,8 @@
       "colour": "#E8336D",
       "time_checked": 3,
       "translated": true,
-      "category": "music",
-      "tags": [
-        "evening",
-        "live"
-      ]
-    },
-    {
-      "title": "Whatever the Material",
-      "start": "2026-09-30T18:00:00+02:00",
-      "end": "2026-09-30T19:00:00+02:00",
-      "all_day": false,
-      "location": "Maison poème, Rue d'Écosse 30, 1060 Saint-Gilles",
-      "description": "Tulitu bookstore welcomes author Joyce Rivière at the Maison poème bar on the occasion of the release of her collection \"Whatever the Material\" published by blast editions. \"Whatever the Material\" is a burning collection, inhabited by both night and light. Joyce Rivière tells a shared and common story punctuated by […]",
-      "url": "https://maisonpoeme.be/",
-      "image": "https://maisonpoeme.be/wp-content/uploads/2026/08/joyce-riviere-1024x1024.jpg",
-      "source": "Maison Poème",
-      "uid": "944c59829eccdd68",
-      "colour": "#7B49D6",
-      "translated": true,
-      "category": "talks-discussions",
-      "tags": [
-        "evening",
-        "live"
-      ]
+      "category": "other",
+      "tags": []
     },
     {
       "title": "Vitrines Parcours FrancoFaune",
@@ -530,7 +618,7 @@
       "uid": "24cd38fb9f48ce20",
       "colour": "#7B49D6",
       "translated": true,
-      "category": "festivals-celebrations",
+      "category": "other",
       "tags": []
     },
     {
@@ -546,12 +634,8 @@
       "uid": "329b3efc3dc35133",
       "colour": "#0F8CA8",
       "translated": true,
-      "category": "family-children",
-      "tags": [
-        "family",
-        "live",
-        "registration-required"
-      ]
+      "category": "other",
+      "tags": []
     },
     {
       "title": "Festival FrancoFaune",
@@ -566,7 +650,7 @@
       "uid": "d7ecd67e2d4902be",
       "colour": "#7B49D6",
       "translated": true,
-      "category": "festivals-celebrations",
+      "category": "other",
       "tags": []
     },
     {
@@ -582,10 +666,9 @@
       "uid": "b2a9871e8c0a0bc2",
       "colour": "#7B49D6",
       "translated": true,
-      "category": "film-cinema",
+      "category": "other",
       "tags": [
-        "evening",
-        "live"
+        "evening"
       ]
     },
     {
@@ -618,11 +701,9 @@
       "uid": "e1bc165b13eae796",
       "colour": "#7B49D6",
       "translated": true,
-      "category": "community-social",
+      "category": "other",
       "tags": [
-        "drop-in",
-        "free",
-        "recurring"
+        "free"
       ]
     },
     {
@@ -653,10 +734,9 @@
       "uid": "86e5ee024fb8e4e3",
       "colour": "#7B49D6",
       "translated": true,
-      "category": "music",
+      "category": "other",
       "tags": [
-        "evening",
-        "live"
+        "evening"
       ]
     },
     {
@@ -672,10 +752,9 @@
       "uid": "b47fb206c9dc4c5e",
       "colour": "#7B49D6",
       "translated": true,
-      "category": "talks-discussions",
+      "category": "other",
       "tags": [
-        "evening",
-        "live"
+        "evening"
       ]
     },
     {
@@ -691,11 +770,10 @@
       "uid": "342c5a2aeb003dcd",
       "colour": "#7B49D6",
       "translated": true,
-      "category": "culture-arts",
+      "category": "other",
       "tags": [
         "evening",
-        "free",
-        "live"
+        "free"
       ]
     },
     {
@@ -711,11 +789,9 @@
       "uid": "89e54b5ac191b589",
       "colour": "#7B49D6",
       "translated": true,
-      "category": "culture-arts",
+      "category": "other",
       "tags": [
-        "dance",
-        "evening",
-        "live"
+        "evening"
       ]
     },
     {
@@ -749,10 +825,9 @@
       "uid": "3e2a762f2090569d",
       "colour": "#7B49D6",
       "translated": true,
-      "category": "talks-discussions",
+      "category": "other",
       "tags": [
-        "evening",
-        "live"
+        "evening"
       ]
     },
     {
@@ -768,10 +843,9 @@
       "uid": "985456d01a6fe5c4",
       "colour": "#7B49D6",
       "translated": true,
-      "category": "music",
+      "category": "other",
       "tags": [
-        "evening",
-        "live"
+        "evening"
       ]
     },
     {
@@ -787,11 +861,9 @@
       "uid": "82b5f23540a52542",
       "colour": "#7B49D6",
       "translated": true,
-      "category": "community-social",
+      "category": "other",
       "tags": [
-        "drop-in",
-        "free",
-        "recurring"
+        "free"
       ]
     },
     {
@@ -807,10 +879,9 @@
       "uid": "649bce1ccc491069",
       "colour": "#7B49D6",
       "translated": true,
-      "category": "talks-discussions",
+      "category": "other",
       "tags": [
-        "evening",
-        "live"
+        "evening"
       ]
     },
     {
@@ -826,10 +897,9 @@
       "uid": "8566b09f604c65ef",
       "colour": "#7B49D6",
       "translated": true,
-      "category": "film-cinema",
+      "category": "other",
       "tags": [
-        "evening",
-        "live"
+        "evening"
       ]
     },
     {
@@ -845,10 +915,8 @@
       "uid": "f1a33fa82b3741b6",
       "colour": "#0F8CA8",
       "translated": true,
-      "category": "culture-arts",
-      "tags": [
-        "live"
-      ]
+      "category": "other",
+      "tags": []
     },
     {
       "title": "The Staart",
@@ -863,10 +931,9 @@
       "uid": "dd0e0d8fef79d16f",
       "colour": "#7B49D6",
       "translated": true,
-      "category": "music",
+      "category": "other",
       "tags": [
-        "evening",
-        "live"
+        "evening"
       ]
     },
     {
@@ -882,7 +949,7 @@
       "uid": "ee192eeebf98931c",
       "colour": "#7B49D6",
       "translated": true,
-      "category": "culture-arts",
+      "category": "other",
       "tags": [
         "evening"
       ]
@@ -900,11 +967,9 @@
       "uid": "7f61b0f74288fec4",
       "colour": "#7B49D6",
       "translated": true,
-      "category": "community-social",
+      "category": "other",
       "tags": [
-        "drop-in",
-        "free",
-        "recurring"
+        "free"
       ]
     }
   ]

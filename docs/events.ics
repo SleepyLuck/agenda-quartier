@@ -7,43 +7,22 @@ X-WR-CALNAME:Neighbourhood events
 X-WR-TIMEZONE:Europe/Brussels
 BEGIN:VEVENT
 UID:1c9e251a0601f0c5@neighbourhood-events
-DTSTAMP:20260930T105143Z
+DTSTAMP:20260930T190034Z
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20260930
 SUMMARY:6:30pm La Vieille Chéchette Choir
 URL:https://chechette.be/events/18h30-chorale-de-la-vieille-chechette/
-CATEGORIES:La Vieille Chéchette\,Music\,Evening\,Live
-END:VEVENT
-BEGIN:VEVENT
-UID:944c59829eccdd68@neighbourhood-events
-DTSTAMP:20260930T105143Z
-DTSTART:20260930T160000Z
-DTEND:20260930T170000Z
-SUMMARY:Whatever the Material
-LOCATION:Maison poème\, Rue d'Écosse 30\, 1060 Saint-Gilles
-URL:https://maisonpoeme.be/
-DESCRIPTION:Tulitu bookstore welcomes author Joyce Rivière at the Maison
-  poème bar on the occasion of the release of her collection "Whatever t
- he Material" published by blast editions. "Whatever the Material" is a b
- urning collection\, inhabited by both night and light. Joyce Rivière te
- lls a shared and common story punctuated by […]\nhttps://maisonpoeme.b
- e/
-CATEGORIES:Maison Poème\,Talks & Discussions\,Evening\,Live
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT120M
-DESCRIPTION:Whatever the Material
-END:VALARM
+CATEGORIES:La Vieille Chéchette\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:24cd38fb9f48ce20@neighbourhood-events
-DTSTAMP:20260930T105143Z
+DTSTAMP:20260930T190034Z
 DTSTART:20261010T120000Z
 DTEND:20261010T160000Z
 SUMMARY:Vitrines Parcours FrancoFaune
 LOCATION:Maison poème\, Rue d'Écosse 30\, 1060 Saint-Gilles
 URL:https://maisonpoeme.be/
-CATEGORIES:Maison Poème\,Festivals & Celebrations
+CATEGORIES:Maison Poème\,Other
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT120M
@@ -52,7 +31,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:329b3efc3dc35133@neighbourhood-events
-DTSTAMP:20260930T105143Z
+DTSTAMP:20260930T190034Z
 DTSTART:20261011T130000Z
 DTEND:20261011T153000Z
 SUMMARY:Three Little Grey Men
@@ -62,8 +41,7 @@ DESCRIPTION:THEATER: THREE LITTLE GREY MEN on Sunday\, October 11\, 2026
  at 3 PM and 5:30 PM (extra showing). Admission: €10 (payable on site).
   All ages welcome. Reservations: marsmoriau@hotmail.com (maximum 45 seat
  s).\nhttps://goudblommekeinpapier.be/event/3-mannetjes-grijs/
-CATEGORIES:Goudblommeke in Papier\,Family & Children\,Family\,Live\,Regis
- tration Required
+CATEGORIES:Goudblommeke in Papier\,Other
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT120M
@@ -72,13 +50,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d7ecd67e2d4902be@neighbourhood-events
-DTSTAMP:20260930T105143Z
+DTSTAMP:20260930T190034Z
 DTSTART:20261011T140000Z
 DTEND:20261011T180000Z
 SUMMARY:Festival FrancoFaune
 LOCATION:Maison poème\, Rue d'Écosse 30\, 1060 Saint-Gilles
 URL:https://maisonpoeme.be/
-CATEGORIES:Maison Poème\,Festivals & Celebrations
+CATEGORIES:Maison Poème\,Other
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT120M
@@ -87,7 +65,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b2a9871e8c0a0bc2@neighbourhood-events
-DTSTAMP:20260930T105143Z
+DTSTAMP:20260930T190034Z
 DTSTART:20261028T183000Z
 DTEND:20261028T210000Z
 SUMMARY:The Pigeon and the Lazarus Bird
@@ -98,7 +76,7 @@ DESCRIPTION:An ordinary wildlife documentary about a pigeon takes a drama
  ace-to-face with a mysterious bird\, supposedly extinct for millennia. B
  ut their curious encounter may have been no accident at all.\nhttps://ma
  isonpoeme.be/
-CATEGORIES:Maison Poème\,Film & Cinema\,Evening\,Live
+CATEGORIES:Maison Poème\,Other\,Evening
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT120M
@@ -107,7 +85,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2734425d8d6a2a97@neighbourhood-events
-DTSTAMP:20260930T105143Z
+DTSTAMP:20260930T190034Z
 DTSTART:20261030T183000Z
 DTEND:20261030T220000Z
 SUMMARY:Parcours Minigolf – Sorties de résidences 2026
@@ -122,7 +100,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e1bc165b13eae796@neighbourhood-events
-DTSTAMP:20260930T105143Z
+DTSTAMP:20260930T190034Z
 DTSTART:20261031T100000Z
 DTEND:20261031T130000Z
 SUMMARY:Offline
@@ -133,7 +111,7 @@ DESCRIPTION:One Saturday per month at the Maison poème bar. Free entry.
  s? Once a month\, Maison poème invites you to a timeless moment to rest
  \, read\, and reconnect\, far from screens. 11 AM to 1 PM: silent readin
  g [...]\nhttps://maisonpoeme.be/
-CATEGORIES:Maison Poème\,Community & Social\,Drop-in\,Free\,Recurring
+CATEGORIES:Maison Poème\,Other\,Free
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT120M
@@ -142,7 +120,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0a9348c201d2d1bb@neighbourhood-events
-DTSTAMP:20260930T105143Z
+DTSTAMP:20260930T190034Z
 DTSTART:20261101T140000Z
 DTEND:20261101T160000Z
 SUMMARY:Er was eens een molenaarsdochter…
@@ -168,7 +146,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:86e5ee024fb8e4e3@neighbourhood-events
-DTSTAMP:20260930T105143Z
+DTSTAMP:20260930T190034Z
 DTSTART:20261106T190000Z
 DTEND:20261106T210000Z
 SUMMARY:This Is Not Goodbye
@@ -179,7 +157,7 @@ DESCRIPTION:A polyphonic concert to tell the story of loss\, to say or re
  passed. These polyphonic songs are created based on intimate experiences
   and life encounters. We sing in three-part harmony\, a cappella\, in Fr
  ench and English [...]\nhttps://maisonpoeme.be/
-CATEGORIES:Maison Poème\,Music\,Evening\,Live
+CATEGORIES:Maison Poème\,Other\,Evening
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT120M
@@ -188,7 +166,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b47fb206c9dc4c5e@neighbourhood-events
-DTSTAMP:20260930T105143Z
+DTSTAMP:20260930T190034Z
 DTSTART:20261109T183000Z
 DTEND:20261109T210000Z
 SUMMARY:Letters on Enthusiasm — Launch Evening
@@ -200,7 +178,7 @@ DESCRIPTION:With everything collapsing around us\, how can we stay enthus
   That's the idea behind this book: inviting 26 women writers to share th
  eir relationship with enthusiasm through letters [...]\nhttps://maisonpo
  eme.be/
-CATEGORIES:Maison Poème\,Talks & Discussions\,Evening\,Live
+CATEGORIES:Maison Poème\,Other\,Evening
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT120M
@@ -209,7 +187,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:342c5a2aeb003dcd@neighbourhood-events
-DTSTAMP:20260930T105143Z
+DTSTAMP:20260930T190034Z
 DTSTART:20261118T183000Z
 DTEND:20261118T210000Z
 SUMMARY:Sylvie Savon
@@ -220,7 +198,7 @@ DESCRIPTION:Who is Sylvie Savon? She's the kind of woman who messes every
  herself\, she's our heroine—a real-life hero of resourcefulness and un
  certain tomorrows. No career\, no family\, no pension plan—just an apa
  rtment plan [...]\nhttps://maisonpoeme.be/
-CATEGORIES:Maison Poème\,Culture & Arts\,Evening\,Free\,Live
+CATEGORIES:Maison Poème\,Other\,Evening\,Free
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT120M
@@ -229,7 +207,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:89e54b5ac191b589@neighbourhood-events
-DTSTAMP:20260930T105143Z
+DTSTAMP:20260930T190034Z
 DTSTART:20261120T190000Z
 DTEND:20261120T210000Z
 SUMMARY:Prophetic Dance on the Strange Island
@@ -241,7 +219,7 @@ DESCRIPTION:In the heart of a white forest\, performance artist Genevièv
  range island where landmarks waver and where the living\, memories and i
  nvisible presences coexist in a single breath. [...]\nhttps://maisonpoem
  e.be/
-CATEGORIES:Maison Poème\,Culture & Arts\,Dance\,Evening\,Live
+CATEGORIES:Maison Poème\,Other\,Evening
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT120M
@@ -250,7 +228,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:97bf80a5c6dccbe2@neighbourhood-events
-DTSTAMP:20260930T105143Z
+DTSTAMP:20260930T190034Z
 DTSTART:20261125T190000Z
 DTEND:20261125T200000Z
 SUMMARY:Par.Sek
@@ -271,7 +249,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3e2a762f2090569d@neighbourhood-events
-DTSTAMP:20260930T105143Z
+DTSTAMP:20260930T190034Z
 DTSTART:20261127T173000Z
 DTEND:20261127T183000Z
 SUMMARY:Darya & Dounya
@@ -283,7 +261,7 @@ DESCRIPTION:A reading circle around the novel Darya & Dounya by Diaty Dia
  re their thoughts\, learn from others and discuss the book in connection
   with the programming of Maison poème. A reading circle [...]\nhttps://
  maisonpoeme.be/
-CATEGORIES:Maison Poème\,Talks & Discussions\,Evening\,Live
+CATEGORIES:Maison Poème\,Other\,Evening
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT120M
@@ -292,7 +270,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:985456d01a6fe5c4@neighbourhood-events
-DTSTAMP:20260930T105143Z
+DTSTAMP:20260930T190034Z
 DTSTART:20261127T190000Z
 DTEND:20261127T210000Z
 SUMMARY:The Living Souls of the Great Egrets
@@ -304,7 +282,7 @@ DESCRIPTION:Diaty Diallo brings voice and music to an article written for
  ation from a town in Seine-Saint-Denis\, she creates a fictional place w
  here characters navigate between two worlds. Through poetic narratives\,
   [...]\nhttps://maisonpoeme.be/
-CATEGORIES:Maison Poème\,Music\,Evening\,Live
+CATEGORIES:Maison Poème\,Other\,Evening
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT120M
@@ -313,7 +291,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:82b5f23540a52542@neighbourhood-events
-DTSTAMP:20260930T105143Z
+DTSTAMP:20260930T190034Z
 DTSTART:20261128T100000Z
 DTEND:20261128T130000Z
 SUMMARY:Offline
@@ -324,7 +302,7 @@ DESCRIPTION:One Saturday a month at the Maison poème bar. Free admission
  screens? Once a month\, Maison poème invites you to a timeless moment t
  o relax\, read and reconnect\, away from screens. From 11am to 1pm: sile
  nt reading [...]\nhttps://maisonpoeme.be/
-CATEGORIES:Maison Poème\,Community & Social\,Drop-in\,Free\,Recurring
+CATEGORIES:Maison Poème\,Other\,Free
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT120M
@@ -333,7 +311,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:649bce1ccc491069@neighbourhood-events
-DTSTAMP:20260930T105143Z
+DTSTAMP:20260930T190034Z
 DTSTART:20261130T183000Z
 DTEND:20261130T210000Z
 SUMMARY:Diana's Tree Evening
@@ -343,7 +321,7 @@ DESCRIPTION:An evening showcasing the autumn releases from L'Arbre de Dia
  ne editions: The Invisible Is Not Non-Existent by Florence Minder\; Self
  -Therapy by Mackenzy Bergile\; Andromaque in a Red Sedan by Nanténé Tr
  aoré and Oblique by Victoire de Changy.\nhttps://maisonpoeme.be/
-CATEGORIES:Maison Poème\,Talks & Discussions\,Evening\,Live
+CATEGORIES:Maison Poème\,Other\,Evening
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT120M
@@ -352,7 +330,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:8566b09f604c65ef@neighbourhood-events
-DTSTAMP:20260930T105143Z
+DTSTAMP:20260930T190034Z
 DTSTART:20261204T190000Z
 DTEND:20261204T210000Z
 SUMMARY:Bands of Hysterics
@@ -364,7 +342,7 @@ DESCRIPTION:Screening of the film Bands of Hysterics\, directed by Kita B
  lle Mina in Flanders\, to the support of female workers by Marie Mineur 
  in Wallonia\, to the International Tribunal on Crimes Against Women that
   brought together in Brussels [...]\nhttps://maisonpoeme.be/
-CATEGORIES:Maison Poème\,Film & Cinema\,Evening\,Live
+CATEGORIES:Maison Poème\,Other\,Evening
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT120M
@@ -373,7 +351,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1a33fa82b3741b6@neighbourhood-events
-DTSTAMP:20260930T105143Z
+DTSTAMP:20260930T190034Z
 DTSTART:20261206T140000Z
 DTEND:20261206T160000Z
 SUMMARY:ERASMUS PLEADS FOR PEACE
@@ -389,7 +367,7 @@ DESCRIPTION:a tale by Frank Jacobs and Chris Reunes. What would peace tel
  alogues in which Erasmus dismisses all violence as crime with razor-shar
  p mockery. An hour of laughter.\nhttps://goudblommekeinpapier.be/event/e
  rasmus-smeekt-om-vrede/
-CATEGORIES:Goudblommeke in Papier\,Culture & Arts\,Live
+CATEGORIES:Goudblommeke in Papier\,Other
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT120M
@@ -398,7 +376,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dd0e0d8fef79d16f@neighbourhood-events
-DTSTAMP:20260930T105143Z
+DTSTAMP:20260930T190034Z
 DTSTART:20261209T190000Z
 DTEND:20261209T210000Z
 SUMMARY:The Staart
@@ -409,7 +387,7 @@ DESCRIPTION:The Staart is a RADICAL PLAY MUSIC & ART collective founded b
  ve that explores new forms of live performance at the crossroads of impr
  ovisation\, written text\, music\, cabaret\, cinema and installation. Ea
  ch performance is born in real time [...]\nhttps://maisonpoeme.be/
-CATEGORIES:Maison Poème\,Music\,Evening\,Live
+CATEGORIES:Maison Poème\,Other\,Evening
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT120M
@@ -418,7 +396,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ee192eeebf98931c@neighbourhood-events
-DTSTAMP:20260930T105143Z
+DTSTAMP:20260930T190034Z
 DTSTART:20261210T170000Z
 DTEND:20261210T183000Z
 SUMMARY:Under the Gaze of Camille Claudel's Statues
@@ -430,7 +408,7 @@ DESCRIPTION:The hollyhock (alcea rosea) is a perennial plant\, whose name
  ce in Brussels creates a stark contrast: their wild\, chaotic nature\, t
  heir large colorful flowers come to disrupt urban order and [...]\nhttps
  ://maisonpoeme.be/
-CATEGORIES:Maison Poème\,Culture & Arts\,Evening
+CATEGORIES:Maison Poème\,Other\,Evening
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT120M
@@ -439,7 +417,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:7f61b0f74288fec4@neighbourhood-events
-DTSTAMP:20260930T105143Z
+DTSTAMP:20260930T190034Z
 DTSTART:20261219T100000Z
 DTEND:20261219T130000Z
 SUMMARY:Offline
@@ -450,7 +428,7 @@ DESCRIPTION:One Saturday a month at the Maison poème bar. Free admission
  screens? Once a month\, Maison poème invites you to a timeless moment t
  o relax\, read and reconnect\, away from screens. From 11am to 1pm: sile
  nt reading [...]\nhttps://maisonpoeme.be/
-CATEGORIES:Maison Poème\,Community & Social\,Drop-in\,Free\,Recurring
+CATEGORIES:Maison Poème\,Other\,Free
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT120M
