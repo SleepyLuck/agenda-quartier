@@ -157,3 +157,102 @@ sources:
   - name: Ancienne Belgique
     url: https://www.abconcerts.be/fr/agenda
     method: auto
+
+  # --- Candidates added 2026-10-01, verified via probe.py over two GitHub
+  # Actions runs (65 candidates probed total; these 20 are the ones that
+  # returned real signal and are not robots/firewall-blocked). ----------
+
+  # Real .ics feed, 36 events found live.
+  - name: Demosphere Bruxelles
+    url: https://bxl.demosphere.net/
+    method: ics
+
+  # .ics feed (14 events), wordpress REST (5) and jsonld (12) all hit -
+  # richest signal of the whole batch.
+  - name: CBCS (Brussels social sector agenda)
+    url: https://cbcs.be/
+    method: ics
+
+  # jsonld: 10 schema.org Event nodes (region-wide page covers Saint-Gilles
+  # and Forest brocantes too, so the narrower per-commune pages weren't
+  # added separately - would just double-count the same listings).
+  - name: Quefaire.be brocantes (Brussels region)
+    url: https://www.quefaire.be/brocantes/region-de-bruxelles
+    method: jsonld
+
+  # jsonld: 40 Event nodes. NOTE: URL is month-specific
+  # (.../belgique/<month>/) - needs updating by hand each month.
+  - name: Brocabrac Belgique
+    url: https://brocabrac.fr/belgique/novembre/
+    method: jsonld
+
+  # Meetup.com embeds jsonld Event nodes (4 found).
+  - name: Brussels Language Meetup
+    url: https://www.meetup.com/brussels-language-meetup/
+    method: jsonld
+
+  - name: Brussels International Hub Events (Meetup)
+    url: https://www.meetup.com/brusselsinternationalhubevents/
+    method: jsonld
+
+  # The rest: no feed/jsonld, but the plain-fetch text has real,
+  # dense date-like content for the llm rung once the API key works again.
+  - name: Saint-Gilles brocantes & braderies (commune)
+    url: https://stgilles.brussels/services/developpement-economique/service-du-developpement-economique/brocantes-braderies-marches-etalages-et-chevalets/
+    method: llm
+
+  - name: Maison des Cultures de Saint-Gilles
+    url: https://mdc1060.brussels/
+    method: llm
+
+  - name: Le Rideau
+    url: https://lerideau.brussels/spectacles/saison/2026-2027
+    method: llm
+
+  - name: Théâtre National Wallonie-Bruxelles
+    url: https://www.theatrenational.be/en/program/
+    method: llm
+
+  - name: La Bellone
+    url: https://bellone.be/
+    method: llm
+
+  - name: FTI Brussel
+    url: https://www.ftifestival.be/programma/brussel
+    method: llm
+
+  # NOTE: URL is month-specific (.../agenda-engage-<month>-2026/) - needs
+  # updating by hand each month.
+  - name: Agenda engagé (Syndicats magazine)
+    url: https://syndicatsmagazine.be/agenda-engage-octobre-2026/
+    method: llm
+
+  - name: Protestbase Bruxelles
+    url: https://protestbase.be/manifestations/bruxelles
+    method: llm
+
+  - name: Stuut
+    url: https://stuut.info/
+    method: llm
+
+  - name: Conférences gesticulées (network catalogue)
+    url: https://conferences-gesticulees.net/
+    method: llm
+
+  # Richest llm-fallback signal of all 65 candidates probed (~105
+  # date-like strings in the plain-fetch text).
+  - name: Conférences gesticulées (per-day pages)
+    url: https://conferences-gesticulees.net/events/
+    method: llm
+
+  - name: Centre d'Action Laïque events
+    url: https://laicite.be/notre-action/agenda/festival-des-libertes-2026/
+    method: llm
+
+  - name: English Comedy Brussels
+    url: https://englishcomedybrussels.com/
+    method: llm
+
+  - name: Club Carré agenda
+    url: https://carre.be/agenda/
+    method: llm
