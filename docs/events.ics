@@ -7,7 +7,7 @@ X-WR-CALNAME:Neighbourhood events
 X-WR-TIMEZONE:Europe/Brussels
 BEGIN:VEVENT
 UID:41e2e17334e33b3c@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261002
 SUMMARY:20h Concert Merysse
@@ -23,8 +23,126 @@ DESCRIPTION:<!-- wp:paragraph --> <p>Discover Merysse\, an Italian singer
 CATEGORIES:La Vieille Chéchette\,Other
 END:VEVENT
 BEGIN:VEVENT
+UID:b1af34e876329ecb@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261002T163000Z
+DTEND:20261002T203000Z
+SUMMARY:🌟EuroMeet: Connecting with International Friends in Brussels E
+ very Friday🍻🎉
+LOCATION:Brasserie Quartier Leopold\, Place du Luxembourg 9\, Bruxelles\,
+  Bruxelles
+URL:https://www.meetup.com/brussels-meetup/events/316529232/
+DESCRIPTION:✨ **Meet new people in Brussels every Friday evening!** Loo
+ king to expand your social circle\, meet international people and enjoy 
+ relaxed conversations in the heart of Brussels? Join **EuroMeet every Fr
+ iday anytime from 18:30 until at least 22:30** at the **Quartier Leopold
+  brasserie**\, located on Place du Luxembourg\, directly opposite the Eu
+ ropean Parliament. Our meetup offers a friendly\, relaxed and internatio
+ nal atmosphere where it is easy to talk and get to know people—without
+  loud music or a chaotic party environment. . 🍻 Drinks\, food and din
+ ner available 🌍 Internationals\, expats\, newcome\nhttps://www.meetup
+ .com/brussels-meetup/events/316529232/
+CATEGORIES:Brussels Language Meetup\,Other
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:🌟EuroMeet: Connecting with International Friends in Brusse
+ ls Every Friday🍻🎉
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:125e504be7ea63dc@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261002T220000Z
+DTEND:20261002T220000Z
+SUMMARY:Brocante de la Solidarité Cap48 et de Viva for Life
+LOCATION:Enchanté\, Molenbeek-Saint-Jean
+URL:https://www.quefaire.be/brocante-de-la-solidarite-8753525.shtml
+CATEGORIES:Quefaire.be brocantes (Brussels region)\,Other\,Late Night
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Brocante de la Solidarité Cap48 et de Viva for Life
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7c30a937d9eb04f0@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261002T220000Z
+DTEND:20261002T220000Z
+SUMMARY:Brocante Destrier
+LOCATION:Quartier Destrier\, Evere
+URL:https://www.quefaire.be/brocante-destrier-8765958.shtml
+CATEGORIES:Quefaire.be brocantes (Brussels region)\,Other\,Late Night
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Brocante Destrier
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d0935d8a3f0d9d87@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261002T220000Z
+DTEND:20261003T220000Z
+SUMMARY:Brocante d'automne
+LOCATION:Avenue Houba\, Laeken
+URL:https://www.quefaire.be/brocante-dautomne-8766169.shtml
+CATEGORIES:Quefaire.be brocantes (Brussels region)\,Other\,Late Night
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Brocante d'automne
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:985a253e3f479415@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261002T220000Z
+DTEND:20261002T220000Z
+SUMMARY:Grande Brocante Montgomery Gribaumont
+LOCATION:Metro Joséphine Charlotte\, Woluwe-Saint-Lambert
+URL:https://www.quefaire.be/grande-brocante-montgomery-8766958.shtml
+CATEGORIES:Quefaire.be brocantes (Brussels region)\,Other\,Late Night
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Grande Brocante Montgomery Gribaumont
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bc72417da20d0672@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261002T220000Z
+DTEND:20261002T220000Z
+SUMMARY:Braderie - Brocante
+LOCATION:Montgomery-Gribaumont\, Woluwe-Saint-Lambert
+URL:https://www.quefaire.be/braderie-brocante-8770374.shtml
+CATEGORIES:Quefaire.be brocantes (Brussels region)\,Other\,Late Night
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Braderie - Brocante
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:40466a9735e5d954@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261002T220000Z
+DTEND:20261002T220000Z
+SUMMARY:Brocante de l'Hôtel de ville - Place Van Meenen
+LOCATION:Saint-Gilles
+URL:https://www.quefaire.be/brocante-de-lhotel-de-ville-8762610.shtml
+CATEGORIES:Quefaire.be brocantes (Brussels region)\,Other\,Late Night
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Brocante de l'Hôtel de ville - Place Van Meenen
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:d67af1629b90fbd5@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
 SUMMARY:ANTE Festival 2026 - first weekend
@@ -37,7 +155,7 @@ CATEGORIES:ANTE Festival\,Culture & Arts\,Registration Required
 END:VEVENT
 BEGIN:VEVENT
 UID:1410d8af7dc3e836@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261003T073000Z
 DTEND:20261003T143000Z
 SUMMARY:Tisser son histoire (Lea Brami)
@@ -55,8 +173,68 @@ DESCRIPTION:Tisser son histoire (Lea Brami)
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:0c635370cd66d612@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261003T220000Z
+DTEND:20261003T220000Z
+SUMMARY:Grande Brocante de la rue Saint-Lambert
+LOCATION:Woluwe Saint Lambert 1200\, Woluwe-Saint-Lambert
+URL:https://www.quefaire.be/grande-brocante-de-la-rue-8762157.shtml
+CATEGORIES:Quefaire.be brocantes (Brussels region)\,Other\,Late Night
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Grande Brocante de la rue Saint-Lambert
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fe47bab84f8b64bd@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261003T220000Z
+DTEND:20261003T220000Z
+SUMMARY:Brocante de l'Altitude Cent
+LOCATION:Forest
+URL:https://www.quefaire.be/brocante-de-laltitude-cent-8770283.shtml
+CATEGORIES:Quefaire.be brocantes (Brussels region)\,Other\,Late Night
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Brocante de l'Altitude Cent
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fa00fb21fe3122fd@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261003T220000Z
+DTEND:20261003T220000Z
+SUMMARY:Brocante a l'interieur Brussels Retro Market
+LOCATION:Be Here Village Durable\, Laeken
+URL:https://www.quefaire.be/brocante-a-linterieur-8770483.shtml
+CATEGORIES:Quefaire.be brocantes (Brussels region)\,Other\,Late Night
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Brocante a l'interieur Brussels Retro Market
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1910659219bca23d@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261003T220000Z
+DTEND:20261003T220000Z
+SUMMARY:Brocante d’automne à l’école Mater Dei
+LOCATION:École Mater Dei\, Woluwe-Saint-Pierre
+URL:https://www.quefaire.be/brocante-dautomne-a-8770887.shtml
+CATEGORIES:Quefaire.be brocantes (Brussels region)\,Other\,Late Night
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Brocante d’automne à l’école Mater Dei
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:93e90717b98422b5@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART;VALUE=DATE:20261006
 DTEND;VALUE=DATE:20261006
 SUMMARY:17h-19h paniers « bio » Ferme de Nadir
@@ -76,7 +254,7 @@ CATEGORIES:La Vieille Chéchette\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:f9dccfecdc662287@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART;VALUE=DATE:20261006
 DTEND;VALUE=DATE:20261006
 SUMMARY:18h30 Soirée jeux de société
@@ -94,8 +272,32 @@ DESCRIPTION:<!-- wp:media-text {"mediaId":4807\,"mediaLink":"https://chec
 CATEGORIES:La Vieille Chéchette\,Other
 END:VEVENT
 BEGIN:VEVENT
+UID:7bd31b6ca80a08cc@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261006T170000Z
+DTEND:20261006T210000Z
+SUMMARY:Conversation Exchange - All languages are welcome
+LOCATION:l'amour fou\, Chaussée d'Ixelles 185\, Ixelles\, Ixelles
+URL:https://www.meetup.com/brusselsinternationalhubevents/events/31658297
+ 1/
+DESCRIPTION:Would you like to improve your language skills and networking
+  in a casual atmosphere? This event is for you! All languages welcome! E
+ veryone is welcome! The aim is to speak with native/fluent speakers of y
+ our target language(s). You'll be around all types of people throughout 
+ the whole event. We will be in a private area. A great atmosphere is gua
+ ranteed! You'll have to order a drink to attend the event 😀 Don't hes
+ itate to contact us for any further information\nhttps://www.meetup.com/
+ brusselsinternationalhubevents/events/316582971/
+CATEGORIES:Brussels International Hub Events (Meetup)\,Other\,Evening
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Conversation Exchange - All languages are welcome
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:c69584c16055d2ae@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART;VALUE=DATE:20261007
 DTEND;VALUE=DATE:20261007
 SUMMARY:18h30 Chorale de la vieille Chéchette
@@ -104,7 +306,7 @@ CATEGORIES:La Vieille Chéchette\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:a635e274d6dde35a@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261007T120000Z
 DTEND:20261007T140000Z
 SUMMARY:Goûter poésie: Bricolage verbal (Amel Malfait Lakhtara)
@@ -123,7 +325,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2ba3ca8488e4a071@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261007T130000Z
 DTEND:20261007T160000Z
 SUMMARY:Ecrire depuis la peau (Nicky Lapierre\, Simeon MB)
@@ -142,7 +344,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:86547a7e31bc70d5@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261007T170000Z
 SUMMARY:Traduire la colère\, puis écrire la joie (Noémie Grunenwald\, 
  Manon Didierjean)
@@ -160,7 +362,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b5ecba06705e4914@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261029
 SUMMARY:Nourrir les débris - exhibition (visual\, sound and live arts)
@@ -171,7 +373,7 @@ CATEGORIES:Surgir asbl (Brasserie Atlas)\,Culture & Arts\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:dd1d3a7854afda82@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART;VALUE=DATE:20261008
 SUMMARY:Nourrir les débris - opening (vernissage)
 LOCATION:Brasserie Atlas\, Rue du Libre Examen 15\, 1070 Anderlecht
@@ -179,8 +381,36 @@ DESCRIPTION:Opening evening. Time not stated on the flyer.
 CATEGORIES:Surgir asbl (Brasserie Atlas)\,Culture & Arts
 END:VEVENT
 BEGIN:VEVENT
+UID:a99488623ce692d1@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261009T163000Z
+DTEND:20261009T203000Z
+SUMMARY:🌟EuroMeet: Connecting with International Friends in Brussels E
+ very Friday🍻🎉
+LOCATION:Brasserie Quartier Leopold\, Place du Luxembourg 9\, Bruxelles\,
+  Bruxelles
+URL:https://www.meetup.com/brussels-meetup/events/316626063/
+DESCRIPTION:✨ **Meet new people in Brussels every Friday evening!** Loo
+ king to expand your social circle\, meet international people and enjoy 
+ relaxed conversations in the heart of Brussels? Join **EuroMeet every Fr
+ iday anytime from 18:30 until at least 22:30** at the **Quartier Leopold
+  brasserie**\, located on Place du Luxembourg\, directly opposite the Eu
+ ropean Parliament. Our meetup offers a friendly\, relaxed and internatio
+ nal atmosphere where it is easy to talk and get to know people—without
+  loud music or a chaotic party environment. . 🍻 Drinks\, food and din
+ ner available 🌍 Internationals\, expats\, newcome\nhttps://www.meetup
+ .com/brussels-meetup/events/316626063/
+CATEGORIES:Brussels Language Meetup\,Other
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:🌟EuroMeet: Connecting with International Friends in Brusse
+ ls Every Friday🍻🎉
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:dddd1a426165c935@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART;VALUE=DATE:20261010
 SUMMARY:Nourrir les débris - performances
 LOCATION:Brasserie Atlas\, Rue du Libre Examen 15\, 1070 Anderlecht
@@ -189,7 +419,7 @@ CATEGORIES:Surgir asbl (Brasserie Atlas)\,Culture & Arts\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:4561594ff6b9160f@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
 SUMMARY:ANTE Festival 2026 - second weekend
@@ -202,7 +432,7 @@ CATEGORIES:ANTE Festival\,Culture & Arts\,Registration Required
 END:VEVENT
 BEGIN:VEVENT
 UID:24cd38fb9f48ce20@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261010T120000Z
 DTEND:20261010T160000Z
 SUMMARY:Vitrines Parcours FrancoFaune
@@ -217,7 +447,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:23934ff07938779d@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261011
 SUMMARY:14h COLLECTIF LE C.R.I. — ARPENTAGE COLLECTIF
@@ -234,7 +464,7 @@ CATEGORIES:La Vieille Chéchette\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:329b3efc3dc35133@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261011T130000Z
 DTEND:20261011T153000Z
 SUMMARY:Three Little Grey Men
@@ -253,7 +483,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d7ecd67e2d4902be@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261011T140000Z
 DTEND:20261011T180000Z
 SUMMARY:Festival FrancoFaune
@@ -268,7 +498,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cf795a5e427e5dda@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART;VALUE=DATE:20261013
 DTEND;VALUE=DATE:20261013
 SUMMARY:17h-19h paniers « bio » Ferme de Nadir
@@ -287,8 +517,32 @@ DESCRIPTION:<!-- wp:heading {"level":4} --> <h4 class="wp-block-heading">
 CATEGORIES:La Vieille Chéchette\,Other
 END:VEVENT
 BEGIN:VEVENT
+UID:83011fdaa601533c@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261013T170000Z
+DTEND:20261013T210000Z
+SUMMARY:Conversation Exchange - All languages are welcome
+LOCATION:l'amour fou\, Chaussée d'Ixelles 185\, Ixelles\, Ixelles
+URL:https://www.meetup.com/brusselsinternationalhubevents/events/31668127
+ 4/
+DESCRIPTION:Would you like to improve your language skills and networking
+  in a casual atmosphere? This event is for you! All languages welcome! E
+ veryone is welcome! The aim is to speak with native/fluent speakers of y
+ our target language(s). You'll be around all types of people throughout 
+ the whole event. We will be in a private area. A great atmosphere is gua
+ ranteed! You'll have to order a drink to attend the event 😀 Don't hes
+ itate to contact us for any further information\nhttps://www.meetup.com/
+ brusselsinternationalhubevents/events/316681274/
+CATEGORIES:Brussels International Hub Events (Meetup)\,Other\,Evening
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Conversation Exchange - All languages are welcome
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:a40654fb2b1331b1@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261014
 SUMMARY:18h30 Chorale de la vieille Chéchette
@@ -297,7 +551,7 @@ CATEGORIES:La Vieille Chéchette\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:b3740d26950a1106@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261015
 SUMMARY:19h Kitsch’N – Solo de clown et de fruits
@@ -316,7 +570,7 @@ CATEGORIES:La Vieille Chéchette\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:e9d61dedc632bc32@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261015T104000Z
 SUMMARY:Dix ans de romans en vers (Clémentine Beauvais\, Aline Pornel)
 LOCATION:Théâtre des Riches-Claires\, Brussels
@@ -334,7 +588,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ad35025fc1f86f76@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261015T173000Z
 DTEND:20261106T210000Z
 SUMMARY:Copenhagen by Michael Frayn (The Bridge Theatre)
@@ -352,7 +606,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9e7ecb739c608ed9@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261020
 SUMMARY:Shifting Worlds - expo & laboratory (FTI Brussel)
@@ -367,7 +621,7 @@ CATEGORIES:FTI Brussel\,Culture & Arts\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:9996c980ecf8d1f5@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261016T093000Z
 DTEND:20261016T110000Z
 SUMMARY:Building Cities with Living Bacteria
@@ -386,7 +640,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:07b5a436dacd2e0f@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261016T094500Z
 DTEND:20261016T111500Z
 SUMMARY:Anthropocene Territories
@@ -405,7 +659,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0721c7cd68948474@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261016T103000Z
 DTEND:20261016T110000Z
 SUMMARY:En wat als kunst zich met beleid moeit?
@@ -424,7 +678,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0cc30af294a6193f@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261016T113000Z
 DTEND:20261016T130000Z
 SUMMARY:Beyond High Tech - Low Life: Imagining the Living City through Bi
@@ -446,7 +700,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:1b0b8d7fb9d2f6e9@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261016T113000Z
 DTEND:20261016T150000Z
 SUMMARY:Dirty Labs For Hybrid Intelligence
@@ -466,7 +720,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d02919956bc51a41@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261016T120000Z
 DTEND:20261016T140000Z
 SUMMARY:Let's grow Mycelium Leather-Like Materials
@@ -484,7 +738,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:7c4b837075c8f91a@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261016T123000Z
 DTEND:20261016T130000Z
 SUMMARY:Adrien Lucca - The Blue Hour / Seeing at Night
@@ -503,7 +757,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2d8e4625388a321d@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261016T131500Z
 DTEND:20261016T134500Z
 SUMMARY:Sedimentary Thinking and Oceanic Perspective
@@ -522,7 +776,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:7c3e295570276675@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261016T133000Z
 DTEND:20261016T150000Z
 SUMMARY:Urban Synapses: Networks of Ideas\, Emotions\, and Imagination Sh
@@ -543,7 +797,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:43e8f59baec941ff@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261016T140000Z
 DTEND:20261016T143000Z
 SUMMARY:Mo/u/ld Making: Sculptural Qualities of Mycelium
@@ -561,8 +815,36 @@ DESCRIPTION:Mo/u/ld Making: Sculptural Qualities of Mycelium
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:29c20820d21959db@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261016T163000Z
+DTEND:20261016T203000Z
+SUMMARY:🌟EuroMeet: Connecting with International Friends in Brussels E
+ very Friday🍻🎉
+LOCATION:Brasserie Quartier Leopold\, Place du Luxembourg 9\, Bruxelles\,
+  Bruxelles
+URL:https://www.meetup.com/brussels-meetup/events/316724842/
+DESCRIPTION:✨ **Meet new people in Brussels every Friday evening!** Loo
+ king to expand your social circle\, meet international people and enjoy 
+ relaxed conversations in the heart of Brussels? Join **EuroMeet every Fr
+ iday anytime from 18:30 until at least 22:30** at the **Quartier Leopold
+  brasserie**\, located on Place du Luxembourg\, directly opposite the Eu
+ ropean Parliament. Our meetup offers a friendly\, relaxed and internatio
+ nal atmosphere where it is easy to talk and get to know people—without
+  loud music or a chaotic party environment. . 🍻 Drinks\, food and din
+ ner available 🌍 Internationals\, expats\, newcome\nhttps://www.meetup
+ .com/brussels-meetup/events/316724842/
+CATEGORIES:Brussels Language Meetup\,Other
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:🌟EuroMeet: Connecting with International Friends in Brusse
+ ls Every Friday🍻🎉
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:cf3184674d7a1b09@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261016T144500Z
 DTEND:20261016T151500Z
 SUMMARY:Matthijs De Block - Y.E.A.S.T.: Yielding Ecology Art Science and 
@@ -583,7 +865,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0058d5e9306a23e0@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261016T150000Z
 DTEND:20261016T163000Z
 SUMMARY:PI Apparel Brussels Chapter: Launch & Community Roundtable
@@ -600,7 +882,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b46942567e30ecec@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261016T151500Z
 DTEND:20261016T164500Z
 SUMMARY:Quantum Meets Art: Sensing the Uncomputable
@@ -619,7 +901,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:00c4c00e55165333@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261016T153000Z
 DTEND:20261016T160000Z
 SUMMARY:Source of Uncertainty: On Cosmic Rays\, Perception\, and the Cons
@@ -640,7 +922,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a51eef8c80610e00@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261016T153000Z
 DTEND:20261016T161500Z
 SUMMARY:Geef je project een Europese boost
@@ -659,7 +941,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ed89780ec8c2671d@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261016T161500Z
 DTEND:20261016T170000Z
 SUMMARY:Bouwen aan een innovatief partnerschap?
@@ -679,7 +961,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:87bc42c6306aeca3@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261016T170000Z
 DTEND:20261016T174500Z
 SUMMARY:Electric Tenderness (Lucia Xaxalxe)
@@ -698,7 +980,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bfdbc52450f42d02@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261016T170000Z
 DTEND:20261016T173000Z
 SUMMARY:Shifting Worlds - official opening
@@ -717,7 +999,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:462bdfd9ce9f2cc0@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261016T173000Z
 DTEND:20261016T181500Z
 SUMMARY:Force Field (Dmitry Gelfand & Evelina Domnitch)
@@ -736,7 +1018,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a788a7f7d0f95a4b@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261016T194500Z
 DTEND:20261016T201500Z
 SUMMARY:Sounding Lines (Stijn Demeulenaere)
@@ -755,7 +1037,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2f0bf5a8e0133567@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261017
 SUMMARY:19h30 Concert Eddie & the Nonos
@@ -774,7 +1056,7 @@ CATEGORIES:La Vieille Chéchette\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:6d85c38fede536f9@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261017T090000Z
 DTEND:20261017T093000Z
 SUMMARY:Neurodata in the City: Attention\, Emotions and Imagination
@@ -793,7 +1075,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:73775efde70ad347@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261017T090000Z
 DTEND:20261017T113000Z
 SUMMARY:Polyclinic of Creative Practice
@@ -812,7 +1094,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6cffe4f178be2045@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261017T090000Z
 DTEND:20261017T120000Z
 SUMMARY:Climate Fresk
@@ -829,7 +1111,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:69c4994a5551e438@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261017T090000Z
 DTEND:20261017T160000Z
 SUMMARY:Fashion recrafted: Low Tech atelier
@@ -846,7 +1128,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:63a6949842e3ba4b@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261017T091500Z
 DTEND:20261017T104500Z
 SUMMARY:Careful Matter
@@ -866,7 +1148,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:615adf4a7ba2ee16@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261017T094500Z
 DTEND:20261017T103000Z
 SUMMARY:Biomimetic Stories
@@ -885,7 +1167,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d264e89bcd337f86@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261017T104500Z
 DTEND:20261017T111500Z
 SUMMARY:NEB Prize finalist
@@ -904,7 +1186,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cb7df03b451e36e9@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261017T110000Z
 DTEND:20261017T123000Z
 SUMMARY:Redden algoritmes onze democratie\, of zetten ze haar onder druk?
@@ -925,7 +1207,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ac77f65c7ad83605@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261017T113000Z
 DTEND:20261017T120000Z
 SUMMARY:Theatre of Transition
@@ -944,7 +1226,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:5ce1ab65d69b1fdd@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261017T120000Z
 DTEND:20261017T124500Z
 SUMMARY:After Jubilee: A radio show from the future - Part 1 (radio show)
@@ -963,7 +1245,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:03a21bf5ab3d8e44@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261017T120000Z
 DTEND:20261017T160000Z
 SUMMARY:(W)HOLE Mobile Repair Studio
@@ -980,7 +1262,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:66d5045e6c06e15e@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261017T121500Z
 DTEND:20261017T124500Z
 SUMMARY:Art in Common
@@ -999,7 +1281,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:15a992c859b11832@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261017T124500Z
 DTEND:20261017T131500Z
 SUMMARY:After Jubilee: A radio show from the future - Part 2 (talk)
@@ -1017,7 +1299,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a19ff65d189823c6@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261017T130000Z
 DTEND:20261017T143000Z
 SUMMARY:Ancestral Intelligence: Shifting Worlds
@@ -1036,7 +1318,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0d6c96c03f0447fb@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261017T133000Z
 DTEND:20261017T141500Z
 SUMMARY:Soft Tissues (Ugo Dehaes) - preview
@@ -1055,7 +1337,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c6c974d558396bba@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261017T141500Z
 DTEND:20261017T150000Z
 SUMMARY:Are We Humans\, or Are We Dancers?
@@ -1075,7 +1357,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:091c2aa09214da9f@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261017T144500Z
 DTEND:20261017T161500Z
 SUMMARY:Poetics of Renewables: a FAST Salon
@@ -1094,7 +1376,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0013a39047c6658c@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261017T151500Z
 DTEND:20261017T153000Z
 SUMMARY:Decoding Egwu
@@ -1113,7 +1395,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:271e53a53d854a8a@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261017T160000Z
 DTEND:20261017T163000Z
 SUMMARY:Bunker for a Tropical Pixel
@@ -1131,7 +1413,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c765db729065af92@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261017T163000Z
 DTEND:20261017T171500Z
 SUMMARY:Electric Tenderness
@@ -1150,7 +1432,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:1266f4a8fdff1521@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261017T163000Z
 DTEND:20261017T180000Z
 SUMMARY:Healing Nightclub: In the Making
@@ -1169,7 +1451,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0e477c7e95279089@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261017T164500Z
 DTEND:20261017T171500Z
 SUMMARY:REVERSE
@@ -1187,7 +1469,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d1bc912bc5374bd4@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261017T180000Z
 DTEND:20261017T183000Z
 SUMMARY:Healing Nightclub - Unity (Mostafa Taleb with Milad Mohammadi)
@@ -1206,7 +1488,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a6b91b23605d8984@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261017T183000Z
 DTEND:20261017T190000Z
 SUMMARY:Healing Nightclub - The Art of Attunement (Nicolas Siriany)
@@ -1224,7 +1506,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:42762e498fd4c057@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261017T190000Z
 DTEND:20261017T193000Z
 SUMMARY:Healing Nightclub - Hypnotic DJ-ing (Timo Tuhkanen)
@@ -1242,7 +1524,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:1fcb1c9dfc61ae23@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261017T193000Z
 DTEND:20261017T210000Z
 SUMMARY:Healing Nightclub - Selfl(e/o)ss (Bo Meng)
@@ -1260,7 +1542,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:7e16275ff6192e90@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261018T090000Z
 DTEND:20261018T110000Z
 SUMMARY:Junior Climate Fresk
@@ -1278,7 +1560,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cc37e21a4e31731e@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261018T110000Z
 DTEND:20261018T160000Z
 SUMMARY:Atelier Bitono
@@ -1295,7 +1577,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:62dbebf806cabb97@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART;VALUE=DATE:20261019
 DTEND;VALUE=DATE:20261019
 SUMMARY:18h Arpentage LDH : « Rester Barbare »
@@ -1314,7 +1596,7 @@ CATEGORIES:La Vieille Chéchette\,Other\,Free
 END:VEVENT
 BEGIN:VEVENT
 UID:6fc54c8e98c54147@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART;VALUE=DATE:20261019
 DTEND;VALUE=DATE:20261020
 SUMMARY:FTI Brussel Business Tracks at TheMerode
@@ -1328,7 +1610,7 @@ CATEGORIES:FTI Brussel\,Professional & Networking
 END:VEVENT
 BEGIN:VEVENT
 UID:5e4f1b9d0377ef91@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART;VALUE=DATE:20261019
 DTEND;VALUE=DATE:20261020
 SUMMARY:FTI Brussel partner events in Brussels and the Rand
@@ -1342,7 +1624,7 @@ CATEGORIES:FTI Brussel\,Talks & Discussions
 END:VEVENT
 BEGIN:VEVENT
 UID:8512b9a57a9cbca5@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261020
 SUMMARY:17h-19h paniers « bio » Ferme de Nadir
@@ -1361,8 +1643,32 @@ DESCRIPTION:<!-- wp:heading {"level":4} --> <h4 class="wp-block-heading">
 CATEGORIES:La Vieille Chéchette\,Other
 END:VEVENT
 BEGIN:VEVENT
+UID:60eba447432da06f@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261020T170000Z
+DTEND:20261020T210000Z
+SUMMARY:Conversation Exchange - All languages are welcome
+LOCATION:l'amour fou\, Chaussée d'Ixelles 185\, Ixelles\, Ixelles
+URL:https://www.meetup.com/brusselsinternationalhubevents/events/31678226
+ 7/
+DESCRIPTION:Would you like to improve your language skills and networking
+  in a casual atmosphere? This event is for you! All languages welcome! E
+ veryone is welcome! The aim is to speak with native/fluent speakers of y
+ our target language(s). You'll be around all types of people throughout 
+ the whole event. We will be in a private area. A great atmosphere is gua
+ ranteed! You'll have to order a drink to attend the event 😀 Don't hes
+ itate to contact us for any further information\nhttps://www.meetup.com/
+ brusselsinternationalhubevents/events/316782267/
+CATEGORIES:Brussels International Hub Events (Meetup)\,Other\,Evening
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Conversation Exchange - All languages are welcome
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:ca9ae6585403d2b8@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261021
 SUMMARY:18h30 Chorale de la vieille Chéchette
@@ -1371,7 +1677,7 @@ CATEGORIES:La Vieille Chéchette\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:f6ac4b17923daa71@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261021T150000Z
 DTEND:20261021T190000Z
 SUMMARY:J'peux pas j'ai gravure - engraving workshop at Mazette
@@ -1388,7 +1694,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:1b44d70e0cd1d21c@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261023T113000Z
 SUMMARY:Startmoment Brussel - Samen Tegen Armoede 2026
 LOCATION:BOP\, Zaterdagplein 6\, 1000 Brussels
@@ -1404,7 +1710,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:61721be9efa79e1a@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261027
 SUMMARY:17h-19h paniers « bio » Ferme de Nadir
@@ -1423,8 +1729,32 @@ DESCRIPTION:<!-- wp:heading {"level":4} --> <h4 class="wp-block-heading">
 CATEGORIES:La Vieille Chéchette\,Other
 END:VEVENT
 BEGIN:VEVENT
+UID:c776dda69406de46@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261027T180000Z
+DTEND:20261027T220000Z
+SUMMARY:Conversation Exchange - All languages are welcome
+LOCATION:l'amour fou\, Chaussée d'Ixelles 185\, Ixelles\, Ixelles
+URL:https://www.meetup.com/brusselsinternationalhubevents/events/lprnrtyj
+ cnbkc/
+DESCRIPTION:Would you like to improve your language skills and networking
+  in a casual atmosphere? This event is for you! All languages welcome! E
+ veryone is welcome! The aim is to speak with native/fluent speakers of y
+ our target language(s). You'll be around all types of people throughout 
+ the whole event. We will be in a private area. A great atmosphere is gua
+ ranteed! You'll have to order a drink to attend the event 😀 Don't hes
+ itate to contact us for any further information\nhttps://www.meetup.com/
+ brusselsinternationalhubevents/events/lprnrtyjcnbkc/
+CATEGORIES:Brussels International Hub Events (Meetup)\,Other\,Evening
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Conversation Exchange - All languages are welcome
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:78c67a3852accba0@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261028
 SUMMARY:18h30 Chorale de la vieille Chéchette
@@ -1433,7 +1763,7 @@ CATEGORIES:La Vieille Chéchette\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:b2a9871e8c0a0bc2@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261028T183000Z
 DTEND:20261028T210000Z
 SUMMARY:The Pigeon and the Lazarus Bird
@@ -1453,7 +1783,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:5053d70df5c46004@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART;VALUE=DATE:20261029
 SUMMARY:Nourrir les débris - closing (finissage)
 LOCATION:Brasserie Atlas\, Rue du Libre Examen 15\, 1070 Anderlecht
@@ -1462,7 +1792,7 @@ CATEGORIES:Surgir asbl (Brasserie Atlas)\,Culture & Arts
 END:VEVENT
 BEGIN:VEVENT
 UID:2734425d8d6a2a97@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261030T183000Z
 DTEND:20261030T220000Z
 SUMMARY:Parcours Minigolf – Sorties de résidences 2026
@@ -1477,7 +1807,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c3fac5d05285faf6@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261031
 SUMMARY:13h Rencontre Nubo à la Vieille Chéchette
@@ -1496,7 +1826,7 @@ CATEGORIES:La Vieille Chéchette\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:e1bc165b13eae796@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261031T100000Z
 DTEND:20261031T130000Z
 SUMMARY:Offline
@@ -1515,8 +1845,184 @@ DESCRIPTION:Offline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:c2e3149a55d6b262@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261101
+SUMMARY:Marché des antiquités du sablon
+LOCATION:Place du Grand Sablon\, Bruxelles
+URL:https://brocabrac.fr/ru/bruxelles/993117-marche-des-antiquites-du-sab
+ lon
+DESCRIPTION:Marché des antiquités du sablon - ouvert tous les samedis d
+ e 9h à 17h et dimanches de 9h à 15h sur la place du grand sablon ... C
+ e marché situé au centre du quartier des antiquaires sur la place du g
+ rand sablon est une institution depuis les années 60. ... Vous y trouve
+ rez : orfèvrerie\, bijouterie\, objets de vitrine\, céramique et verre
+ \, art de table\, tableaux\, dessins\, mais aussi porcelaine chinoise\, 
+ petit mobilier ou art africain\, collections\, vieux papiers\, meubles d
+ e style...\nhttps://brocabrac.fr/ru/bruxelles/993117-marche-des-antiquit
+ es-du-sablon
+CATEGORIES:Brocabrac Belgique\,Other
+END:VEVENT
+BEGIN:VEVENT
+UID:cfb38cd6a0fca7af@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261101T030000Z
+DTEND:20261101T120000Z
+SUMMARY:Brocante des bastions
+LOCATION:parking du retail Park des Bastions\, Boulevard Walter de Marvis
+ \, Tournai
+URL:https://brocabrac.fr/ht/tournai/1263919-brocante-des-bastions
+DESCRIPTION:30€ les 3 places de parking 10€ supplémentaire par place
+  de parking\nhttps://brocabrac.fr/ht/tournai/1263919-brocante-des-bastio
+ ns
+CATEGORIES:Brocabrac Belgique\,Other\,Late Night
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Brocante des bastions
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7137b4c84b709ffb@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261101T050000Z
+DTEND:20261101T120000Z
+SUMMARY:Broc à sec
+LOCATION:Parking souterrain du Carrefour\, Avenue du Parc\, Mouscron
+URL:https://brocabrac.fr/ht/mouscron/1355547-broc-a-sec
+DESCRIPTION:Une brocante couverte et illuminée de 6 h 00 à 13 h 00. A p
+ artir du 3 mai 2026 broc’à sec sera aussi broc’à l’air. 2 emplac
+ ements de parking + voiture pour 26 eur puis 13 eur par emplacement supp
+ lémentaire. A partir du 3 mai 2026 broc’à sec sera aussi broc’à l
+ ’air. Possibilité d'occuper un emplacement à l’extérieur car +- 2
+ 0 emplacements devant l’entrée du parking souterrain. Info et réserv
+ ation par mail ou téléphone.\nhttps://brocabrac.fr/ht/mouscron/1355547
+ -broc-a-sec
+CATEGORIES:Brocabrac Belgique\,Other
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Broc à sec
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6472d6d1da35532c@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261101T060000Z
+DTEND:20261101T120000Z
+SUMMARY:Brocante mabru
+LOCATION:mabru (marché matinal de Bruxelles)\, 22 quai des Usines\, Brux
+ elles
+URL:https://brocabrac.fr/ru/bruxelles/1407278-brocante-mabru
+DESCRIPTION:Grande brocante se déroulant tous les dimanches matin sur le
+  site mabru (marché matinal de bruxelles) il y a des stands de nourritu
+ re\, de produis ménagers\, du gros électoménager\, beaucoup d'outils 
+ électriques et manuel d'occasion ainsi qu'une foule de petits exposants
+ . Le parking est payant (5€) et bondé\, je conseille de venir par le 
+ tram qui s'arrête juste devant.\nhttps://brocabrac.fr/ru/bruxelles/1407
+ 278-brocante-mabru
+CATEGORIES:Brocabrac Belgique\,Other
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Brocante mabru
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4bcd34935f2109fa@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261101T060000Z
+DTEND:20261101T130000Z
+SUMMARY:Grande brocante
+LOCATION:7 rue des français\, Les Bons Villers
+URL:https://brocabrac.fr/ht/les-bons-villers/1097040-grande-brocante
+DESCRIPTION:Que vous soyez brocanteurs \,antiquaires \,marchands\, visite
+ urs ou particuliers \,nous vous attendons tous les dimanches de 7h00 à 
+ 14h00 chez broc antik market belgium pour venir vendre\, acheter \,chine
+ r et surtout pour assister ou participer au grand déballage hebdomadair
+ e au cul du camion. Cette brocante est devenue populaire et incontournab
+ le pour tous les marchands et chineurs en un temps record. Elle est surt
+ out devenue célèbre pour la qualité de ses marchandises. A partir de 
+ 15 € déballage ...\nhttps://brocabrac.fr/ht/les-bons-villers/1097040-
+ grande-brocante
+CATEGORIES:Brocabrac Belgique\,Other
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Grande brocante
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dc849462e1f3eb28@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261101T060000Z
+DTEND:20261101T120000Z
+SUMMARY:Marché aux puces de welkenraedt
+LOCATION:Place des Combattants\, Welkenraedt
+URL:https://brocabrac.fr/lg/welkenraedt/992188-marche-aux-puces-de-welken
+ raedt
+DESCRIPTION:Chaque dimanche matin vous pouvez chiner au marché aux puces
+  de welkenraedt Emplacement : 2\,50€/mètre informations par télépho
+ ne (du lundi au vendredi de 9h à 17h30).\nhttps://brocabrac.fr/lg/welke
+ nraedt/992188-marche-aux-puces-de-welkenraedt
+CATEGORIES:Brocabrac Belgique\,Other
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Marché aux puces de welkenraedt
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1fc8bb0228af1962@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261101T070000Z
+DTEND:20261101T180000Z
+SUMMARY:Marché brocante
+LOCATION:Place de jeu balle\, Silenrieux
+URL:https://brocabrac.fr/na/silenrieux/1267634-marche-brocante
+DESCRIPTION:Marché brocante de silenrieux - place de jeu de balle - tous
+  les dimanches. Un emplacement = un module de 5 mètres de long X 3 mèt
+ res de profondeur. Véhicule placé en arrière. Marquage au sol et num
+ érotation des emplacements. La réservation des stands est obligatoire 
+ par téléphone du lundi 9h00 au mercredi 19h00 ! Pour une première ré
+ servation\, le paiement est obligatoire sur le compte bancaire de l'asbl
+  foire verte au be25 3630 9200 8782. Pour les exposants "réguliers"\, l
+ e paiement cash est ...\nhttps://brocabrac.fr/na/silenrieux/1267634-marc
+ he-brocante
+CATEGORIES:Brocabrac Belgique\,Other
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Marché brocante
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3ef478be22192653@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261101T070000Z
+DTEND:20261101T130000Z
+SUMMARY:Brocante hebdomadaire de spa
+LOCATION:Galerie Léopold et Parc de 7 Heures\, Rue du Fourneau\, Spa
+URL:https://brocabrac.fr/lg/spa/1344011-brocante-hebdomadaire-de-spa
+DESCRIPTION:La brocante a lieu dans la galerie léopold et le parc de 7 h
+ eures tous les dimanches . Restauration et toilette publique à proximit
+ é. Pas de réservation pour les exposants occasionnels \, les emplaceme
+ nts seront attribués par ordre d'arrivée entre 5h et 7h30. Le prix des
+  emplacements est de 3 euros du mètre. La brocante a lieu dans la galer
+ ie léopold (sous toit) et le parc de 7 heures. Les véhicules peuvent r
+ ester au stand.\nhttps://brocabrac.fr/lg/spa/1344011-brocante-hebdomadai
+ re-de-spa
+CATEGORIES:Brocabrac Belgique\,Other
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Brocante hebdomadaire de spa
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:5b73829746283680@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261101T070000Z
 DTEND:20261101T180000Z
 SUMMARY:Vide-grenier / brocante\, Rue du Monténégro
@@ -1533,8 +2039,55 @@ DESCRIPTION:Vide-grenier / brocante\, Rue du Monténégro
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:d3d61055267c7cd7@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261101T080000Z
+DTEND:20261101T130000Z
+SUMMARY:Marché aux puces de la place du jeu de balle
+LOCATION:Quartier des Marolles\, Place du Jeu de Balle\, Bruxelles
+URL:https://brocabrac.fr/ru/bruxelles/993112-marche-aux-puces-de-la-place
+ -du-jeu-de-balle
+DESCRIPTION:Au cœur de bruxelles\, tous les matins se tient une brocante
+  d'antiquité exceptionnelle sur la place du jeu de balle. ... Situé da
+ ns le quartier des marolles\, le marché aux puces attire aussi bien les
+  passants que les curieux. ... Vous y ferez de très belles affaires tan
+ t les marchandises proposées sont diverses : vêtements\, bijoux\, mobi
+ lier d'intérieur\, mais aussi des livres et des tableaux d'antiquité\,
+  fripes\, théières\, lampes\, bibelots\, vaisselles\, médailles\, meu
+ bles... ... Horaires 9h -14h...\nhttps://brocabrac.fr/ru/bruxelles/99311
+ 2-marche-aux-puces-de-la-place-du-jeu-de-balle
+CATEGORIES:Brocabrac Belgique\,Other
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Marché aux puces de la place du jeu de balle
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:129419edb41fabde@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261101T090000Z
+DTEND:20261101T130000Z
+SUMMARY:Brocante inclinée de ronquières
+LOCATION:Rue Rosemont\, Braine-Le-Comte
+URL:https://brocabrac.fr/ht/braine-le-comte/1190581-brocante-inclinee-de-
+ ronquieres
+DESCRIPTION:Brocante inclinée de ronquières - rue rosemont - parking gr
+ atuit - tous les samedis\, dimanches et jours fériés de 10h à 14h (ch
+ apiteau ouvert dès 9h) Sans réservation. Informations par téléphone.
+  Un emplacement est 5m x 5m à 16€ ou 3 parking/24€ etc avec la voit
+ ure toujours près de vous.\nhttps://brocabrac.fr/ht/braine-le-comte/119
+ 0581-brocante-inclinee-de-ronquieres
+CATEGORIES:Brocabrac Belgique\,Other\,Free
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Brocante inclinée de ronquières
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:0a9348c201d2d1bb@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261101T140000Z
 DTEND:20261101T160000Z
 SUMMARY:Er was eens een molenaarsdochter…
@@ -1559,8 +2112,154 @@ DESCRIPTION:Er was eens een molenaarsdochter…
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:36ec0a28ef99baf0@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261102T080000Z
+DTEND:20261102T130000Z
+SUMMARY:Marché aux puces de la place du jeu de balle
+LOCATION:Quartier des Marolles\, Place du Jeu de Balle\, Bruxelles
+URL:https://brocabrac.fr/ru/bruxelles/993112-marche-aux-puces-de-la-place
+ -du-jeu-de-balle
+DESCRIPTION:Au cœur de bruxelles\, tous les matins se tient une brocante
+  d'antiquité exceptionnelle sur la place du jeu de balle. ... Situé da
+ ns le quartier des marolles\, le marché aux puces attire aussi bien les
+  passants que les curieux. ... Vous y ferez de très belles affaires tan
+ t les marchandises proposées sont diverses : vêtements\, bijoux\, mobi
+ lier d'intérieur\, mais aussi des livres et des tableaux d'antiquité\,
+  fripes\, théières\, lampes\, bibelots\, vaisselles\, médailles\, meu
+ bles... ... Horaires 9h -14h...\nhttps://brocabrac.fr/ru/bruxelles/99311
+ 2-marche-aux-puces-de-la-place-du-jeu-de-balle
+CATEGORIES:Brocabrac Belgique\,Other
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Marché aux puces de la place du jeu de balle
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4392debe511f031b@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261103T080000Z
+DTEND:20261103T130000Z
+SUMMARY:Marché aux puces de la place du jeu de balle
+LOCATION:Quartier des Marolles\, Place du Jeu de Balle\, Bruxelles
+URL:https://brocabrac.fr/ru/bruxelles/993112-marche-aux-puces-de-la-place
+ -du-jeu-de-balle
+DESCRIPTION:Au cœur de bruxelles\, tous les matins se tient une brocante
+  d'antiquité exceptionnelle sur la place du jeu de balle. ... Situé da
+ ns le quartier des marolles\, le marché aux puces attire aussi bien les
+  passants que les curieux. ... Vous y ferez de très belles affaires tan
+ t les marchandises proposées sont diverses : vêtements\, bijoux\, mobi
+ lier d'intérieur\, mais aussi des livres et des tableaux d'antiquité\,
+  fripes\, théières\, lampes\, bibelots\, vaisselles\, médailles\, meu
+ bles... ... Horaires 9h -14h...\nhttps://brocabrac.fr/ru/bruxelles/99311
+ 2-marche-aux-puces-de-la-place-du-jeu-de-balle
+CATEGORIES:Brocabrac Belgique\,Other
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Marché aux puces de la place du jeu de balle
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:35d82eb1423b9ef2@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261103T113000Z
+DTEND:20261103T170000Z
+SUMMARY:Bourse collections du 1er mardi de battice
+LOCATION:Cercle Saint-Vincent\, Rue Forges-les-Eaux n' 12\, Battice
+URL:https://brocabrac.fr/lg/battice/1017665-bourse-collections-du-1er-mar
+ di-de-battice
+DESCRIPTION:Bourse de toutes collections de vente\, d'achat\, d'échange 
+ entre particuliers\, collectionneurs (ou pas)\, amateurs et ou pros. Ent
+ rée : 2 € = 2 € bon à valoir au bar. Entrée par derrière.\nhttps
+ ://brocabrac.fr/lg/battice/1017665-bourse-collections-du-1er-mardi-de-ba
+ ttice
+CATEGORIES:Brocabrac Belgique\,Other
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Bourse collections du 1er mardi de battice
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:613ffb53575f496a@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261104T080000Z
+DTEND:20261104T130000Z
+SUMMARY:Marché aux puces de la place du jeu de balle
+LOCATION:Quartier des Marolles\, Place du Jeu de Balle\, Bruxelles
+URL:https://brocabrac.fr/ru/bruxelles/993112-marche-aux-puces-de-la-place
+ -du-jeu-de-balle
+DESCRIPTION:Au cœur de bruxelles\, tous les matins se tient une brocante
+  d'antiquité exceptionnelle sur la place du jeu de balle. ... Situé da
+ ns le quartier des marolles\, le marché aux puces attire aussi bien les
+  passants que les curieux. ... Vous y ferez de très belles affaires tan
+ t les marchandises proposées sont diverses : vêtements\, bijoux\, mobi
+ lier d'intérieur\, mais aussi des livres et des tableaux d'antiquité\,
+  fripes\, théières\, lampes\, bibelots\, vaisselles\, médailles\, meu
+ bles... ... Horaires 9h -14h...\nhttps://brocabrac.fr/ru/bruxelles/99311
+ 2-marche-aux-puces-de-la-place-du-jeu-de-balle
+CATEGORIES:Brocabrac Belgique\,Other
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Marché aux puces de la place du jeu de balle
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1f59c279d484c462@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261105T080000Z
+DTEND:20261105T130000Z
+SUMMARY:Marché aux puces de la place du jeu de balle
+LOCATION:Quartier des Marolles\, Place du Jeu de Balle\, Bruxelles
+URL:https://brocabrac.fr/ru/bruxelles/993112-marche-aux-puces-de-la-place
+ -du-jeu-de-balle
+DESCRIPTION:Au cœur de bruxelles\, tous les matins se tient une brocante
+  d'antiquité exceptionnelle sur la place du jeu de balle. ... Situé da
+ ns le quartier des marolles\, le marché aux puces attire aussi bien les
+  passants que les curieux. ... Vous y ferez de très belles affaires tan
+ t les marchandises proposées sont diverses : vêtements\, bijoux\, mobi
+ lier d'intérieur\, mais aussi des livres et des tableaux d'antiquité\,
+  fripes\, théières\, lampes\, bibelots\, vaisselles\, médailles\, meu
+ bles... ... Horaires 9h -14h...\nhttps://brocabrac.fr/ru/bruxelles/99311
+ 2-marche-aux-puces-de-la-place-du-jeu-de-balle
+CATEGORIES:Brocabrac Belgique\,Other
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Marché aux puces de la place du jeu de balle
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d628a4b0fa411ebc@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261106T080000Z
+DTEND:20261106T130000Z
+SUMMARY:Marché aux puces de la place du jeu de balle
+LOCATION:Quartier des Marolles\, Place du Jeu de Balle\, Bruxelles
+URL:https://brocabrac.fr/ru/bruxelles/993112-marche-aux-puces-de-la-place
+ -du-jeu-de-balle
+DESCRIPTION:Au cœur de bruxelles\, tous les matins se tient une brocante
+  d'antiquité exceptionnelle sur la place du jeu de balle. ... Situé da
+ ns le quartier des marolles\, le marché aux puces attire aussi bien les
+  passants que les curieux. ... Vous y ferez de très belles affaires tan
+ t les marchandises proposées sont diverses : vêtements\, bijoux\, mobi
+ lier d'intérieur\, mais aussi des livres et des tableaux d'antiquité\,
+  fripes\, théières\, lampes\, bibelots\, vaisselles\, médailles\, meu
+ bles... ... Horaires 9h -14h...\nhttps://brocabrac.fr/ru/bruxelles/99311
+ 2-marche-aux-puces-de-la-place-du-jeu-de-balle
+CATEGORIES:Brocabrac Belgique\,Other
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Marché aux puces de la place du jeu de balle
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:86e5ee024fb8e4e3@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261106T190000Z
 DTEND:20261106T210000Z
 SUMMARY:This Is Not Goodbye
@@ -1579,8 +2278,440 @@ DESCRIPTION:This Is Not Goodbye
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:57224dd91353585b@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261107
+SUMMARY:Marché des antiquités du sablon
+LOCATION:Place du Grand Sablon\, Bruxelles
+URL:https://brocabrac.fr/ru/bruxelles/993117-marche-des-antiquites-du-sab
+ lon
+DESCRIPTION:Marché des antiquités du sablon - ouvert tous les samedis d
+ e 9h à 17h et dimanches de 9h à 15h sur la place du grand sablon ... C
+ e marché situé au centre du quartier des antiquaires sur la place du g
+ rand sablon est une institution depuis les années 60. ... Vous y trouve
+ rez : orfèvrerie\, bijouterie\, objets de vitrine\, céramique et verre
+ \, art de table\, tableaux\, dessins\, mais aussi porcelaine chinoise\, 
+ petit mobilier ou art africain\, collections\, vieux papiers\, meubles d
+ e style...\nhttps://brocabrac.fr/ru/bruxelles/993117-marche-des-antiquit
+ es-du-sablon
+CATEGORIES:Brocabrac Belgique\,Other
+END:VEVENT
+BEGIN:VEVENT
+UID:e60c97d534899bab@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261107T043000Z
+DTEND:20261107T120000Z
+SUMMARY:Brocante du family-center
+LOCATION:Parking du Family center\, 173 rue de l'Industrie\, Frameries
+URL:https://brocabrac.fr/ht/frameries/1271045-brocante-du-family-center
+DESCRIPTION:Brocante existant sans interruption depuis 1988 tous les same
+ dis matin. Pas de réservation\, placement par arrivée. Marchandise neu
+ ve\, nourriture et commerçants ambulants non admis. Emplacements avec v
+ oiture 5 mètres x 5 mètres pour 10 euros possibilité d'emplacement pl
+ us grand\, 5€ par parking supplémentaire facebook.Com/brocanstoq ou w
+ ww.brocanstoq.be\nhttps://brocabrac.fr/ht/frameries/1271045-brocante-du-
+ family-center
+CATEGORIES:Brocabrac Belgique\,Other
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Brocante du family-center
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:08234c9b5d8a550f@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261107T060000Z
+DTEND:20261107T160000Z
+SUMMARY:Brocante
+LOCATION:Centre Culturel à Izel\, Avenue Germain Gilson\, Chiny
+URL:https://brocabrac.fr/lx/chiny/1353474-brocante
+DESCRIPTION:Bar & restauration assurés toute la journée livres - objets
+  divers - jouets 15 € pour les 2 jours ou 10 € la journée accueil 
+ à partir de 07 h 00\nhttps://brocabrac.fr/lx/chiny/1353474-brocante
+CATEGORIES:Brocabrac Belgique\,Other
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Brocante
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9500eedb2807504c@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261107T080000Z
+DTEND:20261107T130000Z
+SUMMARY:Marché aux puces de la place du jeu de balle
+LOCATION:Quartier des Marolles\, Place du Jeu de Balle\, Bruxelles
+URL:https://brocabrac.fr/ru/bruxelles/993112-marche-aux-puces-de-la-place
+ -du-jeu-de-balle
+DESCRIPTION:Au cœur de bruxelles\, tous les matins se tient une brocante
+  d'antiquité exceptionnelle sur la place du jeu de balle. ... Situé da
+ ns le quartier des marolles\, le marché aux puces attire aussi bien les
+  passants que les curieux. ... Vous y ferez de très belles affaires tan
+ t les marchandises proposées sont diverses : vêtements\, bijoux\, mobi
+ lier d'intérieur\, mais aussi des livres et des tableaux d'antiquité\,
+  fripes\, théières\, lampes\, bibelots\, vaisselles\, médailles\, meu
+ bles... ... Horaires 9h -14h...\nhttps://brocabrac.fr/ru/bruxelles/99311
+ 2-marche-aux-puces-de-la-place-du-jeu-de-balle
+CATEGORIES:Brocabrac Belgique\,Other
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Marché aux puces de la place du jeu de balle
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8147d75b295159c2@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261107T090000Z
+DTEND:20261107T130000Z
+SUMMARY:Brocante inclinée de ronquières
+LOCATION:Rue Rosemont\, Braine-Le-Comte
+URL:https://brocabrac.fr/ht/braine-le-comte/1190581-brocante-inclinee-de-
+ ronquieres
+DESCRIPTION:Brocante inclinée de ronquières - rue rosemont - parking gr
+ atuit - tous les samedis\, dimanches et jours fériés de 10h à 14h (ch
+ apiteau ouvert dès 9h) Sans réservation. Informations par téléphone.
+  Un emplacement est 5m x 5m à 16€ ou 3 parking/24€ etc avec la voit
+ ure toujours près de vous.\nhttps://brocabrac.fr/ht/braine-le-comte/119
+ 0581-brocante-inclinee-de-ronquieres
+CATEGORIES:Brocabrac Belgique\,Other\,Free
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Brocante inclinée de ronquières
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:05dcc6c1f27ff60e@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261107T090000Z
+DTEND:20261107T170000Z
+SUMMARY:Brocante du centre culturel
+LOCATION:centre culturel\, Izel
+URL:https://brocabrac.fr/lx/izel/1398635-brocante-du-centre-culturel
+DESCRIPTION:Bar et petite restauration assurés toute la journée. Animat
+ ion musicale à partir de 11 h exposants : jouets - gaming - livres - an
+ tiquités - divers 15 eur / table\nhttps://brocabrac.fr/lx/izel/1398635-
+ brocante-du-centre-culturel
+CATEGORIES:Brocabrac Belgique\,Other
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Brocante du centre culturel
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f16a0f3b650bc778@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261108
+SUMMARY:Marché des antiquités du sablon
+LOCATION:Place du Grand Sablon\, Bruxelles
+URL:https://brocabrac.fr/ru/bruxelles/993117-marche-des-antiquites-du-sab
+ lon
+DESCRIPTION:Marché des antiquités du sablon - ouvert tous les samedis d
+ e 9h à 17h et dimanches de 9h à 15h sur la place du grand sablon ... C
+ e marché situé au centre du quartier des antiquaires sur la place du g
+ rand sablon est une institution depuis les années 60. ... Vous y trouve
+ rez : orfèvrerie\, bijouterie\, objets de vitrine\, céramique et verre
+ \, art de table\, tableaux\, dessins\, mais aussi porcelaine chinoise\, 
+ petit mobilier ou art africain\, collections\, vieux papiers\, meubles d
+ e style...\nhttps://brocabrac.fr/ru/bruxelles/993117-marche-des-antiquit
+ es-du-sablon
+CATEGORIES:Brocabrac Belgique\,Other
+END:VEVENT
+BEGIN:VEVENT
+UID:b8e764a86b453760@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261108T030000Z
+DTEND:20261108T120000Z
+SUMMARY:Brocante des bastions
+LOCATION:parking du retail Park des Bastions\, Boulevard Walter de Marvis
+ \, Tournai
+URL:https://brocabrac.fr/ht/tournai/1263919-brocante-des-bastions
+DESCRIPTION:30€ les 3 places de parking 10€ supplémentaire par place
+  de parking\nhttps://brocabrac.fr/ht/tournai/1263919-brocante-des-bastio
+ ns
+CATEGORIES:Brocabrac Belgique\,Other\,Late Night
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Brocante des bastions
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:91dcb9f45959d197@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261108T050000Z
+DTEND:20261108T120000Z
+SUMMARY:Broc à sec
+LOCATION:Parking souterrain du Carrefour\, Avenue du Parc\, Mouscron
+URL:https://brocabrac.fr/ht/mouscron/1355547-broc-a-sec
+DESCRIPTION:Une brocante couverte et illuminée de 6 h 00 à 13 h 00. A p
+ artir du 3 mai 2026 broc’à sec sera aussi broc’à l’air. 2 emplac
+ ements de parking + voiture pour 26 eur puis 13 eur par emplacement supp
+ lémentaire. A partir du 3 mai 2026 broc’à sec sera aussi broc’à l
+ ’air. Possibilité d'occuper un emplacement à l’extérieur car +- 2
+ 0 emplacements devant l’entrée du parking souterrain. Info et réserv
+ ation par mail ou téléphone.\nhttps://brocabrac.fr/ht/mouscron/1355547
+ -broc-a-sec
+CATEGORIES:Brocabrac Belgique\,Other
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Broc à sec
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:229630e174902b02@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261108T060000Z
+DTEND:20261108T120000Z
+SUMMARY:Brocante du souverain
+LOCATION:Boulevard du Souverain\, Auderghem
+URL:https://brocabrac.fr/ru/auderghem/1065613-brocante-du-souverain
+DESCRIPTION:La brocante du souverain a lieu le deuxième dimanche de chaq
+ ue mois sur la berme centrale du boulevard du souverain. Pas de réserva
+ tion prix de l'emplacement : 15 euro taille de l'emplacement : 4 mètres
+  installation à partir de 06h heures d'accès à la brocante : de 07h 
+ à 13h contact sur place : monsieur stéphane vilers - par téléphone\n
+ https://brocabrac.fr/ru/auderghem/1065613-brocante-du-souverain
+CATEGORIES:Brocabrac Belgique\,Other
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Brocante du souverain
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b960b929d3d61ab7@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261108T060000Z
+DTEND:20261108T120000Z
+SUMMARY:Brocante mabru
+LOCATION:mabru (marché matinal de Bruxelles)\, 22 quai des Usines\, Brux
+ elles
+URL:https://brocabrac.fr/ru/bruxelles/1407278-brocante-mabru
+DESCRIPTION:Grande brocante se déroulant tous les dimanches matin sur le
+  site mabru (marché matinal de bruxelles) il y a des stands de nourritu
+ re\, de produis ménagers\, du gros électoménager\, beaucoup d'outils 
+ électriques et manuel d'occasion ainsi qu'une foule de petits exposants
+ . Le parking est payant (5€) et bondé\, je conseille de venir par le 
+ tram qui s'arrête juste devant.\nhttps://brocabrac.fr/ru/bruxelles/1407
+ 278-brocante-mabru
+CATEGORIES:Brocabrac Belgique\,Other
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Brocante mabru
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1e7b720263cc859e@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261108T060000Z
+DTEND:20261108T160000Z
+SUMMARY:Brocante
+LOCATION:Centre Culturel à Izel\, Avenue Germain Gilson\, Chiny
+URL:https://brocabrac.fr/lx/chiny/1353474-brocante
+DESCRIPTION:Bar & restauration assurés toute la journée livres - objets
+  divers - jouets 15 € pour les 2 jours ou 10 € la journée accueil 
+ à partir de 07 h 00\nhttps://brocabrac.fr/lx/chiny/1353474-brocante
+CATEGORIES:Brocabrac Belgique\,Other
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Brocante
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7a2099b29b3b616c@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261108T060000Z
+DTEND:20261108T130000Z
+SUMMARY:Grande brocante
+LOCATION:7 rue des français\, Les Bons Villers
+URL:https://brocabrac.fr/ht/les-bons-villers/1097040-grande-brocante
+DESCRIPTION:Que vous soyez brocanteurs \,antiquaires \,marchands\, visite
+ urs ou particuliers \,nous vous attendons tous les dimanches de 7h00 à 
+ 14h00 chez broc antik market belgium pour venir vendre\, acheter \,chine
+ r et surtout pour assister ou participer au grand déballage hebdomadair
+ e au cul du camion. Cette brocante est devenue populaire et incontournab
+ le pour tous les marchands et chineurs en un temps record. Elle est surt
+ out devenue célèbre pour la qualité de ses marchandises. A partir de 
+ 15 € déballage ...\nhttps://brocabrac.fr/ht/les-bons-villers/1097040-
+ grande-brocante
+CATEGORIES:Brocabrac Belgique\,Other
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Grande brocante
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c39ed30266820796@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261108T060000Z
+DTEND:20261108T120000Z
+SUMMARY:Marché aux puces de welkenraedt
+LOCATION:Place des Combattants\, Welkenraedt
+URL:https://brocabrac.fr/lg/welkenraedt/992188-marche-aux-puces-de-welken
+ raedt
+DESCRIPTION:Chaque dimanche matin vous pouvez chiner au marché aux puces
+  de welkenraedt Emplacement : 2\,50€/mètre informations par télépho
+ ne (du lundi au vendredi de 9h à 17h30).\nhttps://brocabrac.fr/lg/welke
+ nraedt/992188-marche-aux-puces-de-welkenraedt
+CATEGORIES:Brocabrac Belgique\,Other
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Marché aux puces de welkenraedt
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0a917cb3b56614c1@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261108T070000Z
+DTEND:20261108T180000Z
+SUMMARY:Marché brocante
+LOCATION:Place de jeu balle\, Silenrieux
+URL:https://brocabrac.fr/na/silenrieux/1267634-marche-brocante
+DESCRIPTION:Marché brocante de silenrieux - place de jeu de balle - tous
+  les dimanches. Un emplacement = un module de 5 mètres de long X 3 mèt
+ res de profondeur. Véhicule placé en arrière. Marquage au sol et num
+ érotation des emplacements. La réservation des stands est obligatoire 
+ par téléphone du lundi 9h00 au mercredi 19h00 ! Pour une première ré
+ servation\, le paiement est obligatoire sur le compte bancaire de l'asbl
+  foire verte au be25 3630 9200 8782. Pour les exposants "réguliers"\, l
+ e paiement cash est ...\nhttps://brocabrac.fr/na/silenrieux/1267634-marc
+ he-brocante
+CATEGORIES:Brocabrac Belgique\,Other
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Marché brocante
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0ec01e4ef8059379@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261108T070000Z
+DTEND:20261108T130000Z
+SUMMARY:Brocante hebdomadaire de spa
+LOCATION:Galerie Léopold et Parc de 7 Heures\, Rue du Fourneau\, Spa
+URL:https://brocabrac.fr/lg/spa/1344011-brocante-hebdomadaire-de-spa
+DESCRIPTION:La brocante a lieu dans la galerie léopold et le parc de 7 h
+ eures tous les dimanches . Restauration et toilette publique à proximit
+ é. Pas de réservation pour les exposants occasionnels \, les emplaceme
+ nts seront attribués par ordre d'arrivée entre 5h et 7h30. Le prix des
+  emplacements est de 3 euros du mètre. La brocante a lieu dans la galer
+ ie léopold (sous toit) et le parc de 7 heures. Les véhicules peuvent r
+ ester au stand.\nhttps://brocabrac.fr/lg/spa/1344011-brocante-hebdomadai
+ re-de-spa
+CATEGORIES:Brocabrac Belgique\,Other
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Brocante hebdomadaire de spa
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ce7f6fd8b902e514@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261108T080000Z
+DTEND:20261108T130000Z
+SUMMARY:Marché aux puces de la place du jeu de balle
+LOCATION:Quartier des Marolles\, Place du Jeu de Balle\, Bruxelles
+URL:https://brocabrac.fr/ru/bruxelles/993112-marche-aux-puces-de-la-place
+ -du-jeu-de-balle
+DESCRIPTION:Au cœur de bruxelles\, tous les matins se tient une brocante
+  d'antiquité exceptionnelle sur la place du jeu de balle. ... Situé da
+ ns le quartier des marolles\, le marché aux puces attire aussi bien les
+  passants que les curieux. ... Vous y ferez de très belles affaires tan
+ t les marchandises proposées sont diverses : vêtements\, bijoux\, mobi
+ lier d'intérieur\, mais aussi des livres et des tableaux d'antiquité\,
+  fripes\, théières\, lampes\, bibelots\, vaisselles\, médailles\, meu
+ bles... ... Horaires 9h -14h...\nhttps://brocabrac.fr/ru/bruxelles/99311
+ 2-marche-aux-puces-de-la-place-du-jeu-de-balle
+CATEGORIES:Brocabrac Belgique\,Other
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Marché aux puces de la place du jeu de balle
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:543c5280d7488843@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261108T090000Z
+DTEND:20261108T130000Z
+SUMMARY:Brocante inclinée de ronquières
+LOCATION:Rue Rosemont\, Braine-Le-Comte
+URL:https://brocabrac.fr/ht/braine-le-comte/1190581-brocante-inclinee-de-
+ ronquieres
+DESCRIPTION:Brocante inclinée de ronquières - rue rosemont - parking gr
+ atuit - tous les samedis\, dimanches et jours fériés de 10h à 14h (ch
+ apiteau ouvert dès 9h) Sans réservation. Informations par téléphone.
+  Un emplacement est 5m x 5m à 16€ ou 3 parking/24€ etc avec la voit
+ ure toujours près de vous.\nhttps://brocabrac.fr/ht/braine-le-comte/119
+ 0581-brocante-inclinee-de-ronquieres
+CATEGORIES:Brocabrac Belgique\,Other\,Free
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Brocante inclinée de ronquières
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fe74448d2ed85ca5@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261108T090000Z
+DTEND:20261108T170000Z
+SUMMARY:Brocante du centre culturel
+LOCATION:centre culturel\, Izel
+URL:https://brocabrac.fr/lx/izel/1398635-brocante-du-centre-culturel
+DESCRIPTION:Bar et petite restauration assurés toute la journée. Animat
+ ion musicale à partir de 11 h exposants : jouets - gaming - livres - an
+ tiquités - divers 15 eur / table\nhttps://brocabrac.fr/lx/izel/1398635-
+ brocante-du-centre-culturel
+CATEGORIES:Brocabrac Belgique\,Other
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Brocante du centre culturel
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:936e3549da4c02d3@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261109T080000Z
+DTEND:20261109T130000Z
+SUMMARY:Marché aux puces de la place du jeu de balle
+LOCATION:Quartier des Marolles\, Place du Jeu de Balle\, Bruxelles
+URL:https://brocabrac.fr/ru/bruxelles/993112-marche-aux-puces-de-la-place
+ -du-jeu-de-balle
+DESCRIPTION:Au cœur de bruxelles\, tous les matins se tient une brocante
+  d'antiquité exceptionnelle sur la place du jeu de balle. ... Situé da
+ ns le quartier des marolles\, le marché aux puces attire aussi bien les
+  passants que les curieux. ... Vous y ferez de très belles affaires tan
+ t les marchandises proposées sont diverses : vêtements\, bijoux\, mobi
+ lier d'intérieur\, mais aussi des livres et des tableaux d'antiquité\,
+  fripes\, théières\, lampes\, bibelots\, vaisselles\, médailles\, meu
+ bles... ... Horaires 9h -14h...\nhttps://brocabrac.fr/ru/bruxelles/99311
+ 2-marche-aux-puces-de-la-place-du-jeu-de-balle
+CATEGORIES:Brocabrac Belgique\,Other
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Marché aux puces de la place du jeu de balle
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:b47fb206c9dc4c5e@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261109T183000Z
 DTEND:20261109T210000Z
 SUMMARY:Letters on Enthusiasm — Launch Evening
@@ -1600,8 +2731,33 @@ DESCRIPTION:Letters on Enthusiasm — Launch Evening
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:21c9ae04af8d4135@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261110T080000Z
+DTEND:20261110T130000Z
+SUMMARY:Marché aux puces de la place du jeu de balle
+LOCATION:Quartier des Marolles\, Place du Jeu de Balle\, Bruxelles
+URL:https://brocabrac.fr/ru/bruxelles/993112-marche-aux-puces-de-la-place
+ -du-jeu-de-balle
+DESCRIPTION:Au cœur de bruxelles\, tous les matins se tient une brocante
+  d'antiquité exceptionnelle sur la place du jeu de balle. ... Situé da
+ ns le quartier des marolles\, le marché aux puces attire aussi bien les
+  passants que les curieux. ... Vous y ferez de très belles affaires tan
+ t les marchandises proposées sont diverses : vêtements\, bijoux\, mobi
+ lier d'intérieur\, mais aussi des livres et des tableaux d'antiquité\,
+  fripes\, théières\, lampes\, bibelots\, vaisselles\, médailles\, meu
+ bles... ... Horaires 9h -14h...\nhttps://brocabrac.fr/ru/bruxelles/99311
+ 2-marche-aux-puces-de-la-place-du-jeu-de-balle
+CATEGORIES:Brocabrac Belgique\,Other
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Marché aux puces de la place du jeu de balle
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:36b275eaa25028c0@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261110T180000Z
 SUMMARY:Meena Alexander\, voice of exile between India\, Sudan and the US
 LOCATION:Maison du Livre\, Saint-Gilles
@@ -1618,8 +2774,33 @@ DESCRIPTION:Meena Alexander\, voice of exile between India\, Sudan and th
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:2fc1ec0a39aad900@neighbourhood-events
+DTSTAMP:20261001T110144Z
+DTSTART:20261111T080000Z
+DTEND:20261111T130000Z
+SUMMARY:Marché aux puces de la place du jeu de balle
+LOCATION:Quartier des Marolles\, Place du Jeu de Balle\, Bruxelles
+URL:https://brocabrac.fr/ru/bruxelles/993112-marche-aux-puces-de-la-place
+ -du-jeu-de-balle
+DESCRIPTION:Au cœur de bruxelles\, tous les matins se tient une brocante
+  d'antiquité exceptionnelle sur la place du jeu de balle. ... Situé da
+ ns le quartier des marolles\, le marché aux puces attire aussi bien les
+  passants que les curieux. ... Vous y ferez de très belles affaires tan
+ t les marchandises proposées sont diverses : vêtements\, bijoux\, mobi
+ lier d'intérieur\, mais aussi des livres et des tableaux d'antiquité\,
+  fripes\, théières\, lampes\, bibelots\, vaisselles\, médailles\, meu
+ bles... ... Horaires 9h -14h...\nhttps://brocabrac.fr/ru/bruxelles/99311
+ 2-marche-aux-puces-de-la-place-du-jeu-de-balle
+CATEGORIES:Brocabrac Belgique\,Other
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Marché aux puces de la place du jeu de balle
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:4698fefa50f350e5@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261112T083000Z
 DTEND:20261112T103000Z
 SUMMARY:Autour de 'En lettres noires' (Siméon MB) - writing workshop
@@ -1638,7 +2819,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:53ba28a2a8cae6a4@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261112T114000Z
 SUMMARY:En lettres noires (Collectif L-Slam)
 LOCATION:Musées royaux des Beaux-Arts de Belgique\, Brussels
@@ -1655,7 +2836,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:843960d33fe8c408@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261118T130000Z
 DTEND:20261118T150000Z
 SUMMARY:Goûter poésie: Le pays des prénoms (Alphonse Eklou Uwantege)
@@ -1675,7 +2856,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c2cae9fe44312996@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261118T160000Z
 DTEND:20261118T200000Z
 SUMMARY:J'peux pas j'ai gravure - engraving workshop at Mazette
@@ -1692,7 +2873,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:342c5a2aeb003dcd@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261118T183000Z
 DTEND:20261118T210000Z
 SUMMARY:Sylvie Savon
@@ -1712,7 +2893,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:1b2f514d04b79141@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261120T170000Z
 DTEND:20261120T180000Z
 SUMMARY:Tout là-bas la lumière - carte blanche Boykid
@@ -1731,7 +2912,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:89e54b5ac191b589@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261120T190000Z
 DTEND:20261120T210000Z
 SUMMARY:Prophetic Dance on the Strange Island
@@ -1752,7 +2933,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:97bf80a5c6dccbe2@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261125T190000Z
 DTEND:20261125T200000Z
 SUMMARY:Par.Sek
@@ -1773,7 +2954,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3e2a762f2090569d@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261127T173000Z
 DTEND:20261127T183000Z
 SUMMARY:Darya & Dounya
@@ -1794,7 +2975,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:985456d01a6fe5c4@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261127T190000Z
 DTEND:20261127T210000Z
 SUMMARY:The Living Souls of the Great Egrets
@@ -1815,7 +2996,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:82b5f23540a52542@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261128T100000Z
 DTEND:20261128T130000Z
 SUMMARY:Offline
@@ -1835,7 +3016,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:649bce1ccc491069@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261130T183000Z
 DTEND:20261130T210000Z
 SUMMARY:Diana's Tree Evening
@@ -1854,7 +3035,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:5f81c79556cacf42@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261203T170000Z
 SUMMARY:Bookclub: Traverser les histoires d'Adelheid Duvanel
 LOCATION:Maison du Livre\, Saint-Gilles
@@ -1870,7 +3051,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:8566b09f604c65ef@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261204T190000Z
 DTEND:20261204T210000Z
 SUMMARY:Bands of Hysterics
@@ -1891,7 +3072,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1a33fa82b3741b6@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261206T140000Z
 DTEND:20261206T160000Z
 SUMMARY:ERASMUS PLEADS FOR PEACE
@@ -1916,7 +3097,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c5a33fa0fe51961f@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261212
 SUMMARY:CRUSH - 11 favourites of Wallonia-Brussels theatre (festival)
@@ -1930,7 +3111,7 @@ CATEGORIES:CRUSH festival\,Culture & Arts\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:dd0e0d8fef79d16f@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261209T190000Z
 DTEND:20261209T210000Z
 SUMMARY:The Staart
@@ -1950,7 +3131,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ee192eeebf98931c@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261210T170000Z
 DTEND:20261210T183000Z
 SUMMARY:Under the Gaze of Camille Claudel's Statues
@@ -1971,7 +3152,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cfa788c82aac37ea@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261211T143000Z
 SUMMARY:Kabylifornie (Agathe Yamina Meziani)
 LOCATION:Théâtre National Wallonie-Bruxelles
@@ -1990,7 +3171,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c4195c753b72989d@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261211T174500Z
 SUMMARY:Ravage tout court (Adeline Rosenstein / Maison Ravage)
 LOCATION:Le Rideau\, Rue Goffart 7a\, 1050 Brussels
@@ -2007,7 +3188,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fe87189c1f191efe@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261211T183000Z
 SUMMARY:Kabylifornie (Agathe Yamina Meziani)
 LOCATION:Théâtre National Wallonie-Bruxelles
@@ -2025,7 +3206,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9d13444403b55ad4@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261211T201500Z
 SUMMARY:Une traversée (Cie Tchaïka)
 LOCATION:Théâtre Les Tanneurs\, Rue des Tanneurs 75-77\, 1000 Brussels
@@ -2041,7 +3222,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e9e63601bc210924@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261212T180000Z
 SUMMARY:Ravage tout court (Adeline Rosenstein / Maison Ravage)
 LOCATION:Le Rideau\, Rue Goffart 7a\, 1050 Brussels
@@ -2057,7 +3238,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:df7a74cd9830c94a@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261212T183000Z
 SUMMARY:Kabylifornie (Agathe Yamina Meziani)
 LOCATION:Théâtre National Wallonie-Bruxelles
@@ -2075,7 +3256,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f2fdc6e5d75f7f05@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261218
 SUMMARY:Ateliers Altérité (Collectif Sanguin) - writing course
@@ -2089,7 +3270,7 @@ CATEGORIES:Midis de la Poesie\,Workshops & Creative\,Free\,Recurring\,Reg
 END:VEVENT
 BEGIN:VEVENT
 UID:de10e8cf18eac335@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261216T160000Z
 DTEND:20261216T200000Z
 SUMMARY:J'peux pas j'ai gravure - engraving workshop at Mazette
@@ -2106,7 +3287,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d078ca3a83db54fd@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261218T160000Z
 SUMMARY:Ateliers Altérité - public presentation
 LOCATION:Maison Poème\, Saint-Gilles
@@ -2124,7 +3305,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:7f61b0f74288fec4@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20261219T100000Z
 DTEND:20261219T130000Z
 SUMMARY:Offline
@@ -2144,7 +3325,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fe5426a82f7b4b5b@neighbourhood-events
-DTSTAMP:20261001T105135Z
+DTSTAMP:20261001T110144Z
 DTSTART:20270120T160000Z
 DTEND:20270120T200000Z
 SUMMARY:J'peux pas j'ai gravure - engraving workshop at Mazette
