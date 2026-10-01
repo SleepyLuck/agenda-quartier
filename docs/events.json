@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-01T12:24:24.917892+02:00",
+  "generated": "2026-10-01T12:51:35.767935+02:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
@@ -584,8 +584,8 @@
       "kept": 0,
       "carried": 0,
       "stale": false,
-      "error_class": "site",
-      "note": "jsonld: robots.txt disallows https://cclj.be/notre-agenda/"
+      "error_class": "billing",
+      "note": "llm: skipped (billing failure earlier this run)"
     },
     {
       "source": "GC Ten Weyngaert",
