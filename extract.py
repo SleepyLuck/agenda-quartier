@@ -65,7 +65,20 @@ def robots_allows(url: str) -> bool:
         rp = RobotFileParser()
         rp.set_url(root + "/robots.txt")
         try:
-            rp.read()
+            # Fetch with our own declared UA instead of RobotFileParser.read()'s
+            # plain urllib call (default UA, no headers) - some WAFs 403 the bare
+            # urllib signature while serving the real (often permissive) robots.txt
+            # to everything else, which made read() wrongly treat the site as
+            # fully disallowed. Mirrors read()'s own 401/403-means-disallow-all,
+            # other-4xx-means-allow-all rules, just under the identity we actually
+            # scrape with.
+            r = requests.get(root + "/robots.txt", headers={"User-Agent": UA}, timeout=TIMEOUT)
+            if r.status_code in (401, 403):
+                rp.disallow_all = True
+            elif r.status_code >= 400:
+                rp.allow_all = True
+            else:
+                rp.parse(r.text.splitlines())
         except Exception:
             rp = None
         _robots_cache[root] = rp
