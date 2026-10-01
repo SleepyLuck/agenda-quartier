@@ -162,15 +162,18 @@ sources:
   # Actions runs (65 candidates probed total; these 20 are the ones that
   # returned real signal and are not robots/firewall-blocked). ----------
 
-  # Real .ics feed, 36 events found live.
+  # Real .ics feed, 36 events found live. method: ics fetches source url
+  # directly as an ics file (no feed auto-discovery from an HTML page), so
+  # url must be the feed itself, not the site's homepage.
   - name: Demosphere Bruxelles
-    url: https://bxl.demosphere.net/
+    url: https://bxl.demosphere.net/events.ics
     method: ics
 
   # .ics feed (14 events), wordpress REST (5) and jsonld (12) all hit -
-  # richest signal of the whole batch.
+  # richest signal of the whole batch. method: ics fetches source url
+  # directly as an ics file, so url must be the feed itself.
   - name: CBCS (Brussels social sector agenda)
-    url: https://cbcs.be/
+    url: https://cbcs.be/agenda/?ical=1
     method: ics
 
   # jsonld: 10 schema.org Event nodes (region-wide page covers Saint-Gilles
@@ -217,7 +220,11 @@ sources:
     url: https://bellone.be/
     method: llm
 
-  - name: FTI Brussel
+  # Named distinctly from the "FTI Brussel" manual source (manual_events.yml) -
+  # sharing a name with a manual source confused the carry-forward/dedup logic
+  # (fixed in scrape.py), but kept the names apart too to avoid two identically
+  # named entries in the UI's source list.
+  - name: FTI Brussel (programme page)
     url: https://www.ftifestival.be/programma/brussel
     method: llm
 

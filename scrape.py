@@ -326,8 +326,19 @@ def main() -> int:
     prev_payload = _previous_payload()
     prev_events_by_source: dict[str, list[dict]] = {}
     for e in prev_payload.get("events", []):
+        # Manual events are never dropped and need no carry-forward of their
+        # own (load_manual_events() re-adds them every run regardless of
+        # scraper health) - pooling them in here by source name would let a
+        # scraped source that happens to share a manual source's display name
+        # (e.g. both called "FTI Brussel") "carry forward" the manual
+        # events as if they were its own stale results, which then makes the
+        # real manual batch look like a duplicate of an already-scraped event
+        # and get silently dropped by the dedup-against-scraped rule.
+        if e.get("manual"):
+            continue
         prev_events_by_source.setdefault(e.get("source", ""), []).append(e)
-    prev_source_meta_by_name = {s["name"]: s for s in prev_payload.get("sources", [])}
+    prev_source_meta_by_name = {s["name"]: s for s in prev_payload.get("sources", [])
+                                 if s.get("method") != "manual"}
     today_iso = datetime.now(ZoneInfo(tz)).date().isoformat()
 
     all_events: dict[str, dict] = {}
