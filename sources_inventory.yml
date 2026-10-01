@@ -1,0 +1,105 @@
+# Organisers behind the 36 photos: where each one posts. Checked 2026-10-01 (search + fetch).
+# instagram/facebook = account URLs that appeared in search results or on the organiser's own page.
+# I did NOT open Instagram or Facebook (not scrapeable in practice, and automated collection is
+# against their terms as far as I know: verify). Use these to follow accounts by hand or via the
+# organiser's newsletter.
+#
+# Reference only - not read by the scraper. See discovery.py section 5 of its brief for how this
+# feeds a (future, optional) caption-inbox workflow.
+organisers:
+- name: Théâtre National Wallonie-Bruxelles
+  web: https://www.theatrenational.be/en/program/
+  tickets: ticketmatic
+  instagram: https://instagram.com/tn_wallonie_bruxelles
+  facebook: https://www.facebook.com/tn.wallonie.bruxelles
+  evidence: fetched event page
+- name: Le Rideau
+  web: https://lerideau.brussels/
+  tickets: utick (shop.utick.net/?pos=RIDEAU)
+  instagram: https://www.instagram.com/lerideau.brussels/
+  facebook: https://www.facebook.com/lerideau.brussels/
+  evidence: fetched event page
+- name: Les Tanneurs
+  web: https://lestanneurs.be/
+  instagram: https://www.instagram.com/tlestanneurs/
+  x: https://x.com/LesTanneurs
+  evidence: search results (instagram), fetched CRUSH page
+- name: Les Riches-Claires
+  web: https://lesrichesclaires.be/
+  instagram: https://www.instagram.com/richesclaires/
+  x: https://x.com/RichesClaires
+  evidence: search results
+- name: La Bellone
+  web: https://bellone.be/
+  instagram: https://www.instagram.com/la_bellone_bruxelles/
+  evidence: search results
+- name: Varia
+  web: https://varia.be/en
+  instagram: https://www.instagram.com/theatrevaria/
+  facebook: https://www.facebook.com/levaria.debruxelles/
+  evidence: search results
+- name: Halles de Schaerbeek
+  web: https://www.halles.be/en/
+  evidence: search results (web only; no social handle checked)
+- name: La Maison du Livre (Saint-Gilles)
+  web: https://www.lamaisondulivre.be/agenda/
+  instagram: https://www.instagram.com/lamaisondulivrebxl/
+  facebook: https://www.facebook.com/lamaisondulivre/
+  evidence: search results; website fetch blocked by firewall
+- name: Maison poème
+  web: https://maisonpoeme.be/
+  instagram: https://www.instagram.com/maisonpoemebxl/
+  mastodon: https://mastodon.social/@maisonpoemebxl
+  evidence: search results
+- name: Midis de la Poésie
+  web: https://midisdelapoesie.be/nos-evenements/programmation
+  instagram: https://www.instagram.com/midispoesie/
+  facebook: https://www.facebook.com/midispoesie/
+  also: pointculture.be/partenaires/midis-de-la-poesie/
+  evidence: search results; fetch failed (robots timeout)
+- name: Mazette
+  web: https://mazette.brussels/
+  instagram: https://www.instagram.com/mazette.brussels/
+  facebook: https://www.facebook.com/Mazette.brussels/
+  newsletter: Mazette Gazette (monthly, per their site)
+  linktree: https://linktr.ee/mazette.brussels
+  evidence: fetched homepage
+- name: The Bridge Theatre
+  web: https://thebridge.brussels/
+  tickets: utick (shop.utick.net/?pos=THEBRIDGE)
+  instagram: https://www.instagram.com/thebridge.brussels
+  facebook: https://www.facebook.com/104943261367117
+  newsletter: https://thebridgebrussels.substack.com/
+  evidence: fetched event page
+- name: WIELS
+  web: https://wiels.org/en/events/fti-brussels-shifting-worlds
+  instagram: https://www.instagram.com/wiels_brussels/
+  other_instagram: [wiels_cafe, weclub_wiels]
+  evidence: search results
+- name: FTI Festival Brussel
+  web: https://www.ftifestival.be/programma/brussel
+  tickets: Ticketing CM (day ticket) + Eventbrite for Fashion Factory workshops (organiser GLUON)
+  instagram: not found
+  evidence: fetched pages
+- name: ANTE Festival
+  web: https://www.ante.brussels/en/
+  tickets: https://booking.ante.brussels/fr/
+  instagram: not found
+  organiser: Explore.Brussels with COCOF; dates 3-4 and 10-11 Oct 2026
+  evidence: fetched ccf.brussels page
+- name: Brasserie Atlas / Surgir asbl / "Nourrir les débris"
+  web: none found for the exhibition
+  other: ra.co/clubs/176243 (Resident Advisor venue page), facebook.com/profile.php?id=100066494047572 (Brasserie Atlas)
+  instagram: not found
+  evidence: UNVERIFIED. The 4 events stay printed-poster only.
+- name: Startmoment Samen Tegen Armoede (Welzijnszorg)
+  web: https://samentegenarmoede.be/
+  also: uitinvlaanderen.be listing existed for the 2025 edition; no 2026 listing found
+  evidence: UNVERIFIED for 2026 (date from the printed poster)
+aggregators_seen:
+- {name: Saint-Gilles Culture, url: "https://www.saintgillesculture.brussels/agenda", evidence: fetched}
+- {name: Saint-Gilles commune brocantes page, url: "https://stgilles.brussels/services/developpement-economique/service-du-developpement-economique/brocantes-braderies-marches-etalages-et-chevalets/", evidence: search results}
+- {name: Quefaire.be brocantes, url: "https://www.quefaire.be/brocantes/saint-gilles", evidence: search results}
+- {name: Spectable Saint-Gilles, url: "https://www.spectable.be/saint-gilles-1060/agenda-culturel/n_2-l_46887.php", evidence: search results}
+- {name: Maison des Cultures de Saint-Gilles, url: "https://mdc1060.brussels/", evidence: search results}
+- {name: Cityzeum Brussels, url: "https://www.cityzeum.com/evenement/bruxelles", evidence: search results}
