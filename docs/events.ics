@@ -6,17 +6,191 @@ METHOD:PUBLISH
 X-WR-CALNAME:Neighbourhood events
 X-WR-TIMEZONE:Europe/Brussels
 BEGIN:VEVENT
-UID:1c9e251a0601f0c5@neighbourhood-events
-DTSTAMP:20260930T202859Z
-DTSTART;VALUE=DATE:20260930
-DTEND;VALUE=DATE:20260930
-SUMMARY:6:30pm La Vieille Chéchette Choir
+UID:41e2e17334e33b3c@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261002
+SUMMARY:20h Concert Merysse
+URL:https://chechette.be/events/20h-concert-merysse/
+DESCRIPTION:<!-- wp:paragraph --> <p>Discover Merysse\, an Italian singer
+ -songwriter and performer\, live in Brussels with her original songs and
+  selected Italian repertoire.</p> <!-- /wp:paragraph --> <!-- wp:image {
+ "id":7052\,"sizeSlug":"large"\,"linkDestination":"none"} --> <figure cla
+ ss="wp-block-image size-large"><img src="https://chechette.be/wp-content
+ /uploads/2026/09/Merysse-Bruxelles_2-ottobre-819x1024.png" alt="" class=
+ "wp-image-7052"/></figure> <!-- /wp:image -->\nhttps://chechette.be/even
+ ts/20h-concert-merysse/
+CATEGORIES:La Vieille Chéchette\,Other
+END:VEVENT
+BEGIN:VEVENT
+UID:33dac0f0a1fa42cc@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261011
+SUMMARY:ANTE Festival 2026 - Brussels architectural heritage
+LOCATION:Historic buildings across Brussels
+URL:https://www.ante.brussels/en/
+DESCRIPTION:Guided interior visits (45-75 min) of historic buildings. Tic
+ kets EUR 13 (EUR 6.50 reduced) via the booking platform.\nhttps://www.an
+ te.brussels/en/
+CATEGORIES:ANTE Festival\,Culture & Arts\,Recurring\,Registration Require
+ d
+END:VEVENT
+BEGIN:VEVENT
+UID:edd8e7b91699f5ce@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261003T073000Z
+DTEND:20261003T143000Z
+SUMMARY:Tisser son histoire (Lea Brami)
+LOCATION:Maison du Livre\, Saint-Gilles
+URL:https://midisdelapoesie.be/nos-evenements/programmation
+DESCRIPTION:Poetry workshop on writing\, embroidery and repair as ways to
+  tell your story\; make a collective flag. Free\, booking required.\nhtt
+ ps://midisdelapoesie.be/nos-evenements/programmation
+CATEGORIES:Midis de la Poesie\,Workshops & Creative\,Free\,Registration R
+ equired
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Tisser son histoire (Lea Brami)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:93e90717b98422b5@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261006
+SUMMARY:17h-19h paniers « bio » Ferme de Nadir
+LOCATION:La Vieille Chéchette\, Bruxelles
+URL:https://chechette.be/events/17h-19h-paniers-bio-ferme-de-nadir/
+DESCRIPTION:<!-- wp:heading {"level":4} --> <h4 class="wp-block-heading">
+ Des paniers de légumes toute l'année!<br>Chaque année\, des foyers s'
+ engagent pour récupérer un panier de légumes par semaine et développ
+ er la souveraineté alimentaire locale. C'est notre CSA\, notre Communau
+ té en Soutien à l'Agriculture.</h4> <!-- /wp:heading --> <!-- wp:parag
+ raph --> <p>Le contenu du panier est un subtil mélange entre légumes c
+ lassiques et découvertes gustatives tripantes\, que nous cultivons <str
+ ong>sans engrais\, sans pesticides\, sans herbicides\, sans outils aux 
+ énergies fossiles\, mais avec beaucoup d'amour.</strong>\nhttps://chech
+ ette.be/events/17h-19h-paniers-bio-ferme-de-nadir/
+CATEGORIES:La Vieille Chéchette\,Other
+END:VEVENT
+BEGIN:VEVENT
+UID:f9dccfecdc662287@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261006
+SUMMARY:18h30 Soirée jeux de société
+URL:https://chechette.be/events/19h-soiree-jeux-de-societe-108/
+DESCRIPTION:<!-- wp:media-text {"mediaId":4807\,"mediaLink":"https://chec
+ hette.be/events/18h30-ecoute-sonore-histoire-de-cris/jeux-de-societe/"\,
+ "mediaType":"image"\,"mediaWidth":34} --> <div class="wp-block-media-tex
+ t is-stacked-on-mobile" style="grid-template-columns:34% auto"><figure c
+ lass="wp-block-media-text__media"><img src="https://chechette.be/wp-cont
+ ent/uploads/2024/02/Jeux-de-societe-1024x512.jpg" alt="" class="wp-image
+ -4807 size-full"/></figure><div class="wp-block-media-text__content"><!-
+ - wp:paragraph {"placeholder":"Contenu…"} --> <p>Bienvenu aux Mardis d
+ e la Ludochette !</p> <!-- /wp:paragraph\nhttps://chechette.be/events/19
+ h-soiree-jeux-de-societe-108/
+CATEGORIES:La Vieille Chéchette\,Other
+END:VEVENT
+BEGIN:VEVENT
+UID:c69584c16055d2ae@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261007
+SUMMARY:18h30 Chorale de la vieille Chéchette
 URL:https://chechette.be/events/18h30-chorale-de-la-vieille-chechette/
 CATEGORIES:La Vieille Chéchette\,Other
 END:VEVENT
 BEGIN:VEVENT
+UID:74f23e18642e402b@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261007T120000Z
+DTEND:20261007T140000Z
+SUMMARY:Goûter poésie: Bricolage verbal (Amel Malfait Lakhtara)
+LOCATION:La Bellone\, Rue de Flandre 46\, 1000 Brussels
+URL:https://midisdelapoesie.be/nos-evenements/programmation
+DESCRIPTION:Creative writing workshop for children around words and poetr
+ y. Free\, booking required.\nhttps://midisdelapoesie.be/nos-evenements/p
+ rogrammation
+CATEGORIES:Midis de la Poesie\,Family & Children\,Free\,Kids\,Registratio
+ n Required
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Goûter poésie: Bricolage verbal (Amel Malfait Lakhtara)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:089190e779243e8c@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261007T130000Z
+DTEND:20261007T160000Z
+SUMMARY:Ecrire depuis la peau (Nicky Lapierre\, Simeon MB)
+LOCATION:Halles de Schaerbeek
+URL:https://midisdelapoesie.be/nos-evenements/programmation
+DESCRIPTION:Poetry workshop inspired by Dorothy Allison's 'Peau (Skin)'. 
+ Ticket also gives access to the same-day apéro poésie. EUR 5 / 8 / 10 
+ / 15.\nhttps://midisdelapoesie.be/nos-evenements/programmation
+CATEGORIES:Midis de la Poesie\,Workshops & Creative\,Registration Require
+ d
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Ecrire depuis la peau (Nicky Lapierre\, Simeon MB)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e301a3087f965a19@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261007T170000Z
+SUMMARY:Traduire la colère\, puis écrire la joie (Noémie Grunenwald\, 
+ Manon Didierjean)
+LOCATION:Halles de Schaerbeek
+URL:https://midisdelapoesie.be/nos-evenements/programmation
+DESCRIPTION:Meeting\, readings and open mic (apéro poésie). EUR 5 / 8 /
+  10 / 15.\nhttps://midisdelapoesie.be/nos-evenements/programmation
+CATEGORIES:Midis de la Poesie\,Culture & Arts\,Evening\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Traduire la colère\, puis écrire la joie (Noémie Grunenwal
+ d\, Manon Didierjean)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d009979ac0837125@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261029
+SUMMARY:Nourrir les débris - exhibition (visual\, sound and live arts)
+LOCATION:Brasserie Atlas\, Rue du Libre Examen 15\, 1070 Anderlecht
+DESCRIPTION:Group exhibition of visual\, sound and live arts. Open Thu/Fr
+ i 16:00-20:00\, Sat/Sun 14:00-20:00.
+CATEGORIES:Surgir asbl (Brasserie Atlas)\,Culture & Arts\,Recurring
+END:VEVENT
+BEGIN:VEVENT
+UID:2a8c437329a1023f@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART;VALUE=DATE:20261008
+SUMMARY:Nourrir les débris - opening (vernissage)
+LOCATION:Brasserie Atlas\, Rue du Libre Examen 15\, 1070 Anderlecht
+DESCRIPTION:Opening evening. Time not stated on the flyer.
+CATEGORIES:Surgir asbl (Brasserie Atlas)\,Culture & Arts
+END:VEVENT
+BEGIN:VEVENT
+UID:1e0a4666c4415030@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART;VALUE=DATE:20261010
+SUMMARY:Nourrir les débris - performances
+LOCATION:Brasserie Atlas\, Rue du Libre Examen 15\, 1070 Anderlecht
+DESCRIPTION:Performance day. Time not stated on the flyer.
+CATEGORIES:Surgir asbl (Brasserie Atlas)\,Culture & Arts\,Live
+END:VEVENT
+BEGIN:VEVENT
 UID:24cd38fb9f48ce20@neighbourhood-events
-DTSTAMP:20260930T202859Z
+DTSTAMP:20261001T095712Z
 DTSTART:20261010T120000Z
 DTEND:20261010T160000Z
 SUMMARY:Vitrines Parcours FrancoFaune
@@ -30,8 +204,25 @@ DESCRIPTION:Vitrines Parcours FrancoFaune
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:23934ff07938779d@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261011
+SUMMARY:14h COLLECTIF LE C.R.I. — ARPENTAGE COLLECTIF
+URL:https://chechette.be/events/14h-collectif-le-c-r-i-arpentage-collecti
+ f/
+DESCRIPTION:<!-- wp:heading --> <h2 class="wp-block-heading">COLLECTIF LE
+  C.R.I. — RENCONTRES SUR L'INCESTE ARPENTAGE COLLECTIF <img alt="📅"
+  src="https://fonts.gstatic.com/s/e/notoemoji/17.0/1f4c5/72.png"> Dimanc
+ he 11 octobre <img alt="🕒" src="https://fonts.gstatic.com/s/e/notoemo
+ ji/17.0/1f552/72.png"> Heure : 14h00 (accueil dès 13h30)</h2> <!-- /wp:
+ heading -->\nhttps://chechette.be/events/14h-collectif-le-c-r-i-arpentag
+ e-collectif/
+CATEGORIES:La Vieille Chéchette\,Other
+END:VEVENT
+BEGIN:VEVENT
 UID:329b3efc3dc35133@neighbourhood-events
-DTSTAMP:20260930T202859Z
+DTSTAMP:20261001T095712Z
 DTSTART:20261011T130000Z
 DTEND:20261011T153000Z
 SUMMARY:Three Little Grey Men
@@ -50,7 +241,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d7ecd67e2d4902be@neighbourhood-events
-DTSTAMP:20260930T202859Z
+DTSTAMP:20261001T095712Z
 DTSTART:20261011T140000Z
 DTEND:20261011T180000Z
 SUMMARY:Festival FrancoFaune
@@ -64,8 +255,1182 @@ DESCRIPTION:Festival FrancoFaune
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:cf795a5e427e5dda@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261013
+SUMMARY:17h-19h paniers « bio » Ferme de Nadir
+LOCATION:La Vieille Chéchette\, Bruxelles
+URL:https://chechette.be/events/17h-19h-paniers-bio-ferme-de-nadir/
+DESCRIPTION:<!-- wp:heading {"level":4} --> <h4 class="wp-block-heading">
+ Des paniers de légumes toute l'année!<br>Chaque année\, des foyers s'
+ engagent pour récupérer un panier de légumes par semaine et développ
+ er la souveraineté alimentaire locale. C'est notre CSA\, notre Communau
+ té en Soutien à l'Agriculture.</h4> <!-- /wp:heading --> <!-- wp:parag
+ raph --> <p>Le contenu du panier est un subtil mélange entre légumes c
+ lassiques et découvertes gustatives tripantes\, que nous cultivons <str
+ ong>sans engrais\, sans pesticides\, sans herbicides\, sans outils aux 
+ énergies fossiles\, mais avec beaucoup d'amour.</strong>\nhttps://chech
+ ette.be/events/17h-19h-paniers-bio-ferme-de-nadir/
+CATEGORIES:La Vieille Chéchette\,Other
+END:VEVENT
+BEGIN:VEVENT
+UID:a40654fb2b1331b1@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261014
+SUMMARY:18h30 Chorale de la vieille Chéchette
+URL:https://chechette.be/events/18h30-chorale-de-la-vieille-chechette/
+CATEGORIES:La Vieille Chéchette\,Other
+END:VEVENT
+BEGIN:VEVENT
+UID:b3740d26950a1106@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261015
+SUMMARY:19h Kitsch’N – Solo de clown et de fruits
+URL:https://chechette.be/events/19h-kitschn-solo-de-clown-et-de-fruits/
+DESCRIPTION:<!-- wp:image {"id":7049\,"sizeSlug":"large"\,"linkDestinatio
+ n":"none"} --> <figure class="wp-block-image size-large"><img src="https
+ ://chechette.be/wp-content/uploads/2026/09/kitschn-couverture-1024x575.p
+ ng" alt="" class="wp-image-7049"/></figure> <!-- /wp:image --> <!-- wp:p
+ aragraph --> <p>Star dans son domaine\, Miss kitch’N prépare en direc
+ t « The perfect smoothie ».</p> <!-- /wp:paragraph --> <!-- wp:paragra
+ ph --> <p>Cabotine\, elle donne vie à ses fruits afin de divertir son p
+ ublic\, mais un étrange sadisme s’immisce dans le jeu...</p> <!-- /wp
+ :paragraph --> <!-- wp:paragraph --> <p>alors que\nhttps://chechette.be/
+ events/19h-kitschn-solo-de-clown-et-de-fruits/
+CATEGORIES:La Vieille Chéchette\,Other
+END:VEVENT
+BEGIN:VEVENT
+UID:5de1b29c9e44fb24@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261015T104000Z
+SUMMARY:Dix ans de romans en vers (Clémentine Beauvais\, Aline Pornel)
+LOCATION:Théâtre des Riches-Claires\, Brussels
+URL:https://midisdelapoesie.be/nos-evenements/programmation
+DESCRIPTION:Midi poésie: meeting and readings on ten years of novels in 
+ verse. EUR 5 / 8 / 10 / 15.\nhttps://midisdelapoesie.be/nos-evenements/p
+ rogrammation
+CATEGORIES:Midis de la Poesie\,Culture & Arts
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Dix ans de romans en vers (Clémentine Beauvais\, Aline Porne
+ l)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8ae01426e20a511e@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261015T173000Z
+DTEND:20261106T210000Z
+SUMMARY:Copenhagen by Michael Frayn (The Bridge Theatre)
+LOCATION:La Maison Qui Chante\, Rue du Viaduc 122\, 1050 Ixelles
+URL:https://thebridge.brussels/copenhagen
+DESCRIPTION:English-language play on the 1941 Bohr-Heisenberg meeting. Tu
+ e-Fri 19:30\; Sat-Sun 14:30 and 19:30. EUR 25-45\, EUR 11 discounted.\nh
+ ttps://thebridge.brussels/copenhagen
+CATEGORIES:The Bridge Theatre\,Culture & Arts\,Evening\,Live\,Recurring
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Copenhagen by Michael Frayn (The Bridge Theatre)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a3575cbaae968767@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261020
+SUMMARY:Shifting Worlds - expo & laboratory (FTI Brussel)
+LOCATION:WIELS\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Temporary laboratory for urban imagination: expo by Brussels 
+ artists\, panels\, workshops and talks\, plus Fashion Factory and KET Ac
+ ademy at WIELS. Tickets from EUR 9.90 (festival site).\nhttps://www.ftif
+ estival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+CATEGORIES:FTI Brussel\,Culture & Arts\,Recurring
+END:VEVENT
+BEGIN:VEVENT
+UID:188c78e251ddc5e9@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261016T093000Z
+DTEND:20261016T110000Z
+SUMMARY:Building Cities with Living Bacteria
+LOCATION:WIELS (Auditorium)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Panel - Auditorium. Curator: Camilla Colombo. Panellists: Ben
+ to Architecture\, Michael Ghyoot\, Juliette Salme.\nhttps://www.ftifesti
+ val.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+CATEGORIES:FTI Brussel\,Talks & Discussions
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Building Cities with Living Bacteria
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c5d48b4e02d00ff4@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261016T094500Z
+DTEND:20261016T111500Z
+SUMMARY:Anthropocene Territories
+LOCATION:WIELS (The Balcony)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Talk - The Balcony. Curator: Territorial Agency. Panellists: 
+ John Palmesino\, Mark Williams\, Jan Zalasiewicz.\nhttps://www.ftifestiv
+ al.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+CATEGORIES:FTI Brussel\,Talks & Discussions
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Anthropocene Territories
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:6d4d2d8ab7fbcdc8@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261016T103000Z
+DTEND:20261016T110000Z
+SUMMARY:En wat als kunst zich met beleid moeit?
+LOCATION:WIELS (Observatory)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Info session - Observatory. Hosted by JRC Policy Lab. Dutch.\
+ nhttps://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-pr
+ ogramma-wiels
+CATEGORIES:FTI Brussel\,Talks & Discussions
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:En wat als kunst zich met beleid moeit?
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:132bdedfabcceb0c@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261016T113000Z
+DTEND:20261016T130000Z
+SUMMARY:Beyond High Tech - Low Life: Imagining the Living City through Bi
+ odesign
+LOCATION:WIELS (Auditorium)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Panel - Auditorium. Curator: Maxim Velli. Panellists include 
+ Ken De Cooman\, Rachel Armstrong\, Alice Jarry-Girard\, Jara Saluena Mar
+ tin.\nhttps://www.ftifestival.be/programma/brussel/shifting-worlds-expo-
+ en-programma-wiels
+CATEGORIES:FTI Brussel\,Talks & Discussions
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Beyond High Tech - Low Life: Imagining the Living City throug
+ h Biodesign
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f524f34b87426c5d@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261016T113000Z
+DTEND:20261016T150000Z
+SUMMARY:Dirty Labs For Hybrid Intelligence
+LOCATION:WIELS (Observatory)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Info session - Observatory. Hosted by the European Hybrid Int
+ elligence Network (Laboral\, ZKM\, Kersnikova\, Konteijner\, CPN & GLUON
+ ).\nhttps://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en
+ -programma-wiels
+CATEGORIES:FTI Brussel\,Professional & Networking
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Dirty Labs For Hybrid Intelligence
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cd110e7b93573389@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261016T120000Z
+DTEND:20261016T140000Z
+SUMMARY:Let's grow Mycelium Leather-Like Materials
+LOCATION:WIELS (Fashion Factory)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Workshop - Fashion Factory. Curated by MASJIEN\; hosted by La
+ rs Dittrich (MICR - VUB).\nhttps://www.ftifestival.be/programma/brussel/
+ shifting-worlds-expo-en-programma-wiels
+CATEGORIES:FTI Brussel\,Workshops & Creative
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Let's grow Mycelium Leather-Like Materials
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d74d18ad4bce4ae7@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261016T123000Z
+DTEND:20261016T130000Z
+SUMMARY:Adrien Lucca - The Blue Hour / Seeing at Night
+LOCATION:WIELS (The Balcony)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Talk - The Balcony. Adrien Lucca with Marko Ilic. English.\nh
+ ttps://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-prog
+ ramma-wiels
+CATEGORIES:FTI Brussel\,Culture & Arts
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Adrien Lucca - The Blue Hour / Seeing at Night
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0e6ddc315c331f3b@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261016T131500Z
+DTEND:20261016T134500Z
+SUMMARY:Sedimentary Thinking and Oceanic Perspective
+LOCATION:WIELS (The Balcony)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Talk - The Balcony. Artist: Laure Winants with Barbara Lagie.
+ \nhttps://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-p
+ rogramma-wiels
+CATEGORIES:FTI Brussel\,Talks & Discussions
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Sedimentary Thinking and Oceanic Perspective
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dba4329d4ca32112@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261016T133000Z
+DTEND:20261016T150000Z
+SUMMARY:Urban Synapses: Networks of Ideas\, Emotions\, and Imagination Sh
+ aping Urban Change
+LOCATION:WIELS (Auditorium)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Panel - Auditorium. Curator: Ralph Dum. Panellists: David Cha
+ valarias\, Agnieszka Kurant\, Fernando Cucchietti.\nhttps://www.ftifesti
+ val.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+CATEGORIES:FTI Brussel\,Talks & Discussions
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Urban Synapses: Networks of Ideas\, Emotions\, and Imaginatio
+ n Shaping Urban Change
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:047a3d216062b3c3@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261016T140000Z
+DTEND:20261016T143000Z
+SUMMARY:Mo/u/ld Making: Sculptural Qualities of Mycelium
+LOCATION:WIELS (The Balcony)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Talk - The Balcony. Isabel Fredeus with Jara Saluena Martin.\
+ nhttps://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-pr
+ ogramma-wiels
+CATEGORIES:FTI Brussel\,Talks & Discussions
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Mo/u/ld Making: Sculptural Qualities of Mycelium
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b1423976f8fdc966@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261016T144500Z
+DTEND:20261016T151500Z
+SUMMARY:Matthijs De Block - Y.E.A.S.T.: Yielding Ecology Art Science and 
+ Togetherness
+LOCATION:WIELS (The Balcony)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Talk - The Balcony. Tom Peeters with Matthijs De Block and Yo
+ eri Bellemans. Dutch.\nhttps://www.ftifestival.be/programma/brussel/shif
+ ting-worlds-expo-en-programma-wiels
+CATEGORIES:FTI Brussel\,Environment
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Matthijs De Block - Y.E.A.S.T.: Yielding Ecology Art Science 
+ and Togetherness
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:abc35d4817bca033@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261016T150000Z
+DTEND:20261016T163000Z
+SUMMARY:PI Apparel Brussels Chapter: Launch & Community Roundtable
+LOCATION:WIELS (Fashion Factory)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Workshop - Fashion Factory. Curated by MASJIEN with Leslie Ho
+ lden.\nhttps://www.ftifestival.be/programma/brussel/shifting-worlds-expo
+ -en-programma-wiels
+CATEGORIES:FTI Brussel\,Workshops & Creative\,Evening
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:PI Apparel Brussels Chapter: Launch & Community Roundtable
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:740c4847c83a68d9@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261016T151500Z
+DTEND:20261016T164500Z
+SUMMARY:Quantum Meets Art: Sensing the Uncomputable
+LOCATION:WIELS (Auditorium)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Panel - Auditorium. Curator: Ralph Dum. Panellists: Evelina D
+ omnitch\, Dmitry Gelfand\, Thomas Hertog.\nhttps://www.ftifestival.be/pr
+ ogramma/brussel/shifting-worlds-expo-en-programma-wiels
+CATEGORIES:FTI Brussel\,Talks & Discussions\,Evening
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Quantum Meets Art: Sensing the Uncomputable
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5ee2697016f71c2d@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261016T153000Z
+DTEND:20261016T160000Z
+SUMMARY:Source of Uncertainty: On Cosmic Rays\, Perception\, and the Cons
+ truction of Meaning
+LOCATION:WIELS (The Balcony)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Talk - The Balcony. Piet Van Duppen with Manuel Abendroth.\nh
+ ttps://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-prog
+ ramma-wiels
+CATEGORIES:FTI Brussel\,Talks & Discussions\,Evening
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Source of Uncertainty: On Cosmic Rays\, Perception\, and the 
+ Construction of Meaning
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f4ae1f9f23eaf492@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261016T153000Z
+DTEND:20261016T161500Z
+SUMMARY:Geef je project een Europese boost
+LOCATION:WIELS (Observatory)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Info session - Observatory. Hosted by Ann Van Hauwaert (NCP F
+ landers) and Benedicte de Brouwer (hub.brussels). Dutch.\nhttps://www.ft
+ ifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+CATEGORIES:FTI Brussel\,Professional & Networking\,Evening
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Geef je project een Europese boost
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:349c106fb859fe39@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261016T161500Z
+DTEND:20261016T170000Z
+SUMMARY:Bouwen aan een innovatief partnerschap?
+LOCATION:WIELS (Observatory)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Info session - Observatory. Hosted by CJM\, Edwin Korver\, Va
+ lery de Smedt\, LarbitsSisters\, Iris Verhoeven and Loes Welkenhuysen. D
+ utch.\nhttps://www.ftifestival.be/programma/brussel/shifting-worlds-expo
+ -en-programma-wiels
+CATEGORIES:FTI Brussel\,Professional & Networking\,Evening
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Bouwen aan een innovatief partnerschap?
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:98e7d9129eb81647@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261016T170000Z
+DTEND:20261016T174500Z
+SUMMARY:Electric Tenderness (Lucia Xaxalxe)
+LOCATION:WIELS (Black Box)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Performance - Black Box. Performance by Lucia Xaxalxe.\nhttps
+ ://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programm
+ a-wiels
+CATEGORIES:FTI Brussel\,Culture & Arts\,Evening\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Electric Tenderness (Lucia Xaxalxe)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:485be003a14bcf92@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261016T170000Z
+DTEND:20261016T173000Z
+SUMMARY:Shifting Worlds - official opening
+LOCATION:WIELS (WIELS)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Official opening - WIELS. Christophe De Jaeger (FTI-GLUON)\, 
+ Dirk Snauwaert (WIELS)\, Markus Reymann (TBA21-Academy).\nhttps://www.ft
+ ifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+CATEGORIES:FTI Brussel\,Culture & Arts\,Evening
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Shifting Worlds - official opening
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:20cba4bb93ce99a5@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261016T173000Z
+DTEND:20261016T181500Z
+SUMMARY:Force Field (Dmitry Gelfand & Evelina Domnitch)
+LOCATION:WIELS (Black Box)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Performance - Black Box. Performance by Dmitry Gelfand and Ev
+ elina Domnitch.\nhttps://www.ftifestival.be/programma/brussel/shifting-w
+ orlds-expo-en-programma-wiels
+CATEGORIES:FTI Brussel\,Culture & Arts\,Evening\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Force Field (Dmitry Gelfand & Evelina Domnitch)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:68dd18e010624c8a@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261016T194500Z
+DTEND:20261016T201500Z
+SUMMARY:Sounding Lines (Stijn Demeulenaere)
+LOCATION:WIELS (Black Box)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Live performance - Black Box. Live performance by Stijn Demeu
+ lenaere.\nhttps://www.ftifestival.be/programma/brussel/shifting-worlds-e
+ xpo-en-programma-wiels
+CATEGORIES:FTI Brussel\,Music\,Evening\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Sounding Lines (Stijn Demeulenaere)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2f0bf5a8e0133567@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261017
+SUMMARY:19h30 Concert Eddie & the Nonos
+URL:https://chechette.be/events/19h30-concert-eddie-the-nonos/
+DESCRIPTION:<!-- wp:image {"id":6754\,"width":"501px"\,"height":"auto"\,"
+ aspectRatio":"1.3333678837034542"\,"sizeSlug":"large"\,"linkDestination"
+ :"none"} --> <figure class="wp-block-image size-large is-resized"><img s
+ rc="https://chechette.be/wp-content/uploads/2026/09/image001-1024x768.pn
+ g" alt="" class="wp-image-6754" style="aspect-ratio:1.3333678837034542\;
+ width:501px\;height:auto"/></figure> <!-- /wp:image --> <!-- wp:paragrap
+ h --> <p>Nous sommes un trio de world music / funk / groovy jazz avec An
+ nabelle au chant & guitare interprétant avec douceur des <strong><em>Ch
+ ansons du Monde</em></strong> en diverses l\nhttps://chechette.be/events
+ /19h30-concert-eddie-the-nonos/
+CATEGORIES:La Vieille Chéchette\,Other
+END:VEVENT
+BEGIN:VEVENT
+UID:81179e562c71601c@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261017T090000Z
+DTEND:20261017T093000Z
+SUMMARY:Neurodata in the City: Attention\, Emotions and Imagination
+LOCATION:WIELS (The Balcony)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Talk - The Balcony. Roel Heremans with Chie Nakatani.\nhttps:
+ //www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma
+ -wiels
+CATEGORIES:FTI Brussel\,Talks & Discussions
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Neurodata in the City: Attention\, Emotions and Imagination
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2f2bd03a6e44df30@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261017T090000Z
+DTEND:20261017T113000Z
+SUMMARY:Polyclinic of Creative Practice
+LOCATION:WIELS (Observatory)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Open play session - Observatory. Hosted by Pacesetters.\nhttp
+ s://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-program
+ ma-wiels
+CATEGORIES:FTI Brussel\,Workshops & Creative
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Polyclinic of Creative Practice
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cfe46875294a4457@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261017T090000Z
+DTEND:20261017T120000Z
+SUMMARY:Climate Fresk
+LOCATION:WIELS (Fashion Factory)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Workshop - Fashion Factory. Hosted by MASJIEN.\nhttps://www.f
+ tifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+CATEGORIES:FTI Brussel\,Workshops & Creative\,Sustainability
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Climate Fresk
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8279c3d2b5139248@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261017T090000Z
+DTEND:20261017T160000Z
+SUMMARY:Fashion recrafted: Low Tech atelier
+LOCATION:WIELS (Fashion Factory)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Workshop - Fashion Factory. Hosted by MASJIEN.\nhttps://www.f
+ tifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+CATEGORIES:FTI Brussel\,Workshops & Creative\,Sustainability
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Fashion recrafted: Low Tech atelier
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:64fc8c0717372aa7@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261017T091500Z
+DTEND:20261017T104500Z
+SUMMARY:Careful Matter
+LOCATION:WIELS (Auditorium)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Panel - Auditorium. Curator: Claudia Schnugg. Panellists: Ant
+ ye Guenther\, Alice Jarry-Girard\, Guillaume Slizewicz\, Adrian Ranga.\n
+ https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-pro
+ gramma-wiels
+CATEGORIES:FTI Brussel\,Talks & Discussions
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Careful Matter
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a8e81a24cbc43386@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261017T094500Z
+DTEND:20261017T103000Z
+SUMMARY:Biomimetic Stories
+LOCATION:WIELS (The Balcony)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Talk - The Balcony. Pierre Jean Giloux with Gregory Lang.\nht
+ tps://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-progr
+ amma-wiels
+CATEGORIES:FTI Brussel\,Talks & Discussions
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Biomimetic Stories
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d2f06e097f8cb92a@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261017T104500Z
+DTEND:20261017T111500Z
+SUMMARY:NEB Prize finalist
+LOCATION:WIELS (The Balcony)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Talk - The Balcony. Speaker not named in the photographed sch
+ edule.\nhttps://www.ftifestival.be/programma/brussel/shifting-worlds-exp
+ o-en-programma-wiels
+CATEGORIES:FTI Brussel\,Talks & Discussions
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:NEB Prize finalist
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:97592d029c8dd09c@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261017T110000Z
+DTEND:20261017T123000Z
+SUMMARY:Redden algoritmes onze democratie\, of zetten ze haar onder druk?
+LOCATION:WIELS (Auditorium)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Panel - Auditorium. Curated by Kristin Van Damme with Rob Hey
+ man\, Eleanor Denneman\, Pepijn Mores\, Xander Steenbrugge\, Anna-Livia 
+ Smekens. Dutch.\nhttps://www.ftifestival.be/programma/brussel/shifting-w
+ orlds-expo-en-programma-wiels
+CATEGORIES:FTI Brussel\,Talks & Discussions
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Redden algoritmes onze democratie\, of zetten ze haar onder d
+ ruk?
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:489744e91d444c8a@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261017T113000Z
+DTEND:20261017T120000Z
+SUMMARY:Theatre of Transition
+LOCATION:WIELS (The Balcony)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Talk - The Balcony. Speakers: Florian Schneider\, Frank Theys
+ .\nhttps://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+CATEGORIES:FTI Brussel\,Talks & Discussions
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Theatre of Transition
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:bde8f8d26ae769d3@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261017T120000Z
+DTEND:20261017T124500Z
+SUMMARY:After Jubilee: A radio show from the future - Part 1 (radio show)
+LOCATION:WIELS (Brewery Hall)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Workshop - Brewery Hall. By JRC Policy Lab.\nhttps://www.ftif
+ estival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+CATEGORIES:FTI Brussel\,Workshops & Creative
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:After Jubilee: A radio show from the future - Part 1 (radio s
+ how)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d872d2613811a42f@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261017T120000Z
+DTEND:20261017T160000Z
+SUMMARY:(W)HOLE Mobile Repair Studio
+LOCATION:WIELS (Fashion Factory)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Workshop - Fashion Factory. Curated by MASJIEN with Anneleen 
+ Bertels.\nhttps://www.ftifestival.be/programma/brussel/shifting-worlds-e
+ xpo-en-programma-wiels
+CATEGORIES:FTI Brussel\,Workshops & Creative\,Sustainability
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:(W)HOLE Mobile Repair Studio
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:950a3445570a3e8b@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261017T121500Z
+DTEND:20261017T124500Z
+SUMMARY:Art in Common
+LOCATION:WIELS (The Balcony)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Talk - The Balcony. Tom & Nicolas Valckenaere with Genevieve 
+ Kinet.\nhttps://www.ftifestival.be/programma/brussel/shifting-worlds-exp
+ o-en-programma-wiels
+CATEGORIES:FTI Brussel\,Talks & Discussions
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Art in Common
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ffa3777cd5631504@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261017T124500Z
+DTEND:20261017T131500Z
+SUMMARY:After Jubilee: A radio show from the future - Part 2 (talk)
+LOCATION:WIELS (Brewery Hall)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Workshop - Brewery Hall. By JRC Policy Lab.\nhttps://www.ftif
+ estival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+CATEGORIES:FTI Brussel\,Workshops & Creative
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:After Jubilee: A radio show from the future - Part 2 (talk)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f64b26e72038ac41@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261017T130000Z
+DTEND:20261017T143000Z
+SUMMARY:Ancestral Intelligence: Shifting Worlds
+LOCATION:WIELS (Auditorium)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Panel - Auditorium. Curated by IMPAKT with Lorena Solis Bravo
+ \, Kevin Osepa\, Buhlebezwe Siwani.\nhttps://www.ftifestival.be/programm
+ a/brussel/shifting-worlds-expo-en-programma-wiels
+CATEGORIES:FTI Brussel\,Talks & Discussions
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Ancestral Intelligence: Shifting Worlds
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8b0935d3c3c3daf1@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261017T133000Z
+DTEND:20261017T141500Z
+SUMMARY:Soft Tissues (Ugo Dehaes) - preview
+LOCATION:WIELS (The Balcony)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Performance - The Balcony. Exclusive preview of Ugo Dehaes's 
+ new performance.\nhttps://www.ftifestival.be/programma/brussel/shifting-
+ worlds-expo-en-programma-wiels
+CATEGORIES:FTI Brussel\,Culture & Arts\,Dance\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Soft Tissues (Ugo Dehaes) - preview
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:07dcfcc4f911ca47@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261017T141500Z
+DTEND:20261017T150000Z
+SUMMARY:Are We Humans\, or Are We Dancers?
+LOCATION:WIELS (The Balcony)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Talk - The Balcony. Curated by Goedele Nuyttens with Sandy Sn
+ oeck\, Laura Vandewynckel\, Ugo Dehaes and Bram Vanderborght. On robots 
+ in hospitals\, cultural venues and public space.\nhttps://www.ftifestiva
+ l.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+CATEGORIES:FTI Brussel\,Talks & Discussions
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Are We Humans\, or Are We Dancers?
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e85be0c70b5e8d99@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261017T144500Z
+DTEND:20261017T161500Z
+SUMMARY:Poetics of Renewables: a FAST Salon
+LOCATION:WIELS (Auditorium)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Panel - Auditorium. Curated by Jose Luis de Vicente with The 
+ Solar Lab\, Nicolas Maigret\, Kris De Decker.\nhttps://www.ftifestival.b
+ e/programma/brussel/shifting-worlds-expo-en-programma-wiels
+CATEGORIES:FTI Brussel\,Talks & Discussions\,Sustainability
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Poetics of Renewables: a FAST Salon
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8f4c821c91143352@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261017T151500Z
+DTEND:20261017T153000Z
+SUMMARY:Decoding Egwu
+LOCATION:WIELS (The Balcony)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Talk - The Balcony. Dan Xu & Emmanuel Ndefo with Naomi Meulem
+ ans.\nhttps://www.ftifestival.be/programma/brussel/shifting-worlds-expo-
+ en-programma-wiels
+CATEGORIES:FTI Brussel\,Talks & Discussions\,Evening
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Decoding Egwu
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0974bb73e2ffba5d@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261017T160000Z
+DTEND:20261017T163000Z
+SUMMARY:Bunker for a Tropical Pixel
+LOCATION:WIELS (The Balcony)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Talk - The Balcony. Tatyana Zambrano.\nhttps://www.ftifestiva
+ l.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+CATEGORIES:FTI Brussel\,Talks & Discussions\,Evening
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Bunker for a Tropical Pixel
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:795558138be755f5@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261017T163000Z
+DTEND:20261017T171500Z
+SUMMARY:Electric Tenderness
+LOCATION:WIELS (Auditorium)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Talk - Auditorium. Curated by Sofie Van Loo with Lucia Xaxalx
+ e\, Mona Filleul and Pandore Rossi.\nhttps://www.ftifestival.be/programm
+ a/brussel/shifting-worlds-expo-en-programma-wiels
+CATEGORIES:FTI Brussel\,Talks & Discussions\,Evening
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Electric Tenderness
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4cf98c0433dd735f@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261017T163000Z
+DTEND:20261017T180000Z
+SUMMARY:Healing Nightclub: In the Making
+LOCATION:WIELS (Black Box)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Panel - Black Box. Curated by Elena Sorokina with Mostafa Tal
+ eb\, Timo Tuhkanen.\nhttps://www.ftifestival.be/programma/brussel/shifti
+ ng-worlds-expo-en-programma-wiels
+CATEGORIES:FTI Brussel\,Culture & Arts\,Evening
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Healing Nightclub: In the Making
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:305bda051c122b1b@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261017T164500Z
+DTEND:20261017T171500Z
+SUMMARY:REVERSE
+LOCATION:WIELS (The Balcony)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Talk - The Balcony. Laura Colmenares Guerra.\nhttps://www.fti
+ festival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+CATEGORIES:FTI Brussel\,Talks & Discussions\,Evening
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:REVERSE
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:388f6c63ee063e45@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261017T180000Z
+DTEND:20261017T183000Z
+SUMMARY:Healing Nightclub - Unity (Mostafa Taleb with Milad Mohammadi)
+LOCATION:WIELS (Black Box)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Healing Nightclub - Black Box.\nhttps://www.ftifestival.be/pr
+ ogramma/brussel/shifting-worlds-expo-en-programma-wiels
+CATEGORIES:FTI Brussel\,Music\,Dance\,Evening\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Healing Nightclub - Unity (Mostafa Taleb with Milad Mohammadi
+ )
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b375231ec3eac84f@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261017T183000Z
+DTEND:20261017T190000Z
+SUMMARY:Healing Nightclub - The Art of Attunement (Nicolas Siriany)
+LOCATION:WIELS (Black Box)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Healing Nightclub - Black Box.\nhttps://www.ftifestival.be/pr
+ ogramma/brussel/shifting-worlds-expo-en-programma-wiels
+CATEGORIES:FTI Brussel\,Music\,Dance\,Evening\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Healing Nightclub - The Art of Attunement (Nicolas Siriany)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4cdc86b0d06acc0d@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261017T190000Z
+DTEND:20261017T193000Z
+SUMMARY:Healing Nightclub - Hypnotic DJ-ing (Timo Tuhkanen)
+LOCATION:WIELS (Black Box)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Healing Nightclub - Black Box.\nhttps://www.ftifestival.be/pr
+ ogramma/brussel/shifting-worlds-expo-en-programma-wiels
+CATEGORIES:FTI Brussel\,Music\,Dance\,Evening\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Healing Nightclub - Hypnotic DJ-ing (Timo Tuhkanen)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d4a31f29a1e854b6@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261017T193000Z
+DTEND:20261017T210000Z
+SUMMARY:Healing Nightclub - Selfl(e/o)ss (Bo Meng)
+LOCATION:WIELS (Black Box)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Healing Nightclub - Black Box.\nhttps://www.ftifestival.be/pr
+ ogramma/brussel/shifting-worlds-expo-en-programma-wiels
+CATEGORIES:FTI Brussel\,Music\,Dance\,Evening\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Healing Nightclub - Selfl(e/o)ss (Bo Meng)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:73f846c5d14fdea4@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261018T090000Z
+DTEND:20261018T110000Z
+SUMMARY:Junior Climate Fresk
+LOCATION:WIELS (Black Box)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Workshop - Black Box. Hosted by MASJIEN.\nhttps://www.ftifest
+ ival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+CATEGORIES:FTI Brussel\,Workshops & Creative\,Kids\,Sustainability
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Junior Climate Fresk
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:09318fcee0de636b@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261018T110000Z
+DTEND:20261018T160000Z
+SUMMARY:Atelier Bitono
+LOCATION:WIELS (Fashion Factory)\, Van Volxemlaan 354\, 1190 Forest
+URL:https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-
+ programma-wiels
+DESCRIPTION:Workshop - Fashion Factory. Fashion Factory workshop.\nhttps:
+ //www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma
+ -wiels
+CATEGORIES:FTI Brussel\,Workshops & Creative
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Atelier Bitono
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d7fdaa20df08fc13@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:FTI Brussel Business Tracks at TheMerode
+LOCATION:TheMerode\, Brussels
+URL:https://www.ftifestival.be/programma/brussel
+DESCRIPTION:Keynotes\, panels and networking for entrepreneurs and resear
+ chers (tracks: FinTech & GovTech\, Health & Human\, Circular & City)\, w
+ ith fast-track visits to companies and labs.\nhttps://www.ftifestival.be
+ /programma/brussel
+CATEGORIES:FTI Brussel\,Professional & Networking
+END:VEVENT
+BEGIN:VEVENT
+UID:3441ae31ddadbae5@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:FTI Brussel partner events in Brussels and the Rand
+LOCATION:Research Park Zellik\, Photonics Innovation Center Pajottegem\, 
+ VRT (others on the FTI site)
+URL:https://www.ftifestival.be/programma/brussel
+DESCRIPTION:Open doors with workshops\, educational activities and guided
+  tours at research and media sites around Brussels.\nhttps://www.ftifest
+ ival.be/programma/brussel
+CATEGORIES:FTI Brussel\,Talks & Discussions
+END:VEVENT
+BEGIN:VEVENT
+UID:62dbebf806cabb97@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261019
+SUMMARY:18h Arpentage LDH : « Rester Barbare »
+URL:https://chechette.be/events/18h00-arpentage-ldh-rester-barbare/
+DESCRIPTION:<!-- wp:paragraph --> <p>INFOS PRATIQUES <br>● Date : Le lu
+ ndi 19 octobre 2026<br>● Timing : De 18h00 à 21h00 <br>● Lieu : La 
+ vieille Chéchette\, Rue du Monténégro 2\, 1060 Saint-Gilles <br>● P
+ AF : Gratuit. Grignotage végétarien bienvenue.<br>● Inscription obli
+ gatoire : <a href="https://framaforms.org/arpentagerester-barbare-louisa
+ -yousfi- 1787128826">https://framaforms.org/arpentagerester-barbare-loui
+ sa-yousfi-<br>1787128826</a></p> <!-- /wp:paragraph --> <!-- wp:paragrap
+ h --> <p>- Contact : mborensztejn@liguedh.be<br>Max 12 personnes ! En ca
+ s d’annulation\, merci de nous le faire savoir dès que\nhttps://chech
+ ette.be/events/18h00-arpentage-ldh-rester-barbare/
+CATEGORIES:La Vieille Chéchette\,Other\,Free
+END:VEVENT
+BEGIN:VEVENT
+UID:8512b9a57a9cbca5@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261020
+SUMMARY:17h-19h paniers « bio » Ferme de Nadir
+LOCATION:La Vieille Chéchette\, Bruxelles
+URL:https://chechette.be/events/17h-19h-paniers-bio-ferme-de-nadir/
+DESCRIPTION:<!-- wp:heading {"level":4} --> <h4 class="wp-block-heading">
+ Des paniers de légumes toute l'année!<br>Chaque année\, des foyers s'
+ engagent pour récupérer un panier de légumes par semaine et développ
+ er la souveraineté alimentaire locale. C'est notre CSA\, notre Communau
+ té en Soutien à l'Agriculture.</h4> <!-- /wp:heading --> <!-- wp:parag
+ raph --> <p>Le contenu du panier est un subtil mélange entre légumes c
+ lassiques et découvertes gustatives tripantes\, que nous cultivons <str
+ ong>sans engrais\, sans pesticides\, sans herbicides\, sans outils aux 
+ énergies fossiles\, mais avec beaucoup d'amour.</strong>\nhttps://chech
+ ette.be/events/17h-19h-paniers-bio-ferme-de-nadir/
+CATEGORIES:La Vieille Chéchette\,Other
+END:VEVENT
+BEGIN:VEVENT
+UID:ca9ae6585403d2b8@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261021
+SUMMARY:18h30 Chorale de la vieille Chéchette
+URL:https://chechette.be/events/18h30-chorale-de-la-vieille-chechette/
+CATEGORIES:La Vieille Chéchette\,Other
+END:VEVENT
+BEGIN:VEVENT
+UID:c54a2c601b642c0b@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261021T150000Z
+DTEND:20261021T190000Z
+SUMMARY:J'peux pas j'ai gravure - engraving workshop at Mazette
+LOCATION:Mazette\, Place du Jeu de Balle 50\, 1000 Brussels
+URL:https://mazette.brussels/
+DESCRIPTION:Monthly evening printmaking/engraving workshop. EUR 30\, redu
+ ced EUR 20.\nhttps://mazette.brussels/
+CATEGORIES:Mazette\,Workshops & Creative\,Evening\,Registration Required
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:J'peux pas j'ai gravure - engraving workshop at Mazette
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ad4a7fec36dfc38c@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261023T113000Z
+SUMMARY:Startmoment Brussel - Samen Tegen Armoede 2026
+LOCATION:BOP\, Zaterdagplein 6\, 1000 Brussels
+URL:https://www.bop.brussels/
+DESCRIPTION:Kick-off of the 'Samen tegen armoede' campaign in Brussels (D
+ utch).\nhttps://www.bop.brussels/
+CATEGORIES:Welzijnszorg / BOP\,Civic & Local Politics
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Startmoment Brussel - Samen Tegen Armoede 2026
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:61721be9efa79e1a@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261027
+SUMMARY:17h-19h paniers « bio » Ferme de Nadir
+LOCATION:La Vieille Chéchette\, Bruxelles
+URL:https://chechette.be/events/17h-19h-paniers-bio-ferme-de-nadir/
+DESCRIPTION:<!-- wp:heading {"level":4} --> <h4 class="wp-block-heading">
+ Des paniers de légumes toute l'année!<br>Chaque année\, des foyers s'
+ engagent pour récupérer un panier de légumes par semaine et développ
+ er la souveraineté alimentaire locale. C'est notre CSA\, notre Communau
+ té en Soutien à l'Agriculture.</h4> <!-- /wp:heading --> <!-- wp:parag
+ raph --> <p>Le contenu du panier est un subtil mélange entre légumes c
+ lassiques et découvertes gustatives tripantes\, que nous cultivons <str
+ ong>sans engrais\, sans pesticides\, sans herbicides\, sans outils aux 
+ énergies fossiles\, mais avec beaucoup d'amour.</strong>\nhttps://chech
+ ette.be/events/17h-19h-paniers-bio-ferme-de-nadir/
+CATEGORIES:La Vieille Chéchette\,Other
+END:VEVENT
+BEGIN:VEVENT
+UID:78c67a3852accba0@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261028
+SUMMARY:18h30 Chorale de la vieille Chéchette
+URL:https://chechette.be/events/18h30-chorale-de-la-vieille-chechette/
+CATEGORIES:La Vieille Chéchette\,Other
+END:VEVENT
+BEGIN:VEVENT
 UID:b2a9871e8c0a0bc2@neighbourhood-events
-DTSTAMP:20260930T202859Z
+DTSTAMP:20261001T095712Z
 DTSTART:20261028T183000Z
 DTEND:20261028T210000Z
 SUMMARY:The Pigeon and the Lazarus Bird
@@ -84,8 +1449,17 @@ DESCRIPTION:The Pigeon and the Lazarus Bird
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:a155c28c32f38428@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART;VALUE=DATE:20261029
+SUMMARY:Nourrir les débris - closing (finissage)
+LOCATION:Brasserie Atlas\, Rue du Libre Examen 15\, 1070 Anderlecht
+DESCRIPTION:Closing event. Time not stated on the flyer.
+CATEGORIES:Surgir asbl (Brasserie Atlas)\,Culture & Arts
+END:VEVENT
+BEGIN:VEVENT
 UID:2734425d8d6a2a97@neighbourhood-events
-DTSTAMP:20260930T202859Z
+DTSTAMP:20261001T095712Z
 DTSTART:20261030T183000Z
 DTEND:20261030T220000Z
 SUMMARY:Parcours Minigolf – Sorties de résidences 2026
@@ -99,8 +1473,27 @@ DESCRIPTION:Parcours Minigolf – Sorties de résidences 2026
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:c3fac5d05285faf6@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261031
+SUMMARY:13h Rencontre Nubo à la Vieille Chéchette
+URL:https://chechette.be/events/rencontre-nubo-a-la-vieille-chechette/
+DESCRIPTION:<!-- wp:image {"id":7046\,"sizeSlug":"full"\,"linkDestination
+ ":"none"} --> <figure class="wp-block-image size-full"><img src="https:/
+ /chechette.be/wp-content/uploads/2026/09/00_Nubo-services-fr_1000x1000.g
+ if" alt="" class="wp-image-7046"/></figure> <!-- /wp:image --> <!-- wp:h
+ eading --> <h2 class="wp-block-heading">Rencontrer Nubo</h2> <!-- /wp:he
+ ading --> <!-- wp:paragraph --> <p>Bye bye gmail et ses chaînes. Envie 
+ de dé-googeliser ta vie ? Un peu\, beaucoup\, à la folie ?</p> <!-- /w
+ p:paragraph --> <!-- wp:paragraph --> <p>La coopérative <a href="https:
+ //nubo.coop/fr/" rel="noreferrer noopener" \nhttps://chechette.be/events
+ /rencontre-nubo-a-la-vieille-chechette/
+CATEGORIES:La Vieille Chéchette\,Other
+END:VEVENT
+BEGIN:VEVENT
 UID:e1bc165b13eae796@neighbourhood-events
-DTSTAMP:20260930T202859Z
+DTSTAMP:20261001T095712Z
 DTSTART:20261031T100000Z
 DTEND:20261031T130000Z
 SUMMARY:Offline
@@ -119,8 +1512,26 @@ DESCRIPTION:Offline
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:96f6908d0b2a3a51@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261101T070000Z
+DTEND:20261101T180000Z
+SUMMARY:Vide-grenier / brocante\, Rue du Monténégro
+LOCATION:Rue du Monténégro (flyer also shows a faint 'Rue du Monténég
+ ro 124\, Forest')
+DESCRIPTION:Street rummage sale and brocante. Free entry for visitors. St
+ all: EUR 10 for 3 metres. Organiser's phone number is on the flyer (left
+  off here).
+CATEGORIES:Neighbourhood flyer\,Markets & Fairs\,Free\,Outdoor
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Vide-grenier / brocante\, Rue du Monténégro
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:0a9348c201d2d1bb@neighbourhood-events
-DTSTAMP:20260930T202859Z
+DTSTAMP:20261001T095712Z
 DTSTART:20261101T140000Z
 DTEND:20261101T160000Z
 SUMMARY:Er was eens een molenaarsdochter…
@@ -146,7 +1557,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:86e5ee024fb8e4e3@neighbourhood-events
-DTSTAMP:20260930T202859Z
+DTSTAMP:20261001T095712Z
 DTSTART:20261106T190000Z
 DTEND:20261106T210000Z
 SUMMARY:This Is Not Goodbye
@@ -166,7 +1577,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b47fb206c9dc4c5e@neighbourhood-events
-DTSTAMP:20260930T202859Z
+DTSTAMP:20261001T095712Z
 DTSTART:20261109T183000Z
 DTEND:20261109T210000Z
 SUMMARY:Letters on Enthusiasm — Launch Evening
@@ -186,8 +1597,99 @@ DESCRIPTION:Letters on Enthusiasm — Launch Evening
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:9aeb41dc03b23a74@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261110T180000Z
+SUMMARY:Meena Alexander\, voice of exile between India\, Sudan and the US
+LOCATION:Maison du Livre\, Saint-Gilles
+URL:https://midisdelapoesie.be/nos-evenements/programmation
+DESCRIPTION:Meeting and readings on the work of Meena Alexander with Soph
+ ie d'Aubreby\, Sarah Voke and Yasmine Yahiatène. EUR 5 / 8 / 10 / 15.\n
+ https://midisdelapoesie.be/nos-evenements/programmation
+CATEGORIES:Midis de la Poesie\,Talks & Discussions\,Evening
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Meena Alexander\, voice of exile between India\, Sudan and th
+ e US
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f36d5fff2bc97cff@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261112T083000Z
+DTEND:20261112T103000Z
+SUMMARY:Autour de 'En lettres noires' (Siméon MB) - writing workshop
+LOCATION:Musées royaux des Beaux-Arts de Belgique\, Brussels
+URL:https://midisdelapoesie.be/nos-evenements/programmation
+DESCRIPTION:Slam-poetry writing workshop. Free\, booking required\; ticke
+ t gives access to the midi poésie the same day.\nhttps://midisdelapoesi
+ e.be/nos-evenements/programmation
+CATEGORIES:Midis de la Poesie\,Workshops & Creative\,Free\,Registration R
+ equired
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Autour de 'En lettres noires' (Siméon MB) - writing workshop
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:59d0bca7746755a2@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261112T114000Z
+SUMMARY:En lettres noires (Collectif L-Slam)
+LOCATION:Musées royaux des Beaux-Arts de Belgique\, Brussels
+URL:https://midisdelapoesie.be/nos-evenements/programmation
+DESCRIPTION:Readings and performances by the L-Slam collective (a 10:30 s
+ ession is for school groups). EUR 5 / 8 / 10 / 15.\nhttps://midisdelapoe
+ sie.be/nos-evenements/programmation
+CATEGORIES:Midis de la Poesie\,Culture & Arts\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:En lettres noires (Collectif L-Slam)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7a0942c6029aa646@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261118T130000Z
+DTEND:20261118T150000Z
+SUMMARY:Goûter poésie: Le pays des prénoms (Alphonse Eklou Uwantege)
+LOCATION:La Bellone\, Rue de Flandre 46\, 1000 Brussels
+URL:https://midisdelapoesie.be/nos-evenements/programmation
+DESCRIPTION:Writing workshop on first names\, places and stories. Free\, 
+ booking required.\nhttps://midisdelapoesie.be/nos-evenements/programmati
+ on
+CATEGORIES:Midis de la Poesie\,Family & Children\,Free\,Registration Requ
+ ired
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Goûter poésie: Le pays des prénoms (Alphonse Eklou Uwanteg
+ e)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c9e141fa71e0b575@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261118T160000Z
+DTEND:20261118T200000Z
+SUMMARY:J'peux pas j'ai gravure - engraving workshop at Mazette
+LOCATION:Mazette\, Place du Jeu de Balle 50\, 1000 Brussels
+URL:https://mazette.brussels/
+DESCRIPTION:Monthly evening printmaking/engraving workshop. EUR 30\, redu
+ ced EUR 20.\nhttps://mazette.brussels/
+CATEGORIES:Mazette\,Workshops & Creative\,Evening\,Registration Required
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:J'peux pas j'ai gravure - engraving workshop at Mazette
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:342c5a2aeb003dcd@neighbourhood-events
-DTSTAMP:20260930T202859Z
+DTSTAMP:20261001T095712Z
 DTSTART:20261118T183000Z
 DTEND:20261118T210000Z
 SUMMARY:Sylvie Savon
@@ -206,8 +1708,27 @@ DESCRIPTION:Sylvie Savon
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:8237683bf8e7ee41@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261120T170000Z
+DTEND:20261120T180000Z
+SUMMARY:Tout là-bas la lumière - carte blanche Boykid
+LOCATION:Bibliothèque des Riches-Claires\, Brussels
+URL:https://midisdelapoesie.be/nos-evenements/programmation
+DESCRIPTION:Conversation with Belgian poet and slammer Boykid about his f
+ irst show 'Tout là-bas la lumière'. Free\, booking required.\nhttps://
+ midisdelapoesie.be/nos-evenements/programmation
+CATEGORIES:Midis de la Poesie\,Culture & Arts\,Evening\,Free\,Registratio
+ n Required
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Tout là-bas la lumière - carte blanche Boykid
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:89e54b5ac191b589@neighbourhood-events
-DTSTAMP:20260930T202859Z
+DTSTAMP:20261001T095712Z
 DTSTART:20261120T190000Z
 DTEND:20261120T210000Z
 SUMMARY:Prophetic Dance on the Strange Island
@@ -228,7 +1749,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:97bf80a5c6dccbe2@neighbourhood-events
-DTSTAMP:20260930T202859Z
+DTSTAMP:20261001T095712Z
 DTSTART:20261125T190000Z
 DTEND:20261125T200000Z
 SUMMARY:Par.Sek
@@ -249,7 +1770,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3e2a762f2090569d@neighbourhood-events
-DTSTAMP:20260930T202859Z
+DTSTAMP:20261001T095712Z
 DTSTART:20261127T173000Z
 DTEND:20261127T183000Z
 SUMMARY:Darya & Dounya
@@ -270,7 +1791,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:985456d01a6fe5c4@neighbourhood-events
-DTSTAMP:20260930T202859Z
+DTSTAMP:20261001T095712Z
 DTSTART:20261127T190000Z
 DTEND:20261127T210000Z
 SUMMARY:The Living Souls of the Great Egrets
@@ -291,7 +1812,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:82b5f23540a52542@neighbourhood-events
-DTSTAMP:20260930T202859Z
+DTSTAMP:20261001T095712Z
 DTSTART:20261128T100000Z
 DTEND:20261128T130000Z
 SUMMARY:Offline
@@ -311,7 +1832,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:649bce1ccc491069@neighbourhood-events
-DTSTAMP:20260930T202859Z
+DTSTAMP:20261001T095712Z
 DTSTART:20261130T183000Z
 DTEND:20261130T210000Z
 SUMMARY:Diana's Tree Evening
@@ -329,8 +1850,24 @@ DESCRIPTION:Diana's Tree Evening
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:30b08817d5e8e704@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261203T170000Z
+SUMMARY:Bookclub: Traverser les histoires d'Adelheid Duvanel
+LOCATION:Maison du Livre\, Saint-Gilles
+URL:https://midisdelapoesie.be/nos-evenements/programmation
+DESCRIPTION:Bookclub with Eléonore de Duve and Adrien Lafille. EUR 5.\nh
+ ttps://midisdelapoesie.be/nos-evenements/programmation
+CATEGORIES:Midis de la Poesie\,Culture & Arts\,Evening
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Bookclub: Traverser les histoires d'Adelheid Duvanel
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:8566b09f604c65ef@neighbourhood-events
-DTSTAMP:20260930T202859Z
+DTSTAMP:20261001T095712Z
 DTSTART:20261204T190000Z
 DTEND:20261204T210000Z
 SUMMARY:Bands of Hysterics
@@ -351,7 +1888,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1a33fa82b3741b6@neighbourhood-events
-DTSTAMP:20260930T202859Z
+DTSTAMP:20261001T095712Z
 DTSTART:20261206T140000Z
 DTEND:20261206T160000Z
 SUMMARY:ERASMUS PLEADS FOR PEACE
@@ -375,8 +1912,21 @@ DESCRIPTION:ERASMUS PLEADS FOR PEACE
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:b17512ce9a98cb77@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261212
+SUMMARY:CRUSH - 11 favourites of Wallonia-Brussels theatre (festival)
+LOCATION:Le Rideau\, Théâtre Les Tanneurs\, Théâtre National\, Varia 
+ - Théâtre & Studio
+URL:https://festivalcrush.be/en/
+DESCRIPTION:Four days\, 11 shows\, four Brussels theatres. Pay-what-you-c
+ an tickets: EUR 10\, 14 or 21.\nhttps://festivalcrush.be/en/
+CATEGORIES:CRUSH festival\,Culture & Arts\,Recurring
+END:VEVENT
+BEGIN:VEVENT
 UID:dd0e0d8fef79d16f@neighbourhood-events
-DTSTAMP:20260930T202859Z
+DTSTAMP:20261001T095712Z
 DTSTART:20261209T190000Z
 DTEND:20261209T210000Z
 SUMMARY:The Staart
@@ -396,7 +1946,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ee192eeebf98931c@neighbourhood-events
-DTSTAMP:20260930T202859Z
+DTSTAMP:20261001T095712Z
 DTSTART:20261210T170000Z
 DTEND:20261210T183000Z
 SUMMARY:Under the Gaze of Camille Claudel's Statues
@@ -416,8 +1966,154 @@ DESCRIPTION:Under the Gaze of Camille Claudel's Statues
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:13b14a5d06472b79@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261211T143000Z
+SUMMARY:Kabylifornie (Agathe Yamina Meziani)
+LOCATION:Théâtre National Wallonie-Bruxelles
+URL:https://festivalcrush.be/en/
+DESCRIPTION:Theatre/performance: a portable computer\, family videos and 
+ archives take the artist to Kabylia\, where fiction and memory blur.\nht
+ tps://festivalcrush.be/en/
+CATEGORIES:CRUSH festival\,Culture & Arts\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Kabylifornie (Agathe Yamina Meziani)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:92f8e46b4f2a4cac@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261211T174500Z
+SUMMARY:Ravage tout court (Adeline Rosenstein / Maison Ravage)
+LOCATION:Le Rideau\, Rue Goffart 7a\, 1050 Brussels
+URL:https://festivalcrush.be/en/
+DESCRIPTION:Documentary theatre on 250 years of colonisation of Palestine
+ \, in one hour.\nhttps://festivalcrush.be/en/
+CATEGORIES:CRUSH festival\,Culture & Arts\,Evening\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Ravage tout court (Adeline Rosenstein / Maison Ravage)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4e5a67154a52b8e7@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261211T183000Z
+SUMMARY:Kabylifornie (Agathe Yamina Meziani)
+LOCATION:Théâtre National Wallonie-Bruxelles
+URL:https://festivalcrush.be/en/
+DESCRIPTION:Theatre/performance (second Friday show).\nhttps://festivalcr
+ ush.be/en/
+CATEGORIES:CRUSH festival\,Culture & Arts\,Evening\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Kabylifornie (Agathe Yamina Meziani)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:69d376e921824bd2@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261211T201500Z
+SUMMARY:Une traversée (Cie Tchaïka)
+LOCATION:Théâtre Les Tanneurs\, Rue des Tanneurs 75-77\, 1000 Brussels
+URL:https://festivalcrush.be/en/
+DESCRIPTION:Visual theatre. The Saturday time was cut off in the photo.\n
+ https://festivalcrush.be/en/
+CATEGORIES:CRUSH festival\,Culture & Arts\,Evening\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Une traversée (Cie Tchaïka)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:14619442a3de31a1@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261212T180000Z
+SUMMARY:Ravage tout court (Adeline Rosenstein / Maison Ravage)
+LOCATION:Le Rideau\, Rue Goffart 7a\, 1050 Brussels
+URL:https://festivalcrush.be/en/
+DESCRIPTION:Documentary theatre (Saturday show).\nhttps://festivalcrush.b
+ e/en/
+CATEGORIES:CRUSH festival\,Culture & Arts\,Evening\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Ravage tout court (Adeline Rosenstein / Maison Ravage)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d72624c3e83a148a@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261212T183000Z
+SUMMARY:Kabylifornie (Agathe Yamina Meziani)
+LOCATION:Théâtre National Wallonie-Bruxelles
+URL:https://festivalcrush.be/en/
+DESCRIPTION:Theatre/performance (Saturday show).\nhttps://festivalcrush.b
+ e/en/
+CATEGORIES:CRUSH festival\,Culture & Arts\,Evening\,Live
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Kabylifornie (Agathe Yamina Meziani)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:31614112832f9633@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261218
+SUMMARY:Ateliers Altérité (Collectif Sanguin) - writing course
+LOCATION:Brussels (venue not stated for the course)
+URL:https://midisdelapoesie.be/nos-evenements/programmation
+DESCRIPTION:Writing course with authors Aliénor Debrocq and Lénaïc Bru
+ lé\, Monday 14 to Friday 18 Dec. Free\, booking required.\nhttps://midi
+ sdelapoesie.be/nos-evenements/programmation
+CATEGORIES:Midis de la Poesie\,Workshops & Creative\,Free\,Recurring\,Reg
+ istration Required
+END:VEVENT
+BEGIN:VEVENT
+UID:2c56313e20b8e39e@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261216T160000Z
+DTEND:20261216T200000Z
+SUMMARY:J'peux pas j'ai gravure - engraving workshop at Mazette
+LOCATION:Mazette\, Place du Jeu de Balle 50\, 1000 Brussels
+URL:https://mazette.brussels/
+DESCRIPTION:Monthly evening printmaking/engraving workshop. EUR 30\, redu
+ ced EUR 20.\nhttps://mazette.brussels/
+CATEGORIES:Mazette\,Workshops & Creative\,Evening\,Registration Required
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:J'peux pas j'ai gravure - engraving workshop at Mazette
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:443fe002e4b28184@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20261218T160000Z
+SUMMARY:Ateliers Altérité - public presentation
+LOCATION:Maison Poème\, Saint-Gilles
+URL:https://midisdelapoesie.be/nos-evenements/programmation
+DESCRIPTION:Presentation of the work from the Ateliers Altérité course.
+  Free\, booking required.\nhttps://midisdelapoesie.be/nos-evenements/pro
+ grammation
+CATEGORIES:Midis de la Poesie\,Culture & Arts\,Evening\,Free\,Registratio
+ n Required
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Ateliers Altérité - public presentation
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:7f61b0f74288fec4@neighbourhood-events
-DTSTAMP:20260930T202859Z
+DTSTAMP:20261001T095712Z
 DTSTART:20261219T100000Z
 DTEND:20261219T130000Z
 SUMMARY:Offline
@@ -433,6 +2129,23 @@ BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT120M
 DESCRIPTION:Offline
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cf218530d3deab04@neighbourhood-events
+DTSTAMP:20261001T095712Z
+DTSTART:20270120T160000Z
+DTEND:20270120T200000Z
+SUMMARY:J'peux pas j'ai gravure - engraving workshop at Mazette
+LOCATION:Mazette\, Place du Jeu de Balle 50\, 1000 Brussels
+URL:https://mazette.brussels/
+DESCRIPTION:Monthly evening printmaking/engraving workshop. EUR 30\, redu
+ ced EUR 20.\nhttps://mazette.brussels/
+CATEGORIES:Mazette\,Workshops & Creative\,Evening\,Registration Required
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:J'peux pas j'ai gravure - engraving workshop at Mazette
 END:VALARM
 END:VEVENT
 END:VCALENDAR
