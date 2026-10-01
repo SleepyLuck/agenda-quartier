@@ -1071,9 +1071,17 @@ function evHTML(e){
 }
 
 // ------------------------------------------------------------------ ICS
-function icsStamp(iso, allDay){
+function icsStamp(iso, allDay, bumpDay){
   const d = new Date(iso);
-  if(allDay) return ";VALUE=DATE:" + d.getFullYear()+pad(d.getMonth()+1)+pad(d.getDate());
+  if(allDay){
+    // RFC 5545: DTEND on an all-day (VALUE=DATE) event is EXCLUSIVE, but our
+    // own event data's "end" is the last day the event actually runs,
+    // INCLUSIVE (e.g. a festival running 16-20 Oct has end: "2026-10-20") -
+    // so the DTEND line needs the day after, or standards-compliant clients
+    // (Google Calendar, Outlook) drop the real last day.
+    if(bumpDay) d.setDate(d.getDate()+1);
+    return ";VALUE=DATE:" + d.getFullYear()+pad(d.getMonth()+1)+pad(d.getDate());
+  }
   return ":" + d.toISOString().replace(/[-:]/g,"").replace(/\.\d{3}/,"");
 }
 const icsEsc = s => String(s||"").replace(/\\/g,"\\\\").replace(/;/g,"\\;").replace(/,/g,"\\,").replace(/\n/g,"\\n");
@@ -1085,7 +1093,7 @@ function downloadICS(e){
     "UID:"+e.uid+"@neighbourhood-events",
     "DTSTAMP:"+new Date().toISOString().replace(/[-:]/g,"").replace(/\.\d{3}/,""),
     "DTSTART"+icsStamp(e.start,e.all_day)];
-  if(e.end) L.push("DTEND"+icsStamp(e.end,e.all_day));
+  if(e.end) L.push("DTEND"+icsStamp(e.end,e.all_day,e.all_day));
   L.push("SUMMARY:"+icsEsc(e.title));
   if(e.location) L.push("LOCATION:"+icsEsc(e.location));
   if(e.url) L.push("URL:"+e.url);
