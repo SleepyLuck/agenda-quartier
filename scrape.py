@@ -7,18 +7,20 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import sys
 import time
-from datetime import datetime, timedelta
+from datetime import date, datetime, timedelta
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
 import yaml
 from dateutil import parser as dateparser
 
-from extract import (CATEGORIES, TAGS, TIME_CACHE_VERSION, classify_categories,
-                      classify_tags, enrich_missing_times, extract, translate_events)
+from extract import (CATEGORIES, CATEGORY_IDS, TAG_IDS, TAGS, TIME_CACHE_VERSION,
+                      classify_categories, classify_tags, enrich_missing_times,
+                      extract, translate_events)
 
 ROOT = Path(__file__).parent
 OUT = ROOT / "docs"
@@ -31,6 +33,74 @@ PALETTE = ["#E8336D", "#1B6FE0", "#00937A", "#E07A00",
 def load_config() -> tuple[dict, list[dict]]:
     cfg = yaml.safe_load((ROOT / "sources.yml").read_text(encoding="utf-8"))
     return cfg.get("defaults", {}) or {}, cfg.get("sources", []) or []
+
+
+def _manual_date(value) -> str | None:
+    """manual_events.yml is hand-edited YAML - PyYAML quietly turns an
+    unquoted bare date (2026-10-19) into a real date object while an
+    unquoted date+time (2026-10-16T11:00) stays a string, so a future edit
+    could go either way. Always returns a plain ISO string, or None."""
+    if value is None:
+        return None
+    if isinstance(value, (datetime, date)):
+        return value.isoformat()
+    return str(value)
+
+
+def load_manual_events() -> tuple[list[dict], dict[str, str], dict[str, list[str]]]:
+    """Events gathered by hand - printed flyers, photographed programmes,
+    festival pages with no scrapable agenda, sites this sandbox can't reach
+    - kept in manual_events.yml rather than any sources.yml entry, since
+    there's nothing here to automate. Without this, adding one would be a
+    one-run fluke: the main loop below only rebuilds `events` from
+    sources.yml's configured sources (plus carry-forward for ones that
+    already exist there), so anything else would vanish the very next run.
+    This re-reads and re-merges the whole file every run instead, aged out
+    by the same date window as scraped events - add a new entry to the
+    file, don't hand-edit docs/events.json.
+
+    Also returns category/tag "cache seed" dicts: a human already chose
+    these when curating the file, which is at least as trustworthy as a
+    model's answer, so classify_categories()/classify_tags() should treat
+    them as a cache hit (setting category_llm/tags_llm_done exactly as a
+    real model answer would) rather than spending an API call asking the
+    model to second-guess a hand-picked value."""
+    path = ROOT / "manual_events.yml"
+    if not path.exists():
+        return [], {}, {}
+    raw_list = yaml.safe_load(path.read_text(encoding="utf-8")) or []
+    events, cat_seed, tag_seed = [], {}, {}
+    for raw in raw_list:
+        start = _manual_date(raw.get("start"))
+        if not start or not raw.get("title") or not raw.get("source"):
+            continue
+        source = raw["source"]
+        title = raw["title"]
+        # Full `start`, not just its date: scraped events truncate to the
+        # date so a model re-wording the same time slightly differently
+        # across runs doesn't orphan that event's cache, but this file has
+        # no such churn, and truncating caused a real collision here - two
+        # same-titled showings on the same day at different times (CRUSH
+        # festival's "Kabylifornie", 15:30 and 19:30 on 2026-12-11) hashed
+        # to the same uid and silently dropped one.
+        uid = hashlib.sha1(f"{source}|{title.lower()}|{start}".encode()).hexdigest()[:16]
+        events.append({
+            "title": title,
+            "start": start,
+            "end": _manual_date(raw.get("end")),
+            "all_day": bool(raw.get("all_day")) or len(start) == 10,
+            "location": str(raw.get("location") or "")[:200],
+            "description": str(raw.get("description") or "")[:600],
+            "url": raw.get("url"),
+            "image": None,
+            "source": source,
+            "uid": uid,
+            "manual": True,
+        })
+        if raw.get("category") in CATEGORY_IDS:
+            cat_seed[uid] = raw["category"]
+        tag_seed[uid] = [t for t in (raw.get("tags") or []) if t in TAG_IDS]
+    return events, cat_seed, tag_seed
 
 
 def _previous_payload() -> dict:
@@ -253,6 +323,34 @@ def main() -> int:
         print(line)
         time.sleep(delay)
 
+    manual_events, manual_cat_seed, manual_tag_seed = load_manual_events()
+    manual_source_order: list[str] = []
+    for ev in manual_events:
+        if ev["source"] not in manual_source_order:
+            manual_source_order.append(ev["source"])
+    # Offset past the configured sources' own palette range so a manual
+    # source's colour doesn't just happen to repeat a scraped one, and keep
+    # it stable across runs (based on first-seen order in the file, not
+    # Python's hash() - which is randomised per process and would make the
+    # colour flicker between runs).
+    manual_colours = {name: PALETTE[(len(sources) + i) % len(PALETTE)]
+                       for i, name in enumerate(manual_source_order)}
+    manual_kept_by_source = {name: 0 for name in manual_source_order}
+    for ev in manual_events:
+        if not within_window(ev["start"], tz, past, horizon):
+            continue
+        ev["colour"] = manual_colours[ev["source"]]
+        all_events.setdefault(ev["uid"], ev)
+        manual_kept_by_source[ev["source"]] += 1
+    for name in manual_source_order:
+        kept = manual_kept_by_source[name]
+        url = next((e["url"] for e in manual_events if e["source"] == name and e.get("url")), "")
+        source_meta.append({"name": name, "url": url, "colour": manual_colours[name],
+                            "count": kept, "method": "manual", "stale": False, "last_ok": today_iso})
+        report.append({"source": name, "method": "manual", "found": kept, "kept": kept,
+                       "carried": 0, "stale": False, "error_class": "", "note": "hand-curated"})
+        print(f"{name:<38} {'manual':<10} found={kept:<4} kept={kept}")
+
     events = sorted(all_events.values(), key=lambda e: e["start"])
     model = defaults.get("llm_model", "claude-haiku-4-5")
     # Several listing pages state a date but no time at all (confirmed live,
@@ -263,8 +361,12 @@ def main() -> int:
     # Translate first so categorising/tagging both work from the same clean
     # English text as the published page, instead of a mix of languages.
     translate_events(events, model, load_translation_cache())
-    classify_categories(events, model, load_category_cache())
-    classify_tags(events, model, load_tag_cache())
+    cat_cache = load_category_cache()
+    cat_cache.update(manual_cat_seed)
+    tag_cache = load_tag_cache()
+    tag_cache.update(manual_tag_seed)
+    classify_categories(events, model, cat_cache)
+    classify_tags(events, model, tag_cache)
     payload = {
         "generated": datetime.now(ZoneInfo(tz)).isoformat(),
         "timezone": tz,

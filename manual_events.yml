@@ -1,0 +1,902 @@
+# Hand-curated events - printed flyers, photographed programmes, festival
+# sites that don't publish a scrapable agenda, or pages outside this
+# sandbox's reach. Not tied to any sources.yml entry: scrape.py's
+# load_manual_events() reads this file directly and merges it into every
+# run's output (aged out by the normal date window like anything else), so
+# add a new entry here rather than editing docs/events.json by hand - a
+# direct edit there would just be overwritten by the next scheduled run.
+#
+# Required per entry: title, start, source. Optional: end, all_day,
+# location, description, url, category (one of extract.py's CATEGORIES
+# ids, else "other"), tags (any of extract.py's TAG_IDS, invalid ones are
+# dropped). `verification` and `note` are free-text provenance for whoever
+# maintains this file - how the date/time/venue was confirmed, and any
+# caveat about reading it off a photo or an unreachable site. Not shown on
+# the public site; kept here so a stale or uncertain entry can be found and
+# rechecked later. `series` groups an event with its sibling entries from
+# the same festival/programme - also not surfaced publicly yet.
+
+- title: Shifting Worlds - expo & laboratory (FTI Brussel)
+  start: 2026-10-16T11:00
+  end: 2026-10-20T19:00
+  all_day: true
+  location: WIELS, Van Volxemlaan 354, 1190 Forest
+  description: 'Temporary laboratory for urban imagination: expo by Brussels artists, panels, workshops and talks, plus Fashion Factory and KET Academy at WIELS. Tickets from EUR 9.90 (festival site).'
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: culture-arts
+  verification: 'web: dates, venue, price (ftifestival.be, WIELS page). Daily opening hours not found'
+  note: Start/end clock times are placeholders; event is all-day across 16-20 Oct.
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: FTI Brussel Business Tracks at TheMerode
+  start: '2026-10-19'
+  end: '2026-10-20'
+  all_day: true
+  location: TheMerode, Brussels
+  description: 'Keynotes, panels and networking for entrepreneurs and researchers (tracks: FinTech & GovTech, Health & Human, Circular & City), with fast-track visits to companies and labs.'
+  url: https://www.ftifestival.be/programma/brussel
+  source: FTI Brussel
+  category: professional-networking
+  verification: printed programme p.3 + web (ftifestival.be lists TheMerode business tracks)
+  note: Street address of TheMerode not verified. Professional audience.
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: FTI Brussel partner events in Brussels and the Rand
+  start: '2026-10-19'
+  end: '2026-10-20'
+  all_day: true
+  location: Research Park Zellik, Photonics Innovation Center Pajottegem, VRT (others on the FTI site)
+  description: Open doors with workshops, educational activities and guided tours at research and media sites around Brussels.
+  url: https://www.ftifestival.be/programma/brussel
+  source: FTI Brussel
+  category: talks-discussions
+  verification: printed programme p.3; partner venues also on ftifestival.be
+  note: Individual sessions not photographed; see the FTI programme page.
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: Building Cities with Living Bacteria
+  start: 2026-10-16T11:30
+  end: 2026-10-16T13:00
+  location: WIELS (Auditorium), Van Volxemlaan 354, 1190 Forest
+  description: 'Panel - Auditorium. Curator: Camilla Colombo. Panellists: Bento Architecture, Michael Ghyoot, Juliette Salme.'
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: talks-discussions
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: 'Beyond High Tech - Low Life: Imagining the Living City through Biodesign'
+  start: 2026-10-16T13:30
+  end: 2026-10-16T15:00
+  location: WIELS (Auditorium), Van Volxemlaan 354, 1190 Forest
+  description: 'Panel - Auditorium. Curator: Maxim Velli. Panellists include Ken De Cooman, Rachel Armstrong, Alice Jarry-Girard, Jara Saluena Martin.'
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: talks-discussions
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: 'Urban Synapses: Networks of Ideas, Emotions, and Imagination Shaping Urban Change'
+  start: 2026-10-16T15:30
+  end: 2026-10-16T17:00
+  location: WIELS (Auditorium), Van Volxemlaan 354, 1190 Forest
+  description: 'Panel - Auditorium. Curator: Ralph Dum. Panellists: David Chavalarias, Agnieszka Kurant, Fernando Cucchietti.'
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: talks-discussions
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: 'Quantum Meets Art: Sensing the Uncomputable'
+  start: 2026-10-16T17:15
+  end: 2026-10-16T18:45
+  location: WIELS (Auditorium), Van Volxemlaan 354, 1190 Forest
+  description: 'Panel - Auditorium. Curator: Ralph Dum. Panellists: Evelina Domnitch, Dmitry Gelfand, Thomas Hertog.'
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: talks-discussions
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: Anthropocene Territories
+  start: 2026-10-16T11:45
+  end: 2026-10-16T13:15
+  location: WIELS (The Balcony), Van Volxemlaan 354, 1190 Forest
+  description: 'Talk - The Balcony. Curator: Territorial Agency. Panellists: John Palmesino, Mark Williams, Jan Zalasiewicz.'
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: talks-discussions
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: Adrien Lucca - The Blue Hour / Seeing at Night
+  start: 2026-10-16T14:30
+  end: 2026-10-16T15:00
+  location: WIELS (The Balcony), Van Volxemlaan 354, 1190 Forest
+  description: Talk - The Balcony. Adrien Lucca with Marko Ilic. English.
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: culture-arts
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: Sedimentary Thinking and Oceanic Perspective
+  start: 2026-10-16T15:15
+  end: 2026-10-16T15:45
+  location: WIELS (The Balcony), Van Volxemlaan 354, 1190 Forest
+  description: 'Talk - The Balcony. Artist: Laure Winants with Barbara Lagie.'
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: talks-discussions
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: 'Mo/u/ld Making: Sculptural Qualities of Mycelium'
+  start: 2026-10-16T16:00
+  end: 2026-10-16T16:30
+  location: WIELS (The Balcony), Van Volxemlaan 354, 1190 Forest
+  description: Talk - The Balcony. Isabel Fredeus with Jara Saluena Martin.
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: talks-discussions
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: 'Matthijs De Block - Y.E.A.S.T.: Yielding Ecology Art Science and Togetherness'
+  start: 2026-10-16T16:45
+  end: 2026-10-16T17:15
+  location: WIELS (The Balcony), Van Volxemlaan 354, 1190 Forest
+  description: Talk - The Balcony. Tom Peeters with Matthijs De Block and Yoeri Bellemans. Dutch.
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: environment
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: 'Source of Uncertainty: On Cosmic Rays, Perception, and the Construction of Meaning'
+  start: 2026-10-16T17:30
+  end: 2026-10-16T18:00
+  location: WIELS (The Balcony), Van Volxemlaan 354, 1190 Forest
+  description: Talk - The Balcony. Piet Van Duppen with Manuel Abendroth.
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: talks-discussions
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: En wat als kunst zich met beleid moeit?
+  start: 2026-10-16T12:30
+  end: 2026-10-16T13:00
+  location: WIELS (Observatory), Van Volxemlaan 354, 1190 Forest
+  description: Info session - Observatory. Hosted by JRC Policy Lab. Dutch.
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: talks-discussions
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: Dirty Labs For Hybrid Intelligence
+  start: 2026-10-16T13:30
+  end: 2026-10-16T17:00
+  location: WIELS (Observatory), Van Volxemlaan 354, 1190 Forest
+  description: Info session - Observatory. Hosted by the European Hybrid Intelligence Network (Laboral, ZKM, Kersnikova, Konteijner, CPN & GLUON).
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: professional-networking
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: Geef je project een Europese boost
+  start: 2026-10-16T17:30
+  end: 2026-10-16T18:15
+  location: WIELS (Observatory), Van Volxemlaan 354, 1190 Forest
+  description: Info session - Observatory. Hosted by Ann Van Hauwaert (NCP Flanders) and Benedicte de Brouwer (hub.brussels). Dutch.
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: professional-networking
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: Bouwen aan een innovatief partnerschap?
+  start: 2026-10-16T18:15
+  end: 2026-10-16T19:00
+  location: WIELS (Observatory), Van Volxemlaan 354, 1190 Forest
+  description: Info session - Observatory. Hosted by CJM, Edwin Korver, Valery de Smedt, LarbitsSisters, Iris Verhoeven and Loes Welkenhuysen. Dutch.
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: professional-networking
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: Electric Tenderness (Lucia Xaxalxe)
+  start: 2026-10-16T19:00
+  end: 2026-10-16T19:45
+  location: WIELS (Black Box), Van Volxemlaan 354, 1190 Forest
+  description: Performance - Black Box. Performance by Lucia Xaxalxe.
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: culture-arts
+  tags:
+  - live
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: Force Field (Dmitry Gelfand & Evelina Domnitch)
+  start: 2026-10-16T19:30
+  end: 2026-10-16T20:15
+  location: WIELS (Black Box), Van Volxemlaan 354, 1190 Forest
+  description: Performance - Black Box. Performance by Dmitry Gelfand and Evelina Domnitch.
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: culture-arts
+  tags:
+  - live
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: Sounding Lines (Stijn Demeulenaere)
+  start: 2026-10-16T21:45
+  end: 2026-10-16T22:15
+  location: WIELS (Black Box), Van Volxemlaan 354, 1190 Forest
+  description: Live performance - Black Box. Live performance by Stijn Demeulenaere.
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: music
+  tags:
+  - live
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: Shifting Worlds - official opening
+  start: 2026-10-16T19:00
+  end: 2026-10-16T19:30
+  location: WIELS (WIELS), Van Volxemlaan 354, 1190 Forest
+  description: Official opening - WIELS. Christophe De Jaeger (FTI-GLUON), Dirk Snauwaert (WIELS), Markus Reymann (TBA21-Academy).
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: culture-arts
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: Let's grow Mycelium Leather-Like Materials
+  start: 2026-10-16T14:00
+  end: 2026-10-16T16:00
+  location: WIELS (Fashion Factory), Van Volxemlaan 354, 1190 Forest
+  description: Workshop - Fashion Factory. Curated by MASJIEN; hosted by Lars Dittrich (MICR - VUB).
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: workshops-creative
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: 'PI Apparel Brussels Chapter: Launch & Community Roundtable'
+  start: 2026-10-16T17:00
+  end: 2026-10-16T18:30
+  location: WIELS (Fashion Factory), Van Volxemlaan 354, 1190 Forest
+  description: Workshop - Fashion Factory. Curated by MASJIEN with Leslie Holden.
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: workshops-creative
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: Careful Matter
+  start: 2026-10-17T11:15
+  end: 2026-10-17T12:45
+  location: WIELS (Auditorium), Van Volxemlaan 354, 1190 Forest
+  description: 'Panel - Auditorium. Curator: Claudia Schnugg. Panellists: Antye Guenther, Alice Jarry-Girard, Guillaume Slizewicz, Adrian Ranga.'
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: talks-discussions
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: Redden algoritmes onze democratie, of zetten ze haar onder druk?
+  start: 2026-10-17T13:00
+  end: 2026-10-17T14:30
+  location: WIELS (Auditorium), Van Volxemlaan 354, 1190 Forest
+  description: Panel - Auditorium. Curated by Kristin Van Damme with Rob Heyman, Eleanor Denneman, Pepijn Mores, Xander Steenbrugge, Anna-Livia Smekens. Dutch.
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: talks-discussions
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: 'Ancestral Intelligence: Shifting Worlds'
+  start: 2026-10-17T15:00
+  end: 2026-10-17T16:30
+  location: WIELS (Auditorium), Van Volxemlaan 354, 1190 Forest
+  description: Panel - Auditorium. Curated by IMPAKT with Lorena Solis Bravo, Kevin Osepa, Buhlebezwe Siwani.
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: talks-discussions
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: 'Poetics of Renewables: a FAST Salon'
+  start: 2026-10-17T16:45
+  end: 2026-10-17T18:15
+  location: WIELS (Auditorium), Van Volxemlaan 354, 1190 Forest
+  description: Panel - Auditorium. Curated by Jose Luis de Vicente with The Solar Lab, Nicolas Maigret, Kris De Decker.
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: talks-discussions
+  tags:
+  - sustainability
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: Electric Tenderness
+  start: 2026-10-17T18:30
+  end: 2026-10-17T19:15
+  location: WIELS (Auditorium), Van Volxemlaan 354, 1190 Forest
+  description: Talk - Auditorium. Curated by Sofie Van Loo with Lucia Xaxalxe, Mona Filleul and Pandore Rossi.
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: talks-discussions
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: 'After Jubilee: A radio show from the future - Part 1 (radio show)'
+  start: 2026-10-17T14:00
+  end: 2026-10-17T14:45
+  location: WIELS (Brewery Hall), Van Volxemlaan 354, 1190 Forest
+  description: Workshop - Brewery Hall. By JRC Policy Lab.
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: workshops-creative
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: 'After Jubilee: A radio show from the future - Part 2 (talk)'
+  start: 2026-10-17T14:45
+  end: 2026-10-17T15:15
+  location: WIELS (Brewery Hall), Van Volxemlaan 354, 1190 Forest
+  description: Workshop - Brewery Hall. By JRC Policy Lab.
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: workshops-creative
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: 'Neurodata in the City: Attention, Emotions and Imagination'
+  start: 2026-10-17T11:00
+  end: 2026-10-17T11:30
+  location: WIELS (The Balcony), Van Volxemlaan 354, 1190 Forest
+  description: Talk - The Balcony. Roel Heremans with Chie Nakatani.
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: talks-discussions
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: Biomimetic Stories
+  start: 2026-10-17T11:45
+  end: 2026-10-17T12:30
+  location: WIELS (The Balcony), Van Volxemlaan 354, 1190 Forest
+  description: Talk - The Balcony. Pierre Jean Giloux with Gregory Lang.
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: talks-discussions
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: NEB Prize finalist
+  start: 2026-10-17T12:45
+  end: 2026-10-17T13:15
+  location: WIELS (The Balcony), Van Volxemlaan 354, 1190 Forest
+  description: Talk - The Balcony. Speaker not named in the photographed schedule.
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: talks-discussions
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: Theatre of Transition
+  start: 2026-10-17T13:30
+  end: 2026-10-17T14:00
+  location: WIELS (The Balcony), Van Volxemlaan 354, 1190 Forest
+  description: 'Talk - The Balcony. Speakers: Florian Schneider, Frank Theys.'
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: talks-discussions
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: Art in Common
+  start: 2026-10-17T14:15
+  end: 2026-10-17T14:45
+  location: WIELS (The Balcony), Van Volxemlaan 354, 1190 Forest
+  description: Talk - The Balcony. Tom & Nicolas Valckenaere with Genevieve Kinet.
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: talks-discussions
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: Soft Tissues (Ugo Dehaes) - preview
+  start: 2026-10-17T15:30
+  end: 2026-10-17T16:15
+  location: WIELS (The Balcony), Van Volxemlaan 354, 1190 Forest
+  description: Performance - The Balcony. Exclusive preview of Ugo Dehaes's new performance.
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: culture-arts
+  tags:
+  - live
+  - dance
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: Are We Humans, or Are We Dancers?
+  start: 2026-10-17T16:15
+  end: 2026-10-17T17:00
+  location: WIELS (The Balcony), Van Volxemlaan 354, 1190 Forest
+  description: Talk - The Balcony. Curated by Goedele Nuyttens with Sandy Snoeck, Laura Vandewynckel, Ugo Dehaes and Bram Vanderborght. On robots in hospitals, cultural venues and public space.
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: talks-discussions
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: Decoding Egwu
+  start: 2026-10-17T17:15
+  end: 2026-10-17T17:30
+  location: WIELS (The Balcony), Van Volxemlaan 354, 1190 Forest
+  description: Talk - The Balcony. Dan Xu & Emmanuel Ndefo with Naomi Meulemans.
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: talks-discussions
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: Bunker for a Tropical Pixel
+  start: 2026-10-17T18:00
+  end: 2026-10-17T18:30
+  location: WIELS (The Balcony), Van Volxemlaan 354, 1190 Forest
+  description: Talk - The Balcony. Tatyana Zambrano.
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: talks-discussions
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: REVERSE
+  start: 2026-10-17T18:45
+  end: 2026-10-17T19:15
+  location: WIELS (The Balcony), Van Volxemlaan 354, 1190 Forest
+  description: Talk - The Balcony. Laura Colmenares Guerra.
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: talks-discussions
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: Polyclinic of Creative Practice
+  start: 2026-10-17T11:00
+  end: 2026-10-17T13:30
+  location: WIELS (Observatory), Van Volxemlaan 354, 1190 Forest
+  description: Open play session - Observatory. Hosted by Pacesetters.
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: workshops-creative
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: Climate Fresk
+  start: 2026-10-17T11:00
+  end: 2026-10-17T14:00
+  location: WIELS (Fashion Factory), Van Volxemlaan 354, 1190 Forest
+  description: Workshop - Fashion Factory. Hosted by MASJIEN.
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: workshops-creative
+  tags:
+  - sustainability
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: 'Fashion recrafted: Low Tech atelier'
+  start: 2026-10-17T11:00
+  end: 2026-10-17T18:00
+  location: WIELS (Fashion Factory), Van Volxemlaan 354, 1190 Forest
+  description: Workshop - Fashion Factory. Hosted by MASJIEN.
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: workshops-creative
+  tags:
+  - sustainability
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: (W)HOLE Mobile Repair Studio
+  start: 2026-10-17T14:00
+  end: 2026-10-17T18:00
+  location: WIELS (Fashion Factory), Van Volxemlaan 354, 1190 Forest
+  description: Workshop - Fashion Factory. Curated by MASJIEN with Anneleen Bertels.
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: workshops-creative
+  tags:
+  - sustainability
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: 'Healing Nightclub: In the Making'
+  start: 2026-10-17T18:30
+  end: 2026-10-17T20:00
+  location: WIELS (Black Box), Van Volxemlaan 354, 1190 Forest
+  description: Panel - Black Box. Curated by Elena Sorokina with Mostafa Taleb, Timo Tuhkanen.
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: culture-arts
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: Healing Nightclub - Unity (Mostafa Taleb with Milad Mohammadi)
+  start: 2026-10-17T20:00
+  end: 2026-10-17T20:30
+  location: WIELS (Black Box), Van Volxemlaan 354, 1190 Forest
+  description: Healing Nightclub - Black Box.
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: music
+  tags:
+  - live
+  - dance
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: Healing Nightclub - The Art of Attunement (Nicolas Siriany)
+  start: 2026-10-17T20:30
+  end: 2026-10-17T21:00
+  location: WIELS (Black Box), Van Volxemlaan 354, 1190 Forest
+  description: Healing Nightclub - Black Box.
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: music
+  tags:
+  - live
+  - dance
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: Healing Nightclub - Hypnotic DJ-ing (Timo Tuhkanen)
+  start: 2026-10-17T21:00
+  end: 2026-10-17T21:30
+  location: WIELS (Black Box), Van Volxemlaan 354, 1190 Forest
+  description: Healing Nightclub - Black Box.
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: music
+  tags:
+  - live
+  - dance
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: Healing Nightclub - Selfl(e/o)ss (Bo Meng)
+  start: 2026-10-17T21:30
+  end: 2026-10-17T23:00
+  location: WIELS (Black Box), Van Volxemlaan 354, 1190 Forest
+  description: Healing Nightclub - Black Box.
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: music
+  tags:
+  - live
+  - dance
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+  note: End time 23:00 was hard to read in the photo.
+- title: Junior Climate Fresk
+  start: 2026-10-18T11:00
+  end: 2026-10-18T13:00
+  location: WIELS (Black Box), Van Volxemlaan 354, 1190 Forest
+  description: Workshop - Black Box. Hosted by MASJIEN.
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: workshops-creative
+  tags:
+  - kids
+  - sustainability
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: Atelier Bitono
+  start: 2026-10-18T13:00
+  end: 2026-10-18T18:00
+  location: WIELS (Fashion Factory), Van Volxemlaan 354, 1190 Forest
+  description: Workshop - Fashion Factory. Fashion Factory workshop.
+  url: https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels
+  source: FTI Brussel
+  category: workshops-creative
+  verification: printed programme pp.12-13 (times/names read from photos); web confirms dates and venue only
+  series: FTI Brussel - Shifting Worlds (WIELS)
+- title: Tisser son histoire (Lea Brami)
+  start: 2026-10-03T09:30
+  end: 2026-10-03T16:30
+  location: Maison du Livre, Saint-Gilles
+  description: Poetry workshop on writing, embroidery and repair as ways to tell your story; make a collective flag. Free, booking required.
+  url: https://midisdelapoesie.be/nos-evenements/programmation
+  source: Midis de la Poesie
+  category: workshops-creative
+  tags:
+  - registration-required
+  verification: printed Midis poesie autumn 2026 flyer; site midisdelapoesie.be could not be opened from my session
+- title: 'Goûter poésie: Bricolage verbal (Amel Malfait Lakhtara)'
+  start: 2026-10-07T14:00
+  end: 2026-10-07T16:00
+  location: La Bellone, Rue de Flandre 46, 1000 Brussels
+  description: Creative writing workshop for children around words and poetry. Free, booking required.
+  url: https://midisdelapoesie.be/nos-evenements/programmation
+  source: Midis de la Poesie
+  category: family-children
+  tags:
+  - kids
+  - registration-required
+  verification: printed flyer + web (bellone.be agenda lists it, 14:00-16:00)
+- title: Ecrire depuis la peau (Nicky Lapierre, Simeon MB)
+  start: 2026-10-07T15:00
+  end: 2026-10-07T18:00
+  location: Halles de Schaerbeek
+  description: Poetry workshop inspired by Dorothy Allison's 'Peau (Skin)'. Ticket also gives access to the same-day apéro poésie. EUR 5 / 8 / 10 / 15.
+  url: https://midisdelapoesie.be/nos-evenements/programmation
+  source: Midis de la Poesie
+  category: workshops-creative
+  tags:
+  - registration-required
+  verification: printed Midis poesie autumn 2026 flyer; site midisdelapoesie.be could not be opened from my session
+  note: Facilitator names partly hard to read in the photo.
+- title: Traduire la colère, puis écrire la joie (Noémie Grunenwald, Manon Didierjean)
+  start: 2026-10-07T19:00
+  location: Halles de Schaerbeek
+  description: Meeting, readings and open mic (apéro poésie). EUR 5 / 8 / 10 / 15.
+  url: https://midisdelapoesie.be/nos-evenements/programmation
+  source: Midis de la Poesie
+  category: culture-arts
+  tags:
+  - live
+  verification: printed Midis poesie autumn 2026 flyer; site midisdelapoesie.be could not be opened from my session
+- title: Dix ans de romans en vers (Clémentine Beauvais, Aline Pornel)
+  start: 2026-10-15T12:40
+  location: Théâtre des Riches-Claires, Brussels
+  description: 'Midi poésie: meeting and readings on ten years of novels in verse. EUR 5 / 8 / 10 / 15.'
+  url: https://midisdelapoesie.be/nos-evenements/programmation
+  source: Midis de la Poesie
+  category: culture-arts
+  verification: printed Midis poesie autumn 2026 flyer; site midisdelapoesie.be could not be opened from my session
+- title: Meena Alexander, voice of exile between India, Sudan and the US
+  start: 2026-11-10T19:00
+  location: Maison du Livre, Saint-Gilles
+  description: Meeting and readings on the work of Meena Alexander with Sophie d'Aubreby, Sarah Voke and Yasmine Yahiatène. EUR 5 / 8 / 10 / 15.
+  url: https://midisdelapoesie.be/nos-evenements/programmation
+  source: Midis de la Poesie
+  category: talks-discussions
+  verification: printed Midis poesie autumn 2026 flyer; site midisdelapoesie.be could not be opened from my session
+- title: Autour de 'En lettres noires' (Siméon MB) - writing workshop
+  start: 2026-11-12T09:30
+  end: 2026-11-12T11:30
+  location: Musées royaux des Beaux-Arts de Belgique, Brussels
+  description: Slam-poetry writing workshop. Free, booking required; ticket gives access to the midi poésie the same day.
+  url: https://midisdelapoesie.be/nos-evenements/programmation
+  source: Midis de la Poesie
+  category: workshops-creative
+  tags:
+  - registration-required
+  verification: printed Midis poesie autumn 2026 flyer; site midisdelapoesie.be could not be opened from my session
+- title: En lettres noires (Collectif L-Slam)
+  start: 2026-11-12T12:40
+  location: Musées royaux des Beaux-Arts de Belgique, Brussels
+  description: Readings and performances by the L-Slam collective (a 10:30 session is for school groups). EUR 5 / 8 / 10 / 15.
+  url: https://midisdelapoesie.be/nos-evenements/programmation
+  source: Midis de la Poesie
+  category: culture-arts
+  tags:
+  - live
+  verification: printed Midis poesie autumn 2026 flyer; site midisdelapoesie.be could not be opened from my session
+- title: 'Goûter poésie: Le pays des prénoms (Alphonse Eklou Uwantege)'
+  start: 2026-11-18T14:00
+  end: 2026-11-18T16:00
+  location: La Bellone, Rue de Flandre 46, 1000 Brussels
+  description: Writing workshop on first names, places and stories. Free, booking required.
+  url: https://midisdelapoesie.be/nos-evenements/programmation
+  source: Midis de la Poesie
+  category: family-children
+  tags:
+  - registration-required
+  verification: printed flyer + web (bellone.be agenda lists it, 14:00-16:00)
+- title: Tout là-bas la lumière - carte blanche Boykid
+  start: 2026-11-20T18:00
+  end: 2026-11-20T19:00
+  location: Bibliothèque des Riches-Claires, Brussels
+  description: Conversation with Belgian poet and slammer Boykid about his first show 'Tout là-bas la lumière'. Free, booking required.
+  url: https://midisdelapoesie.be/nos-evenements/programmation
+  source: Midis de la Poesie
+  category: culture-arts
+  tags:
+  - registration-required
+  verification: printed Midis poesie autumn 2026 flyer; site midisdelapoesie.be could not be opened from my session
+  note: The show itself runs at Les Riches-Claires 4-20 Nov (riches-claires.be).
+- title: 'Bookclub: Traverser les histoires d''Adelheid Duvanel'
+  start: 2026-12-03T18:00
+  location: Maison du Livre, Saint-Gilles
+  description: Bookclub with Eléonore de Duve and Adrien Lafille. EUR 5.
+  url: https://midisdelapoesie.be/nos-evenements/programmation
+  source: Midis de la Poesie
+  category: culture-arts
+  verification: printed Midis poesie autumn 2026 flyer; site midisdelapoesie.be could not be opened from my session
+- title: Ateliers Altérité (Collectif Sanguin) - writing course
+  start: '2026-12-14'
+  all_day: true
+  end: '2026-12-18'
+  location: Brussels (venue not stated for the course)
+  description: Writing course with authors Aliénor Debrocq and Lénaïc Brulé, Monday 14 to Friday 18 Dec. Free, booking required.
+  url: https://midisdelapoesie.be/nos-evenements/programmation
+  source: Midis de la Poesie
+  category: workshops-creative
+  tags:
+  - registration-required
+  verification: printed Midis poesie autumn 2026 flyer; site midisdelapoesie.be could not be opened from my session
+  note: Daily times not read. Set end 2026-12-18.
+- title: Ateliers Altérité - public presentation
+  start: 2026-12-18T17:00
+  location: Maison Poème, Saint-Gilles
+  description: Presentation of the work from the Ateliers Altérité course. Free, booking required.
+  url: https://midisdelapoesie.be/nos-evenements/programmation
+  source: Midis de la Poesie
+  category: culture-arts
+  tags:
+  - registration-required
+  verification: printed Midis poesie autumn 2026 flyer; site midisdelapoesie.be could not be opened from my session
+- title: CRUSH - 11 favourites of Wallonia-Brussels theatre (festival)
+  start: '2026-12-09'
+  end: '2026-12-12'
+  all_day: true
+  location: Le Rideau, Théâtre Les Tanneurs, Théâtre National, Varia - Théâtre & Studio
+  description: 'Four days, 11 shows, four Brussels theatres. Pay-what-you-can tickets: EUR 10, 14 or 21.'
+  url: https://festivalcrush.be/en/
+  source: CRUSH festival
+  category: culture-arts
+  verification: printed brochure + web (festivalcrush.be)
+  note: Full list of 11 shows is on the festival site.
+- title: Kabylifornie (Agathe Yamina Meziani)
+  start: 2026-12-11T15:30
+  location: Théâtre National Wallonie-Bruxelles
+  description: 'Theatre/performance: a portable computer, family videos and archives take the artist to Kabylia, where fiction and memory blur.'
+  url: https://festivalcrush.be/en/
+  source: CRUSH festival
+  category: culture-arts
+  tags:
+  - live
+  verification: printed brochure; web confirms show, venue and days (Fri-Sat)
+- title: Kabylifornie (Agathe Yamina Meziani)
+  start: 2026-12-11T19:30
+  location: Théâtre National Wallonie-Bruxelles
+  description: Theatre/performance (second Friday show).
+  url: https://festivalcrush.be/en/
+  source: CRUSH festival
+  category: culture-arts
+  tags:
+  - live
+  verification: printed brochure; web confirms show, venue and days (Fri-Sat)
+- title: Kabylifornie (Agathe Yamina Meziani)
+  start: 2026-12-12T19:30
+  location: Théâtre National Wallonie-Bruxelles
+  description: Theatre/performance (Saturday show).
+  url: https://festivalcrush.be/en/
+  source: CRUSH festival
+  category: culture-arts
+  tags:
+  - live
+  verification: printed brochure; web confirms show, venue and days (Fri-Sat)
+- title: Ravage tout court (Adeline Rosenstein / Maison Ravage)
+  start: 2026-12-11T18:45
+  location: Le Rideau, Rue Goffart 7a, 1050 Brussels
+  description: Documentary theatre on 250 years of colonisation of Palestine, in one hour.
+  url: https://festivalcrush.be/en/
+  source: CRUSH festival
+  category: culture-arts
+  tags:
+  - live
+  verification: printed brochure; web confirms show, venue and days (Fri-Sat)
+- title: Ravage tout court (Adeline Rosenstein / Maison Ravage)
+  start: 2026-12-12T19:00
+  location: Le Rideau, Rue Goffart 7a, 1050 Brussels
+  description: Documentary theatre (Saturday show).
+  url: https://festivalcrush.be/en/
+  source: CRUSH festival
+  category: culture-arts
+  tags:
+  - live
+  verification: printed brochure; web confirms show, venue and days (Fri-Sat)
+- title: Une traversée (Cie Tchaïka)
+  start: 2026-12-11T21:15
+  location: Théâtre Les Tanneurs, Rue des Tanneurs 75-77, 1000 Brussels
+  description: Visual theatre. The Saturday time was cut off in the photo.
+  url: https://festivalcrush.be/en/
+  source: CRUSH festival
+  category: culture-arts
+  tags:
+  - live
+  verification: printed brochure; web confirms show, venue and days (Fri-Sat)
+- title: Vide-grenier / brocante, Rue du Monténégro
+  start: 2026-11-01T08:00
+  end: 2026-11-01T19:00
+  location: Rue du Monténégro (flyer also shows a faint 'Rue du Monténégro 124, Forest')
+  description: 'Street rummage sale and brocante. Free entry for visitors. Stall: EUR 10 for 3 metres. Organiser''s phone number is on the flyer (left off here).'
+  source: Neighbourhood flyer
+  category: markets-fairs
+  tags:
+  - outdoor
+  verification: printed flyer only; nothing found online
+  note: 'Faint print: address number, set-up hours (06:30-08:00) and organiser name are uncertain. The street runs along the Saint-Gilles/Forest border.'
+- title: Nourrir les débris - exhibition (visual, sound and live arts)
+  start: '2026-10-08'
+  end: '2026-10-29'
+  all_day: true
+  location: Brasserie Atlas, Rue du Libre Examen 15, 1070 Anderlecht
+  description: Group exhibition of visual, sound and live arts. Open Thu/Fri 16:00-20:00, Sat/Sun 14:00-20:00.
+  source: Surgir asbl (Brasserie Atlas)
+  category: culture-arts
+  verification: printed flyer; address matches heritage.brussels listing for the building; event not found online
+- title: Nourrir les débris - opening (vernissage)
+  start: '2026-10-08'
+  all_day: true
+  location: Brasserie Atlas, Rue du Libre Examen 15, 1070 Anderlecht
+  description: Opening evening. Time not stated on the flyer.
+  source: Surgir asbl (Brasserie Atlas)
+  category: culture-arts
+  verification: printed flyer; address matches heritage.brussels listing for the building; event not found online
+- title: Nourrir les débris - performances
+  start: '2026-10-10'
+  all_day: true
+  location: Brasserie Atlas, Rue du Libre Examen 15, 1070 Anderlecht
+  description: Performance day. Time not stated on the flyer.
+  source: Surgir asbl (Brasserie Atlas)
+  category: culture-arts
+  tags:
+  - live
+  verification: printed flyer; address matches heritage.brussels listing for the building; event not found online
+- title: Nourrir les débris - closing (finissage)
+  start: '2026-10-29'
+  all_day: true
+  location: Brasserie Atlas, Rue du Libre Examen 15, 1070 Anderlecht
+  description: Closing event. Time not stated on the flyer.
+  source: Surgir asbl (Brasserie Atlas)
+  category: culture-arts
+  verification: printed flyer; address matches heritage.brussels listing for the building; event not found online
+- title: J'peux pas j'ai gravure - engraving workshop at Mazette
+  start: 2026-10-21T17:00
+  end: 2026-10-21T21:00
+  location: Mazette, Place du Jeu de Balle 50, 1000 Brussels
+  description: Monthly evening printmaking/engraving workshop. EUR 30, reduced EUR 20.
+  url: https://mazette.brussels/
+  source: Mazette
+  category: workshops-creative
+  tags:
+  - registration-required
+  verification: printed flyer only; venue confirmed online (mazette.brussels); the workshop series not found online
+  note: 'Flyer lists 9 dates: 21/10, 18/11, 16/12, 20/01, 17/02, 24/03, 21/04, 19/05, 23/06 (only those inside the 120-day window are included; weekday check confirms 2026-27).'
+- title: J'peux pas j'ai gravure - engraving workshop at Mazette
+  start: 2026-11-18T17:00
+  end: 2026-11-18T21:00
+  location: Mazette, Place du Jeu de Balle 50, 1000 Brussels
+  description: Monthly evening printmaking/engraving workshop. EUR 30, reduced EUR 20.
+  url: https://mazette.brussels/
+  source: Mazette
+  category: workshops-creative
+  tags:
+  - registration-required
+  verification: printed flyer only; venue confirmed online (mazette.brussels); the workshop series not found online
+  note: 'Flyer lists 9 dates: 21/10, 18/11, 16/12, 20/01, 17/02, 24/03, 21/04, 19/05, 23/06 (only those inside the 120-day window are included; weekday check confirms 2026-27).'
+- title: J'peux pas j'ai gravure - engraving workshop at Mazette
+  start: 2026-12-16T17:00
+  end: 2026-12-16T21:00
+  location: Mazette, Place du Jeu de Balle 50, 1000 Brussels
+  description: Monthly evening printmaking/engraving workshop. EUR 30, reduced EUR 20.
+  url: https://mazette.brussels/
+  source: Mazette
+  category: workshops-creative
+  tags:
+  - registration-required
+  verification: printed flyer only; venue confirmed online (mazette.brussels); the workshop series not found online
+  note: 'Flyer lists 9 dates: 21/10, 18/11, 16/12, 20/01, 17/02, 24/03, 21/04, 19/05, 23/06 (only those inside the 120-day window are included; weekday check confirms 2026-27).'
+- title: J'peux pas j'ai gravure - engraving workshop at Mazette
+  start: 2027-01-20T17:00
+  end: 2027-01-20T21:00
+  location: Mazette, Place du Jeu de Balle 50, 1000 Brussels
+  description: Monthly evening printmaking/engraving workshop. EUR 30, reduced EUR 20.
+  url: https://mazette.brussels/
+  source: Mazette
+  category: workshops-creative
+  tags:
+  - registration-required
+  verification: printed flyer only; venue confirmed online (mazette.brussels); the workshop series not found online
+  note: 'Flyer lists 9 dates: 21/10, 18/11, 16/12, 20/01, 17/02, 24/03, 21/04, 19/05, 23/06 (only those inside the 120-day window are included; weekday check confirms 2026-27).'
+- title: Startmoment Brussel - Samen Tegen Armoede 2026
+  start: 2026-10-23T13:30
+  location: BOP, Zaterdagplein 6, 1000 Brussels
+  description: Kick-off of the 'Samen tegen armoede' campaign in Brussels (Dutch).
+  url: https://www.bop.brussels/
+  source: Welzijnszorg / BOP
+  category: civic-politics
+  verification: printed flyer only; not listed on bop.brussels; earlier years' pages exist on welzijnszorg.be
+  note: Organiser inferred from earlier years' pages; verify before relying on it.
+- title: ANTE Festival 2026 - Brussels architectural heritage
+  start: '2026-10-03'
+  end: '2026-10-11'
+  all_day: true
+  location: Historic buildings across Brussels
+  description: Guided interior visits (45-75 min) of historic buildings. Tickets EUR 13 (EUR 6.50 reduced) via the booking platform.
+  url: https://www.ante.brussels/en/
+  source: ANTE Festival
+  category: culture-arts
+  tags:
+  - registration-required
+  verification: printed flyer + web (ante.brussels practical information)
+  note: La Libre headline mentions two weekends; confirm the exact visit days on the booking site.
+- title: Copenhagen by Michael Frayn (The Bridge Theatre)
+  start: 2026-10-15T19:30
+  end: 2026-11-06T22:00
+  location: La Maison Qui Chante, Rue du Viaduc 122, 1050 Ixelles
+  description: English-language play on the 1941 Bohr-Heisenberg meeting. Tue-Fri 19:30; Sat-Sun 14:30 and 19:30. EUR 25-45, EUR 11 discounted.
+  url: https://thebridge.brussels/copenhagen
+  source: The Bridge Theatre
+  category: culture-arts
+  tags:
+  - live
+  verification: 'printed flyer (dates) + web (thebridge.brussels: times, venue, prices)'
+  note: Postcode 1050 is inferred for Ixelles; the page gives 'Ixelles'.
