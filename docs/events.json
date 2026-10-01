@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-01T12:51:35.767935+02:00",
+  "generated": "2026-10-01T13:01:44.677247+02:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
@@ -201,10 +201,190 @@
       "last_ok": null
     },
     {
+      "name": "Demosphere Bruxelles",
+      "url": "https://bxl.demosphere.net/",
+      "colour": "#0F8CA8",
+      "count": 0,
+      "method": "none",
+      "stale": false,
+      "last_ok": null
+    },
+    {
+      "name": "CBCS (Brussels social sector agenda)",
+      "url": "https://cbcs.be/",
+      "colour": "#8A7500",
+      "count": 0,
+      "method": "none",
+      "stale": false,
+      "last_ok": null
+    },
+    {
+      "name": "Quefaire.be brocantes (Brussels region)",
+      "url": "https://www.quefaire.be/brocantes/region-de-bruxelles",
+      "colour": "#E8336D",
+      "count": 10,
+      "method": "jsonld",
+      "stale": false,
+      "last_ok": "2026-10-01"
+    },
+    {
+      "name": "Brocabrac Belgique",
+      "url": "https://brocabrac.fr/belgique/novembre/",
+      "colour": "#1B6FE0",
+      "count": 40,
+      "method": "jsonld",
+      "stale": false,
+      "last_ok": "2026-10-01"
+    },
+    {
+      "name": "Brussels Language Meetup",
+      "url": "https://www.meetup.com/brussels-language-meetup/",
+      "colour": "#00937A",
+      "count": 4,
+      "method": "jsonld",
+      "stale": false,
+      "last_ok": "2026-10-01"
+    },
+    {
+      "name": "Brussels International Hub Events (Meetup)",
+      "url": "https://www.meetup.com/brusselsinternationalhubevents/",
+      "colour": "#E07A00",
+      "count": 4,
+      "method": "jsonld",
+      "stale": false,
+      "last_ok": "2026-10-01"
+    },
+    {
+      "name": "Saint-Gilles brocantes & braderies (commune)",
+      "url": "https://stgilles.brussels/services/developpement-economique/service-du-developpement-economique/brocantes-braderies-marches-etalages-et-chevalets/",
+      "colour": "#7B49D6",
+      "count": 0,
+      "method": "none",
+      "stale": false,
+      "last_ok": null
+    },
+    {
+      "name": "Maison des Cultures de Saint-Gilles",
+      "url": "https://mdc1060.brussels/",
+      "colour": "#C0392B",
+      "count": 0,
+      "method": "none",
+      "stale": false,
+      "last_ok": null
+    },
+    {
+      "name": "Le Rideau",
+      "url": "https://lerideau.brussels/spectacles/saison/2026-2027",
+      "colour": "#0F8CA8",
+      "count": 0,
+      "method": "none",
+      "stale": false,
+      "last_ok": null
+    },
+    {
+      "name": "Théâtre National Wallonie-Bruxelles",
+      "url": "https://www.theatrenational.be/en/program/",
+      "colour": "#8A7500",
+      "count": 0,
+      "method": "none",
+      "stale": false,
+      "last_ok": null
+    },
+    {
+      "name": "La Bellone",
+      "url": "https://bellone.be/",
+      "colour": "#E8336D",
+      "count": 0,
+      "method": "none",
+      "stale": false,
+      "last_ok": null
+    },
+    {
+      "name": "FTI Brussel",
+      "url": "https://www.ftifestival.be/programma/brussel",
+      "colour": "#1B6FE0",
+      "count": 51,
+      "method": "none",
+      "stale": true,
+      "last_ok": "2026-10-01"
+    },
+    {
+      "name": "Agenda engagé (Syndicats magazine)",
+      "url": "https://syndicatsmagazine.be/agenda-engage-octobre-2026/",
+      "colour": "#00937A",
+      "count": 0,
+      "method": "none",
+      "stale": false,
+      "last_ok": null
+    },
+    {
+      "name": "Protestbase Bruxelles",
+      "url": "https://protestbase.be/manifestations/bruxelles",
+      "colour": "#E07A00",
+      "count": 0,
+      "method": "none",
+      "stale": false,
+      "last_ok": null
+    },
+    {
+      "name": "Stuut",
+      "url": "https://stuut.info/",
+      "colour": "#7B49D6",
+      "count": 0,
+      "method": "none",
+      "stale": false,
+      "last_ok": null
+    },
+    {
+      "name": "Conférences gesticulées (network catalogue)",
+      "url": "https://conferences-gesticulees.net/",
+      "colour": "#C0392B",
+      "count": 0,
+      "method": "none",
+      "stale": false,
+      "last_ok": null
+    },
+    {
+      "name": "Conférences gesticulées (per-day pages)",
+      "url": "https://conferences-gesticulees.net/events/",
+      "colour": "#0F8CA8",
+      "count": 0,
+      "method": "none",
+      "stale": false,
+      "last_ok": null
+    },
+    {
+      "name": "Centre d'Action Laïque events",
+      "url": "https://laicite.be/notre-action/agenda/festival-des-libertes-2026/",
+      "colour": "#8A7500",
+      "count": 0,
+      "method": "none",
+      "stale": false,
+      "last_ok": null
+    },
+    {
+      "name": "English Comedy Brussels",
+      "url": "https://englishcomedybrussels.com/",
+      "colour": "#E8336D",
+      "count": 0,
+      "method": "none",
+      "stale": false,
+      "last_ok": null
+    },
+    {
+      "name": "Club Carré agenda",
+      "url": "https://carre.be/agenda/",
+      "colour": "#1B6FE0",
+      "count": 0,
+      "method": "none",
+      "stale": false,
+      "last_ok": null
+    },
+    {
       "name": "FTI Brussel",
       "url": "https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels",
-      "colour": "#0F8CA8",
-      "count": 51,
+      "colour": "#00937A",
+      "count": 0,
       "method": "manual",
       "stale": false,
       "last_ok": "2026-10-01"
@@ -212,7 +392,7 @@
     {
       "name": "Midis de la Poesie",
       "url": "https://midisdelapoesie.be/nos-evenements/programmation",
-      "colour": "#8A7500",
+      "colour": "#E07A00",
       "count": 13,
       "method": "manual",
       "stale": false,
@@ -221,7 +401,7 @@
     {
       "name": "CRUSH festival",
       "url": "https://festivalcrush.be/en/",
-      "colour": "#E8336D",
+      "colour": "#7B49D6",
       "count": 7,
       "method": "manual",
       "stale": false,
@@ -230,7 +410,7 @@
     {
       "name": "Neighbourhood flyer",
       "url": "",
-      "colour": "#1B6FE0",
+      "colour": "#C0392B",
       "count": 1,
       "method": "manual",
       "stale": false,
@@ -239,7 +419,7 @@
     {
       "name": "Surgir asbl (Brasserie Atlas)",
       "url": "",
-      "colour": "#00937A",
+      "colour": "#0F8CA8",
       "count": 4,
       "method": "manual",
       "stale": false,
@@ -248,7 +428,7 @@
     {
       "name": "Mazette",
       "url": "https://mazette.brussels/",
-      "colour": "#E07A00",
+      "colour": "#8A7500",
       "count": 4,
       "method": "manual",
       "stale": false,
@@ -257,7 +437,7 @@
     {
       "name": "Welzijnszorg / BOP",
       "url": "https://www.bop.brussels/",
-      "colour": "#7B49D6",
+      "colour": "#E8336D",
       "count": 1,
       "method": "manual",
       "stale": false,
@@ -266,7 +446,7 @@
     {
       "name": "ANTE Festival",
       "url": "https://www.ante.brussels/en/",
-      "colour": "#C0392B",
+      "colour": "#1B6FE0",
       "count": 2,
       "method": "manual",
       "stale": false,
@@ -275,7 +455,7 @@
     {
       "name": "The Bridge Theatre",
       "url": "https://thebridge.brussels/copenhagen",
-      "colour": "#0F8CA8",
+      "colour": "#00937A",
       "count": 1,
       "method": "manual",
       "stale": false,
@@ -668,10 +848,210 @@
       "note": "llm: skipped (billing failure earlier this run)"
     },
     {
+      "source": "Demosphere Bruxelles",
+      "method": "none",
+      "found": 0,
+      "kept": 0,
+      "carried": 0,
+      "stale": false,
+      "error_class": "parse",
+      "note": "ics: nothing found"
+    },
+    {
+      "source": "CBCS (Brussels social sector agenda)",
+      "method": "none",
+      "found": 0,
+      "kept": 0,
+      "carried": 0,
+      "stale": false,
+      "error_class": "parse",
+      "note": "ics: nothing found"
+    },
+    {
+      "source": "Quefaire.be brocantes (Brussels region)",
+      "method": "jsonld",
+      "found": 10,
+      "kept": 10,
+      "carried": 0,
+      "stale": false,
+      "error_class": "",
+      "note": ""
+    },
+    {
+      "source": "Brocabrac Belgique",
+      "method": "jsonld",
+      "found": 40,
+      "kept": 40,
+      "carried": 0,
+      "stale": false,
+      "error_class": "",
+      "note": ""
+    },
+    {
+      "source": "Brussels Language Meetup",
+      "method": "jsonld",
+      "found": 4,
+      "kept": 4,
+      "carried": 0,
+      "stale": false,
+      "error_class": "",
+      "note": ""
+    },
+    {
+      "source": "Brussels International Hub Events (Meetup)",
+      "method": "jsonld",
+      "found": 4,
+      "kept": 4,
+      "carried": 0,
+      "stale": false,
+      "error_class": "",
+      "note": ""
+    },
+    {
+      "source": "Saint-Gilles brocantes & braderies (commune)",
+      "method": "none",
+      "found": 0,
+      "kept": 0,
+      "carried": 0,
+      "stale": false,
+      "error_class": "billing",
+      "note": "llm: skipped (billing failure earlier this run)"
+    },
+    {
+      "source": "Maison des Cultures de Saint-Gilles",
+      "method": "none",
+      "found": 0,
+      "kept": 0,
+      "carried": 0,
+      "stale": false,
+      "error_class": "billing",
+      "note": "llm: skipped (billing failure earlier this run)"
+    },
+    {
+      "source": "Le Rideau",
+      "method": "none",
+      "found": 0,
+      "kept": 0,
+      "carried": 0,
+      "stale": false,
+      "error_class": "billing",
+      "note": "llm: skipped (billing failure earlier this run)"
+    },
+    {
+      "source": "Théâtre National Wallonie-Bruxelles",
+      "method": "none",
+      "found": 0,
+      "kept": 0,
+      "carried": 0,
+      "stale": false,
+      "error_class": "billing",
+      "note": "llm: skipped (billing failure earlier this run)"
+    },
+    {
+      "source": "La Bellone",
+      "method": "none",
+      "found": 0,
+      "kept": 0,
+      "carried": 0,
+      "stale": false,
+      "error_class": "billing",
+      "note": "llm: skipped (billing failure earlier this run)"
+    },
+    {
+      "source": "FTI Brussel",
+      "method": "none",
+      "found": 0,
+      "kept": 0,
+      "carried": 51,
+      "stale": true,
+      "error_class": "billing",
+      "note": "llm: skipped (billing failure earlier this run)"
+    },
+    {
+      "source": "Agenda engagé (Syndicats magazine)",
+      "method": "none",
+      "found": 0,
+      "kept": 0,
+      "carried": 0,
+      "stale": false,
+      "error_class": "billing",
+      "note": "llm: skipped (billing failure earlier this run)"
+    },
+    {
+      "source": "Protestbase Bruxelles",
+      "method": "none",
+      "found": 0,
+      "kept": 0,
+      "carried": 0,
+      "stale": false,
+      "error_class": "billing",
+      "note": "llm: skipped (billing failure earlier this run)"
+    },
+    {
+      "source": "Stuut",
+      "method": "none",
+      "found": 0,
+      "kept": 0,
+      "carried": 0,
+      "stale": false,
+      "error_class": "billing",
+      "note": "llm: skipped (billing failure earlier this run)"
+    },
+    {
+      "source": "Conférences gesticulées (network catalogue)",
+      "method": "none",
+      "found": 0,
+      "kept": 0,
+      "carried": 0,
+      "stale": false,
+      "error_class": "billing",
+      "note": "llm: skipped (billing failure earlier this run)"
+    },
+    {
+      "source": "Conférences gesticulées (per-day pages)",
+      "method": "none",
+      "found": 0,
+      "kept": 0,
+      "carried": 0,
+      "stale": false,
+      "error_class": "billing",
+      "note": "llm: skipped (billing failure earlier this run)"
+    },
+    {
+      "source": "Centre d'Action Laïque events",
+      "method": "none",
+      "found": 0,
+      "kept": 0,
+      "carried": 0,
+      "stale": false,
+      "error_class": "billing",
+      "note": "llm: skipped (billing failure earlier this run)"
+    },
+    {
+      "source": "English Comedy Brussels",
+      "method": "none",
+      "found": 0,
+      "kept": 0,
+      "carried": 0,
+      "stale": false,
+      "error_class": "billing",
+      "note": "llm: skipped (billing failure earlier this run)"
+    },
+    {
+      "source": "Club Carré agenda",
+      "method": "none",
+      "found": 0,
+      "kept": 0,
+      "carried": 0,
+      "stale": false,
+      "error_class": "billing",
+      "note": "llm: skipped (billing failure earlier this run)"
+    },
+    {
       "source": "FTI Brussel",
       "method": "manual",
-      "found": 51,
-      "kept": 51,
+      "found": 0,
+      "kept": 0,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -776,6 +1156,123 @@
       "tags": []
     },
     {
+      "title": "🌟EuroMeet: Connecting with International Friends in Brussels Every Friday🍻🎉",
+      "start": "2026-10-02T16:30:00+00:00",
+      "end": "2026-10-02T20:30:00+00:00",
+      "all_day": false,
+      "location": "Brasserie Quartier Leopold, Place du Luxembourg 9, Bruxelles, Bruxelles",
+      "description": "✨ **Meet new people in Brussels every Friday evening!** Looking to expand your social circle, meet international people and enjoy relaxed conversations in the heart of Brussels? Join **EuroMeet every Friday anytime from 18:30 until at least 22:30** at the **Quartier Leopold brasserie**, located on Place du Luxembourg, directly opposite the European Parliament. Our meetup offers a friendly, relaxed and international atmosphere where it is easy to talk and get to know people—without loud music or a chaotic party environment. . 🍻 Drinks, food and dinner available 🌍 Internationals, expats, newcome",
+      "url": "https://www.meetup.com/brussels-meetup/events/316529232/",
+      "image": "https://secure.meetupstatic.com/photos/event/1/7/b/3/600_533826067.jpeg",
+      "source": "Brussels Language Meetup",
+      "uid": "b1af34e876329ecb",
+      "colour": "#00937A",
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Brocante de la Solidarité Cap48 et de Viva for Life",
+      "start": "2026-10-03T00:00:00+02:00",
+      "end": "2026-10-03T00:00:00+02:00",
+      "all_day": false,
+      "location": "Enchanté, Molenbeek-Saint-Jean",
+      "description": "",
+      "url": "https://www.quefaire.be/brocante-de-la-solidarite-8753525.shtml",
+      "image": "https://www.quefaire.be/img_n/8753525_1.jpeg",
+      "source": "Quefaire.be brocantes (Brussels region)",
+      "uid": "125e504be7ea63dc",
+      "colour": "#E8336D",
+      "category": "other",
+      "tags": [
+        "late-night"
+      ]
+    },
+    {
+      "title": "Brocante Destrier",
+      "start": "2026-10-03T00:00:00+02:00",
+      "end": "2026-10-03T00:00:00+02:00",
+      "all_day": false,
+      "location": "Quartier Destrier, Evere",
+      "description": "",
+      "url": "https://www.quefaire.be/brocante-destrier-8765958.shtml",
+      "image": "https://www.quefaire.be/img_n/8765958_1.jpeg",
+      "source": "Quefaire.be brocantes (Brussels region)",
+      "uid": "7c30a937d9eb04f0",
+      "colour": "#E8336D",
+      "category": "other",
+      "tags": [
+        "late-night"
+      ]
+    },
+    {
+      "title": "Brocante d'automne",
+      "start": "2026-10-03T00:00:00+02:00",
+      "end": "2026-10-04T00:00:00+02:00",
+      "all_day": false,
+      "location": "Avenue Houba, Laeken",
+      "description": "",
+      "url": "https://www.quefaire.be/brocante-dautomne-8766169.shtml",
+      "image": "https://www.quefaire.be/img_n/8766169_1.jpeg",
+      "source": "Quefaire.be brocantes (Brussels region)",
+      "uid": "d0935d8a3f0d9d87",
+      "colour": "#E8336D",
+      "category": "other",
+      "tags": [
+        "late-night"
+      ]
+    },
+    {
+      "title": "Grande Brocante Montgomery Gribaumont",
+      "start": "2026-10-03T00:00:00+02:00",
+      "end": "2026-10-03T00:00:00+02:00",
+      "all_day": false,
+      "location": "Metro Joséphine Charlotte, Woluwe-Saint-Lambert",
+      "description": "",
+      "url": "https://www.quefaire.be/grande-brocante-montgomery-8766958.shtml",
+      "image": "https://www.quefaire.be/img_n/8766958_1.jpeg",
+      "source": "Quefaire.be brocantes (Brussels region)",
+      "uid": "985a253e3f479415",
+      "colour": "#E8336D",
+      "category": "other",
+      "tags": [
+        "late-night"
+      ]
+    },
+    {
+      "title": "Braderie - Brocante",
+      "start": "2026-10-03T00:00:00+02:00",
+      "end": "2026-10-03T00:00:00+02:00",
+      "all_day": false,
+      "location": "Montgomery-Gribaumont, Woluwe-Saint-Lambert",
+      "description": "",
+      "url": "https://www.quefaire.be/braderie-brocante-8770374.shtml",
+      "image": "https://www.quefaire.be/img/logo_fb.png",
+      "source": "Quefaire.be brocantes (Brussels region)",
+      "uid": "bc72417da20d0672",
+      "colour": "#E8336D",
+      "category": "other",
+      "tags": [
+        "late-night"
+      ]
+    },
+    {
+      "title": "Brocante de l'Hôtel de ville - Place Van Meenen",
+      "start": "2026-10-03T00:00:00+02:00",
+      "end": "2026-10-03T00:00:00+02:00",
+      "all_day": false,
+      "location": "Saint-Gilles",
+      "description": "",
+      "url": "https://www.quefaire.be/brocante-de-lhotel-de-ville-8762610.shtml",
+      "image": "https://www.quefaire.be/img_n/8731396_1.jpeg",
+      "source": "Quefaire.be brocantes (Brussels region)",
+      "uid": "40466a9735e5d954",
+      "colour": "#E8336D",
+      "category": "other",
+      "tags": [
+        "late-night"
+      ]
+    },
+    {
       "title": "ANTE Festival 2026 - first weekend",
       "start": "2026-10-03T00:00:00+02:00",
       "end": "2026-10-04T00:00:00+02:00",
@@ -789,7 +1286,7 @@
       "social": {},
       "uid": "d67af1629b90fbd5",
       "manual": true,
-      "colour": "#C0392B",
+      "colour": "#1B6FE0",
       "time_checked": 3,
       "translated": true,
       "category": "culture-arts",
@@ -816,7 +1313,7 @@
       },
       "uid": "1410d8af7dc3e836",
       "manual": true,
-      "colour": "#8A7500",
+      "colour": "#E07A00",
       "translated": true,
       "category": "workshops-creative",
       "category_llm": true,
@@ -825,6 +1322,74 @@
         "registration-required"
       ],
       "tags_llm_done": true
+    },
+    {
+      "title": "Grande Brocante de la rue Saint-Lambert",
+      "start": "2026-10-04T00:00:00+02:00",
+      "end": "2026-10-04T00:00:00+02:00",
+      "all_day": false,
+      "location": "Woluwe Saint Lambert 1200, Woluwe-Saint-Lambert",
+      "description": "",
+      "url": "https://www.quefaire.be/grande-brocante-de-la-rue-8762157.shtml",
+      "image": "https://www.quefaire.be/img_n/8762157_1.jpeg",
+      "source": "Quefaire.be brocantes (Brussels region)",
+      "uid": "0c635370cd66d612",
+      "colour": "#E8336D",
+      "category": "other",
+      "tags": [
+        "late-night"
+      ]
+    },
+    {
+      "title": "Brocante de l'Altitude Cent",
+      "start": "2026-10-04T00:00:00+02:00",
+      "end": "2026-10-04T00:00:00+02:00",
+      "all_day": false,
+      "location": "Forest",
+      "description": "",
+      "url": "https://www.quefaire.be/brocante-de-laltitude-cent-8770283.shtml",
+      "image": "https://www.quefaire.be/img_n/8770283_1.jpeg",
+      "source": "Quefaire.be brocantes (Brussels region)",
+      "uid": "fe47bab84f8b64bd",
+      "colour": "#E8336D",
+      "category": "other",
+      "tags": [
+        "late-night"
+      ]
+    },
+    {
+      "title": "Brocante a l'interieur Brussels Retro Market",
+      "start": "2026-10-04T00:00:00+02:00",
+      "end": "2026-10-04T00:00:00+02:00",
+      "all_day": false,
+      "location": "Be Here Village Durable, Laeken",
+      "description": "",
+      "url": "https://www.quefaire.be/brocante-a-linterieur-8770483.shtml",
+      "image": "https://www.quefaire.be/img_n/8770483_1.jpeg",
+      "source": "Quefaire.be brocantes (Brussels region)",
+      "uid": "fa00fb21fe3122fd",
+      "colour": "#E8336D",
+      "category": "other",
+      "tags": [
+        "late-night"
+      ]
+    },
+    {
+      "title": "Brocante d’automne à l’école Mater Dei",
+      "start": "2026-10-04T00:00:00+02:00",
+      "end": "2026-10-04T00:00:00+02:00",
+      "all_day": false,
+      "location": "École Mater Dei, Woluwe-Saint-Pierre",
+      "description": "",
+      "url": "https://www.quefaire.be/brocante-dautomne-a-8770887.shtml",
+      "image": "https://www.quefaire.be/img_n/8770887_1.jpeg",
+      "source": "Quefaire.be brocantes (Brussels region)",
+      "uid": "1910659219bca23d",
+      "colour": "#E8336D",
+      "category": "other",
+      "tags": [
+        "late-night"
+      ]
     },
     {
       "title": "17h-19h paniers « bio » Ferme de Nadir",
@@ -859,6 +1424,23 @@
       "tags": []
     },
     {
+      "title": "Conversation Exchange - All languages are welcome",
+      "start": "2026-10-06T17:00:00+00:00",
+      "end": "2026-10-06T21:00:00+00:00",
+      "all_day": false,
+      "location": "l'amour fou, Chaussée d'Ixelles 185, Ixelles, Ixelles",
+      "description": "Would you like to improve your language skills and networking in a casual atmosphere? This event is for you! All languages welcome! Everyone is welcome! The aim is to speak with native/fluent speakers of your target language(s). You'll be around all types of people throughout the whole event. We will be in a private area. A great atmosphere is guaranteed! You'll have to order a drink to attend the event 😀 Don't hesitate to contact us for any further information",
+      "url": "https://www.meetup.com/brusselsinternationalhubevents/events/316582971/",
+      "image": "https://secure.meetupstatic.com/photos/event/2/8/2/e/600_528130286.jpeg",
+      "source": "Brussels International Hub Events (Meetup)",
+      "uid": "7bd31b6ca80a08cc",
+      "colour": "#E07A00",
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
       "title": "18h30 Chorale de la vieille Chéchette",
       "start": "2026-10-07T00:00:00+02:00",
       "end": "2026-10-07T00:00:00+02:00",
@@ -891,7 +1473,7 @@
       },
       "uid": "a635e274d6dde35a",
       "manual": true,
-      "colour": "#8A7500",
+      "colour": "#E07A00",
       "translated": true,
       "category": "family-children",
       "category_llm": true,
@@ -919,7 +1501,7 @@
       },
       "uid": "2ba3ca8488e4a071",
       "manual": true,
-      "colour": "#8A7500",
+      "colour": "#E07A00",
       "translated": true,
       "category": "workshops-creative",
       "category_llm": true,
@@ -945,7 +1527,7 @@
       },
       "uid": "86547a7e31bc70d5",
       "manual": true,
-      "colour": "#8A7500",
+      "colour": "#E07A00",
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -969,7 +1551,7 @@
       "social": {},
       "uid": "b5ecba06705e4914",
       "manual": true,
-      "colour": "#00937A",
+      "colour": "#0F8CA8",
       "time_checked": 3,
       "translated": true,
       "category": "culture-arts",
@@ -993,13 +1575,28 @@
       "social": {},
       "uid": "dd1d3a7854afda82",
       "manual": true,
-      "colour": "#00937A",
+      "colour": "#0F8CA8",
       "time_checked": 3,
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
       "tags": [],
       "tags_llm_done": true
+    },
+    {
+      "title": "🌟EuroMeet: Connecting with International Friends in Brussels Every Friday🍻🎉",
+      "start": "2026-10-09T16:30:00+00:00",
+      "end": "2026-10-09T20:30:00+00:00",
+      "all_day": false,
+      "location": "Brasserie Quartier Leopold, Place du Luxembourg 9, Bruxelles, Bruxelles",
+      "description": "✨ **Meet new people in Brussels every Friday evening!** Looking to expand your social circle, meet international people and enjoy relaxed conversations in the heart of Brussels? Join **EuroMeet every Friday anytime from 18:30 until at least 22:30** at the **Quartier Leopold brasserie**, located on Place du Luxembourg, directly opposite the European Parliament. Our meetup offers a friendly, relaxed and international atmosphere where it is easy to talk and get to know people—without loud music or a chaotic party environment. . 🍻 Drinks, food and dinner available 🌍 Internationals, expats, newcome",
+      "url": "https://www.meetup.com/brussels-meetup/events/316626063/",
+      "image": "https://secure.meetupstatic.com/photos/event/1/7/b/3/600_533826067.jpeg",
+      "source": "Brussels Language Meetup",
+      "uid": "a99488623ce692d1",
+      "colour": "#00937A",
+      "category": "other",
+      "tags": []
     },
     {
       "title": "Nourrir les débris - performances",
@@ -1015,7 +1612,7 @@
       "social": {},
       "uid": "dddd1a426165c935",
       "manual": true,
-      "colour": "#00937A",
+      "colour": "#0F8CA8",
       "time_checked": 3,
       "translated": true,
       "category": "culture-arts",
@@ -1039,7 +1636,7 @@
       "social": {},
       "uid": "4561594ff6b9160f",
       "manual": true,
-      "colour": "#C0392B",
+      "colour": "#1B6FE0",
       "time_checked": 3,
       "translated": true,
       "category": "culture-arts",
@@ -1130,6 +1727,23 @@
       "tags": []
     },
     {
+      "title": "Conversation Exchange - All languages are welcome",
+      "start": "2026-10-13T17:00:00+00:00",
+      "end": "2026-10-13T21:00:00+00:00",
+      "all_day": false,
+      "location": "l'amour fou, Chaussée d'Ixelles 185, Ixelles, Ixelles",
+      "description": "Would you like to improve your language skills and networking in a casual atmosphere? This event is for you! All languages welcome! Everyone is welcome! The aim is to speak with native/fluent speakers of your target language(s). You'll be around all types of people throughout the whole event. We will be in a private area. A great atmosphere is guaranteed! You'll have to order a drink to attend the event 😀 Don't hesitate to contact us for any further information",
+      "url": "https://www.meetup.com/brusselsinternationalhubevents/events/316681274/",
+      "image": "https://secure.meetupstatic.com/photos/event/2/8/2/e/600_528130286.jpeg",
+      "source": "Brussels International Hub Events (Meetup)",
+      "uid": "83011fdaa601533c",
+      "colour": "#E07A00",
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
       "title": "18h30 Chorale de la vieille Chéchette",
       "start": "2026-10-14T00:00:00+02:00",
       "end": "2026-10-14T00:00:00+02:00",
@@ -1178,7 +1792,7 @@
       },
       "uid": "e9d61dedc632bc32",
       "manual": true,
-      "colour": "#8A7500",
+      "colour": "#E07A00",
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -1201,7 +1815,7 @@
       },
       "uid": "ad35025fc1f86f76",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#00937A",
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -1226,7 +1840,7 @@
       "social": {},
       "uid": "9e7ecb739c608ed9",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "time_checked": 3,
       "translated": true,
       "category": "culture-arts",
@@ -1234,7 +1848,8 @@
       "tags": [
         "recurring"
       ],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Building Cities with Living Bacteria",
@@ -1250,12 +1865,13 @@
       "social": {},
       "uid": "9996c980ecf8d1f5",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "talks-discussions",
       "category_llm": true,
       "tags": [],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Anthropocene Territories",
@@ -1271,12 +1887,13 @@
       "social": {},
       "uid": "07b5a436dacd2e0f",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "talks-discussions",
       "category_llm": true,
       "tags": [],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "En wat als kunst zich met beleid moeit?",
@@ -1292,12 +1909,13 @@
       "social": {},
       "uid": "0721c7cd68948474",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "talks-discussions",
       "category_llm": true,
       "tags": [],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Beyond High Tech - Low Life: Imagining the Living City through Biodesign",
@@ -1313,12 +1931,13 @@
       "social": {},
       "uid": "0cc30af294a6193f",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "talks-discussions",
       "category_llm": true,
       "tags": [],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Dirty Labs For Hybrid Intelligence",
@@ -1334,12 +1953,13 @@
       "social": {},
       "uid": "1b0b8d7fb9d2f6e9",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "professional-networking",
       "category_llm": true,
       "tags": [],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Let's grow Mycelium Leather-Like Materials",
@@ -1355,12 +1975,13 @@
       "social": {},
       "uid": "d02919956bc51a41",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "workshops-creative",
       "category_llm": true,
       "tags": [],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Adrien Lucca - The Blue Hour / Seeing at Night",
@@ -1376,12 +1997,13 @@
       "social": {},
       "uid": "7c4b837075c8f91a",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
       "tags": [],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Sedimentary Thinking and Oceanic Perspective",
@@ -1397,12 +2019,13 @@
       "social": {},
       "uid": "2d8e4625388a321d",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "talks-discussions",
       "category_llm": true,
       "tags": [],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Urban Synapses: Networks of Ideas, Emotions, and Imagination Shaping Urban Change",
@@ -1418,12 +2041,13 @@
       "social": {},
       "uid": "7c3e295570276675",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "talks-discussions",
       "category_llm": true,
       "tags": [],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Mo/u/ld Making: Sculptural Qualities of Mycelium",
@@ -1439,12 +2063,28 @@
       "social": {},
       "uid": "43e8f59baec941ff",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "talks-discussions",
       "category_llm": true,
       "tags": [],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
+    },
+    {
+      "title": "🌟EuroMeet: Connecting with International Friends in Brussels Every Friday🍻🎉",
+      "start": "2026-10-16T16:30:00+00:00",
+      "end": "2026-10-16T20:30:00+00:00",
+      "all_day": false,
+      "location": "Brasserie Quartier Leopold, Place du Luxembourg 9, Bruxelles, Bruxelles",
+      "description": "✨ **Meet new people in Brussels every Friday evening!** Looking to expand your social circle, meet international people and enjoy relaxed conversations in the heart of Brussels? Join **EuroMeet every Friday anytime from 18:30 until at least 22:30** at the **Quartier Leopold brasserie**, located on Place du Luxembourg, directly opposite the European Parliament. Our meetup offers a friendly, relaxed and international atmosphere where it is easy to talk and get to know people—without loud music or a chaotic party environment. . 🍻 Drinks, food and dinner available 🌍 Internationals, expats, newcome",
+      "url": "https://www.meetup.com/brussels-meetup/events/316724842/",
+      "image": "https://secure.meetupstatic.com/photos/event/1/7/b/3/600_533826067.jpeg",
+      "source": "Brussels Language Meetup",
+      "uid": "29c20820d21959db",
+      "colour": "#00937A",
+      "category": "other",
+      "tags": []
     },
     {
       "title": "Matthijs De Block - Y.E.A.S.T.: Yielding Ecology Art Science and Togetherness",
@@ -1460,12 +2100,13 @@
       "social": {},
       "uid": "cf3184674d7a1b09",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "environment",
       "category_llm": true,
       "tags": [],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "PI Apparel Brussels Chapter: Launch & Community Roundtable",
@@ -1481,14 +2122,15 @@
       "social": {},
       "uid": "0058d5e9306a23e0",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "workshops-creative",
       "category_llm": true,
       "tags": [
         "evening"
       ],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Quantum Meets Art: Sensing the Uncomputable",
@@ -1504,14 +2146,15 @@
       "social": {},
       "uid": "b46942567e30ecec",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "talks-discussions",
       "category_llm": true,
       "tags": [
         "evening"
       ],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Source of Uncertainty: On Cosmic Rays, Perception, and the Construction of Meaning",
@@ -1527,14 +2170,15 @@
       "social": {},
       "uid": "00c4c00e55165333",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "talks-discussions",
       "category_llm": true,
       "tags": [
         "evening"
       ],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Geef je project een Europese boost",
@@ -1550,14 +2194,15 @@
       "social": {},
       "uid": "a51eef8c80610e00",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "professional-networking",
       "category_llm": true,
       "tags": [
         "evening"
       ],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Bouwen aan een innovatief partnerschap?",
@@ -1573,14 +2218,15 @@
       "social": {},
       "uid": "ed89780ec8c2671d",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "professional-networking",
       "category_llm": true,
       "tags": [
         "evening"
       ],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Electric Tenderness (Lucia Xaxalxe)",
@@ -1596,7 +2242,7 @@
       "social": {},
       "uid": "87bc42c6306aeca3",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -1604,7 +2250,8 @@
         "evening",
         "live"
       ],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Shifting Worlds - official opening",
@@ -1620,14 +2267,15 @@
       "social": {},
       "uid": "bfdbc52450f42d02",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
       "tags": [
         "evening"
       ],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Force Field (Dmitry Gelfand & Evelina Domnitch)",
@@ -1643,7 +2291,7 @@
       "social": {},
       "uid": "462bdfd9ce9f2cc0",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -1651,7 +2299,8 @@
         "evening",
         "live"
       ],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Sounding Lines (Stijn Demeulenaere)",
@@ -1667,7 +2316,7 @@
       "social": {},
       "uid": "a788a7f7d0f95a4b",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "music",
       "category_llm": true,
@@ -1675,7 +2324,8 @@
         "evening",
         "live"
       ],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "19h30 Concert Eddie & the Nonos",
@@ -1707,12 +2357,13 @@
       "social": {},
       "uid": "6d85c38fede536f9",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "talks-discussions",
       "category_llm": true,
       "tags": [],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Polyclinic of Creative Practice",
@@ -1728,12 +2379,13 @@
       "social": {},
       "uid": "73775efde70ad347",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "workshops-creative",
       "category_llm": true,
       "tags": [],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Climate Fresk",
@@ -1749,14 +2401,15 @@
       "social": {},
       "uid": "6cffe4f178be2045",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "workshops-creative",
       "category_llm": true,
       "tags": [
         "sustainability"
       ],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Fashion recrafted: Low Tech atelier",
@@ -1772,14 +2425,15 @@
       "social": {},
       "uid": "69c4994a5551e438",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "workshops-creative",
       "category_llm": true,
       "tags": [
         "sustainability"
       ],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Careful Matter",
@@ -1795,12 +2449,13 @@
       "social": {},
       "uid": "63a6949842e3ba4b",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "talks-discussions",
       "category_llm": true,
       "tags": [],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Biomimetic Stories",
@@ -1816,12 +2471,13 @@
       "social": {},
       "uid": "615adf4a7ba2ee16",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "talks-discussions",
       "category_llm": true,
       "tags": [],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "NEB Prize finalist",
@@ -1837,12 +2493,13 @@
       "social": {},
       "uid": "d264e89bcd337f86",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "talks-discussions",
       "category_llm": true,
       "tags": [],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Redden algoritmes onze democratie, of zetten ze haar onder druk?",
@@ -1858,12 +2515,13 @@
       "social": {},
       "uid": "cb7df03b451e36e9",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "talks-discussions",
       "category_llm": true,
       "tags": [],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Theatre of Transition",
@@ -1879,12 +2537,13 @@
       "social": {},
       "uid": "ac77f65c7ad83605",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "talks-discussions",
       "category_llm": true,
       "tags": [],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "After Jubilee: A radio show from the future - Part 1 (radio show)",
@@ -1900,12 +2559,13 @@
       "social": {},
       "uid": "5ce1ab65d69b1fdd",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "workshops-creative",
       "category_llm": true,
       "tags": [],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "(W)HOLE Mobile Repair Studio",
@@ -1921,14 +2581,15 @@
       "social": {},
       "uid": "03a21bf5ab3d8e44",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "workshops-creative",
       "category_llm": true,
       "tags": [
         "sustainability"
       ],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Art in Common",
@@ -1944,12 +2605,13 @@
       "social": {},
       "uid": "66d5045e6c06e15e",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "talks-discussions",
       "category_llm": true,
       "tags": [],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "After Jubilee: A radio show from the future - Part 2 (talk)",
@@ -1965,12 +2627,13 @@
       "social": {},
       "uid": "15a992c859b11832",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "workshops-creative",
       "category_llm": true,
       "tags": [],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Ancestral Intelligence: Shifting Worlds",
@@ -1986,12 +2649,13 @@
       "social": {},
       "uid": "a19ff65d189823c6",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "talks-discussions",
       "category_llm": true,
       "tags": [],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Soft Tissues (Ugo Dehaes) - preview",
@@ -2007,7 +2671,7 @@
       "social": {},
       "uid": "0d6c96c03f0447fb",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -2015,7 +2679,8 @@
         "dance",
         "live"
       ],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Are We Humans, or Are We Dancers?",
@@ -2031,12 +2696,13 @@
       "social": {},
       "uid": "c6c974d558396bba",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "talks-discussions",
       "category_llm": true,
       "tags": [],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Poetics of Renewables: a FAST Salon",
@@ -2052,14 +2718,15 @@
       "social": {},
       "uid": "091c2aa09214da9f",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "talks-discussions",
       "category_llm": true,
       "tags": [
         "sustainability"
       ],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Decoding Egwu",
@@ -2075,14 +2742,15 @@
       "social": {},
       "uid": "0013a39047c6658c",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "talks-discussions",
       "category_llm": true,
       "tags": [
         "evening"
       ],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Bunker for a Tropical Pixel",
@@ -2098,14 +2766,15 @@
       "social": {},
       "uid": "271e53a53d854a8a",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "talks-discussions",
       "category_llm": true,
       "tags": [
         "evening"
       ],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Electric Tenderness",
@@ -2121,14 +2790,15 @@
       "social": {},
       "uid": "c765db729065af92",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "talks-discussions",
       "category_llm": true,
       "tags": [
         "evening"
       ],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Healing Nightclub: In the Making",
@@ -2144,14 +2814,15 @@
       "social": {},
       "uid": "1266f4a8fdff1521",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
       "tags": [
         "evening"
       ],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "REVERSE",
@@ -2167,14 +2838,15 @@
       "social": {},
       "uid": "0e477c7e95279089",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "talks-discussions",
       "category_llm": true,
       "tags": [
         "evening"
       ],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Healing Nightclub - Unity (Mostafa Taleb with Milad Mohammadi)",
@@ -2190,7 +2862,7 @@
       "social": {},
       "uid": "d1bc912bc5374bd4",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "music",
       "category_llm": true,
@@ -2199,7 +2871,8 @@
         "evening",
         "live"
       ],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Healing Nightclub - The Art of Attunement (Nicolas Siriany)",
@@ -2215,7 +2888,7 @@
       "social": {},
       "uid": "a6b91b23605d8984",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "music",
       "category_llm": true,
@@ -2224,7 +2897,8 @@
         "evening",
         "live"
       ],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Healing Nightclub - Hypnotic DJ-ing (Timo Tuhkanen)",
@@ -2240,7 +2914,7 @@
       "social": {},
       "uid": "42762e498fd4c057",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "music",
       "category_llm": true,
@@ -2249,7 +2923,8 @@
         "evening",
         "live"
       ],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Healing Nightclub - Selfl(e/o)ss (Bo Meng)",
@@ -2265,7 +2940,7 @@
       "social": {},
       "uid": "1fcb1c9dfc61ae23",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "music",
       "category_llm": true,
@@ -2274,7 +2949,8 @@
         "evening",
         "live"
       ],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Junior Climate Fresk",
@@ -2290,7 +2966,7 @@
       "social": {},
       "uid": "7e16275ff6192e90",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "workshops-creative",
       "category_llm": true,
@@ -2298,7 +2974,8 @@
         "kids",
         "sustainability"
       ],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Atelier Bitono",
@@ -2314,12 +2991,13 @@
       "social": {},
       "uid": "cc37e21a4e31731e",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "translated": true,
       "category": "workshops-creative",
       "category_llm": true,
       "tags": [],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "18h Arpentage LDH : « Rester Barbare »",
@@ -2353,13 +3031,14 @@
       "social": {},
       "uid": "6fc54c8e98c54147",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "time_checked": 3,
       "translated": true,
       "category": "professional-networking",
       "category_llm": true,
       "tags": [],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "FTI Brussel partner events in Brussels and the Rand",
@@ -2375,13 +3054,14 @@
       "social": {},
       "uid": "5e4f1b9d0377ef91",
       "manual": true,
-      "colour": "#0F8CA8",
+      "colour": "#1B6FE0",
       "time_checked": 3,
       "translated": true,
       "category": "talks-discussions",
       "category_llm": true,
       "tags": [],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "17h-19h paniers « bio » Ferme de Nadir",
@@ -2398,6 +3078,23 @@
       "time_checked": 3,
       "category": "other",
       "tags": []
+    },
+    {
+      "title": "Conversation Exchange - All languages are welcome",
+      "start": "2026-10-20T17:00:00+00:00",
+      "end": "2026-10-20T21:00:00+00:00",
+      "all_day": false,
+      "location": "l'amour fou, Chaussée d'Ixelles 185, Ixelles, Ixelles",
+      "description": "Would you like to improve your language skills and networking in a casual atmosphere? This event is for you! All languages welcome! Everyone is welcome! The aim is to speak with native/fluent speakers of your target language(s). You'll be around all types of people throughout the whole event. We will be in a private area. A great atmosphere is guaranteed! You'll have to order a drink to attend the event 😀 Don't hesitate to contact us for any further information",
+      "url": "https://www.meetup.com/brusselsinternationalhubevents/events/316782267/",
+      "image": "https://secure.meetupstatic.com/photos/event/2/8/2/e/600_528130286.jpeg",
+      "source": "Brussels International Hub Events (Meetup)",
+      "uid": "60eba447432da06f",
+      "colour": "#E07A00",
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
     },
     {
       "title": "18h30 Chorale de la vieille Chéchette",
@@ -2432,7 +3129,7 @@
       },
       "uid": "f6ac4b17923daa71",
       "manual": true,
-      "colour": "#E07A00",
+      "colour": "#8A7500",
       "translated": true,
       "category": "workshops-creative",
       "category_llm": true,
@@ -2456,7 +3153,7 @@
       "social": {},
       "uid": "1b44d70e0cd1d21c",
       "manual": true,
-      "colour": "#7B49D6",
+      "colour": "#E8336D",
       "translated": true,
       "category": "civic-politics",
       "category_llm": true,
@@ -2478,6 +3175,23 @@
       "time_checked": 3,
       "category": "other",
       "tags": []
+    },
+    {
+      "title": "Conversation Exchange - All languages are welcome",
+      "start": "2026-10-27T18:00:00+00:00",
+      "end": "2026-10-27T22:00:00+00:00",
+      "all_day": false,
+      "location": "l'amour fou, Chaussée d'Ixelles 185, Ixelles, Ixelles",
+      "description": "Would you like to improve your language skills and networking in a casual atmosphere? This event is for you! All languages welcome! Everyone is welcome! The aim is to speak with native/fluent speakers of your target language(s). You'll be around all types of people throughout the whole event. We will be in a private area. A great atmosphere is guaranteed! You'll have to order a drink to attend the event 😀 Don't hesitate to contact us for any further information",
+      "url": "https://www.meetup.com/brusselsinternationalhubevents/events/lprnrtyjcnbkc/",
+      "image": "https://secure.meetupstatic.com/photos/event/2/8/2/e/600_528130286.jpeg",
+      "source": "Brussels International Hub Events (Meetup)",
+      "uid": "c776dda69406de46",
+      "colour": "#E07A00",
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
     },
     {
       "title": "18h30 Chorale de la vieille Chéchette",
@@ -2527,7 +3241,7 @@
       "social": {},
       "uid": "5053d70df5c46004",
       "manual": true,
-      "colour": "#00937A",
+      "colour": "#0F8CA8",
       "time_checked": 3,
       "translated": true,
       "category": "culture-arts",
@@ -2587,6 +3301,129 @@
       ]
     },
     {
+      "title": "Marché des antiquités du sablon",
+      "start": "2026-11-01T00:00:00+01:00",
+      "end": "2026-11-01T00:00:00+01:00",
+      "all_day": true,
+      "location": "Place du Grand Sablon, Bruxelles",
+      "description": "Marché des antiquités du sablon - ouvert tous les samedis de 9h à 17h et dimanches de 9h à 15h sur la place du grand sablon ... Ce marché situé au centre du quartier des antiquaires sur la place du grand sablon est une institution depuis les années 60. ... Vous y trouverez : orfèvrerie, bijouterie, objets de vitrine, céramique et verre, art de table, tableaux, dessins, mais aussi porcelaine chinoise, petit mobilier ou art africain, collections, vieux papiers, meubles de style...",
+      "url": "https://brocabrac.fr/ru/bruxelles/993117-marche-des-antiquites-du-sablon",
+      "image": "https://brocabrac.fr/cdn/event/photos/18/fa/18fac1a672bf41b31d66cc92926b28b29c2a41f2a9bbdb4c8aca05ae9e109f3f-large.jpg",
+      "source": "Brocabrac Belgique",
+      "uid": "c2e3149a55d6b262",
+      "colour": "#1B6FE0",
+      "time_checked": 3,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Brocante des bastions",
+      "start": "2026-11-01T04:00:00+01:00",
+      "end": "2026-11-01T13:00:00+01:00",
+      "all_day": false,
+      "location": "parking du retail Park des Bastions, Boulevard Walter de Marvis, Tournai",
+      "description": "30€ les 3 places de parking 10€ supplémentaire par place de parking",
+      "url": "https://brocabrac.fr/ht/tournai/1263919-brocante-des-bastions",
+      "image": "https://brocabrac.fr/cdn/event/photos/68/0d/680d42567209098cd7856fbea2af278be92a498eb927cc4dd13f3ad63c2be902-large.jpg",
+      "source": "Brocabrac Belgique",
+      "uid": "cfb38cd6a0fca7af",
+      "colour": "#1B6FE0",
+      "category": "other",
+      "tags": [
+        "late-night"
+      ]
+    },
+    {
+      "title": "Broc à sec",
+      "start": "2026-11-01T06:00:00+01:00",
+      "end": "2026-11-01T13:00:00+01:00",
+      "all_day": false,
+      "location": "Parking souterrain du Carrefour, Avenue du Parc, Mouscron",
+      "description": "Une brocante couverte et illuminée de 6 h 00 à 13 h 00. A partir du 3 mai 2026 broc’à sec sera aussi broc’à l’air. 2 emplacements de parking + voiture pour 26 eur puis 13 eur par emplacement supplémentaire. A partir du 3 mai 2026 broc’à sec sera aussi broc’à l’air. Possibilité d'occuper un emplacement à l’extérieur car +- 20 emplacements devant l’entrée du parking souterrain. Info et réservation par mail ou téléphone.",
+      "url": "https://brocabrac.fr/ht/mouscron/1355547-broc-a-sec",
+      "image": null,
+      "source": "Brocabrac Belgique",
+      "uid": "7137b4c84b709ffb",
+      "colour": "#1B6FE0",
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Brocante mabru",
+      "start": "2026-11-01T07:00:00+01:00",
+      "end": "2026-11-01T13:00:00+01:00",
+      "all_day": false,
+      "location": "mabru (marché matinal de Bruxelles), 22 quai des Usines, Bruxelles",
+      "description": "Grande brocante se déroulant tous les dimanches matin sur le site mabru (marché matinal de bruxelles) il y a des stands de nourriture, de produis ménagers, du gros électoménager, beaucoup d'outils électriques et manuel d'occasion ainsi qu'une foule de petits exposants. Le parking est payant (5€) et bondé, je conseille de venir par le tram qui s'arrête juste devant.",
+      "url": "https://brocabrac.fr/ru/bruxelles/1407278-brocante-mabru",
+      "image": "https://brocabrac.fr/cdn/event/photos/14/85/1485a1388536fc0f2413ec15dc7d317458308f659b9743a52904ecf30726379c-large.jpg",
+      "source": "Brocabrac Belgique",
+      "uid": "6472d6d1da35532c",
+      "colour": "#1B6FE0",
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Grande brocante",
+      "start": "2026-11-01T07:00:00+01:00",
+      "end": "2026-11-01T14:00:00+01:00",
+      "all_day": false,
+      "location": "7 rue des français, Les Bons Villers",
+      "description": "Que vous soyez brocanteurs ,antiquaires ,marchands, visiteurs ou particuliers ,nous vous attendons tous les dimanches de 7h00 à 14h00 chez broc antik market belgium pour venir vendre, acheter ,chiner et surtout pour assister ou participer au grand déballage hebdomadaire au cul du camion. Cette brocante est devenue populaire et incontournable pour tous les marchands et chineurs en un temps record. Elle est surtout devenue célèbre pour la qualité de ses marchandises. A partir de 15 € déballage ...",
+      "url": "https://brocabrac.fr/ht/les-bons-villers/1097040-grande-brocante",
+      "image": null,
+      "source": "Brocabrac Belgique",
+      "uid": "4bcd34935f2109fa",
+      "colour": "#1B6FE0",
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Marché aux puces de welkenraedt",
+      "start": "2026-11-01T07:00:00+01:00",
+      "end": "2026-11-01T13:00:00+01:00",
+      "all_day": false,
+      "location": "Place des Combattants, Welkenraedt",
+      "description": "Chaque dimanche matin vous pouvez chiner au marché aux puces de welkenraedt Emplacement : 2,50€/mètre informations par téléphone (du lundi au vendredi de 9h à 17h30).",
+      "url": "https://brocabrac.fr/lg/welkenraedt/992188-marche-aux-puces-de-welkenraedt",
+      "image": "https://brocabrac.fr/cdn/event/photos/ab/a6/aba6b9d83cc7b33b514237632744250dcc2238a2605eefc0ae204e8fce90ad37-large.png",
+      "source": "Brocabrac Belgique",
+      "uid": "dc849462e1f3eb28",
+      "colour": "#1B6FE0",
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Marché brocante",
+      "start": "2026-11-01T08:00:00+01:00",
+      "end": "2026-11-01T19:00:00+01:00",
+      "all_day": false,
+      "location": "Place de jeu balle, Silenrieux",
+      "description": "Marché brocante de silenrieux - place de jeu de balle - tous les dimanches. Un emplacement = un module de 5 mètres de long X 3 mètres de profondeur. Véhicule placé en arrière. Marquage au sol et numérotation des emplacements. La réservation des stands est obligatoire par téléphone du lundi 9h00 au mercredi 19h00 ! Pour une première réservation, le paiement est obligatoire sur le compte bancaire de l'asbl foire verte au be25 3630 9200 8782. Pour les exposants \"réguliers\", le paiement cash est ...",
+      "url": "https://brocabrac.fr/na/silenrieux/1267634-marche-brocante",
+      "image": null,
+      "source": "Brocabrac Belgique",
+      "uid": "1fc8bb0228af1962",
+      "colour": "#1B6FE0",
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Brocante hebdomadaire de spa",
+      "start": "2026-11-01T08:00:00+01:00",
+      "end": "2026-11-01T14:00:00+01:00",
+      "all_day": false,
+      "location": "Galerie Léopold et Parc de 7 Heures, Rue du Fourneau, Spa",
+      "description": "La brocante a lieu dans la galerie léopold et le parc de 7 heures tous les dimanches . Restauration et toilette publique à proximité. Pas de réservation pour les exposants occasionnels , les emplacements seront attribués par ordre d'arrivée entre 5h et 7h30. Le prix des emplacements est de 3 euros du mètre. La brocante a lieu dans la galerie léopold (sous toit) et le parc de 7 heures. Les véhicules peuvent rester au stand.",
+      "url": "https://brocabrac.fr/lg/spa/1344011-brocante-hebdomadaire-de-spa",
+      "image": null,
+      "source": "Brocabrac Belgique",
+      "uid": "3ef478be22192653",
+      "colour": "#1B6FE0",
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "Vide-grenier / brocante, Rue du Monténégro",
       "start": "2026-11-01T08:00:00+01:00",
       "end": "2026-11-01T19:00:00+01:00",
@@ -2600,7 +3437,7 @@
       "social": {},
       "uid": "5b73829746283680",
       "manual": true,
-      "colour": "#1B6FE0",
+      "colour": "#C0392B",
       "translated": true,
       "category": "markets-fairs",
       "category_llm": true,
@@ -2609,6 +3446,38 @@
         "outdoor"
       ],
       "tags_llm_done": true
+    },
+    {
+      "title": "Marché aux puces de la place du jeu de balle",
+      "start": "2026-11-01T09:00:00+01:00",
+      "end": "2026-11-01T14:00:00+01:00",
+      "all_day": false,
+      "location": "Quartier des Marolles, Place du Jeu de Balle, Bruxelles",
+      "description": "Au cœur de bruxelles, tous les matins se tient une brocante d'antiquité exceptionnelle sur la place du jeu de balle. ... Situé dans le quartier des marolles, le marché aux puces attire aussi bien les passants que les curieux. ... Vous y ferez de très belles affaires tant les marchandises proposées sont diverses : vêtements, bijoux, mobilier d'intérieur, mais aussi des livres et des tableaux d'antiquité, fripes, théières, lampes, bibelots, vaisselles, médailles, meubles... ... Horaires 9h -14h...",
+      "url": "https://brocabrac.fr/ru/bruxelles/993112-marche-aux-puces-de-la-place-du-jeu-de-balle",
+      "image": "https://brocabrac.fr/cdn/event/photos/eb/09/eb09b6d54d72c1d24ff3edc7e2f8ec2647908382a4b3451e7c1f0feaa206f3df-large.png",
+      "source": "Brocabrac Belgique",
+      "uid": "d3d61055267c7cd7",
+      "colour": "#1B6FE0",
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Brocante inclinée de ronquières",
+      "start": "2026-11-01T10:00:00+01:00",
+      "end": "2026-11-01T14:00:00+01:00",
+      "all_day": false,
+      "location": "Rue Rosemont, Braine-Le-Comte",
+      "description": "Brocante inclinée de ronquières - rue rosemont - parking gratuit - tous les samedis, dimanches et jours fériés de 10h à 14h (chapiteau ouvert dès 9h) Sans réservation. Informations par téléphone. Un emplacement est 5m x 5m à 16€ ou 3 parking/24€ etc avec la voiture toujours près de vous.",
+      "url": "https://brocabrac.fr/ht/braine-le-comte/1190581-brocante-inclinee-de-ronquieres",
+      "image": null,
+      "source": "Brocabrac Belgique",
+      "uid": "129419edb41fabde",
+      "colour": "#1B6FE0",
+      "category": "other",
+      "tags": [
+        "free"
+      ]
     },
     {
       "title": "Er was eens een molenaarsdochter…",
@@ -2622,6 +3491,96 @@
       "source": "Goudblommeke in Papier",
       "uid": "0a9348c201d2d1bb",
       "colour": "#0F8CA8",
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Marché aux puces de la place du jeu de balle",
+      "start": "2026-11-02T09:00:00+01:00",
+      "end": "2026-11-02T14:00:00+01:00",
+      "all_day": false,
+      "location": "Quartier des Marolles, Place du Jeu de Balle, Bruxelles",
+      "description": "Au cœur de bruxelles, tous les matins se tient une brocante d'antiquité exceptionnelle sur la place du jeu de balle. ... Situé dans le quartier des marolles, le marché aux puces attire aussi bien les passants que les curieux. ... Vous y ferez de très belles affaires tant les marchandises proposées sont diverses : vêtements, bijoux, mobilier d'intérieur, mais aussi des livres et des tableaux d'antiquité, fripes, théières, lampes, bibelots, vaisselles, médailles, meubles... ... Horaires 9h -14h...",
+      "url": "https://brocabrac.fr/ru/bruxelles/993112-marche-aux-puces-de-la-place-du-jeu-de-balle",
+      "image": "https://brocabrac.fr/cdn/event/photos/eb/09/eb09b6d54d72c1d24ff3edc7e2f8ec2647908382a4b3451e7c1f0feaa206f3df-large.png",
+      "source": "Brocabrac Belgique",
+      "uid": "36ec0a28ef99baf0",
+      "colour": "#1B6FE0",
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Marché aux puces de la place du jeu de balle",
+      "start": "2026-11-03T09:00:00+01:00",
+      "end": "2026-11-03T14:00:00+01:00",
+      "all_day": false,
+      "location": "Quartier des Marolles, Place du Jeu de Balle, Bruxelles",
+      "description": "Au cœur de bruxelles, tous les matins se tient une brocante d'antiquité exceptionnelle sur la place du jeu de balle. ... Situé dans le quartier des marolles, le marché aux puces attire aussi bien les passants que les curieux. ... Vous y ferez de très belles affaires tant les marchandises proposées sont diverses : vêtements, bijoux, mobilier d'intérieur, mais aussi des livres et des tableaux d'antiquité, fripes, théières, lampes, bibelots, vaisselles, médailles, meubles... ... Horaires 9h -14h...",
+      "url": "https://brocabrac.fr/ru/bruxelles/993112-marche-aux-puces-de-la-place-du-jeu-de-balle",
+      "image": "https://brocabrac.fr/cdn/event/photos/eb/09/eb09b6d54d72c1d24ff3edc7e2f8ec2647908382a4b3451e7c1f0feaa206f3df-large.png",
+      "source": "Brocabrac Belgique",
+      "uid": "4392debe511f031b",
+      "colour": "#1B6FE0",
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Bourse collections du 1er mardi de battice",
+      "start": "2026-11-03T12:30:00+01:00",
+      "end": "2026-11-03T18:00:00+01:00",
+      "all_day": false,
+      "location": "Cercle Saint-Vincent, Rue Forges-les-Eaux n' 12, Battice",
+      "description": "Bourse de toutes collections de vente, d'achat, d'échange entre particuliers, collectionneurs (ou pas), amateurs et ou pros. Entrée : 2 € = 2 € bon à valoir au bar. Entrée par derrière.",
+      "url": "https://brocabrac.fr/lg/battice/1017665-bourse-collections-du-1er-mardi-de-battice",
+      "image": "https://brocabrac.fr/cdn/event/photos/b1/a6/b1a6fe0cceedcaefe804c82c3e306fc75c743af07ff24cfcbb8c5b316fa12e39-large.jpg",
+      "source": "Brocabrac Belgique",
+      "uid": "35d82eb1423b9ef2",
+      "colour": "#1B6FE0",
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Marché aux puces de la place du jeu de balle",
+      "start": "2026-11-04T09:00:00+01:00",
+      "end": "2026-11-04T14:00:00+01:00",
+      "all_day": false,
+      "location": "Quartier des Marolles, Place du Jeu de Balle, Bruxelles",
+      "description": "Au cœur de bruxelles, tous les matins se tient une brocante d'antiquité exceptionnelle sur la place du jeu de balle. ... Situé dans le quartier des marolles, le marché aux puces attire aussi bien les passants que les curieux. ... Vous y ferez de très belles affaires tant les marchandises proposées sont diverses : vêtements, bijoux, mobilier d'intérieur, mais aussi des livres et des tableaux d'antiquité, fripes, théières, lampes, bibelots, vaisselles, médailles, meubles... ... Horaires 9h -14h...",
+      "url": "https://brocabrac.fr/ru/bruxelles/993112-marche-aux-puces-de-la-place-du-jeu-de-balle",
+      "image": "https://brocabrac.fr/cdn/event/photos/eb/09/eb09b6d54d72c1d24ff3edc7e2f8ec2647908382a4b3451e7c1f0feaa206f3df-large.png",
+      "source": "Brocabrac Belgique",
+      "uid": "613ffb53575f496a",
+      "colour": "#1B6FE0",
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Marché aux puces de la place du jeu de balle",
+      "start": "2026-11-05T09:00:00+01:00",
+      "end": "2026-11-05T14:00:00+01:00",
+      "all_day": false,
+      "location": "Quartier des Marolles, Place du Jeu de Balle, Bruxelles",
+      "description": "Au cœur de bruxelles, tous les matins se tient une brocante d'antiquité exceptionnelle sur la place du jeu de balle. ... Situé dans le quartier des marolles, le marché aux puces attire aussi bien les passants que les curieux. ... Vous y ferez de très belles affaires tant les marchandises proposées sont diverses : vêtements, bijoux, mobilier d'intérieur, mais aussi des livres et des tableaux d'antiquité, fripes, théières, lampes, bibelots, vaisselles, médailles, meubles... ... Horaires 9h -14h...",
+      "url": "https://brocabrac.fr/ru/bruxelles/993112-marche-aux-puces-de-la-place-du-jeu-de-balle",
+      "image": "https://brocabrac.fr/cdn/event/photos/eb/09/eb09b6d54d72c1d24ff3edc7e2f8ec2647908382a4b3451e7c1f0feaa206f3df-large.png",
+      "source": "Brocabrac Belgique",
+      "uid": "1f59c279d484c462",
+      "colour": "#1B6FE0",
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Marché aux puces de la place du jeu de balle",
+      "start": "2026-11-06T09:00:00+01:00",
+      "end": "2026-11-06T14:00:00+01:00",
+      "all_day": false,
+      "location": "Quartier des Marolles, Place du Jeu de Balle, Bruxelles",
+      "description": "Au cœur de bruxelles, tous les matins se tient une brocante d'antiquité exceptionnelle sur la place du jeu de balle. ... Situé dans le quartier des marolles, le marché aux puces attire aussi bien les passants que les curieux. ... Vous y ferez de très belles affaires tant les marchandises proposées sont diverses : vêtements, bijoux, mobilier d'intérieur, mais aussi des livres et des tableaux d'antiquité, fripes, théières, lampes, bibelots, vaisselles, médailles, meubles... ... Horaires 9h -14h...",
+      "url": "https://brocabrac.fr/ru/bruxelles/993112-marche-aux-puces-de-la-place-du-jeu-de-balle",
+      "image": "https://brocabrac.fr/cdn/event/photos/eb/09/eb09b6d54d72c1d24ff3edc7e2f8ec2647908382a4b3451e7c1f0feaa206f3df-large.png",
+      "source": "Brocabrac Belgique",
+      "uid": "d628a4b0fa411ebc",
+      "colour": "#1B6FE0",
       "category": "other",
       "tags": []
     },
@@ -2644,6 +3603,314 @@
       ]
     },
     {
+      "title": "Marché des antiquités du sablon",
+      "start": "2026-11-07T00:00:00+01:00",
+      "end": "2026-11-07T00:00:00+01:00",
+      "all_day": true,
+      "location": "Place du Grand Sablon, Bruxelles",
+      "description": "Marché des antiquités du sablon - ouvert tous les samedis de 9h à 17h et dimanches de 9h à 15h sur la place du grand sablon ... Ce marché situé au centre du quartier des antiquaires sur la place du grand sablon est une institution depuis les années 60. ... Vous y trouverez : orfèvrerie, bijouterie, objets de vitrine, céramique et verre, art de table, tableaux, dessins, mais aussi porcelaine chinoise, petit mobilier ou art africain, collections, vieux papiers, meubles de style...",
+      "url": "https://brocabrac.fr/ru/bruxelles/993117-marche-des-antiquites-du-sablon",
+      "image": "https://brocabrac.fr/cdn/event/photos/18/fa/18fac1a672bf41b31d66cc92926b28b29c2a41f2a9bbdb4c8aca05ae9e109f3f-large.jpg",
+      "source": "Brocabrac Belgique",
+      "uid": "57224dd91353585b",
+      "colour": "#1B6FE0",
+      "time_checked": 3,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Brocante du family-center",
+      "start": "2026-11-07T05:30:00+01:00",
+      "end": "2026-11-07T13:00:00+01:00",
+      "all_day": false,
+      "location": "Parking du Family center, 173 rue de l'Industrie, Frameries",
+      "description": "Brocante existant sans interruption depuis 1988 tous les samedis matin. Pas de réservation, placement par arrivée. Marchandise neuve, nourriture et commerçants ambulants non admis. Emplacements avec voiture 5 mètres x 5 mètres pour 10 euros possibilité d'emplacement plus grand, 5€ par parking supplémentaire facebook.Com/brocanstoq ou www.brocanstoq.be",
+      "url": "https://brocabrac.fr/ht/frameries/1271045-brocante-du-family-center",
+      "image": null,
+      "source": "Brocabrac Belgique",
+      "uid": "e60c97d534899bab",
+      "colour": "#1B6FE0",
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Brocante",
+      "start": "2026-11-07T07:00:00+01:00",
+      "end": "2026-11-07T17:00:00+01:00",
+      "all_day": false,
+      "location": "Centre Culturel à Izel, Avenue Germain Gilson, Chiny",
+      "description": "Bar & restauration assurés toute la journée livres - objets divers - jouets 15 € pour les 2 jours ou 10 € la journée accueil à partir de 07 h 00",
+      "url": "https://brocabrac.fr/lx/chiny/1353474-brocante",
+      "image": null,
+      "source": "Brocabrac Belgique",
+      "uid": "08234c9b5d8a550f",
+      "colour": "#1B6FE0",
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Marché aux puces de la place du jeu de balle",
+      "start": "2026-11-07T09:00:00+01:00",
+      "end": "2026-11-07T14:00:00+01:00",
+      "all_day": false,
+      "location": "Quartier des Marolles, Place du Jeu de Balle, Bruxelles",
+      "description": "Au cœur de bruxelles, tous les matins se tient une brocante d'antiquité exceptionnelle sur la place du jeu de balle. ... Situé dans le quartier des marolles, le marché aux puces attire aussi bien les passants que les curieux. ... Vous y ferez de très belles affaires tant les marchandises proposées sont diverses : vêtements, bijoux, mobilier d'intérieur, mais aussi des livres et des tableaux d'antiquité, fripes, théières, lampes, bibelots, vaisselles, médailles, meubles... ... Horaires 9h -14h...",
+      "url": "https://brocabrac.fr/ru/bruxelles/993112-marche-aux-puces-de-la-place-du-jeu-de-balle",
+      "image": "https://brocabrac.fr/cdn/event/photos/eb/09/eb09b6d54d72c1d24ff3edc7e2f8ec2647908382a4b3451e7c1f0feaa206f3df-large.png",
+      "source": "Brocabrac Belgique",
+      "uid": "9500eedb2807504c",
+      "colour": "#1B6FE0",
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Brocante inclinée de ronquières",
+      "start": "2026-11-07T10:00:00+01:00",
+      "end": "2026-11-07T14:00:00+01:00",
+      "all_day": false,
+      "location": "Rue Rosemont, Braine-Le-Comte",
+      "description": "Brocante inclinée de ronquières - rue rosemont - parking gratuit - tous les samedis, dimanches et jours fériés de 10h à 14h (chapiteau ouvert dès 9h) Sans réservation. Informations par téléphone. Un emplacement est 5m x 5m à 16€ ou 3 parking/24€ etc avec la voiture toujours près de vous.",
+      "url": "https://brocabrac.fr/ht/braine-le-comte/1190581-brocante-inclinee-de-ronquieres",
+      "image": null,
+      "source": "Brocabrac Belgique",
+      "uid": "8147d75b295159c2",
+      "colour": "#1B6FE0",
+      "category": "other",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "title": "Brocante du centre culturel",
+      "start": "2026-11-07T10:00:00+01:00",
+      "end": "2026-11-07T18:00:00+01:00",
+      "all_day": false,
+      "location": "centre culturel, Izel",
+      "description": "Bar et petite restauration assurés toute la journée. Animation musicale à partir de 11 h exposants : jouets - gaming - livres - antiquités - divers 15 eur / table",
+      "url": "https://brocabrac.fr/lx/izel/1398635-brocante-du-centre-culturel",
+      "image": "https://brocabrac.fr/cdn/event/photos/dc/aa/dcaab822eac7a0f9e120024e199f374e05d85c5dcda5543c5a9739bdf25bbe79-large.jpg",
+      "source": "Brocabrac Belgique",
+      "uid": "05dcc6c1f27ff60e",
+      "colour": "#1B6FE0",
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Marché des antiquités du sablon",
+      "start": "2026-11-08T00:00:00+01:00",
+      "end": "2026-11-08T00:00:00+01:00",
+      "all_day": true,
+      "location": "Place du Grand Sablon, Bruxelles",
+      "description": "Marché des antiquités du sablon - ouvert tous les samedis de 9h à 17h et dimanches de 9h à 15h sur la place du grand sablon ... Ce marché situé au centre du quartier des antiquaires sur la place du grand sablon est une institution depuis les années 60. ... Vous y trouverez : orfèvrerie, bijouterie, objets de vitrine, céramique et verre, art de table, tableaux, dessins, mais aussi porcelaine chinoise, petit mobilier ou art africain, collections, vieux papiers, meubles de style...",
+      "url": "https://brocabrac.fr/ru/bruxelles/993117-marche-des-antiquites-du-sablon",
+      "image": "https://brocabrac.fr/cdn/event/photos/18/fa/18fac1a672bf41b31d66cc92926b28b29c2a41f2a9bbdb4c8aca05ae9e109f3f-large.jpg",
+      "source": "Brocabrac Belgique",
+      "uid": "f16a0f3b650bc778",
+      "colour": "#1B6FE0",
+      "time_checked": 3,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Brocante des bastions",
+      "start": "2026-11-08T04:00:00+01:00",
+      "end": "2026-11-08T13:00:00+01:00",
+      "all_day": false,
+      "location": "parking du retail Park des Bastions, Boulevard Walter de Marvis, Tournai",
+      "description": "30€ les 3 places de parking 10€ supplémentaire par place de parking",
+      "url": "https://brocabrac.fr/ht/tournai/1263919-brocante-des-bastions",
+      "image": "https://brocabrac.fr/cdn/event/photos/68/0d/680d42567209098cd7856fbea2af278be92a498eb927cc4dd13f3ad63c2be902-large.jpg",
+      "source": "Brocabrac Belgique",
+      "uid": "b8e764a86b453760",
+      "colour": "#1B6FE0",
+      "category": "other",
+      "tags": [
+        "late-night"
+      ]
+    },
+    {
+      "title": "Broc à sec",
+      "start": "2026-11-08T06:00:00+01:00",
+      "end": "2026-11-08T13:00:00+01:00",
+      "all_day": false,
+      "location": "Parking souterrain du Carrefour, Avenue du Parc, Mouscron",
+      "description": "Une brocante couverte et illuminée de 6 h 00 à 13 h 00. A partir du 3 mai 2026 broc’à sec sera aussi broc’à l’air. 2 emplacements de parking + voiture pour 26 eur puis 13 eur par emplacement supplémentaire. A partir du 3 mai 2026 broc’à sec sera aussi broc’à l’air. Possibilité d'occuper un emplacement à l’extérieur car +- 20 emplacements devant l’entrée du parking souterrain. Info et réservation par mail ou téléphone.",
+      "url": "https://brocabrac.fr/ht/mouscron/1355547-broc-a-sec",
+      "image": null,
+      "source": "Brocabrac Belgique",
+      "uid": "91dcb9f45959d197",
+      "colour": "#1B6FE0",
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Brocante du souverain",
+      "start": "2026-11-08T07:00:00+01:00",
+      "end": "2026-11-08T13:00:00+01:00",
+      "all_day": false,
+      "location": "Boulevard du Souverain, Auderghem",
+      "description": "La brocante du souverain a lieu le deuxième dimanche de chaque mois sur la berme centrale du boulevard du souverain. Pas de réservation prix de l'emplacement : 15 euro taille de l'emplacement : 4 mètres installation à partir de 06h heures d'accès à la brocante : de 07h à 13h contact sur place : monsieur stéphane vilers - par téléphone",
+      "url": "https://brocabrac.fr/ru/auderghem/1065613-brocante-du-souverain",
+      "image": "https://brocabrac.fr/cdn/event/photos/a5/1a/a51a970351b51ba4662c1c8ae06f348609a9f678be0cab565dc32a3c20be67d0-large.jpg",
+      "source": "Brocabrac Belgique",
+      "uid": "229630e174902b02",
+      "colour": "#1B6FE0",
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Brocante mabru",
+      "start": "2026-11-08T07:00:00+01:00",
+      "end": "2026-11-08T13:00:00+01:00",
+      "all_day": false,
+      "location": "mabru (marché matinal de Bruxelles), 22 quai des Usines, Bruxelles",
+      "description": "Grande brocante se déroulant tous les dimanches matin sur le site mabru (marché matinal de bruxelles) il y a des stands de nourriture, de produis ménagers, du gros électoménager, beaucoup d'outils électriques et manuel d'occasion ainsi qu'une foule de petits exposants. Le parking est payant (5€) et bondé, je conseille de venir par le tram qui s'arrête juste devant.",
+      "url": "https://brocabrac.fr/ru/bruxelles/1407278-brocante-mabru",
+      "image": "https://brocabrac.fr/cdn/event/photos/14/85/1485a1388536fc0f2413ec15dc7d317458308f659b9743a52904ecf30726379c-large.jpg",
+      "source": "Brocabrac Belgique",
+      "uid": "b960b929d3d61ab7",
+      "colour": "#1B6FE0",
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Brocante",
+      "start": "2026-11-08T07:00:00+01:00",
+      "end": "2026-11-08T17:00:00+01:00",
+      "all_day": false,
+      "location": "Centre Culturel à Izel, Avenue Germain Gilson, Chiny",
+      "description": "Bar & restauration assurés toute la journée livres - objets divers - jouets 15 € pour les 2 jours ou 10 € la journée accueil à partir de 07 h 00",
+      "url": "https://brocabrac.fr/lx/chiny/1353474-brocante",
+      "image": null,
+      "source": "Brocabrac Belgique",
+      "uid": "1e7b720263cc859e",
+      "colour": "#1B6FE0",
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Grande brocante",
+      "start": "2026-11-08T07:00:00+01:00",
+      "end": "2026-11-08T14:00:00+01:00",
+      "all_day": false,
+      "location": "7 rue des français, Les Bons Villers",
+      "description": "Que vous soyez brocanteurs ,antiquaires ,marchands, visiteurs ou particuliers ,nous vous attendons tous les dimanches de 7h00 à 14h00 chez broc antik market belgium pour venir vendre, acheter ,chiner et surtout pour assister ou participer au grand déballage hebdomadaire au cul du camion. Cette brocante est devenue populaire et incontournable pour tous les marchands et chineurs en un temps record. Elle est surtout devenue célèbre pour la qualité de ses marchandises. A partir de 15 € déballage ...",
+      "url": "https://brocabrac.fr/ht/les-bons-villers/1097040-grande-brocante",
+      "image": null,
+      "source": "Brocabrac Belgique",
+      "uid": "7a2099b29b3b616c",
+      "colour": "#1B6FE0",
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Marché aux puces de welkenraedt",
+      "start": "2026-11-08T07:00:00+01:00",
+      "end": "2026-11-08T13:00:00+01:00",
+      "all_day": false,
+      "location": "Place des Combattants, Welkenraedt",
+      "description": "Chaque dimanche matin vous pouvez chiner au marché aux puces de welkenraedt Emplacement : 2,50€/mètre informations par téléphone (du lundi au vendredi de 9h à 17h30).",
+      "url": "https://brocabrac.fr/lg/welkenraedt/992188-marche-aux-puces-de-welkenraedt",
+      "image": "https://brocabrac.fr/cdn/event/photos/ab/a6/aba6b9d83cc7b33b514237632744250dcc2238a2605eefc0ae204e8fce90ad37-large.png",
+      "source": "Brocabrac Belgique",
+      "uid": "c39ed30266820796",
+      "colour": "#1B6FE0",
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Marché brocante",
+      "start": "2026-11-08T08:00:00+01:00",
+      "end": "2026-11-08T19:00:00+01:00",
+      "all_day": false,
+      "location": "Place de jeu balle, Silenrieux",
+      "description": "Marché brocante de silenrieux - place de jeu de balle - tous les dimanches. Un emplacement = un module de 5 mètres de long X 3 mètres de profondeur. Véhicule placé en arrière. Marquage au sol et numérotation des emplacements. La réservation des stands est obligatoire par téléphone du lundi 9h00 au mercredi 19h00 ! Pour une première réservation, le paiement est obligatoire sur le compte bancaire de l'asbl foire verte au be25 3630 9200 8782. Pour les exposants \"réguliers\", le paiement cash est ...",
+      "url": "https://brocabrac.fr/na/silenrieux/1267634-marche-brocante",
+      "image": null,
+      "source": "Brocabrac Belgique",
+      "uid": "0a917cb3b56614c1",
+      "colour": "#1B6FE0",
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Brocante hebdomadaire de spa",
+      "start": "2026-11-08T08:00:00+01:00",
+      "end": "2026-11-08T14:00:00+01:00",
+      "all_day": false,
+      "location": "Galerie Léopold et Parc de 7 Heures, Rue du Fourneau, Spa",
+      "description": "La brocante a lieu dans la galerie léopold et le parc de 7 heures tous les dimanches . Restauration et toilette publique à proximité. Pas de réservation pour les exposants occasionnels , les emplacements seront attribués par ordre d'arrivée entre 5h et 7h30. Le prix des emplacements est de 3 euros du mètre. La brocante a lieu dans la galerie léopold (sous toit) et le parc de 7 heures. Les véhicules peuvent rester au stand.",
+      "url": "https://brocabrac.fr/lg/spa/1344011-brocante-hebdomadaire-de-spa",
+      "image": null,
+      "source": "Brocabrac Belgique",
+      "uid": "0ec01e4ef8059379",
+      "colour": "#1B6FE0",
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Marché aux puces de la place du jeu de balle",
+      "start": "2026-11-08T09:00:00+01:00",
+      "end": "2026-11-08T14:00:00+01:00",
+      "all_day": false,
+      "location": "Quartier des Marolles, Place du Jeu de Balle, Bruxelles",
+      "description": "Au cœur de bruxelles, tous les matins se tient une brocante d'antiquité exceptionnelle sur la place du jeu de balle. ... Situé dans le quartier des marolles, le marché aux puces attire aussi bien les passants que les curieux. ... Vous y ferez de très belles affaires tant les marchandises proposées sont diverses : vêtements, bijoux, mobilier d'intérieur, mais aussi des livres et des tableaux d'antiquité, fripes, théières, lampes, bibelots, vaisselles, médailles, meubles... ... Horaires 9h -14h...",
+      "url": "https://brocabrac.fr/ru/bruxelles/993112-marche-aux-puces-de-la-place-du-jeu-de-balle",
+      "image": "https://brocabrac.fr/cdn/event/photos/eb/09/eb09b6d54d72c1d24ff3edc7e2f8ec2647908382a4b3451e7c1f0feaa206f3df-large.png",
+      "source": "Brocabrac Belgique",
+      "uid": "ce7f6fd8b902e514",
+      "colour": "#1B6FE0",
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Brocante inclinée de ronquières",
+      "start": "2026-11-08T10:00:00+01:00",
+      "end": "2026-11-08T14:00:00+01:00",
+      "all_day": false,
+      "location": "Rue Rosemont, Braine-Le-Comte",
+      "description": "Brocante inclinée de ronquières - rue rosemont - parking gratuit - tous les samedis, dimanches et jours fériés de 10h à 14h (chapiteau ouvert dès 9h) Sans réservation. Informations par téléphone. Un emplacement est 5m x 5m à 16€ ou 3 parking/24€ etc avec la voiture toujours près de vous.",
+      "url": "https://brocabrac.fr/ht/braine-le-comte/1190581-brocante-inclinee-de-ronquieres",
+      "image": null,
+      "source": "Brocabrac Belgique",
+      "uid": "543c5280d7488843",
+      "colour": "#1B6FE0",
+      "category": "other",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "title": "Brocante du centre culturel",
+      "start": "2026-11-08T10:00:00+01:00",
+      "end": "2026-11-08T18:00:00+01:00",
+      "all_day": false,
+      "location": "centre culturel, Izel",
+      "description": "Bar et petite restauration assurés toute la journée. Animation musicale à partir de 11 h exposants : jouets - gaming - livres - antiquités - divers 15 eur / table",
+      "url": "https://brocabrac.fr/lx/izel/1398635-brocante-du-centre-culturel",
+      "image": "https://brocabrac.fr/cdn/event/photos/dc/aa/dcaab822eac7a0f9e120024e199f374e05d85c5dcda5543c5a9739bdf25bbe79-large.jpg",
+      "source": "Brocabrac Belgique",
+      "uid": "fe74448d2ed85ca5",
+      "colour": "#1B6FE0",
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Marché aux puces de la place du jeu de balle",
+      "start": "2026-11-09T09:00:00+01:00",
+      "end": "2026-11-09T14:00:00+01:00",
+      "all_day": false,
+      "location": "Quartier des Marolles, Place du Jeu de Balle, Bruxelles",
+      "description": "Au cœur de bruxelles, tous les matins se tient une brocante d'antiquité exceptionnelle sur la place du jeu de balle. ... Situé dans le quartier des marolles, le marché aux puces attire aussi bien les passants que les curieux. ... Vous y ferez de très belles affaires tant les marchandises proposées sont diverses : vêtements, bijoux, mobilier d'intérieur, mais aussi des livres et des tableaux d'antiquité, fripes, théières, lampes, bibelots, vaisselles, médailles, meubles... ... Horaires 9h -14h...",
+      "url": "https://brocabrac.fr/ru/bruxelles/993112-marche-aux-puces-de-la-place-du-jeu-de-balle",
+      "image": "https://brocabrac.fr/cdn/event/photos/eb/09/eb09b6d54d72c1d24ff3edc7e2f8ec2647908382a4b3451e7c1f0feaa206f3df-large.png",
+      "source": "Brocabrac Belgique",
+      "uid": "936e3549da4c02d3",
+      "colour": "#1B6FE0",
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "Letters on Enthusiasm — Launch Evening",
       "start": "2026-11-09T19:30:00+01:00",
       "end": "2026-11-09T22:00:00+01:00",
@@ -2662,6 +3929,21 @@
       ]
     },
     {
+      "title": "Marché aux puces de la place du jeu de balle",
+      "start": "2026-11-10T09:00:00+01:00",
+      "end": "2026-11-10T14:00:00+01:00",
+      "all_day": false,
+      "location": "Quartier des Marolles, Place du Jeu de Balle, Bruxelles",
+      "description": "Au cœur de bruxelles, tous les matins se tient une brocante d'antiquité exceptionnelle sur la place du jeu de balle. ... Situé dans le quartier des marolles, le marché aux puces attire aussi bien les passants que les curieux. ... Vous y ferez de très belles affaires tant les marchandises proposées sont diverses : vêtements, bijoux, mobilier d'intérieur, mais aussi des livres et des tableaux d'antiquité, fripes, théières, lampes, bibelots, vaisselles, médailles, meubles... ... Horaires 9h -14h...",
+      "url": "https://brocabrac.fr/ru/bruxelles/993112-marche-aux-puces-de-la-place-du-jeu-de-balle",
+      "image": "https://brocabrac.fr/cdn/event/photos/eb/09/eb09b6d54d72c1d24ff3edc7e2f8ec2647908382a4b3451e7c1f0feaa206f3df-large.png",
+      "source": "Brocabrac Belgique",
+      "uid": "21c9ae04af8d4135",
+      "colour": "#1B6FE0",
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "Meena Alexander, voice of exile between India, Sudan and the US",
       "start": "2026-11-10T19:00:00+01:00",
       "end": null,
@@ -2678,7 +3960,7 @@
       },
       "uid": "36b275eaa25028c0",
       "manual": true,
-      "colour": "#8A7500",
+      "colour": "#E07A00",
       "translated": true,
       "category": "talks-discussions",
       "category_llm": true,
@@ -2686,6 +3968,21 @@
         "evening"
       ],
       "tags_llm_done": true
+    },
+    {
+      "title": "Marché aux puces de la place du jeu de balle",
+      "start": "2026-11-11T09:00:00+01:00",
+      "end": "2026-11-11T14:00:00+01:00",
+      "all_day": false,
+      "location": "Quartier des Marolles, Place du Jeu de Balle, Bruxelles",
+      "description": "Au cœur de bruxelles, tous les matins se tient une brocante d'antiquité exceptionnelle sur la place du jeu de balle. ... Situé dans le quartier des marolles, le marché aux puces attire aussi bien les passants que les curieux. ... Vous y ferez de très belles affaires tant les marchandises proposées sont diverses : vêtements, bijoux, mobilier d'intérieur, mais aussi des livres et des tableaux d'antiquité, fripes, théières, lampes, bibelots, vaisselles, médailles, meubles... ... Horaires 9h -14h...",
+      "url": "https://brocabrac.fr/ru/bruxelles/993112-marche-aux-puces-de-la-place-du-jeu-de-balle",
+      "image": "https://brocabrac.fr/cdn/event/photos/eb/09/eb09b6d54d72c1d24ff3edc7e2f8ec2647908382a4b3451e7c1f0feaa206f3df-large.png",
+      "source": "Brocabrac Belgique",
+      "uid": "2fc1ec0a39aad900",
+      "colour": "#1B6FE0",
+      "category": "other",
+      "tags": []
     },
     {
       "title": "Autour de 'En lettres noires' (Siméon MB) - writing workshop",
@@ -2704,7 +4001,7 @@
       },
       "uid": "4698fefa50f350e5",
       "manual": true,
-      "colour": "#8A7500",
+      "colour": "#E07A00",
       "translated": true,
       "category": "workshops-creative",
       "category_llm": true,
@@ -2731,7 +4028,7 @@
       },
       "uid": "53ba28a2a8cae6a4",
       "manual": true,
-      "colour": "#8A7500",
+      "colour": "#E07A00",
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -2757,7 +4054,7 @@
       },
       "uid": "843960d33fe8c408",
       "manual": true,
-      "colour": "#8A7500",
+      "colour": "#E07A00",
       "translated": true,
       "category": "family-children",
       "category_llm": true,
@@ -2784,7 +4081,7 @@
       },
       "uid": "c2cae9fe44312996",
       "manual": true,
-      "colour": "#E07A00",
+      "colour": "#8A7500",
       "translated": true,
       "category": "workshops-creative",
       "category_llm": true,
@@ -2830,7 +4127,7 @@
       },
       "uid": "1b2f514d04b79141",
       "manual": true,
-      "colour": "#8A7500",
+      "colour": "#E07A00",
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -2966,7 +4263,7 @@
       },
       "uid": "5f81c79556cacf42",
       "manual": true,
-      "colour": "#8A7500",
+      "colour": "#E07A00",
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -3023,7 +4320,7 @@
       "social": {},
       "uid": "c5a33fa0fe51961f",
       "manual": true,
-      "colour": "#E8336D",
+      "colour": "#7B49D6",
       "time_checked": 3,
       "translated": true,
       "category": "culture-arts",
@@ -3085,7 +4382,7 @@
       },
       "uid": "cfa788c82aac37ea",
       "manual": true,
-      "colour": "#E8336D",
+      "colour": "#7B49D6",
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -3110,7 +4407,7 @@
       },
       "uid": "c4195c753b72989d",
       "manual": true,
-      "colour": "#E8336D",
+      "colour": "#7B49D6",
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -3136,7 +4433,7 @@
       },
       "uid": "fe87189c1f191efe",
       "manual": true,
-      "colour": "#E8336D",
+      "colour": "#7B49D6",
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -3162,7 +4459,7 @@
       },
       "uid": "9d13444403b55ad4",
       "manual": true,
-      "colour": "#E8336D",
+      "colour": "#7B49D6",
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -3188,7 +4485,7 @@
       },
       "uid": "e9e63601bc210924",
       "manual": true,
-      "colour": "#E8336D",
+      "colour": "#7B49D6",
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -3214,7 +4511,7 @@
       },
       "uid": "df7a74cd9830c94a",
       "manual": true,
-      "colour": "#E8336D",
+      "colour": "#7B49D6",
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -3241,7 +4538,7 @@
       },
       "uid": "f2fdc6e5d75f7f05",
       "manual": true,
-      "colour": "#8A7500",
+      "colour": "#E07A00",
       "time_checked": 3,
       "translated": true,
       "category": "workshops-creative",
@@ -3270,7 +4567,7 @@
       },
       "uid": "de10e8cf18eac335",
       "manual": true,
-      "colour": "#E07A00",
+      "colour": "#8A7500",
       "translated": true,
       "category": "workshops-creative",
       "category_llm": true,
@@ -3297,7 +4594,7 @@
       },
       "uid": "d078ca3a83db54fd",
       "manual": true,
-      "colour": "#8A7500",
+      "colour": "#E07A00",
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -3343,7 +4640,7 @@
       },
       "uid": "fe5426a82f7b4b5b",
       "manual": true,
-      "colour": "#E07A00",
+      "colour": "#8A7500",
       "translated": true,
       "category": "workshops-creative",
       "category_llm": true,
