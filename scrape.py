@@ -9,6 +9,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import re
 import sys
 import time
 from datetime import date, datetime, timedelta
@@ -35,19 +36,49 @@ def load_config() -> tuple[dict, list[dict]]:
     return cfg.get("defaults", {}) or {}, cfg.get("sources", []) or []
 
 
-def _manual_date(value) -> str | None:
-    """manual_events.yml is hand-edited YAML - PyYAML quietly turns an
-    unquoted bare date (2026-10-19) into a real date object while an
-    unquoted date+time (2026-10-16T11:00) stays a string, so a future edit
-    could go either way. Always returns a plain ISO string, or None."""
+def _manual_date(value, tz: str) -> tuple[str | None, bool]:
+    """Returns (iso_string, is_date_only). manual_events.yml is hand-edited
+    YAML - PyYAML quietly turns an unquoted bare date (2026-10-19) into a
+    real date object while an unquoted date+time (2026-10-16T11:00) stays a
+    plain string, so this accepts either. Always attaches a real Brussels
+    UTC offset, matching extract.py's to_iso() for scraped events - a bare
+    "2026-12-11T15:30" with no offset at all isn't wrong exactly, but
+    new Date() in the browser interprets a timezone-less ISO string as the
+    VIEWER's own local time, not Brussels time, so the same manual event
+    silently displayed a different wall-clock time depending on where the
+    page happened to be loaded (caught via a headless-browser screenshot:
+    15:30 in the data rendered as 16:30)."""
     if value is None:
-        return None
-    if isinstance(value, (datetime, date)):
-        return value.isoformat()
-    return str(value)
+        return None, False
+    if isinstance(value, datetime):
+        dt, date_only = value, False
+    elif isinstance(value, date):
+        dt, date_only = datetime(value.year, value.month, value.day), True
+    else:
+        text = str(value).strip()
+        if not text:
+            return None, False
+        date_only = "T" not in text and len(text) <= 10
+        try:
+            dt = dateparser.parse(text)
+        except (ValueError, TypeError, OverflowError):
+            return None, False
+    if dt.tzinfo is None:
+        dt = dt.replace(tzinfo=ZoneInfo(tz))
+    return dt.isoformat(), date_only
 
 
-def load_manual_events() -> tuple[list[dict], dict[str, str], dict[str, list[str]]]:
+def _fold_title(title: str) -> str:
+    """lower-case + strip accents/punctuation, so a scraped and a hand-typed
+    version of the same title ("Kabylifornie" vs "Kabylifornie ") compare
+    equal for the dedupe rule below."""
+    import unicodedata
+    folded = unicodedata.normalize("NFKD", title or "")
+    folded = "".join(c for c in folded if not unicodedata.combining(c))
+    return re.sub(r"[^a-z0-9]+", " ", folded.lower()).strip()
+
+
+def load_manual_events(tz: str) -> tuple[list[dict], dict[str, str], dict[str, list[str]], dict[str, dict]]:
     """Events gathered by hand - printed flyers, photographed programmes,
     festival pages with no scrapable agenda, sites this sandbox can't reach
     - kept in manual_events.yml rather than any sources.yml entry, since
@@ -59,23 +90,28 @@ def load_manual_events() -> tuple[list[dict], dict[str, str], dict[str, list[str
     by the same date window as scraped events - add a new entry to the
     file, don't hand-edit docs/events.json.
 
-    Also returns category/tag "cache seed" dicts: a human already chose
-    these when curating the file, which is at least as trustworthy as a
-    model's answer, so classify_categories()/classify_tags() should treat
-    them as a cache hit (setting category_llm/tags_llm_done exactly as a
-    real model answer would) rather than spending an API call asking the
-    model to second-guess a hand-picked value."""
+    Also returns category/tag/translation "cache seed" dicts: a human
+    already chose the category and tags when curating the file (at least as
+    trustworthy as a model's answer) and wrote the description in English
+    already, so classify_categories()/classify_tags()/translate_events()
+    should all treat these as a cache hit (setting category_llm/
+    tags_llm_done/translated exactly as a real model answer would) rather
+    than spending an API call re-deciding or re-translating a hand-picked
+    value."""
     path = ROOT / "manual_events.yml"
     if not path.exists():
-        return [], {}, {}
+        return [], {}, {}, {}
     raw_list = yaml.safe_load(path.read_text(encoding="utf-8")) or []
-    events, cat_seed, tag_seed = [], {}, {}
+    events, cat_seed, tag_seed, translation_seed = [], {}, {}, {}
     for raw in raw_list:
-        start = _manual_date(raw.get("start"))
+        start, start_date_only = _manual_date(raw.get("start"), tz)
         if not start or not raw.get("title") or not raw.get("source"):
             continue
+        end, _ = _manual_date(raw.get("end"), tz)
         source = raw["source"]
         title = raw["title"]
+        location = str(raw.get("location") or "")[:200]
+        description = str(raw.get("description") or "")[:600]
         # Full `start`, not just its date: scraped events truncate to the
         # date so a model re-wording the same time slightly differently
         # across runs doesn't orphan that event's cache, but this file has
@@ -87,20 +123,51 @@ def load_manual_events() -> tuple[list[dict], dict[str, str], dict[str, list[str
         events.append({
             "title": title,
             "start": start,
-            "end": _manual_date(raw.get("end")),
-            "all_day": bool(raw.get("all_day")) or len(start) == 10,
-            "location": str(raw.get("location") or "")[:200],
-            "description": str(raw.get("description") or "")[:600],
+            "end": end,
+            "all_day": bool(raw.get("all_day")) or start_date_only,
+            "location": location,
+            "description": description,
             "url": raw.get("url"),
             "image": None,
             "source": source,
+            "tickets": raw.get("tickets"),
+            "social": raw.get("social") or {},
             "uid": uid,
             "manual": True,
+            "_fold_title": _fold_title(title),
         })
         if raw.get("category") in CATEGORY_IDS:
             cat_seed[uid] = raw["category"]
         tag_seed[uid] = [t for t in (raw.get("tags") or []) if t in TAG_IDS]
-    return events, cat_seed, tag_seed
+        translation_seed[uid] = {"title": title, "description": description, "location": location}
+    return events, cat_seed, tag_seed, translation_seed
+
+
+def manual_in_window(ev: dict, tz: str, past: int, horizon: int) -> bool:
+    """Scraped events' within_window() only looks at `start`, which is fine
+    there (they're never more than a day or two old by the time a run sees
+    them) but wrong for a multi-day manual entry that's already under way -
+    a run partway through "Copenhagen" (15 Oct - 6 Nov) would compare its
+    15 Oct start against today and drop a show that's still running. Keep
+    it as long as it HASN'T ENDED yet (or started, if there's no end), and
+    still cap how far into the future a start can be."""
+    now = datetime.now(ZoneInfo(tz))
+    try:
+        start_dt = dateparser.parse(ev["start"])
+    except (ValueError, TypeError):
+        return False
+    if start_dt.tzinfo is None:
+        start_dt = start_dt.replace(tzinfo=ZoneInfo(tz))
+    end_dt = start_dt
+    if ev.get("end"):
+        try:
+            parsed_end = dateparser.parse(ev["end"])
+            if parsed_end.tzinfo is None:
+                parsed_end = parsed_end.replace(tzinfo=ZoneInfo(tz))
+            end_dt = parsed_end
+        except (ValueError, TypeError):
+            pass
+    return end_dt >= (now - timedelta(days=past)) and start_dt <= (now + timedelta(days=horizon))
 
 
 def _previous_payload() -> dict:
@@ -323,7 +390,13 @@ def main() -> int:
         print(line)
         time.sleep(delay)
 
-    manual_events, manual_cat_seed, manual_tag_seed = load_manual_events()
+    # Same (normalised title, date) already covered by a scraped event this
+    # run - a manual entry describing the same real-world event as a source
+    # that's actually online loses to the live one, since that one will
+    # keep itself current without anyone hand-editing a YAML file.
+    scraped_title_dates = {(_fold_title(ev["title"]), ev["start"][:10]) for ev in all_events.values()}
+
+    manual_events, manual_cat_seed, manual_tag_seed, manual_translation_seed = load_manual_events(tz)
     manual_source_order: list[str] = []
     for ev in manual_events:
         if ev["source"] not in manual_source_order:
@@ -337,9 +410,15 @@ def main() -> int:
                        for i, name in enumerate(manual_source_order)}
     manual_kept_by_source = {name: 0 for name in manual_source_order}
     for ev in manual_events:
-        if not within_window(ev["start"], tz, past, horizon):
+        if (ev["_fold_title"], ev["start"][:10]) in scraped_title_dates:
+            continue  # the live scraper already has this one - prefer it
+        # Multi-day manual entries use end (not just start) against the
+        # window - see manual_in_window()'s own docstring for why
+        # within_window() alone is wrong for something like a 3-week run.
+        if not manual_in_window(ev, tz, past, horizon):
             continue
         ev["colour"] = manual_colours[ev["source"]]
+        del ev["_fold_title"]
         all_events.setdefault(ev["uid"], ev)
         manual_kept_by_source[ev["source"]] += 1
     for name in manual_source_order:
@@ -360,7 +439,9 @@ def main() -> int:
                           listing_urls, load_time_cache())
     # Translate first so categorising/tagging both work from the same clean
     # English text as the published page, instead of a mix of languages.
-    translate_events(events, model, load_translation_cache())
+    translation_cache = load_translation_cache()
+    translation_cache.update(manual_translation_seed)
+    translate_events(events, model, translation_cache)
     cat_cache = load_category_cache()
     cat_cache.update(manual_cat_seed)
     tag_cache = load_tag_cache()

@@ -1064,6 +1064,7 @@ function evHTML(e){
       <div class="actions">
         <button data-uid="${e.uid}">Add to my calendar</button>
         <a href="${esc(e.url)}" target="_blank" rel="noopener">View on site →</a>
+        ${e.tickets ? `<a class="tickets" href="${esc(e.tickets)}" target="_blank" rel="noopener">🎟️ Tickets</a>` : ""}
       </div>
     </div>
   </article>`;
