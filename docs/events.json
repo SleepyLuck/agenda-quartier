@@ -1,12 +1,12 @@
 {
-  "generated": "2026-10-01T14:16:13.613664+02:00",
+  "generated": "2026-10-01T15:55:34.241286+02:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
       "name": "La Vieille Chéchette",
       "url": "https://chechette.be/lagenda/",
       "colour": "#E8336D",
-      "count": 15,
+      "count": 16,
       "method": "jsonld",
       "stale": false,
       "last_ok": "2026-10-01"
@@ -630,8 +630,8 @@
     {
       "source": "La Vieille Chéchette",
       "method": "jsonld",
-      "found": 15,
-      "kept": 15,
+      "found": 16,
+      "kept": 16,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -3414,6 +3414,22 @@
       "source": "Demosphere Bruxelles",
       "uid": "a00b423f271f7ae4",
       "colour": "#0F8CA8",
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "18h30 Arpentage AJILE: « En finir avec l’homme nouveau »",
+      "start": "2026-10-26T00:00:00+01:00",
+      "end": "2026-10-26T00:00:00+01:00",
+      "all_day": true,
+      "location": "",
+      "description": "<!-- wp:image {\"id\":7066,\"sizeSlug\":\"large\",\"linkDestination\":\"none\"} --> <figure class=\"wp-block-image size-large\"><img src=\"https://chechette.be/wp-content/uploads/2026/10/capture_decran_2026-10-01_a_10.22.46-1024x329.png\" alt=\"\" class=\"wp-image-7066\"/></figure> <!-- /wp:image --> <!-- wp:paragraph --> <p><strong>AJILE</strong> vous propose une soirée arpentage à propos du livre <strong>\"En finir avec l'homme nouveau</strong><strong>\" de Laura Verquère et Mélanie Gourarier</strong> le <strong>26</strong><strong> octobre 2026 dès 18h15 📖</strong></p> <!-- /wp:paragraph --> <!-- wp:paragraph -",
+      "url": "https://chechette.be/events/arpentage-ajile-en-finir-avec-lhomme-nouveau/",
+      "image": null,
+      "source": "La Vieille Chéchette",
+      "uid": "a571451c0514abeb",
+      "colour": "#E8336D",
+      "time_checked": 3,
       "category": "other",
       "tags": []
     },
