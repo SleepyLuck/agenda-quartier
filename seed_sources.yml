@@ -1,0 +1,113 @@
+# Second batch of candidates (the "Seed" groups: activism-climate, social-english,
+# nightlife, community-neighbourhood, festival-heritage, plus Chahut/brocante/Midis/
+# Atlas/Welzijnszorg detail pages). All marked "Seed: probe.py, then add if readable"
+# in the source brief - none of these are in sources.yml yet.
+#
+# Left OUT of this batch (not legitimate probe targets):
+#   - url: null entries (XR Teamup calendar, Amnesty Belgium pub quiz, TEF Talks -
+#     no URL exists to probe)
+#   - "Hand-follow only (not scraped)" social links (Instagram/Facebook/X/Mastodon/
+#     Bluesky handles for organisers already in sources_inventory.yml) - Instagram
+#     and Facebook are never scraped (login wall, ToS)
+#   - explicitly "Reference only" / "Not an event source" / "Stale...do not use" pages
+#     (Mazette reservations page, Brasserie Atlas background pages, stale 2018-19/2024
+#     Midis pages, Article 27 reference page)
+#   - the Saint-Gilles brocante calendar PDF (not HTML, the pipeline has no PDF rung)
+#   - pages that just duplicate a candidate already in new_sources.yml (Le Rideau web
+#     homepage vs. its season page, WIELS event subpage vs. the existing sources.yml
+#     WIELS entry)
+
+- name: Agenda engagé (Syndicats magazine)
+  url: https://syndicatsmagazine.be/agenda-engage-octobre-2026/
+- name: Protestbase Bruxelles
+  url: https://protestbase.be/manifestations/bruxelles
+- name: Demosphere Bruxelles
+  url: https://bxl.demosphere.net/
+- name: Stuut
+  url: https://stuut.info/
+- name: Extinction Rebellion Belgium events
+  url: https://www.extinctionrebellion.be/en/events
+- name: Critical Mass Brussels
+  url: https://criticalmass.brussels/en/
+- name: Conférences gesticulées (network catalogue)
+  url: https://conferences-gesticulees.net/
+- name: Conférences gesticulées (per-day pages)
+  url: https://conferences-gesticulees.net/events/
+- name: CBCS (Brussels social sector agenda)
+  url: https://cbcs.be/
+- name: Centre d'Action Laïque events
+  url: https://www.laicite.be/evenement/festival-des-libertes-2026/
+- name: River Cleanup
+  url: https://www.river-cleanup.org/
+- name: Info libertaire (agenda posts)
+  url: https://www.infolibertaire.net/
+- name: Side Splitters Comedy Brussels
+  url: https://www.sidesplittersbrussels.com/
+- name: English Comedy Brussels
+  url: https://englishcomedybrussels.com/
+- name: Brussels comedy shows guide (visit.brussels)
+  url: https://www.brusselstourism.org/brussels-comedy-shows/
+- name: Brussels Language Meetup
+  url: https://www.meetup.com/brussels-language-meetup/
+- name: Brussels International Hub Events (Meetup)
+  url: https://www.meetup.com/brusselsinternationalhubevents/
+- name: The Green Fix (Climate Drinks)
+  url: https://thegreenfix.substack.com/
+- name: Selkies Studio sketchbook club
+  url: https://selkiesstudio.com/sketchbook-club
+- name: Latin Clubbing
+  url: https://www.latinclubbing.be/
+- name: Club Carré agenda
+  url: https://carre.be/agenda/
+- name: Ready2night
+  url: https://ready2night.be/
+- name: Resident Advisor - Continental
+  url: https://ra.co/clubs/225697
+- name: Resident Advisor - Brasserie Atlas
+  url: https://ra.co/clubs/176243
+- name: Forest agenda (commune)
+  url: https://forest.brussels/fr/agenda
+- name: Parcours 1190 (Forest)
+  url: https://parcours1190.be/
+- name: Nonante-Neuf asbl (Habrÿs)
+  url: https://www.nonante-neuf.org/
+- name: Théâtre des Martyrs
+  url: https://theatre-martyrs.be/
+- name: Startmoment Samen Tegen Armoede (Welzijnszorg)
+  url: https://samentegenarmoede.be/
+- name: Spectable Saint-Gilles
+  url: https://www.spectable.be/saint-gilles-1060/agenda-culturel/n_2-l_46887.php
+- name: Cityzeum Brussels
+  url: https://www.cityzeum.com/evenement/bruxelles
+- name: Stuut - Festival de conférences gesticulées
+  url: https://stuut.info/Festival-de-conferences-gesticulees-13607
+- name: Brocantes 1060 (Saint-Gilles)
+  url: https://www.brocantes1060.be/
+- name: Quefaire.be brocantes Forest
+  url: https://www.quefaire.be/brocantes/forest
+- name: Quefaire.be brocantes Brussels region
+  url: https://www.quefaire.be/brocantes/region-de-bruxelles
+- name: Brocantes.be (Brussels)
+  url: https://www.brocantes.be/fr/agenda/province/Bruxelles_(19_communes)
+- name: Brocabrac Belgique (Nov)
+  url: https://brocabrac.fr/belgique/novembre/
+- name: Filous.be brocantes
+  url: https://www.filous.be/fr/evenements/187052_brocante-altitude-cent.html
+- name: Forest commune - marchés & brocantes
+  url: https://forest.brussels/fr/themes/culture-sports-cohesion-sociale/marches-brocantes
+- name: GESTU asbl (organiser of Altitude Cent brocante)
+  url: https://www.gestu-africa.org/wp/category/brocante/
+- name: Midis de la Poésie - 75e saison
+  url: https://www.midisdelapoesie.be/75e-saison/
+- name: Midis poésie (alt domain)
+  url: https://midispoesie.be/
+- name: Midis - ULB Culture partner page
+  url: https://culture.ulb.be/fr/carte-ulb-culture/partenaires/midis-de-la-poesie-1
+- name: BARN - Brussels Artist-Run Network
+  url: https://www.brusselsartistrun.net/map/
+- name: ARBA-ESA agenda (past Atlas listings)
+  url: https://arba-esa.be/fr/agenda/1972-2522
+- name: Welzijnszorg - Startmoment 2025 page (pattern for 2026)
+  url: https://www.welzijnszorg.be/startmoment-brussel-samen-tegen-armoede-2025
+- name: UiTinVlaanderen - Startmoment 2025
+  url: https://www.uitinvlaanderen.be/agenda/e/startmoment-samen-tegen-armoede-2025/8c8e0d11-b434-4205-bdfc-528dfee4cf06
