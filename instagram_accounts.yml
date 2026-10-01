@@ -1,0 +1,940 @@
+note: 'Follow by hand (or turn on Instagram post notifications). When a post announces an event, paste the caption into instagram_inbox.yml. Not scraped. Tier A =
+  check weekly (aggregators and your neighbourhood venues), B = every 2 weeks, C = monthly. "evidence" says only that the profile appeared in search results: whether
+  it posts events regularly is NOT verified. Handles are copied from the profile URLs.'
+accounts:
+- handle: ___chahut___
+  organiser: see all_sources.yml
+  check_every_days: 7
+  last_checked: null
+  tier: A
+  evidence: from earlier organiser inventory
+- handle: criticalmassbrussels
+  organiser: see all_sources.yml
+  check_every_days: 7
+  last_checked: null
+  tier: A
+  evidence: from earlier organiser inventory
+- handle: habrys_tierslieu
+  organiser: see all_sources.yml
+  check_every_days: 7
+  last_checked: null
+  tier: A
+  evidence: from earlier organiser inventory
+- handle: la_bellone_bruxelles
+  organiser: La Bellone
+  check_every_days: 7
+  last_checked: null
+  tier: A
+  evidence: from earlier organiser inventory
+- handle: lamaisondulivrebxl
+  organiser: La Maison du Livre (Saint-Gilles)
+  check_every_days: 7
+  last_checked: null
+  tier: A
+  evidence: from earlier organiser inventory
+- handle: latinclubbing
+  organiser: see all_sources.yml
+  check_every_days: 7
+  last_checked: null
+  tier: A
+  evidence: from earlier organiser inventory
+- handle: lerideau.brussels
+  organiser: Le Rideau
+  check_every_days: 7
+  last_checked: null
+  tier: A
+  evidence: from earlier organiser inventory
+- handle: maisonpoemebxl
+  organiser: Maison poème
+  check_every_days: 7
+  last_checked: null
+  tier: A
+  evidence: from earlier organiser inventory
+- handle: mazette.brussels
+  organiser: Mazette
+  check_every_days: 7
+  last_checked: null
+  tier: A
+  evidence: from earlier organiser inventory
+- handle: midispoesie
+  organiser: Midis de la Poésie
+  check_every_days: 7
+  last_checked: null
+  tier: A
+  evidence: from earlier organiser inventory
+- handle: richesclaires
+  organiser: Les Riches-Claires
+  check_every_days: 7
+  last_checked: null
+  tier: A
+  evidence: from earlier organiser inventory
+- handle: sidesplittersbrussels
+  organiser: see all_sources.yml
+  check_every_days: 7
+  last_checked: null
+  tier: A
+  evidence: from earlier organiser inventory
+- handle: theatrevaria
+  organiser: Varia
+  check_every_days: 7
+  last_checked: null
+  tier: A
+  evidence: from earlier organiser inventory
+- handle: thebridge.brussels
+  organiser: The Bridge Theatre
+  check_every_days: 7
+  last_checked: null
+  tier: A
+  evidence: from earlier organiser inventory
+- handle: thegreenfix_
+  organiser: The Green Fix (Climate Drinks)
+  check_every_days: 7
+  last_checked: null
+  tier: A
+  evidence: from earlier organiser inventory
+- handle: tlestanneurs
+  organiser: Les Tanneurs
+  check_every_days: 7
+  last_checked: null
+  tier: A
+  evidence: from earlier organiser inventory
+- handle: tn_wallonie_bruxelles
+  organiser: Théâtre National Wallonie-Bruxelles
+  check_every_days: 7
+  last_checked: null
+  tier: A
+  evidence: from earlier organiser inventory
+- handle: wiels_brussels
+  organiser: WIELS
+  check_every_days: 7
+  last_checked: null
+  tier: A
+  evidence: from earlier organiser inventory
+- handle: theagendabxl
+  organiser: The Agenda (Brussels)
+  type: aggregator
+  area: Brussels-wide
+  tier: A
+  note: Appeared first in 4 of my event searches
+  check_every_days: 7
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: agenda_by_visit.brussels
+  organiser: visit.brussels agenda ("Things to see and do in Brussels")
+  type: aggregator
+  area: Brussels-wide
+  tier: A
+  note: Official tourism agenda
+  check_every_days: 7
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: quefaire.be
+  organiser: Quefaire.be
+  type: aggregator
+  area: Belgium
+  tier: A
+  note: Also has brocante pages on the web
+  check_every_days: 7
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: whatupbrussels
+  organiser: What Up Brussels
+  type: aggregator
+  area: Brussels-wide
+  tier: A
+  note: Nightlife/social listings (type inferred from name)
+  check_every_days: 7
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: 21am.be
+  organiser: 21AM Parties in Brussels
+  type: aggregator
+  area: Brussels-wide
+  tier: B
+  note: Parties
+  check_every_days: 14
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: brusselsmuseums
+  organiser: Brussels Museums
+  type: aggregator
+  area: Brussels-wide
+  tier: B
+  note: Museum events
+  check_every_days: 14
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: culture.be
+  organiser: Culture.be (Fédération Wallonie-Bruxelles)
+  type: aggregator
+  area: Wallonia-Brussels
+  tier: B
+  note: Public culture portal
+  check_every_days: 14
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: activitesbelgique
+  organiser: Activité Belgique
+  type: aggregator
+  area: Belgium
+  tier: C
+  note: Not Brussels-specific
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: brussels.artists
+  organiser: Brussels Artists
+  type: aggregator
+  area: Brussels-wide
+  tier: C
+  note: Art listings (type inferred)
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: brussels.art.square
+  organiser: Brussels Art Square
+  type: aggregator
+  area: Brussels-wide
+  tier: C
+  note: Art listings (type inferred)
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: mdc_saint_gilles
+  organiser: Maison des Cultures de Saint-Gilles
+  type: venue
+  area: Saint-Gilles
+  tier: A
+  note: ''
+  check_every_days: 7
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: biblio_de_stgilles
+  organiser: Biblio de Saint-Gilles
+  type: venue
+  area: Saint-Gilles
+  tier: A
+  note: Library events
+  check_every_days: 7
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: cafemdp
+  organiser: Café Maison du Peuple
+  type: bar/venue
+  area: Saint-Gilles
+  tier: A
+  note: ''
+  check_every_days: 7
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: cafe_parvis
+  organiser: Café Parvis
+  type: bar
+  area: Saint-Gilles
+  tier: B
+  note: ''
+  check_every_days: 14
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: ermitage.saintgilles
+  organiser: L'Ermitage Saint-Gilles
+  type: bar/venue
+  area: Saint-Gilles
+  tier: B
+  note: Type inferred from the search
+  check_every_days: 14
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: lesalizes85
+  organiser: Les Alizés
+  type: bar
+  area: Saint-Gilles
+  tier: C
+  note: Type inferred
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: sounds.brussels
+  organiser: Sounds Jazz Club
+  type: venue
+  area: Ixelles
+  tier: A
+  note: Already in repo sources.yml
+  check_every_days: 7
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: le.strof.brussels
+  organiser: Le Strof
+  type: live music bar
+  area: Brussels
+  tier: B
+  note: ''
+  check_every_days: 14
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: stjazzsurvie
+  organiser: St Jazz Sur Vie
+  type: music
+  area: Saint-Gilles area (unverified)
+  tier: C
+  note: Location unverified
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: popupjazzclub.brussels
+  organiser: Pop-up Jazz Club Brussels
+  type: music
+  area: Brussels
+  tier: B
+  note: ''
+  check_every_days: 14
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: indieskeepingsecretsbxl
+  organiser: Indies Keeping Secrets Brussels
+  type: music
+  area: Brussels
+  tier: B
+  note: ''
+  check_every_days: 14
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: le_brass
+  organiser: BRASS Centre Culturel de Forest
+  type: venue
+  area: Forest
+  tier: A
+  note: Already in repo sources.yml
+  check_every_days: 7
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: forestbrussels
+  organiser: Forest Brussels (commune)
+  type: commune
+  area: Forest
+  tier: B
+  note: ''
+  check_every_days: 14
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: forestsounds.festival
+  organiser: Forest Sounds festival
+  type: festival
+  area: Forest
+  tier: C
+  note: ''
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: fusebrussels
+  organiser: Fuse
+  type: club
+  area: Marolles
+  tier: A
+  note: Already in repo sources.yml
+  check_every_days: 7
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: quartier.des.libertes
+  organiser: Quartier des Libertés
+  type: community
+  area: Brussels (unverified area)
+  tier: B
+  note: ''
+  check_every_days: 14
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: commonshub_bxl
+  organiser: Commons Hub Brussels
+  type: community space
+  area: Brussels centre
+  tier: A
+  note: Hosted a Green Fix meetup
+  check_every_days: 7
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: lesbrigittines
+  organiser: Les Brigittines
+  type: venue
+  area: Marolles
+  tier: A
+  note: ''
+  check_every_days: 7
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: atelier210
+  organiser: Atelier 210
+  type: venue
+  area: Etterbeek
+  tier: B
+  note: ''
+  check_every_days: 14
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: theatredepochebruxelles
+  organiser: Théâtre de Poche
+  type: venue
+  area: Ixelles
+  tier: B
+  note: Poche is in repo sources.yml
+  check_every_days: 14
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: touraplomb
+  organiser: Centre Tour à Plomb
+  type: venue
+  area: Brussels
+  tier: C
+  note: ''
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: ccbruegel
+  organiser: Centre culturel Bruegel
+  type: venue
+  area: Marolles
+  tier: B
+  note: 'Marolles, next to Saint-Gilles (my knowledge: verify)'
+  check_every_days: 14
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: ouioui.brussels
+  organiser: OUI OUI
+  type: venue/bar
+  area: Brussels (unverified area)
+  tier: C
+  note: ''
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: reset.brussels
+  organiser: Reset
+  type: club
+  area: Brussels
+  tier: C
+  note: ''
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: circularium.brussels
+  organiser: Circularium
+  type: community
+  area: Anderlecht
+  tier: B
+  note: Circular economy events
+  check_every_days: 14
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: qsbrussels
+  organiser: Queer & Sober Brussels
+  type: queer
+  area: Brussels
+  tier: B
+  note: ''
+  check_every_days: 14
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: gayhaze.brussels
+  organiser: Gayhaze
+  type: queer
+  area: Brussels
+  tier: B
+  note: ''
+  check_every_days: 14
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: lademence
+  organiser: La Démence
+  type: queer/club
+  area: Brussels
+  tier: B
+  note: ''
+  check_every_days: 14
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: _qommunity_
+  organiser: Queers On the Move (QOM)
+  type: queer
+  area: Brussels
+  tier: B
+  note: ''
+  check_every_days: 14
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: thembrussels
+  organiser: THEM Brussels
+  type: queer
+  area: Brussels
+  tier: C
+  note: ''
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: gelatina_bxl
+  organiser: Gelatina
+  type: queer/party
+  area: Brussels
+  tier: C
+  note: ''
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: singoutbrussels
+  organiser: Sing Out Brussels
+  type: choir
+  area: Brussels
+  tier: C
+  note: ''
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: clapclap.collectif
+  organiser: CLAP! Collectif
+  type: collective
+  area: Brussels
+  tier: C
+  note: ''
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: brusselscomedy
+  organiser: English Comedy Brussels
+  type: comedy
+  area: Brussels
+  tier: A
+  note: Also on web seeds
+  check_every_days: 7
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: belgiancomedynetwork
+  organiser: Belgian Comedy Network
+  type: comedy
+  area: Belgium
+  tier: C
+  note: ''
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: raiderscomedyclub
+  organiser: Raiders Comedy Club Brussels
+  type: comedy
+  area: Brussels
+  tier: B
+  note: ''
+  check_every_days: 14
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: funnywomenbrussels
+  organiser: Funny Women Brussels
+  type: comedy
+  area: Brussels
+  tier: B
+  note: ''
+  check_every_days: 14
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: countdowncomedyclub
+  organiser: Countdown Comedy Club
+  type: comedy
+  area: Brussels (unverified)
+  tier: C
+  note: ''
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: socialmeltingpot
+  organiser: Social Melting Pot
+  type: social
+  area: Brussels (unverified)
+  tier: B
+  note: ''
+  check_every_days: 14
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: laluckbrussels
+  organiser: La Luck Brussels
+  type: social
+  area: Brussels
+  tier: B
+  note: ''
+  check_every_days: 14
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: outpost.brussels
+  organiser: Outpost Brussels
+  type: social
+  area: Brussels
+  tier: C
+  note: ''
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: brussels.runners
+  organiser: Brussels Runners
+  type: sport
+  area: Brussels
+  tier: C
+  note: ''
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: bxlgirls_runclub
+  organiser: BGRC female-only run club
+  type: sport
+  area: Brussels
+  tier: C
+  note: ''
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: boardgamecampus.bxl
+  organiser: Board Game Campus
+  type: games
+  area: Brussels
+  tier: C
+  note: ''
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: barrio.brussels
+  organiser: Barrio Brussels
+  type: bar/club
+  area: Brussels
+  tier: B
+  note: ''
+  check_every_days: 14
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: afrobasebrussels
+  organiser: Afrobase Brussels
+  type: party
+  area: Brussels
+  tier: C
+  note: ''
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: flash_brussels
+  organiser: Flash Club
+  type: club
+  area: Brussels
+  tier: C
+  note: ''
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: cave_brussels
+  organiser: CAVE
+  type: club
+  area: Brussels
+  tier: C
+  note: ''
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: klub.brussels
+  organiser: Klub
+  type: club
+  area: Brussels
+  tier: C
+  note: ''
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: brusselsopenairfestival_bbn
+  organiser: Brussels Open Air Festival
+  type: festival
+  area: Brussels
+  tier: C
+  note: ''
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: rendezvousbxl
+  organiser: RendezVous - Brussels Art Week
+  type: festival
+  area: Brussels
+  tier: C
+  note: ''
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: listenfestivalbrussels
+  organiser: Listen Festival
+  type: festival
+  area: Brussels
+  tier: C
+  note: ''
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: nuitssonores.bxl
+  organiser: Nuits Sonores Brussels
+  type: festival
+  area: Brussels
+  tier: C
+  note: ''
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: balades.sonores.brussels
+  organiser: Balades Sonores Brussels
+  type: walks
+  area: Brussels
+  tier: C
+  note: ''
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: veganizebrussels
+  organiser: Veganize Brussels
+  type: food
+  area: Brussels
+  tier: B
+  note: ''
+  check_every_days: 14
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: brusselsfood.market
+  organiser: Brussels Food Market
+  type: market
+  area: Brussels
+  tier: C
+  note: ''
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: garemaritime_foodmarket
+  organiser: Gare Maritime Food Market
+  type: market
+  area: Brussels
+  tier: C
+  note: ''
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: fox.bxl
+  organiser: Fox Food Market
+  type: market
+  area: Brussels
+  tier: C
+  note: ''
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: marketonbrussels
+  organiser: Market On Brussels
+  type: market
+  area: Brussels
+  tier: C
+  note: ''
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: ratz.bxl
+  organiser: Ratz
+  type: food/bar
+  area: Brussels (unverified)
+  tier: C
+  note: ''
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: brocanteruedeflandre
+  organiser: Brocante Rue de Flandre
+  type: market
+  area: Brussels centre
+  tier: B
+  note: Brocante organiser
+  check_every_days: 14
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: rework.brussels
+  organiser: RE:WORK Brussels
+  type: workshops
+  area: Brussels
+  tier: B
+  note: ''
+  check_every_days: 14
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: ccube_bruxelles
+  organiser: C Cube (café, couture, cantine)
+  type: workshops
+  area: Brussels
+  tier: C
+  note: ''
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: repairtogether
+  organiser: Repair Together
+  type: repair
+  area: Brussels (unverified)
+  tier: C
+  note: Location not confirmed
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: kinographbe
+  organiser: Kinograph / Cineflagey
+  type: cinema
+  area: Ixelles
+  tier: B
+  note: ''
+  check_every_days: 14
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: cinemaritcs
+  organiser: Cinema RITCS
+  type: cinema
+  area: Brussels
+  tier: C
+  note: ''
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: cinema.galeries
+  organiser: Cinéma Galeries
+  type: cinema
+  area: Brussels centre
+  tier: B
+  note: ''
+  check_every_days: 14
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: liberationfilmsasbl
+  organiser: Libération Films
+  type: cinema
+  area: Brussels (unverified)
+  tier: C
+  note: ''
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: librairie_filigranes
+  organiser: Filigranes
+  type: bookshop
+  area: Brussels
+  tier: B
+  note: ''
+  check_every_days: 14
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: librairielibellule
+  organiser: Librairie Libellule
+  type: bookshop
+  area: Brussels (unverified)
+  tier: C
+  note: ''
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: librairiewalloniebruxelles
+  organiser: Librairie Wallonie-Bruxelles
+  type: bookshop
+  area: Brussels
+  tier: C
+  note: ''
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: librairie.ici.sont.les.lions
+  organiser: Ici Sont Les Lions
+  type: bookshop
+  area: Brussels (unverified)
+  tier: C
+  note: ''
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: librairie_meteores
+  organiser: Librairie-Editions Météores
+  type: bookshop
+  area: Brussels
+  tier: B
+  note: ''
+  check_every_days: 14
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: festival_quartierdulivre
+  organiser: Festival Quartier du Livre
+  type: festival
+  area: Brussels (unverified)
+  tier: C
+  note: ''
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: ctej_bruxelles
+  organiser: CTEJ
+  type: kids theatre
+  area: Brussels
+  tier: C
+  note: ''
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: ecoledecirquedebruxelles
+  organiser: École de Cirque de Bruxelles
+  type: kids/family
+  area: Brussels
+  tier: C
+  note: ''
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: jeunetheatrenational
+  organiser: Jeune Théâtre National
+  type: kids/family
+  area: Brussels
+  tier: B
+  note: ''
+  check_every_days: 14
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: soma.brussels
+  organiser: SOMA
+  type: kids/family
+  area: Brussels
+  tier: C
+  note: ''
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: dbkapaddock
+  organiser: DBK Paddock (artist-run space)
+  type: art space
+  area: Brussels
+  tier: C
+  note: ''
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: artistcoworkingbxl
+  organiser: Artist Coworking Brussels
+  type: art
+  area: Brussels
+  tier: C
+  note: ''
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: brussels_is_dancing
+  organiser: Brussels is Dancing
+  type: dance
+  area: Brussels
+  tier: C
+  note: ''
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified
+- handle: brusselsdance
+  organiser: Brussels, dance!
+  type: dance
+  area: Brussels
+  tier: C
+  note: ''
+  check_every_days: 30
+  last_checked: null
+  evidence: appeared in Instagram search results for Brussels event queries (2026-10-01); posting of events not verified

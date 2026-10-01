@@ -1,0 +1,8 @@
+# Paste Instagram/Facebook posts here, then run:  python instagram_intake.py instagram_inbox.yml --accept
+posts: []
+# Example entry (copy, fill, remove the leading '#'):
+#  - account: thegreenfix_
+#    post_url: https://www.instagram.com/p/XXXXXXXX/
+#    posted: 2026-09-20
+#    caption: |
+#      <paste the caption, or type what you read on the screenshot>
