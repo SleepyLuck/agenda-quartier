@@ -99,6 +99,27 @@ def test_listing_block_detected():
     b = D.find_listing_blocks(LISTING, TODAY)
     assert b and b[0]["items"] == 3 and b[0]["item"].startswith("article.ev")
 
+def test_extract_recipe_events():
+    evs = D.extract_recipe_events(LISTING, "https://x.be/agenda", TODAY)
+    assert len(evs) == 3
+    by_title = {e["title"]: e for e in evs}
+    assert by_title["Kabylifornie"]["url"] == "https://x.be/spectacle/kabylifornie"
+    assert by_title["Kabylifornie"]["start"] == "2026-12-11" and by_title["Kabylifornie"]["time"] == "19:30"
+    assert by_title["Ravage tout court"]["start"] == "2026-12-12"
+
+def test_extract_recipe_events_skips_undated_items():
+    html = """<div class="list">
+      <article class="ev"><a href="/a">Dated show</a><span>ven. 11 déc. 19:30</span></article>
+      <article class="ev"><a href="/b">No date here</a><span>Coming soon</span></article>
+      <article class="ev"><a href="/c">Another dated show</a><span>sam. 12 déc. 19:00</span></article>
+      <article class="ev"><a href="/d">Third dated show</a><span>dim. 13 déc. 15:00</span></article>
+    </div>"""
+    evs = D.extract_recipe_events(html, "https://x.be/", TODAY)
+    assert {e["title"] for e in evs} == {"Dated show", "Another dated show", "Third dated show"}
+
+def test_extract_recipe_events_no_listing_returns_empty():
+    assert D.extract_recipe_events("<html><body><p>Nothing here</p></body></html>", "https://x.be/", TODAY) == []
+
 def test_signals():
     s = D.extract_signals(LISTING, "https://x.be/")
     assert "utick" in s["ticket_platforms"] and "instagram" in s["social"] and "facebook" not in s["social"]

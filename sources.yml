@@ -208,17 +208,20 @@ sources:
     url: https://mdc1060.brussels/
     method: llm
 
+  # method: recipe (no API call) upgraded from llm on 2026-10-01: discovery.py's
+  # static analysis found a repeated listing block with dates in each item, so
+  # the page can be parsed directly instead of needing an LLM call.
   - name: Le Rideau
     url: https://lerideau.brussels/spectacles/saison/2026-2027
-    method: llm
+    method: recipe
 
   - name: Théâtre National Wallonie-Bruxelles
     url: https://www.theatrenational.be/en/program/
-    method: llm
+    method: recipe
 
   - name: La Bellone
     url: https://bellone.be/
-    method: llm
+    method: recipe
 
   # Named distinctly from the "FTI Brussel" manual source (manual_events.yml) -
   # sharing a name with a manual source confused the carry-forward/dedup logic
@@ -234,23 +237,25 @@ sources:
     url: https://syndicatsmagazine.be/agenda-engage-octobre-2026/
     method: llm
 
+  # method: recipe (no API call) upgraded from llm on 2026-10-01: same
+  # discovery.py finding as Le Rideau/Théâtre National/La Bellone above.
   - name: Protestbase Bruxelles
     url: https://protestbase.be/manifestations/bruxelles
-    method: llm
+    method: recipe
 
   - name: Stuut
     url: https://stuut.info/
-    method: llm
+    method: recipe
 
   - name: Conférences gesticulées (network catalogue)
     url: https://conferences-gesticulees.net/
-    method: llm
+    method: recipe
 
-  # Richest llm-fallback signal of all 65 candidates probed (~105
-  # date-like strings in the plain-fetch text).
+  # Richest repeated-block signal of all 65 candidates probed (98 dated
+  # items in one listing block) - upgraded from llm to recipe.
   - name: Conférences gesticulées (per-day pages)
     url: https://conferences-gesticulees.net/events/
-    method: llm
+    method: recipe
 
   - name: Centre d'Action Laïque events
     url: https://laicite.be/notre-action/agenda/festival-des-libertes-2026/

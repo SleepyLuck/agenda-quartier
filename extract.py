@@ -31,6 +31,8 @@ import requests
 from bs4 import BeautifulSoup
 from dateutil import parser as dateparser
 
+import discovery
+
 UA = "neighbourhood-events/1.0 (personal event aggregator; contact: you@example.org)"
 TIMEOUT = 25
 
@@ -341,6 +343,26 @@ def collect_events(node, out: list[dict]) -> None:
     for key in ("@graph", "itemListElement", "item", "subEvent", "hasPart", "event"):
         if key in node:
             collect_events(node[key], out)
+
+
+# ----------------------------------------------------------- 3b. recipe (no LLM)
+
+def parse_recipe(html: str, source: str, page_url: str, tz: str) -> list[dict]:
+    """No-LLM fallback: discovery.py's extract_recipe_events() finds the page's repeated
+    listing block (same shape jsonld/wordpress sites don't have) and pulls title/url/date/
+    time straight out of it. Works for plenty of sites that have no feed or schema.org
+    markup at all but do list events as a uniform repeated HTML block - confirmed on 18 of
+    the 22 original sources.yml entries via discovery.py's own static analysis."""
+    today = datetime.now(ZoneInfo(tz)).date()
+    events = []
+    for r in discovery.extract_recipe_events(html, page_url, today):
+        start = r["start"] + (f"T{r['time']}" if r.get("time") else "")
+        raw = {"title": r["title"], "start": start, "end": r.get("end"),
+               "url": r["url"], "description": r.get("description")}
+        ev = normalise_event(raw, source, page_url, tz)
+        if ev:
+            events.append(ev)
+    return events
 
 
 # ----------------------------------------------------------------- 4. LLM
@@ -1015,7 +1037,7 @@ def extract(source_cfg: dict, defaults: dict, skip_llm: bool = False
     horizon_days = int(defaults.get("horizon_days", 120))
     keep_past_days = int(defaults.get("keep_past_days", 1))
 
-    order = [method] if method != "auto" else ["ics", "wordpress", "jsonld", "llm"]
+    order = [method] if method != "auto" else ["ics", "wordpress", "jsonld", "recipe", "llm"]
     last_error = ""
     error_class = ""
     # A robots.txt disallow on this exact URL (ics/jsonld/llm all fetch the
@@ -1044,6 +1066,9 @@ def extract(source_cfg: dict, defaults: dict, skip_llm: bool = False
             elif step == "jsonld":
                 page_html = fetch(url, robots)
                 events = parse_jsonld(page_html, name, url, tz)
+            elif step == "recipe":
+                page_html = fetch(url, robots)
+                events = parse_recipe(page_html, name, url, tz)
             elif step == "llm":
                 page_html = fetch(url, robots)
                 events = parse_llm(page_html, name, url, tz, model,
@@ -1051,11 +1076,13 @@ def extract(source_cfg: dict, defaults: dict, skip_llm: bool = False
             elif step == "browser":
                 page_html = fetch_rendered(url, robots)
                 events = parse_jsonld(page_html, name, url, tz)
+                if not events:
+                    events = parse_recipe(page_html, name, url, tz)
                 if not events and not skip_llm:
                     events = parse_llm(page_html, name, url, tz, model,
                                         horizon_days, keep_past_days)
                 elif not events and not robots_blocked:
-                    last_error = "browser: jsonld empty, llm skipped (billing failure earlier this run)"
+                    last_error = "browser: jsonld/recipe empty, llm skipped (billing failure earlier this run)"
                     error_class = "billing"
             else:
                 continue
