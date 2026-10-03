@@ -101,13 +101,10 @@
   .sidebar .tagline{font-size:.78rem; color:var(--ink-soft); margin:.6rem 0 0}
   .navlist{display:none}
   @media (min-width:1000px){ .navlist{display:flex; flex-direction:column; gap:.15rem; margin-top:1.6rem} }
-  .navlist a, .extlink{display:flex; align-items:center; gap:.7rem; text-decoration:none; color:var(--ink-soft);
+  .navlist a{display:flex; align-items:center; gap:.7rem; text-decoration:none; color:var(--ink-soft);
     font-size:.9rem; font-weight:600; padding:.55rem .6rem; border-radius:9px}
-  .navlist a:hover, .extlink:hover{background:var(--bg); color:var(--ink)}
+  .navlist a:hover{background:var(--bg); color:var(--ink)}
   .navlist a.active{background:var(--accent-soft); color:var(--accent-text)}
-  .extlink{display:none}
-  @media (min-width:1000px){ .extlink{display:flex} }
-  .extlink .ic{flex-shrink:0}
   .qfblock{margin-top:1.4rem}
   @media (min-width:1000px){ .qfblock{margin-top:1.8rem} }
   .qfblock .lbl{font-size:.68rem; font-weight:700; letter-spacing:.09em; text-transform:uppercase; color:var(--ink-faint); margin-bottom:.6rem}
@@ -134,12 +131,6 @@
   /* --------------------------------------------------------- content --*/
   .content{padding:1.1rem var(--sp) 2.5rem}
   @media (min-width:1000px){ .content{padding:1.6rem 2.2rem 3rem} }
-  .topsearch{display:flex; align-items:center; gap:.7rem; margin-bottom:1.3rem}
-  .searchfield{flex:1; display:flex; align-items:center; gap:.6rem; background:var(--card);
-    border:1px solid var(--rule); border-radius:99px; padding:.15rem .3rem .15rem 1.1rem; max-width:34rem}
-  .searchfield svg{flex:none; opacity:.5}
-  .searchfield input{flex:1; border:0; background:none; padding:.65rem 0; min-width:0; font-size:.95rem}
-  .searchfield input::placeholder{color:var(--ink-faint)}
 
   #notices:not(:empty){margin-bottom:1rem}
   .notice{background:var(--notice-bg); border:1px solid var(--notice-border); border-radius:var(--radius); padding:.7rem .9rem; margin-bottom:.6rem; font-size:.87rem}
@@ -375,10 +366,6 @@
     <a href="#about"><svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="8.5"/><path d="M12 11v5.5M12 8v.01"/></svg>About</a>
   </nav>
 
-  <a class="extlink" href="https://www.stoptherich.net/?utm_source=ig&amp;utm_medium=social&amp;utm_content=link_in_bio&amp;fbclid=PAdGRleAUFCDdwZG9mAmZkaWQWUNrQ2PxlYDmSnXoe7jADx5qUn63RzWV4dG4DYWVtAjExAHNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp3ZpUMIntf4GH2onsv_3ZOvOpoXHBCFFy1w4Sip1cRWRkodeAdxJ-cS_Zz0F_aem_oTXphXO4vKlKZZGHi3Z_6g" target="_blank" rel="noopener">
-    <svg class="ic" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.35-4.35"/></svg>Search Events ↗
-  </a>
-
   <div class="qfblock">
     <div class="lbl">Quick filters</div>
     <div class="side-only">
@@ -407,13 +394,6 @@
 </aside>
 
 <main class="content">
-
-  <div class="topsearch">
-    <label class="searchfield">
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
-      <input id="q" type="search" placeholder="Search events, venues, categories…" aria-label="Search an event">
-    </label>
-  </div>
 
   <div id="notices"></div>
 
@@ -555,7 +535,7 @@ const CONTACT_EMAIL = "you@example.org";
 const state = {
   data:null, hidden:new Set(), hiddenCat:new Set(), catById:{}, tagById:{},
   activeTags:new Set(), tz:"Europe/Brussels", timeband:"all",
-  month:null, picked:null, q:"", range:"all",
+  month:null, picked:null, range:"all",
   qf:{tonight:false, free:false, weekend:false, adults:false}, view:"list",
 };
 
@@ -679,15 +659,12 @@ async function load(){
 
 // ------------------------------------------------------------ filtering
 function baseFiltered(){
-  const q = state.q.trim().toLowerCase();
   return state.data.events.filter(e=>{
     if(state.hidden.has(e.source)) return false;
     if(e.category && state.hiddenCat.has(e.category)) return false;
     if(state.activeTags.size && ![...state.activeTags].every(t => (e.tags||[]).includes(t))) return false;
     if(state.qf.adults && !isAdults(e)) return false;
     if(!matchesTimeband(e, state.timeband)) return false;
-    const catLabel = (state.catById[e.category]||{}).label || "";
-    if(q && !(`${e.title} ${e.location} ${e.description} ${e.source} ${catLabel}`.toLowerCase().includes(q))) return false;
     return true;
   });
 }
@@ -1066,10 +1043,9 @@ function renderAgenda(){
 }
 
 function resetFilters(){
-  state.hidden.clear(); state.hiddenCat.clear(); state.activeTags.clear(); state.picked=null; state.q="";
+  state.hidden.clear(); state.hiddenCat.clear(); state.activeTags.clear(); state.picked=null;
   state.qf = {tonight:false, free:false, weekend:false, adults:false};
   state.timeband = "all";
-  document.getElementById("q").value = "";
   document.getElementById("timeband").value = "all";
   document.querySelectorAll("[data-qf]").forEach(b=>b.setAttribute("aria-pressed","false"));
   renderSources(); renderCats(); renderTagFilters(); renderAll();
@@ -1172,7 +1148,6 @@ document.getElementById("viewList").onclick = ()=> setView("list");
 document.getElementById("viewMonth").onclick = ()=> setView("month");
 document.getElementById("prev").onclick = ()=>{ state.month.setMonth(state.month.getMonth()-1); renderGrid(); };
 document.getElementById("next").onclick = ()=>{ state.month.setMonth(state.month.getMonth()+1); renderGrid(); };
-document.getElementById("q").oninput = e => { state.q = e.target.value; renderAll(); };
 document.getElementById("range").onchange = e => { state.range = e.target.value; renderAll(); };
 document.getElementById("timeband").onchange = e => { state.timeband = e.target.value; renderAll(); };
 document.getElementById("pickedClear").onclick = ()=>{ state.picked = null; renderAll(); };
