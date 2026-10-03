@@ -1,0 +1,48 @@
+name: Inspect one source
+
+# Runs the real extraction pipeline for a single named source (see
+# inspect_source.py) and prints every event found plus why it was kept or
+# dropped. For a recipe/jsonld/ics/wordpress source this makes no Anthropic
+# API call; it only does if that source's method is llm/browser and falls
+# through to the llm rung, same as a normal scrape run would.
+
+on:
+  workflow_dispatch:
+    inputs:
+      source:
+        description: "Exact source name, as it appears in sources.yml"
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Install Playwright's Chromium (for browser-method sources)
+        run: playwright install --with-deps chromium
+
+      - name: Inspect
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_WORKSPACE_ID: ${{ secrets.ANTHROPIC_WORKSPACE_ID }}
+        run: python inspect_source.py "${{ github.event.inputs.source }}" | tee inspect_report.txt
+
+      - name: Write job summary
+        if: always()
+        run: |
+          echo '## Inspect report' >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          cat inspect_report.txt >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
