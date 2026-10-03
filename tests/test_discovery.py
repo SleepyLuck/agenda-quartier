@@ -51,6 +51,16 @@ def test_range_over_new_year():
     h = first("15 déc - 6 janv 2027")
     assert h["start"] == date(2026, 12, 15) and h["end"] == date(2027, 1, 6)
 
+def test_apostrophe_two_digit_year_is_not_misread_as_a_day():
+    # BOZAR-style "2 Oct.'26" ... "31 Jan.'27": the apostrophe-prefixed two-digit
+    # year used to get swallowed as a bogus range day ("26 -> 31 Jan." / "6 -> 31
+    # Jan."), producing a fabricated Jan date range. It must now come back as two
+    # separate, correctly-dated single hits instead.
+    hs = D.find_dates("2 Oct.'26 → 31 Jan.'27 From 20 €", TODAY)
+    assert [h["start"] for h in hs] == [date(2026, 10, 2), date(2027, 1, 31)]
+    assert all(h["end"] is None for h in hs)
+    assert all(h["how"] != "range" for h in hs)
+
 def test_time_variants():
     ts = {(h, m) for h, m, _ in D.find_times("19h, 19:30, 7:30 PM, 2pm, 20u15")}
     assert {(19, 0), (19, 30), (14, 0), (20, 15)} <= ts

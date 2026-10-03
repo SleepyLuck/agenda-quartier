@@ -44,10 +44,10 @@ RE_TEXT_DMY = re.compile(
 RE_TEXT_MDY = re.compile(
     rf"{_WD}(?P<mon>{_M})\.?\s+(?P<d>\d{{1,2}})(?:st|nd|rd|th)?(?:,?\s+(?P<y>20\d{{2}}))?(?![\d:a-z])", re.I)
 RE_RANGE = re.compile(
-    rf"(?:du|van|from)?\s*(?P<d1>\d{{1,2}})(?:er)?\.?\s*(?P<m1>{_M})?\.?\s*(?:au|tot|to|-|–|—|>|→)\s*"
+    rf"(?:du|van|from)?\s*(?<!['’])(?<!['’]\d)(?P<d1>\d{{1,2}})(?:er)?\.?\s*(?P<m1>{_M})?\.?\s*(?:au|tot|to|-|–|—|>|→)\s*"
     rf"(?P<d2>\d{{1,2}})(?:er)?\.?\s*(?P<m2>{_M})\.?(?:\s+(?P<y>20\d{{2}}))?(?![a-z])", re.I)
 RE_RANGE_EN = re.compile(
-    rf"(?P<m1>{_M})\.?\s+(?P<d1>\d{{1,2}})(?:st|nd|rd|th)?\s*(?:-|–|—|>|→|to|until|through)\s*"
+    rf"(?P<m1>{_M})\.?\s+(?<!['’])(?<!['’]\d)(?P<d1>\d{{1,2}})(?:st|nd|rd|th)?\s*(?:-|–|—|>|→|to|until|through)\s*"
     rf"(?:(?P<m2>{_M})\.?\s+)?(?P<d2>\d{{1,2}})(?:st|nd|rd|th)?(?:,?\s+(?P<y>20\d{{2}}))?(?![\d:a-z])", re.I)
 RE_TIME = re.compile(
     r"(?<![\d.,])(?P<h>[01]?\d|2[0-3])\s*(?:h|:|u(?=\d))\s*(?P<min>[0-5]\d)?(?:\s*(?P<ap>am|pm))?(?![\d])"
