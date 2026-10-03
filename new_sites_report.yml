@@ -1,0 +1,364 @@
+# Output of the 2026-10-03 find-related-sites run (find-related-sites-instructions.md).
+# One entry per candidate checked via probe.py + source_finder.py score, run on a
+# GitHub Actions runner (this sandbox's own network egress can't reach these sites).
+# verdict: added (now in sources.yml) / candidate (passed-ish, needs a browser/manual
+# follow-up before adding) / failed (checked, did not pass) / blocked (robots.txt or
+# bot-protection refuses the scraper outright).
+checked: 2026-10-03
+
+sites:
+  # ---- added (recipe/llm found real dated events, in-scope) --------------
+  - url: https://lestanneurs.be/
+    group: theatre-performing
+    verdict: added
+    method: auto
+    events_found: 30
+    reason: "recipe block div.c-slider__entry.c-spectacle-card, 30 dated items"
+  - url: https://varia.be/en
+    group: theatre-performing
+    verdict: added
+    method: auto
+    events_found: 4
+    reason: "recipe block div.views-row, 4 dated items"
+  - url: https://www.halles.be/en/
+    group: theatre-performing
+    verdict: added
+    method: auto
+    events_found: 10
+    reason: "recipe block li.agenda__day, 10 dated items"
+  - url: https://www.lamaisondulivre.be/agenda/
+    group: poetry-literature
+    verdict: added
+    method: auto
+    events_found: 12
+    reason: "recipe block (postthumb cards), 12 dated items; prior firewall hit not reproduced"
+  - url: https://forest.brussels/fr/agenda
+    group: neighbourhood-markets
+    verdict: added
+    method: auto
+    events_found: 24
+    reason: "commune's own agenda; recipe block div.col-md-4.views-row.h-100, 24 dated items"
+  - url: https://www.brocantes1060.be/
+    group: neighbourhood-markets
+    verdict: added
+    method: auto
+    events_found: 10
+    reason: "recipe block a.th-past-events-container, 10 dated items"
+  - url: https://lire-et-ecrire.be/
+    group: activism-climate-civic
+    verdict: added
+    method: auto
+    events_found: 18
+    reason: "18 dates in text, 4 commune mentions - passed full score() rule"
+  - url: https://anderlecht.be/
+    group: neighbourhood-markets
+    verdict: added
+    method: auto
+    events_found: 12
+    reason: "commune's own agenda; recipe block tr.row.views-row, 12 dated items - passed full score() rule"
+  - url: https://www.latinclubbing.be/events/?ical=1
+    group: nightlife
+    verdict: added
+    method: ics
+    events_found: 0
+    reason: "real .ics export confirmed live, 0 upcoming events right now but the feed itself works"
+  - url: https://www.saintgillesculture.brussels/agenda
+    group: theatre-performing
+    verdict: added
+    method: browser
+    events_found: 0
+    reason: "Astro SPA, 0 dates in static HTML - needs rendering; aggregator covering several Saint-Gilles venues"
+  - url: https://lesrichesclaires.be/
+    group: theatre-performing
+    verdict: added
+    method: browser
+    events_found: 0
+    reason: "0 dates in static HTML, client-rendered programme"
+  - url: https://mazette.brussels/
+    group: neighbourhood-markets
+    verdict: added
+    method: browser
+    events_found: 0
+    reason: "0 dates in static HTML, month calendar is client-rendered"
+  - url: https://thebridge.brussels/
+    group: theatre-performing
+    verdict: added
+    method: browser
+    events_found: 0
+    reason: "0 dates in static HTML, GoDaddy site builder page, client-rendered programme"
+  - url: https://festivalcrush.be/en/
+    group: theatre-performing
+    verdict: added
+    method: browser
+    events_found: 0
+    reason: "0 dates in static HTML; festival dates (9-12 Dec) confirmed via search, client-rendered"
+  - url: https://www.ante.brussels/en/
+    group: festival-heritage-design
+    verdict: added
+    method: browser
+    events_found: 0
+    reason: "0 dates in static HTML, client-rendered; bookings are on a separate platform"
+
+  # ---- existing sources re-probed after showing up in "no events found" --
+  - url: https://parkpoetik.be/nl/agenda/
+    group: theatre-performing
+    verdict: candidate
+    method: auto
+    events_found: 0
+    reason: "0 dates in static HTML; Park Poétik's own programme runs in summer (confirmed via search) - likely a real seasonal gap, not a scraper bug. Left as-is."
+  - url: https://www.senghor.be/agenda/
+    group: theatre-performing
+    verdict: added
+    method: browser
+    events_found: 0
+    reason: "was timing out; now 200 OK but 0 dates in static HTML - switched auto/llm to browser"
+  - url: https://stgilles.brussels/services/developpement-economique/service-du-developpement-economique/brocantes-braderies-marches-etalages-et-chevalets/
+    group: neighbourhood-markets
+    verdict: candidate
+    method: llm
+    events_found: 0
+    reason: "4 date-like strings still present; last run's 'nothing found' looks like a one-off LLM miss, not structural. Left as-is, will retry on next scrape."
+  - url: https://lerideau.brussels/spectacles/saison/2026-2027
+    group: theatre-performing
+    verdict: candidate
+    method: recipe
+    events_found: 17
+    reason: "probe found a clean 17-item recipe block right now; last run's 'nothing found' looks transient (page content changes). Left as-is."
+
+  # ---- candidate: passed deterministic checks but needs a human/manual look
+  - url: https://www.quefaire.be/brocantes/saint-gilles
+    group: neighbourhood-markets
+    verdict: candidate
+    method: auto
+    events_found: null
+    reason: "not yet probed this run; check for duplicate events against the already-active region-wide Quefaire.be brocantes source before adding"
+  - url: https://mdc1060.brussels/
+    group: neighbourhood-markets
+    verdict: candidate
+    method: auto
+    events_found: null
+    reason: "not yet probed this run"
+  - url: https://www.filous.be/fr/evenements/187052_brocante-altitude-cent.html
+    group: neighbourhood-markets
+    verdict: candidate
+    method: jsonld
+    events_found: 1
+    reason: "single-event page (one schema.org Event node) for the already-known Altitude Cent brocante - a manual_events.yml candidate, not an ongoing source"
+  - url: https://parcoursdartistes.be/
+    group: art-spaces
+    verdict: candidate
+    method: browser
+    events_found: 0
+    reason: "2026 edition ran April 10-19, already past; revisit for the 2027 edition closer to the date"
+
+  # ---- blocked: robots.txt or bot-protection refuses the scraper ---------
+  - url: https://midisdelapoesie.be/nos-evenements/programmation
+    group: poetry-literature
+    verdict: blocked
+    method: null
+    events_found: null
+    reason: "robots.txt: Disallow: / for all agents"
+  - url: https://midispoesie.be/
+    group: poetry-literature
+    verdict: blocked
+    method: null
+    events_found: null
+    reason: "robots.txt disallow"
+  - url: https://ra.co/clubs/225697
+    group: nightlife
+    verdict: blocked
+    method: null
+    events_found: null
+    reason: "HTTP 403 (bot-protection)"
+  - url: https://ra.co/clubs/176243
+    group: art-spaces
+    verdict: blocked
+    method: null
+    events_found: null
+    reason: "HTTP 403 (bot-protection)"
+  - url: https://www.cityzeum.com/evenement/bruxelles
+    group: festival-heritage-design
+    verdict: blocked
+    method: null
+    events_found: null
+    reason: "HTTP 403, Cloudflare challenge page ('Just a moment...')"
+  - url: https://www.infolibertaire.net/
+    group: activism-climate-civic
+    verdict: blocked
+    method: null
+    events_found: null
+    reason: "robots.txt 403 (read as blanket disallow), Cloudflare challenge page"
+  - url: https://www.spectable.be/saint-gilles-1060/agenda-culturel/n_2-l_46887.php
+    group: neighbourhood-markets
+    verdict: blocked
+    method: null
+    events_found: null
+    reason: "robots.txt 403 (read as blanket disallow), Cloudflare challenge page"
+  - url: https://thegreenfix.substack.com/
+    group: activism-climate-civic
+    verdict: blocked
+    method: null
+    events_found: null
+    reason: "robots.txt 403 (read as blanket disallow), Cloudflare challenge page"
+
+  # ---- failed: fetched fine but no usable event listing ------------------
+  - url: https://www.brocantes.be/fr/agenda/province/Bruxelles_(19_communes)
+    group: neighbourhood-markets
+    verdict: failed
+    method: null
+    events_found: 0
+    reason: "404 (dead link)"
+  - url: https://www.uitinvlaanderen.be/agenda/e/startmoment-samen-tegen-armoede-2025/8c8e0d11-b434-4205-bdfc-528dfee4cf06
+    group: talks-professional
+    verdict: failed
+    method: null
+    events_found: 0
+    reason: "410 Gone (2025 event page, dead); robots also disallows /agenda? paths"
+  - url: https://www.brusselsartistrun.net/map/
+    group: art-spaces
+    verdict: failed
+    method: none-or-browser
+    events_found: 0
+    reason: "0 dates in static HTML, a map/directory page rather than an events listing"
+  - url: https://www.brusselstourism.org/brussels-comedy-shows/
+    group: social-english
+    verdict: failed
+    method: none-or-browser
+    events_found: 0
+    reason: "0 dates in static HTML, client-rendered"
+  - url: https://criticalmass.brussels/en/
+    group: activism-climate-civic
+    verdict: failed
+    method: none-or-browser
+    events_found: 0
+    reason: "1kB page, essentially empty shell"
+  - url: https://culture.ulb.be/fr/carte-ulb-culture/partenaires/midis-de-la-poesie-1
+    group: poetry-literature
+    verdict: failed
+    method: none-or-browser
+    events_found: 0
+    reason: "partner-listing page, not an events listing"
+  - url: https://www.extinctionrebellion.be/en/events
+    group: activism-climate-civic
+    verdict: failed
+    method: none-or-browser
+    events_found: 0
+    reason: "0 dates in static HTML, client-rendered"
+  - url: https://www.gestu-africa.org/wp/category/brocante/
+    group: neighbourhood-markets
+    verdict: failed
+    method: llm
+    events_found: 0
+    reason: "4 dates in text but no repeated structure, WordPress category archive"
+  - url: https://www.nonante-neuf.org/
+    group: festival-heritage-design
+    verdict: failed
+    method: none-or-browser
+    events_found: 0
+    reason: "0 dates in static HTML, client-rendered"
+  - url: https://parcours1190.be/
+    group: neighbourhood-markets
+    verdict: failed
+    method: none-or-browser
+    events_found: 0
+    reason: "0 dates in static HTML, client-rendered"
+  - url: https://ready2night.be/
+    group: nightlife
+    verdict: failed
+    method: none-or-browser
+    events_found: 0
+    reason: "2kB page, essentially empty shell"
+  - url: https://www.river-cleanup.org/
+    group: activism-climate-civic
+    verdict: failed
+    method: llm
+    events_found: 0
+    reason: "3 dates in text, no repeated structure, not neighbourhood-specific"
+  - url: https://samentegenarmoede.be/
+    group: activism-climate-civic
+    verdict: failed
+    method: none-or-browser
+    events_found: 0
+    reason: "redirects to a generic Welzijnszorg article page, no 2026 Startmoment page exists yet (only 2024/2025)"
+  - url: https://www.welzijnszorg.be/startmoment-brussel-samen-tegen-armoede-2025
+    group: talks-professional
+    verdict: failed
+    method: none-or-browser
+    events_found: 0
+    reason: "2025 page only; no 2026 edition page found"
+  - url: https://selkiesstudio.com/sketchbook-club
+    group: workshops-creative
+    verdict: failed
+    method: llm
+    events_found: 0
+    reason: "3 dates in text, no repeated structure, single small studio page"
+  - url: https://www.sidesplittersbrussels.com/
+    group: social-english
+    verdict: failed
+    method: none-or-browser
+    events_found: 0
+    reason: "0 dates in static HTML, client-rendered"
+  - url: https://theatre-martyrs.be/
+    group: theatre-performing
+    verdict: failed
+    method: none-or-browser
+    events_found: 0
+    reason: "HTTP 202 with an empty body - inconclusive, revisit later"
+  - url: https://circularium.be/
+    group: activism-climate-civic
+    verdict: failed
+    method: llm
+    events_found: 0
+    reason: "only 3 dates in text, no repeated structure"
+  - url: https://designweek.brussels/
+    group: festival-heritage-design
+    verdict: failed
+    method: none-or-browser
+    events_found: 0
+    reason: "3kB page, essentially empty shell, client-rendered"
+  - url: https://kmplt.org/
+    group: art-spaces
+    verdict: failed
+    method: llm
+    events_found: 0
+    reason: "only 3 dates in text, no repeated structure"
+  - url: https://bx1.be/
+    group: theatre-performing
+    verdict: failed
+    method: recipe
+    events_found: 7
+    reason: "recipe block is generic <li> (7 items) on a regional news site, 0 commune hits - too weak/generic a signal to trust as an events source"
+  - url: https://www.bruxelles.be/
+    group: neighbourhood-markets
+    verdict: failed
+    method: none-or-browser
+    events_found: 0
+    reason: "0 dates in static HTML, client-rendered; commune homepage, not an agenda page"
+  - url: https://jubilee-art.org/
+    group: festival-heritage-design
+    verdict: failed
+    method: llm
+    events_found: 0
+    reason: "6 dates in text but no repeated structure, 0 commune hits"
+  - url: https://bruxelles.article27.be/
+    group: activism-climate-civic
+    verdict: failed
+    method: none-or-browser
+    events_found: 0
+    reason: "1 date-like string, 0 commune hits; reference/partner page, not an agenda"
+  - url: https://conservatoire.be/
+    group: talks-professional
+    verdict: failed
+    method: recipe
+    events_found: 4
+    reason: "only 4 dated items, 0 commune hits; weak signal"
+
+# Priority gaps from find-related-sites-instructions.md section 2 that remain
+# unresolved after this run (no public, scrapable source URL found):
+unresolved_priority_gaps:
+  - Nourrir les débris (Surgir / Brasserie Atlas) - no web page found; ra.co pages for this venue are 403-blocked
+  - Vide-grenier Rue du Monténégro - not on any probed brocante aggregator
+  - GROW Material Thinking (Forest) - no site or Instagram handle found
+  - XR Teamup calendar - no public link found
+  - Amnesty pub quiz, TEF Talks - no organiser page found
+  - Startmoment Samen Tegen Armoede 2026 - only 2024/2025 pages exist; 2026 page not yet published

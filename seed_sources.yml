@@ -3,6 +3,15 @@
 # Atlas/Welzijnszorg detail pages). All marked "Seed: probe.py, then add if readable"
 # in the source brief - none of these are in sources.yml yet.
 #
+# 2026-10-03: all remaining entries below were probed via GitHub Actions
+# (probe.py + source_finder.py score) and did NOT pass - full reasons in
+# new_sites_report.yml. Most common causes: 0 dates in static HTML (likely
+# JS-rendered), robots.txt disallow, bot-protection (403), or a dead link
+# (404/410). Left here (not deleted) so known_sources.py keeps marking them
+# known and a future run doesn't re-probe them from scratch; re-check only
+# if you have reason to think the site changed. Brocantes 1060, Forest
+# (commune agenda) and Latin Clubbing passed and are now in sources.yml.
+#
 # Left OUT of this batch (not legitimate probe targets):
 #   - url: null entries (XR Teamup calendar, Amnesty Belgium pub quiz, TEF Talks -
 #     no URL exists to probe)
@@ -55,8 +64,6 @@
   url: https://thegreenfix.substack.com/
 - name: Selkies Studio sketchbook club
   url: https://selkiesstudio.com/sketchbook-club
-- name: Latin Clubbing
-  url: https://www.latinclubbing.be/
 - name: Club Carré agenda
   url: https://carre.be/agenda/
 - name: Ready2night
@@ -65,8 +72,6 @@
   url: https://ra.co/clubs/225697
 - name: Resident Advisor - Brasserie Atlas
   url: https://ra.co/clubs/176243
-- name: Forest agenda (commune)
-  url: https://forest.brussels/fr/agenda
 - name: Parcours 1190 (Forest)
   url: https://parcours1190.be/
 - name: Nonante-Neuf asbl (Habrÿs)
@@ -81,8 +86,6 @@
   url: https://www.cityzeum.com/evenement/bruxelles
 - name: Stuut - Festival de conférences gesticulées
   url: https://stuut.info/Festival-de-conferences-gesticulees-13607
-- name: Brocantes 1060 (Saint-Gilles)
-  url: https://www.brocantes1060.be/
 - name: Quefaire.be brocantes Forest
   url: https://www.quefaire.be/brocantes/forest
 - name: Quefaire.be brocantes Brussels region

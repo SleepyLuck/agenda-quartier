@@ -1,68 +1,34 @@
 # Candidates to ADD to sources.yml (same format as existing entries).
-# Status per entry: VERIFIED = page or domain fetched / seen in search results on 2026-10-01.
+# Status per entry: VERIFIED = page or domain fetched / seen in search results.
 # Still run `python probe.py <url>` on each: a URL existing does not mean the scraper can read it.
 # Never bypass a firewall/robots block.
+#
+# 2026-10-03: this file's other entries (Saint-Gilles Culture agenda, Le
+# Rideau, Théâtre National, Les Tanneurs, Les Riches-Claires, La Bellone,
+# Varia, Halles de Schaerbeek, La Maison du Livre, Mazette, The Bridge,
+# FTI Brussel, CRUSH festival, ANTE Festival) were probed via GitHub Actions
+# and either already live in sources.yml or promoted there this run - see
+# new_sites_report.yml. What's left below is still genuinely pending.
 
-# ---- Aggregators (one source covers many small venues) ----
-- name: Saint-Gilles Culture (agenda)
-  url: https://www.saintgillesculture.brussels/agenda
-  method: auto            # VERIFIED (fetched): covers Maison Pelgrims, Maison des Cultures, Maison du Peuple, Biblio de St-Gilles...
-- name: Saint-Gilles brocantes & braderies (commune)
-  url: https://stgilles.brussels/services/developpement-economique/service-du-developpement-economique/brocantes-braderies-marches-etalages-et-chevalets/
-  method: llm             # VERIFIED in search results (not fetched). Best lead for vide-greniers like the Rue du Monténégro one.
 - name: Quefaire.be brocantes Saint-Gilles
   url: https://www.quefaire.be/brocantes/saint-gilles
-  method: auto            # VERIFIED in search results (not fetched). Check robots/terms before enabling.
+  method: auto            # VERIFIED in search results (not fetched). NOTE: sources.yml already
+                           # has "Quefaire.be brocantes (Brussels region)", which is region-wide and
+                           # likely already covers Saint-Gilles - check for duplicate events (same
+                           # titles/dates) before adding this narrower page as a separate source.
 - name: Maison des Cultures de Saint-Gilles
   url: https://mdc1060.brussels/
-  method: auto            # VERIFIED in search results (not fetched)
+  method: auto            # VERIFIED in search results (not fetched); not yet probed.
 
-# ---- Venues seen on the photos ----
-- name: Le Rideau
-  url: https://lerideau.brussels/spectacles/saison/2026-2027
-  method: auto            # VERIFIED (fetched event page on same domain). NOTE: v1 of this file had a wrong domain.
-- name: Théâtre National Wallonie-Bruxelles
-  url: https://www.theatrenational.be/en/program/
-  method: auto            # VERIFIED (fetched an event page; dates as 'Vendredi 11.12.2026', labels Lieu/Durée/Langue/Tarif, ticketmatic)
-- name: Les Tanneurs
-  url: https://lestanneurs.be/
-  method: auto            # VERIFIED (fetched CRUSH page)
-- name: Les Riches-Claires
-  url: https://lesrichesclaires.be/
-  method: auto            # VERIFIED in search results
-- name: La Bellone
-  url: https://bellone.be/
-  method: auto            # VERIFIED in search results
-- name: Varia
-  url: https://varia.be/en
-  method: auto            # VERIFIED in search results
-- name: Halles de Schaerbeek
-  url: https://www.halles.be/en/
-  method: auto            # VERIFIED in search results
-- name: La Maison du Livre
-  url: https://www.lamaisondulivre.be/agenda/
-  method: auto            # VERIFIED in search results, but my fetch hit a 'Domaine Public' firewall page: may be unreadable. Test only.
-- name: Mazette (brewpub, Jeu de Balle)
-  url: https://mazette.brussels/
-  method: auto            # VERIFIED (fetched): month calendar on homepage, workshops, Go club, jams. Rest of programme on Facebook only.
-- name: The Bridge Theatre (English-language)
-  url: https://thebridge.brussels/
-  method: auto            # VERIFIED (fetched). Also a Substack newsletter: thebridgebrussels.substack.com
-
-# ---- Festivals / series ----
-- name: Midis de la Poésie
-  url: https://midisdelapoesie.be/nos-evenements/programmation
-  method: auto            # VERIFIED in search results; my fetch failed on robots.txt timeout. Per-event pages: /nos-evenements/programmation/<slug>
-- name: CRUSH festival
-  url: https://festivalcrush.be/en/
-  method: auto            # VERIFIED. 9-12 Dec 2026. Per-show times are on the venue sites.
-- name: FTI Brussel
-  url: https://www.ftifestival.be/programma/brussel
-  method: auto            # VERIFIED. Day pages have no per-session links; workshops on Eventbrite (GLUON).
-- name: ANTE Festival
-  url: https://www.ante.brussels/en/
-  method: auto            # VERIFIED. Visits are on booking.ante.brussels (separate platform).
+# ---- Blocked: do not retry without a different URL -------------------------
+# Midis de la Poésie programming page disallows crawling outright
+# (robots.txt: "Disallow: /" for all agents) - confirmed 2026-10-03 via
+# probe.py. Per the hard rule on robots.txt, this is not scraped. If a
+# non-disallowed page for the same programme turns up, probe that instead.
+# - name: Midis de la Poésie
+#   url: https://midisdelapoesie.be/nos-evenements/programmation
+#   method: llm
 
 # ---- NOT added (no verified URL): Nourrir Bruxelles, AXOSO (firewall), Le 140, Théâtre de la Vie,
-# ---- Théâtre Royal du Parc, CAFA, Forest agenda, Poetik Bazar. Find the real agenda URL first.
+# ---- Théâtre Royal du Parc, CAFA, Poetik Bazar. Find the real agenda URL first.
 # ---- No web trace at all was found for "Surgir asbl" or "Nourrir les débris" (Brasserie Atlas).

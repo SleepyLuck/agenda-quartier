@@ -130,13 +130,22 @@ sources:
     url: https://www.tenweyngaert.be/activiteiten
     method: browser
 
+  # Re-probed 2026-10-03 after showing up in the "no events found" notice:
+  # robots OK, page fetches fine, but 0 date-like strings in static HTML and
+  # Park Poétik's own programme is summer-only (confirmed via search) - this
+  # is very likely a real, seasonal empty agenda right now, not a scraper
+  # bug. Left on auto; revisit if it's still empty once summer programming
+  # would normally be announced.
   - name: Park Poétik
     url: https://parkpoetik.be/nl/agenda/
     method: auto
 
+  # Re-probed 2026-10-03: 0 date-like strings in static HTML (was timing out
+  # before; now returns 200 but empty) - the agenda is rendered client-side.
+  # method: browser (was auto/llm, which would only ever see the empty shell).
   - name: Le Senghor
     url: https://www.senghor.be/agenda/
-    method: auto
+    method: browser
 
   - name: Flagey
     url: https://www.flagey.be/agenda
@@ -200,6 +209,10 @@ sources:
 
   # The rest: no feed/jsonld, but the plain-fetch text has real,
   # dense date-like content for the llm rung once the API key works again.
+  # Re-probed 2026-10-03 after an "llm: nothing found" run: the page still
+  # has ~4 real date-like strings in its text, so the rung should work -
+  # that miss looks like a one-off LLM-extraction failure, not a structural
+  # break. Left on llm; re-check if it keeps coming back empty.
   - name: Saint-Gilles brocantes & braderies (commune)
     url: https://stgilles.brussels/services/developpement-economique/service-du-developpement-economique/brocantes-braderies-marches-etalages-et-chevalets/
     method: llm
@@ -211,6 +224,10 @@ sources:
   # method: recipe (no API call) upgraded from llm on 2026-10-01: discovery.py's
   # static analysis found a repeated listing block with dates in each item, so
   # the page can be parsed directly instead of needing an LLM call.
+  # Re-probed 2026-10-03 after a "recipe: nothing found" run: the page right
+  # now has a clean div.col-8-sm.col-6-xmd block with 17 dated items, so the
+  # recipe rung reads it fine - that miss looks transient (site content
+  # changes as the season page is edited), not a structural break.
   - name: Le Rideau
     url: https://lerideau.brussels/spectacles/saison/2026-2027
     method: recipe
@@ -268,3 +285,89 @@ sources:
   - name: Club Carré agenda
     url: https://carre.be/agenda/
     method: llm
+
+  # --- Candidates added 2026-10-03, verified via probe.py on a GitHub
+  # Actions runner (this sandbox's own network egress is locked down and
+  # can't reach arbitrary sites). 15 of 50+ checked passed: robots allow
+  # them, each lists several real dated events, and they fit the
+  # neighbourhood/event-type brief in find-related-sites-instructions.md.
+  # Full results (passes, fails, and why) are in new_sites_report.yml. -----
+
+  # recipe: 30 dated items in div.c-slider__entry.c-spectacle-card.
+  - name: Les Tanneurs
+    url: https://lestanneurs.be/
+    method: auto
+
+  # recipe: 4 dated items in div.views-row.
+  - name: Varia
+    url: https://varia.be/en
+    method: auto
+
+  # recipe: 10 dated items in li.agenda__day.
+  - name: Halles de Schaerbeek
+    url: https://www.halles.be/en/
+    method: auto
+
+  # recipe: 12 dated items (postthumb cards). Probe noted a prior fetch hit
+  # a "Domaine Public" firewall page - came back clean this time, but the
+  # scrape report's error_class will show if that resurfaces.
+  - name: La Maison du Livre
+    url: https://www.lamaisondulivre.be/agenda/
+    method: auto
+
+  # recipe: 24 dated items in div.col-md-4.views-row.h-100 - the commune's
+  # own agenda, strong neighbourhood match (Forest is in the priority list).
+  - name: Forest (commune agenda)
+    url: https://forest.brussels/fr/agenda
+    method: auto
+
+  # recipe: 10 dated items in a.th-past-events-container.
+  - name: Brocantes 1060 (Saint-Gilles)
+    url: https://www.brocantes1060.be/
+    method: auto
+
+  # llm: 18 date-like strings, commune mentioned 4 times (Saint-Gilles,
+  # Forest, Ixelles, Anderlecht all in its text) - alphabetisation
+  # association, civic/activism fit.
+  - name: Lire et Écrire
+    url: https://lire-et-ecrire.be/
+    method: auto
+
+  # recipe: 12 dated items in tr.row.views-row - the commune's own agenda.
+  - name: Anderlecht (commune agenda)
+    url: https://anderlecht.be/
+    method: auto
+
+  # Real .ics export (confirmed live), currently 0 upcoming events but the
+  # feed itself is clean - will self-populate. method: ics fetches source
+  # url directly as an ics file, so url must be the feed itself.
+  - name: Latin Clubbing
+    url: https://www.latinclubbing.be/events/?ical=1
+    method: ics
+
+  # The next six all came back with 0 dates in static HTML (client-rendered
+  # agendas) - method: browser renders with headless Chromium first, same
+  # as GC Pianofabriek/WIELS/GC Ten Weyngaert/Le Senghor above.
+  - name: Saint-Gilles Culture (agenda)
+    url: https://www.saintgillesculture.brussels/agenda
+    method: browser
+
+  - name: Les Riches-Claires
+    url: https://lesrichesclaires.be/
+    method: browser
+
+  - name: Mazette (brewpub, Jeu de Balle)
+    url: https://mazette.brussels/
+    method: browser
+
+  - name: The Bridge Theatre (English-language)
+    url: https://thebridge.brussels/
+    method: browser
+
+  - name: CRUSH festival
+    url: https://festivalcrush.be/en/
+    method: browser
+
+  - name: ANTE Festival
+    url: https://www.ante.brussels/en/
+    method: browser
