@@ -109,6 +109,29 @@ def test_listing_block_detected():
     b = D.find_listing_blocks(LISTING, TODAY)
     assert b and b[0]["items"] == 3 and b[0]["item"].startswith("article.ev")
 
+# U-Square confirmed: an "upcoming events" block and a "past events" archive can share
+# the exact same container/item markup. The archive usually has more items (it only
+# grows), so a bigger block must not automatically win over one whose dates are real.
+PAST_VS_FUTURE = """
+<div class="archive"><div class="row">
+ <article class="ev"><a href="/e/1">Old show 1</a><span>ven. 3 oct. 19:30</span></article>
+ <article class="ev"><a href="/e/2">Old show 2</a><span>sam. 4 oct. 19:00</span></article>
+ <article class="ev"><a href="/e/3">Old show 3</a><span>dim. 5 oct. 15:00</span></article>
+ <article class="ev"><a href="/e/4">Old show 4</a><span>lun. 6 oct. 19:00</span></article>
+</div></div>
+<div class="upcoming"><div class="row">
+ <article class="ev"><a href="/e/5">Kabylifornie</a><span>ven. 11 déc. 19:30</span></article>
+ <article class="ev"><a href="/e/6">Ravage tout court</a><span>sam. 12 déc. 19:00</span></article>
+ <article class="ev"><a href="/e/7">Une traversée</a><span>ven. 11 déc. 21:15</span></article>
+</div></div>"""
+
+def test_future_leaning_block_wins_over_a_bigger_past_block():
+    today = date(2026, 10, 8)  # the "archive" block's 4 dates are all already in the past
+    blocks = D.find_listing_blocks(PAST_VS_FUTURE, today)
+    assert blocks[0]["with_future"] == 3 and "Kabylifornie" in blocks[0]["sample"]
+    evs = D.extract_recipe_events(PAST_VS_FUTURE, "https://x.be/", today)
+    assert {e["title"] for e in evs} == {"Kabylifornie", "Ravage tout court", "Une traversée"}
+
 def test_extract_recipe_events():
     evs = D.extract_recipe_events(LISTING, "https://x.be/agenda", TODAY)
     assert len(evs) == 3

@@ -52,7 +52,7 @@ def main(argv: list[str]) -> int:
         print(f"{len(blocks)} repeated-listing candidate(s) (best first):\n")
         for b in blocks:
             print(f"parent={b['parent']}  item={b['item']}  items={b['items']}  "
-                  f"with_date={b['with_date']}  with_link={b['with_link']}")
+                  f"with_date={b['with_date']}  with_link={b['with_link']}  with_future={b['with_future']}")
             print(f"  sample: {b['sample']}\n")
         return 0
 

@@ -376,7 +376,13 @@ def instagram_handles(html_or_text: str) -> list[str]:
 # ------------------------------------------------------------------ repeated listing blocks
 def _listing_candidates(soup, today: date | None, min_items: int) -> list[tuple]:
     """Shared core for find_listing_blocks()/extract_recipe_events(): containers whose
-    children repeat and mostly carry a date. Returns (parent_tag, item_tags, with_date, with_link)."""
+    children repeat and mostly carry a date. Returns (parent_tag, item_tags, with_date,
+    with_link, with_future). Some sites (U-Square confirmed) render an "upcoming events"
+    block and a "past events" archive with the IDENTICAL container/item markup, just in
+    different places on the page - ranking on raw item count alone picks whichever is
+    longer, which is usually the ever-growing archive. with_future (how many items have
+    a date that hasn't passed) breaks that tie towards the block that's actually useful."""
+    today = today or date.today()
     out = []
     for parent in soup.find_all(True):
         kids = [c for c in parent.find_all(True, recursive=False)]
@@ -387,11 +393,13 @@ def _listing_candidates(soup, today: date | None, min_items: int) -> list[tuple]
         if n < min_items:
             continue
         items = [k for k in kids if (k.name, tuple(sorted(k.get("class", [])))) == (name, cls)]
-        dated = [k for k in items if find_dates(k.get_text(" ", strip=True), today) or k.find("time")]
+        item_dates = [find_dates(k.get_text(" ", strip=True), today) for k in items]
+        dated = [k for k, ds in zip(items, item_dates) if ds or k.find("time")]
         linked = [k for k in items if k.find("a", href=True)]
+        future = sum(1 for ds in item_dates if ds and max(d.get("end") or d["start"] for d in ds) >= today)
         if len(dated) >= max(min_items, int(0.6 * n)):
-            out.append((parent, items, len(dated), len(linked)))
-    return sorted(out, key=lambda b: (-b[2], -b[3]))
+            out.append((parent, items, len(dated), len(linked), future))
+    return sorted(out, key=lambda b: (-b[4], -b[2], -b[3]))
 
 
 def find_listing_blocks(html: str, today: date | None = None, min_items: int = 3) -> list[dict]:
@@ -401,12 +409,12 @@ def find_listing_blocks(html: str, today: date | None = None, min_items: int = 3
     for t in soup(["script", "style", "noscript", "nav", "footer"]):
         t.decompose()
     best = []
-    for parent, items, with_date, with_link in _listing_candidates(soup, today, min_items):
+    for parent, items, with_date, with_link, with_future in _listing_candidates(soup, today, min_items):
         k = items[0]
         cls = k.get("class", [])
         best.append({"parent": _css(parent), "item": k.name + ("." + ".".join(cls) if cls else ""),
                      "items": len(items), "with_date": with_date, "with_link": with_link,
-                     "sample": k.get_text(" ", strip=True)[:100]})
+                     "with_future": with_future, "sample": k.get_text(" ", strip=True)[:100]})
     return best[:5]
 
 
@@ -421,7 +429,7 @@ def extract_recipe_events(html: str, base: str, today: date | None = None, min_i
     candidates = _listing_candidates(soup, today, min_items)
     if not candidates:
         return []
-    _, items, _, _ = candidates[0]
+    _, items, _, _, _ = candidates[0]
     out = []
     for item in items:
         text = item.get_text(" ", strip=True)

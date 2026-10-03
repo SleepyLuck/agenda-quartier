@@ -122,7 +122,15 @@ def fetch_rendered(url: str, respect_robots: bool = True, wait_ms: int = 3000) -
             except PlaywrightError:
                 pass  # sites that poll continuously never reach networkidle; use what loaded
             page.wait_for_timeout(wait_ms)
-            return page.content()
+            try:
+                return page.content()
+            except PlaywrightError:
+                # the page was mid-navigation (a client-side redirect/reload
+                # fired after networkidle) - give it a moment to settle and
+                # try once more rather than losing the whole source to a
+                # timing race.
+                page.wait_for_timeout(wait_ms)
+                return page.content()
         finally:
             browser.close()
 
