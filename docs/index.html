@@ -320,13 +320,18 @@
   .ongoing-head{font-size:.72rem; font-weight:800; letter-spacing:.07em; text-transform:uppercase;
     color:var(--ink-faint); margin-bottom:.5rem}
   .ongoing-head .ct{font-weight:600; text-transform:none; letter-spacing:0; margin-left:.3rem}
-  .ongoing-row{display:flex; align-items:center; gap:.5rem; flex-wrap:wrap; padding:.45rem 0;
-    border-bottom:1px solid var(--rule); text-decoration:none; color:inherit; font-size:.85rem}
+  .ongoing-row{display:flex; align-items:center; gap:.5rem; padding:.45rem 0;
+    border-bottom:1px solid var(--rule); font-size:.85rem}
   .ongoing-row:last-child{border-bottom:0}
+  .ongoing-row > a{display:flex; align-items:center; gap:.5rem; flex-wrap:wrap; flex:1; min-width:0;
+    text-decoration:none; color:inherit}
   .ongoing-row .swatch{width:.5rem;height:.5rem;border-radius:99px;flex:none}
   .ongoing-title{font-weight:700; flex:1; min-width:10rem}
   .ongoing-source{color:var(--ink-soft)}
   .ongoing-range{color:var(--ink-faint); font-variant-numeric:tabular-nums; white-space:nowrap}
+  .ongoing-add{flex:none; background:none; border:1px solid var(--rule); border-radius:99px;
+    width:2rem; height:2rem; font-size:.85rem; line-height:1; cursor:pointer}
+  .ongoing-add:hover{background:var(--bg)}
 
   .empty{background:var(--card);border:1px dashed var(--rule);border-radius:var(--radius);padding:1.5rem;max-width:60ch}
   .empty h3{margin:0 0 .4rem;font-size:1.05rem}
@@ -1083,13 +1088,16 @@ function resetFilters(){
 // that genuinely time-bound events live in.
 function ongoingRowHTML(e){
   const cat = state.catById[e.category];
-  return `<a class="ongoing-row" href="${esc(e.url)}" target="_blank" rel="noopener">
-    <span class="swatch" style="background:${e.colour}"></span>
-    ${cat ? `<span aria-hidden="true">${cat.emoji}</span>` : ""}
-    <span class="ongoing-title">${esc(e.title)}</span>
-    <span class="ongoing-source">${esc(e.source)}</span>
-    <span class="ongoing-range">${esc(fmtCardDate(e.start))} → ${esc(fmtCardDate(e.end))}</span>
-  </a>`;
+  return `<div class="ongoing-row">
+    <a href="${esc(e.url)}" target="_blank" rel="noopener">
+      <span class="swatch" style="background:${e.colour}"></span>
+      ${cat ? `<span aria-hidden="true">${cat.emoji}</span>` : ""}
+      <span class="ongoing-title">${esc(e.title)}</span>
+      <span class="ongoing-source">${esc(e.source)}</span>
+      <span class="ongoing-range">${esc(fmtCardDate(e.start))} → ${esc(fmtCardDate(e.end))}</span>
+    </a>
+    <button class="ongoing-add" data-uid="${e.uid}" title="Add to my calendar" aria-label="Add to my calendar">📅</button>
+  </div>`;
 }
 
 function ongoingBlockHTML(events){
