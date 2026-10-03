@@ -12,6 +12,10 @@ on:
       source:
         description: "Exact source name, as it appears in sources.yml"
         required: true
+      mode:
+        description: "Extra flag: --blocks (list every repeated-listing candidate) or --rendered (after JS runs)"
+        required: false
+        default: ""
 
 permissions:
   contents: read
@@ -37,7 +41,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           ANTHROPIC_WORKSPACE_ID: ${{ secrets.ANTHROPIC_WORKSPACE_ID }}
-        run: python inspect_source.py "${{ github.event.inputs.source }}" | tee inspect_report.txt
+        run: python inspect_source.py "${{ github.event.inputs.source }}" ${{ github.event.inputs.mode }} | tee inspect_report.txt
 
       - name: Write job summary
         if: always()
