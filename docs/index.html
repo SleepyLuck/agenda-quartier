@@ -129,7 +129,7 @@
   .newsletter button{background:#fff; color:var(--accent); border:0; border-radius:8px; width:2.2rem; font-weight:800}
 
   /* --------------------------------------------------------- content --*/
-  .content{padding:1.1rem var(--sp) 2.5rem}
+  .content{padding:1.1rem var(--sp) 2.5rem; min-width:0}
   @media (min-width:1000px){ .content{padding:1.6rem 2.2rem 3rem} }
 
   #notices:not(:empty){margin-bottom:1rem}
@@ -282,8 +282,10 @@
   td.picked{background:var(--accent-soft);box-shadow:inset 0 0 0 2px var(--accent)}
   .dnum{font-size:.72rem;color:var(--ink-soft);display:inline-flex;align-items:center;justify-content:center;
     width:1.35rem;height:1.35rem;border-radius:99px}
-  .bars{display:flex;flex-wrap:wrap;gap:2px;margin-top:3px}
+  .bars{display:flex;flex-wrap:wrap;align-items:center;gap:2px;margin-top:3px}
   .bar{height:4px;width:8px;border-radius:99px}
+  .bar-ongoing{height:4px;width:8px;border-radius:99px;background:none;border:1.5px solid;box-sizing:border-box}
+  .bar-more{font-size:.58rem;font-weight:700;color:var(--ink-faint);line-height:1;margin-left:1px}
   .pickedbar{display:flex; align-items:center; justify-content:space-between; gap:.7rem; flex-wrap:wrap;
     background:var(--accent-soft); color:var(--accent-text); border-radius:99px; padding:.5rem 1rem; margin:1rem 0; font-size:.86rem; font-weight:700}
   .pickedbar button{background:none;border:0;color:var(--accent-text);font-weight:700;text-decoration:underline; font-size:.82rem}
@@ -312,6 +314,19 @@
     font-size:.82rem;font-weight:600;text-decoration:none;min-height:38px;display:inline-flex;align-items:center;gap:.3rem
   }
   .actions a:hover,.actions button:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
+
+  /* ongoing / multi-day exhibitions, kept apart from the timed list above */
+  .ongoing-block{margin-top:1rem; padding-top:.8rem; border-top:1px dashed var(--rule)}
+  .ongoing-head{font-size:.72rem; font-weight:800; letter-spacing:.07em; text-transform:uppercase;
+    color:var(--ink-faint); margin-bottom:.5rem}
+  .ongoing-head .ct{font-weight:600; text-transform:none; letter-spacing:0; margin-left:.3rem}
+  .ongoing-row{display:flex; align-items:center; gap:.5rem; flex-wrap:wrap; padding:.45rem 0;
+    border-bottom:1px solid var(--rule); text-decoration:none; color:inherit; font-size:.85rem}
+  .ongoing-row:last-child{border-bottom:0}
+  .ongoing-row .swatch{width:.5rem;height:.5rem;border-radius:99px;flex:none}
+  .ongoing-title{font-weight:700; flex:1; min-width:10rem}
+  .ongoing-source{color:var(--ink-soft)}
+  .ongoing-range{color:var(--ink-faint); font-variant-numeric:tabular-nums; white-space:nowrap}
 
   .empty{background:var(--card);border:1px dashed var(--rule);border-radius:var(--radius);padding:1.5rem;max-width:60ch}
   .empty h3{margin:0 0 .4rem;font-size:1.05rem}
@@ -560,6 +575,11 @@ const FREE_RE = /\b(free|no charge|free admission|free entry|complimentary|gratu
 const isFree = e => (e.tags||[]).includes("free") || FREE_RE.test(`${e.title} ${e.description}`);
 const isRecurring = e => (e.tags||[]).includes("recurring");
 const isAdults = e => (e.tags||[]).includes("adults");
+// An exhibition/festival that spans several days, as opposed to a single
+// sitting with a start time - these clutter a day's event list next to
+// genuinely time-bound events, so they're rendered separately (see
+// renderToday/renderAgenda's "ongoing" split) instead of interleaved.
+const isOngoingSpan = e => !!(e.end && dayKey(e.end) !== dayKey(e.start));
 // A recurring single-sitting event (a weekly workshop, not a multi-day
 // exhibition) only ever carries one occurrence's own date/time - showing
 // just "9 Dec" reads as one-off and makes the series look missing on every
@@ -855,7 +875,7 @@ function miniRowHTML(e){
 function cardHTML(e){
   const cat = state.catById[e.category];
   const recurring = isRecurring(e);
-  const multiDay = recurring && e.end && dayKey(e.end) !== dayKey(e.start);
+  const multiDay = isOngoingSpan(e);
   const dateLine = multiDay
     ? `Ongoing through ${fmtCardDate(e.end)}`
     : recurring
@@ -977,10 +997,12 @@ function renderGrid(){
   for(let d=1; d<=total; d++){
     const key = `${y}-${pad(mo+1)}-${pad(d)}`;
     const evs = byDay[key] || [];
-    const bars = evs.slice(0,6).map(e=>`<span class="bar" style="background:${e.colour}"></span>`).join("");
+    const shown = evs.slice(0,6);
+    const bars = shown.map(e=>`<span class="bar${isOngoingSpan(e)?" bar-ongoing":""}" style="${isOngoingSpan(e)?`border-color:${e.colour}`:`background:${e.colour}`}"></span>`).join("");
+    const overflow = evs.length > shown.length ? `<span class="bar-more">+${evs.length-shown.length}</span>` : "";
     const cls = ["day", key===todayKey?"today":"", key===state.picked?"picked":""].join(" ");
     row += `<td class="${cls}" data-key="${key}" tabindex="0" role="button"
-             aria-label="${d}, ${evs.length} event(s)"><span class="dnum">${d}</span><div class="bars">${bars}</div></td>`;
+             aria-label="${d}, ${evs.length} event(s)"><span class="dnum">${d}</span><div class="bars">${bars}${overflow}</div></td>`;
     cell++;
     if(cell%7===0){ html += `<tr>${row}</tr>`; row=""; }
   }
@@ -1024,8 +1046,11 @@ function renderAgenda(){
   list.forEach(e=>{ (groups[dayKey(e.start)] ||= []).push(e); });
 
   box.innerHTML = Object.keys(groups).sort().map(key=>{
-    const p = dateParts(groups[key][0].start, {weekday:"long",month:"long",year:"numeric"});
-    const catsHTML = groupByCategory(groups[key]).map(g => `
+    const dayEvents = groups[key];
+    const trueEvents = dayEvents.filter(e => !isOngoingSpan(e));
+    const ongoingEvents = dayEvents.filter(isOngoingSpan);
+    const p = dateParts(dayEvents[0].start, {weekday:"long",month:"long",year:"numeric"});
+    const catsHTML = groupByCategory(trueEvents).map(g => `
       <div class="catgroup">
         <div class="catgroup-head">${g.cat ? `<span aria-hidden="true">${g.cat.emoji}</span> ${esc(g.cat.label)}` : "Other"}<span class="ct">${g.events.length}</span></div>
         ${g.events.map(evHTML).join("")}
@@ -1034,6 +1059,7 @@ function renderAgenda(){
       <div class="dayhead"><span class="dd">${key.slice(8)}</span>
       <span class="rest">${esc(p.month)} ${esc(p.year)} — ${esc(p.weekday)}</span></div>
       ${catsHTML}
+      ${ongoingBlockHTML(ongoingEvents)}
     </section>`;
   }).join("");
 
@@ -1051,14 +1077,31 @@ function resetFilters(){
   renderSources(); renderCats(); renderTagFilters(); renderAll();
 }
 
+// Compact single-line row for an exhibition/festival that spans several
+// days - deliberately no description shown, so the keyword-dense text some
+// sources attach to long-running exhibitions doesn't clutter the day list
+// that genuinely time-bound events live in.
+function ongoingRowHTML(e){
+  const cat = state.catById[e.category];
+  return `<a class="ongoing-row" href="${esc(e.url)}" target="_blank" rel="noopener">
+    <span class="swatch" style="background:${e.colour}"></span>
+    ${cat ? `<span aria-hidden="true">${cat.emoji}</span>` : ""}
+    <span class="ongoing-title">${esc(e.title)}</span>
+    <span class="ongoing-source">${esc(e.source)}</span>
+    <span class="ongoing-range">${esc(fmtCardDate(e.start))} → ${esc(fmtCardDate(e.end))}</span>
+  </a>`;
+}
+
+function ongoingBlockHTML(events){
+  if(!events.length) return "";
+  return `<div class="ongoing-block">
+    <div class="ongoing-head">On display / ongoing<span class="ct">${events.length}</span></div>
+    ${events.map(ongoingRowHTML).join("")}
+  </div>`;
+}
+
 function evHTML(e){
-  const recurring = isRecurring(e);
-  let whenHTML;
-  if(recurring && e.end && dayKey(e.end) !== dayKey(e.start)){
-    whenHTML = `<span class="allday">Ongoing</span>`;
-  }else{
-    whenHTML = whenColHTML(e, false);
-  }
+  const whenHTML = whenColHTML(e, false);
   const cat = state.catById[e.category];
   const soon = soonLabel(e);
   const free = isFree(e);
