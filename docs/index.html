@@ -8,7 +8,8 @@
 <meta property="og:title" content="Neighbourhood Events">
 <meta property="og:description" content="Your local guide to what's happening in Saint-Gilles.">
 <meta property="og:type" content="website">
-<meta name="theme-color" content="#F7F7FB">
+<meta name="theme-color" content="#F7F7FB" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121218" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2315151F'/%3E%3Ccircle cx='16' cy='14' r='6' fill='%235B4FE0'/%3E%3Cpath d='M16 30c-4-5-7-9-7-13a7 7 0 0 1 14 0c0 4-3 8-7 13Z' fill='none' stroke='%235B4FE0' stroke-width='2'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,6 +22,36 @@
     --focus:#5B4FE0;
     --sp:clamp(1rem,2.5vw,2rem);
     --radius:14px; --sidebar-w:264px;
+    /* --accent-text: accent used as a TEXT colour on the page background.
+       Equal to --accent in light mode; dark mode brightens it, since the
+       plain brand purple only reaches ~3.2:1 on a near-black background
+       (fails WCAG AA) while staying ~5.8:1 as white-on-accent button fill -
+       the two uses need different values, this one is text-only. */
+    --accent-text:var(--accent);
+    /* overlay-bg/-ink: toast, time badge, "18+" chip - a fixed dark chip
+       with light text, independent of the page theme (unlike --ink, this
+       never flips to a light colour in dark mode). */
+    --overlay-bg:#15151F; --overlay-ink:#FFFFFF;
+    --chip-bg:#F1F0F7; --chip-blue-bg:#E8F1FE; --chip-blue-ink:#1B6FE0;
+    --chip-weekend-bg:#FFF1E0; --chip-weekend-ink:#B36B00;
+    --chip-adults-bg:#EFEFF3;
+    --notice-bg:#FFF6E5; --notice-border:#F0D48A;
+    --notice-stale-bg:#FDEAEA; --notice-stale-border:#E6ABAB;
+    --skel-stop:#EFEEF7;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{
+      --bg:#121218; --ink:#F4F3F8; --ink-soft:#ABABBD; --ink-faint:#74748A;
+      --rule:#2A2A38; --card:#1B1B24;
+      --accent-soft:#241F3D; --accent-text:#9B90FF;
+      --green-soft:#0F2B1C;
+      --chip-bg:#242430; --chip-blue-bg:#1B2740; --chip-blue-ink:#7FB1FF;
+      --chip-weekend-bg:#332712; --chip-weekend-ink:#E0A43D;
+      --chip-adults-bg:#242430;
+      --notice-bg:#3A2E10; --notice-border:#6B5420;
+      --notice-stale-bg:#3A1A1A; --notice-stale-border:#7A3A3A;
+      --skel-stop:#28283A;
+    }
   }
   *{box-sizing:border-box}
   html{-webkit-text-size-adjust:100%; scroll-behavior:smooth}
@@ -43,7 +74,7 @@
   .linkish:hover{color:var(--ink)}
   .pill-btn{display:inline-flex;align-items:center;gap:.4rem;background:var(--card);border:1px solid var(--rule);
     border-radius:99px;padding:.5rem 1rem;font-size:.85rem;font-weight:600;min-height:42px}
-  .pill-btn:hover{border-color:var(--accent)}
+  .pill-btn:hover{border-color:var(--accent-text)}
   .pill-btn[aria-pressed="true"]{background:var(--accent);color:#fff;border-color:var(--accent)}
 
   /* ---------------------------------------------------------- shell ---*/
@@ -59,7 +90,7 @@
       border-right:1px solid var(--rule); border-bottom:none; padding:1.6rem 1.3rem; display:flex; flex-direction:column}
   }
   .brand{display:flex; align-items:center; gap:.6rem; text-decoration:none; color:var(--ink)}
-  .brand .mark{width:2.2rem;height:2.2rem;border-radius:8px;background:var(--ink);display:flex;align-items:center;justify-content:center;flex:none}
+  .brand .mark{width:2.2rem;height:2.2rem;border-radius:8px;background:var(--overlay-bg);display:flex;align-items:center;justify-content:center;flex:none}
   .brand .name{font-weight:800; font-size:.92rem; letter-spacing:.03em; line-height:1.15; text-transform:uppercase}
   .sidebar .tagline{font-size:.78rem; color:var(--ink-soft); margin:.6rem 0 0}
   .navlist{display:none}
@@ -67,7 +98,7 @@
   .navlist a, .extlink{display:flex; align-items:center; gap:.7rem; text-decoration:none; color:var(--ink-soft);
     font-size:.9rem; font-weight:600; padding:.55rem .6rem; border-radius:9px}
   .navlist a:hover, .extlink:hover{background:var(--bg); color:var(--ink)}
-  .navlist a.active{background:var(--accent-soft); color:var(--accent)}
+  .navlist a.active{background:var(--accent-soft); color:var(--accent-text)}
   .extlink{display:none}
   @media (min-width:1000px){ .extlink{display:flex} }
   .extlink .ic{flex-shrink:0}
@@ -79,7 +110,7 @@
   .qfitem{display:flex; align-items:center; gap:.65rem; width:100%; text-align:left; background:none; border:0;
     border-radius:9px; padding:.5rem .5rem; font-size:.87rem; font-weight:600; color:var(--ink)}
   .qfitem:hover{background:var(--bg)}
-  .qfitem[aria-pressed="true"]{background:var(--accent-soft); color:var(--accent)}
+  .qfitem[aria-pressed="true"]{background:var(--accent-soft); color:var(--accent-text)}
   .qfitem .chip{width:1.7rem;height:1.7rem;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:.9rem;flex:none}
   .qf-mobilerow{display:flex; gap:.5rem; overflow-x:auto; padding:.2rem .1rem .1rem; margin-top:.9rem}
   @media (min-width:1000px){ .qf-mobilerow{display:none} }
@@ -105,8 +136,8 @@
   .searchfield input::placeholder{color:var(--ink-faint)}
 
   #notices:not(:empty){margin-bottom:1rem}
-  .notice{background:#FFF6E5; border:1px solid #F0D48A; border-radius:var(--radius); padding:.7rem .9rem; margin-bottom:.6rem; font-size:.87rem}
-  .notice.stale{background:#FDEAEA; border-color:#E6ABAB}
+  .notice{background:var(--notice-bg); border:1px solid var(--notice-border); border-radius:var(--radius); padding:.7rem .9rem; margin-bottom:.6rem; font-size:.87rem}
+  .notice.stale{background:var(--notice-stale-bg); border-color:var(--notice-stale-border)}
 
   .pagehead{display:flex; align-items:baseline; gap:.7rem; flex-wrap:wrap; margin-bottom:.9rem}
   .pagehead h1{font-size:1.55rem}
@@ -127,7 +158,7 @@
   .rail{flex:1 1 280px; min-width:280px}
   .sectionhead{display:flex; align-items:baseline; justify-content:space-between; gap:1rem; margin-bottom:.8rem}
   .sectionhead h2{font-size:1.05rem}
-  .sectionhead .see-all{font-size:.82rem; font-weight:600; text-decoration:none; color:var(--accent); white-space:nowrap}
+  .sectionhead .see-all{font-size:.82rem; font-weight:600; text-decoration:none; color:var(--accent-text); white-space:nowrap}
   .sectionhead .see-all:hover{text-decoration:underline}
 
   /* detailed row (today list) --------------------------------------------*/
@@ -142,7 +173,7 @@
   .row{display:grid; grid-template-columns:3.6rem 3.4rem 1fr; gap:.85rem; align-items:flex-start;
     padding:.85rem 0; border-bottom:1px solid var(--rule); text-decoration:none; color:inherit}
   .row:last-child{border-bottom:none}
-  .row:hover .row-title{color:var(--accent)}
+  .row:hover .row-title{color:var(--accent-text)}
   .row .when{font-variant-numeric:tabular-nums; font-weight:800; font-size:1.02rem; color:var(--ink); padding-top:.15rem; line-height:1.15}
   .row .when .allday{font-size:.68rem; font-weight:700; color:var(--ink-soft); text-transform:uppercase; letter-spacing:.03em}
   .when .end{display:block;font-size:.68rem;font-weight:600;color:var(--ink-soft);margin-top:.2rem;letter-spacing:0}
@@ -152,7 +183,7 @@
   .row-info{min-width:0}
   .row-toprow{display:flex; align-items:flex-start; gap:.6rem}
   .row-title{font-size:.96rem; font-weight:700; line-height:1.28; flex:1; min-width:0}
-  .row .price{font-size:.86rem; font-weight:800; color:var(--accent); white-space:nowrap}
+  .row .price{font-size:.86rem; font-weight:800; color:var(--accent-text); white-space:nowrap}
   .row .price.free{color:var(--green)}
   .row-meta{display:flex; flex-wrap:wrap; align-items:center; gap:.3rem .6rem; margin-top:.25rem; font-size:.82rem; color:var(--ink-soft)}
   .row-meta .swatch{width:.5rem; height:.5rem; border-radius:99px; flex:none}
@@ -173,10 +204,10 @@
 
   /* small tag chips --------------------------------------------------*/
   .tagchip{font-size:.62rem;font-weight:700;letter-spacing:.03em;text-transform:uppercase;
-    background:#F1F0F7;color:var(--ink-soft);border-radius:99px;padding:.16rem .52rem;white-space:nowrap}
-  .tagchip.recurring{background:#E8F1FE;color:#1B6FE0}
+    background:var(--chip-bg);color:var(--ink-soft);border-radius:99px;padding:.16rem .52rem;white-space:nowrap}
+  .tagchip.recurring{background:var(--chip-blue-bg);color:var(--chip-blue-ink)}
   .tagchip.free{background:var(--green-soft);color:var(--green)}
-  .tagchip.adults{background:var(--ink);color:#fff}
+  .tagchip.adults{background:var(--overlay-bg);color:var(--overlay-ink)}
 
   /* card grid (this weekend) ---------------------------------------------*/
   .section{padding:1.6rem 0}
@@ -191,11 +222,11 @@
   .thumb{aspect-ratio:16/9;display:flex;align-items:center;justify-content:center;font-size:2.3rem;
     border-bottom:1px solid var(--rule);overflow:hidden;position:relative}
   .thumb img{width:100%;height:100%;object-fit:cover;display:block}
-  .timebadge{position:absolute;top:.55rem;left:.55rem;background:var(--ink);color:#fff;
+  .timebadge{position:absolute;top:.55rem;left:.55rem;background:var(--overlay-bg);color:var(--overlay-ink);
     font-variant-numeric:tabular-nums;font-weight:800;font-size:.82rem;letter-spacing:-.01em;
     border-radius:7px;padding:.2rem .5rem;line-height:1;box-shadow:0 2px 8px rgba(0,0,0,.25)}
   .card .body{padding:.85rem .95rem 1rem;display:flex;flex-direction:column;gap:.3rem;flex:1}
-  .card .cat{font-size:.66rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);
+  .card .cat{font-size:.66rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent-text);
     display:flex;align-items:center;gap:.3rem}
   .card .soon{margin-left:auto}
   .card h3{font-size:1rem;line-height:1.28;margin:.1rem 0 0}
@@ -208,7 +239,7 @@
 
   /* skeletons ---------------------------------------------------------*/
   @keyframes shimmer{0%{background-position:-120% 0}100%{background-position:120% 0}}
-  .skel{background:linear-gradient(90deg,var(--card) 25%,#EFEEF7 37%,var(--card) 63%);background-size:400% 100%;
+  .skel{background:linear-gradient(90deg,var(--card) 25%,var(--skel-stop) 37%,var(--card) 63%);background-size:400% 100%;
     animation:shimmer 1.4s ease infinite;border-radius:var(--radius);border:1px solid var(--rule);height:4.4rem}
   .skel.cardskel{height:13.5rem}
   @media (prefers-reduced-motion:reduce){ .skel{animation:none} }
@@ -236,7 +267,7 @@
   .tagfilterbtn{background:var(--bg);border:1px solid var(--rule);border-radius:99px;
     padding:.35rem .8rem;font-size:.74rem;font-weight:700;letter-spacing:.02em;text-transform:uppercase;
     min-height:36px;color:var(--ink-soft)}
-  .tagfilterbtn[aria-pressed="true"]{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .tagfilterbtn[aria-pressed="true"]{background:var(--overlay-bg);color:var(--overlay-ink);border-color:var(--overlay-bg)}
 
   /* month grid ---------------------------------------------------------*/
   .monthbar{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:.7rem}
@@ -249,7 +280,7 @@
   table.cal td{border:1px solid var(--rule);height:3.6rem;vertical-align:top;padding:.25rem .3rem}
   td.day{cursor:pointer}
   td.day:hover{background:var(--accent-soft)}
-  td.out{background:#F7F7FB;color:var(--ink-faint);cursor:default}
+  td.out{background:var(--bg);color:var(--ink-faint);cursor:default}
   td.today .dnum{background:var(--accent);color:#fff;border-radius:99px}
   td.picked{background:var(--accent-soft);box-shadow:inset 0 0 0 2px var(--accent)}
   .dnum{font-size:.72rem;color:var(--ink-soft);display:inline-flex;align-items:center;justify-content:center;
@@ -257,8 +288,8 @@
   .bars{display:flex;flex-wrap:wrap;gap:2px;margin-top:3px}
   .bar{height:4px;width:8px;border-radius:99px}
   .pickedbar{display:flex; align-items:center; justify-content:space-between; gap:.7rem; flex-wrap:wrap;
-    background:var(--accent-soft); color:var(--accent); border-radius:99px; padding:.5rem 1rem; margin:1rem 0; font-size:.86rem; font-weight:700}
-  .pickedbar button{background:none;border:0;color:var(--accent);font-weight:700;text-decoration:underline; font-size:.82rem}
+    background:var(--accent-soft); color:var(--accent-text); border-radius:99px; padding:.5rem 1rem; margin:1rem 0; font-size:.86rem; font-weight:700}
+  .pickedbar button{background:none;border:0;color:var(--accent-text);font-weight:700;text-decoration:underline; font-size:.82rem}
 
   /* agenda list (browse-all view) --------------------------------------*/
   .daygroup{margin-bottom:1.6rem;scroll-margin-top:1rem}
@@ -272,7 +303,7 @@
   .ev .when .allday{font-size:.74rem;font-weight:700;color:var(--ink-soft);text-transform:uppercase;letter-spacing:.03em}
   .ev h4{font-size:1rem;line-height:1.28;margin:0 0 .2rem;font-weight:700}
   .ev .tags{display:flex;flex-wrap:wrap;gap:.2rem .6rem;align-items:center;margin-bottom:.1rem}
-  .ev .cattag{font-size:.68rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--accent)}
+  .ev .cattag{font-size:.68rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--accent-text)}
   .ev .org{display:inline-flex;align-items:center;gap:.35rem;font-size:.82rem;color:var(--ink-soft)}
   .ev .org .swatch{width:.55rem;height:.55rem;border-radius:99px;flex:none}
   .ev .where{font-size:.82rem;color:var(--ink-soft);display:flex;align-items:center;gap:.3rem;margin-top:.1rem}
@@ -308,10 +339,10 @@
   @media (min-width:1000px){ .bottomnav{display:none} }
   .bottomnav a{flex:1;display:flex;flex-direction:column;align-items:center;gap:.15rem;padding:.4rem 0;
     text-decoration:none;color:var(--ink-soft);font-size:.66rem;font-weight:600;min-height:44px}
-  .bottomnav a.active{color:var(--accent)}
+  .bottomnav a.active{color:var(--accent-text)}
   .bottomnav a svg{flex:none}
 
-  .toast{position:fixed;left:50%;bottom:4.6rem;transform:translateX(-50%);background:var(--ink);color:#fff;
+  .toast{position:fixed;left:50%;bottom:4.6rem;transform:translateX(-50%);background:var(--overlay-bg);color:var(--overlay-ink);
     border-radius:99px;padding:.6rem 1.1rem;font-size:.86rem;opacity:0;pointer-events:none;transition:opacity .18s;z-index:30}
   @media (min-width:1000px){ .toast{bottom:1.5rem} }
   .toast.on{opacity:1}
@@ -345,10 +376,10 @@
   <div class="qfblock">
     <div class="lbl">Quick filters</div>
     <div class="side-only">
-      <button class="qfitem" data-qf="tonight" aria-pressed="false"><span class="chip" style="background:var(--accent-soft);color:var(--accent)">🌙</span>Tonight</button>
+      <button class="qfitem" data-qf="tonight" aria-pressed="false"><span class="chip" style="background:var(--accent-soft);color:var(--accent-text)">🌙</span>Tonight</button>
       <button class="qfitem" data-qf="free" aria-pressed="false"><span class="chip" style="background:var(--green-soft);color:var(--green)">🎟️</span>Free</button>
-      <button class="qfitem" data-qf="weekend" aria-pressed="false"><span class="chip" style="background:#FFF1E0;color:#B36B00">📅</span>This weekend</button>
-      <button class="qfitem" data-qf="adults" aria-pressed="false"><span class="chip" style="background:#EFEFF3;color:var(--ink)">🔞</span>18+ only</button>
+      <button class="qfitem" data-qf="weekend" aria-pressed="false"><span class="chip" style="background:var(--chip-weekend-bg);color:var(--chip-weekend-ink)">📅</span>This weekend</button>
+      <button class="qfitem" data-qf="adults" aria-pressed="false"><span class="chip" style="background:var(--chip-adults-bg);color:var(--ink)">🔞</span>18+ only</button>
     </div>
     <div class="qf-mobilerow" role="group" aria-label="Quick filters">
       <button class="pill-btn" data-qf="tonight" aria-pressed="false">🌙 Tonight</button>
