@@ -1,12 +1,24 @@
-name: Probe sources
+name: Probe candidate sources
+
+# Deterministic, no-API-key diagnostics for sources.yml candidates: robots.txt,
+# which extraction method would work, how many dated events a page lists, and
+# (via source_finder.py score) whether a site looks like a real new source.
+# Makes no commits, costs no Anthropic credits -- safe to run as often as needed.
 
 on:
   workflow_dispatch:
+    inputs:
+      urls:
+        description: "URLs to probe, one per line (or comma-separated)"
+        required: true
+
+permissions:
+  contents: read
 
 jobs:
   probe:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
 
@@ -17,5 +29,39 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Probe all sources
-        run: python probe.py --all | tee -a "$GITHUB_STEP_SUMMARY"
+      - name: Build known_sources.txt
+        run: python known_sources.py build
+
+      - name: Probe each URL
+        env:
+          URLS: ${{ github.event.inputs.urls }}
+        run: |
+          python - <<'PYEOF' > probe_report.txt
+          import os, re, subprocess, sys
+
+          raw = os.environ["URLS"]
+          urls = [u.strip() for u in re.split(r"[,\n]", raw) if u.strip()]
+          print(f"Probing {len(urls)} URL(s)\n")
+          for u in urls:
+              print("\n" + "#" * 80)
+              print("# " + u)
+              print("#" * 80)
+              subprocess.run([sys.executable, "probe.py", u])
+              subprocess.run([sys.executable, "source_finder.py", "score", u])
+          PYEOF
+          cat probe_report.txt
+
+      - name: Write job summary
+        if: always()
+        run: |
+          echo '## Probe report' >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          cat probe_report.txt >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload full report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: probe-report
+          path: probe_report.txt
