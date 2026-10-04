@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-04T12:58:25.485995+02:00",
+  "generated": "2026-10-04T21:03:16.827886+02:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
@@ -24,10 +24,10 @@
       "name": "La Tricoterie",
       "url": "https://www.tricoterie.be/fr/agenda/l-agenda-culturel/?lang=fr",
       "colour": "#00937A",
-      "count": 4,
-      "method": "none",
-      "stale": true,
-      "last_ok": "2026-10-03"
+      "count": 6,
+      "method": "recipe",
+      "stale": false,
+      "last_ok": "2026-10-04"
     },
     {
       "name": "Recyclart",
@@ -42,7 +42,7 @@
       "name": "Le Jacques Franck",
       "url": "https://www.lejacquesfranck.be/agenda",
       "colour": "#7B49D6",
-      "count": 4,
+      "count": 6,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-10-04"
@@ -78,7 +78,7 @@
       "name": "Sounds Jazz Club",
       "url": "https://www.sounds.brussels/agenda/",
       "colour": "#E8336D",
-      "count": 23,
+      "count": 22,
       "method": "none",
       "stale": true,
       "last_ok": "2026-10-03"
@@ -222,7 +222,7 @@
       "name": "Quefaire.be brocantes (Brussels region)",
       "url": "https://www.quefaire.be/brocantes/region-de-bruxelles",
       "colour": "#E8336D",
-      "count": 4,
+      "count": 5,
       "method": "jsonld",
       "stale": false,
       "last_ok": "2026-10-04"
@@ -312,7 +312,7 @@
       "name": "Agenda engagé (Syndicats magazine)",
       "url": "https://syndicatsmagazine.be/agenda-engage-octobre-2026/",
       "colour": "#00937A",
-      "count": 10,
+      "count": 9,
       "method": "none",
       "stale": true,
       "last_ok": "2026-10-03"
@@ -339,7 +339,7 @@
       "name": "Conférences gesticulées (network catalogue)",
       "url": "https://conferences-gesticulees.net/",
       "colour": "#C0392B",
-      "count": 6,
+      "count": 12,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-10-04"
@@ -483,7 +483,7 @@
       "name": "Mazette (brewpub, Jeu de Balle)",
       "url": "https://mazette.brussels/",
       "colour": "#C0392B",
-      "count": 9,
+      "count": 8,
       "method": "none",
       "stale": true,
       "last_ok": "2026-10-03"
@@ -528,7 +528,7 @@
       "name": "Midis de la Poesie",
       "url": "https://midisdelapoesie.be/nos-evenements/programmation",
       "colour": "#00937A",
-      "count": 13,
+      "count": 12,
       "method": "manual",
       "stale": false,
       "last_ok": "2026-10-04"
@@ -784,13 +784,13 @@
     },
     {
       "source": "La Tricoterie",
-      "method": "none",
-      "found": 0,
-      "kept": 0,
-      "carried": 4,
-      "stale": true,
-      "error_class": "site",
-      "note": "llm: ConnectTimeout: HTTPSConnectionPool(host='www.tricoterie.be', port=443): Max retries exceeded with url: /fr/agenda/l-agenda-culturel/?lang=fr (Caused by ConnectTimeoutError(<HTTPSConnection(host="
+      "method": "recipe",
+      "found": 6,
+      "kept": 6,
+      "carried": 0,
+      "stale": false,
+      "error_class": "",
+      "note": ""
     },
     {
       "source": "Recyclart",
@@ -805,8 +805,8 @@
     {
       "source": "Le Jacques Franck",
       "method": "recipe",
-      "found": 5,
-      "kept": 4,
+      "found": 6,
+      "kept": 6,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -847,7 +847,7 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "carried": 23,
+      "carried": 22,
       "stale": true,
       "error_class": "billing",
       "note": "llm: skipped (billing failure earlier this run)"
@@ -1005,8 +1005,8 @@
     {
       "source": "Quefaire.be brocantes (Brussels region)",
       "method": "jsonld",
-      "found": 5,
-      "kept": 4,
+      "found": 7,
+      "kept": 5,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1107,7 +1107,7 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "carried": 10,
+      "carried": 9,
       "stale": true,
       "error_class": "billing",
       "note": "llm: skipped (billing failure earlier this run)"
@@ -1136,7 +1136,7 @@
       "source": "Conférences gesticulées (network catalogue)",
       "method": "recipe",
       "found": 12,
-      "kept": 6,
+      "kept": 12,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1297,7 +1297,7 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "carried": 9,
+      "carried": 8,
       "stale": true,
       "error_class": "billing",
       "note": "browser: jsonld/recipe empty, llm skipped (billing failure earlier this run)"
@@ -1345,8 +1345,8 @@
     {
       "source": "Midis de la Poesie",
       "method": "manual",
-      "found": 13,
-      "kept": 13,
+      "found": 12,
+      "kept": 12,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1449,96 +1449,6 @@
       "tags_llm_done": true
     },
     {
-      "title": "Tisser son histoire (Lea Brami)",
-      "start": "2026-10-03T09:30:00+02:00",
-      "end": "2026-10-03T16:30:00+02:00",
-      "all_day": false,
-      "location": "Maison du Livre, Saint-Gilles",
-      "description": "Poetry workshop on writing, embroidery and repair as ways to tell your story; make a collective flag. Free, booking required.",
-      "url": "https://midisdelapoesie.be/nos-evenements/programmation",
-      "image": null,
-      "source": "Midis de la Poesie",
-      "tickets": null,
-      "social": {
-        "instagram": "https://www.instagram.com/midispoesie/",
-        "facebook": "https://www.facebook.com/midispoesie/"
-      },
-      "uid": "1410d8af7dc3e836",
-      "manual": true,
-      "colour": "#00937A",
-      "translated": true,
-      "category": "workshops-creative",
-      "category_llm": true,
-      "tags": [
-        "free",
-        "registration-required"
-      ],
-      "tags_llm_done": true
-    },
-    {
-      "title": "FESTIFAL 2026",
-      "start": "2026-10-03T14:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Manège Fonck, Liège",
-      "description": "A day of discussions, meetings, culture and celebration centered on anti-fascist activism. Includes community village, workshops, panel discussions, anti-fascist tours, live concerts, and DJ performances.",
-      "url": "https://syndicatsmagazine.be/agenda-engage-octobre-2026/",
-      "image": "https://syndicatsmagazine.be/wp-content/uploads/2026/09/250505DSC_6145-1_-scaled.jpg",
-      "source": "Agenda engagé (Syndicats magazine)",
-      "uid": "50159cad7b55f54b",
-      "colour": "#00937A",
-      "translated": true,
-      "category": "activism-justice",
-      "category_llm": true,
-      "tags": [
-        "activism",
-        "live"
-      ],
-      "tags_llm_done": true,
-      "stale": true
-    },
-    {
-      "title": "JEUX Hoshi Go Club",
-      "start": "2026-10-03T17:00:00+02:00",
-      "end": "2026-10-03T22:00:00+02:00",
-      "all_day": false,
-      "location": "Mazette",
-      "description": "Go Club",
-      "url": "https://mazette.brussels/",
-      "image": "https://mazette.brussels/wp-content/uploads/2024/12/hom-terrasse2.webp",
-      "source": "Mazette (brewpub, Jeu de Balle)",
-      "uid": "2b789ca71b919bd2",
-      "colour": "#C0392B",
-      "category": "other",
-      "tags": [
-        "evening"
-      ],
-      "stale": true
-    },
-    {
-      "title": "O VATAPA'",
-      "start": "2026-10-03T20:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "AFRO-BRAZILIAN TROPICAL GROOVE",
-      "url": "https://www.sounds.brussels/jazz-concert/o-vatapa/",
-      "image": "https://www.sounds.brussels/wp-content/uploads/2026/07/sounds-social-1024x576-1.jpg",
-      "source": "Sounds Jazz Club",
-      "uid": "345ba138d785e1c0",
-      "colour": "#E8336D",
-      "translated": true,
-      "category": "music",
-      "category_llm": true,
-      "tags": [
-        "dance",
-        "evening",
-        "live"
-      ],
-      "tags_llm_done": true,
-      "stale": true
-    },
-    {
       "title": "Closed for a private event",
       "start": "2026-10-03T23:00:00+02:00",
       "end": null,
@@ -1556,30 +1466,6 @@
       "category_llm": true,
       "tags": [
         "late-night"
-      ],
-      "tags_llm_done": true,
-      "stale": true
-    },
-    {
-      "title": "October 4, 2026 #Being Together +",
-      "start": "2026-10-04T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "October 4, 2026 #Being Together + A delicious, responsible buffet La Tricoterie invites everyone every Sunday for an all-you-can-eat sweet and savory buffet to please everyone. On the menu, homemade dishes made with organic products (...) # Being Together",
-      "url": "https://www.tricoterie.be/fr/agenda/l-agenda-culturel/fr/bar-resto-brunch/brunch/brunch?id_evenement=7454",
-      "image": null,
-      "source": "La Tricoterie",
-      "uid": "320602dd9b000c9a",
-      "colour": "#00937A",
-      "time_checked": 3,
-      "translated": true,
-      "category": "food-drink",
-      "category_llm": true,
-      "tags": [
-        "family",
-        "food-drink",
-        "recurring"
       ],
       "tags_llm_done": true,
       "stale": true
@@ -1660,87 +1546,6 @@
       "time_checked": 3,
       "category": "other",
       "tags": []
-    },
-    {
-      "title": "Grand Flea Market of Saint-Lambert Street",
-      "start": "2026-10-04T00:00:00+02:00",
-      "end": "2026-10-04T00:00:00+02:00",
-      "all_day": false,
-      "location": "Woluwe Saint Lambert 1200, Woluwe-Saint-Lambert",
-      "description": "",
-      "url": "https://www.quefaire.be/grande-brocante-de-la-rue-8762157.shtml",
-      "image": "https://www.quefaire.be/img_n/8762157_1.jpeg",
-      "source": "Quefaire.be brocantes (Brussels region)",
-      "uid": "0c635370cd66d612",
-      "colour": "#E8336D",
-      "translated": true,
-      "category": "markets-fairs",
-      "category_llm": true,
-      "tags": [
-        "late-night",
-        "outdoor"
-      ],
-      "tags_llm_done": true
-    },
-    {
-      "title": "Altitude Cent Flea Market",
-      "start": "2026-10-04T00:00:00+02:00",
-      "end": "2026-10-04T00:00:00+02:00",
-      "all_day": false,
-      "location": "Forest",
-      "description": "",
-      "url": "https://www.quefaire.be/brocante-de-laltitude-cent-8770283.shtml",
-      "image": "https://www.quefaire.be/img_n/8770283_1.jpeg",
-      "source": "Quefaire.be brocantes (Brussels region)",
-      "uid": "fe47bab84f8b64bd",
-      "colour": "#E8336D",
-      "translated": true,
-      "category": "markets-fairs",
-      "category_llm": true,
-      "tags": [
-        "late-night"
-      ],
-      "tags_llm_done": true
-    },
-    {
-      "title": "Indoor Flea Market Brussels Retro Market",
-      "start": "2026-10-04T00:00:00+02:00",
-      "end": "2026-10-04T00:00:00+02:00",
-      "all_day": false,
-      "location": "Be Here Village Durable, Laeken",
-      "description": "",
-      "url": "https://www.quefaire.be/brocante-a-linterieur-8770483.shtml",
-      "image": "https://www.quefaire.be/img_n/8770483_1.jpeg",
-      "source": "Quefaire.be brocantes (Brussels region)",
-      "uid": "fa00fb21fe3122fd",
-      "colour": "#E8336D",
-      "translated": true,
-      "category": "markets-fairs",
-      "category_llm": true,
-      "tags": [
-        "late-night"
-      ],
-      "tags_llm_done": true
-    },
-    {
-      "title": "Fall Flea Market at Mater Dei School",
-      "start": "2026-10-04T00:00:00+02:00",
-      "end": "2026-10-04T00:00:00+02:00",
-      "all_day": false,
-      "location": "École Mater Dei, Woluwe-Saint-Pierre",
-      "description": "",
-      "url": "https://www.quefaire.be/brocante-dautomne-a-8770887.shtml",
-      "image": "https://www.quefaire.be/img_n/8770887_1.jpeg",
-      "source": "Quefaire.be brocantes (Brussels region)",
-      "uid": "1910659219bca23d",
-      "colour": "#E8336D",
-      "translated": true,
-      "category": "markets-fairs",
-      "category_llm": true,
-      "tags": [
-        "late-night"
-      ],
-      "tags_llm_done": true
     },
     {
       "title": "04 Oct 2026 Libérés, délivrés ? Alertez les bébés ! Tifen Ducharne Montmelas-Saint-Sorlin (69)",
@@ -1925,27 +1730,6 @@
       "tags": []
     },
     {
-      "title": "Refugee Walk",
-      "start": "2026-10-04T12:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "In 3 days Action Refugee Walk Sunday, October 4, 2026 at 12:00 Anderlecht - 1070 Organized by ProtestBase",
-      "url": "https://protestbase.be/manifestations/bruxelles",
-      "image": "https://protestbase.be/og.jpg",
-      "source": "Protestbase Bruxelles",
-      "uid": "c8453273a34a8468",
-      "colour": "#E07A00",
-      "translated": true,
-      "category": "activism-justice",
-      "category_llm": true,
-      "tags": [
-        "activism",
-        "outdoor"
-      ],
-      "tags_llm_done": true
-    },
-    {
       "title": "FESTI’FAL 2026",
       "start": "2026-10-04T12:30:00+02:00",
       "end": null,
@@ -1993,21 +1777,6 @@
       ]
     },
     {
-      "title": "Res Nullius",
-      "start": "2026-10-04T14:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Res Nullius Sun 4 Oct - Thu 29 Oct Studio 5 cinema documentary special screening € 7,00–€ 10,50 dates dates Sun 4 Oct 14:00 tickets Sun 11 Oct 16:35 tickets Thu 29 Oct 19:05 tickets Thu 3 Sep 19:00 Past event Premiere attended by the director / last tickets Fri 11 Sep 17:30 Past event Sat 19 Sep 15:",
-      "url": "https://www.flagey.be/en/agenda/res-nullius-n94f",
-      "image": null,
-      "source": "Flagey",
-      "uid": "5ac4b4c70ce10d0b",
-      "colour": "#1B6FE0",
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "Family Funday dim 04/10 - 14:00 Visites Guidées",
       "start": "2026-10-04T14:00:00+02:00",
       "end": null,
@@ -2019,21 +1788,6 @@
       "source": "Forest (commune agenda)",
       "uid": "6e852537652b5380",
       "colour": "#0F8CA8",
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "Sense and Sensibility",
-      "start": "2026-10-04T15:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Sense and Sensibility Sun 4 Oct - Fri 23 Oct Studio 5 cinema drama € 7,00–€ 10,50 dates dates Sun 4 Oct 15:30 tickets Sat 10 Oct 15:30 tickets Sun 11 Oct 18:00 tickets Sat 17 Oct 16:30 tickets Fri 23 Oct 14:30 tickets Wed 23 Sep 21:00 Past event Fri 25 Sep 18:50 Past event Sat 26 Sep 21:00 Past even",
-      "url": "https://www.flagey.be/en/agenda/sense-and-sensibility-9bx5",
-      "image": null,
-      "source": "Flagey",
-      "uid": "fb9f511e9192707a",
-      "colour": "#1B6FE0",
       "category": "other",
       "tags": []
     },
@@ -2059,23 +1813,6 @@
       ],
       "tags_llm_done": true,
       "stale": true
-    },
-    {
-      "title": "Notre Salut",
-      "start": "2026-10-04T18:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Notre Salut Sun 4 Oct - Thu 29 Oct Studio 5 cinema € 7,00–€ 10,50 dates dates Sun 4 Oct 18:00 tickets Thu 8 Oct 20:30 tickets Sat 10 Oct 18:00 tickets Wed 14 Oct 16:00 tickets Sun 18 Oct 18:30 tickets Sat 24 Oct 15:45 tickets Thu 29 Oct 16:15 tickets Wed 30 Sep 20:45 Past event Sat 3 Oct 20:50 Past",
-      "url": "https://www.flagey.be/en/agenda/notre-salut-q1cd",
-      "image": null,
-      "source": "Flagey",
-      "uid": "f677c773b2b6b673",
-      "colour": "#1B6FE0",
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
     },
     {
       "title": "En soutien au Liban : Compil #1",
@@ -2154,23 +1891,6 @@
       "tags_llm_done": true
     },
     {
-      "title": "Digger",
-      "start": "2026-10-04T20:50:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Digger Sun 4 Oct - Fri 30 Oct Studio 5 cinema € 7,00–€ 10,50 dates dates Sun 4 Oct 20:50 tickets Fri 9 Oct 18:50 tickets Sat 10 Oct 20:50 tickets Thu 15 Oct 21:00 tickets Sun 18 Oct 16:00 tickets Fri 23 Oct 21:15 tickets Fri 30 Oct 15:50 tickets Thu 1 Oct 21:10 Past event Fri 2 Oct 18:50 Past event",
-      "url": "https://www.flagey.be/en/agenda/digger-yhg6",
-      "image": null,
-      "source": "Flagey",
-      "uid": "aedad67575886c5c",
-      "colour": "#1B6FE0",
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "Solidaire lunch: Aardappel gratin met biet balletjes Organisator: Gemeenschapscentrum Pianofabriek vzw ma 05.10.2026 GC Pianofabriek, Sint-",
       "start": "2026-10-05T00:00:00+02:00",
       "end": null,
@@ -2206,8 +1926,7 @@
         "food-drink",
         "recurring"
       ],
-      "tags_llm_done": true,
-      "stale": true
+      "tags_llm_done": true
     },
     {
       "title": "05 octobre 2026 #Être ensemble #Musique participative +",
@@ -2223,8 +1942,7 @@
       "colour": "#00937A",
       "time_checked": 3,
       "category": "other",
-      "tags": [],
-      "stale": true
+      "tags": []
     },
     {
       "title": "Dibook | What is Jewish Music?",
@@ -2926,6 +2644,23 @@
       "tags_llm_done": true
     },
     {
+      "title": "Protest at the Tunesian embassy for the release of our comrades",
+      "start": "2026-10-06T17:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "dans 2 jours Manifestation Protest at the Tunesian embassy for the release of our comrades Mardi 6 octobre 2026 à 17:00 Woluwe-Saint-Pierre - 1150 Organisé par ProtestBase",
+      "url": "https://protestbase.be/manifestations/bruxelles",
+      "image": "https://protestbase.be/og.jpg",
+      "source": "Protestbase Bruxelles",
+      "uid": "23b766e78a12a397",
+      "colour": "#E07A00",
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
       "title": "Leïla Shahid, Remember",
       "start": "2026-10-06T18:00:00+02:00",
       "end": null,
@@ -3115,6 +2850,54 @@
       "tags": []
     },
     {
+      "title": "07 Oct 2026 To Be Or Not To Bipolaire ? ÉLODIE Figeac (46)",
+      "start": "2026-10-07T00:00:00+02:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "07 Oct 2026 To Be Or Not To Bipolaire ? ÉLODIE Figeac (46)",
+      "url": "https://conferences-gesticulees.net/events/07-10-2026-elodie-larrosoir-cafe-associatif/",
+      "image": null,
+      "source": "Conférences gesticulées (network catalogue)",
+      "uid": "4203803787c96baa",
+      "colour": "#C0392B",
+      "time_checked": 3,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "07 Oct 2026 C’est l’histoire d’une grosse… et de la grossophobie Axël Collion chombart Mons (70)",
+      "start": "2026-10-07T00:00:00+02:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "07 Oct 2026 C’est l’histoire d’une grosse… et de la grossophobie Axël Collion chombart Mons (70)",
+      "url": "https://conferences-gesticulees.net/events/07-10-2026-axel-collion-chombart-le-relais-de-mons/",
+      "image": null,
+      "source": "Conférences gesticulées (network catalogue)",
+      "uid": "ae362ee0e81afd3c",
+      "colour": "#C0392B",
+      "time_checked": 3,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "07 Oct 2026 One Woman Chauve (à morte poitrine) Perruche Segré-en-Anjou Bleu (49)",
+      "start": "2026-10-07T00:00:00+02:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "07 Oct 2026 One Woman Chauve (à morte poitrine) Perruche Segré-en-Anjou Bleu (49)",
+      "url": "https://conferences-gesticulees.net/events/07-10-2026-perruche-centrale-7/",
+      "image": null,
+      "source": "Conférences gesticulées (network catalogue)",
+      "uid": "781e8e6f46b36db9",
+      "colour": "#C0392B",
+      "time_checked": 3,
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "October 7, 2026 What am I doing here? Anne-Sophie M. - Besançon (25)",
       "start": "2026-10-07T00:00:00+02:00",
       "end": null,
@@ -3176,6 +2959,22 @@
         "live"
       ],
       "tags_llm_done": true
+    },
+    {
+      "title": "07 Oct 2026 One Woman Chauve (à morte poitrine) Perruche Segré-en-Anjou Bleu (49)",
+      "start": "2026-10-07T00:00:00+02:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "07 Oct 2026 One Woman Chauve (à morte poitrine) Perruche Segré-en-Anjou Bleu (49)",
+      "url": "https://conferences-gesticulees.net/events/07-10-2026-perruche-centrale-7/",
+      "image": null,
+      "source": "Conférences gesticulées (per-day pages)",
+      "uid": "cb49879d1aa67004",
+      "colour": "#0F8CA8",
+      "time_checked": 3,
+      "category": "other",
+      "tags": []
     },
     {
       "title": "Formation : Prérequis à la lecture",
@@ -3623,6 +3422,54 @@
       "tags": []
     },
     {
+      "title": "08 Oct 2026 Pourquoi j’ai invité mon agresseur à mon mariage Bettina Zourli Rennes (35)",
+      "start": "2026-10-08T00:00:00+02:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "08 Oct 2026 Pourquoi j’ai invité mon agresseur à mon mariage Bettina Zourli Rennes (35)",
+      "url": "https://conferences-gesticulees.net/events/08-10-2026-bettina-zourli-grabuge/",
+      "image": null,
+      "source": "Conférences gesticulées (network catalogue)",
+      "uid": "6440cb7e6d4a9f73",
+      "colour": "#C0392B",
+      "time_checked": 3,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "08 Oct 2026 De quelle Humanité le Chatbot est-il l’avenir ? Philippe Cazeneuve Palaiseau (91)",
+      "start": "2026-10-08T00:00:00+02:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "08 Oct 2026 De quelle Humanité le Chatbot est-il l’avenir ? Philippe Cazeneuve Palaiseau (91)",
+      "url": "https://conferences-gesticulees.net/events/08-10-2026-philippe-cazeneuve-mjc-theatre-des-3-vallees-palaiseau/",
+      "image": null,
+      "source": "Conférences gesticulées (network catalogue)",
+      "uid": "4ac157d3c37693d2",
+      "colour": "#C0392B",
+      "time_checked": 3,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "08 Oct 2026 Homo sapiens, vivant parmi les vivants Géraldine Lyon (69)",
+      "start": "2026-10-08T00:00:00+02:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "08 Oct 2026 Homo sapiens, vivant parmi les vivants Géraldine Lyon (69)",
+      "url": "https://conferences-gesticulees.net/events/08-10-2026-geraldine-tiers-lieu-le-qg/",
+      "image": null,
+      "source": "Conférences gesticulées (network catalogue)",
+      "uid": "9bb4485925043a57",
+      "colour": "#C0392B",
+      "time_checked": 3,
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "October 8, 2026 Why I Invited My Aggressor to My Wedding Bettina Zourli Rennes (35)",
       "start": "2026-10-08T00:00:00+02:00",
       "end": null,
@@ -4024,6 +3871,23 @@
       "tags_llm_done": true
     },
     {
+      "title": "Notre Salut",
+      "start": "2026-10-08T20:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Notre Salut Thu 8 Oct - Thu 29 Oct Studio 5 cinema € 7,00–€ 10,50 dates dates Thu 8 Oct 20:30 tickets Sat 10 Oct 18:00 tickets Wed 14 Oct 16:00 tickets Sun 18 Oct 18:30 tickets Sat 24 Oct 15:45 tickets Thu 29 Oct 16:15 tickets Wed 30 Sep 20:45 Past event Sat 3 Oct 20:50 Past event Sun 4 Oct 18:00 Pa",
+      "url": "https://www.flagey.be/en/agenda/notre-salut-q1cd",
+      "image": null,
+      "source": "Flagey",
+      "uid": "fe41e009c68123d8",
+      "colour": "#1B6FE0",
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
       "title": "© De Buurtwinkel Neighborhood Walk Anneessenswijk Organizer: N22, in collaboration with Gemeenschapscentrum Het Huys vzw ; Gemeenschapscentrum",
       "start": "2026-10-09T00:00:00+02:00",
       "end": null,
@@ -4061,6 +3925,40 @@
       "tags": [
         "free"
       ]
+    },
+    {
+      "title": "09 octobre 2026 #Concerts +",
+      "start": "2026-10-09T19:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "09 octobre 2026 #Concerts + Klara Verkin et Matthieu Thonon Concert au profit du projet La Maison des Femmes de Bruxelles # Concerts",
+      "url": "https://www.tricoterie.be/fr/agenda/l-agenda-culturel/fr/agenda/l-agenda-culturel/concerts/klara-verkin-et-matthieu-thonon?id_evenement=7615",
+      "image": null,
+      "source": "La Tricoterie",
+      "uid": "2c25f6cd70a5051e",
+      "colour": "#00937A",
+      "time_checked": 3,
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
+      "title": "09 octobre 2026 #Soirées +",
+      "start": "2026-10-09T00:00:00+02:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "09 octobre 2026 #Soirées + Natsu Fuji @ La Java | DJ SET Le vendredi c’est la JAVA à la Tricoterie ! Gabriel Karl Tshimanga Mukadi, connu sous le nom de Natsu Fuji, est producteur de musique, DJ, Son nom fusionne sa passion pour Natsu Dragneel de (…) # Soirées",
+      "url": "https://www.tricoterie.be/fr/agenda/l-agenda-culturel/fr/agenda/l-agenda-culturel/natsu-fuji-la-java-dj-set?id_evenement=7922",
+      "image": null,
+      "source": "La Tricoterie",
+      "uid": "d3e439aadba9f223",
+      "colour": "#00937A",
+      "time_checked": 3,
+      "category": "other",
+      "tags": []
     },
     {
       "title": "Yard One Sound System w/ Ossia + The Untouchables + Izzy Lindqwister + Sasha Sykes + Maliman",
@@ -4540,6 +4438,23 @@
       "tags_llm_done": true
     },
     {
+      "title": "Digger",
+      "start": "2026-10-09T18:50:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Digger Fri 9 Oct - Fri 30 Oct Studio 5 cinema € 7,00–€ 10,50 dates dates Fri 9 Oct 18:50 tickets Sat 10 Oct 20:50 tickets Thu 15 Oct 21:00 tickets Sun 18 Oct 16:00 tickets Fri 23 Oct 21:15 tickets Fri 30 Oct 15:50 tickets Thu 1 Oct 21:10 Past event Fri 2 Oct 18:50 Past event Sun 4 Oct 20:50 Past eve",
+      "url": "https://www.flagey.be/en/agenda/digger-yhg6",
+      "image": null,
+      "source": "Flagey",
+      "uid": "a59ec143dec8d04a",
+      "colour": "#1B6FE0",
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
       "title": "Vernissage Collectief 'le 180' ven 09/10 - 19:00 Exposition",
       "start": "2026-10-09T19:00:00+02:00",
       "end": null,
@@ -4572,25 +4487,6 @@
       "tags": [
         "evening"
       ]
-    },
-    {
-      "title": "09 octobre 2026 #Concerts +",
-      "start": "2026-10-09T19:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "09 octobre 2026 #Concerts + Klara Verkin et Matthieu Thonon Concert au profit du projet La Maison des Femmes de Bruxelles # Concerts",
-      "url": "https://www.tricoterie.be/fr/agenda/l-agenda-culturel/fr/agenda/l-agenda-culturel/concerts/klara-verkin-et-matthieu-thonon?id_evenement=7615",
-      "image": null,
-      "source": "La Tricoterie",
-      "uid": "2c25f6cd70a5051e",
-      "colour": "#00937A",
-      "time_checked": 3,
-      "category": "other",
-      "tags": [
-        "evening"
-      ],
-      "stale": true
     },
     {
       "title": "IMPRO CLUB",
@@ -5225,6 +5121,36 @@
       "tags_llm_done": true
     },
     {
+      "title": "VISITE DÉCOLONIALE - Parc du Cinquantenaire",
+      "start": "2026-10-10T14:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "dans 6 jours Apprendre VISITE DÉCOLONIALE - Parc du Cinquantenaire Samedi 10 octobre 2026 à 14:00 Bruxelles - 1000 Organisé par ProtestBase",
+      "url": "https://protestbase.be/manifestations/bruxelles",
+      "image": "https://protestbase.be/og.jpg",
+      "source": "Protestbase Bruxelles",
+      "uid": "c1664fa4851828db",
+      "colour": "#E07A00",
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Mobilisation internationale pour la Palestine - 3 ans de génocide - BXL MArche pour la Palestine",
+      "start": "2026-10-10T14:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "dans 6 jours Manifestation Mobilisation internationale pour la Palestine - 3 ans de génocide - BXL MArche pour la Palestine Samedi 10 octobre 2026 à 14:00 Saint-Gilles - 1060 Organisé par ProtestBase",
+      "url": "https://protestbase.be/manifestations/bruxelles",
+      "image": "https://protestbase.be/og.jpg",
+      "source": "Protestbase Bruxelles",
+      "uid": "51f212a3af91c7f5",
+      "colour": "#E07A00",
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "Fête du bien-être animal",
       "start": "2026-10-10T14:00:00+02:00",
       "end": "2026-10-10T18:00:00+02:00",
@@ -5270,6 +5196,38 @@
       "colour": "#E07A00",
       "category": "other",
       "tags": []
+    },
+    {
+      "title": "Sense and Sensibility",
+      "start": "2026-10-10T15:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Sense and Sensibility Sat 10 Oct - Fri 23 Oct Studio 5 cinema drama € 7,00–€ 10,50 dates dates Sat 10 Oct 15:30 tickets Sun 11 Oct 18:00 tickets Sat 17 Oct 16:30 tickets Fri 23 Oct 14:30 tickets Wed 23 Sep 21:00 Past event Fri 25 Sep 18:50 Past event Sat 26 Sep 21:00 Past event Fri 2 Oct 21:15 Past",
+      "url": "https://www.flagey.be/en/agenda/sense-and-sensibility-9bx5",
+      "image": null,
+      "source": "Flagey",
+      "uid": "d0406987dd5efd66",
+      "colour": "#1B6FE0",
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "SOUNDTRACK TO A COUP D’ETAT + YOURI BOTTERMAN @espace Magh",
+      "start": "2026-10-10T17:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "dans 6 jours Apprendre SOUNDTRACK TO A COUP D’ETAT + YOURI BOTTERMAN @espace Magh Samedi 10 octobre 2026 à 17:00 Bruxelles - 1000 Organisé par ProtestBase",
+      "url": "https://protestbase.be/manifestations/bruxelles",
+      "image": "https://protestbase.be/og.jpg",
+      "source": "Protestbase Bruxelles",
+      "uid": "c00477f2fc0fec40",
+      "colour": "#E07A00",
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
     },
     {
       "title": "JEUX Hoshi Go Club",
@@ -5454,6 +5412,91 @@
       "tags_llm_done": true
     },
     {
+      "title": "Brocante intérieure et extérieure",
+      "start": "2026-10-11T00:00:00+02:00",
+      "end": "2026-10-11T00:00:00+02:00",
+      "all_day": false,
+      "location": "Ecole Communale de Stockel, Woluwe-Saint-Pierre",
+      "description": "",
+      "url": "https://www.quefaire.be/brocante-interieure-et-8759423.shtml",
+      "image": "https://www.quefaire.be/img_n/8759423_1.jpeg",
+      "source": "Quefaire.be brocantes (Brussels region)",
+      "uid": "5b084e4b0e50844c",
+      "colour": "#E8336D",
+      "category": "other",
+      "tags": [
+        "late-night"
+      ]
+    },
+    {
+      "title": "Brocabrugmann",
+      "start": "2026-10-11T00:00:00+02:00",
+      "end": "2026-10-11T00:00:00+02:00",
+      "all_day": false,
+      "location": "Place Georges Brugmann, Ixelles",
+      "description": "",
+      "url": "https://www.quefaire.be/brocabrugmann-8768599.shtml",
+      "image": "https://www.quefaire.be/img_n/8768599_1.jpeg",
+      "source": "Quefaire.be brocantes (Brussels region)",
+      "uid": "a68ce89c9ff92c5b",
+      "colour": "#E8336D",
+      "category": "other",
+      "tags": [
+        "late-night"
+      ]
+    },
+    {
+      "title": "Brocante Georges Henri",
+      "start": "2026-10-11T00:00:00+02:00",
+      "end": "2026-10-11T00:00:00+02:00",
+      "all_day": false,
+      "location": "Woluwe-Saint-Lambert",
+      "description": "",
+      "url": "https://www.quefaire.be/brocante-georges-henri-8770285.shtml",
+      "image": "https://www.quefaire.be/img_n/8770285_1.jpeg",
+      "source": "Quefaire.be brocantes (Brussels region)",
+      "uid": "927a158eee334784",
+      "colour": "#E8336D",
+      "category": "other",
+      "tags": [
+        "late-night"
+      ]
+    },
+    {
+      "title": "Vide dressing",
+      "start": "2026-10-11T00:00:00+02:00",
+      "end": "2026-10-11T00:00:00+02:00",
+      "all_day": false,
+      "location": "Bruxelles",
+      "description": "",
+      "url": "https://www.quefaire.be/vide-dressing-8771183.shtml",
+      "image": "https://www.quefaire.be/img_n/8771183_1.jpeg",
+      "source": "Quefaire.be brocantes (Brussels region)",
+      "uid": "48bfe5559d513ff6",
+      "colour": "#E8336D",
+      "category": "other",
+      "tags": [
+        "late-night"
+      ]
+    },
+    {
+      "title": "Gran̈de brocante autour du marché et rues avoisinantes",
+      "start": "2026-10-11T00:00:00+02:00",
+      "end": "2026-10-11T00:00:00+02:00",
+      "all_day": false,
+      "location": "Fort en Festivites, Saint-Gilles",
+      "description": "",
+      "url": "https://www.quefaire.be/grande-brocante-autour-du-8728105.shtml",
+      "image": "https://www.quefaire.be/img/logo_fb.png",
+      "source": "Quefaire.be brocantes (Brussels region)",
+      "uid": "ad07a50499944796",
+      "colour": "#E8336D",
+      "category": "other",
+      "tags": [
+        "late-night"
+      ]
+    },
+    {
       "title": "Oct 11, 2026 What Are We Going to Do with the Principal? Jean-Marc Thouéry Chastel-sur-Murat (15)",
       "start": "2026-10-11T00:00:00+02:00",
       "end": null,
@@ -5517,28 +5560,6 @@
       "tags_llm_done": true
     },
     {
-      "title": "Brunch & Climate March with Oxfam",
-      "start": "2026-10-11T10:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Sunday, October 11, 2026 Demonstration Brunch & Climate March with Oxfam Sunday, October 11, 2026 at 10:00 Etterbeek - 1040 Organized by Rosalie Buytaert",
-      "url": "https://protestbase.be/manifestations/bruxelles",
-      "image": "https://protestbase.be/og.jpg",
-      "source": "Protestbase Bruxelles",
-      "uid": "fdb6377dfe161bfd",
-      "colour": "#E07A00",
-      "translated": true,
-      "category": "activism-justice",
-      "category_llm": true,
-      "tags": [
-        "activism",
-        "food-drink",
-        "outdoor"
-      ],
-      "tags_llm_done": true
-    },
-    {
       "title": "Climate March",
       "start": "2026-10-11T14:00:00+02:00",
       "end": null,
@@ -5598,6 +5619,21 @@
       "category_llm": true,
       "tags": [],
       "tags_llm_done": true
+    },
+    {
+      "title": "Res Nullius",
+      "start": "2026-10-11T16:35:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Res Nullius Sun 11 Oct and Thu 29 Oct Studio 5 cinema documentary special screening € 7,00–€ 10,50 dates dates Sun 11 Oct 16:35 tickets Thu 29 Oct 19:05 tickets Thu 3 Sep 19:00 Past event Premiere attended by the director / last tickets Fri 11 Sep 17:30 Past event Sat 19 Sep 15:15 Past event Wed 23",
+      "url": "https://www.flagey.be/en/agenda/res-nullius-n94f",
+      "image": null,
+      "source": "Flagey",
+      "uid": "35bb30da7ff7c1c3",
+      "colour": "#1B6FE0",
+      "category": "other",
+      "tags": []
     },
     {
       "title": "LA GROOVISTA + JAM",
@@ -5752,27 +5788,6 @@
       "category": "talks-discussions",
       "category_llm": true,
       "tags": [],
-      "tags_llm_done": true
-    },
-    {
-      "title": "RESISTANCE FRESCO AT LA TRICOTERIE",
-      "start": "2026-10-12T18:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Monday, October 12, 2026 Learn RESISTANCE FRESCO AT LA TRICOTERIE Monday, October 12, 2026 at 18:30 Saint-Gilles - 1060 Organized by ProtestBase",
-      "url": "https://protestbase.be/manifestations/bruxelles",
-      "image": "https://protestbase.be/og.jpg",
-      "source": "Protestbase Bruxelles",
-      "uid": "80442df789c54de6",
-      "colour": "#E07A00",
-      "translated": true,
-      "category": "workshops-creative",
-      "category_llm": true,
-      "tags": [
-        "activism",
-        "evening"
-      ],
       "tags_llm_done": true
     },
     {
@@ -6117,6 +6132,22 @@
       "time_checked": 3
     },
     {
+      "title": "La Cambre s'anime 2026 Courts métrages d'animation mercredi 14 oct.",
+      "start": "2026-10-14T00:00:00+02:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "La Cambre s'anime 2026 Courts métrages d'animation mercredi 14 oct. Réserver",
+      "url": "https://lejacquesfranck.be/event/la-cambre-sanime-2026/2026-10-14/",
+      "image": "https://lejacquesfranck.be/resources/assets/img/logo-og.png",
+      "source": "Le Jacques Franck",
+      "uid": "3a9518b69271ddb3",
+      "colour": "#7B49D6",
+      "time_checked": 3,
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "14 Oct 2026 Princess Békille and the Big Bad Wolves Aurélie Rolland Besançon (25)",
       "start": "2026-10-14T00:00:00+02:00",
       "end": null,
@@ -6236,21 +6267,6 @@
         "live"
       ],
       "tags_llm_done": true
-    },
-    {
-      "title": "Atelier de linogravure engagée - injustices",
-      "start": "2026-10-14T14:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "mercredi 14 octobre 2026 Apprendre Atelier de linogravure engagée - injustices Mercredi 14 octobre 2026 à 14:00 Ixelles - 1050 Organisé par ProtestBase",
-      "url": "https://protestbase.be/manifestations/bruxelles",
-      "image": "https://protestbase.be/og.jpg",
-      "source": "Protestbase Bruxelles",
-      "uid": "e98177b729cfad9e",
-      "colour": "#E07A00",
-      "category": "other",
-      "tags": []
     },
     {
       "title": "Meeting: Reception of the CNI-Frayba Delegation",
@@ -6375,6 +6391,22 @@
       "tags_llm_done": true,
       "stale": true,
       "time_checked": 3
+    },
+    {
+      "title": "Une époque formidable Théâtre I Avant Première jeudi 15 oct.",
+      "start": "2026-10-15T00:00:00+02:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "Une époque formidable Théâtre I Avant Première jeudi 15 oct. Réserver",
+      "url": "https://lejacquesfranck.be/event/une-epoque-formidable/2026-10-15/",
+      "image": "https://lejacquesfranck.be/resources/assets/img/logo-og.png",
+      "source": "Le Jacques Franck",
+      "uid": "a331eae416c6c07a",
+      "colour": "#7B49D6",
+      "time_checked": 3,
+      "category": "other",
+      "tags": []
     },
     {
       "title": "La Maison Médicale du Maelbeek fête ses 50 ans !",
@@ -7076,29 +7108,6 @@
       "tags": []
     },
     {
-      "title": "QLAS",
-      "start": "2026-10-16T23:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Carré, Willebroek",
-      "description": "Free entry event",
-      "url": "https://carre.be/events/qlas/",
-      "image": "https://carre.be/wp-content/uploads/2026/08/carrelinks.jpg",
-      "source": "Club Carré agenda",
-      "uid": "ecb20ea084a2fc9e",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "other",
-      "category_llm": true,
-      "tags": [
-        "free",
-        "late-night"
-      ],
-      "tags_llm_done": true,
-      "stale": true,
-      "time_checked": 3
-    },
-    {
       "title": "Shifting Worlds - expo & laboratory (FTI Brussel)",
       "start": "2026-10-16T11:00:00+02:00",
       "end": "2026-10-20T19:00:00+02:00",
@@ -7647,6 +7656,29 @@
       "tags_llm_done": true
     },
     {
+      "title": "QLAS",
+      "start": "2026-10-16T23:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Carré, Willebroek",
+      "description": "Free entry event",
+      "url": "https://carre.be/events/qlas/",
+      "image": "https://carre.be/wp-content/uploads/2026/08/carrelinks.jpg",
+      "source": "Club Carré agenda",
+      "uid": "ecb20ea084a2fc9e",
+      "colour": "#1B6FE0",
+      "translated": true,
+      "category": "other",
+      "category_llm": true,
+      "tags": [
+        "free",
+        "late-night"
+      ],
+      "tags_llm_done": true,
+      "stale": true,
+      "time_checked": 3
+    },
+    {
       "title": "19:30 Concert Eddie & the Nonos",
       "start": "2026-10-17T00:00:00+02:00",
       "end": "2026-10-17T00:00:00+02:00",
@@ -7969,6 +8001,7 @@
       "source": "Conférences gesticulées (per-day pages)",
       "uid": "7c9bf9bda3956529",
       "colour": "#0F8CA8",
+      "time_checked": 3,
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -7979,9 +8012,9 @@
     },
     {
       "title": "Balkana",
-      "start": "2026-10-17T00:00:00+02:00",
+      "start": "2026-10-17T23:00:00+02:00",
       "end": null,
-      "all_day": true,
+      "all_day": false,
       "location": "Carré, Willebroek",
       "description": "",
       "url": "https://carre.be/events/balkana-2/",
@@ -7990,8 +8023,11 @@
       "uid": "3cf909a12f1ae064",
       "colour": "#1B6FE0",
       "category": "other",
-      "tags": [],
-      "stale": true
+      "tags": [
+        "late-night"
+      ],
+      "stale": true,
+      "time_checked": 3
     },
     {
       "title": "Variations sur les passions humaines Cie Mossoux-Bonté 13 – 17.10.2026",
@@ -8005,14 +8041,15 @@
       "source": "Les Tanneurs",
       "uid": "581300548bd3452a",
       "colour": "#00937A",
+      "time_checked": 3,
       "category": "other",
       "tags": []
     },
     {
       "title": "L’invisible n’est pas inexistant",
-      "start": "2026-10-17T00:00:00+02:00",
+      "start": "2026-10-17T20:00:00+02:00",
       "end": null,
-      "all_day": true,
+      "all_day": false,
       "location": "",
       "description": "Theater L’invisible n’est pas inexistant Venedig Meer 13—17.10.2026 13—17.10.2026 Revoir Théâtre Varia Venedig Meer continues its exploration of reality and draws upon the invisible as a powerful source of imagination. By breaking down the boundaries of art, Florence Minder puts technique at the ser",
       "url": "https://varia.be/en/programme/2026-2027/venedig-meer/linvisible-nest-pas-inexistant",
@@ -8020,14 +8057,17 @@
       "source": "Varia",
       "uid": "2fddfbe567e7c7f1",
       "colour": "#E07A00",
+      "time_checked": 3,
       "category": "other",
-      "tags": []
+      "tags": [
+        "evening"
+      ]
     },
     {
       "title": "La vie n’est pas utile (ou c’est comme ça)",
-      "start": "2026-10-17T00:00:00+02:00",
+      "start": "2026-10-17T18:00:00+02:00",
       "end": null,
-      "all_day": true,
+      "all_day": false,
       "location": "",
       "description": "Danse La vie n’est pas utile (ou c’est comme ça) Bruno Freire 14—17.10.2026 14—17.10.2026 Revoir Studio Varia A sensitive and powerful dance inspired by the words of Ailton Krenak, inviting us to imagine a different way of inhabiting the world and to marvel at the fact that we are alive.",
       "url": "https://varia.be/en/programme/2026-2027/bruno-freire/la-vie-nest-pas-utile",
@@ -8035,8 +8075,11 @@
       "source": "Varia",
       "uid": "aa002cffb4f745fe",
       "colour": "#E07A00",
+      "time_checked": 3,
       "category": "other",
-      "tags": []
+      "tags": [
+        "evening"
+      ]
     },
     {
       "title": "Workshop/Activity Smartphones and Privacy (Advanced Version; Exodus Privacy)",
@@ -8798,6 +8841,7 @@
       "source": "GC Ten Weyngaert",
       "uid": "410709e12f22072d",
       "colour": "#0F8CA8",
+      "time_checked": 3,
       "translated": true,
       "category": "community-social",
       "category_llm": true,
@@ -8818,6 +8862,7 @@
       "source": "GC Ten Weyngaert",
       "uid": "e1e6ba9a43896d3f",
       "colour": "#0F8CA8",
+      "time_checked": 3,
       "category": "other",
       "tags": [
         "free"
@@ -8835,6 +8880,7 @@
       "source": "GC Ten Weyngaert",
       "uid": "371d7d56a164f623",
       "colour": "#0F8CA8",
+      "time_checked": 3,
       "category": "other",
       "tags": []
     },
@@ -8850,6 +8896,7 @@
       "source": "GC Ten Weyngaert",
       "uid": "b7e496f38e8f424c",
       "colour": "#0F8CA8",
+      "time_checked": 3,
       "category": "other",
       "tags": []
     },
@@ -8865,6 +8912,7 @@
       "source": "GC Ten Weyngaert",
       "uid": "61d43a301c71cabd",
       "colour": "#0F8CA8",
+      "time_checked": 3,
       "category": "other",
       "tags": []
     },
@@ -8880,6 +8928,7 @@
       "source": "BOZAR",
       "uid": "d0991d753f042f20",
       "colour": "#00937A",
+      "time_checked": 3,
       "category": "other",
       "tags": []
     },
@@ -8902,7 +8951,8 @@
         "drop-in"
       ],
       "tags_llm_done": true,
-      "stale": true
+      "stale": true,
+      "time_checked": 3
     },
     {
       "title": "Shifting Worlds: exhibition and program at WIELS",
@@ -8924,7 +8974,8 @@
         "live"
       ],
       "tags_llm_done": true,
-      "stale": true
+      "stale": true,
+      "time_checked": 3
     },
     {
       "title": "October 18, 2026 From fork to plate... No! The other way around!! Mathieu Dalmais Coulounieix-Chamiers (24)",
@@ -8938,6 +8989,7 @@
       "source": "Conférences gesticulées (per-day pages)",
       "uid": "b3e7cc0bf83b50f8",
       "colour": "#0F8CA8",
+      "time_checked": 3,
       "translated": true,
       "category": "other",
       "category_llm": true,
@@ -8958,7 +9010,8 @@
       "colour": "#1B6FE0",
       "category": "other",
       "tags": [],
-      "stale": true
+      "stale": true,
+      "time_checked": 3
     },
     {
       "title": "Innovation Walk at Researchpark Zellik",
@@ -9165,6 +9218,7 @@
       "source": "GC Pianofabriek",
       "uid": "41cf2078829c84ce",
       "colour": "#1B6FE0",
+      "time_checked": 3,
       "category": "other",
       "tags": []
     },
@@ -9204,7 +9258,8 @@
       "tags": [
         "recurring"
       ],
-      "stale": true
+      "stale": true,
+      "time_checked": 3
     },
     {
       "title": "KET ACADEMY",
@@ -9226,7 +9281,8 @@
         "kids"
       ],
       "tags_llm_done": true,
-      "stale": true
+      "stale": true,
+      "time_checked": 3
     },
     {
       "title": "Behind the screens: innovation tour at VRT",
@@ -9247,7 +9303,8 @@
         "drop-in"
       ],
       "tags_llm_done": true,
-      "stale": true
+      "stale": true,
+      "time_checked": 3
     },
     {
       "title": "Shifting Worlds: Exhibition and program at WIELS",
@@ -9269,7 +9326,8 @@
         "live"
       ],
       "tags_llm_done": true,
-      "stale": true
+      "stale": true,
+      "time_checked": 3
     },
     {
       "title": "19 Oct 2026 Divorcée pour le meilleur et le meilleur Caps Sainghin-en-Mélantois (59)",
@@ -9283,6 +9341,7 @@
       "source": "Conférences gesticulées (per-day pages)",
       "uid": "0b1ffbd79c22356a",
       "colour": "#0F8CA8",
+      "time_checked": 3,
       "translated": true,
       "category": "other",
       "category_llm": true,
@@ -9301,6 +9360,7 @@
       "source": "La Maison du Livre",
       "uid": "930c828fa8f95c1d",
       "colour": "#C0392B",
+      "time_checked": 3,
       "category": "other",
       "tags": []
     },
@@ -9582,7 +9642,8 @@
         "kids"
       ],
       "tags_llm_done": true,
-      "stale": true
+      "stale": true,
+      "time_checked": 3
     },
     {
       "title": "Shifting Worlds: Exhibition and program at WIELS",
@@ -9604,7 +9665,8 @@
         "live"
       ],
       "tags_llm_done": true,
-      "stale": true
+      "stale": true,
+      "time_checked": 3
     },
     {
       "title": "20 Oct 2026 Comment sauver l'amour ? Lucie Paris (75)",
@@ -9618,6 +9680,7 @@
       "source": "Conférences gesticulées (per-day pages)",
       "uid": "5422858d07908cd6",
       "colour": "#0F8CA8",
+      "time_checked": 3,
       "translated": true,
       "category": "other",
       "category_llm": true,
@@ -9938,6 +10001,7 @@
       "source": "GC Pianofabriek",
       "uid": "1e22abbc195542a4",
       "colour": "#1B6FE0",
+      "time_checked": 3,
       "translated": true,
       "category": "civic-politics",
       "category_llm": true,
@@ -9959,6 +10023,7 @@
       "source": "GC Ten Weyngaert",
       "uid": "775b697301cc8399",
       "colour": "#0F8CA8",
+      "time_checked": 3,
       "translated": true,
       "category": "civic-politics",
       "category_llm": true,
@@ -9980,6 +10045,7 @@
       "source": "Théâtre National Wallonie-Bruxelles",
       "uid": "7d290af5f8e1d70d",
       "colour": "#8A7500",
+      "time_checked": 3,
       "translated": true,
       "category": "talks-discussions",
       "category_llm": true,
@@ -10000,6 +10066,7 @@
       "source": "Conférences gesticulées (per-day pages)",
       "uid": "3eceec714f4daada",
       "colour": "#0F8CA8",
+      "time_checked": 3,
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -10121,7 +10188,7 @@
       "title": "\"UNCHILDED – Roots of the Mediterranean\" by Associazione Culturale Raizes",
       "start": "2026-10-22T00:00:00+02:00",
       "end": null,
-      "all_day": true,
+      "all_day": false,
       "location": "Recyclart",
       "description": "",
       "url": "https://recyclart.be/fr/agenda/unchilded-roots-of-the-mediterranean",
@@ -10132,9 +10199,12 @@
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
-      "tags": [],
+      "tags": [
+        "late-night"
+      ],
       "tags_llm_done": true,
-      "stale": true
+      "stale": true,
+      "time_checked": 3
     },
     {
       "title": "22 Oct 2026 How I Fought for My Life Under Patriarchy: Anne D. Lille (59)",
@@ -10148,6 +10218,7 @@
       "source": "Conférences gesticulées (per-day pages)",
       "uid": "8747be4cecf6c8b3",
       "colour": "#0F8CA8",
+      "time_checked": 3,
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -10168,6 +10239,7 @@
       "source": "Conférences gesticulées (per-day pages)",
       "uid": "c03fad0f5506bfea",
       "colour": "#0F8CA8",
+      "time_checked": 3,
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -10188,6 +10260,7 @@
       "source": "Conférences gesticulées (per-day pages)",
       "uid": "26d0c8dd9ff176ab",
       "colour": "#0F8CA8",
+      "time_checked": 3,
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -10208,6 +10281,7 @@
       "source": "Conférences gesticulées (per-day pages)",
       "uid": "6f7ed078378f9b65",
       "colour": "#0F8CA8",
+      "time_checked": 3,
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -10228,6 +10302,7 @@
       "source": "Conférences gesticulées (per-day pages)",
       "uid": "5173698a3985a636",
       "colour": "#0F8CA8",
+      "time_checked": 3,
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -10248,6 +10323,7 @@
       "source": "Conférences gesticulées (per-day pages)",
       "uid": "c6c93670176c08ce",
       "colour": "#0F8CA8",
+      "time_checked": 3,
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -10268,6 +10344,7 @@
       "source": "Conférences gesticulées (per-day pages)",
       "uid": "a6cdae14ac28d231",
       "colour": "#0F8CA8",
+      "time_checked": 3,
       "category": "other",
       "tags": []
     },
@@ -10283,6 +10360,7 @@
       "source": "La Maison du Livre",
       "uid": "f200e9482bb27033",
       "colour": "#C0392B",
+      "time_checked": 3,
       "category": "other",
       "tags": []
     },
@@ -10337,6 +10415,7 @@
       "source": "GC Pianofabriek",
       "uid": "54bbdd1ae6c98221",
       "colour": "#1B6FE0",
+      "time_checked": 3,
       "translated": true,
       "category": "community-social",
       "category_llm": true,
@@ -10357,6 +10436,7 @@
       "source": "Fuse",
       "uid": "f468eaeb31897a81",
       "colour": "#C0392B",
+      "time_checked": 3,
       "translated": true,
       "category": "music",
       "category_llm": true,
@@ -10378,6 +10458,7 @@
       "source": "GC Ten Weyngaert",
       "uid": "391f5b939cab1f99",
       "colour": "#0F8CA8",
+      "time_checked": 3,
       "translated": true,
       "category": "community-social",
       "category_llm": true,
@@ -10398,6 +10479,7 @@
       "source": "GC Ten Weyngaert",
       "uid": "13bc8e1e67d87c82",
       "colour": "#0F8CA8",
+      "time_checked": 3,
       "category": "other",
       "tags": [
         "free"
@@ -10415,6 +10497,7 @@
       "source": "Conférences gesticulées (per-day pages)",
       "uid": "27133b0c54363af5",
       "colour": "#0F8CA8",
+      "time_checked": 3,
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -10435,6 +10518,7 @@
       "source": "Conférences gesticulées (per-day pages)",
       "uid": "ac419b9dbb33b411",
       "colour": "#0F8CA8",
+      "time_checked": 3,
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -10455,6 +10539,7 @@
       "source": "Conférences gesticulées (per-day pages)",
       "uid": "f6288fdf7285c9fb",
       "colour": "#0F8CA8",
+      "time_checked": 3,
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -10475,6 +10560,7 @@
       "source": "Conférences gesticulées (per-day pages)",
       "uid": "96b17b1d09cf5f25",
       "colour": "#0F8CA8",
+      "time_checked": 3,
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -10495,6 +10581,7 @@
       "source": "Conférences gesticulées (per-day pages)",
       "uid": "c74e8d3249b266df",
       "colour": "#0F8CA8",
+      "time_checked": 3,
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -10505,9 +10592,9 @@
     },
     {
       "title": "Mark with a K & Mc Chucky",
-      "start": "2026-10-23T00:00:00+02:00",
+      "start": "2026-10-23T23:00:00+02:00",
       "end": null,
-      "all_day": true,
+      "all_day": false,
       "location": "Carré, Willebroek",
       "description": "",
       "url": "https://carre.be/events/mark-with-a-k-mc-chucky/",
@@ -10519,16 +10606,18 @@
       "category": "music",
       "category_llm": true,
       "tags": [
+        "late-night",
         "live"
       ],
       "tags_llm_done": true,
-      "stale": true
+      "stale": true,
+      "time_checked": 3
     },
     {
       "title": "Leïla Chaix Azertype 23.10.2026 Cyberflæmme Les Poésiques Concert Lecture musicale",
-      "start": "2026-10-23T00:00:00+02:00",
+      "start": "2026-10-23T18:30:00+02:00",
       "end": null,
-      "all_day": true,
+      "all_day": false,
       "location": "",
       "description": "Leïla Chaix Azertype 23.10.2026 Cyberflæmme Les Poésiques Concert Lecture musicale",
       "url": "https://www.lamaisondulivre.be/programme/cyberflaemme/",
@@ -10536,8 +10625,11 @@
       "source": "La Maison du Livre",
       "uid": "05f2cbe428e9e704",
       "colour": "#C0392B",
+      "time_checked": 3,
       "category": "other",
-      "tags": []
+      "tags": [
+        "evening"
+      ]
     },
     {
       "title": "C.A.R.E. Training: Understanding, Acting, Dreaming Together for a Different Society",
@@ -10683,7 +10775,7 @@
       "title": "Carrosseries w/ Grunge Gone Broadway + Marion Laser + Belzebuth GX",
       "start": "2026-10-24T00:00:00+02:00",
       "end": null,
-      "all_day": true,
+      "all_day": false,
       "location": "Recyclart",
       "description": "",
       "url": "https://recyclart.be/fr/agenda/carrosseries-2",
@@ -10695,10 +10787,12 @@
       "category": "music",
       "category_llm": true,
       "tags": [
+        "late-night",
         "live"
       ],
       "tags_llm_done": true,
-      "stale": true
+      "stale": true,
+      "time_checked": 3
     },
     {
       "title": "Visit & Practice - Life Drawing (FR/NL)",
@@ -13524,21 +13618,6 @@
         "evening"
       ],
       "stale": true
-    },
-    {
-      "title": "11 Nov 2026 C’est dangereux, my love ! Estelle Thareau Saint-Genis-Laval (69)",
-      "start": "2026-11-11T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "11 Nov 2026 C’est dangereux, my love ! Estelle Thareau Saint-Genis-Laval (69)",
-      "url": "https://conferences-gesticulees.net/events/11-11-2026-estelle-thareau-ecole-steiner-st-genis-laval/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "uid": "ddb0a686d51224b0",
-      "colour": "#0F8CA8",
-      "category": "other",
-      "tags": []
     },
     {
       "title": "Flea market at Place du Jeu de Balle",
