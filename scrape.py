@@ -19,9 +19,9 @@ from zoneinfo import ZoneInfo
 import yaml
 from dateutil import parser as dateparser
 
-from extract import (CATEGORIES, CATEGORY_IDS, TAG_IDS, TAGS, TIME_CACHE_VERSION,
-                      classify_categories, classify_tags, enrich_missing_times,
-                      extract, translate_events)
+from extract import (CATEGORIES, CATEGORY_IDS, TAG_IDS, TAGS, DETAIL_CACHE_VERSION,
+                      classify_categories, classify_tags, enrich_missing_details,
+                      extract, fill_price_from_text, translate_events)
 
 ROOT = Path(__file__).parent
 OUT = ROOT / "docs"
@@ -217,15 +217,18 @@ def load_translation_cache() -> dict[str, dict]:
             for e in _previous_events() if e.get("translated")}
 
 
-def load_time_cache() -> dict[str, dict]:
-    """uid -> {start, all_day}, for events whose detail page has already been
-    checked for a time (successfully or not) - see enrich_missing_times().
-    Only trusts entries stamped with the current TIME_CACHE_VERSION, so a fix
-    to the time-extraction logic invalidates stale cached results (a bare
-    `time_checked: true` from before versioning existed doesn't match either,
-    so it's treated as unchecked too) instead of replaying old garbage forever."""
-    return {e["uid"]: {"start": e["start"], "all_day": e["all_day"]}
-            for e in _previous_events() if e.get("time_checked") == TIME_CACHE_VERSION}
+def load_detail_cache() -> dict[str, dict]:
+    """uid -> {start, all_day, location, price_min, price_max}, for events
+    whose detail page has already been checked - see enrich_missing_details().
+    Only trusts entries stamped with the current DETAIL_CACHE_VERSION, so a
+    fix to the extraction logic invalidates stale cached results (a bare
+    `time_checked: true` from before this field was renamed doesn't match
+    either, so it's treated as unchecked too) instead of replaying old
+    garbage forever."""
+    return {e["uid"]: {"start": e["start"], "all_day": e["all_day"],
+                        "location": e.get("location"), "price_min": e.get("price_min"),
+                        "price_max": e.get("price_max")}
+            for e in _previous_events() if e.get("detail_checked") == DETAIL_CACHE_VERSION}
 
 
 def within_window(iso: str, tz: str, past_days: int, horizon_days: int) -> bool:
@@ -443,11 +446,15 @@ def main() -> int:
 
     events = sorted(all_events.values(), key=lambda e: e["start"])
     model = defaults.get("llm_model", "claude-haiku-4-5")
-    # Several listing pages state a date but no time at all (confirmed live,
-    # not a parsing bug) - the event's own detail page usually has it.
+    # Cheap, text-only pass first: a price stated right on the listing card
+    # ("12€") needs no extra fetch at all.
+    fill_price_from_text(events)
+    # Several listing pages state a date but no time, location, or price at
+    # all (confirmed live, not a parsing bug) - the event's own detail page
+    # usually has at least one of the three.
     listing_urls = {src["url"] for src in sources}
-    enrich_missing_times(events, tz, defaults.get("respect_robots", True), delay,
-                          listing_urls, load_time_cache())
+    enrich_missing_details(events, tz, defaults.get("respect_robots", True), delay,
+                            listing_urls, load_detail_cache())
     # Translate first so categorising/tagging both work from the same clean
     # English text as the published page, instead of a mix of languages.
     translation_cache = load_translation_cache()

@@ -161,6 +161,8 @@ def normalise_event(raw: dict, source: str, page_url: str, tz: str) -> dict | No
         "image": image or None,
         "source": source,
         "llm_recurring": bool(raw.get("recurring")),
+        "price_min": None,
+        "price_max": None,
     }
     ev["uid"] = hashlib.sha1(
         f"{source}|{ev['title'].lower()}|{ev['start'][:10]}".encode()
@@ -752,6 +754,22 @@ def deterministic_tags(e: dict) -> set[str]:
     return tags
 
 
+def fill_price_from_text(events: list[dict]) -> None:
+    """Most listing cards that mention a price just state it inline ("12€",
+    "5-8 EUR") rather than in a structured field - discovery.extract_attributes()
+    already parses that, so this is a free (no HTTP) pass applied to every
+    event's own title+description on every run, independent of the detail-page
+    fetch in enrich_missing_details() which is capped and reserved for events
+    a text-only pass can't help (price stated only on the detail page)."""
+    for e in events:
+        if e.get("price_min") is not None:
+            continue
+        attrs = discovery.extract_attributes(f"{e.get('title', '')} {e.get('description', '')}")
+        if attrs.get("price_min") is not None:
+            e["price_min"] = attrs["price_min"]
+            e["price_max"] = attrs.get("price_max", attrs["price_min"])
+
+
 def classify_tags(events: list[dict], model: str, cache: dict[str, list[str]]) -> None:
     """Assign tags to each event, in place. `cache` (uid -> tag id list) is the
     previous run's full tag list per event; deterministic tags are always
@@ -900,16 +918,18 @@ TIME_KEYWORD_RE = re.compile(
     r"\b(doors?|starts?|begins?|opens?|show(?:time)?s?|portes?|d[ée]but|ouverture|aanvang|begint?"
     r"|s[ée]ances?|vertoning(?:en)?)\b", re.I)
 
-# Bump this whenever find_time_in_text()/enrich_event_time() logic changes in
-# a way that should invalidate previously-cached results (see load_time_cache
-# in scrape.py) - otherwise a fix here never actually re-runs for events a
-# prior, buggier version already marked time_checked. v2: keyword-proximity
-# rewrite that fixed Le Jacques Franck's 01:26/01:42-style garbage times. v3:
-# added séance/vertoning (FR/NL for a cinema screening) - Le Jacques Franck's
-# "cinema" event lost a real 09:30 time to v2's stricter keyword list because
-# its detail page states the time next to "Séance" rather than any of v2's
-# doors/start/opens-style words.
-TIME_CACHE_VERSION = 3
+# Bump this whenever find_time_in_text()/enrich_event_detail() logic changes
+# in a way that should invalidate previously-cached results (see
+# load_detail_cache in scrape.py) - otherwise a fix here never actually
+# re-runs for events a prior, buggier version already marked detail_checked.
+# v2: keyword-proximity rewrite that fixed Le Jacques Franck's 01:26/01:42-style
+# garbage times. v3: added séance/vertoning (FR/NL for a cinema screening) -
+# Le Jacques Franck's "cinema" event lost a real 09:30 time to v2's stricter
+# keyword list because its detail page states the time next to "Séance"
+# rather than any of v2's doors/start/opens-style words. v4: the same
+# detail-page fetch now also recovers location and price when missing, so
+# every previously-checked event is re-tried once under the new logic.
+DETAIL_CACHE_VERSION = 4
 
 
 def find_time_in_text(text: str) -> tuple[int, int] | None:
@@ -937,63 +957,93 @@ def find_time_in_text(text: str) -> tuple[int, int] | None:
 # general text heuristic - not attempted here.
 
 
-def enrich_event_time(ev: dict, tz: str, respect_robots: bool) -> str | None:
+def enrich_event_detail(ev: dict, tz: str, respect_robots: bool) -> dict:
     """Confirmed via a live diagnostic (01/09/2026) that several listing
     pages simply never state a time next to the date at all - not a
     parsing bug, the information isn't on that page. But the event's own
-    detail page usually has it, either as schema.org Event data or as
-    plain text ("Doors 20:00" etc.). Returns a new ISO start with a real
-    time, or None if the detail page has nothing better either."""
+    detail page usually has more: a real time (schema.org Event data, or
+    plain text like "Doors 20:00"), the venue (recipe/browser-sourced
+    listing cards strip this, but a detail page's own "Lieu: X" line
+    survives since we keep its line breaks here), and a price. This one
+    HTTP fetch is reused for all three instead of fetching the same page
+    three times. Returns only the fields that improved, so callers can
+    e.update(result) without clobbering what was already known."""
     if not ev.get("url") or not ev["url"].startswith("http"):
-        return None
+        return {}
     try:
         html = fetch(ev["url"], respect_robots)
     except Exception:
-        return None
+        return {}
+    updates: dict = {}
     for node in parse_jsonld(html, ev["source"], ev["url"], tz):
-        if node["start"][:10] == ev["start"][:10] and not node["all_day"]:
-            return node["start"]
+        if node["start"][:10] != ev["start"][:10]:
+            continue
+        if ev.get("all_day") and not node["all_day"]:
+            updates["start"] = node["start"]
+            updates["all_day"] = False
+        if not ev.get("location") and node.get("location"):
+            updates["location"] = node["location"]
+        break
     soup = BeautifulSoup(html, "lxml")
     for tag in soup(["script", "style", "noscript", "svg"]):
         tag.decompose()
-    found = find_time_in_text(soup.get_text(" "))
-    if not found:
-        return None
-    hour, minute = found
-    try:
-        base = datetime.fromisoformat(ev["start"])
-    except ValueError:
-        return None
-    return base.replace(hour=hour, minute=minute).isoformat()
+    if ev.get("all_day") and "all_day" not in updates:
+        found = find_time_in_text(soup.get_text(" "))
+        if found:
+            hour, minute = found
+            try:
+                base = datetime.fromisoformat(ev["start"])
+                updates["start"] = base.replace(hour=hour, minute=minute).isoformat()
+                updates["all_day"] = False
+            except ValueError:
+                pass
+    need_location = not ev.get("location") and "location" not in updates
+    need_price = ev.get("price_min") is None
+    if need_location or need_price:
+        # Keep line breaks (unlike the flattened listing-card text
+        # extract_recipe_events() works from) so extract_attributes()'s
+        # "Lieu: X" / "Tarif: Y€" labelled-line parsing actually has lines
+        # to split on.
+        attrs = discovery.extract_attributes(soup.get_text("\n", strip=True))
+        if need_location:
+            venue = attrs.get("labelled", {}).get("venue")
+            if venue:
+                updates["location"] = clean_text(venue)[:200]
+        if need_price and attrs.get("price_min") is not None:
+            updates["price_min"] = attrs["price_min"]
+            updates["price_max"] = attrs.get("price_max", attrs["price_min"])
+    return updates
 
 
-def enrich_missing_times(events: list[dict], tz: str, respect_robots: bool,
-                          delay: float, listing_urls: set[str],
-                          cache: dict[str, dict], max_new: int = 60) -> None:
-    """For all_day events, try to recover a real time from their own detail
-    page - skipped when an event's "url" is just the venue's listing page
-    (nothing new to fetch there), and capped per run since this is one
-    extra HTTP request per event; whatever's left over just tries again
-    next run. `cache` (uid -> {{start, all_day}}) holds every event this has
-    ever been tried for, success or not, so a page confirmed to have no
-    time isn't refetched forever."""
+def enrich_missing_details(events: list[dict], tz: str, respect_robots: bool,
+                            delay: float, listing_urls: set[str],
+                            cache: dict[str, dict], max_new: int = 60) -> None:
+    """For events missing a real time, a location, or a price, try to recover
+    them from the event's own detail page - skipped when an event's "url" is
+    just the venue's listing page (nothing new to fetch there), and capped
+    per run since this is one extra HTTP request per event; whatever's left
+    over just tries again next run. `cache` (uid -> {{start, all_day,
+    location, price_min, price_max}}) holds every event this has ever been
+    tried for, success or not, so a page confirmed to have nothing better
+    isn't refetched forever."""
     fetched = 0
     for e in events:
-        if not e.get("all_day"):
+        if not (e.get("all_day") or not e.get("location") or e.get("price_min") is None):
             continue
         cached = cache.get(e["uid"])
         if cached:
             e["start"], e["all_day"] = cached["start"], cached["all_day"]
-            e["time_checked"] = TIME_CACHE_VERSION
+            if cached.get("location"):
+                e["location"] = cached["location"]
+            if cached.get("price_min") is not None:
+                e["price_min"], e["price_max"] = cached["price_min"], cached.get("price_max")
+            e["detail_checked"] = DETAIL_CACHE_VERSION
             continue
         if fetched >= max_new or e.get("url") in listing_urls:
             continue
         fetched += 1
-        new_start = enrich_event_time(e, tz, respect_robots)
-        if new_start:
-            e["start"] = new_start
-            e["all_day"] = False
-        e["time_checked"] = TIME_CACHE_VERSION
+        e.update(enrich_event_detail(e, tz, respect_robots))
+        e["detail_checked"] = DETAIL_CACHE_VERSION
         time.sleep(delay)
 
 

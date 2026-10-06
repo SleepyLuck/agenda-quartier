@@ -232,6 +232,7 @@
   .card .meta .venue{display:flex;align-items:center;gap:.35rem;margin-top:.1rem}
   .card .meta .venue .swatch{width:.55rem;height:.55rem;border-radius:99px;flex:none}
   .card .free{color:var(--green);font-weight:700}
+  .card .price{color:var(--accent-text);font-weight:700}
   .card .tagrow{display:flex;flex-wrap:wrap;gap:.3rem;margin-top:.4rem}
 
   /* skeletons ---------------------------------------------------------*/
@@ -589,6 +590,13 @@ const fmtCardDate = iso => { const p = dateParts(iso, {weekday:"short",day:"nume
   return `${p.weekday} ${p.day} ${p.month}`; };
 const FREE_RE = /\b(free|no charge|free admission|free entry|complimentary|gratuit|gratis|entr[ée]e libre|toegang vrij)\b/i;
 const isFree = e => (e.tags||[]).includes("free") || FREE_RE.test(`${e.title} ${e.description}`);
+// price_min/max come from the scraper's own text + detail-page extraction -
+// null just means "not stated anywhere we looked", not "free" (that's isFree,
+// checked first by every caller so the two badges never show together).
+const fmtPrice = n => n % 1 ? n.toFixed(2) : String(n);
+const priceLabel = e => e.price_min == null ? null
+  : e.price_min === e.price_max ? `€${fmtPrice(e.price_min)}`
+  : `€${fmtPrice(e.price_min)}–${fmtPrice(e.price_max)}`;
 const isRecurring = e => (e.tags||[]).includes("recurring");
 const isAdults = e => (e.tags||[]).includes("adults");
 // An exhibition/festival that spans several days, as opposed to a single
@@ -853,6 +861,12 @@ function whenColHTML(e, compact){
 }
 
 // ---------------------------------------------------------- detail row
+function priceBadgeHTML(e, free){
+  if(free) return `<span class="price free">FREE</span>`;
+  const label = priceLabel(e);
+  return label ? `<span class="price">${esc(label)}</span>` : "";
+}
+
 function rowHTML(e){
   const free = isFree(e);
   const soon = soonLabel(e);
@@ -862,7 +876,7 @@ function rowHTML(e){
     <div class="row-info">
       <div class="row-toprow">
         <div class="row-title">${esc(e.title)}</div>
-        ${free ? `<span class="price free">FREE</span>` : ""}
+        ${priceBadgeHTML(e, free)}
         ${soon ? `<span class="soonpill">${esc(soon.toUpperCase())}</span>` : ""}
       </div>
       <div class="row-meta">
@@ -876,13 +890,14 @@ function rowHTML(e){
 
 function miniRowHTML(e){
   const free = isFree(e);
+  const priceTxt = free ? "FREE" : priceLabel(e);
   return `<a class="minirow row" href="${esc(e.url)}" target="_blank" rel="noopener">
     <div class="when">${whenColHTML(e, true)}</div>
     ${rowThumbHTML(e)}
     <div class="row-info">
       <div class="row-title">${esc(e.title)}</div>
       <div class="row-meta">
-        <span class="swatch" style="background:${e.colour}"></span>${esc(e.source)}${free ? ` · <span class="price free">FREE</span>` : ""}
+        <span class="swatch" style="background:${e.colour}"></span>${esc(e.source)}${priceTxt ? ` · <span class="price${free ? " free" : ""}">${esc(priceTxt)}</span>` : ""}
       </div>
     </div>
   </a>`;
@@ -899,13 +914,14 @@ function cardHTML(e){
     : (e.all_day ? fmtCardDate(e.start) : `${fmtCardDate(e.start)} · ${fmtTime(e.start)}`);
   const soon = soonLabel(e);
   const free = isFree(e);
+  const priceTxt = free ? "Free" : priceLabel(e);
   return `<a class="card" href="${esc(e.url)}" target="_blank" rel="noopener">
     ${thumbHTML(e, true)}
     <div class="body">
       <div class="cat">${cat ? esc(cat.label) : ""}${soon ? `<span class="soonpill soon">${esc(soon.toUpperCase())}</span>` : ""}</div>
       <h3>${esc(e.title)}</h3>
       <div class="meta" style="font-weight:700;color:var(--ink);font-size:.88rem">${esc(dateLine)}</div>
-      <div class="meta venue"><span class="swatch" style="background:${e.colour}"></span>${esc(e.source)}${free ? ` · <span class="free">Free</span>` : ""}</div>
+      <div class="meta venue"><span class="swatch" style="background:${e.colour}"></span>${esc(e.source)}${priceTxt ? ` · <span class="${free ? "free" : "price"}">${esc(priceTxt)}</span>` : ""}</div>
       ${e.location ? `<div class="meta loc">📍 ${esc(e.location)}</div>` : ""}
       <div class="tagrow">${free ? `<span class="tagchip free">Free</span>` : ""}${tagChipsHTML(e, 3)}</div>
     </div>
