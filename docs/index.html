@@ -193,7 +193,7 @@
   .minirows{display:flex; flex-direction:column; gap:.7rem; background:var(--card); border:1px solid var(--rule);
     border-radius:var(--radius); padding:.9rem}
   .minirows + .minirows{margin-top:1.4rem}
-  .minirow{display:grid; grid-template-columns:2.6rem 1fr; gap:.6rem; text-decoration:none; color:inherit; align-items:flex-start}
+  .minirow{display:grid; grid-template-columns:2.6rem 2.6rem 1fr; gap:.6rem; text-decoration:none; color:inherit; align-items:flex-start}
   .minirow .rowthumb{width:2.6rem; height:2.6rem; font-size:1rem}
   .minirow .row-title{font-size:.85rem}
   .minirow .when{font-size:.8rem}
@@ -211,7 +211,7 @@
   .section + .section{border-top:1px solid var(--rule)}
   .hscroll{display:flex;gap:1.1rem;overflow-x:auto;padding-bottom:.3rem;-webkit-overflow-scrolling:touch;scroll-snap-type:x proximity}
   .hscroll .card{min-width:15.5rem;scroll-snap-align:start}
-  @media (min-width:1000px){ .hscroll{display:grid;grid-template-columns:repeat(4,1fr);overflow:visible} }
+  @media (min-width:1000px){ .hscroll{display:grid;grid-template-columns:repeat(auto-fit,minmax(15.5rem,1fr));overflow:visible} }
   .card{background:var(--card);border:1px solid var(--rule);border-radius:var(--radius);overflow:hidden;
     display:flex;flex-direction:column;text-decoration:none;color:inherit;transition:transform .15s,box-shadow .15s}
   .card:hover{transform:translateY(-2px);box-shadow:0 10px 24px -14px rgba(21,21,31,.28)}
@@ -332,6 +332,17 @@
   .ongoing-add{flex:none; background:none; border:1px solid var(--rule); border-radius:99px;
     width:2rem; height:2rem; font-size:.85rem; line-height:1; cursor:pointer}
   .ongoing-add:hover{background:var(--bg)}
+
+  /* weekly/monthly fixtures - own section, not scattered across day groups */
+  .recurring-block{background:var(--chip-blue-bg); border-radius:var(--radius); padding:.9rem 1.1rem; margin-bottom:1.6rem}
+  .recurring-row{display:flex; align-items:center; gap:.5rem; padding:.4rem 0;
+    border-bottom:1px solid color-mix(in srgb, var(--chip-blue-ink) 15%, transparent); font-size:.85rem}
+  .recurring-row:last-child{border-bottom:0}
+  .recurring-row > a{display:flex; align-items:center; gap:.5rem; flex-wrap:wrap; flex:1; min-width:0;
+    text-decoration:none; color:inherit}
+  .recurring-row .swatch{width:.5rem;height:.5rem;border-radius:99px;flex:none}
+  .recurring-pattern{color:var(--chip-blue-ink); font-weight:700; white-space:nowrap}
+  .recurring-block .ongoing-add{border-color:color-mix(in srgb, var(--chip-blue-ink) 25%, transparent)}
 
   .empty{background:var(--card);border:1px dashed var(--rule);border-radius:var(--radius);padding:1.5rem;max-width:60ch}
   .empty h3{margin:0 0 .4rem;font-size:1.05rem}
@@ -1047,10 +1058,20 @@ function renderAgenda(){
     if(btn) btn.onclick = resetFilters;
     return;
   }
-  const groups = {};
-  list.forEach(e=>{ (groups[dayKey(e.start)] ||= []).push(e); });
+  // Recurring series (a weekly workshop, a monthly market...) aren't really
+  // "today's events" - the scraper keeps one sample occurrence per series,
+  // so grouping them by that one date would bury "every Tuesday" under a
+  // single Tuesday instead of showing it as the standing weekly fixture it
+  // is. Pulled into their own section instead of the day-by-day list,
+  // unless they also span multiple days (an ongoing exhibition that
+  // happens to recur), in which case the ongoing block below still wins.
+  const recurringList = list.filter(e => isRecurring(e) && !isOngoingSpan(e));
+  const oneTimeList = list.filter(e => !isRecurring(e) || isOngoingSpan(e));
 
-  box.innerHTML = Object.keys(groups).sort().map(key=>{
+  const groups = {};
+  oneTimeList.forEach(e=>{ (groups[dayKey(e.start)] ||= []).push(e); });
+
+  const daysHTML = Object.keys(groups).sort().map(key=>{
     const dayEvents = groups[key];
     const trueEvents = dayEvents.filter(e => !isOngoingSpan(e));
     const ongoingEvents = dayEvents.filter(isOngoingSpan);
@@ -1067,6 +1088,8 @@ function renderAgenda(){
       ${ongoingBlockHTML(ongoingEvents)}
     </section>`;
   }).join("");
+
+  box.innerHTML = recurringBlockHTML(recurringList) + daysHTML;
 
   box.querySelectorAll("button[data-uid]").forEach(b=>{
     b.onclick = ()=> downloadICS(state.data.events.find(e=>e.uid===b.dataset.uid));
@@ -1105,6 +1128,32 @@ function ongoingBlockHTML(events){
   return `<div class="ongoing-block">
     <div class="ongoing-head">On display / ongoing<span class="ct">${events.length}</span></div>
     ${events.map(ongoingRowHTML).join("")}
+  </div>`;
+}
+
+// Compact single-line row for a standing weekly/monthly fixture (the scraper
+// keeps one sample date per series) - shown by its pattern ("Tuesdays"), not
+// the one date it happens to be stored under.
+function recurringRowHTML(e){
+  const cat = state.catById[e.category];
+  const pattern = weekdayLabel(e.start) + (e.all_day ? "" : ` · ${fmtTime(e.start)}`);
+  return `<div class="recurring-row">
+    <a href="${esc(e.url)}" target="_blank" rel="noopener">
+      <span class="swatch" style="background:${e.colour}"></span>
+      ${cat ? `<span aria-hidden="true">${cat.emoji}</span>` : ""}
+      <span class="ongoing-title">${esc(e.title)}</span>
+      <span class="ongoing-source">${esc(e.source)}</span>
+      <span class="recurring-pattern">${esc(pattern)}</span>
+    </a>
+    <button class="ongoing-add" data-uid="${e.uid}" title="Add to my calendar" aria-label="Add to my calendar">📅</button>
+  </div>`;
+}
+
+function recurringBlockHTML(events){
+  if(!events.length) return "";
+  return `<div class="recurring-block">
+    <div class="ongoing-head">Weekly &amp; recurring<span class="ct">${events.length}</span></div>
+    ${events.map(recurringRowHTML).join("")}
   </div>`;
 }
 
