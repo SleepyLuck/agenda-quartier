@@ -371,3 +371,15 @@ sources:
   - name: ANTE Festival
     url: https://www.ante.brussels/en/
     method: browser
+
+  # --- Added 2026-10-06: user-suggested, verified via probe.py on a GitHub
+  # Actions runner. "Agenda le plus complet de Belgique" (their own tagline)
+  # - a nationwide events aggregator, not neighbourhood-specific, but robots
+  # allow it and it passed the full score() check (recipe block
+  # article.mm-col, 9 dated items on the front page alone, Saint-Gilles/
+  # Forest/Ixelles/Anderlecht all mentioned in its text). Its own robots.txt
+  # also points at agendabw.be and filous.be as related/sibling sites run by
+  # the same group - worth probing separately if out.be turns out well.
+  - name: Out.be
+    url: https://www.out.be/fr/
+    method: auto
