@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-06T00:22:38.302467+02:00",
+  "generated": "2026-10-06T13:42:14.304757+02:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
@@ -15,7 +15,7 @@
       "name": "GC Pianofabriek",
       "url": "https://www.pianofabriek.be/activiteiten",
       "colour": "#1B6FE0",
-      "count": 24,
+      "count": 25,
       "method": "browser",
       "stale": false,
       "last_ok": "2026-10-06"
@@ -213,7 +213,7 @@
       "name": "CBCS (Brussels social sector agenda)",
       "url": "https://cbcs.be/agenda/?ical=1",
       "colour": "#8A7500",
-      "count": 12,
+      "count": 11,
       "method": "ics",
       "stale": false,
       "last_ok": "2026-10-06"
@@ -776,7 +776,7 @@
       "source": "GC Pianofabriek",
       "method": "browser",
       "found": 25,
-      "kept": 24,
+      "kept": 25,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -996,7 +996,7 @@
       "source": "CBCS (Brussels social sector agenda)",
       "method": "ics",
       "found": 14,
-      "kept": 12,
+      "kept": 11,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1424,27 +1424,6 @@
     }
   ],
   "events": [
-    {
-      "title": "The Grand Bain: Open Doors Week at the South-East Basin",
-      "start": "2026-10-05T08:00:00+02:00",
-      "end": "2026-10-09T17:00:00+02:00",
-      "all_day": false,
-      "location": "",
-      "description": "From October 5-9, 2026, dive into the GRAND BAIN and meet the social and health services teams of the South-East Basin! Throughout the week, diverse sector teams (health, mental health, social services, disability support, early childhood, mobile teams, home care and services, etc.) will open their doors to showcase their missions, practices, and on-the-ground reality. A perfect opportunity to meet other professionals, exchange about your work experiences, and strengthen connections between services. Why participate? Because getting to know each other better",
-      "url": "https://cbcs.be/event/le-grand-bain-la-semaine-portes-ouvertes-du-bassin-sud-est-2/",
-      "image": null,
-      "source": "CBCS (Brussels social sector agenda)",
-      "uid": "2a0944f359f4c34f",
-      "colour": "#8A7500",
-      "translated": true,
-      "category": "community-social",
-      "category_llm": true,
-      "tags": [
-        "drop-in",
-        "recurring"
-      ],
-      "tags_llm_done": true
-    },
     {
       "title": "BOIRE & MANGER PizZwanze",
       "start": "2026-10-05T18:30:00+02:00",
@@ -1970,12 +1949,29 @@
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "dans 17h Manifestation Protest at the Tunesian embassy for the release of our comrades Mardi 6 octobre 2026 à 17:00 Woluwe-Saint-Pierre - 1150 Organisé par ProtestBase",
+      "description": "dans 3h Manifestation Protest at the Tunesian embassy for the release of our comrades Mardi 6 octobre 2026 à 17:00 Woluwe-Saint-Pierre - 1150 Organisé par ProtestBase",
       "url": "https://protestbase.be/manifestations/bruxelles",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
       "uid": "23b766e78a12a397",
       "colour": "#E07A00",
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
+      "title": "Manif Stop inaccessibilité",
+      "start": "2026-10-06T17:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "oct. 6 Manif Stop inaccessibilité 17h00 - 19h00 Bruxelles",
+      "url": "https://stuut.info/Manif-Stop-inaccessibilite-Gare-central-06-10-17-19h-14129",
+      "image": "https://stuut.info/squelettes/images/stuut_lin_fb_1200x627.jpeg",
+      "source": "Stuut",
+      "uid": "eda0c460eda7b934",
+      "colour": "#7B49D6",
       "category": "other",
       "tags": [
         "evening"
@@ -2588,23 +2584,6 @@
       ]
     },
     {
-      "title": "Santé Mental’O",
-      "start": "2026-10-07T18:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "oct. 7 Santé Mental’O 18h00 - 20h00 Bruxelles",
-      "url": "https://stuut.info/Sante-Mental-O-14069",
-      "image": "https://stuut.info/squelettes/images/stuut_lin_fb_1200x627.jpeg",
-      "source": "Stuut",
-      "uid": "5becb1d6b81537eb",
-      "colour": "#7B49D6",
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "Nocturnes gratuites mer 07/10 - 18:00 Visites Guidées",
       "start": "2026-10-07T18:00:00+02:00",
       "end": null,
@@ -3168,7 +3147,7 @@
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "dans 3 jours Apprendre Atelier de Décryptage de la propagande de guerre Jeudi 8 octobre 2026 à 18:00 Ixelles - 1050 Organisé par ProtestBase",
+      "description": "dans 2 jours Apprendre Atelier de Décryptage de la propagande de guerre Jeudi 8 octobre 2026 à 18:00 Ixelles - 1050 Organisé par ProtestBase",
       "url": "https://protestbase.be/manifestations/bruxelles",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
@@ -3219,7 +3198,7 @@
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "dans 3 jours Apprendre AVANT-PREMIÈRE : À BOUT DE COURSE AU CINÉMA VENDÔME Jeudi 8 octobre 2026 à 18:30 Ixelles - 1050 Organisé par ProtestBase",
+      "description": "dans 2 jours Apprendre AVANT-PREMIÈRE : À BOUT DE COURSE AU CINÉMA VENDÔME Jeudi 8 octobre 2026 à 18:30 Ixelles - 1050 Organisé par ProtestBase",
       "url": "https://protestbase.be/manifestations/bruxelles",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
@@ -3442,27 +3421,6 @@
       "tags_llm_done": true
     },
     {
-      "title": "© De Buurtwinkel Neighborhood Walk Anneessenswijk Organizer: N22, in collaboration with Gemeenschapscentrum Het Huys vzw ; Gemeenschapscentrum",
-      "start": "2026-10-09T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "© De Buurtwinkel Neighborhood Walk Anneessenswijk Organizer: N22, in collaboration with Gemeenschapscentrum Het Huys vzw ; Gemeenschapscentrum De Kriekelaar vzw ; Gemeenschapscentrum De Kroon vzw ; Gemeenschapscentrum De Linde vzw ; Gemeenschapscentrum De Maalbeek vzw ; Gemeenschapscentrum De Markten v",
-      "url": "https://www.tenweyngaert.be/activiteiten/wijkwandeling-anneessenswijk",
-      "image": null,
-      "source": "GC Ten Weyngaert",
-      "uid": "058d6ec1615021ef",
-      "colour": "#0F8CA8",
-      "time_checked": 3,
-      "translated": true,
-      "category": "community-social",
-      "category_llm": true,
-      "tags": [
-        "outdoor"
-      ],
-      "tags_llm_done": true
-    },
-    {
       "title": "Gratis Vernissage Collectief 'le 180°' Organisator: Gemeenschapscentrum Ten Weyngaert vzw vr 09.10.2026 GC Ten Weyngaert, Vorst Thema activ",
       "start": "2026-10-09T00:00:00+02:00",
       "end": null,
@@ -3497,6 +3455,27 @@
       "tags": [
         "free"
       ]
+    },
+    {
+      "title": "© De Buurtwinkel Neighborhood Walk Anneessenswijk Organizer: N22, in collaboration with Gemeenschapscentrum Het Huys vzw ; Gemeenschapscentrum",
+      "start": "2026-10-09T00:00:00+02:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "© De Buurtwinkel Neighborhood Walk Anneessenswijk Organizer: N22, in collaboration with Gemeenschapscentrum Het Huys vzw ; Gemeenschapscentrum De Kriekelaar vzw ; Gemeenschapscentrum De Kroon vzw ; Gemeenschapscentrum De Linde vzw ; Gemeenschapscentrum De Maalbeek vzw ; Gemeenschapscentrum De Markten v",
+      "url": "https://www.tenweyngaert.be/activiteiten/wijkwandeling-anneessenswijk",
+      "image": null,
+      "source": "GC Ten Weyngaert",
+      "uid": "058d6ec1615021ef",
+      "colour": "#0F8CA8",
+      "time_checked": 3,
+      "translated": true,
+      "category": "community-social",
+      "category_llm": true,
+      "tags": [
+        "outdoor"
+      ],
+      "tags_llm_done": true
     },
     {
       "title": "Parcours d'artistes d'Etterbeek",
@@ -4682,31 +4661,31 @@
       "tags_llm_done": true
     },
     {
-      "title": "VISITE DÉCOLONIALE - Parc du Cinquantenaire",
-      "start": "2026-10-10T14:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "dans 5 jours Apprendre VISITE DÉCOLONIALE - Parc du Cinquantenaire Samedi 10 octobre 2026 à 14:00 Bruxelles - 1000 Organisé par ProtestBase",
-      "url": "https://protestbase.be/manifestations/bruxelles",
-      "image": "https://protestbase.be/og.jpg",
-      "source": "Protestbase Bruxelles",
-      "uid": "c1664fa4851828db",
-      "colour": "#E07A00",
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "Mobilisation internationale pour la Palestine - 3 ans de génocide - BXL MArche pour la Palestine",
       "start": "2026-10-10T14:00:00+02:00",
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "dans 5 jours Manifestation Mobilisation internationale pour la Palestine - 3 ans de génocide - BXL MArche pour la Palestine Samedi 10 octobre 2026 à 14:00 Saint-Gilles - 1060 Organisé par ProtestBase",
+      "description": "dans 4 jours Manifestation Mobilisation internationale pour la Palestine - 3 ans de génocide - BXL MArche pour la Palestine Samedi 10 octobre 2026 à 14:00 Saint-Gilles - 1060 Organisé par ProtestBase",
       "url": "https://protestbase.be/manifestations/bruxelles",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
       "uid": "51f212a3af91c7f5",
+      "colour": "#E07A00",
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "VISITE DÉCOLONIALE - Parc du Cinquantenaire",
+      "start": "2026-10-10T14:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "dans 4 jours Apprendre VISITE DÉCOLONIALE - Parc du Cinquantenaire Samedi 10 octobre 2026 à 14:00 Bruxelles - 1000 Organisé par ProtestBase",
+      "url": "https://protestbase.be/manifestations/bruxelles",
+      "image": "https://protestbase.be/og.jpg",
+      "source": "Protestbase Bruxelles",
+      "uid": "c1664fa4851828db",
       "colour": "#E07A00",
       "category": "other",
       "tags": []
@@ -4764,7 +4743,7 @@
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "dans 5 jours Manifestation Revolutions and Revolutionary Thought Samedi 10 octobre 2026 à 15:00 Bruxelles - 1000 Organisé par ProtestBase",
+      "description": "dans 4 jours Manifestation Revolutions and Revolutionary Thought Samedi 10 octobre 2026 à 15:00 Bruxelles - 1000 Organisé par ProtestBase",
       "url": "https://protestbase.be/manifestations/bruxelles",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
@@ -4794,7 +4773,7 @@
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "dans 5 jours Apprendre SOUNDTRACK TO A COUP D’ETAT + YOURI BOTTERMAN @espace Magh Samedi 10 octobre 2026 à 17:00 Bruxelles - 1000 Organisé par ProtestBase",
+      "description": "dans 4 jours Apprendre SOUNDTRACK TO A COUP D’ETAT + YOURI BOTTERMAN @espace Magh Samedi 10 octobre 2026 à 17:00 Bruxelles - 1000 Organisé par ProtestBase",
       "url": "https://protestbase.be/manifestations/bruxelles",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
@@ -5436,7 +5415,7 @@
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "lundi 12 octobre 2026 Apprendre FRESQUE DES RÉSISTANCES À LA TRICOTERIE Lundi 12 octobre 2026 à 18:30 Saint-Gilles - 1060 Organisé par ProtestBase",
+      "description": "dans 6 jours Apprendre FRESQUE DES RÉSISTANCES À LA TRICOTERIE Lundi 12 octobre 2026 à 18:30 Saint-Gilles - 1060 Organisé par ProtestBase",
       "url": "https://protestbase.be/manifestations/bruxelles",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
@@ -5727,7 +5706,7 @@
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "La Gradiva Film Fest Gent on Tour 26|27 Tue 13 Oct 20:00 Studio 5 cinema special screening Tickets Normal € 10,50 -12 € 7,00 -26 € 8,50 65+ € 8,50 € 7,00–€ 10,50 tickets",
+      "description": "La Gradiva Film Fest Gent on Tour 26|27 Tue 13 Oct 20:00 Studio 5 cinema new special screening Tickets Normal € 10,50 -12 € 7,00 -26 € 8,50 65+ € 8,50 € 7,00–€ 10,50 tickets",
       "url": "https://www.flagey.be/en/agenda/la-gradiva-b59t",
       "image": null,
       "source": "Flagey",
@@ -6495,6 +6474,22 @@
       "tags_llm_done": true
     },
     {
+      "title": "Een stevige Patat tegen Armoede - film The Old Oak Organisator: Gemeenschapscentrum Ten Weyngaert vzw vr 16.10.2026 GC Ten Weyngaert, Vorst",
+      "start": "2026-10-16T00:00:00+02:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "Een stevige Patat tegen Armoede - film The Old Oak Organisator: Gemeenschapscentrum Ten Weyngaert vzw vr 16.10.2026 GC Ten Weyngaert, Vorst Thema activiteit Film 12 - 99 jaar",
+      "url": "https://www.tenweyngaert.be/activiteiten/een-stevige-patat-tegen-armoede-film-old-oak",
+      "image": null,
+      "source": "GC Ten Weyngaert",
+      "uid": "223145a8c1c7fd44",
+      "colour": "#0F8CA8",
+      "time_checked": 3,
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "© Neighbourhood Partnership De Schakel Social Neighbourhood Walk in the Brabantwijk Organizer: N22, in collaboration with Community Center Het Huys vzw",
       "start": "2026-10-16T00:00:00+02:00",
       "end": null,
@@ -6514,22 +6509,6 @@
         "outdoor"
       ],
       "tags_llm_done": true
-    },
-    {
-      "title": "Een stevige Patat tegen Armoede - film The Old Oak Organisator: Gemeenschapscentrum Ten Weyngaert vzw vr 16.10.2026 GC Ten Weyngaert, Vorst",
-      "start": "2026-10-16T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "Een stevige Patat tegen Armoede - film The Old Oak Organisator: Gemeenschapscentrum Ten Weyngaert vzw vr 16.10.2026 GC Ten Weyngaert, Vorst Thema activiteit Film 12 - 99 jaar",
-      "url": "https://www.tenweyngaert.be/activiteiten/een-stevige-patat-tegen-armoede-film-old-oak",
-      "image": null,
-      "source": "GC Ten Weyngaert",
-      "uid": "223145a8c1c7fd44",
-      "colour": "#0F8CA8",
-      "time_checked": 3,
-      "category": "other",
-      "tags": []
     },
     {
       "title": "Dressing Room",
@@ -8569,27 +8548,6 @@
       "time_checked": 3
     },
     {
-      "title": "Solidarity meal 'Jacket Potatoes' 1 PM Organizer: Gemeenschapscentrum Ten Weyngaert vzw Sunday 18.10.2026 Gemeenschapscentrum Ten Weynga",
-      "start": "2026-10-18T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "Solidarity meal 'Jacket Potatoes' 1 PM Organizer: Gemeenschapscentrum Ten Weyngaert vzw Sunday 18.10.2026 Gemeenschapscentrum Ten Weyngaert vzw, Vorst 2 - 102 years old",
-      "url": "https://www.tenweyngaert.be/activiteiten/solidariteitsmaaltijd-jacket-potatoes-13u",
-      "image": null,
-      "source": "GC Ten Weyngaert",
-      "uid": "410709e12f22072d",
-      "colour": "#0F8CA8",
-      "time_checked": 3,
-      "translated": true,
-      "category": "community-social",
-      "category_llm": true,
-      "tags": [
-        "food-drink"
-      ],
-      "tags_llm_done": true
-    },
-    {
       "title": "© Anja Hess Gratis Drowsy Drift - sleep + drift + walk Organisator: Gemeenschapscentrum Ten Weyngaert vzw zo 18.10.2026 GC Ten Weyngaert, V",
       "start": "2026-10-18T00:00:00+02:00",
       "end": null,
@@ -8638,6 +8596,27 @@
       "time_checked": 3,
       "category": "other",
       "tags": []
+    },
+    {
+      "title": "Solidarity meal 'Jacket Potatoes' 1 PM Organizer: Gemeenschapscentrum Ten Weyngaert vzw Sunday 18.10.2026 Gemeenschapscentrum Ten Weynga",
+      "start": "2026-10-18T00:00:00+02:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "Solidarity meal 'Jacket Potatoes' 1 PM Organizer: Gemeenschapscentrum Ten Weyngaert vzw Sunday 18.10.2026 Gemeenschapscentrum Ten Weyngaert vzw, Vorst 2 - 102 years old",
+      "url": "https://www.tenweyngaert.be/activiteiten/solidariteitsmaaltijd-jacket-potatoes-13u",
+      "image": null,
+      "source": "GC Ten Weyngaert",
+      "uid": "410709e12f22072d",
+      "colour": "#0F8CA8",
+      "time_checked": 3,
+      "translated": true,
+      "category": "community-social",
+      "category_llm": true,
+      "tags": [
+        "food-drink"
+      ],
+      "tags_llm_done": true
     },
     {
       "title": "Solidariteitsmaaltijd 'Jacket Potatoes' 12u Organisator: Gemeenschapscentrum Ten Weyngaert vzw zo 18.10.2026 GC Ten Weyngaert, Vorst 2 - 10",
@@ -10186,6 +10165,24 @@
       "tags_llm_done": true
     },
     {
+      "title": "Gratis Opening De Troostboom Organisator: Gemeenschapscentrum Ten Weyngaert vzw vr 23.10.2026 GC Ten Weyngaert, Vorst Thema activiteit Zing",
+      "start": "2026-10-23T00:00:00+02:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "Gratis Opening De Troostboom Organisator: Gemeenschapscentrum Ten Weyngaert vzw vr 23.10.2026 GC Ten Weyngaert, Vorst Thema activiteit Zingeving, filosofie en religie 12 - 99 jaar",
+      "url": "https://www.tenweyngaert.be/activiteiten/opening-de-troostboom",
+      "image": null,
+      "source": "GC Ten Weyngaert",
+      "uid": "13bc8e1e67d87c82",
+      "colour": "#0F8CA8",
+      "time_checked": 3,
+      "category": "other",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "title": "© Friends of the Little House Neighborhood Walk Les Marollen and Friends of the Little House Organizer: N22, in collaboration with Community Center",
       "start": "2026-10-23T00:00:00+02:00",
       "end": null,
@@ -10205,24 +10202,6 @@
         "outdoor"
       ],
       "tags_llm_done": true
-    },
-    {
-      "title": "Gratis Opening De Troostboom Organisator: Gemeenschapscentrum Ten Weyngaert vzw vr 23.10.2026 GC Ten Weyngaert, Vorst Thema activiteit Zing",
-      "start": "2026-10-23T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "Gratis Opening De Troostboom Organisator: Gemeenschapscentrum Ten Weyngaert vzw vr 23.10.2026 GC Ten Weyngaert, Vorst Thema activiteit Zingeving, filosofie en religie 12 - 99 jaar",
-      "url": "https://www.tenweyngaert.be/activiteiten/opening-de-troostboom",
-      "image": null,
-      "source": "GC Ten Weyngaert",
-      "uid": "13bc8e1e67d87c82",
-      "colour": "#0F8CA8",
-      "time_checked": 3,
-      "category": "other",
-      "tags": [
-        "free"
-      ]
     },
     {
       "title": "23 Oct 2026 And Yet I Did Everything Right! Véronique Kesmedjian Saint-Éloy-les-Mines (63)",
@@ -10590,6 +10569,24 @@
       "tags_llm_done": true
     },
     {
+      "title": "© Gc Tenweyngaert Gratis Kledingswap in Ten Weyngaert Organisator: Gemeenschapscentrum Ten Weyngaert vzw za 24.10.2026 GC Ten Weyngaert, Vo",
+      "start": "2026-10-24T00:00:00+02:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "© Gc Tenweyngaert Gratis Kledingswap in Ten Weyngaert Organisator: Gemeenschapscentrum Ten Weyngaert vzw za 24.10.2026 GC Ten Weyngaert, Vorst 18 - 99 jaar",
+      "url": "https://www.tenweyngaert.be/activiteiten/kledingswap-ten-weyngaert",
+      "image": null,
+      "source": "GC Ten Weyngaert",
+      "uid": "4191e50ff4dbd7f0",
+      "colour": "#0F8CA8",
+      "time_checked": 3,
+      "category": "other",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "title": "Free De Troostboom - Workshop 'Playing Dead' Organizer: Gemeenschapscentrum Ten Weyngaert vzw, in collaboration with Avansa Citizenne, Sat",
       "start": "2026-10-24T00:00:00+02:00",
       "end": null,
@@ -10610,24 +10607,6 @@
         "free"
       ],
       "tags_llm_done": true
-    },
-    {
-      "title": "© Gc Tenweyngaert Gratis Kledingswap in Ten Weyngaert Organisator: Gemeenschapscentrum Ten Weyngaert vzw za 24.10.2026 GC Ten Weyngaert, Vo",
-      "start": "2026-10-24T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "© Gc Tenweyngaert Gratis Kledingswap in Ten Weyngaert Organisator: Gemeenschapscentrum Ten Weyngaert vzw za 24.10.2026 GC Ten Weyngaert, Vorst 18 - 99 jaar",
-      "url": "https://www.tenweyngaert.be/activiteiten/kledingswap-ten-weyngaert",
-      "image": null,
-      "source": "GC Ten Weyngaert",
-      "uid": "4191e50ff4dbd7f0",
-      "colour": "#0F8CA8",
-      "time_checked": 3,
-      "category": "other",
-      "tags": [
-        "free"
-      ]
     },
     {
       "title": "© Isabelle Françaix Gratis Concert TW classics Organisator: Gemeenschapscentrum Ten Weyngaert vzw za 24.10.2026 GC Ten Weyngaert, Vorst The",
@@ -12215,22 +12194,6 @@
       ]
     },
     {
-      "title": "© Mus-E Met vallen en opstaan 5-6 jaar Organisator: Gemeenschapscentrum Pianofabriek vzw di 03.11.2026 - vr 06.11.2026 Gemeenschapscentrum",
-      "start": "2026-11-03T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "© Mus-E Met vallen en opstaan 5-6 jaar Organisator: Gemeenschapscentrum Pianofabriek vzw di 03.11.2026 - vr 06.11.2026 Gemeenschapscentrum Pianofabriek vzw, Sint-Gillis Thema activiteit Meerdere kunstvormen 5 - 6 jaar",
-      "url": "https://www.pianofabriek.be/activiteiten/met-vallen-en-opstaan-5-6-jaar",
-      "image": null,
-      "source": "GC Pianofabriek",
-      "uid": "ad6d6efbb320d06a",
-      "colour": "#1B6FE0",
-      "time_checked": 3,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "© Filem'on Reis door de filmtijd 10-12 jaar Organisator: Gemeenschapscentrum Pianofabriek vzw di 03.11.2026 - vr 06.11.2026 Gemeenschapscen",
       "start": "2026-11-03T00:00:00+01:00",
       "end": null,
@@ -12241,6 +12204,22 @@
       "image": null,
       "source": "GC Pianofabriek",
       "uid": "8bc1f17863c6d996",
+      "colour": "#1B6FE0",
+      "time_checked": 3,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "© Mus-E Met vallen en opstaan 5-6 jaar Organisator: Gemeenschapscentrum Pianofabriek vzw di 03.11.2026 - vr 06.11.2026 Gemeenschapscentrum",
+      "start": "2026-11-03T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "© Mus-E Met vallen en opstaan 5-6 jaar Organisator: Gemeenschapscentrum Pianofabriek vzw di 03.11.2026 - vr 06.11.2026 Gemeenschapscentrum Pianofabriek vzw, Sint-Gillis Thema activiteit Meerdere kunstvormen 5 - 6 jaar",
+      "url": "https://www.pianofabriek.be/activiteiten/met-vallen-en-opstaan-5-6-jaar",
+      "image": null,
+      "source": "GC Pianofabriek",
+      "uid": "ad6d6efbb320d06a",
       "colour": "#1B6FE0",
       "time_checked": 3,
       "category": "other",
@@ -13538,6 +13517,24 @@
       ]
     },
     {
+      "title": "© SpeakEasy Gratis Speakeasy Externe organisator: SpeakEasy Spoken Word BXL do 12.11.2026 GC Pianofabriek, Sint-Gillis Thema activiteit Poë",
+      "start": "2026-11-12T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "© SpeakEasy Gratis Speakeasy Externe organisator: SpeakEasy Spoken Word BXL do 12.11.2026 GC Pianofabriek, Sint-Gillis Thema activiteit Poëzie 18 - 99 jaar",
+      "url": "https://www.pianofabriek.be/activiteiten/speakeasy-7",
+      "image": null,
+      "source": "GC Pianofabriek",
+      "uid": "befddd45e55adc4b",
+      "colour": "#1B6FE0",
+      "time_checked": 3,
+      "category": "other",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "title": "12.11.26 ― 13.11.26 Spaghetti Western Aurélie Di Marino & Renée Goethijn / Kunstenwerkplaats Language: MULTI Subtitles: NL • FR",
       "start": "2026-11-12T00:00:00+01:00",
       "end": null,
@@ -13695,28 +13692,6 @@
       "tags_llm_done": true
     },
     {
-      "title": "BOEF",
-      "start": "2026-11-14T23:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Carré, Willebroek",
-      "description": "",
-      "url": "https://carre.be/events/boef/",
-      "image": "https://carre.be/wp-content/uploads/2026/08/carrelinks.jpg",
-      "source": "Club Carré agenda",
-      "uid": "87f53b210dd18ca8",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "other",
-      "category_llm": true,
-      "tags": [
-        "late-night"
-      ],
-      "tags_llm_done": true,
-      "stale": true,
-      "time_checked": 3
-    },
-    {
       "title": "Rouge Fany Ducat 10 – 14.11.2026",
       "start": "2026-11-14T00:00:00+01:00",
       "end": null,
@@ -13747,6 +13722,28 @@
       "time_checked": 3,
       "category": "other",
       "tags": []
+    },
+    {
+      "title": "BOEF",
+      "start": "2026-11-14T23:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Carré, Willebroek",
+      "description": "",
+      "url": "https://carre.be/events/boef/",
+      "image": "https://carre.be/wp-content/uploads/2026/08/carrelinks.jpg",
+      "source": "Club Carré agenda",
+      "uid": "87f53b210dd18ca8",
+      "colour": "#1B6FE0",
+      "translated": true,
+      "category": "other",
+      "category_llm": true,
+      "tags": [
+        "late-night"
+      ],
+      "tags_llm_done": true,
+      "stale": true,
+      "time_checked": 3
     },
     {
       "title": "Fatna, une femme nommée Rachid",
@@ -14241,6 +14238,24 @@
       "tags_llm_done": true
     },
     {
+      "title": "20.11.26 ― 21.11.26 PRÓXIMAMENTE 2026 KARAOKE NIGHT",
+      "start": "2026-11-20T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "20.11.26 ― 21.11.26 PRÓXIMAMENTE 2026 KARAOKE NIGHT muziek feest Gratuit",
+      "url": "https://www.kvs.be/fr/Evenement/karaoke-night-1",
+      "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
+      "source": "KVS",
+      "uid": "6f40f65e2ac29011",
+      "colour": "#E07A00",
+      "time_checked": 3,
+      "category": "other",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "title": "From Hospital to Living Space - Reflective Morning on the Healthcare Journey of Brussels Residents",
       "start": "2026-11-20T08:30:00+01:00",
       "end": "2026-11-20T13:30:00+01:00",
@@ -14328,26 +14343,20 @@
       "tags_llm_done": true
     },
     {
-      "title": "11.21.26 COMING SOON 2026 WIP Catalina Isignares, Jimena Salerno, Amparo Gonzalez Sola & Camilo Mejia KVS & METARAGE",
+      "title": "21.11.26 PRÓXIMAMENTE 2026 TAKE OVER OF METARAGE x PROXIMAMENTE WIP KVS & METARAGE",
       "start": "2026-11-21T00:00:00+01:00",
       "end": null,
       "all_day": true,
       "location": "",
-      "description": "11.21.26 COMING SOON 2026 WIP Catalina Isignares, Jimena Salerno, Amparo Gonzalez Sola & Camilo Mejia KVS & METARAGE Buy tickets",
-      "url": "https://www.kvs.be/fr/Evenement/wip-catalina-isignares-jimena-salerno-amparo-gonzalez-sola-camilo-mejia-2",
+      "description": "21.11.26 PRÓXIMAMENTE 2026 TAKE OVER OF METARAGE x PROXIMAMENTE WIP KVS & METARAGE Acheter des billets",
+      "url": "https://www.kvs.be/fr/Evenement/take-over-of-metarage-x-proximamente-wip-2",
       "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
       "source": "KVS",
-      "uid": "46eeeb98dd555f35",
+      "uid": "764caa08811be0a8",
       "colour": "#E07A00",
       "time_checked": 3,
-      "translated": true,
-      "category": "culture-arts",
-      "category_llm": true,
-      "tags": [
-        "live",
-        "registration-required"
-      ],
-      "tags_llm_done": true
+      "category": "other",
+      "tags": []
     },
     {
       "title": "11.21.26 COMING SOON 2026 Remix Sharon Mercado Nogales",
@@ -14688,22 +14697,6 @@
       "source": "BRASS",
       "uid": "02741acea1ac8698",
       "colour": "#00937A",
-      "time_checked": 3,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "26.11.26 FLIRT FLAMAND Passa Porta Langue: NL FR Surtitrage: FR",
-      "start": "2026-11-26T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "26.11.26 FLIRT FLAMAND Passa Porta Langue: NL FR Surtitrage: FR Acheter des billets",
-      "url": "https://www.kvs.be/fr/Evenement/flirt-flamand-2",
-      "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
-      "source": "KVS",
-      "uid": "8e59360f32b77f56",
-      "colour": "#E07A00",
       "time_checked": 3,
       "category": "other",
       "tags": []
@@ -16171,6 +16164,7 @@
       "source": "Théâtre National Wallonie-Bruxelles",
       "uid": "88547480eccef4df",
       "colour": "#8A7500",
+      "time_checked": 3,
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -16211,6 +16205,7 @@
       "source": "Théâtre National Wallonie-Bruxelles",
       "uid": "f3821de1304043d8",
       "colour": "#8A7500",
+      "time_checked": 3,
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -16233,6 +16228,7 @@
       "source": "Les Tanneurs",
       "uid": "a85483ea848b75dd",
       "colour": "#00937A",
+      "time_checked": 3,
       "category": "other",
       "tags": []
     },
@@ -16266,6 +16262,7 @@
       "source": "Théâtre National Wallonie-Bruxelles",
       "uid": "8a4d5fccc5a6f758",
       "colour": "#8A7500",
+      "time_checked": 3,
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -16315,6 +16312,7 @@
       "source": "Les Tanneurs",
       "uid": "5ddc9b9c80108f21",
       "colour": "#00937A",
+      "time_checked": 3,
       "category": "other",
       "tags": []
     },
@@ -16330,6 +16328,7 @@
       "source": "Les Tanneurs",
       "uid": "9c086890be34180e",
       "colour": "#00937A",
+      "time_checked": 3,
       "category": "other",
       "tags": []
     },
@@ -16345,6 +16344,7 @@
       "source": "Les Tanneurs",
       "uid": "73f0114ed6366a68",
       "colour": "#00937A",
+      "time_checked": 3,
       "category": "other",
       "tags": []
     },
@@ -16400,6 +16400,7 @@
       "source": "Théâtre National Wallonie-Bruxelles",
       "uid": "4af521078bea4c5e",
       "colour": "#8A7500",
+      "time_checked": 3,
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -16423,6 +16424,7 @@
       "source": "Les Tanneurs",
       "uid": "7010224adf8cf12d",
       "colour": "#00937A",
+      "time_checked": 3,
       "category": "other",
       "tags": []
     },
@@ -16438,6 +16440,7 @@
       "source": "BOZAR",
       "uid": "0e91b2f76b87adc6",
       "colour": "#00937A",
+      "time_checked": 3,
       "category": "other",
       "tags": []
     },
@@ -16471,6 +16474,7 @@
       "source": "Théâtre National Wallonie-Bruxelles",
       "uid": "be4ff680dc35b0cc",
       "colour": "#8A7500",
+      "time_checked": 3,
       "category": "other",
       "tags": [
         "recurring"
