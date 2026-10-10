@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-10T13:02:48.788621+02:00",
+  "generated": "2026-10-10T21:45:42.158686+02:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
@@ -78,7 +78,7 @@
       "name": "Sounds Jazz Club",
       "url": "https://www.sounds.brussels/agenda/",
       "colour": "#E8336D",
-      "count": 19,
+      "count": 18,
       "method": "none",
       "stale": true,
       "last_ok": "2026-10-03"
@@ -114,7 +114,7 @@
       "name": "Maison Poème",
       "url": "https://maisonpoeme.be/",
       "colour": "#7B49D6",
-      "count": 18,
+      "count": 17,
       "method": "jsonld",
       "stale": false,
       "last_ok": "2026-10-10"
@@ -150,7 +150,7 @@
       "name": "Le Senghor",
       "url": "https://www.senghor.be/agenda/",
       "colour": "#E8336D",
-      "count": 42,
+      "count": 41,
       "method": "none",
       "stale": true,
       "last_ok": "2026-10-03"
@@ -159,7 +159,7 @@
       "name": "Flagey",
       "url": "https://www.flagey.be/agenda",
       "colour": "#1B6FE0",
-      "count": 14,
+      "count": 13,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-10-10"
@@ -186,7 +186,7 @@
       "name": "Kaaitheater",
       "url": "https://kaaitheater.be/nl/agenda",
       "colour": "#7B49D6",
-      "count": 16,
+      "count": 15,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-10-10"
@@ -222,7 +222,7 @@
       "name": "Quefaire.be brocantes (Brussels region)",
       "url": "https://www.quefaire.be/brocantes/region-de-bruxelles",
       "colour": "#E8336D",
-      "count": 7,
+      "count": 6,
       "method": "jsonld",
       "stale": false,
       "last_ok": "2026-10-10"
@@ -420,7 +420,7 @@
       "name": "Forest (commune agenda)",
       "url": "https://forest.brussels/fr/agenda",
       "colour": "#0F8CA8",
-      "count": 24,
+      "count": 22,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-10-10"
@@ -519,7 +519,7 @@
       "name": "Out.be",
       "url": "https://www.out.be/fr/",
       "colour": "#1B6FE0",
-      "count": 9,
+      "count": 5,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-10-10"
@@ -856,7 +856,7 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "carried": 19,
+      "carried": 18,
       "stale": true,
       "error_class": "billing",
       "note": "llm: skipped (billing failure earlier this run)"
@@ -894,8 +894,8 @@
     {
       "source": "Maison Poème",
       "method": "jsonld",
-      "found": 21,
-      "kept": 18,
+      "found": 20,
+      "kept": 17,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -936,7 +936,7 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "carried": 42,
+      "carried": 41,
       "stale": true,
       "error_class": "billing",
       "note": "browser: jsonld/recipe empty, llm skipped (billing failure earlier this run)"
@@ -944,8 +944,8 @@
     {
       "source": "Flagey",
       "method": "recipe",
-      "found": 14,
-      "kept": 14,
+      "found": 13,
+      "kept": 13,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -954,7 +954,7 @@
     {
       "source": "BOZAR",
       "method": "recipe",
-      "found": 8,
+      "found": 7,
       "kept": 6,
       "carried": 0,
       "stale": false,
@@ -975,7 +975,7 @@
       "source": "Kaaitheater",
       "method": "recipe",
       "found": 20,
-      "kept": 16,
+      "kept": 15,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1014,8 +1014,8 @@
     {
       "source": "Quefaire.be brocantes (Brussels region)",
       "method": "jsonld",
-      "found": 9,
-      "kept": 7,
+      "found": 7,
+      "kept": 6,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1235,7 +1235,7 @@
       "source": "Forest (commune agenda)",
       "method": "recipe",
       "found": 24,
-      "kept": 24,
+      "kept": 22,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1345,7 +1345,7 @@
       "source": "Out.be",
       "method": "recipe",
       "found": 9,
-      "kept": 9,
+      "kept": 5,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1468,111 +1468,6 @@
       "tags_llm_done": true
     },
     {
-      "title": "Tissage collectif du futur ven 09/10 - 19:00 Cours, Stages et Ateliers",
-      "start": "2026-10-09T19:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Tissage collectif du futur ven 09/10 - 19:00 Cours, Stages et Ateliers",
-      "url": "http://forest.brussels/fr/agenda/cours-stages-et-ateliers/2026/tissage-collectif-du-futur",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "6b34581e885d561d",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Vernissage Collectief 'le 180' ven 09/10 - 19:00 Exposition",
-      "start": "2026-10-09T19:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Vernissage Collectief 'le 180' ven 09/10 - 19:00 Exposition",
-      "url": "http://forest.brussels/fr/agenda/exposition/2026/vernissage-collectief-le-180",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "88bf8a5546d5bc0c",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "IMPRO CLUB",
-      "start": "2026-10-09T20:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "From Free Jazz to Improv",
-      "url": "https://www.sounds.brussels/jazz-concert/impro-club/",
-      "image": "https://www.sounds.brussels/wp-content/uploads/2026/07/sounds-social-1024x576-1.jpg",
-      "source": "Sounds Jazz Club",
-      "uid": "de1968fb58f66c81",
-      "colour": "#E8336D",
-      "translated": true,
-      "category": "music",
-      "category_llm": true,
-      "tags": [
-        "evening",
-        "free",
-        "live"
-      ],
-      "tags_llm_done": true,
-      "stale": true,
-      "price_min": 8.0,
-      "price_max": 25.0,
-      "detail_checked": 4
-    },
-    {
-      "title": "vr 09.10.26 20:00 All Day I Dream About Soccer Ahilan Ratnamohan",
-      "start": "2026-10-09T20:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "vr 09.10.26 20:00 All Day I Dream About Soccer Ahilan Ratnamohan performance Kaaistudios Tickets",
-      "url": "https://kaaitheater.be/nl/agenda/26-27/all-day-i-dream-about-soccer",
-      "image": null,
-      "source": "Kaaitheater",
-      "price_min": 14.0,
-      "price_max": 26.0,
-      "uid": "449e75dd81a5dbe1",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Zinne Kabar",
-      "start": "2026-10-09T20:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Le Senghor",
-      "description": "",
-      "url": "https://www.senghor.be/evenement/zinne-kabar/",
-      "image": null,
-      "source": "Le Senghor",
-      "uid": "b4b7eecf1c069b9d",
-      "colour": "#E8336D",
-      "category": "other",
-      "tags": [
-        "evening"
-      ],
-      "stale": true,
-      "detail_checked": 4
-    },
-    {
       "title": "Lil Kleine",
       "start": "2026-10-09T23:00:00+02:00",
       "end": null,
@@ -1689,46 +1584,6 @@
         "registration-required"
       ],
       "tags_llm_done": true
-    },
-    {
-      "title": "In-I In Motion - Juliette Binoche",
-      "start": "2026-10-10T00:00:00+02:00",
-      "end": "2026-11-01T00:00:00+01:00",
-      "all_day": true,
-      "location": "",
-      "description": "In-I In Motion - Juliette Binoche Sold out Cancelled Postponed Last Tickets Films New release Highly Recommended In-I In Motion - Juliette Binoche 10 Oct. → 1 Nov.'26 From 8 €",
-      "url": "https://www.bozar.be/en/calendar/i-motion-juliette-binoche-0",
-      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
-      "source": "BOZAR",
-      "price_min": 8.0,
-      "price_max": 8.0,
-      "uid": "5cf4a1d34cf2ade9",
-      "colour": "#00937A",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "recurring"
-      ]
-    },
-    {
-      "title": "Brocante lors du marché annuel ce samedi",
-      "start": "2026-10-10T00:00:00+02:00",
-      "end": "2026-10-10T00:00:00+02:00",
-      "all_day": false,
-      "location": "Forest",
-      "description": "",
-      "url": "https://www.quefaire.be/brocante-lors-du-marche-8772333.shtml",
-      "image": "https://www.quefaire.be/img_n/8772333_1.jpeg",
-      "source": "Quefaire.be brocantes (Brussels region)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "2c0513184f71c477",
-      "colour": "#E8336D",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "late-night"
-      ]
     },
     {
       "title": "Vide dressing",
@@ -2091,46 +1946,6 @@
       "tags": []
     },
     {
-      "title": "Etterbeek 40-45 - La résistante 10 oct 2026 Théatre / Spectacles Le Senghor Etterbeek - Bruxelles Catherine Claeys, Yvonne Deloge, Yvonne",
-      "start": "2026-10-10T18:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Le Senghor, Chaussée de Wavre 366, 1040 Etterbeek, Bruxelles, Belgique, Etterbeek",
-      "description": "Etterbeek 40-45 - La résistante 10 oct 2026 Théatre / Spectacles Le Senghor Etterbeek - Bruxelles Catherine Claeys, Yvonne Deloge, Yvonne Heyden, Sidonie Huart, Suzanne Joris, Joséphine Lacroix, les connaissez-vous? Elles font partie des 30.000 femmes reconnues par la Belgique pour des actes de Ré",
-      "url": "https://www.out.be/fr/evenements/216992_etterbeek-40-45-la-resistante.html",
-      "image": "https://www.out.be/assets/img/logo-outbe.svg",
-      "source": "Out.be",
-      "price_min": null,
-      "price_max": null,
-      "uid": "0584451570ccc90e",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Léon 10 oct 2026 Théatre / Spectacles La Roseraie Uccle - Bruxelles Dans un petit appartement de banlieue, Léon, un vieil homme solitaire,",
-      "start": "2026-10-10T18:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "La Roseraie, Chau. d'Alsemberg 1299, 1180 Uccle, Belgique, 1180 Uccle, Bruxelles, Belgique, Uccle",
-      "description": "Léon 10 oct 2026 Théatre / Spectacles La Roseraie Uccle - Bruxelles Dans un petit appartement de banlieue, Léon, un vieil homme solitaire, rêve de recréer des liens. Alors qu’il prépare un repas, son quotidien se transforme : légumes, ustensiles et objets inanimés pre",
-      "url": "https://www.out.be/fr/evenements/221576_leon.html",
-      "image": "https://www.out.be/assets/img/logo-outbe.svg",
-      "source": "Out.be",
-      "price_min": null,
-      "price_max": null,
-      "uid": "6d51d88fb946d1ee",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "Nourrir les débris - performances",
       "start": "2026-10-10T00:00:00+02:00",
       "end": null,
@@ -2330,78 +2145,6 @@
       "tags": []
     },
     {
-      "title": "Vitrines Parcours FrancoFaune",
-      "start": "2026-10-10T14:00:00+02:00",
-      "end": "2026-10-10T18:00:00+02:00",
-      "all_day": false,
-      "location": "Maison poème, Rue d'Écosse 30, 1060 Saint-Gilles",
-      "description": "",
-      "url": "https://maisonpoeme.be/",
-      "image": "https://maisonpoeme.be/wp-content/uploads/2026/06/FF26-evenement-10-Maison-poeme-1024x576.jpg",
-      "source": "Maison Poème",
-      "price_min": null,
-      "price_max": null,
-      "uid": "24cd38fb9f48ce20",
-      "colour": "#7B49D6",
-      "translated": true,
-      "category": "culture-arts",
-      "category_llm": true,
-      "tags": [],
-      "tags_llm_done": true
-    },
-    {
-      "title": "Hush, Little Bear – Short Stories Featuring Funny Animals",
-      "start": "2026-10-10T12:15:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "Hush, Little Bear – Short Stories Featuring Funny Animals Junior 2+ Anima Saturdays Sat 10 Oct 14:00 Studio 5 cinema junior animation € 7,00–€ 9,00 dates dates Sat 10 Oct 14:00 tickets 12:15 Past event",
-      "url": "https://www.flagey.be/en/agenda/hush-little-bear-short-stories-featuring-funny-animals-l5xg",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 9.0,
-      "uid": "16cae94b0e096a93",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "Mobilisation internationale pour la Palestine - 3 ans de génocide - BXL MArche pour la Palestine",
-      "start": "2026-10-10T14:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "dans 1h Manifestation Mobilisation internationale pour la Palestine - 3 ans de génocide - BXL MArche pour la Palestine Samedi 10 octobre 2026 à 14:00 Saint-Gilles - 1060 Organisé par ProtestBase",
-      "url": "https://protestbase.be/manifestations/bruxelles",
-      "image": "https://protestbase.be/og.jpg",
-      "source": "Protestbase Bruxelles",
-      "price_min": null,
-      "price_max": null,
-      "uid": "51f212a3af91c7f5",
-      "colour": "#E07A00",
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "VISITE DÉCOLONIALE - Parc du Cinquantenaire",
-      "start": "2026-10-10T14:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "dans 1h Apprendre VISITE DÉCOLONIALE - Parc du Cinquantenaire Samedi 10 octobre 2026 à 14:00 Bruxelles - 1000 Organisé par ProtestBase",
-      "url": "https://protestbase.be/manifestations/bruxelles",
-      "image": "https://protestbase.be/og.jpg",
-      "source": "Protestbase Bruxelles",
-      "price_min": null,
-      "price_max": null,
-      "uid": "c1664fa4851828db",
-      "colour": "#E07A00",
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "Boxe populaire contre la guerre : soirée ouverte à tou·tes le 10...",
       "start": "2026-10-10T14:00:00+02:00",
       "end": null,
@@ -2543,60 +2286,6 @@
       "detail_checked": 4
     },
     {
-      "title": "Revolutions and Revolutionary Thought",
-      "start": "2026-10-10T15:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "dans 2h Manifestation Revolutions and Revolutionary Thought Samedi 10 octobre 2026 à 15:00 Bruxelles - 1000 Organisé par ProtestBase",
-      "url": "https://protestbase.be/manifestations/bruxelles",
-      "image": "https://protestbase.be/og.jpg",
-      "source": "Protestbase Bruxelles",
-      "price_min": null,
-      "price_max": null,
-      "uid": "5a386cc13658f55c",
-      "colour": "#E07A00",
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "Sense and Sensibility",
-      "start": "2026-10-10T15:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "Sense and Sensibility Sat 10 Oct - Fri 23 Oct Studio 5 cinema € 7,00–€ 10,50 dates dates Sat 10 Oct 15:30 tickets Sun 11 Oct 18:00 tickets Sat 17 Oct 16:30 tickets Fri 23 Oct 14:30 tickets Wed 23 Sep 21:00 Past event Fri 25 Sep 18:50 Past event Sat 26 Sep 21:00 Past event Fri 2 Oct 21:15 Past event",
-      "url": "https://www.flagey.be/en/agenda/sense-and-sensibility-9bx5",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "d0406987dd5efd66",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "SOUNDTRACK TO A COUP D’ETAT + YOURI BOTTERMAN @espace Magh",
-      "start": "2026-10-10T17:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "dans 4h Apprendre SOUNDTRACK TO A COUP D’ETAT + YOURI BOTTERMAN @espace Magh Samedi 10 octobre 2026 à 17:00 Bruxelles - 1000 Organisé par ProtestBase",
-      "url": "https://protestbase.be/manifestations/bruxelles",
-      "image": "https://protestbase.be/og.jpg",
-      "source": "Protestbase Bruxelles",
-      "price_min": null,
-      "price_max": null,
-      "uid": "c00477f2fc0fec40",
-      "colour": "#E07A00",
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "JEUX Hoshi Go Club",
       "start": "2026-10-10T17:00:00+02:00",
       "end": "2026-10-10T22:00:00+02:00",
@@ -2632,50 +2321,6 @@
       ],
       "stale": true,
       "detail_checked": 4
-    },
-    {
-      "title": "Notre Salut",
-      "start": "2026-10-10T18:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "Notre Salut Sat 10 Oct - Thu 29 Oct Studio 5 cinema € 7,00–€ 10,50 dates dates Sat 10 Oct 18:00 tickets Wed 14 Oct 16:00 tickets Sun 18 Oct 18:30 tickets Sat 24 Oct 15:45 tickets Thu 29 Oct 16:15 tickets Wed 30 Sep 20:45 Past event Sat 3 Oct 20:50 Past event Sun 4 Oct 18:00 Past event Thu 8 Oct 20:3",
-      "url": "https://www.flagey.be/en/agenda/notre-salut-q1cd",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "5b9d7564336b4427",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Funeral March for Palestine Brussels",
-      "start": "2026-10-10T18:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Saturday, October 10, 2026 Demonstration Funeral March for Palestine Brussels Saturday, October 10, 2026 at 18:00 Brussels - 1000 Organized by ProtestBase",
-      "url": "https://protestbase.be/manifestations/bruxelles",
-      "image": "https://protestbase.be/og.jpg",
-      "source": "Protestbase Bruxelles",
-      "price_min": null,
-      "price_max": null,
-      "uid": "fadf8c0a84d27ddb",
-      "colour": "#E07A00",
-      "translated": true,
-      "category": "activism-justice",
-      "category_llm": true,
-      "tags": [
-        "activism",
-        "evening",
-        "outdoor"
-      ],
-      "tags_llm_done": true
     },
     {
       "title": "Simon Cortisone",
@@ -2741,26 +2386,6 @@
       "price_min": 8.0,
       "price_max": 25.0,
       "detail_checked": 4
-    },
-    {
-      "title": "Digger",
-      "start": "2026-10-10T20:50:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "Digger Sat 10 Oct - Fri 30 Oct Studio 5 cinema € 7,00–€ 10,50 dates dates Sat 10 Oct 20:50 tickets Thu 15 Oct 21:00 tickets Sun 18 Oct 16:00 tickets Fri 23 Oct 21:15 tickets Fri 30 Oct 15:50 tickets Thu 1 Oct 21:10 Past event Fri 2 Oct 18:50 Past event Sun 4 Oct 20:50 Past event Fri 9 Oct 18:50 Past",
-      "url": "https://www.flagey.be/en/agenda/digger-yhg6",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "151212aff6467a4d",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
     },
     {
       "title": "Wissle",
@@ -3110,30 +2735,12 @@
       "tags_llm_done": true
     },
     {
-      "title": "Logan Lopez Gonzalez 11 oct 2026 Concerts Classique / Contemporain / Baroque / Carillons Palais des Beaux-Arts de Bruxelles - Bozar Bruxelle",
-      "start": "2026-10-11T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Palais des Beaux-Arts de Bruxelles - Bozar, Rue Ravenstein 23, 1000 Bruxelles, Belgique, Bruxelles",
-      "description": "Logan Lopez Gonzalez 11 oct 2026 Concerts Classique / Contemporain / Baroque / Carillons Palais des Beaux-Arts de Bruxelles - Bozar Bruxelles - Bruxelles Il existe un lien étroit entre le répertoire baroque anglais et les mélodies britanniques du XXe siècle. Dowland continue de hanter Britten. Pur",
-      "url": "https://www.out.be/fr/evenements/221405_logan-lopez-gonzalez.html",
-      "image": "https://www.out.be/assets/img/logo-outbe.svg",
-      "source": "Out.be",
-      "price_min": 59.0,
-      "price_max": 59.0,
-      "uid": "c84dfa65d973b40b",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "Brunch & Climate March with Oxfam",
       "start": "2026-10-11T10:00:00+02:00",
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "dans 21h Manifestation Brunch & Climate March with Oxfam Dimanche 11 octobre 2026 à 10:00 Etterbeek - 1040 Organisé par Rosalie Buytaert",
+      "description": "dans 12h Manifestation Brunch & Climate March with Oxfam Dimanche 11 octobre 2026 à 10:00 Etterbeek - 1040 Organisé par Rosalie Buytaert",
       "url": "https://protestbase.be/manifestations/bruxelles",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
@@ -3289,6 +2896,26 @@
       "price_min": 8.0,
       "price_max": 25.0,
       "detail_checked": 4
+    },
+    {
+      "title": "Sense and Sensibility",
+      "start": "2026-10-11T18:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "Sense and Sensibility Sun 11 Oct - Fri 23 Oct Studio 5 cinema € 7,00–€ 10,50 dates dates Sun 11 Oct 18:00 tickets Sat 17 Oct 16:30 tickets Fri 23 Oct 14:30 tickets Wed 23 Sep 21:00 Past event Fri 25 Sep 18:50 Past event Sat 26 Sep 21:00 Past event Fri 2 Oct 21:15 Past event Sun 4 Oct 15:30 Past even",
+      "url": "https://www.flagey.be/en/agenda/sense-and-sensibility-9bx5",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 10.5,
+      "uid": "f7abaf2dbf3f10e0",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
     },
     {
       "title": "Nessuno",
@@ -3473,26 +3100,6 @@
       "tags_llm_done": true,
       "stale": true,
       "detail_checked": 4
-    },
-    {
-      "title": "Klassiek met De Keere: Steve Reich at 90 12 oct 2026 Concerts Pop / Rock / Pop-Rock Ancienne Belgique (AB) Bruxelles - Bruxelles Cette con",
-      "start": "2026-10-12T19:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Ancienne Belgique, 110 Boulevard Anspachlaan, 1000 Bruxelles, Bruxelles, Belgique, 1000 Bruxelles, Bruxelles, Belgique, Bruxelles",
-      "description": "Klassiek met De Keere: Steve Reich at 90 12 oct 2026 Concerts Pop / Rock / Pop-Rock Ancienne Belgique (AB) Bruxelles - Bruxelles Cette conférence sera donnée en néerlandais.",
-      "url": "https://www.out.be/fr/evenements/220163_klassiek-met-de-keere-steve-reich-at-90.html",
-      "image": "https://www.out.be/assets/img/logo-outbe.svg",
-      "source": "Out.be",
-      "price_min": 20.0,
-      "price_max": 20.0,
-      "uid": "c8d5bbf10f848f01",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
     },
     {
       "title": "[COMPLET] 10 années de pratique d’éducation aux médias",
@@ -4023,18 +3630,18 @@
       ]
     },
     {
-      "title": "Écouter Pause general mer 14 oct '26 AB Grande salle The HU + SKÁLD Mélange unique de métal et de chant diphonique traditionnel mongol Conce",
+      "title": "Écouter Pause general mer 14 oct '26 VK Concerts BCUC Funk indigène, hip-hop engagé et punk psychédélique en provenance du quartier de Sowet",
       "start": "2026-10-14T19:00:00+02:00",
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "Écouter Pause general mer 14 oct '26 AB Grande salle The HU + SKÁLD Mélange unique de métal et de chant diphonique traditionnel mongol Concert Derniers tickets",
-      "url": "https://www.abconcerts.be/fr/agenda/the-hu/a10Qw00000GNhnpIAD",
+      "description": "Écouter Pause general mer 14 oct '26 VK Concerts BCUC Funk indigène, hip-hop engagé et punk psychédélique en provenance du quartier de Soweto, en Afrique du Sud. Concert Vendu ailleurs",
+      "url": "https://www.abconcerts.be/fr/agenda/bcuc/a10Qw00000J6HODIA3",
       "image": "https://abconcerts.be/assets/website/components/images/og-image.1c2180e4.png",
       "source": "Ancienne Belgique",
-      "price_min": 8.6,
-      "price_max": 160.0,
-      "uid": "b29406a005ac3367",
+      "price_min": 4.6,
+      "price_max": 27.0,
+      "uid": "7c0ba994d01cb315",
       "colour": "#C0392B",
       "detail_checked": 4,
       "category": "other",
@@ -4176,26 +3783,6 @@
       "tags_llm_done": true
     },
     {
-      "title": "Blu Samu + 2L 14 oct 2026 Concerts Pop / Rock / Pop-Rock Théâtre National Wallonie-Bruxelles Bruxelles - Bruxelles Une soirée qui réunit d",
-      "start": "2026-10-14T19:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Théâtre National, Boulevard Emile Jacqmain, 111-115, 1000 Bruxelles, Bruxelles, Belgique, Bruxelles",
-      "description": "Blu Samu + 2L 14 oct 2026 Concerts Pop / Rock / Pop-Rock Théâtre National Wallonie-Bruxelles Bruxelles - Bruxelles Une soirée qui réunit deux artistes aux écritures singulières et qui font du rap un espace de libertés.Avec KNOT, Blu Samu ouvre un nouveau chapitre de son parcours. Depuis ses débuts",
-      "url": "https://www.out.be/fr/evenements/218420_blu-samu-2l.html",
-      "image": "https://www.out.be/assets/img/logo-outbe.svg",
-      "source": "Out.be",
-      "price_min": 20.0,
-      "price_max": 20.0,
-      "uid": "a59ec4d8276584cf",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "Tai Chi Ochtendcursus mer 14/10 - 09:00 Sport",
       "start": "2026-10-14T09:00:00+02:00",
       "end": null,
@@ -4227,6 +3814,24 @@
       "price_max": null,
       "uid": "e98177b729cfad9e",
       "colour": "#E07A00",
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Notre Salut",
+      "start": "2026-10-14T16:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "Notre Salut Wed 14 Oct - Thu 29 Oct Studio 5 cinema € 7,00–€ 10,50 dates dates Wed 14 Oct 16:00 tickets Sun 18 Oct 18:30 tickets Sat 24 Oct 15:45 tickets Thu 29 Oct 16:15 tickets Wed 30 Sep 20:45 Past event Sat 3 Oct 20:50 Past event Sun 4 Oct 18:00 Past event Thu 8 Oct 20:30 Past event Sat 10 Oct 1",
+      "url": "https://www.flagey.be/en/agenda/notre-salut-q1cd",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 10.5,
+      "uid": "e32d30a44a8b5706",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -4945,6 +4550,26 @@
       ]
     },
     {
+      "title": "Digger",
+      "start": "2026-10-15T21:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "Digger Thu 15 Oct - Fri 30 Oct Studio 5 cinema € 7,00–€ 10,50 dates dates Thu 15 Oct 21:00 tickets Sun 18 Oct 16:00 tickets Fri 23 Oct 21:15 tickets Fri 30 Oct 15:50 tickets Thu 1 Oct 21:10 Past event Fri 2 Oct 18:50 Past event Sun 4 Oct 20:50 Past event Fri 9 Oct 18:50 Past event Sat 10 Oct 20:50 P",
+      "url": "https://www.flagey.be/en/agenda/digger-yhg6",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 10.5,
+      "uid": "36349e09153e12ff",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
       "title": "19h30 Concert Tram 92",
       "start": "2026-10-16T00:00:00+02:00",
       "end": "2026-10-16T00:00:00+02:00",
@@ -5377,6 +5002,24 @@
       "tags": [
         "evening"
       ]
+    },
+    {
+      "title": "Identita - The Story of Czech Graphic Design 16 oct 07 mars 2027 Expos Design Museum Brussels Laken - Bruxelles Le Design Museum Brussels",
+      "start": "2026-10-16T00:00:00+02:00",
+      "end": null,
+      "all_day": true,
+      "location": "Design Museum Brussels, Belgiëplein 1, 1020 Laken, Bruxelles, Belgique, Laken",
+      "description": "Identita - The Story of Czech Graphic Design 16 oct 07 mars 2027 Expos Design Museum Brussels Laken - Bruxelles Le Design Museum Brussels accueille l’exposition Identita – The Story of Czech Graphic Design du 16 octobre 2026 au 7 mars 2027. L’exposition offre un aperçu concis d’une communauté cult",
+      "url": "https://www.out.be/fr/evenements/212646_identita-the-story-of-czech-graphic-design.html",
+      "image": "https://www.out.be/assets/img/logo-outbe.svg",
+      "source": "Out.be",
+      "price_min": null,
+      "price_max": null,
+      "uid": "1fa1fd82b94e431e",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
     },
     {
       "title": "Pilates 2 ven 16/10 - 09:30 Sport",
@@ -7180,6 +6823,25 @@
       "tags_llm_done": true
     },
     {
+      "title": "Rencontre avec Amine Messal autour de son livre Erreur sur la marchandise — Critique libérale du lib",
+      "start": "2026-10-17T18:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "samedi 17 octobre 2026 Apprendre Rencontre avec Amine Messal autour de son livre Erreur sur la marchandise — Critique libérale du lib Samedi 17 octobre 2026 à 18:30 Anderlecht - 1070 Organisé par ProtestBase",
+      "url": "https://protestbase.be/manifestations/bruxelles",
+      "image": "https://protestbase.be/og.jpg",
+      "source": "Protestbase Bruxelles",
+      "price_min": null,
+      "price_max": null,
+      "uid": "978afb7f898dca82",
+      "colour": "#E07A00",
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
       "title": "Electric Tenderness",
       "start": "2026-10-17T18:30:00+02:00",
       "end": "2026-10-17T19:15:00+02:00",
@@ -7720,6 +7382,23 @@
       "detail_checked": 4
     },
     {
+      "title": "Réflechir et échanger sur la Palestine",
+      "start": "2026-10-18T11:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "dimanche 18 octobre 2026 Soutien Réflechir et échanger sur la Palestine Dimanche 18 octobre 2026 à 11:00 Molenbeek-Saint-Jean - 1080 Organisé par ProtestBase",
+      "url": "https://protestbase.be/manifestations/bruxelles",
+      "image": "https://protestbase.be/og.jpg",
+      "source": "Protestbase Bruxelles",
+      "price_min": null,
+      "price_max": null,
+      "uid": "f6e5778b2c137819",
+      "colour": "#E07A00",
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "Junior Climate Fresk",
       "start": "2026-10-18T11:00:00+02:00",
       "end": "2026-10-18T13:00:00+02:00",
@@ -7833,7 +7512,10 @@
         "live"
       ],
       "tags_llm_done": true,
-      "stale": true
+      "stale": true,
+      "price_min": 8.0,
+      "price_max": 25.0,
+      "detail_checked": 4
     },
     {
       "title": "Poumpo – HerL'IA au cœur de nos relations affectives",
@@ -7851,7 +7533,10 @@
       "tags": [
         "evening"
       ],
-      "stale": true
+      "stale": true,
+      "price_min": 30.0,
+      "price_max": 1900.0,
+      "detail_checked": 4
     },
     {
       "title": "Sunday 18.10.26 6:00 PM Quasimodo aux miroirs No Anger | ENCORE",
@@ -7863,10 +7548,11 @@
       "url": "https://kaaitheater.be/nl/agenda/26-27/quasimodo-aux-miroirs",
       "image": null,
       "source": "Kaaitheater",
-      "price_min": null,
-      "price_max": null,
+      "price_min": 6.0,
+      "price_max": 14.0,
       "uid": "255d0ab3b84288da",
       "colour": "#7B49D6",
+      "detail_checked": 4,
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -7891,6 +7577,7 @@
       "price_max": null,
       "uid": "62dbebf806cabb97",
       "colour": "#E8336D",
+      "detail_checked": 4,
       "translated": true,
       "category": "talks-discussions",
       "category_llm": true,
@@ -7912,10 +7599,11 @@
       "url": "https://www.pianofabriek.be/activiteiten/solidaire-lunch-creamy-green-beans-met-vers-brood",
       "image": null,
       "source": "GC Pianofabriek",
-      "price_min": null,
-      "price_max": null,
+      "price_min": 10.0,
+      "price_max": 10.0,
       "uid": "41cf2078829c84ce",
       "colour": "#1B6FE0",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -7958,7 +7646,8 @@
         "recurring"
       ],
       "stale": true,
-      "time_checked": 3
+      "time_checked": 3,
+      "detail_checked": 4
     },
     {
       "title": "KET ACADEMY",
@@ -7981,7 +7670,8 @@
       ],
       "tags_llm_done": true,
       "stale": true,
-      "time_checked": 3
+      "time_checked": 3,
+      "detail_checked": 4
     },
     {
       "title": "Behind the screens: innovation tour at VRT",
@@ -8003,7 +7693,8 @@
       ],
       "tags_llm_done": true,
       "stale": true,
-      "time_checked": 3
+      "time_checked": 3,
+      "detail_checked": 4
     },
     {
       "title": "Shifting Worlds: Exhibition and program at WIELS",
@@ -8026,7 +7717,8 @@
       ],
       "tags_llm_done": true,
       "stale": true,
-      "time_checked": 3
+      "time_checked": 3,
+      "detail_checked": 4
     },
     {
       "title": "19 Oct 2026 Divorcée pour le meilleur et le meilleur Caps Sainghin-en-Mélantois (59)",
@@ -8042,6 +7734,7 @@
       "price_max": null,
       "uid": "0b1ffbd79c22356a",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "translated": true,
       "category": "other",
       "category_llm": true,
@@ -8058,10 +7751,11 @@
       "url": "https://www.lamaisondulivre.be/atelier/mots-e-mouvants-2/",
       "image": "https://www.lamaisondulivre.be/wp-content/uploads/2025/08/calendar_ssfond.png",
       "source": "La Maison du Livre",
-      "price_min": null,
-      "price_max": null,
+      "price_min": 50.0,
+      "price_max": 75.0,
       "uid": "930c828fa8f95c1d",
       "colour": "#C0392B",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -8126,7 +7820,8 @@
         "live"
       ],
       "tags_llm_done": true,
-      "stale": true
+      "stale": true,
+      "detail_checked": 4
     },
     {
       "title": "Shot by A.I. on VRT: The future of media is already here",
@@ -8147,7 +7842,8 @@
         "live"
       ],
       "tags_llm_done": true,
-      "stale": true
+      "stale": true,
+      "detail_checked": 4
     },
     {
       "title": "From experiment to impact: In-depth innovation session at VRT",
@@ -8168,7 +7864,8 @@
         "live"
       ],
       "tags_llm_done": true,
-      "stale": true
+      "stale": true,
+      "detail_checked": 4
     },
     {
       "title": "Business track: FinTech & GovTech",
@@ -8189,7 +7886,8 @@
         "live"
       ],
       "tags_llm_done": true,
-      "stale": true
+      "stale": true,
+      "detail_checked": 4
     },
     {
       "title": "Fast track: From beer to biotech",
@@ -8211,7 +7909,8 @@
         "food-drink"
       ],
       "tags_llm_done": true,
-      "stale": true
+      "stale": true,
+      "detail_checked": 4
     },
     {
       "title": "Fast track: Smart health - HealthTech that prevents and heals",
@@ -8232,7 +7931,8 @@
         "drop-in"
       ],
       "tags_llm_done": true,
-      "stale": true
+      "stale": true,
+      "detail_checked": 4
     },
     {
       "title": "Fast track: Biotechnology is life",
@@ -8253,7 +7953,8 @@
         "drop-in"
       ],
       "tags_llm_done": true,
-      "stale": true
+      "stale": true,
+      "detail_checked": 4
     },
     {
       "title": "Terranova: An innovative medical and social health and wellness center in the heart of Brussels",
@@ -8274,7 +7975,8 @@
         "drop-in"
       ],
       "tags_llm_done": true,
-      "stale": true
+      "stale": true,
+      "detail_checked": 4
     },
     {
       "title": "What if robots could move us emotionally?",
@@ -8296,7 +7998,8 @@
         "evening"
       ],
       "tags_llm_done": true,
-      "stale": true
+      "stale": true,
+      "detail_checked": 4
     },
     {
       "title": "5pm-7pm organic baskets at Ferme de Nadir",
@@ -8308,10 +8011,11 @@
       "url": "https://chechette.be/events/17h-19h-paniers-bio-ferme-de-nadir/",
       "image": "https://chechette.be/wp-content/uploads/2025/05/ferme-Nadir-985x1024-1-e1747293928519.jpg",
       "source": "La Vieille Chéchette",
-      "price_min": null,
-      "price_max": null,
+      "price_min": 12.0,
+      "price_max": 15.0,
       "uid": "8512b9a57a9cbca5",
       "colour": "#E8336D",
+      "detail_checked": 4,
       "translated": true,
       "category": "food-drink",
       "category_llm": true,
@@ -8343,7 +8047,8 @@
       ],
       "tags_llm_done": true,
       "stale": true,
-      "time_checked": 3
+      "time_checked": 3,
+      "detail_checked": 4
     },
     {
       "title": "Shifting Worlds: Exhibition and program at WIELS",
@@ -8366,7 +8071,8 @@
       ],
       "tags_llm_done": true,
       "stale": true,
-      "time_checked": 3
+      "time_checked": 3,
+      "detail_checked": 4
     },
     {
       "title": "20 Oct 2026 Comment sauver l'amour ? Lucie Paris (75)",
@@ -8382,6 +8088,7 @@
       "price_max": null,
       "uid": "5422858d07908cd6",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "translated": true,
       "category": "other",
       "category_llm": true,
@@ -8407,7 +8114,8 @@
         "live"
       ],
       "tags_llm_done": true,
-      "stale": true
+      "stale": true,
+      "detail_checked": 4
     },
     {
       "title": "Inside Euroclear: The backbone of capital markets",
@@ -8428,7 +8136,8 @@
         "drop-in"
       ],
       "tags_llm_done": true,
-      "stale": true
+      "stale": true,
+      "detail_checked": 4
     },
     {
       "title": "Discover the world behind Isabel",
@@ -8447,7 +8156,8 @@
       "category_llm": true,
       "tags": [],
       "tags_llm_done": true,
-      "stale": true
+      "stale": true,
+      "detail_checked": 4
     },
     {
       "title": "EuroStack — Europe's Blueprint for Digital Sovereignty",
@@ -8466,7 +8176,8 @@
       "category_llm": true,
       "tags": [],
       "tags_llm_done": true,
-      "stale": true
+      "stale": true,
+      "detail_checked": 4
     },
     {
       "title": "Fast track: Visit the FARI CAVE",
@@ -8485,7 +8196,8 @@
       "category_llm": true,
       "tags": [],
       "tags_llm_done": true,
-      "stale": true
+      "stale": true,
+      "detail_checked": 4
     },
     {
       "title": "Literary discovery : A l'école de la résistance",
@@ -8506,7 +8218,8 @@
         "live"
       ],
       "tags_llm_done": true,
-      "stale": true
+      "stale": true,
+      "detail_checked": 4
     },
     {
       "title": "Fast track: Smart energy for a livable city",
@@ -8525,7 +8238,8 @@
       "category_llm": true,
       "tags": [],
       "tags_llm_done": true,
-      "stale": true
+      "stale": true,
+      "detail_checked": 4
     },
     {
       "title": "Fast track: From biomaterial to building revolution",
@@ -8546,7 +8260,8 @@
         "sustainability"
       ],
       "tags_llm_done": true,
-      "stale": true
+      "stale": true,
+      "detail_checked": 4
     },
     {
       "title": "Fast Track: Second Lives: Circular Brussels in Four Stops",
@@ -8568,7 +8283,8 @@
         "sustainability"
       ],
       "tags_llm_done": true,
-      "stale": true
+      "stale": true,
+      "detail_checked": 4
     },
     {
       "title": "Fast track: Art nouveau, a radical precedent",
@@ -8589,7 +8305,8 @@
         "outdoor"
       ],
       "tags_llm_done": true,
-      "stale": true
+      "stale": true,
+      "detail_checked": 4
     },
     {
       "title": "Rally: Against Colonialism, Fascism, Wars and Genocides!",
@@ -8605,6 +8322,7 @@
       "price_max": null,
       "uid": "2d284fcb3e1f6094",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "translated": true,
       "category": "activism-justice",
       "category_llm": true,
@@ -8624,10 +8342,11 @@
       "url": "https://www.meetup.com/brusselsinternationalhubevents/events/316782267/",
       "image": "https://secure.meetupstatic.com/photos/event/2/8/2/e/600_528130286.jpeg",
       "source": "Brussels International Hub Events (Meetup)",
-      "price_min": null,
-      "price_max": null,
+      "price_min": 150.0,
+      "price_max": 150.0,
       "uid": "60eba447432da06f",
       "colour": "#E07A00",
+      "detail_checked": 4,
       "translated": true,
       "category": "community-social",
       "category_llm": true,
@@ -8654,6 +8373,25 @@
         "evening"
       ],
       "stale": true
+    },
+    {
+      "title": "Conférence/atelier: 🤔 Bruxelles s'endette? Bruxelles sans dettes?",
+      "start": "2026-10-20T18:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "mardi 20 octobre 2026 Apprendre Conférence/atelier: 🤔 Bruxelles s'endette? Bruxelles sans dettes? Mardi 20 octobre 2026 à 18:00 Saint-Gilles - 1060 Organisé par ProtestBase",
+      "url": "https://protestbase.be/manifestations/bruxelles",
+      "image": "https://protestbase.be/og.jpg",
+      "source": "Protestbase Bruxelles",
+      "price_min": null,
+      "price_max": null,
+      "uid": "1c6b55fee2c4d643",
+      "colour": "#E07A00",
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
     },
     {
       "title": "MUSIQUE Jam irish music",
@@ -8687,6 +8425,7 @@
       "price_max": null,
       "uid": "ca9ae6585403d2b8",
       "colour": "#E8336D",
+      "detail_checked": 4,
       "translated": true,
       "category": "music",
       "category_llm": true,
@@ -8705,10 +8444,11 @@
       "url": "https://www.pianofabriek.be/activiteiten/stadswandeling-langsheen-de-wooncrisis",
       "image": null,
       "source": "GC Pianofabriek",
-      "price_min": null,
-      "price_max": null,
+      "price_min": 2.0,
+      "price_max": 10.0,
       "uid": "1e22abbc195542a4",
       "colour": "#1B6FE0",
+      "detail_checked": 4,
       "translated": true,
       "category": "civic-politics",
       "category_llm": true,
@@ -8728,10 +8468,11 @@
       "url": "https://www.tenweyngaert.be/activiteiten/stadswandeling-langsheen-de-wooncrisis",
       "image": null,
       "source": "GC Ten Weyngaert",
-      "price_min": null,
-      "price_max": null,
+      "price_min": 2.0,
+      "price_max": 10.0,
       "uid": "775b697301cc8399",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "translated": true,
       "category": "civic-politics",
       "category_llm": true,
@@ -8755,6 +8496,7 @@
       "price_max": null,
       "uid": "7d290af5f8e1d70d",
       "colour": "#8A7500",
+      "detail_checked": 4,
       "translated": true,
       "category": "talks-discussions",
       "category_llm": true,
@@ -8777,6 +8519,7 @@
       "price_max": null,
       "uid": "3eceec714f4daada",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -8799,6 +8542,24 @@
       "price_max": null,
       "uid": "3aff25fcf7f4abd2",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Journée thematique: à bas les violences policières",
+      "start": "2026-10-21T10:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "mercredi 21 octobre 2026 Apprendre Journée thematique: à bas les violences policières Mercredi 21 octobre 2026 à 10:00 Ixelles - 1050 Organisé par ProtestBase",
+      "url": "https://protestbase.be/manifestations/bruxelles",
+      "image": "https://protestbase.be/og.jpg",
+      "source": "Protestbase Bruxelles",
+      "price_min": null,
+      "price_max": null,
+      "uid": "82f122c3b5df26df",
+      "colour": "#E07A00",
       "category": "other",
       "tags": []
     },
@@ -8816,6 +8577,7 @@
       "price_max": null,
       "uid": "7950d4a616358e4b",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "translated": true,
       "category": "activism-justice",
       "category_llm": true,
@@ -8839,6 +8601,7 @@
       "price_max": null,
       "uid": "ea5d1dd9a5c96fc7",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "translated": true,
       "category": "activism-justice",
       "category_llm": true,
@@ -8898,22 +8661,24 @@
         "live"
       ],
       "tags_llm_done": true,
-      "stale": true
+      "stale": true,
+      "detail_checked": 4
     },
     {
       "title": "JOYAUX LOURDEMENT SOUS-ESTIMÉS Tickets",
       "start": "2026-10-21T19:00:00+02:00",
       "end": null,
       "all_day": false,
-      "location": "",
+      "location": "Grande halle / Les Halles de Schaerbeek, rue Royale Sainte-Marie 22a 1030 Schaerbeek",
       "description": "WED 21 OCT 19:00 JOYAUX LOURDEMENT SOUS-ESTIMÉS Tickets",
       "url": "https://www.halles.be/en/ap/2095-joyaux-lourdement-sous-estimes-bast-hippocrate",
       "image": "https://www.halles.be/en/image/og/image/1",
       "source": "Halles de Schaerbeek",
-      "price_min": null,
-      "price_max": null,
+      "price_min": 5.0,
+      "price_max": 22.0,
       "uid": "ff9351ff95c88e32",
       "colour": "#7B49D6",
+      "detail_checked": 4,
       "category": "other",
       "tags": [
         "evening"
@@ -8939,7 +8704,10 @@
       ],
       "tags_llm_done": true,
       "stale": true,
-      "time_checked": 3
+      "time_checked": 3,
+      "price_min": 10.0,
+      "price_max": 10.0,
+      "detail_checked": 4
     },
     {
       "title": "22 Oct 2026 How I Fought for My Life Under Patriarchy: Anne D. Lille (59)",
@@ -8955,6 +8723,7 @@
       "price_max": null,
       "uid": "8747be4cecf6c8b3",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -8977,6 +8746,7 @@
       "price_max": null,
       "uid": "c03fad0f5506bfea",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -8999,6 +8769,7 @@
       "price_max": null,
       "uid": "26d0c8dd9ff176ab",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -9021,6 +8792,7 @@
       "price_max": null,
       "uid": "6f7ed078378f9b65",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -9043,6 +8815,7 @@
       "price_max": null,
       "uid": "5173698a3985a636",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -9065,6 +8838,7 @@
       "price_max": null,
       "uid": "c6c93670176c08ce",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -9083,10 +8857,11 @@
       "url": "https://conferences-gesticulees.net/events/22-10-2026-donatienne-hermesse-la-vieille-chechette/",
       "image": null,
       "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
+      "price_min": 10.0,
+      "price_max": 10.0,
       "uid": "a6cdae14ac28d231",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -9104,6 +8879,7 @@
       "price_max": null,
       "uid": "6a80f85ab444821a",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -9250,6 +9026,23 @@
         "outdoor"
       ],
       "tags_llm_done": true
+    },
+    {
+      "title": "Weekend de formation participative",
+      "start": "2026-10-23T00:00:00+02:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "Apprendre Weekend de formation participative Vendredi 23 octobre – dimanche 25 octobre 2026 Ixelles - 1050 Organisé par ProtestBase",
+      "url": "https://protestbase.be/manifestations/bruxelles",
+      "image": "https://protestbase.be/og.jpg",
+      "source": "Protestbase Bruxelles",
+      "price_min": null,
+      "price_max": null,
+      "uid": "6e9e319644d2c0fe",
+      "colour": "#E07A00",
+      "category": "other",
+      "tags": []
     },
     {
       "title": "23 Oct 2026 And Yet I Did Everything Right! Véronique Kesmedjian Saint-Éloy-les-Mines (63)",
@@ -10715,7 +10508,7 @@
       "all_day": false,
       "location": "Brasserie Quartier Leopold, Place du Luxembourg 9, Bruxelles, Bruxelles",
       "description": "✨ **Meet new people in Brussels every Friday evening!** Looking to expand your social circle, meet international people and enjoy relaxed conversations in the heart of Brussels? Join **EuroMeet every Friday anytime from 18:30 until at least 22:30** at the **Quartier Leopold brasserie**, located on Place du Luxembourg, directly opposite the European Parliament. Our meetup offers a friendly, relaxed and international atmosphere where it is easy to talk and get to know people—without loud music or a chaotic party environment. . 🍻 Drinks, food and dinner available 🌍 Internationals, expats, newcome",
-      "url": "https://www.meetup.com/brussels-meetup/events/nphtztyjcnbnc/",
+      "url": "https://www.meetup.com/brussels-meetup/events/316926023/",
       "image": "https://secure.meetupstatic.com/photos/event/1/7/b/3/600_533826067.jpeg",
       "source": "Brussels Language Meetup",
       "price_min": null,
@@ -11088,6 +10881,23 @@
       "tags_llm_done": true,
       "stale": true,
       "time_checked": 3
+    },
+    {
+      "title": "In-I In Motion - Juliette Binoche",
+      "start": "2026-11-01T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "In-I In Motion - Juliette Binoche Sold out Cancelled Postponed Last Tickets Films New release Highly Recommended In-I In Motion - Juliette Binoche Now → 1 Nov.'26 From 8 €",
+      "url": "https://www.bozar.be/en/calendar/i-motion-juliette-binoche-0",
+      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
+      "source": "BOZAR",
+      "price_min": 8.0,
+      "price_max": 8.0,
+      "uid": "521e310a64db9cff",
+      "colour": "#00937A",
+      "category": "other",
+      "tags": []
     },
     {
       "title": "Sablon Antiques Market",
