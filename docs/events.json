@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-11T13:13:42.599976+02:00",
+  "generated": "2026-10-11T21:57:13.992274+02:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
@@ -78,7 +78,7 @@
       "name": "Sounds Jazz Club",
       "url": "https://www.sounds.brussels/agenda/",
       "colour": "#E8336D",
-      "count": 18,
+      "count": 17,
       "method": "none",
       "stale": true,
       "last_ok": "2026-10-03"
@@ -114,7 +114,7 @@
       "name": "Maison Poème",
       "url": "https://maisonpoeme.be/",
       "colour": "#7B49D6",
-      "count": 17,
+      "count": 16,
       "method": "jsonld",
       "stale": false,
       "last_ok": "2026-10-11"
@@ -150,7 +150,7 @@
       "name": "Le Senghor",
       "url": "https://www.senghor.be/agenda/",
       "colour": "#E8336D",
-      "count": 41,
+      "count": 37,
       "method": "none",
       "stale": true,
       "last_ok": "2026-10-03"
@@ -159,7 +159,7 @@
       "name": "Flagey",
       "url": "https://www.flagey.be/agenda",
       "colour": "#1B6FE0",
-      "count": 13,
+      "count": 12,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-10-11"
@@ -168,7 +168,7 @@
       "name": "BOZAR",
       "url": "https://www.bozar.be/en/calendar",
       "colour": "#00937A",
-      "count": 6,
+      "count": 5,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-10-11"
@@ -186,7 +186,7 @@
       "name": "Kaaitheater",
       "url": "https://kaaitheater.be/nl/agenda",
       "colour": "#7B49D6",
-      "count": 16,
+      "count": 15,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-10-11"
@@ -222,7 +222,7 @@
       "name": "Quefaire.be brocantes (Brussels region)",
       "url": "https://www.quefaire.be/brocantes/region-de-bruxelles",
       "colour": "#E8336D",
-      "count": 4,
+      "count": 5,
       "method": "jsonld",
       "stale": false,
       "last_ok": "2026-10-11"
@@ -420,7 +420,7 @@
       "name": "Forest (commune agenda)",
       "url": "https://forest.brussels/fr/agenda",
       "colour": "#0F8CA8",
-      "count": 24,
+      "count": 22,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-10-11"
@@ -447,7 +447,7 @@
       "name": "Anderlecht (commune agenda)",
       "url": "https://anderlecht.be/",
       "colour": "#1B6FE0",
-      "count": 3,
+      "count": 2,
       "method": "none",
       "stale": true,
       "last_ok": "2026-10-03"
@@ -483,7 +483,7 @@
       "name": "Mazette (brewpub, Jeu de Balle)",
       "url": "https://mazette.brussels/",
       "colour": "#C0392B",
-      "count": 7,
+      "count": 6,
       "method": "none",
       "stale": true,
       "last_ok": "2026-10-03"
@@ -519,7 +519,7 @@
       "name": "Out.be",
       "url": "https://www.out.be/fr/",
       "colour": "#1B6FE0",
-      "count": 6,
+      "count": 8,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-10-11"
@@ -856,7 +856,7 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "carried": 18,
+      "carried": 17,
       "stale": true,
       "error_class": "billing",
       "note": "llm: skipped (billing failure earlier this run)"
@@ -894,8 +894,8 @@
     {
       "source": "Maison Poème",
       "method": "jsonld",
-      "found": 20,
-      "kept": 17,
+      "found": 19,
+      "kept": 16,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -936,7 +936,7 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "carried": 41,
+      "carried": 37,
       "stale": true,
       "error_class": "billing",
       "note": "browser: jsonld/recipe empty, llm skipped (billing failure earlier this run)"
@@ -944,8 +944,8 @@
     {
       "source": "Flagey",
       "method": "recipe",
-      "found": 13,
-      "kept": 13,
+      "found": 12,
+      "kept": 12,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -954,8 +954,8 @@
     {
       "source": "BOZAR",
       "method": "recipe",
-      "found": 7,
-      "kept": 6,
+      "found": 6,
+      "kept": 5,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -975,7 +975,7 @@
       "source": "Kaaitheater",
       "method": "recipe",
       "found": 21,
-      "kept": 16,
+      "kept": 15,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1014,8 +1014,8 @@
     {
       "source": "Quefaire.be brocantes (Brussels region)",
       "method": "jsonld",
-      "found": 6,
-      "kept": 4,
+      "found": 7,
+      "kept": 5,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1235,7 +1235,7 @@
       "source": "Forest (commune agenda)",
       "method": "recipe",
       "found": 24,
-      "kept": 24,
+      "kept": 22,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1266,7 +1266,7 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "carried": 3,
+      "carried": 2,
       "stale": true,
       "error_class": "billing",
       "note": "llm: skipped (billing failure earlier this run)"
@@ -1306,7 +1306,7 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "carried": 7,
+      "carried": 6,
       "stale": true,
       "error_class": "billing",
       "note": "browser: jsonld/recipe empty, llm skipped (billing failure earlier this run)"
@@ -1345,7 +1345,7 @@
       "source": "Out.be",
       "method": "recipe",
       "found": 9,
-      "kept": 6,
+      "kept": 8,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1493,198 +1493,6 @@
       "tags_llm_done": true
     },
     {
-      "title": "Journées Portes Ouvertes de l'Hôtel communal de Forest sam 10/10 - 14:00 Divers",
-      "start": "2026-10-10T14:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Journées Portes Ouvertes de l'Hôtel communal de Forest sam 10/10 - 14:00 Divers",
-      "url": "http://forest.brussels/fr/agenda/divers/2026/journees-portes-ouvertes-de-lhotel-communal-de-forest",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "39e60e46d1d8165a",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "Fête du bien-être animal",
-      "start": "2026-10-10T14:00:00+02:00",
-      "end": "2026-10-10T18:00:00+02:00",
-      "all_day": false,
-      "location": "parc Astrid, côté square Rombaux",
-      "description": "Après-midi festive pour célébrer la cause animale. Démonstrations canines, bricolages pour enfants, drink et quiz.",
-      "url": "https://anderlecht.be/",
-      "image": null,
-      "source": "Anderlecht (commune agenda)",
-      "uid": "612f2ef27213fb92",
-      "colour": "#1B6FE0",
-      "category": "other",
-      "tags": [],
-      "stale": true
-    },
-    {
-      "title": "Etterbeek 40-45 – La Résistante",
-      "start": "2026-10-10T15:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Le Senghor",
-      "description": "",
-      "url": "https://www.senghor.be/evenement/etterbeek-40-45-la-resistante-2/",
-      "image": null,
-      "source": "Le Senghor",
-      "uid": "21b0d03dac6bacd1",
-      "colour": "#E8336D",
-      "category": "other",
-      "tags": [],
-      "stale": true,
-      "detail_checked": 4
-    },
-    {
-      "title": "JEUX Hoshi Go Club",
-      "start": "2026-10-10T17:00:00+02:00",
-      "end": "2026-10-10T22:00:00+02:00",
-      "all_day": false,
-      "location": "Mazette",
-      "description": "Go Club",
-      "url": "https://mazette.brussels/",
-      "image": "https://mazette.brussels/wp-content/uploads/2024/12/hom-terrasse2.webp",
-      "source": "Mazette (brewpub, Jeu de Balle)",
-      "uid": "245995b799c9bff6",
-      "colour": "#C0392B",
-      "category": "other",
-      "tags": [
-        "evening"
-      ],
-      "stale": true
-    },
-    {
-      "title": "Manza",
-      "start": "2026-10-10T17:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Le Senghor",
-      "description": "",
-      "url": "https://www.senghor.be/evenement/manza/",
-      "image": null,
-      "source": "Le Senghor",
-      "uid": "e2907c20c8e15730",
-      "colour": "#E8336D",
-      "category": "other",
-      "tags": [
-        "evening"
-      ],
-      "stale": true,
-      "detail_checked": 4
-    },
-    {
-      "title": "za 10.10.26 18:00 All Day I Dream About Soccer Ahilan Ratnamohan",
-      "start": "2026-10-10T18:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "za 10.10.26 18:00 All Day I Dream About Soccer Ahilan Ratnamohan performance Kaaistudios Tickets",
-      "url": "https://kaaitheater.be/nl/agenda/26-27/all-day-i-dream-about-soccer",
-      "image": null,
-      "source": "Kaaitheater",
-      "price_min": 14.0,
-      "price_max": 26.0,
-      "uid": "645c646401e64525",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Simon Cortisone",
-      "start": "2026-10-10T19:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Le Senghor",
-      "description": "Peaufinage",
-      "url": "https://www.senghor.be/evenement/simon-cortisone/",
-      "image": null,
-      "source": "Le Senghor",
-      "uid": "a64db0fb88c690c4",
-      "colour": "#E8336D",
-      "category": "other",
-      "tags": [
-        "evening"
-      ],
-      "stale": true,
-      "detail_checked": 4
-    },
-    {
-      "title": "Court métrage 'Samir s'en va' sam 10/10 - 19:00 Cinéma",
-      "start": "2026-10-10T19:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Court métrage 'Samir s'en va' sam 10/10 - 19:00 Cinéma",
-      "url": "http://forest.brussels/fr/agenda/cinema/2026/court-metrage-samir-sen-va",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "0ff0c40e4a9b449b",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "SALSA BAND AMOR Y DESCONTROL",
-      "start": "2026-10-10T20:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "SUPER SALSA NIGHT",
-      "url": "https://www.sounds.brussels/jazz-concert/salsa-band-amor-y-descontrol-y-su-salsa-picante-2/",
-      "image": "https://www.sounds.brussels/wp-content/uploads/2026/07/sounds-social-1024x576-1.jpg",
-      "source": "Sounds Jazz Club",
-      "uid": "b2fa2ad4c5f27b07",
-      "colour": "#E8336D",
-      "translated": true,
-      "category": "music",
-      "category_llm": true,
-      "tags": [
-        "dance",
-        "evening",
-        "live"
-      ],
-      "tags_llm_done": true,
-      "stale": true,
-      "price_min": 8.0,
-      "price_max": 25.0,
-      "detail_checked": 4
-    },
-    {
-      "title": "Wissle",
-      "start": "2026-10-10T21:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Le Senghor",
-      "description": "",
-      "url": "https://www.senghor.be/evenement/wissle/",
-      "image": null,
-      "source": "Le Senghor",
-      "uid": "1fc8ae4e07d0956f",
-      "colour": "#E8336D",
-      "category": "other",
-      "tags": [
-        "evening"
-      ],
-      "stale": true,
-      "detail_checked": 4
-    },
-    {
       "title": "2 PM Collective C.R.I. — Meeting on Incest",
       "start": "2026-10-11T00:00:00+02:00",
       "end": "2026-10-11T00:00:00+02:00",
@@ -1706,78 +1514,6 @@
         "activism"
       ],
       "tags_llm_done": true
-    },
-    {
-      "title": "11 octobre 2026 #Être ensemble +",
-      "start": "2026-10-11T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "11 octobre 2026 #Être ensemble + Un buffet gourmand et responsable La Tricoterie vous invite tous les dimanches pour un buffet sucré/salé à volonté qui saura plaire au plus nombreux·ses d’entre-vous. Au menu, des préparations faites maison à base de produits bio (…) # Être ensemble",
-      "url": "https://www.tricoterie.be/fr/agenda/l-agenda-culturel/fr/bar-resto-brunch/brunch/brunch?id_evenement=7455",
-      "image": null,
-      "source": "La Tricoterie",
-      "price_min": 6.0,
-      "price_max": 29.0,
-      "uid": "d390ef958cd9a4b0",
-      "colour": "#00937A",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "11 octobre 2026 +",
-      "start": "2026-10-11T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "11 octobre 2026 + Zakoustics – Concerts pour bébés Les Zakoustics, ce sont des concerts pensés pour les tout-petits (0-3 ans) et leurs parents. Des moments de découverte de la musique et d’émerveillement dans un cadre propice au partage. A (…)",
-      "url": "https://www.tricoterie.be/fr/agenda/l-agenda-culturel/fr/agenda/l-agenda-culturel/concerts/zakoustics-concerts-pour-bebes?id_evenement=7714",
-      "image": null,
-      "source": "La Tricoterie",
-      "price_min": 3.0,
-      "price_max": 13.0,
-      "uid": "78e71108461e6fd8",
-      "colour": "#00937A",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "11 octobre 2026 #Ateliers & zéro déchet +",
-      "start": "2026-10-11T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "11 octobre 2026 #Ateliers & zéro déchet + Keur Niamala - Ateliers de percussions pour enfants Atelier de percussions avec les enfants Artiste percussionniste autodidacte, Honoré a grandi à Dakar au Sénégal. Bercé par la musique mandingue, son identité musicale se définit aujourd’hui à (…) # Atelie",
-      "url": "https://www.tricoterie.be/fr/agenda/l-agenda-culturel/fr/agenda/l-agenda-culturel/keur-niamala-ateliers-de-percussions-pour-enfants?id_evenement=7767",
-      "image": null,
-      "source": "La Tricoterie",
-      "price_min": 20.0,
-      "price_max": 20.0,
-      "uid": "b8c48cd60de26b44",
-      "colour": "#00937A",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "11 octobre 2026 #Bien-être +",
-      "start": "2026-10-11T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "11 octobre 2026 #Bien-être + Massages et soins énergétiques Venez découvrir les bienfaits des pratiques psycho-corporelles. Posez-vous le temps d’un massage ou d’un soin énergétique… Et repartez détendu·es et ressourcé·es ! Notre équipe (…) # Bien-être",
-      "url": "https://www.tricoterie.be/fr/agenda/l-agenda-culturel/fr/agenda/l-agenda-culturel/massages-et-soins-energetiques-2780?id_evenement=7810",
-      "image": null,
-      "source": "La Tricoterie",
-      "price_min": 15.0,
-      "price_max": 15.0,
-      "uid": "cdcc7d1ce050954c",
-      "colour": "#00937A",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
     },
     {
       "title": "Omaha Drama | Road Movie Sunday Oct 11",
@@ -1802,86 +1538,6 @@
         "registration-required"
       ],
       "tags_llm_done": true
-    },
-    {
-      "title": "Brocabrugmann",
-      "start": "2026-10-11T00:00:00+02:00",
-      "end": "2026-10-11T00:00:00+02:00",
-      "all_day": false,
-      "location": "Place Georges Brugmann, Ixelles",
-      "description": "",
-      "url": "https://www.quefaire.be/brocabrugmann-8768599.shtml",
-      "image": "https://www.quefaire.be/img_n/8768599_1.jpeg",
-      "source": "Quefaire.be brocantes (Brussels region)",
-      "price_min": 66.0,
-      "price_max": 66.0,
-      "uid": "a68ce89c9ff92c5b",
-      "colour": "#E8336D",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "late-night"
-      ]
-    },
-    {
-      "title": "Brocante de l'Association Portugaise Emaús",
-      "start": "2026-10-11T00:00:00+02:00",
-      "end": "2026-10-11T00:00:00+02:00",
-      "all_day": false,
-      "location": "Assocition Emaús, Ixelles",
-      "description": "",
-      "url": "https://www.quefaire.be/brocante-de-lassociation-8771551.shtml",
-      "image": "https://www.quefaire.be/img_n/8771551_1.jpeg",
-      "source": "Quefaire.be brocantes (Brussels region)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "c9f69a9414fb308a",
-      "colour": "#E8336D",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "late-night"
-      ]
-    },
-    {
-      "title": "Brocante Georges Henri",
-      "start": "2026-10-11T00:00:00+02:00",
-      "end": "2026-10-11T00:00:00+02:00",
-      "all_day": false,
-      "location": "Woluwe-Saint-Lambert",
-      "description": "",
-      "url": "https://www.quefaire.be/brocante-georges-henri-8770285.shtml",
-      "image": "https://www.quefaire.be/img_n/8770285_1.jpeg",
-      "source": "Quefaire.be brocantes (Brussels region)",
-      "price_min": 30.0,
-      "price_max": 30.0,
-      "uid": "927a158eee334784",
-      "colour": "#E8336D",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "late-night"
-      ]
-    },
-    {
-      "title": "Vide dressing",
-      "start": "2026-10-11T00:00:00+02:00",
-      "end": "2026-10-11T00:00:00+02:00",
-      "all_day": false,
-      "location": "Bruxelles",
-      "description": "",
-      "url": "https://www.quefaire.be/vide-dressing-8771183.shtml",
-      "image": "https://www.quefaire.be/img_n/8771183_1.jpeg",
-      "source": "Quefaire.be brocantes (Brussels region)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "48bfe5559d513ff6",
-      "colour": "#E8336D",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "late-night"
-      ]
     },
     {
       "title": "11 Oct 2026 Que va-t-on faire du surveillant général? Jean-Marc Thouéry Chastel-sur-Murat (15)",
@@ -2005,24 +1661,6 @@
         "live"
       ],
       "tags_llm_done": true
-    },
-    {
-      "title": "The Sisters Of Mercy Concerts Jazz Concerts Pop / Rock / Pop-Rock Ancienne Belgique (AB) Bruxelles - Bruxelles La notoriété de The Sisters",
-      "start": "2026-10-11T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "The Sisters Of Mercy Concerts Jazz Concerts Pop / Rock / Pop-Rock Ancienne Belgique (AB) Bruxelles - Bruxelles La notoriété de The Sisters of Mercy est toujours aussi forte…. Leur concert du 11 octobre 2026 à l’AB affiche désormais presque complet ! Mais que leurs nombreux fans se rassurent. Un co",
-      "url": "https://www.out.be/fr/evenements/204942_the-sisters-of-mercy.html",
-      "image": "https://www.out.be/assets/img/logo-outbe.svg",
-      "source": "Out.be",
-      "price_min": 5.0,
-      "price_max": 5.0,
-      "uid": "fae1a8ac5d210f79",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
     },
     {
       "title": "Expo TW - Collectief 'le 180' dim 11/10 - 09:00 Exposition",
@@ -2192,24 +1830,6 @@
       "tags": []
     },
     {
-      "title": "The Invite",
-      "start": "2026-10-11T14:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "The Invite Sun 11 Oct - Sun 25 Oct Studio 5 cinema € 7,00–€ 10,50 dates dates Sun 11 Oct 14:30 tickets Thu 15 Oct 16:45 tickets Sun 25 Oct 18:30 tickets Wed 16 Sep 21:00 Past event Sat 19 Sep 21:10 Past event Sun 20 Sep 17:00 Past event Wed 23 Sep 17:00 Past event Fri 25 Sep 21:20 Past event Sun 27",
-      "url": "https://www.flagey.be/en/agenda/the-invite-zgr4",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "14af85fc43e6e98f",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "Three Little Grey Men",
       "start": "2026-10-11T15:00:00+02:00",
       "end": "2026-10-11T17:30:00+02:00",
@@ -2231,44 +1851,6 @@
         "live"
       ],
       "tags_llm_done": true
-    },
-    {
-      "title": "Festival FrancoFaune",
-      "start": "2026-10-11T16:00:00+02:00",
-      "end": "2026-10-11T20:00:00+02:00",
-      "all_day": false,
-      "location": "Maison poème, Rue d'Écosse 30, 1060 Saint-Gilles",
-      "description": "",
-      "url": "https://maisonpoeme.be/",
-      "image": "https://maisonpoeme.be/wp-content/uploads/2026/06/FF26-evenement-11-Maison-poeme-1024x576.jpg",
-      "source": "Maison Poème",
-      "price_min": null,
-      "price_max": null,
-      "uid": "d7ecd67e2d4902be",
-      "colour": "#7B49D6",
-      "translated": true,
-      "category": "festivals-celebrations",
-      "category_llm": true,
-      "tags": [],
-      "tags_llm_done": true
-    },
-    {
-      "title": "Res Nullius",
-      "start": "2026-10-11T16:35:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "Res Nullius Sun 11 Oct and Thu 29 Oct Studio 5 cinema documentary special screening € 7,00–€ 10,50 dates dates Sun 11 Oct 16:35 tickets Thu 29 Oct 19:05 tickets Thu 3 Sep 19:00 Past event Premiere attended by the director / last tickets Fri 11 Sep 17:30 Past event Sat 19 Sep 15:15 Past event Wed 23",
-      "url": "https://www.flagey.be/en/agenda/res-nullius-n94f",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "35bb30da7ff7c1c3",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
     },
     {
       "title": "LA GROOVISTA + JAM",
@@ -2297,26 +1879,6 @@
       "detail_checked": 4
     },
     {
-      "title": "Sense and Sensibility",
-      "start": "2026-10-11T18:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "Sense and Sensibility Sun 11 Oct - Fri 23 Oct Studio 5 cinema € 7,00–€ 10,50 dates dates Sun 11 Oct 18:00 tickets Sat 17 Oct 16:30 tickets Fri 23 Oct 14:30 tickets Wed 23 Sep 21:00 Past event Fri 25 Sep 18:50 Past event Sat 26 Sep 21:00 Past event Fri 2 Oct 21:15 Past event Sun 4 Oct 15:30 Past even",
-      "url": "https://www.flagey.be/en/agenda/sense-and-sensibility-9bx5",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "f7abaf2dbf3f10e0",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "Nessuno",
       "start": "2026-10-11T19:15:00+02:00",
       "end": null,
@@ -2338,26 +1900,6 @@
       "detail_checked": 4
     },
     {
-      "title": "The Revenant",
-      "start": "2026-10-11T20:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "The Revenant Sun 11 Oct - Sun 1 Nov Studio 5 cinema € 7,00–€ 10,50 dates dates Sun 11 Oct 20:30 tickets Sat 24 Oct 21:00 tickets Sun 1 Nov 21:00 tickets",
-      "url": "https://www.flagey.be/en/agenda/the-revenant-trrg",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "1fcdbdce8f639626",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "Solidaire lunch: Groene curry Organisator: Gemeenschapscentrum Pianofabriek vzw ma 12.10.2026 GC Pianofabriek, Sint-Gillis 0 - 99 jaar",
       "start": "2026-10-12T00:00:00+02:00",
       "end": null,
@@ -2371,6 +1913,96 @@
       "price_max": 10.0,
       "uid": "dbb1c670fa82ed9f",
       "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "12 octobre 2026 #Être ensemble +",
+      "start": "2026-10-12T00:00:00+02:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "12 octobre 2026 #Être ensemble + Café des Tricoteur·euses Depuis le début, « le Café des Tricoteurs » se voulait être un endroit convivial, sans prétention et accueillant. 10 ans plus tard, son succès ne se dément pas et nous remercions le public de sa (…) # Être ensemble",
+      "url": "https://www.tricoterie.be/fr/agenda/l-agenda-culturel/fr/agenda/l-agenda-culturel/cafe-des-tricoteur-euses?id_evenement=7578",
+      "image": null,
+      "source": "La Tricoterie",
+      "price_min": null,
+      "price_max": null,
+      "uid": "aee90993bf8318d0",
+      "colour": "#00937A",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "12 octobre 2026 #Ateliers & zéro déchet +",
+      "start": "2026-10-12T00:00:00+02:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "12 octobre 2026 #Ateliers & zéro déchet + Fresque des Résistances Atelier d'éducation populaire sur les cultures et mouvement de Résistance # Ateliers & zéro déchet",
+      "url": "https://www.tricoterie.be/fr/agenda/l-agenda-culturel/fr/agenda/l-agenda-culturel/fresque-des-resistances?id_evenement=7620",
+      "image": null,
+      "source": "La Tricoterie",
+      "price_min": null,
+      "price_max": null,
+      "uid": "899fd14347b01c04",
+      "colour": "#00937A",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "12 octobre 2026 #Bien-être +",
+      "start": "2026-10-12T00:00:00+02:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "12 octobre 2026 #Bien-être + Kundalini Yoga Réveille l’énergie vitale qui sommeille au creux de ta colonne vertébrale, et apprends à la faire circuler pour mieux bouger, gérer, conscientiser, évoluer, te relier. Les soirées yoga se (…) # Bien-être",
+      "url": "https://www.tricoterie.be/fr/agenda/l-agenda-culturel/fr/agenda/l-agenda-culturel/bien-etre/kundalini-yoga-2946?id_evenement=7792",
+      "image": null,
+      "source": "La Tricoterie",
+      "price_min": 15.0,
+      "price_max": 60.0,
+      "uid": "70087a5a321e7257",
+      "colour": "#00937A",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "12 octobre 2026 #Être ensemble #Musique participative +",
+      "start": "2026-10-12T00:00:00+02:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "12 octobre 2026 #Être ensemble #Musique participative + Scène ouverte & Jam Tous les lundis, la Tricoterie vous partage sa scène ! Chaque lundi, la Tricoterie ouvre sa scène à toutes celles et ceux qui souhaitent partager un morceau, un texte, une performance ou une (…) # Être ensemble # Musique par",
+      "url": "https://www.tricoterie.be/fr/agenda/l-agenda-culturel/fr/agenda/l-agenda-culturel/scene-ouverte-jam?id_evenement=7649",
+      "image": null,
+      "source": "La Tricoterie",
+      "price_min": null,
+      "price_max": null,
+      "uid": "4924c670a2e9e9dc",
+      "colour": "#00937A",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "12 octobre 2026 #Débats & projections +",
+      "start": "2026-10-12T00:00:00+02:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "12 octobre 2026 #Débats & projections + Débat x Revue Politique : Qui croit encore à la lutte des classes ? La lutte des classes est-elle toujours d’actualité ? Alors que les inégalités sociales et économiques n’ont jamais été aussi marquées, la gauche semble parfois hésiter : sur les mots pour le",
+      "url": "https://www.tricoterie.be/fr/agenda/l-agenda-culturel/fr/agenda/l-agenda-culturel/debat-x-revue-politique-qui-croit-encore-a-la-lutte-des-classes?id_evenement=7919",
+      "image": null,
+      "source": "La Tricoterie",
+      "price_min": 4.0,
+      "price_max": 4.0,
+      "uid": "b7200f87d9b4f574",
+      "colour": "#00937A",
       "detail_checked": 4,
       "category": "other",
       "tags": []
@@ -2545,7 +2177,7 @@
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "Demain Apprendre FRESQUE DES RÉSISTANCES À LA TRICOTERIE Lundi 12 octobre 2026 à 18:30 Saint-Gilles - 1060 Organisé par ProtestBase",
+      "description": "dans 21h Apprendre FRESQUE DES RÉSISTANCES À LA TRICOTERIE Lundi 12 octobre 2026 à 18:30 Saint-Gilles - 1060 Organisé par ProtestBase",
       "url": "https://protestbase.be/manifestations/bruxelles",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
@@ -3384,6 +3016,24 @@
       "tags_llm_done": true
     },
     {
+      "title": "The HU 14 oct 2026 Concerts Pop / Rock / Pop-Rock Ancienne Belgique (AB) Bruxelles - Bruxelles The HU se distingue immédiatement par son s",
+      "start": "2026-10-14T00:00:00+02:00",
+      "end": null,
+      "all_day": true,
+      "location": "Ancienne Belgique, 110 Boulevard Anspachlaan, 1000 Bruxelles, Bruxelles, Belgique, 1000 Bruxelles, Bruxelles, Belgique, Bruxelles",
+      "description": "The HU 14 oct 2026 Concerts Pop / Rock / Pop-Rock Ancienne Belgique (AB) Bruxelles - Bruxelles The HU se distingue immédiatement par son son unique : une basse percutante aux accents heavy metal se mêle harmonieusement au folk mongol traditionnel. On y retrouve le morin khuur à deux cordes (viè",
+      "url": "https://www.out.be/fr/evenements/204943_the-hu.html",
+      "image": "https://www.out.be/assets/img/logo-outbe.svg",
+      "source": "Out.be",
+      "price_min": null,
+      "price_max": null,
+      "uid": "7decda0105c08038",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "Tai Chi Ochtendcursus mer 14/10 - 09:00 Sport",
       "start": "2026-10-14T09:00:00+02:00",
       "end": null,
@@ -3935,6 +3585,24 @@
       "tags_llm_done": true,
       "stale": true,
       "detail_checked": 4
+    },
+    {
+      "title": "The Invite",
+      "start": "2026-10-15T16:45:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "The Invite Thu 15 Oct and Sun 25 Oct Studio 5 cinema € 7,00–€ 10,50 dates dates Thu 15 Oct 16:45 tickets Sun 25 Oct 18:30 tickets Wed 16 Sep 21:00 Past event Sat 19 Sep 21:10 Past event Sun 20 Sep 17:00 Past event Wed 23 Sep 17:00 Past event Fri 25 Sep 21:20 Past event Sun 27 Sep 18:30 Past event We",
+      "url": "https://www.flagey.be/en/agenda/the-invite-zgr4",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 10.5,
+      "uid": "d350be1c52aff68f",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
     },
     {
       "title": "Urgence climatique et austérité",
@@ -4605,18 +4273,18 @@
       ]
     },
     {
-      "title": "TrioFenix 16 oct 2026 Concerts Classique / Contemporain / Baroque / Carillons Flagey Ixelles - Bruxelles Trois cents ans après la naissanc",
+      "title": "Fred Hersch 16 oct 2026 Concerts Classique / Contemporain / Baroque / Carillons Flagey Ixelles - Bruxelles Dans son dernier album The Surr",
       "start": "2026-10-16T00:00:00+02:00",
       "end": null,
       "all_day": true,
       "location": "Flagey, Place Flagey Flageyplein, 1050 Ixelles, Bruxelles, Belgique, Ixelles",
-      "description": "TrioFenix 16 oct 2026 Concerts Classique / Contemporain / Baroque / Carillons Flagey Ixelles - Bruxelles Trois cents ans après la naissance du premier interprète des Variations Goldberg de Bach, les musiciens belges du TrioFenix proposent ce chef-d’œuvre dans une version pour trio à cordes d’une l",
-      "url": "https://www.out.be/fr/evenements/212889_triofenix.html",
+      "description": "Fred Hersch 16 oct 2026 Concerts Classique / Contemporain / Baroque / Carillons Flagey Ixelles - Bruxelles Dans son dernier album The Surrounding Green, Fred Hersch déploie ses lignes de piano fluides et son toucher velouté à travers ses propres compositions, arrangements et improvisations.",
+      "url": "https://www.out.be/fr/evenements/212887_fred-hersch.html",
       "image": "https://www.out.be/assets/img/logo-outbe.svg",
       "source": "Out.be",
       "price_min": null,
       "price_max": null,
-      "uid": "746024357dc105e9",
+      "uid": "c77ffe8cc540d973",
       "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "other",
@@ -5572,6 +5240,46 @@
       "tags": []
     },
     {
+      "title": "Grande Brocante",
+      "start": "2026-10-17T00:00:00+02:00",
+      "end": "2026-10-17T00:00:00+02:00",
+      "all_day": false,
+      "location": "Saint-Gilles",
+      "description": "",
+      "url": "https://www.quefaire.be/grande-brocante-8769981.shtml",
+      "image": "https://www.quefaire.be/img_n/8769981_1.jpeg",
+      "source": "Quefaire.be brocantes (Brussels region)",
+      "price_min": 15.0,
+      "price_max": 15.0,
+      "uid": "a8dc2cd17e21abba",
+      "colour": "#E8336D",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "late-night"
+      ]
+    },
+    {
+      "title": "Brocante d'enfants à l'école De Kriek",
+      "start": "2026-10-17T00:00:00+02:00",
+      "end": "2026-10-17T00:00:00+02:00",
+      "all_day": false,
+      "location": "Gemeenteschool de Kriek, Schaerbeek",
+      "description": "",
+      "url": "https://www.quefaire.be/brocante-denfants-a-8772317.shtml",
+      "image": "https://www.quefaire.be/img_n/8772317_1.jpeg",
+      "source": "Quefaire.be brocantes (Brussels region)",
+      "price_min": 3.0,
+      "price_max": 3.0,
+      "uid": "ae9ff0ab2a3e89c6",
+      "colour": "#E8336D",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "late-night"
+      ]
+    },
+    {
       "title": "FASHION FACTORY",
       "start": "2026-10-17T00:00:00+02:00",
       "end": null,
@@ -5822,6 +5530,24 @@
       "price_min": 10.0,
       "price_max": 10.0,
       "uid": "6f4c03f14f9ac44b",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Lake Street Dive 17 oct 2026 Concerts Pop / Rock / Pop-Rock Ancienne Belgique (AB) Bruxelles - Bruxelles Avec la chanteuse Rachael Price,",
+      "start": "2026-10-17T00:00:00+02:00",
+      "end": null,
+      "all_day": true,
+      "location": "Ancienne Belgique, 110 Boulevard Anspachlaan, 1000 Bruxelles, Bruxelles, Belgique, 1000 Bruxelles, Bruxelles, Belgique, Bruxelles",
+      "description": "Lake Street Dive 17 oct 2026 Concerts Pop / Rock / Pop-Rock Ancienne Belgique (AB) Bruxelles - Bruxelles Avec la chanteuse Rachael Price, la bassiste Bridget Kearney, le batteur Mike Calabrese, le claviériste Akie Bermiss et le guitariste James Cornelison, ils forment un groupe soudé de cinq music",
+      "url": "https://www.out.be/fr/evenements/195428_lake-street-dive.html",
+      "image": "https://www.out.be/assets/img/logo-outbe.svg",
+      "source": "Out.be",
+      "price_min": null,
+      "price_max": null,
+      "uid": "3dad80e4cc70e364",
       "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "other",
@@ -6365,6 +6091,24 @@
       "tags_llm_done": true
     },
     {
+      "title": "Sense and Sensibility",
+      "start": "2026-10-17T16:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "Sense and Sensibility Sat 17 Oct and Fri 23 Oct Studio 5 cinema € 7,00–€ 10,50 dates dates Sat 17 Oct 16:30 tickets Fri 23 Oct 14:30 tickets Wed 23 Sep 21:00 Past event Fri 25 Sep 18:50 Past event Sat 26 Sep 21:00 Past event Fri 2 Oct 21:15 Past event Sun 4 Oct 15:30 Past event Sat 10 Oct 15:30 Past",
+      "url": "https://www.flagey.be/en/agenda/sense-and-sensibility-9bx5",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 10.5,
+      "uid": "3a7e02935c3cd5cb",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "Saturday 17.10.26 4:30 PM Come Closer: Disability, Intimacy, Care and Desire Antonella Candiago | ENCORE",
       "start": "2026-10-17T16:30:00+02:00",
       "end": null,
@@ -6711,6 +6455,26 @@
       "tags_llm_done": true
     },
     {
+      "title": "21 Grams",
+      "start": "2026-10-17T20:50:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "21 Grams Sat 17 Oct 20:50 Studio 5 cinema € 7,00–€ 10,50 dates dates Sat 17 Oct 20:50 tickets Fri 2 Oct 16:30 Past event Wed 7 Oct 21:20 Past event",
+      "url": "https://www.flagey.be/en/agenda/21-grams-mb6c",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 10.5,
+      "uid": "f7cca4a234b1392a",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
       "title": "Healing Nightclub - Hypnotic DJ-ing (Timo Tuhkanen)",
       "start": "2026-10-17T21:00:00+02:00",
       "end": "2026-10-17T21:30:00+02:00",
@@ -6929,6 +6693,66 @@
       "tags": []
     },
     {
+      "title": "Brocante a l'interieur Brussels Retro Market",
+      "start": "2026-10-18T00:00:00+02:00",
+      "end": "2026-10-18T00:00:00+02:00",
+      "all_day": false,
+      "location": "Be Here Village Durable, Laeken",
+      "description": "",
+      "url": "https://www.quefaire.be/brocante-a-linterieur-8770484.shtml",
+      "image": "https://www.quefaire.be/img_n/8770483_1.jpeg",
+      "source": "Quefaire.be brocantes (Brussels region)",
+      "price_min": 10.0,
+      "price_max": 45.0,
+      "uid": "a4545bfb783b03ab",
+      "colour": "#E8336D",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "late-night"
+      ]
+    },
+    {
+      "title": "Brocante annuelle",
+      "start": "2026-10-18T00:00:00+02:00",
+      "end": "2026-10-18T00:00:00+02:00",
+      "all_day": false,
+      "location": "Koekelberg",
+      "description": "",
+      "url": "https://www.quefaire.be/brocante-annuelle-8771015.shtml",
+      "image": "https://www.quefaire.be/img_n/8771015_1.jpeg",
+      "source": "Quefaire.be brocantes (Brussels region)",
+      "price_min": 15.0,
+      "price_max": 15.0,
+      "uid": "a9f3c7374ccc4377",
+      "colour": "#E8336D",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "late-night"
+      ]
+    },
+    {
+      "title": "Brocante autour de la Maison communale",
+      "start": "2026-10-18T00:00:00+02:00",
+      "end": "2026-10-18T00:00:00+02:00",
+      "all_day": false,
+      "location": "Rues de la Tannerie, Albert Dillie, George-Dit-Marchal, Koekelberg",
+      "description": "",
+      "url": "https://www.quefaire.be/brocante-autour-de-la-maison-8771296.shtml",
+      "image": "https://www.quefaire.be/img_n/8771296_1.jpeg",
+      "source": "Quefaire.be brocantes (Brussels region)",
+      "price_min": 15.0,
+      "price_max": 15.0,
+      "uid": "422ad5344f8902dc",
+      "colour": "#E8336D",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "late-night"
+      ]
+    },
+    {
       "title": "FASHION FACTORY",
       "start": "2026-10-18T00:00:00+02:00",
       "end": null,
@@ -7029,6 +6853,24 @@
       "price_min": null,
       "price_max": null,
       "uid": "90e5cee5a8e1b7b8",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "GoYa Quartet 18 oct 2026 Concerts Classique / Contemporain / Baroque / Carillons Palais des Beaux-Arts de Bruxelles - Bozar Bruxelles - Br",
+      "start": "2026-10-18T00:00:00+02:00",
+      "end": null,
+      "all_day": true,
+      "location": "Palais des Beaux-Arts de Bruxelles - Bozar, Rue Ravenstein 23, 1000 Bruxelles, Belgique, Bruxelles",
+      "description": "GoYa Quartet 18 oct 2026 Concerts Classique / Contemporain / Baroque / Carillons Palais des Beaux-Arts de Bruxelles - Bozar Bruxelles - Bruxelles Les seize cordes (4x4) du Quatuor GoYa ont eu l'opportunité de s'accorder à merveille au sein du prestigieux Koninklijk Concertgebouworkest d'Amsterdam.",
+      "url": "https://www.out.be/fr/evenements/220175_goya-quartet.html",
+      "image": "https://www.out.be/assets/img/logo-outbe.svg",
+      "source": "Out.be",
+      "price_min": null,
+      "price_max": null,
+      "uid": "7075681c1797a94d",
       "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "other",
@@ -9302,6 +9144,7 @@
       "price_max": null,
       "uid": "46e291b9ca3a65cd",
       "colour": "#8A7500",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -9319,6 +9162,7 @@
       "price_max": null,
       "uid": "dfe6a1997c3bd52f",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -9336,6 +9180,7 @@
       "price_max": null,
       "uid": "4bd96173f9852677",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -9353,6 +9198,7 @@
       "price_max": null,
       "uid": "890abfeece4e209d",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -9370,6 +9216,7 @@
       "price_max": null,
       "uid": "a91b59a9214b3bbd",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -9393,7 +9240,8 @@
       ],
       "tags_llm_done": true,
       "stale": true,
-      "time_checked": 3
+      "time_checked": 3,
+      "detail_checked": 4
     },
     {
       "title": "No Congress or Meeting for the RN in Orléans on 24 and 25 October!",
@@ -9409,6 +9257,7 @@
       "price_max": null,
       "uid": "a00b423f271f7ae4",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "translated": true,
       "category": "activism-justice",
       "category_llm": true,
@@ -9466,6 +9315,7 @@
       "price_max": null,
       "uid": "c098446c0ed1e5e8",
       "colour": "#7B49D6",
+      "detail_checked": 4,
       "category": "other",
       "tags": [
         "evening"
@@ -9491,7 +9341,10 @@
         "live"
       ],
       "tags_llm_done": true,
-      "stale": true
+      "stale": true,
+      "price_min": 8.0,
+      "price_max": 25.0,
+      "detail_checked": 4
     },
     {
       "title": "Sat 24.10.26 20:00 Chapters of Celebration Benjamin Abel Meirhaeghe Wouter Deltour Muziektheater Transparant | PeriferiK",
@@ -9503,10 +9356,11 @@
       "url": "https://kaaitheater.be/nl/agenda/26-27/chapters-celebration",
       "image": null,
       "source": "Kaaitheater",
-      "price_min": null,
-      "price_max": null,
+      "price_min": 16.0,
+      "price_max": 32.0,
       "uid": "2705ade9e3b80c22",
       "colour": "#7B49D6",
+      "detail_checked": 4,
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -9536,7 +9390,8 @@
       ],
       "tags_llm_done": true,
       "stale": true,
-      "time_checked": 3
+      "time_checked": 3,
+      "detail_checked": 4
     },
     {
       "title": "4pm Monoculus, Italian and Feminist Book Club",
@@ -9552,6 +9407,7 @@
       "price_max": null,
       "uid": "1abe3466ab10d521",
       "colour": "#E8336D",
+      "detail_checked": 4,
       "translated": true,
       "category": "talks-discussions",
       "category_llm": true,
@@ -9570,10 +9426,11 @@
       "url": "https://lejacquesfranck.be/event/a-lassaut-du-ciel-cuba-ou-la-solidarite-anti-impérialiste-i-cinéma-dattac/2026-10-25/",
       "image": "https://lejacquesfranck.be/resources/assets/img/logo-og.png",
       "source": "Le Jacques Franck",
-      "price_min": null,
-      "price_max": null,
+      "price_min": 4.5,
+      "price_max": 15.0,
       "uid": "4ec05826e92e2721",
       "colour": "#7B49D6",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -9591,6 +9448,7 @@
       "price_max": null,
       "uid": "5714de8ee0f1bc3a",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "category": "other",
       "tags": [
         "free"
@@ -9610,6 +9468,7 @@
       "price_max": 8.0,
       "uid": "aaec14742c3327b1",
       "colour": "#00937A",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -9633,7 +9492,10 @@
         "live"
       ],
       "tags_llm_done": true,
-      "stale": true
+      "stale": true,
+      "price_min": 8.0,
+      "price_max": 25.0,
+      "detail_checked": 4
     },
     {
       "title": "Sirāt",
@@ -9651,7 +9513,10 @@
       "tags": [
         "evening"
       ],
-      "stale": true
+      "stale": true,
+      "price_min": 30.0,
+      "price_max": 1900.0,
+      "detail_checked": 4
     },
     {
       "title": "6:30 PM Walkabout AJILE: \"Ending the New Man\"",
@@ -9667,6 +9532,7 @@
       "price_max": null,
       "uid": "a571451c0514abeb",
       "colour": "#E8336D",
+      "detail_checked": 4,
       "translated": true,
       "category": "talks-discussions",
       "category_llm": true,
@@ -9685,10 +9551,11 @@
       "url": "https://www.pianofabriek.be/activiteiten/solidaire-lunch-butternut-burger",
       "image": null,
       "source": "GC Pianofabriek",
-      "price_min": null,
-      "price_max": null,
+      "price_min": 10.0,
+      "price_max": 10.0,
       "uid": "c41166e6d70533c9",
       "colour": "#1B6FE0",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -9706,6 +9573,7 @@
       "price_max": null,
       "uid": "aa072f0b059fc277",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "category": "other",
       "tags": [
         "free"
@@ -9721,10 +9589,11 @@
       "url": "https://www.tenweyngaert.be/activiteiten/filemon-x-cinemouvteens-christy-and-his-brother",
       "image": null,
       "source": "GC Ten Weyngaert",
-      "price_min": null,
-      "price_max": null,
+      "price_min": 2.0,
+      "price_max": 5.0,
       "uid": "f1b0deec2f8060a8",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -9742,6 +9611,7 @@
       "price_max": null,
       "uid": "d30f5fd1aafbb32f",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "category": "other",
       "tags": [
         "free"
@@ -9775,10 +9645,11 @@
       "url": "https://chechette.be/events/17h-19h-paniers-bio-ferme-de-nadir/",
       "image": "https://chechette.be/wp-content/uploads/2025/05/ferme-Nadir-985x1024-1-e1747293928519.jpg",
       "source": "La Vieille Chéchette",
-      "price_min": null,
-      "price_max": null,
+      "price_min": 12.0,
+      "price_max": 15.0,
       "uid": "61721be9efa79e1a",
       "colour": "#E8336D",
+      "detail_checked": 4,
       "translated": true,
       "category": "food-drink",
       "category_llm": true,
@@ -9803,6 +9674,7 @@
       "price_max": null,
       "uid": "3a912b743b174b35",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -9820,6 +9692,7 @@
       "price_max": null,
       "uid": "762ddcbe01e636d9",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "translated": true,
       "category": "activism-justice",
       "category_llm": true,
@@ -9840,10 +9713,11 @@
       "url": "https://www.meetup.com/brusselsinternationalhubevents/events/316885283/",
       "image": "https://secure.meetupstatic.com/photos/event/2/8/2/e/600_528130286.jpeg",
       "source": "Brussels International Hub Events (Meetup)",
-      "price_min": null,
-      "price_max": null,
+      "price_min": 150.0,
+      "price_max": 150.0,
       "uid": "c776dda69406de46",
       "colour": "#E07A00",
+      "detail_checked": 4,
       "translated": true,
       "category": "community-social",
       "category_llm": true,
@@ -9867,6 +9741,7 @@
       "price_max": null,
       "uid": "78c67a3852accba0",
       "colour": "#E8336D",
+      "detail_checked": 4,
       "translated": true,
       "category": "music",
       "category_llm": true,
@@ -9885,10 +9760,11 @@
       "url": "https://www.pianofabriek.be/activiteiten/wandeling-een-leven-zonder-thuis-0",
       "image": null,
       "source": "GC Pianofabriek",
-      "price_min": null,
-      "price_max": null,
+      "price_min": 2.0,
+      "price_max": 10.0,
       "uid": "f8027788e45ae2e1",
       "colour": "#1B6FE0",
+      "detail_checked": 4,
       "translated": true,
       "category": "talks-discussions",
       "category_llm": true,
@@ -9907,10 +9783,11 @@
       "url": "https://www.tenweyngaert.be/activiteiten/wandeling-een-leven-zonder-thuis-0",
       "image": null,
       "source": "GC Ten Weyngaert",
-      "price_min": null,
-      "price_max": null,
+      "price_min": 2.0,
+      "price_max": 10.0,
       "uid": "7b2af7369ec7f07c",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -9928,6 +9805,7 @@
       "price_max": null,
       "uid": "2684b44af00e7d3b",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "category": "other",
       "tags": [
         "free"
@@ -9947,6 +9825,7 @@
       "price_max": null,
       "uid": "bd872938326d430c",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "translated": true,
       "category": "activism-justice",
       "category_llm": true,
@@ -9999,7 +9878,10 @@
         "live"
       ],
       "tags_llm_done": true,
-      "stale": true
+      "stale": true,
+      "price_min": 8.0,
+      "price_max": 25.0,
+      "detail_checked": 4
     },
     {
       "title": "© Nico Wei Gratis Jonge Belgische Cinema #24 Externe organisator: Le p'tit ciné do 29.10.2026 GC Pianofabriek, Sint-Gillis Thema activiteit",
@@ -10015,6 +9897,7 @@
       "price_max": null,
       "uid": "1b3c859624a70e3e",
       "colour": "#1B6FE0",
+      "detail_checked": 4,
       "category": "other",
       "tags": [
         "free"
@@ -10034,6 +9917,7 @@
       "price_max": null,
       "uid": "2bc4762d07afad93",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "category": "other",
       "tags": [
         "free"
@@ -10053,6 +9937,7 @@
       "price_max": null,
       "uid": "e53eee29ab02c46c",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -10070,6 +9955,7 @@
       "price_max": null,
       "uid": "d431d45fccaacdfb",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -10087,6 +9973,7 @@
       "price_max": null,
       "uid": "22811ab7c8348d8e",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -10105,6 +9992,7 @@
       "uid": "5053d70df5c46004",
       "manual": true,
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -10131,7 +10019,10 @@
         "live"
       ],
       "tags_llm_done": true,
-      "stale": true
+      "stale": true,
+      "price_min": 8.0,
+      "price_max": 25.0,
+      "detail_checked": 4
     },
     {
       "title": "do 29.10.26 20:00 it doesn't go without saying (& other gossips) Alix Eynaudi Elizabeth Ward",
@@ -10143,10 +10034,11 @@
       "url": "https://kaaitheater.be/nl/agenda/26-27/it-doesnt-go-without-saying-other-gossips",
       "image": null,
       "source": "Kaaitheater",
-      "price_min": null,
-      "price_max": null,
+      "price_min": 14.0,
+      "price_max": 26.0,
       "uid": "07a2cfe60553b778",
       "colour": "#7B49D6",
+      "detail_checked": 4,
       "category": "other",
       "tags": [
         "evening"
@@ -10166,6 +10058,7 @@
       "price_max": null,
       "uid": "11a74a8097197754",
       "colour": "#1B6FE0",
+      "detail_checked": 4,
       "category": "other",
       "tags": [
         "free"
@@ -10181,10 +10074,11 @@
       "url": "https://usquare.brussels/en/agenda/2026/10/martyrios-saints-sinners-southern-gothic-cabaret",
       "image": null,
       "source": "U-Square",
-      "price_min": null,
-      "price_max": null,
+      "price_min": 11.0,
+      "price_max": 16.0,
       "uid": "c68e8b015bdb61bf",
       "colour": "#1B6FE0",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -10265,6 +10159,7 @@
       "price_max": null,
       "uid": "5aedc8fc3a2b937b",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -11046,23 +10941,6 @@
         "recurring"
       ],
       "tags_llm_done": true
-    },
-    {
-      "title": "Belgian National Orchestra, Petrenko & Kobekina",
-      "start": "2026-11-02T15:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Belgian National Orchestra, Petrenko & Kobekina Sold out Cancelled Postponed Last Tickets Concerts Cello Belgian National Orchestra, Petrenko & Kobekina Rachmaninov 2 11 Oct.'26 - 15:00 From 22 €",
-      "url": "https://www.bozar.be/en/calendar/belgian-national-orchestra-petrenko-kobekina",
-      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
-      "source": "BOZAR",
-      "price_min": 22.0,
-      "price_max": 22.0,
-      "uid": "313edd133090ae88",
-      "colour": "#00937A",
-      "category": "other",
-      "tags": []
     },
     {
       "title": "Lundynamite OFFSITE Théâtre de la vie Tickets",
