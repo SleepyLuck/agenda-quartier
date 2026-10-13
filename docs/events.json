@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-13T14:26:08.365116+02:00",
+  "generated": "2026-10-13T23:02:05.931786+02:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
@@ -168,7 +168,7 @@
       "name": "BOZAR",
       "url": "https://www.bozar.be/en/calendar",
       "colour": "#00937A",
-      "count": 6,
+      "count": 5,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-10-13"
@@ -195,7 +195,7 @@
       "name": "Ancienne Belgique",
       "url": "https://www.abconcerts.be/fr/agenda",
       "colour": "#C0392B",
-      "count": 9,
+      "count": 10,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-10-13"
@@ -213,7 +213,7 @@
       "name": "CBCS (Brussels social sector agenda)",
       "url": "https://cbcs.be/agenda/?ical=1",
       "colour": "#8A7500",
-      "count": 11,
+      "count": 9,
       "method": "ics",
       "stale": false,
       "last_ok": "2026-10-13"
@@ -420,7 +420,7 @@
       "name": "Forest (commune agenda)",
       "url": "https://forest.brussels/fr/agenda",
       "colour": "#0F8CA8",
-      "count": 24,
+      "count": 23,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-10-13"
@@ -954,8 +954,8 @@
     {
       "source": "BOZAR",
       "method": "recipe",
-      "found": 7,
-      "kept": 6,
+      "found": 6,
+      "kept": 5,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -984,8 +984,8 @@
     {
       "source": "Ancienne Belgique",
       "method": "recipe",
-      "found": 9,
-      "kept": 9,
+      "found": 10,
+      "kept": 10,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1004,8 +1004,8 @@
     {
       "source": "CBCS (Brussels social sector agenda)",
       "method": "ics",
-      "found": 13,
-      "kept": 11,
+      "found": 11,
+      "kept": 9,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1235,7 +1235,7 @@
       "source": "Forest (commune agenda)",
       "method": "recipe",
       "found": 24,
-      "kept": 24,
+      "kept": 23,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1466,26 +1466,6 @@
         "recurring"
       ],
       "tags_llm_done": true
-    },
-    {
-      "title": "Séance info – Rénovation Fermette du Bempt lun 12/10 - 19:00 Conférences et congrès",
-      "start": "2026-10-12T19:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Séance info – Rénovation Fermette du Bempt lun 12/10 - 19:00 Conférences et congrès",
-      "url": "http://forest.brussels/fr/agenda/conferences-et-congres/2026/seance-info-renovation-fermette-du-bempt",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "06ee31826f4433df",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
     },
     {
       "title": "5-7 PM Organic Baskets Nadir Farm",
@@ -1776,24 +1756,6 @@
       "tags": []
     },
     {
-      "title": "Qui veut garder des millions ? | Céline Estenne & Joana B. Polge 13 oct 17 oct Théatre / Spectacles La Balsamine Schaerbeek - Bruxelles Sy",
-      "start": "2026-10-13T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "La Balsamine, Av. Félix Marchal 1, 1030 Schaerbeek, Belgique, Schaerbeek",
-      "description": "Qui veut garder des millions ? | Céline Estenne & Joana B. Polge 13 oct 17 oct Théatre / Spectacles La Balsamine Schaerbeek - Bruxelles Synopsis ⋆˚✿˖° ♡ ‧₊˚ ⋅ ౨ৎ ‧₊ .ᐟ Vous voulez être riche ? Facile : héritez !Depuis des décennies l’héritage creuse toujours plus les inégalités sociales.Aujourd’hu",
-      "url": "https://www.out.be/fr/evenements/214165_qui-veut-garder-des-millions/celine-estenne-joana-b.-polge.html",
-      "image": "https://www.out.be/assets/img/logo-outbe.svg",
-      "source": "Out.be",
-      "price_min": null,
-      "price_max": null,
-      "uid": "dc5fb8930c3d1371",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "Expo TW - Collectief 'le 180' mar 13/10 - 09:00 Exposition",
       "start": "2026-10-13T09:00:00+02:00",
       "end": null,
@@ -1810,50 +1772,6 @@
       "detail_checked": 4,
       "category": "other",
       "tags": []
-    },
-    {
-      "title": "Voluntarily Engaged in Poverty Training for Volunteers",
-      "start": "2026-10-13T09:30:00+02:00",
-      "end": "2026-10-13T16:00:00+02:00",
-      "all_day": false,
-      "location": "PFV, Rue royale 11, Bruxelles, 1000, Belgium",
-      "description": "To better understand poverty and feel more comfortable relating to beneficiaries. Field experiences, data, and testimonies help refine everyone's understanding of precariousness. The day will include discussion sessions to: understand the mechanisms of impoverishment and the realities of poverty; examine perceptions of poverty and their consequences; decode difficult situations and identify action plans Practical information: 📍PFV – Rue royale 11 – 1000 Brussels (1st floor – Parc metro/tram) 📅Tuesday 13 October",
-      "url": "https://cbcs.be/event/volontairement-implique%c2%b7es-en-pauvrete-formation-a-destination-des-benevoles/",
-      "image": null,
-      "source": "CBCS (Brussels social sector agenda)",
-      "price_min": 15.0,
-      "price_max": 15.0,
-      "uid": "c997b09619232d03",
-      "colour": "#8A7500",
-      "detail_checked": 4,
-      "translated": true,
-      "category": "talks-discussions",
-      "category_llm": true,
-      "tags": [
-        "activism"
-      ],
-      "tags_llm_done": true
-    },
-    {
-      "title": "Health Promotion Resources Fair",
-      "start": "2026-10-13T10:00:00+02:00",
-      "end": "2026-10-13T16:00:00+02:00",
-      "all_day": false,
-      "location": "Circularium, Chaussée de Mons 95, Bruxelles, 1070, Belgique",
-      "description": "Come stock up on resources to reduce social and health inequalities. Looking for new ideas, concrete tools, and knowledgeable partners to develop your projects? Great news: the Health Promotion Resources Fair is back for its 2nd edition! On the program: About twenty interactive stands: Discover a wealth of original resources and test tools, educational games, and activity kits directly. Leave with reliable resources, methodological guides, and key data to support your future projects",
-      "url": "https://cbcs.be/event/salon-des-ressources-en-promotion-de-la-sante/",
-      "image": null,
-      "source": "CBCS (Brussels social sector agenda)",
-      "price_min": 15.0,
-      "price_max": 15.0,
-      "uid": "d0654184cb85e0fa",
-      "colour": "#8A7500",
-      "detail_checked": 4,
-      "translated": true,
-      "category": "professional-networking",
-      "category_llm": true,
-      "tags": [],
-      "tags_llm_done": true
     },
     {
       "title": "Ali Cherri: Pray, Lips of Clay mar 13/10 - 11:00 Exposition",
@@ -1935,65 +1853,6 @@
       "price_max": null,
       "uid": "3a37479507475b7b",
       "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "A film evening on police violence",
-      "start": "2026-10-13T19:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "dans 5h Apprendre A film evening on police violence Mardi 13 octobre 2026 à 19:00 Anderlecht - 1070 Organisé par ProtestBase",
-      "url": "https://protestbase.be/manifestations/bruxelles",
-      "image": "https://protestbase.be/og.jpg",
-      "source": "Protestbase Bruxelles",
-      "price_min": null,
-      "price_max": null,
-      "uid": "ef73e0412c0911d1",
-      "colour": "#E07A00",
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "La Gradiva",
-      "start": "2026-10-13T20:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "La Gradiva Film Fest Gent on Tour 26|27 Tue 13 Oct 20:00 Studio 5 cinema new release special screening Tickets Normal € 10,50 -12 € 7,00 -26 € 8,50 65+ € 8,50 € 7,00–€ 10,50 tickets",
-      "url": "https://www.flagey.be/en/agenda/la-gradiva-b59t",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 26.0,
-      "uid": "3fb83cb19d19f522",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Meet the Architect: Tatiana Bilbao",
-      "start": "2026-10-13T20:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Meet the Architect: Tatiana Bilbao Sold out Cancelled Postponed Last Tickets Talks & Debates Architecture & Urbanism Highly Recommended Meet the Architect: Tatiana Bilbao 13 Oct.'26 - 20:00 From 12 €",
-      "url": "https://www.bozar.be/en/calendar/meet-architect-tatiana-bilbao",
-      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
-      "source": "BOZAR",
-      "price_min": 12.0,
-      "price_max": 12.0,
-      "uid": "a319565df0081bc9",
-      "colour": "#00937A",
       "detail_checked": 4,
       "category": "other",
       "tags": [
@@ -2447,24 +2306,6 @@
       "tags_llm_done": true
     },
     {
-      "title": "BCUC 14 oct 2026 Concerts Jazz Ancienne Belgique (AB) Bruxelles - Bruxelles Le band sudafrician BCUC (Bantu Continua Uhuru Consciousness)",
-      "start": "2026-10-14T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Ancienne Belgique, 110 Boulevard Anspachlaan, 1000 Bruxelles, Bruxelles, Belgique, 1000 Bruxelles, Bruxelles, Belgique, Bruxelles",
-      "description": "BCUC 14 oct 2026 Concerts Jazz Ancienne Belgique (AB) Bruxelles - Bruxelles Le band sudafrician BCUC (Bantu Continua Uhuru Consciousness) est sans conteste l’un des meilleurs groupes live du moment. Leur musique mêle funk indigène, hip-hop, énergie punk et traditions spiritue",
-      "url": "https://www.out.be/fr/evenements/220455_bcuc.html",
-      "image": "https://www.out.be/assets/img/logo-outbe.svg",
-      "source": "Out.be",
-      "price_min": 3.5,
-      "price_max": 3.5,
-      "uid": "2edfdb9d8cfba945",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "Tai Chi Ochtendcursus mer 14/10 - 09:00 Sport",
       "start": "2026-10-14T09:00:00+02:00",
       "end": null,
@@ -2488,7 +2329,7 @@
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "Demain Apprendre Atelier de linogravure engagée - injustices Mercredi 14 octobre 2026 à 14:00 Ixelles - 1050 Organisé par ProtestBase",
+      "description": "dans 15h Apprendre Atelier de linogravure engagée - injustices Mercredi 14 octobre 2026 à 14:00 Ixelles - 1050 Organisé par ProtestBase",
       "url": "https://protestbase.be/manifestations/bruxelles",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
@@ -2724,6 +2565,24 @@
         "free"
       ],
       "stale": true
+    },
+    {
+      "title": "15 octobre 2026 +",
+      "start": "2026-10-15T00:00:00+02:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "15 octobre 2026 + fESt ! les 10 ans de COOPCITY Dix ans. Dix ans à répéter (et prouver) qu’il existe une économie qui ne détruit ni la planète ni les humains qui vivent dessus. Et- spoiler- ça marche. Dix ans à accompagner celles et ceux (…)",
+      "url": "https://www.tricoterie.be/fr/agenda/l-agenda-culturel/fr/agenda/l-agenda-culturel/fest-les-10-ans-de-coopcity?id_evenement=7970",
+      "image": null,
+      "source": "La Tricoterie",
+      "price_min": 5.0,
+      "price_max": 10.0,
+      "uid": "b59fe292d5dac1b6",
+      "colour": "#00937A",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
     },
     {
       "title": "Closing Event FUTURE OBJECTS",
@@ -3913,6 +3772,24 @@
       "tags": []
     },
     {
+      "title": "Dressing Room • Bissane Al-Charif Hala Omran Waël Ali 16 oct 2026 Théatre / Spectacles Théâtre National Wallonie-Bruxelles Bruxelles - Bru",
+      "start": "2026-10-16T00:00:00+02:00",
+      "end": null,
+      "all_day": true,
+      "location": "Théâtre National, Boulevard Emile Jacqmain, 111-115, 1000 Bruxelles, Bruxelles, Belgique, Bruxelles",
+      "description": "Dressing Room • Bissane Al-Charif Hala Omran Waël Ali 16 oct 2026 Théatre / Spectacles Théâtre National Wallonie-Bruxelles Bruxelles - Bruxelles Les femmes ménopausées prennent la parole. Une polyphonie intimiste sur un sujet encore peu investi par le théâtre.Seule en scène, l’actrice et chanteuse",
+      "url": "https://www.out.be/fr/evenements/211988_dressing-room-bissane-al-charif-hala-omran-wael-ali.html",
+      "image": "https://www.out.be/assets/img/logo-outbe.svg",
+      "source": "Out.be",
+      "price_min": null,
+      "price_max": null,
+      "uid": "d3a9331ce98bb84d",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "Pilates 2 ven 16/10 - 09:30 Sport",
       "start": "2026-10-16T09:30:00+02:00",
       "end": null,
@@ -3936,7 +3813,7 @@
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "dans 3 jours Apprendre formation anticapitaliste: La jeunesse face à la destruction climatique (ULB) Vendredi 16 octobre 2026 à 10:00 Ixelles - 1050 Organisé par ProtestBase",
+      "description": "dans 2 jours Apprendre formation anticapitaliste: La jeunesse face à la destruction climatique (ULB) Vendredi 16 octobre 2026 à 10:00 Ixelles - 1050 Organisé par ProtestBase",
       "url": "https://protestbase.be/manifestations/bruxelles",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
@@ -4562,7 +4439,7 @@
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "vr 16.10.26 20:30 The Latecomers Decoratelier Jozef Wouters performance Decoratelier",
+      "description": "vr 16.10.26 20:30 The Latecomers Decoratelier Jozef Wouters performance Decoratelier Tickets",
       "url": "https://kaaitheater.be/nl/agenda/26-27/latecomers-0",
       "image": null,
       "source": "Kaaitheater",
@@ -5216,6 +5093,42 @@
       "price_min": 10.0,
       "price_max": 10.0,
       "uid": "6f4c03f14f9ac44b",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Roda de Choro 17 oct 2026 Concerts Jazz Pianofabriek Saint-Gilles - Bruxelles Nous nous asseyons ensemble et jouons de la musique. Faites",
+      "start": "2026-10-17T00:00:00+02:00",
+      "end": null,
+      "all_day": true,
+      "location": "Pianofabriek, Fortstraat 35, 1060 Sint-Gillis, Bruxelles, Belgique, Saint-Gilles",
+      "description": "Roda de Choro 17 oct 2026 Concerts Jazz Pianofabriek Saint-Gilles - Bruxelles Nous nous asseyons ensemble et jouons de la musique. Faites connaissance avec le Choro, la première musique instrumentale brésilienne, au carrefour des cultures européennes, africaines et indigènes, q",
+      "url": "https://www.out.be/fr/evenements/220938_roda-de-choro.html",
+      "image": "https://www.out.be/assets/img/logo-outbe.svg",
+      "source": "Out.be",
+      "price_min": null,
+      "price_max": null,
+      "uid": "9a0c94e83f383bd9",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Belgian National Orchestra & Stockhammer 17 oct 2026 Concerts Classique / Contemporain / Baroque / Carillons Palais des Beaux-Arts de Bruxel",
+      "start": "2026-10-17T00:00:00+02:00",
+      "end": null,
+      "all_day": true,
+      "location": "Palais des Beaux-Arts de Bruxelles - Bozar, Rue Ravenstein 23, 1000 Bruxelles, Belgique, Bruxelles",
+      "description": "Belgian National Orchestra & Stockhammer 17 oct 2026 Concerts Classique / Contemporain / Baroque / Carillons Palais des Beaux-Arts de Bruxelles - Bozar Bruxelles - Bruxelles Ce qui vous attend n'est pas un concert traditionnel, mais une expérience totale où musique et image fusionnent pour immerge",
+      "url": "https://www.out.be/fr/evenements/220173_belgian-national-orchestra-stockhammer.html",
+      "image": "https://www.out.be/assets/img/logo-outbe.svg",
+      "source": "Out.be",
+      "price_min": null,
+      "price_max": null,
+      "uid": "86c0ce617ea3aa2c",
       "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "other",
@@ -6384,6 +6297,24 @@
       "tags": []
     },
     {
+      "title": "brdcst dim 18 oct '26 AB Salon Sunday Morning concert: Ignatz presents 'I Don't Know' Dévoilement d'un album de piano intense et fragile Con",
+      "start": "2026-10-18T10:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "brdcst dim 18 oct '26 AB Salon Sunday Morning concert: Ignatz presents 'I Don't Know' Dévoilement d'un album de piano intense et fragile Concert Acheter",
+      "url": "https://www.abconcerts.be/fr/agenda/sunday-morning-concert-ignatz-presents-i-dont-know/a10Qw00000IYm9VIAT",
+      "image": "https://abconcerts.be/assets/website/components/images/og-image.1c2180e4.png",
+      "source": "Ancienne Belgique",
+      "price_min": 2.0,
+      "price_max": 27.0,
+      "uid": "fd6fe46688f04f84",
+      "colour": "#C0392B",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "Brocante a l'interieur Brussels Retro Market",
       "start": "2026-10-18T00:00:00+02:00",
       "end": "2026-10-18T00:00:00+02:00",
@@ -6544,24 +6475,6 @@
       "price_min": null,
       "price_max": null,
       "uid": "90e5cee5a8e1b7b8",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "Allie X 18 oct 2026 Concerts Pop / Rock / Pop-Rock Ancienne Belgique (AB) Bruxelles - Bruxelles Allie X s’est vraiment fait une place dans",
-      "start": "2026-10-18T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Ancienne Belgique, 110 Boulevard Anspachlaan, 1000 Bruxelles, Bruxelles, Belgique, 1000 Bruxelles, Bruxelles, Belgique, Bruxelles",
-      "description": "Allie X 18 oct 2026 Concerts Pop / Rock / Pop-Rock Ancienne Belgique (AB) Bruxelles - Bruxelles Allie X s’est vraiment fait une place dans la pop comme l’une des artistes les plus uniques et avant-gardistes du moment. Vous l’avez peut-être déjà vue en première partie d’artistes comme Dua Lipa, T",
-      "url": "https://www.out.be/fr/evenements/209052_allie-x.html",
-      "image": "https://www.out.be/assets/img/logo-outbe.svg",
-      "source": "Out.be",
-      "price_min": 1.0,
-      "price_max": 3.5,
-      "uid": "fe8639675cc5955d",
       "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "other",
@@ -6842,6 +6755,26 @@
         "registration-required"
       ],
       "tags_llm_done": true
+    },
+    {
+      "title": "Ken Russel's The Devils",
+      "start": "2026-10-18T21:20:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "Ken Russel's The Devils Sun 18 Oct 21:20 Studio 5 cinema Tickets Normal € 10,50 -12 € 7,00 -26 € 8,50 65+ € 8,50 € 7,00–€ 10,50 tickets",
+      "url": "https://www.flagey.be/en/agenda/ken-russel-s-the-devils-5qqx",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 26.0,
+      "uid": "fa1c2bec490be61a",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
     },
     {
       "title": "6 PM Walking tour LDH: \"Stay Barbarian\"",
@@ -9050,6 +8983,23 @@
       "price_min": null,
       "price_max": null,
       "uid": "37f7f33327d8e3b8",
+      "colour": "#E07A00",
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "CHANGE - Oxfam Youth Training - Spark Your Activism",
+      "start": "2026-10-24T13:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "samedi 24 octobre 2026 Apprendre CHANGE - Oxfam Youth Training - Spark Your Activism Samedi 24 octobre 2026 à 13:30 Etterbeek - 1040 Organisé par Rosalie Buytaert",
+      "url": "https://protestbase.be/manifestations/bruxelles",
+      "image": "https://protestbase.be/og.jpg",
+      "source": "Protestbase Bruxelles",
+      "price_min": null,
+      "price_max": null,
+      "uid": "a57d42ccba39583f",
       "colour": "#E07A00",
       "category": "other",
       "tags": []
@@ -13512,6 +13462,7 @@
       "price_max": null,
       "uid": "9be3df1eb4e86f2d",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -13525,10 +13476,11 @@
       "url": "https://conferences-gesticulees.net/events/19-11-2026-thierry-muller-salle-prevers/",
       "image": null,
       "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
+      "price_min": 5.0,
+      "price_max": 5.0,
       "uid": "021f499d6588722f",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -13552,7 +13504,8 @@
       ],
       "tags_llm_done": true,
       "stale": true,
-      "time_checked": 3
+      "time_checked": 3,
+      "detail_checked": 4
     },
     {
       "title": "Fuse presents Life Extension w/ Partiboi69, LB aka LABAT & SALOME",
@@ -13564,10 +13517,11 @@
       "url": "https://www.fuse.be/events/fuse-presents-partiboi69-lb-aka-labat",
       "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788368690",
       "source": "Fuse",
-      "price_min": null,
-      "price_max": null,
+      "price_min": 0.0,
+      "price_max": 25.0,
       "uid": "8b6db894e707eaff",
       "colour": "#C0392B",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -13585,6 +13539,7 @@
       "price_max": null,
       "uid": "6db891c0a287b7b0",
       "colour": "#E07A00",
+      "detail_checked": 4,
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -13608,6 +13563,7 @@
       "price_max": null,
       "uid": "9982c31a1d849736",
       "colour": "#E07A00",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -13625,6 +13581,7 @@
       "price_max": null,
       "uid": "989dd893ba1e9aee",
       "colour": "#E07A00",
+      "detail_checked": 4,
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -13648,6 +13605,7 @@
       "price_max": null,
       "uid": "5b454339a4648e40",
       "colour": "#E07A00",
+      "detail_checked": 4,
       "category": "other",
       "tags": [
         "free"
@@ -13667,6 +13625,7 @@
       "price_max": null,
       "uid": "c0f8a83d303e1da7",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -13684,6 +13643,7 @@
       "price_max": null,
       "uid": "ef1b0f8779f2edc6",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -13701,6 +13661,7 @@
       "price_max": null,
       "uid": "4672ade59f429af3",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -13718,6 +13679,7 @@
       "price_max": null,
       "uid": "73fdc0e54451d16b",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -13735,6 +13697,7 @@
       "price_max": null,
       "uid": "e096890da8448b52",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -13748,10 +13711,11 @@
       "url": "https://cbcs.be/event/de-lhopital-au-lieu-de-vie-matinee-reflexive-sur-le-trajet-de-soins-des-bruxellois-es/",
       "image": null,
       "source": "CBCS (Brussels social sector agenda)",
-      "price_min": null,
-      "price_max": null,
+      "price_min": 15.0,
+      "price_max": 15.0,
       "uid": "4c62301713c5aaee",
       "colour": "#8A7500",
+      "detail_checked": 4,
       "translated": true,
       "category": "talks-discussions",
       "category_llm": true,
@@ -13770,10 +13734,11 @@
       "url": "https://cbcs.be/event/colloque-travail-et-commerce-du-sexe-au-prisme-des-reformes/",
       "image": null,
       "source": "CBCS (Brussels social sector agenda)",
-      "price_min": null,
-      "price_max": null,
+      "price_min": 15.0,
+      "price_max": 150.0,
       "uid": "575392d5cd7dc2c3",
       "colour": "#8A7500",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -13795,6 +13760,7 @@
       "uid": "1b2f514d04b79141",
       "manual": true,
       "colour": "#E07A00",
+      "detail_checked": 4,
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -13821,7 +13787,10 @@
       "tags": [
         "evening"
       ],
-      "stale": true
+      "stale": true,
+      "price_min": 8.0,
+      "price_max": 25.0,
+      "detail_checked": 4
     },
     {
       "title": "Prophetic Dance on the Strange Island",
@@ -13860,6 +13829,7 @@
       "price_max": null,
       "uid": "f3739f0985fe8c70",
       "colour": "#E07A00",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -13877,6 +13847,7 @@
       "price_max": null,
       "uid": "686fade6c168bcab",
       "colour": "#E07A00",
+      "detail_checked": 4,
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -13896,10 +13867,11 @@
       "url": "https://www.kvs.be/fr/Evenement/closing-party-gelatina-x-proximamente-1",
       "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
       "source": "KVS",
-      "price_min": null,
-      "price_max": null,
+      "price_min": 20.0,
+      "price_max": 25.0,
       "uid": "79f294aa1eac5f65",
       "colour": "#E07A00",
+      "detail_checked": 4,
       "translated": true,
       "category": "festivals-celebrations",
       "category_llm": true,
@@ -13923,6 +13895,7 @@
       "price_max": null,
       "uid": "211b22146a4b7e17",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -13940,6 +13913,7 @@
       "price_max": null,
       "uid": "6c3b5b5871da179f",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -13957,6 +13931,7 @@
       "price_max": null,
       "uid": "5b1dd115eeb4e675",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -13974,6 +13949,7 @@
       "price_max": null,
       "uid": "fd32830afea33f8b",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -13991,14 +13967,15 @@
       "price_max": null,
       "uid": "5c5a4410179656dd",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
     {
       "title": "21 Nov 2026 Qu’est ce que je fous là ? Anne-Sophie M. Salins-les-Bains (39)",
-      "start": "2026-11-21T00:00:00+01:00",
+      "start": "2026-11-21T16:45:00+01:00",
       "end": null,
-      "all_day": true,
+      "all_day": false,
       "location": "",
       "description": "21 Nov 2026 Qu’est ce que je fous là ? Anne-Sophie M. Salins-les-Bains (39)",
       "url": "https://conferences-gesticulees.net/events/21-11-2026-anne-sophie-m-la-cabiotte/",
@@ -14008,6 +13985,7 @@
       "price_max": null,
       "uid": "726556fc0df7c964",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -14021,18 +13999,19 @@
       "url": "https://www.lamaisondulivre.be/atelier/polar-et-poesie/",
       "image": "https://www.lamaisondulivre.be/wp-content/uploads/2025/08/calendar_ssfond.png",
       "source": "La Maison du Livre",
-      "price_min": null,
-      "price_max": null,
+      "price_min": 12.0,
+      "price_max": 60.0,
       "uid": "8a1e9e563034d1d8",
       "colour": "#C0392B",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
     {
       "title": "21.11.2026 Une histoire de rencontres Parcours d'éditeur Rencontre",
-      "start": "2026-11-21T00:00:00+01:00",
+      "start": "2026-11-21T18:30:00+01:00",
       "end": null,
-      "all_day": true,
+      "all_day": false,
       "location": "",
       "description": "21.11.2026 Une histoire de rencontres Parcours d'éditeur Rencontre",
       "url": "https://www.lamaisondulivre.be/programme/une-histoire-de-rencontres/",
@@ -14042,23 +14021,27 @@
       "price_max": null,
       "uid": "416a61fc2f189a22",
       "colour": "#C0392B",
+      "detail_checked": 4,
       "category": "other",
-      "tags": []
+      "tags": [
+        "evening"
+      ]
     },
     {
       "title": "SŒURS de Pascal Rambert – Théâtre Marni, Bruxelles 21 nov 2026 Théatre / Spectacles Professionnels Le Marni Ixelles - Bruxelles SŒURS de P",
       "start": "2026-11-21T00:00:00+01:00",
       "end": null,
       "all_day": true,
-      "location": "",
+      "location": "Le Marni, 25 Rue de Vergnies, 1050 Ixelles, Bruxelles, Belgique, Ixelles",
       "description": "SŒURS de Pascal Rambert – Théâtre Marni, Bruxelles 21 nov 2026 Théatre / Spectacles Professionnels Le Marni Ixelles - Bruxelles SŒURS de Pascal Rambert Deux sœurs. Une histoire commune. Deux visions du monde. Comment se construire lorsque l'on n'a pas été désirée ? Peut-on vraiment échapper à son",
       "url": "https://www.out.be/fr/evenements/223064_soeurs-de-pascal-rambert-theatre-marni-bruxelles.html",
       "image": "https://www.out.be/assets/img/logo-outbe.svg",
       "source": "Out.be",
-      "price_min": null,
-      "price_max": null,
+      "price_min": 0.0,
+      "price_max": 20.0,
       "uid": "8b043c2ac0ea6212",
       "colour": "#1B6FE0",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -14076,7 +14059,10 @@
       "colour": "#E8336D",
       "category": "other",
       "tags": [],
-      "stale": true
+      "stale": true,
+      "price_min": 1.25,
+      "price_max": 18.0,
+      "detail_checked": 4
     },
     {
       "title": "Anon Dançar - Nous allons danser",
@@ -14092,7 +14078,10 @@
       "colour": "#E8336D",
       "category": "other",
       "tags": [],
-      "stale": true
+      "stale": true,
+      "price_min": 5.0,
+      "price_max": 5.0,
+      "detail_checked": 4
     },
     {
       "title": "Anon jogar ina bourreira",
@@ -14110,7 +14099,10 @@
       "tags": [
         "evening"
       ],
-      "stale": true
+      "stale": true,
+      "price_min": 1.25,
+      "price_max": 14.0,
+      "detail_checked": 4
     },
     {
       "title": "Cocanha, Flame Folclòre",
@@ -14128,7 +14120,10 @@
       "tags": [
         "evening"
       ],
-      "stale": true
+      "stale": true,
+      "price_min": 1.25,
+      "price_max": 1900.0,
+      "detail_checked": 4
     },
     {
       "title": "La guerre des prix",
@@ -14146,7 +14141,10 @@
       "tags": [
         "evening"
       ],
-      "stale": true
+      "stale": true,
+      "price_min": 5.0,
+      "price_max": 30.0,
+      "detail_checked": 4
     },
     {
       "title": "Romeo + Juliet",
@@ -14162,6 +14160,7 @@
       "price_max": null,
       "uid": "96a81b5a947c381e",
       "colour": "#8A7500",
+      "detail_checked": 4,
       "translated": true,
       "category": "film-cinema",
       "category_llm": true,
@@ -14205,10 +14204,11 @@
       "url": "https://www.theatrenational.be/en/activities/4669-une-tentative-presque-comme-une-autre-o-clement-papachristou-guillaume-papachristou",
       "image": "https://www.theatrenational.be/en/image/og/image/7175",
       "source": "Théâtre National Wallonie-Bruxelles",
-      "price_min": null,
-      "price_max": null,
+      "price_min": 10.0,
+      "price_max": 24.0,
       "uid": "92493a2a134676a8",
       "colour": "#8A7500",
+      "detail_checked": 4,
       "translated": true,
       "category": "culture-arts",
       "category_llm": true,
@@ -14230,10 +14230,11 @@
       "url": "https://lestanneurs.be/spectacle/en-correspondance-1-26-27/",
       "image": "https://lestanneurs.be/wp-content/uploads/2025/04/Visuel-saison-H.jpg",
       "source": "Les Tanneurs",
-      "price_min": null,
-      "price_max": null,
+      "price_min": 75.0,
+      "price_max": 75.0,
       "uid": "ff4b756b50115a46",
       "colour": "#00937A",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -14251,6 +14252,7 @@
       "price_max": null,
       "uid": "2469cf928b16217b",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "translated": true,
       "category": "activism-justice",
       "category_llm": true,
@@ -14275,6 +14277,7 @@
       "price_max": null,
       "uid": "b5f78dee4f851299",
       "colour": "#E07A00",
+      "detail_checked": 4,
       "category": "other",
       "tags": [
         "free"
@@ -14294,6 +14297,7 @@
       "price_max": null,
       "uid": "32fc347e8c068596",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "translated": true,
       "category": "activism-justice",
       "category_llm": true,
@@ -14343,7 +14347,8 @@
       "tags": [
         "free"
       ],
-      "stale": true
+      "stale": true,
+      "detail_checked": 4
     },
     {
       "title": "26.11.26 FLIRT FLAMAND Passa Porta Langue: NL FR Surtitrage: FR",
@@ -14359,6 +14364,7 @@
       "price_max": null,
       "uid": "8e59360f32b77f56",
       "colour": "#E07A00",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -14378,7 +14384,10 @@
       "tags": [
         "evening"
       ],
-      "stale": true
+      "stale": true,
+      "price_min": 1.27,
+      "price_max": 17.0,
+      "detail_checked": 4
     },
     {
       "title": "Gratis POZAR Organisator: Gemeenschapscentrum Pianofabriek vzw, in samenwerking met Gemeenschapscentrum Kontakt vzw vr 27.11.2026 GC Pianof",
@@ -14398,7 +14407,8 @@
       "tags": [
         "free"
       ],
-      "stale": true
+      "stale": true,
+      "detail_checked": 4
     },
     {
       "title": "Training: Development and Interculturality",
@@ -14410,10 +14420,11 @@
       "url": "https://bxl.demosphere.net/rv/18828",
       "image": null,
       "source": "Demosphere Bruxelles",
-      "price_min": null,
-      "price_max": null,
+      "price_min": 50.0,
+      "price_max": 50.0,
       "uid": "91e4002de8ecda36",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "translated": true,
       "category": "workshops-creative",
       "category_llm": true,
@@ -14488,7 +14499,8 @@
       "tags": [
         "free"
       ],
-      "stale": true
+      "stale": true,
+      "detail_checked": 4
     },
     {
       "title": "Vivre ensemble, agir ensemble",
@@ -14505,7 +14517,8 @@
       "category": "other",
       "tags": [],
       "stale": true,
-      "time_checked": 3
+      "time_checked": 3,
+      "detail_checked": 4
     },
     {
       "title": "Ayoub Marina Otero & Ibrahim Ibnou Goush 24 – 28.11.2026",
@@ -14517,10 +14530,11 @@
       "url": "https://lestanneurs.be/spectacle/ayoub/",
       "image": "https://lestanneurs.be/wp-content/uploads/2025/04/Visuel-saison-H.jpg",
       "source": "Les Tanneurs",
-      "price_min": null,
-      "price_max": null,
+      "price_min": 75.0,
+      "price_max": 75.0,
       "uid": "563b42f3a366794d",
       "colour": "#00937A",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -14564,7 +14578,10 @@
       "tags": [
         "evening"
       ],
-      "stale": true
+      "stale": true,
+      "price_min": 5.0,
+      "price_max": 30.0,
+      "detail_checked": 4
     },
     {
       "title": "Babbel No·o·rd 2026: Open Your Doors, Create Connections!",
@@ -14576,10 +14593,11 @@
       "url": "https://cbcs.be/event/babbel-no%c2%b7o%c2%b7rd-2026-ouvrez-vos-portes-creez-des-liens/",
       "image": null,
       "source": "CBCS (Brussels social sector agenda)",
-      "price_min": null,
-      "price_max": null,
+      "price_min": 15.0,
+      "price_max": 15.0,
       "uid": "af37380285a8d799",
       "colour": "#8A7500",
+      "detail_checked": 4,
       "translated": true,
       "category": "community-social",
       "category_llm": true,
@@ -14649,6 +14667,7 @@
       "price_max": null,
       "uid": "ac500091cb6579fc",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "translated": true,
       "category": "activism-justice",
       "category_llm": true,
@@ -14675,7 +14694,10 @@
       "tags": [
         "evening"
       ],
-      "stale": true
+      "stale": true,
+      "price_min": 15.0,
+      "price_max": 15.0,
+      "detail_checked": 4
     },
     {
       "title": "Free Night",
@@ -14709,10 +14731,11 @@
       "url": "https://cbcs.be/event/travailler-dans-le-social-sante-a-bruxelles-bien-etre-au-travail-et-attractivite-des-metiers/",
       "image": null,
       "source": "CBCS (Brussels social sector agenda)",
-      "price_min": null,
-      "price_max": null,
+      "price_min": 15.0,
+      "price_max": 15.0,
       "uid": "1b7134b3d6b80157",
       "colour": "#8A7500",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -14730,6 +14753,7 @@
       "price_max": null,
       "uid": "fd77769f362b7b7e",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
       "translated": true,
       "category": "activism-justice",
       "category_llm": true,
@@ -15085,18 +15109,18 @@
       "tags_llm_done": true
     },
     {
-      "title": "Matinée de réflexion avec l’équipe des Complicités chorégraphiques #4",
+      "title": "Matinée de réflexion : Pratiquer une dramaturgie partagée",
       "start": "2026-12-09T09:30:00+01:00",
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "Le 9 décembre 2026 de 09:30 à 13:30 Matinée de réflexion avec l’équipe des Complicités chorégraphiques #4 Séminaires avec La RAC , Too Moved to Talk",
-      "url": "https://bellone.be/programmation-publique/matinee-de-reflexion-avec-l-equipe-des-complicites-choregraphiques-4",
+      "description": "Le 9 décembre 2026 de 09:30 à 13:30 Matinée de réflexion : Pratiquer une dramaturgie partagée Séminaires avec La RAC , Les complicités chorégraphiques",
+      "url": "https://bellone.be/programmation-publique/matinee-de-reflexion-pratiquer-une-dramaturgie-partagee",
       "image": null,
       "source": "La Bellone",
       "price_min": null,
       "price_max": null,
-      "uid": "49b907ee079b6498",
+      "uid": "02ff50b702de86b0",
       "colour": "#E8336D",
       "category": "other",
       "tags": []
