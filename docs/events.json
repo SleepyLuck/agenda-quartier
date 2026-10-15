@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15T11:37:38.310236+02:00",
+  "generated": "2026-10-15T21:39:32.382906+02:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
@@ -51,7 +51,7 @@
       "name": "Fuse",
       "url": "https://www.fuse.be/events",
       "colour": "#C0392B",
-      "count": 13,
+      "count": 14,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-10-15"
@@ -159,7 +159,7 @@
       "name": "Flagey",
       "url": "https://www.flagey.be/agenda",
       "colour": "#1B6FE0",
-      "count": 11,
+      "count": 10,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-10-15"
@@ -186,7 +186,7 @@
       "name": "Kaaitheater",
       "url": "https://kaaitheater.be/nl/agenda",
       "colour": "#7B49D6",
-      "count": 13,
+      "count": 12,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-10-15"
@@ -213,7 +213,7 @@
       "name": "CBCS (Brussels social sector agenda)",
       "url": "https://cbcs.be/agenda/?ical=1",
       "colour": "#8A7500",
-      "count": 9,
+      "count": 8,
       "method": "ics",
       "stale": false,
       "last_ok": "2026-10-15"
@@ -824,8 +824,8 @@
     {
       "source": "Fuse",
       "method": "recipe",
-      "found": 14,
-      "kept": 13,
+      "found": 15,
+      "kept": 14,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -944,8 +944,8 @@
     {
       "source": "Flagey",
       "method": "recipe",
-      "found": 11,
-      "kept": 11,
+      "found": 10,
+      "kept": 10,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -975,7 +975,7 @@
       "source": "Kaaitheater",
       "method": "recipe",
       "found": 19,
-      "kept": 13,
+      "kept": 12,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1004,8 +1004,8 @@
     {
       "source": "CBCS (Brussels social sector agenda)",
       "method": "ics",
-      "found": 11,
-      "kept": 9,
+      "found": 10,
+      "kept": 8,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1468,26 +1468,6 @@
       "tags_llm_done": true
     },
     {
-      "title": "wo 14.10.26 20:30 The Latecomers Decoratelier Jozef Wouters",
-      "start": "2026-10-14T20:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "wo 14.10.26 20:30 The Latecomers Decoratelier Jozef Wouters performance Decoratelier",
-      "url": "https://kaaitheater.be/nl/agenda/26-27/latecomers-0",
-      "image": null,
-      "source": "Kaaitheater",
-      "price_min": 14.0,
-      "price_max": 22.0,
-      "uid": "0d51aaedee4bc000",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "7 PM Kitsch'N – Clown and Fruit Solo",
       "start": "2026-10-15T00:00:00+02:00",
       "end": "2026-10-15T00:00:00+02:00",
@@ -1530,24 +1510,6 @@
         "free"
       ],
       "stale": true
-    },
-    {
-      "title": "15 octobre 2026 +",
-      "start": "2026-10-15T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "15 octobre 2026 + fESt ! les 10 ans de COOPCITY Dix ans. Dix ans à répéter (et prouver) qu’il existe une économie qui ne détruit ni la planète ni les humains qui vivent dessus. Et- spoiler- ça marche. Dix ans à accompagner celles et ceux (…)",
-      "url": "https://www.tricoterie.be/fr/agenda/l-agenda-culturel/fr/agenda/l-agenda-culturel/fest-les-10-ans-de-coopcity?id_evenement=7970",
-      "image": null,
-      "source": "La Tricoterie",
-      "price_min": 5.0,
-      "price_max": 10.0,
-      "uid": "b59fe292d5dac1b6",
-      "colour": "#00937A",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
     },
     {
       "title": "Closing Event FUTURE OBJECTS",
@@ -1954,29 +1916,6 @@
       "tags": []
     },
     {
-      "title": "Article 23 - A Social State That Lives Up to Its Promise",
-      "start": "2026-10-15T08:30:00+02:00",
-      "end": "2026-10-15T17:00:00+02:00",
-      "all_day": false,
-      "location": "Area 42, Rue des Palais 46A, Bruxelles, 1030, Belgique",
-      "description": "Thursday 15 October 2026 – Area 42, Schaerbeek. The Brussels social-health sector is under pressure. Unemployment reform, budget cuts in the French Community of Belgium, food aid slashed in half, vulnerability of the populations being served... The blows are mounting at every level of government. And on the ground, it's a double burden: more people to support, fewer resources to do it with. These political choices are not inevitable. Alternatives exist. And the sector isn't just passive: it innovates, forms alliances, reformulates, and resists.",
-      "url": "https://cbcs.be/event/article-23-un-etat-social-a-la-hauteur/",
-      "image": null,
-      "source": "CBCS (Brussels social sector agenda)",
-      "price_min": 15.0,
-      "price_max": 15.0,
-      "uid": "bc06c6e8613a8bf9",
-      "colour": "#8A7500",
-      "detail_checked": 4,
-      "translated": true,
-      "category": "civic-politics",
-      "category_llm": true,
-      "tags": [
-        "activism"
-      ],
-      "tags_llm_done": true
-    },
-    {
       "title": "Formation Culture de paix",
       "start": "2026-10-15T09:00:00+02:00",
       "end": null,
@@ -2113,62 +2052,6 @@
       "tags": []
     },
     {
-      "title": "The Invite",
-      "start": "2026-10-15T16:45:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "The Invite Thu 15 Oct and Sun 25 Oct Studio 5 cinema € 7,00–€ 10,50 dates dates Thu 15 Oct 16:45 tickets Sun 25 Oct 18:30 tickets Wed 16 Sep 21:00 Past event Sat 19 Sep 21:10 Past event Sun 20 Sep 17:00 Past event Wed 23 Sep 17:00 Past event Fri 25 Sep 21:20 Past event Sun 27 Sep 18:30 Past event We",
-      "url": "https://www.flagey.be/en/agenda/the-invite-zgr4",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "d350be1c52aff68f",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "Urgence climatique et austérité",
-      "start": "2026-10-15T17:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "dans 6h Manifestation Urgence climatique et austérité Jeudi 15 octobre 2026 à 17:30 Etterbeek - 1040 Organisé par ProtestBase",
-      "url": "https://protestbase.be/manifestations/bruxelles",
-      "image": "https://protestbase.be/og.jpg",
-      "source": "Protestbase Bruxelles",
-      "price_min": null,
-      "price_max": null,
-      "uid": "47ef755d5e8db514",
-      "colour": "#E07A00",
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Café politiek - Arizona in Brussel (participatief dialoogmoment)",
-      "start": "2026-10-15T18:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "dans 6h Apprendre Café politiek - Arizona in Brussel (participatief dialoogmoment) Jeudi 15 octobre 2026 à 18:00 Bruxelles - 1000 Organisé par ProtestBase",
-      "url": "https://protestbase.be/manifestations/bruxelles",
-      "image": "https://protestbase.be/og.jpg",
-      "source": "Protestbase Bruxelles",
-      "price_min": null,
-      "price_max": null,
-      "uid": "d68f9ef385bb49bd",
-      "colour": "#E07A00",
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "Petites histoires des droits des travailleur·euses",
       "start": "2026-10-15T18:00:00+02:00",
       "end": null,
@@ -2249,26 +2132,6 @@
       ]
     },
     {
-      "title": "Mad Max 2",
-      "start": "2026-10-15T18:50:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "Mad Max 2 Thu 15 Oct 18:50 Studio 5 cinema special screening Tickets Normal € 10,50 -12 € 7,00 -26 € 8,50 65+ € 8,50 € 7,00–€ 10,50 tickets",
-      "url": "https://www.flagey.be/en/agenda/mad-max-2-187v",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 26.0,
-      "uid": "ca0c133da07eff64",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "Een stevige Patat tegen Armoede - film The Old Oak jeu 15/10 - 19:00 Cinéma",
       "start": "2026-10-15T19:00:00+02:00",
       "end": null,
@@ -2289,26 +2152,6 @@
       ]
     },
     {
-      "title": "Tai chi avondcursus 2 jeu 15/10 - 19:30 Sport",
-      "start": "2026-10-15T19:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Tai chi avondcursus 2 jeu 15/10 - 19:30 Sport",
-      "url": "http://forest.brussels/fr/agenda/tai-chi-avondcursus-2",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "337dec49e5f5fdc6",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "Hobby Club Vorst jeu 15/10 - 19:30 Cours, Stages et Ateliers",
       "start": "2026-10-15T19:30:00+02:00",
       "end": null,
@@ -2321,6 +2164,26 @@
       "price_min": null,
       "price_max": null,
       "uid": "980cb169978e6eb1",
+      "colour": "#0F8CA8",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
+      "title": "Tai chi avondcursus 2 jeu 15/10 - 19:30 Sport",
+      "start": "2026-10-15T19:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Tai chi avondcursus 2 jeu 15/10 - 19:30 Sport",
+      "url": "http://forest.brussels/fr/agenda/tai-chi-avondcursus-2",
+      "image": null,
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "337dec49e5f5fdc6",
       "colour": "#0F8CA8",
       "detail_checked": 4,
       "category": "other",
@@ -2403,26 +2266,6 @@
       "price_min": 1.25,
       "price_max": 1900.0,
       "detail_checked": 4
-    },
-    {
-      "title": "Digger",
-      "start": "2026-10-15T21:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "Digger Thu 15 Oct - Fri 30 Oct Studio 5 cinema € 7,00–€ 10,50 dates dates Thu 15 Oct 21:00 tickets Sun 18 Oct 16:00 tickets Fri 23 Oct 21:15 tickets Fri 30 Oct 15:50 tickets Thu 1 Oct 21:10 Past event Fri 2 Oct 18:50 Past event Sun 4 Oct 20:50 Past event Fri 9 Oct 18:50 Past event Sat 10 Oct 20:50 P",
-      "url": "https://www.flagey.be/en/agenda/digger-yhg6",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "36349e09153e12ff",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
     },
     {
       "title": "19h30 Concert Tram 92",
@@ -3048,7 +2891,7 @@
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "dans 22h Apprendre formation anticapitaliste: La jeunesse face à la destruction climatique (ULB) Vendredi 16 octobre 2026 à 10:00 Ixelles - 1050 Organisé par ProtestBase",
+      "description": "dans 12h Apprendre formation anticapitaliste: La jeunesse face à la destruction climatique (ULB) Vendredi 16 octobre 2026 à 10:00 Ixelles - 1050 Organisé par ProtestBase",
       "url": "https://protestbase.be/manifestations/bruxelles",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
@@ -3402,6 +3245,26 @@
       "price_max": 10.5,
       "uid": "f51f37bfd0b40e29",
       "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
+      "title": "Soirée Plein Feu : Blind Date Artistic ven 16/10 - 17:00 Spectacle",
+      "start": "2026-10-16T17:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Soirée Plein Feu : Blind Date Artistic ven 16/10 - 17:00 Spectacle",
+      "url": "http://forest.brussels/fr/agenda/spectacle/2026/soiree-plein-feu-blind-date-artistic",
+      "image": null,
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "fcbe7aa41da5ed31",
+      "colour": "#0F8CA8",
       "detail_checked": 4,
       "category": "other",
       "tags": [
@@ -5196,7 +5059,7 @@
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "za 17.10.26 20:30 The Latecomers Decoratelier Jozef Wouters performance Decoratelier Tickets",
+      "description": "za 17.10.26 20:30 The Latecomers Decoratelier Jozef Wouters performance Decoratelier",
       "url": "https://kaaitheater.be/nl/agenda/26-27/latecomers-0",
       "image": null,
       "source": "Kaaitheater",
@@ -5341,6 +5204,24 @@
       "price_min": 6.0,
       "price_max": 29.0,
       "uid": "a86bb27bb583eebb",
+      "colour": "#00937A",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "18 octobre 2026 #Bien-être +",
+      "start": "2026-10-18T00:00:00+02:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "18 octobre 2026 #Bien-être + Initiation au handpan L’instrument se nomme handpan, et s’apparente à une « soucoupe volante » que l’on découvre un peu partout tant sa sonorité est magique, relaxante et permet un jeu très intuitif. Je propose à 8 (…) # Bien-être",
+      "url": "https://www.tricoterie.be/fr/agenda/l-agenda-culturel/fr/agenda/l-agenda-culturel/initiation-au-handpan-2823?id_evenement=7802",
+      "image": null,
+      "source": "La Tricoterie",
+      "price_min": 45.0,
+      "price_max": 45.0,
+      "uid": "3d00622d7a1663f2",
       "colour": "#00937A",
       "detail_checked": 4,
       "category": "other",
@@ -5583,7 +5464,7 @@
       "location": "Koekelberg",
       "description": "",
       "url": "https://www.quefaire.be/brocante-annuelle-8771015.shtml",
-      "image": "https://www.quefaire.be/img_n/8771015_1.jpeg",
+      "image": "https://www.quefaire.be/img/logo_fb.png",
       "source": "Quefaire.be brocantes (Brussels region)",
       "price_min": 15.0,
       "price_max": 15.0,
@@ -5763,6 +5644,24 @@
       "tags": []
     },
     {
+      "title": "Familie TW : Le mieux à la maison (2+) - Achref Adhadhi dim 18/10 - 11:00 Théâtre",
+      "start": "2026-10-18T11:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Familie TW : Le mieux à la maison (2+) - Achref Adhadhi dim 18/10 - 11:00 Théâtre",
+      "url": "http://forest.brussels/fr/agenda/theatre/2026/familie-tw-le-mieux-a-la-maison-2-achref-adhadhi-0",
+      "image": null,
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "9f63636608c7d428",
+      "colour": "#0F8CA8",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "Le Parc Duden dim 18/10 - 11:00 Visites Guidées",
       "start": "2026-10-18T11:00:00+02:00",
       "end": null,
@@ -5905,24 +5804,6 @@
       "tags": []
     },
     {
-      "title": "Family Funday dim 18/10 - 14:00 Visites Guidées",
-      "start": "2026-10-18T14:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Family Funday dim 18/10 - 14:00 Visites Guidées",
-      "url": "http://forest.brussels/fr/agenda/visites-guidees/2026/family-funday",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "648159d96d201454",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "Familie TW : Le mieux à la maison (2+) - Achref Adhadhi dim 18/10 - 15:00 Théâtre",
       "start": "2026-10-18T15:00:00+02:00",
       "end": null,
@@ -5936,6 +5817,24 @@
       "price_max": null,
       "uid": "2a28e559d4899695",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Digger",
+      "start": "2026-10-18T16:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "Digger Sun 18 Oct - Fri 30 Oct Studio 5 cinema € 7,00–€ 10,50 dates dates Sun 18 Oct 16:00 tickets Fri 23 Oct 21:15 tickets Fri 30 Oct 15:50 tickets Thu 1 Oct 21:10 Past event Fri 2 Oct 18:50 Past event Sun 4 Oct 20:50 Past event Fri 9 Oct 18:50 Past event Sat 10 Oct 20:50 Past event Thu 15 Oct 21:0",
+      "url": "https://www.flagey.be/en/agenda/digger-yhg6",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 10.5,
+      "uid": "8bc1a1ee3e7ba02a",
+      "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "other",
       "tags": []
@@ -6049,26 +5948,6 @@
       "price_max": 10.5,
       "uid": "4aaefccde544ae5b",
       "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Drowsy Drift - drift + walk dim 18/10 - 19:30 Visites Guidées",
-      "start": "2026-10-18T19:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Drowsy Drift - drift + walk dim 18/10 - 19:30 Visites Guidées",
-      "url": "http://forest.brussels/fr/agenda/visites-guidees/2026/drowsy-drift-drift-walk",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "a9b51ff8554979b4",
-      "colour": "#0F8CA8",
       "detail_checked": 4,
       "category": "other",
       "tags": [
@@ -6272,27 +6151,6 @@
       "stale": true,
       "time_checked": 3,
       "detail_checked": 4
-    },
-    {
-      "title": "19 Oct 2026 Divorcée pour le meilleur et le meilleur Caps Sainghin-en-Mélantois (59)",
-      "start": "2026-10-19T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "19 Oct 2026 Divorcée pour le meilleur et le meilleur Caps Sainghin-en-Mélantois (59)",
-      "url": "https://conferences-gesticulees.net/events/19-10-2026-caps-mucma-espace-culture/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "0b1ffbd79c22356a",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "translated": true,
-      "category": "other",
-      "category_llm": true,
-      "tags": [],
-      "tags_llm_done": true
     },
     {
       "title": "Jordi L. Vidal 19.10.2026 > 23.10.2026 Mots (é) Mouvants Corps et mouvements Écriture Stage",
@@ -6601,18 +6459,18 @@
       ]
     },
     {
-      "title": "Écouter Pause general mar 20 oct '26 AB Club NUPS3E + Cosmoh Le collectif hip-hop underground bruxellois présente son nouvel album Concert A",
+      "title": "Écouter Pause general mar 20 oct '26 AB Club NUPS3E + Cosmoh Le collectif hip-hop underground bruxellois présente son nouvel album Concert D",
       "start": "2026-10-20T19:00:00+02:00",
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "Écouter Pause general mar 20 oct '26 AB Club NUPS3E + Cosmoh Le collectif hip-hop underground bruxellois présente son nouvel album Concert Acheter",
+      "description": "Écouter Pause general mar 20 oct '26 AB Club NUPS3E + Cosmoh Le collectif hip-hop underground bruxellois présente son nouvel album Concert Derniers tickets",
       "url": "https://www.abconcerts.be/fr/agenda/nups3e/a10Qw00000FyL7NIAV",
       "image": "https://abconcerts.be/assets/website/components/images/og-image.1c2180e4.png",
       "source": "Ancienne Belgique",
       "price_min": 3.4,
       "price_max": 27.0,
-      "uid": "399863d6fd90ba32",
+      "uid": "af652122d492dfd1",
       "colour": "#C0392B",
       "detail_checked": 4,
       "category": "other",
@@ -7269,6 +7127,26 @@
       "price_max": null,
       "uid": "fc14ae426367c60c",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
+      "title": "L'Autre Côté du Soleil",
+      "start": "2026-10-21T17:35:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "L'Autre Côté du Soleil Wed 21 Oct and Wed 28 Oct Studio 5 cinema special screening € 7,00–€ 10,50 dates dates Wed 21 Oct 17:35 tickets Wed 28 Oct 16:40 tickets Wed 14 Oct 19:00 Past event premiere attended by the filmmaker",
+      "url": "https://www.flagey.be/en/agenda/l-autre-cote-du-soleil-72sk",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 10.5,
+      "uid": "10a26b64b55ec1fd",
+      "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "other",
       "tags": [
@@ -9351,6 +9229,23 @@
       "tags": []
     },
     {
+      "title": "Arpentage: l'histoire cachée des femmes meneuses de révoltes d'esclaves",
+      "start": "2026-10-30T10:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "vendredi 30 octobre 2026 Apprendre Arpentage: l'histoire cachée des femmes meneuses de révoltes d'esclaves Vendredi 30 octobre 2026 à 10:00 Etterbeek - 1040 Organisé par ProtestBase",
+      "url": "https://protestbase.be/manifestations/bruxelles",
+      "image": "https://protestbase.be/og.jpg",
+      "source": "Protestbase Bruxelles",
+      "price_min": null,
+      "price_max": null,
+      "uid": "2ea51c262d5a487f",
+      "colour": "#E07A00",
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "🌟EuroMeet: Connecting with International Friends in Brussels Every Friday🍻🎉",
       "start": "2026-10-30T17:30:00+00:00",
       "end": "2026-10-30T21:30:00+00:00",
@@ -9743,6 +9638,25 @@
         "evening"
       ],
       "stale": true
+    },
+    {
+      "title": "Earth's Greatest Enemy - documentary screening Brussels",
+      "start": "2026-10-31T18:30:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "samedi 31 octobre 2026 Apprendre Earth's Greatest Enemy - documentary screening Brussels Samedi 31 octobre 2026 à 18:30 Saint-Gilles - 1060 Organisé par ProtestBase",
+      "url": "https://protestbase.be/manifestations/bruxelles",
+      "image": "https://protestbase.be/og.jpg",
+      "source": "Protestbase Bruxelles",
+      "price_min": null,
+      "price_max": null,
+      "uid": "d62bde8e7bbf8a09",
+      "colour": "#E07A00",
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
     },
     {
       "title": "SAXONEO",
@@ -10684,6 +10598,24 @@
       "price_max": null,
       "uid": "e07bc0bcffde90b0",
       "colour": "#E07A00",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "05 Nov 2026 Corps en colère Daniela Abadi Saint-Herblain (44)",
+      "start": "2026-11-05T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "05 Nov 2026 Corps en colère Daniela Abadi Saint-Herblain (44)",
+      "url": "https://conferences-gesticulees.net/events/05-11-2026-daniela-abadi-odysee-orvault/",
+      "image": null,
+      "source": "Conférences gesticulées (per-day pages)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "712a5a09f79a650e",
+      "colour": "#0F8CA8",
       "detail_checked": 4,
       "category": "other",
       "tags": []
@@ -13017,6 +12949,24 @@
       "tags_llm_done": true
     },
     {
+      "title": "19.11.26 ― 20.11.26 PRÓXIMAMENTE 2026 The Origin of the Future (WIP) Aline Olmos Steler",
+      "start": "2026-11-19T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "19.11.26 ― 20.11.26 PRÓXIMAMENTE 2026 The Origin of the Future (WIP) Aline Olmos Steler Réservation",
+      "url": "https://www.kvs.be/fr/Evenement/the-origin-of-the-future-wip-2",
+      "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
+      "source": "KVS",
+      "price_min": null,
+      "price_max": null,
+      "uid": "31039e09f3c003f8",
+      "colour": "#E07A00",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "19.11.26 PRÓXIMAMENTE 2026 La Rinoceronte Olivia Manrufo Hernández",
       "start": "2026-11-19T00:00:00+01:00",
       "end": null,
@@ -13636,24 +13586,6 @@
       "tags": []
     },
     {
-      "title": "Fanny Garin 21.11.2026 > 22.11.2026 Polar et poésie — complet Atelier Écriture Poésie Polar",
-      "start": "2026-11-21T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "Fanny Garin 21.11.2026 > 22.11.2026 Polar et poésie — complet Atelier Écriture Poésie Polar",
-      "url": "https://www.lamaisondulivre.be/atelier/polar-et-poesie/",
-      "image": "https://www.lamaisondulivre.be/wp-content/uploads/2025/08/calendar_ssfond.png",
-      "source": "La Maison du Livre",
-      "price_min": 12.0,
-      "price_max": 60.0,
-      "uid": "8a1e9e563034d1d8",
-      "colour": "#C0392B",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "21.11.2026 Une histoire de rencontres Parcours d'éditeur Rencontre",
       "start": "2026-11-21T18:30:00+01:00",
       "end": null,
@@ -13672,6 +13604,24 @@
       "tags": [
         "evening"
       ]
+    },
+    {
+      "title": "Fanny Garin 21.11.2026 > 22.11.2026 Polar et poésie — complet Atelier Écriture Poésie Polar",
+      "start": "2026-11-21T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "Fanny Garin 21.11.2026 > 22.11.2026 Polar et poésie — complet Atelier Écriture Poésie Polar",
+      "url": "https://www.lamaisondulivre.be/atelier/polar-et-poesie/",
+      "image": "https://www.lamaisondulivre.be/wp-content/uploads/2025/08/calendar_ssfond.png",
+      "source": "La Maison du Livre",
+      "price_min": 12.0,
+      "price_max": 60.0,
+      "uid": "8a1e9e563034d1d8",
+      "colour": "#C0392B",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
     },
     {
       "title": "La Ronde occitane",
@@ -14017,24 +13967,6 @@
       "detail_checked": 4
     },
     {
-      "title": "26.11.26 FLIRT FLAMAND Passa Porta Langue: NL FR Surtitrage: FR",
-      "start": "2026-11-26T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "26.11.26 FLIRT FLAMAND Passa Porta Langue: NL FR Surtitrage: FR Acheter des billets",
-      "url": "https://www.kvs.be/fr/Evenement/flirt-flamand-2",
-      "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
-      "source": "KVS",
-      "price_min": null,
-      "price_max": null,
-      "uid": "8e59360f32b77f56",
-      "colour": "#E07A00",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "Electric Fever",
       "start": "2026-11-26T19:00:00+01:00",
       "end": null,
@@ -14075,6 +14007,24 @@
       ],
       "stale": true,
       "detail_checked": 4
+    },
+    {
+      "title": "Fuse presents: Alarico & Iman Janes",
+      "start": "2026-11-27T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "Fri 27 Nov Fuse presents: Alarico & Iman Janes Tickets Line-up Room 01 Alarico Iman Janes Hadone Downside Buy tickets More info",
+      "url": "https://www.fuse.be/events/fuse-presents-alarico-2",
+      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788368690",
+      "source": "Fuse",
+      "price_min": 0.0,
+      "price_max": 25.0,
+      "uid": "f58f96d0eafdbb40",
+      "colour": "#C0392B",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
     },
     {
       "title": "Training: Development and Interculturality",
