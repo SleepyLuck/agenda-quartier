@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T11:54:03.005475+02:00",
+  "generated": "2026-10-21T21:54:40.321573+02:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
@@ -106,8 +106,8 @@
       "url": "https://wiels.org/en/events",
       "colour": "#E07A00",
       "count": 12,
-      "method": "browser",
-      "stale": false,
+      "method": "none",
+      "stale": true,
       "last_ok": "2026-10-21"
     },
     {
@@ -195,7 +195,7 @@
       "name": "Ancienne Belgique",
       "url": "https://www.abconcerts.be/fr/agenda",
       "colour": "#C0392B",
-      "count": 7,
+      "count": 10,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-10-21"
@@ -222,7 +222,7 @@
       "name": "Quefaire.be brocantes (Brussels region)",
       "url": "https://www.quefaire.be/brocantes/region-de-bruxelles",
       "colour": "#E8336D",
-      "count": 2,
+      "count": 3,
       "method": "jsonld",
       "stale": false,
       "last_ok": "2026-10-21"
@@ -303,7 +303,7 @@
       "name": "FTI Brussel (programme page)",
       "url": "https://www.ftifestival.be/programma/brussel",
       "colour": "#1B6FE0",
-      "count": 5,
+      "count": 0,
       "method": "none",
       "stale": true,
       "last_ok": "2026-10-03"
@@ -312,7 +312,7 @@
       "name": "Agenda engagé (Syndicats magazine)",
       "url": "https://syndicatsmagazine.be/agenda-engage-octobre-2026/",
       "colour": "#00937A",
-      "count": 3,
+      "count": 2,
       "method": "none",
       "stale": true,
       "last_ok": "2026-10-03"
@@ -393,7 +393,7 @@
       "name": "Varia",
       "url": "https://varia.be/en",
       "colour": "#E07A00",
-      "count": 2,
+      "count": 4,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-10-21"
@@ -402,7 +402,7 @@
       "name": "Halles de Schaerbeek",
       "url": "https://www.halles.be/en/",
       "colour": "#7B49D6",
-      "count": 9,
+      "count": 8,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-10-21"
@@ -483,7 +483,7 @@
       "name": "Mazette (brewpub, Jeu de Balle)",
       "url": "https://mazette.brussels/",
       "colour": "#C0392B",
-      "count": 5,
+      "count": 3,
       "method": "none",
       "stale": true,
       "last_ok": "2026-10-03"
@@ -528,7 +528,7 @@
       "name": "FTI Brussel",
       "url": "https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels",
       "colour": "#00937A",
-      "count": 1,
+      "count": 0,
       "method": "manual",
       "stale": false,
       "last_ok": "2026-10-21"
@@ -883,13 +883,13 @@
     },
     {
       "source": "WIELS",
-      "method": "browser",
-      "found": 12,
-      "kept": 12,
-      "carried": 0,
-      "stale": false,
-      "error_class": "",
-      "note": ""
+      "method": "none",
+      "found": 0,
+      "kept": 0,
+      "carried": 12,
+      "stale": true,
+      "error_class": "billing",
+      "note": "browser: jsonld/recipe empty, llm skipped (billing failure earlier this run)"
     },
     {
       "source": "Maison Poème",
@@ -984,8 +984,8 @@
     {
       "source": "Ancienne Belgique",
       "method": "recipe",
-      "found": 7,
-      "kept": 7,
+      "found": 10,
+      "kept": 10,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1014,8 +1014,8 @@
     {
       "source": "Quefaire.be brocantes (Brussels region)",
       "method": "jsonld",
-      "found": 2,
-      "kept": 2,
+      "found": 3,
+      "kept": 3,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1106,7 +1106,7 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "carried": 5,
+      "carried": 0,
       "stale": true,
       "error_class": "billing",
       "note": "llm: skipped (billing failure earlier this run)"
@@ -1116,7 +1116,7 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "carried": 3,
+      "carried": 2,
       "stale": true,
       "error_class": "billing",
       "note": "llm: skipped (billing failure earlier this run)"
@@ -1205,7 +1205,7 @@
       "source": "Varia",
       "method": "recipe",
       "found": 4,
-      "kept": 2,
+      "kept": 4,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1214,8 +1214,8 @@
     {
       "source": "Halles de Schaerbeek",
       "method": "recipe",
-      "found": 9,
-      "kept": 9,
+      "found": 8,
+      "kept": 8,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1306,7 +1306,7 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "carried": 5,
+      "carried": 3,
       "stale": true,
       "error_class": "billing",
       "note": "browser: jsonld/recipe empty, llm skipped (billing failure earlier this run)"
@@ -1354,8 +1354,8 @@
     {
       "source": "FTI Brussel",
       "method": "manual",
-      "found": 1,
-      "kept": 1,
+      "found": 0,
+      "kept": 0,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1495,197 +1495,6 @@
         "recurring"
       ],
       "tags_llm_done": true
-    },
-    {
-      "title": "Shifting Worlds - expo & laboratory (FTI Brussel)",
-      "start": "2026-10-16T11:00:00+02:00",
-      "end": "2026-10-20T19:00:00+02:00",
-      "all_day": true,
-      "location": "WIELS, Van Volxemlaan 354, 1190 Forest",
-      "description": "Temporary laboratory for urban imagination: expo by Brussels artists, panels, workshops and talks, plus Fashion Factory and KET Academy at WIELS. Tickets from EUR 9.90 (festival site).",
-      "url": "https://www.ftifestival.be/programma/brussel/shifting-worlds-expo-en-programma-wiels",
-      "image": null,
-      "source": "FTI Brussel",
-      "tickets": null,
-      "social": {},
-      "uid": "9e7ecb739c608ed9",
-      "manual": true,
-      "colour": "#00937A",
-      "price_min": 9.9,
-      "price_max": 9.9,
-      "detail_checked": 4,
-      "translated": true,
-      "category": "culture-arts",
-      "category_llm": true,
-      "tags": [
-        "recurring"
-      ],
-      "tags_llm_done": true
-    },
-    {
-      "title": "Fast track: Visit the FARI CAVE",
-      "start": "2026-10-20T13:30:00+02:00",
-      "end": "2026-10-20T17:15:00+02:00",
-      "all_day": false,
-      "location": "FARI, 4th floor of BeCentral",
-      "description": "Step into the future of immersive simulation in Brussels!",
-      "url": "https://www.ftifestival.be/programma/brussel/fast-track-bezoek-de-fari-cave",
-      "image": "https://www.ftifestival.be/sites/default/files/styles/social_share/public/2026-06/HERO%20hartjes%20website%20FTI_BXL.png?h=7afbe2f7&itok=YFot_Xpr",
-      "source": "FTI Brussel (programme page)",
-      "uid": "5126d446bae6cf02",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "other",
-      "category_llm": true,
-      "tags": [],
-      "tags_llm_done": true,
-      "stale": true,
-      "detail_checked": 4
-    },
-    {
-      "title": "Literary discovery : A l'école de la résistance",
-      "start": "2026-10-20T13:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "23 Rue Henri Aubry, 7100 Haine-Saint-Paul",
-      "description": "Literary discovery about Claude, a 16-year-old arrested by Nazis in 1943 and students at École Decroly who mobilized to save his life.",
-      "url": "http://www.asblcepre.be/",
-      "image": "https://syndicatsmagazine.be/wp-content/uploads/2026/09/250505DSC_6145-1_-scaled.jpg",
-      "source": "Agenda engagé (Syndicats magazine)",
-      "uid": "ee80fad592a60dbd",
-      "colour": "#00937A",
-      "translated": true,
-      "category": "talks-discussions",
-      "category_llm": true,
-      "tags": [
-        "live"
-      ],
-      "tags_llm_done": true,
-      "stale": true,
-      "detail_checked": 4
-    },
-    {
-      "title": "Fast track: Smart energy for a livable city",
-      "start": "2026-10-20T14:00:00+02:00",
-      "end": "2026-10-20T17:00:00+02:00",
-      "all_day": false,
-      "location": "VUB",
-      "description": "Tour with a unique and interactive look at smart solutions for energy and mobility, and how innovation shapes tomorrow's world.",
-      "url": "https://www.ftifestival.be/programma/brussel/fast-track-slimme-energie-voor-een-leefbare-stad",
-      "image": "https://www.ftifestival.be/sites/default/files/styles/social_share/public/2026-06/HERO%20hartjes%20website%20FTI_BXL.png?h=7afbe2f7&itok=YFot_Xpr",
-      "source": "FTI Brussel (programme page)",
-      "uid": "37da8b50e749452a",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "talks-discussions",
-      "category_llm": true,
-      "tags": [],
-      "tags_llm_done": true,
-      "stale": true,
-      "detail_checked": 4
-    },
-    {
-      "title": "Fast track: From biomaterial to building revolution",
-      "start": "2026-10-20T14:00:00+02:00",
-      "end": "2026-10-20T17:00:00+02:00",
-      "all_day": false,
-      "location": "VUB",
-      "description": "Inspiring fast track where sustainable materials and circular renovation take center stage.",
-      "url": "https://www.ftifestival.be/programma/brussel/fast-track-van-biomateriaal-tot-bouwrevolutie",
-      "image": "https://www.ftifestival.be/sites/default/files/styles/social_share/public/2026-06/HERO%20hartjes%20website%20FTI_BXL.png?h=7afbe2f7&itok=YFot_Xpr",
-      "source": "FTI Brussel (programme page)",
-      "uid": "b8de85e22b056cb0",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "talks-discussions",
-      "category_llm": true,
-      "tags": [
-        "sustainability"
-      ],
-      "tags_llm_done": true,
-      "stale": true,
-      "detail_checked": 4
-    },
-    {
-      "title": "Fast Track: Second Lives: Circular Brussels in Four Stops",
-      "start": "2026-10-20T14:30:00+02:00",
-      "end": "2026-10-20T17:30:00+02:00",
-      "all_day": false,
-      "location": "Gare Maritime-Shipit-BC Materials-Greenbizz.Brussels/Buildwise",
-      "description": "Parkour taking participants to places where the circular city is already a reality: abandoned freight station, excavated land, goods transport canal.",
-      "url": "https://www.ftifestival.be/programma/brussel/fast-track-second-lives-circulair-brussel-vier-stops",
-      "image": "https://www.ftifestival.be/sites/default/files/styles/social_share/public/2026-06/HERO%20hartjes%20website%20FTI_BXL.png?h=7afbe2f7&itok=YFot_Xpr",
-      "source": "FTI Brussel (programme page)",
-      "uid": "30b8fcbf4757edc0",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "community-social",
-      "category_llm": true,
-      "tags": [
-        "outdoor",
-        "sustainability"
-      ],
-      "tags_llm_done": true,
-      "stale": true,
-      "detail_checked": 4
-    },
-    {
-      "title": "Fast track: Art nouveau, a radical precedent",
-      "start": "2026-10-20T14:30:00+02:00",
-      "end": "2026-10-20T16:00:00+02:00",
-      "all_day": false,
-      "location": "Brussels city center",
-      "description": "Walk through Brussels around 1900 when the city underwent a radical material transformation with art nouveau, a precedent for today's circular economy.",
-      "url": "https://www.ftifestival.be/programma/brussel/fast-track-art-nouveau-een-radicaal-precedent",
-      "image": "https://www.ftifestival.be/sites/default/files/styles/social_share/public/2026-06/HERO%20hartjes%20website%20FTI_BXL.png?h=7afbe2f7&itok=YFot_Xpr",
-      "source": "FTI Brussel (programme page)",
-      "uid": "628e6bc0be1eeb20",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "culture-arts",
-      "category_llm": true,
-      "tags": [
-        "outdoor"
-      ],
-      "tags_llm_done": true,
-      "stale": true,
-      "detail_checked": 4
-    },
-    {
-      "title": "Atelier tetragravure",
-      "start": "2026-10-20T17:00:00+02:00",
-      "end": "2026-10-20T21:00:00+02:00",
-      "all_day": false,
-      "location": "Mazette",
-      "description": "Tetragravure workshop",
-      "url": "https://mazette.brussels/",
-      "image": "https://mazette.brussels/wp-content/uploads/2024/12/hom-terrasse2.webp",
-      "source": "Mazette (brewpub, Jeu de Balle)",
-      "uid": "7e5e26764c48b788",
-      "colour": "#C0392B",
-      "category": "other",
-      "tags": [
-        "evening"
-      ],
-      "stale": true
-    },
-    {
-      "title": "MUSIQUE Jam irish music",
-      "start": "2026-10-20T19:30:00+02:00",
-      "end": "2026-10-20T22:00:00+02:00",
-      "all_day": false,
-      "location": "Mazette",
-      "description": "Irish music jam session",
-      "url": "https://mazette.brussels/",
-      "image": "https://mazette.brussels/wp-content/uploads/2024/12/hom-terrasse2.webp",
-      "source": "Mazette (brewpub, Jeu de Balle)",
-      "uid": "5af252ac8e247248",
-      "colour": "#C0392B",
-      "category": "other",
-      "tags": [
-        "evening"
-      ],
-      "stale": true
     },
     {
       "title": "6:30 PM Old Chéchette Choir",
@@ -1989,23 +1798,6 @@
       "tags": []
     },
     {
-      "title": "Journée thematique: à bas les violences policières",
-      "start": "2026-10-21T10:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "il y a 2h Apprendre Journée thematique: à bas les violences policières Mercredi 21 octobre 2026 à 10:00 Ixelles - 1050 Organisé par ProtestBase",
-      "url": "https://protestbase.be/manifestations/bruxelles",
-      "image": "https://protestbase.be/og.jpg",
-      "source": "Protestbase Bruxelles",
-      "price_min": null,
-      "price_max": null,
-      "uid": "82f122c3b5df26df",
-      "colour": "#E07A00",
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "Journée thématique « À bas les violences policières »",
       "start": "2026-10-21T10:00:00+02:00",
       "end": null,
@@ -2158,26 +1950,6 @@
       ]
     },
     {
-      "title": "L'Autre Côté du Soleil",
-      "start": "2026-10-21T17:35:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "L'Autre Côté du Soleil Wed 21 Oct and Wed 28 Oct Studio 5 cinema special screening € 7,00–€ 10,50 dates dates Wed 21 Oct 17:35 tickets Wed 28 Oct 16:40 tickets Wed 14 Oct 19:00 Past event premiere attended by the filmmaker",
-      "url": "https://www.flagey.be/en/agenda/l-autre-cote-du-soleil-72sk",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "10a26b64b55ec1fd",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "Arpentage du livre « À l’école du capitalisme : Comment la...",
       "start": "2026-10-21T18:00:00+02:00",
       "end": null,
@@ -2239,66 +2011,6 @@
       "tags_llm_done": true,
       "stale": true,
       "detail_checked": 4
-    },
-    {
-      "title": "JOYAUX LOURDEMENT SOUS-ESTIMÉS Tickets",
-      "start": "2026-10-21T19:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Grande halle / Les Halles de Schaerbeek, rue Royale Sainte-Marie 22a 1030 Schaerbeek",
-      "description": "WED 21 OCT 19:00 JOYAUX LOURDEMENT SOUS-ESTIMÉS Tickets",
-      "url": "https://www.halles.be/en/ap/2095-joyaux-lourdement-sous-estimes-bast-hippocrate",
-      "image": "https://www.halles.be/en/image/og/image/1",
-      "source": "Halles de Schaerbeek",
-      "price_min": 5.0,
-      "price_max": 22.0,
-      "uid": "ff9351ff95c88e32",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Coward",
-      "start": "2026-10-21T19:10:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "Coward Wed 21 Oct - Sun 22 Nov Studio 5 cinema € 7,00–€ 10,50 dates dates Wed 21 Oct 19:10 tickets Thu 22 Oct 17:15 tickets Sat 24 Oct 18:45 tickets Fri 30 Oct 18:15 tickets Sun 1 Nov 18:40 tickets Thu 5 Nov 18:50 tickets Fri 6 Nov 21:05 tickets Thu 12 Nov 16:10 tickets Thu 19 Nov 17:00 tickets Sun",
-      "url": "https://www.flagey.be/en/agenda/coward-xdbs",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "872da434316b163e",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Too many beasts",
-      "start": "2026-10-21T21:20:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "Too many beasts Wed 21 Oct - Thu 5 Nov Studio 5 cinema € 7,00–€ 10,50 dates dates Wed 21 Oct 21:20 tickets Thu 22 Oct 19:20 tickets Wed 28 Oct 18:15 tickets Thu 5 Nov 17:00 tickets Wed 14 Oct 21:05 Past event Fri 16 Oct 17:00 Past event Sat 17 Oct 19:00 Past event",
-      "url": "https://www.flagey.be/en/agenda/too-many-beasts-h34h",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "f599fb5097142c60",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
     },
     {
       "title": "\"UNCHILDED – Roots of the Mediterranean\" by Associazione Culturale Raizes",
@@ -2704,6 +2416,23 @@
       "tags": []
     },
     {
+      "title": "Blocus - mais ne reste pas chez toi",
+      "start": "2026-10-22T06:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "dans 8h Manifestation Blocus - mais ne reste pas chez toi Jeudi 22 octobre 2026 à 06:00 Bruxelles - 1000 Organisé par ProtestBase",
+      "url": "https://protestbase.be/manifestations/bruxelles",
+      "image": "https://protestbase.be/og.jpg",
+      "source": "Protestbase Bruxelles",
+      "price_min": null,
+      "price_max": null,
+      "uid": "969fb2274e72346d",
+      "colour": "#E07A00",
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "Lost and Found. La photographie japonaise jeu 22/10 - 13:00 Exposition",
       "start": "2026-10-22T13:00:00+02:00",
       "end": null,
@@ -2720,6 +2449,46 @@
       "detail_checked": 4,
       "category": "other",
       "tags": []
+    },
+    {
+      "title": "Coward",
+      "start": "2026-10-22T17:15:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "Coward Thu 22 Oct - Sun 22 Nov Studio 5 cinema € 7,00–€ 10,50 dates dates Thu 22 Oct 17:15 tickets Sat 24 Oct 18:45 tickets Fri 30 Oct 18:15 tickets Sun 1 Nov 18:40 tickets Thu 5 Nov 18:50 tickets Fri 6 Nov 21:05 tickets Thu 12 Nov 16:10 tickets Thu 19 Nov 17:00 tickets Sun 22 Nov 14:15 tickets Wed",
+      "url": "https://www.flagey.be/en/agenda/coward-xdbs",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 10.5,
+      "uid": "6a7e385eab44151f",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
+      "title": "Too many beasts",
+      "start": "2026-10-22T19:20:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "Too many beasts Thu 22 Oct - Thu 5 Nov Studio 5 cinema € 7,00–€ 10,50 dates dates Thu 22 Oct 19:20 tickets Wed 28 Oct 18:15 tickets Thu 5 Nov 17:00 tickets Wed 14 Oct 21:05 Past event Fri 16 Oct 17:00 Past event Sat 17 Oct 19:00 Past event Wed 21 Oct 21:20 Past event",
+      "url": "https://www.flagey.be/en/agenda/too-many-beasts-h34h",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 10.5,
+      "uid": "1007acc5943aff08",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
     },
     {
       "title": "MEHMET ATLI, YILMAZ GUNEYLÎ",
@@ -3261,24 +3030,6 @@
       "tags": []
     },
     {
-      "title": "De Troostboom (L’Arbre du Réconfort) ven 23/10 - 16:00 Cours, Stages et Ateliers",
-      "start": "2026-10-23T16:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "De Troostboom (L’Arbre du Réconfort) ven 23/10 - 16:00 Cours, Stages et Ateliers",
-      "url": "http://forest.brussels/fr/agenda/cours-stages-et-ateliers/2026/de-troostboom-larbre-du-reconfort",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "b9d7ca782024acbd",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "Opening De Troostboom ven 23/10 - 16:00 Divers",
       "start": "2026-10-23T16:00:00+02:00",
       "end": null,
@@ -3291,6 +3042,24 @@
       "price_min": null,
       "price_max": null,
       "uid": "5e3a51113064c107",
+      "colour": "#0F8CA8",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "De Troostboom (L’Arbre du Réconfort) ven 23/10 - 16:00 Cours, Stages et Ateliers",
+      "start": "2026-10-23T16:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "De Troostboom (L’Arbre du Réconfort) ven 23/10 - 16:00 Cours, Stages et Ateliers",
+      "url": "http://forest.brussels/fr/agenda/cours-stages-et-ateliers/2026/de-troostboom-larbre-du-reconfort",
+      "image": null,
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "b9d7ca782024acbd",
       "colour": "#0F8CA8",
       "detail_checked": 4,
       "category": "other",
@@ -3628,7 +3397,8 @@
       "tags": [
         "registration-required"
       ],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Look Who's Talking: Helena Kritis (NL)",
@@ -3650,7 +3420,8 @@
       "tags": [
         "registration-required"
       ],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "© Gc Tenweyngaert Gratis Kledingswap in Ten Weyngaert Organisator: Gemeenschapscentrum Ten Weyngaert vzw za 24.10.2026 GC Ten Weyngaert, Vo",
@@ -3902,7 +3673,7 @@
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "dans 3 jours Manifestation 12h voor Cuba - Eis het einde van de blokkade! Samedi 24 octobre 2026 à 08:00 Bruxelles - 1000 Organisé par ProtestBase",
+      "description": "dans 2 jours Manifestation 12h voor Cuba - Eis het einde van de blokkade! Samedi 24 octobre 2026 à 08:00 Bruxelles - 1000 Organisé par ProtestBase",
       "url": "https://protestbase.be/manifestations/bruxelles",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
@@ -3942,7 +3713,7 @@
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "dans 3 jours Apprendre Y en a marre - Formation initiale Samedi 24 octobre 2026 à 09:30 Ixelles - 1050 Organisé par ProtestBase",
+      "description": "dans 2 jours Apprendre Y en a marre - Formation initiale Samedi 24 octobre 2026 à 09:30 Ixelles - 1050 Organisé par ProtestBase",
       "url": "https://protestbase.be/manifestations/bruxelles",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
@@ -3950,24 +3721,6 @@
       "price_max": null,
       "uid": "b69be72c0fbfafbf",
       "colour": "#E07A00",
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "Visit & Practice - Modèle vivant sam 24/10 - 09:30 Cours, Stages et Ateliers",
-      "start": "2026-10-24T09:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Visit & Practice - Modèle vivant sam 24/10 - 09:30 Cours, Stages et Ateliers",
-      "url": "http://forest.brussels/fr/agenda/cours-stages-et-ateliers/2026/visit-practice-modele-vivant",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "bff915016c008faa",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -3984,6 +3737,24 @@
       "price_min": null,
       "price_max": null,
       "uid": "e13cacccf772bfc5",
+      "colour": "#0F8CA8",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Visit & Practice - Modèle vivant sam 24/10 - 09:30 Cours, Stages et Ateliers",
+      "start": "2026-10-24T09:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Visit & Practice - Modèle vivant sam 24/10 - 09:30 Cours, Stages et Ateliers",
+      "url": "http://forest.brussels/fr/agenda/cours-stages-et-ateliers/2026/visit-practice-modele-vivant",
+      "image": null,
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "bff915016c008faa",
       "colour": "#0F8CA8",
       "detail_checked": 4,
       "category": "other",
@@ -4080,24 +3851,6 @@
       ]
     },
     {
-      "title": "Troc de vêtements au Ten Weyngaert sam 24/10 - 14:00 Marchés & brocantes",
-      "start": "2026-10-24T14:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Troc de vêtements au Ten Weyngaert sam 24/10 - 14:00 Marchés & brocantes",
-      "url": "http://forest.brussels/fr/agenda/marches-brocantes/2026/troc-de-vetements-au-ten-weyngaert",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "5e347bbe33bab68f",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "Cartographie les voies lentes de Forest sam 24/10 - 14:00 Animations",
       "start": "2026-10-24T14:00:00+02:00",
       "end": null,
@@ -4110,6 +3863,24 @@
       "price_min": null,
       "price_max": null,
       "uid": "6d4ba9c093bf71bc",
+      "colour": "#0F8CA8",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Troc de vêtements au Ten Weyngaert sam 24/10 - 14:00 Marchés & brocantes",
+      "start": "2026-10-24T14:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Troc de vêtements au Ten Weyngaert sam 24/10 - 14:00 Marchés & brocantes",
+      "url": "http://forest.brussels/fr/agenda/marches-brocantes/2026/troc-de-vetements-au-ten-weyngaert",
+      "image": null,
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "5e347bbe33bab68f",
       "colour": "#0F8CA8",
       "detail_checked": 4,
       "category": "other",
@@ -4477,6 +4248,26 @@
       ]
     },
     {
+      "title": "Superbe Brocante couverte sous le viaduc Herman Debroux",
+      "start": "2026-10-25T00:00:00+02:00",
+      "end": "2026-10-25T00:00:00+02:00",
+      "all_day": false,
+      "location": "Viaduc Herman Debroux, Auderghem",
+      "description": "",
+      "url": "https://www.quefaire.be/superbe-brocante-couverte-8775548.shtml",
+      "image": "https://www.quefaire.be/img_n/8775548_1.jpeg",
+      "source": "Quefaire.be brocantes (Brussels region)",
+      "price_min": 15.0,
+      "price_max": 15.0,
+      "uid": "37dced1c9e7953ea",
+      "colour": "#E8336D",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "late-night"
+      ]
+    },
+    {
       "title": "25 Oct 2026 Mon corps leur choix Cristelle Jouglet Mûrs-Erigné (49)",
       "start": "2026-10-25T00:00:00+02:00",
       "end": null,
@@ -4495,19 +4286,37 @@
       "tags": []
     },
     {
-      "title": "L’Arbre du Réconfort - film Têtes Brûlées avec débat dim 25/10 - 14:00 Cinéma",
-      "start": "2026-10-25T14:00:00+01:00",
+      "title": "Le Parc Duden dim 25/10 - 11:00 Visites Guidées",
+      "start": "2026-10-25T11:00:00+01:00",
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "L’Arbre du Réconfort - film Têtes Brûlées avec débat dim 25/10 - 14:00 Cinéma",
-      "url": "http://forest.brussels/fr/agenda/cinema/2026/larbre-du-reconfort-film-tetes-brulees-avec-debat",
+      "description": "Le Parc Duden dim 25/10 - 11:00 Visites Guidées",
+      "url": "http://forest.brussels/fr/agenda/visites-guidees/2026/le-parc-duden",
       "image": null,
       "source": "Forest (commune agenda)",
       "price_min": null,
       "price_max": null,
-      "uid": "ca7fa718ece8e4c2",
+      "uid": "93080c8b2edb19bf",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Akira",
+      "start": "2026-10-25T16:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "Akira Sun 25 Oct 16:00 Studio 5 cinema animation € 7,00–€ 10,50 dates dates Sun 25 Oct 16:00 tickets Wed 9 Sep 21:00 Past event Thu 10 Sep 16:20 Past event Sun 13 Sep 18:30 Past event Fri 18 Sep 18:50 Past event Sun 20 Sep 21:00 Past event Thu 24 Sep 21:00 Past event Fri 25 Sep 16:30 Past event Wed",
+      "url": "https://www.flagey.be/en/agenda/akira-f95q",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 10.5,
+      "uid": "c9180fbc529a5b07",
+      "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "other",
       "tags": []
@@ -4662,6 +4471,45 @@
       "stale": true
     },
     {
+      "title": "lab lun 26 oct '26 AB Antenna Passagenwerk: a workshop by Lauren Elkin Un atelier consacré au lieu, au pouvoir et à l'attention, qui explore",
+      "start": "2026-10-26T13:30:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "lab lun 26 oct '26 AB Antenna Passagenwerk: a workshop by Lauren Elkin Un atelier consacré au lieu, au pouvoir et à l'attention, qui explore la manière dont les environnements façonnent les vies et le langage. Atelier Acheter",
+      "url": "https://www.abconcerts.be/fr/agenda/passagenwerk-a-workshop-by-lauren-elkin/a10Qw00000OxC7NIAV",
+      "image": "https://abconcerts.be/assets/website/components/images/og-image.1c2180e4.png",
+      "source": "Ancienne Belgique",
+      "price_min": 2.0,
+      "price_max": 27.0,
+      "uid": "dd2f6b615e468b01",
+      "colour": "#C0392B",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "lab lun 26 oct '26 AB Salon Book Presentation: Vocal Break: On Women, Music and Power (by Lauren Elkin) Une réinterprétation d'une originali",
+      "start": "2026-10-26T19:30:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "lab lun 26 oct '26 AB Salon Book Presentation: Vocal Break: On Women, Music and Power (by Lauren Elkin) Une réinterprétation d'une originalité saisissante de la puissance et de la polyvalence de la voix féminine. Présentation de livre Gratuit - inscription",
+      "url": "https://www.abconcerts.be/fr/agenda/book-presentation-vocal-break-on-women-music-and-power-by-lauren-elkin/a10Qw00000O5rSVIAZ",
+      "image": "https://abconcerts.be/assets/website/components/images/og-image.1c2180e4.png",
+      "source": "Ancienne Belgique",
+      "price_min": 2.0,
+      "price_max": 27.0,
+      "uid": "38edbc971bf3ee75",
+      "colour": "#C0392B",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening",
+        "free"
+      ]
+    },
+    {
       "title": "BOIRE & MANGER PizZwanze",
       "start": "2026-10-26T18:30:00+01:00",
       "end": "2026-10-26T22:30:00+01:00",
@@ -4703,6 +4551,26 @@
         "sustainability"
       ],
       "tags_llm_done": true
+    },
+    {
+      "title": "general mar 27 oct '26 AB Grande salle Beast in Black + Sonata Arctica, Frozen Crown Métal de classe mondiale Concert Acheter",
+      "start": "2026-10-27T19:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "general mar 27 oct '26 AB Grande salle Beast in Black + Sonata Arctica, Frozen Crown Métal de classe mondiale Concert Acheter",
+      "url": "https://www.abconcerts.be/fr/agenda/beast-in-black/a10Qw000006iQeTIAU",
+      "image": "https://abconcerts.be/assets/website/components/images/og-image.1c2180e4.png",
+      "source": "Ancienne Belgique",
+      "price_min": 8.4,
+      "price_max": 45.0,
+      "uid": "3eba616f1697bf2d",
+      "colour": "#C0392B",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
     },
     {
       "title": "27 Oct 2026 Divorcée pour le meilleur et le meilleur Caps Crest (26)",
@@ -5208,7 +5076,8 @@
       "tags": [
         "free"
       ],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Opening: Portia Zvavahera - Kuzviramba Mamuri",
@@ -5230,7 +5099,8 @@
       "tags": [
         "free"
       ],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Artist Talk: Portia Zvavahera (EN)",
@@ -5249,7 +5119,8 @@
       "category": "other",
       "tags": [
         "free"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "30 Oct 2026 Pourtant j’ai tout bien fait comme il faut ! Véronique Kesmedjian Aubusson (23)",
@@ -5694,24 +5565,6 @@
       "tags": []
     },
     {
-      "title": "Marie Darah 31.10.2026 > 05.12.2026 Sculpture poétique Groupe A Atelier Écriture Lecture",
-      "start": "2026-10-31T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "Marie Darah 31.10.2026 > 05.12.2026 Sculpture poétique Groupe A Atelier Écriture Lecture",
-      "url": "https://www.lamaisondulivre.be/atelier/sculpture-poetique-groupe-a-2/",
-      "image": "https://www.lamaisondulivre.be/wp-content/uploads/2025/08/calendar_ssfond.png",
-      "source": "La Maison du Livre",
-      "price_min": 30.0,
-      "price_max": 150.0,
-      "uid": "36778a71cc41895a",
-      "colour": "#C0392B",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "Marie Darah 31.10.2026 > 05.12.2026 Sculpture poétique Groupe B Atelier Écriture Lecture",
       "start": "2026-10-31T00:00:00+01:00",
       "end": null,
@@ -5724,6 +5577,24 @@
       "price_min": 10.0,
       "price_max": 150.0,
       "uid": "b84f1b90095a67e5",
+      "colour": "#C0392B",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Marie Darah 31.10.2026 > 05.12.2026 Sculpture poétique Groupe A — ANNULÉ Atelier Écriture Lecture",
+      "start": "2026-10-31T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "Marie Darah 31.10.2026 > 05.12.2026 Sculpture poétique Groupe A — ANNULÉ Atelier Écriture Lecture",
+      "url": "https://www.lamaisondulivre.be/atelier/sculpture-poetique-groupe-a-2/",
+      "image": "https://www.lamaisondulivre.be/wp-content/uploads/2025/08/calendar_ssfond.png",
+      "source": "La Maison du Livre",
+      "price_min": 30.0,
+      "price_max": 150.0,
+      "uid": "f5b6974f28259806",
       "colour": "#C0392B",
       "detail_checked": 4,
       "category": "other",
@@ -6706,7 +6577,8 @@
       "category": "other",
       "tags": [
         "free"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "L'être ou ne pas l'être",
@@ -6893,7 +6765,8 @@
       "uid": "6a2203342bdf32fe",
       "colour": "#E07A00",
       "category": "other",
-      "tags": []
+      "tags": [],
+      "stale": true
     },
     {
       "title": "05.11.26 ― 07.11.26 Ceci n'est pas Noire: act II Alesandra Seutin / KVS Langue: FR EN Surtitrage: NL • FR • EN",
@@ -7125,6 +6998,24 @@
       "price_min": null,
       "price_max": null,
       "uid": "90335f62eaad186e",
+      "colour": "#0F8CA8",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "06 Nov 2026 Que va-t-on faire du surveillant général? Jean-Marc Thouéry Arabaux (09)",
+      "start": "2026-11-06T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "06 Nov 2026 Que va-t-on faire du surveillant général? Jean-Marc Thouéry Arabaux (09)",
+      "url": "https://conferences-gesticulees.net/events/06-11-2026-jean-marc-thouery-la-mauvaise-foix/",
+      "image": null,
+      "source": "Conférences gesticulées (per-day pages)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "5dfacec6de85b322",
       "colour": "#0F8CA8",
       "detail_checked": 4,
       "category": "other",
@@ -7549,7 +7440,8 @@
       "uid": "9e5c697ed7f5881c",
       "colour": "#E07A00",
       "category": "other",
-      "tags": []
+      "tags": [],
+      "stale": true
     },
     {
       "title": "Sablon Antiques Market",
@@ -8077,7 +7969,7 @@
       "all_day": false,
       "location": "l'amour fou, Chaussée d'Ixelles 185, Ixelles, Ixelles",
       "description": "Would you like to improve your language skills and networking in a casual atmosphere? This event is for you! All languages welcome! Everyone is welcome! The aim is to speak with native/fluent speakers of your target language(s). You'll be around all types of people throughout the whole event. We will be in a private area. A great atmosphere is guaranteed! You'll have to order a drink to attend the event 😀 Don't hesitate to contact us for any further information",
-      "url": "https://www.meetup.com/brusselsinternationalhubevents/events/lprnrtyjcpbnb/",
+      "url": "https://www.meetup.com/brusselsinternationalhubevents/events/317076654/",
       "image": "https://secure.meetupstatic.com/photos/event/2/8/2/e/600_528130286.jpeg",
       "source": "Brussels International Hub Events (Meetup)",
       "price_min": 150.0,
@@ -8518,7 +8410,7 @@
       "end": null,
       "all_day": false,
       "location": "La Piscine,",
-      "description": "FRI 13 NOV 20:00 LAS VEGAS Tickets",
+      "description": "FRI 13 NOV 20:00 LAS VEGAS Tickets 20:00 NEXUS - EN QUÊTE D’UNE VOIE OFFSITE Les Brigittines Tickets",
       "url": "https://www.halles.be/en/ap/2099-las-vegas-dena",
       "image": "https://www.halles.be/en/image/og/image/1",
       "source": "Halles de Schaerbeek",
@@ -9042,6 +8934,24 @@
       "tags": [
         "evening"
       ]
+    },
+    {
+      "title": "18.11.26 PRÓXIMAMENTE 2026 CELEBRATING THE ENCOUNTER",
+      "start": "2026-11-18T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "18.11.26 PRÓXIMAMENTE 2026 CELEBRATING THE ENCOUNTER Acheter des billets",
+      "url": "https://www.kvs.be/fr/Evenement/celebrating-the-encounter-2",
+      "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
+      "source": "KVS",
+      "price_min": null,
+      "price_max": null,
+      "uid": "bed09a388670afeb",
+      "colour": "#E07A00",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
     },
     {
       "title": "18.11.26 ― 19.11.26 PRÓXIMAMENTE 2026 Yo, Chacarera India Sánchez Ortiz",
@@ -9858,7 +9768,7 @@
       "end": null,
       "all_day": true,
       "location": "",
-      "description": "Sat 21 Nov Listen Festival x Fuse w/ MCR-T & Miss Bashful Tickets Line-up Room 01 MCR-T Miss Bashful Stella K Maraschino Motion LAURAVIOLI BAVR & DC Noises CYVIRA Buy tickets More info",
+      "description": "Sat 21 Nov Listen Festival x Fuse w/ MCR-T & Miss Bashful Tickets Line-up Room 01 MCR-T Miss Bashful Stella K Maraskino Motion LAURAVIOLI BAVR & DC Noises CYVIRA Buy tickets More info",
       "url": "https://www.fuse.be/events/listen-festival-x-fuse-w-mcr-t-miss-bashful",
       "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788368690",
       "source": "Fuse",
@@ -10081,22 +9991,24 @@
       "tags": []
     },
     {
-      "title": "Fanny Garin 21.11.2026 > 22.11.2026 Polar et poésie — complet Atelier Écriture Poésie Polar",
-      "start": "2026-11-21T00:00:00+01:00",
+      "title": "Rectum Crocodile",
+      "start": "2026-11-21T18:00:00+01:00",
       "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "Fanny Garin 21.11.2026 > 22.11.2026 Polar et poésie — complet Atelier Écriture Poésie Polar",
-      "url": "https://www.lamaisondulivre.be/atelier/polar-et-poesie/",
-      "image": "https://www.lamaisondulivre.be/wp-content/uploads/2025/08/calendar_ssfond.png",
-      "source": "La Maison du Livre",
-      "price_min": 12.0,
-      "price_max": 60.0,
-      "uid": "8a1e9e563034d1d8",
-      "colour": "#C0392B",
+      "all_day": false,
+      "location": "Théâtre Varia, Rue du Sceptre 78, Ixelles",
+      "description": "Danse Performance Rectum Crocodile Marvin M'toumo 19—21.11.2026 19—21.11.2026 Revoir Théâtre Varia Rectum Crocodile sounds like the title of a quirky noir novel, but it is a fabulous tale in which the characters parade in magnificent finery. Thus, ghosts, humans and beasts mingle, trees speak, and t",
+      "url": "https://varia.be/en/programme/2026-2027/marvin-mtoumo/rectum-crocodile",
+      "image": "https://varia.be/themes/_custom/frontend/assets/css/images/logo/TheatreVaria.png",
+      "source": "Varia",
+      "price_min": null,
+      "price_max": null,
+      "uid": "32dc65599501c16c",
+      "colour": "#E07A00",
       "detail_checked": 4,
       "category": "other",
-      "tags": []
+      "tags": [
+        "evening"
+      ]
     },
     {
       "title": "21.11.2026 Une histoire de rencontres Parcours d'éditeur Rencontre",
@@ -10117,6 +10029,24 @@
       "tags": [
         "evening"
       ]
+    },
+    {
+      "title": "Fanny Garin 21.11.2026 > 22.11.2026 Polar et poésie — complet Atelier Écriture Poésie Polar",
+      "start": "2026-11-21T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "Fanny Garin 21.11.2026 > 22.11.2026 Polar et poésie — complet Atelier Écriture Poésie Polar",
+      "url": "https://www.lamaisondulivre.be/atelier/polar-et-poesie/",
+      "image": "https://www.lamaisondulivre.be/wp-content/uploads/2025/08/calendar_ssfond.png",
+      "source": "La Maison du Livre",
+      "price_min": 12.0,
+      "price_max": 60.0,
+      "uid": "8a1e9e563034d1d8",
+      "colour": "#C0392B",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
     },
     {
       "title": "La Ronde occitane",
@@ -10660,24 +10590,6 @@
       "detail_checked": 4
     },
     {
-      "title": "26.11.26 FLIRT FLAMAND Passa Porta Langue: NL FR Surtitrage: FR",
-      "start": "2026-11-26T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "26.11.26 FLIRT FLAMAND Passa Porta Langue: NL FR Surtitrage: FR Acheter des billets",
-      "url": "https://www.kvs.be/fr/Evenement/flirt-flamand-2",
-      "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
-      "source": "KVS",
-      "price_min": null,
-      "price_max": null,
-      "uid": "8e59360f32b77f56",
-      "colour": "#E07A00",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "26 Nov 2026 Evasion Mineure Marie Mazaudou Saint-Junien (87)",
       "start": "2026-11-26T00:00:00+01:00",
       "end": null,
@@ -10708,24 +10620,6 @@
       "price_min": null,
       "price_max": null,
       "uid": "b48ed432c70ea25c",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "26 Nov 2026 Comment sauver l’amour ? Lucie Dunkirk (59)",
-      "start": "2026-11-26T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "26 Nov 2026 Comment sauver l’amour ? Lucie Dunkirk (59)",
-      "url": "https://conferences-gesticulees.net/events/26-11-2026-lucie-la-bib/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "f1b5fd8a29f05d23",
       "colour": "#0F8CA8",
       "detail_checked": 4,
       "category": "other",
@@ -10920,6 +10814,26 @@
       "tags": []
     },
     {
+      "title": "Limit to your care",
+      "start": "2026-11-28T18:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Hors les murs",
+      "description": "Theater Limit to your care Elsa Chêne 20—28.11.2026 20—28.11.2026 Hors les murs ‘Limit to your care’ features a life-size female love doll . This piece explores our relationship with these lifelike dolls by examining our connections with others and the ways in which we form attachments.",
+      "url": "https://varia.be/en/programme/2026-2027/elsa-chene/limit-your-care",
+      "image": "https://varia.be/themes/_custom/frontend/assets/css/images/logo/TheatreVaria.png",
+      "source": "Varia",
+      "price_min": null,
+      "price_max": null,
+      "uid": "cdd3dacac8f48996",
+      "colour": "#E07A00",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
       "title": "Offline",
       "start": "2026-11-28T11:00:00+01:00",
       "end": "2026-11-28T14:00:00+01:00",
@@ -11100,7 +11014,8 @@
       "tags": [
         "free"
       ],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Travailler dans le social-santé à Bruxelles - Bien-être au travail et attractivité des métiers",
@@ -11303,7 +11218,8 @@
         "family",
         "recurring"
       ],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Métamorphoses",
@@ -11596,7 +11512,8 @@
         "free",
         "recurring"
       ],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Under the Gaze of Camille Claudel's Statues",
@@ -12143,7 +12060,8 @@
         "recurring",
         "registration-required"
       ],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Ateliers Altérité - public presentation",
