@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T11:49:18.321398+02:00",
+  "generated": "2026-10-23T21:43:21.898435+02:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
@@ -78,7 +78,7 @@
       "name": "Sounds Jazz Club",
       "url": "https://www.sounds.brussels/agenda/",
       "colour": "#E8336D",
-      "count": 12,
+      "count": 11,
       "method": "none",
       "stale": true,
       "last_ok": "2026-10-03"
@@ -114,7 +114,7 @@
       "name": "Maison Poème",
       "url": "https://maisonpoeme.be/",
       "colour": "#7B49D6",
-      "count": 16,
+      "count": 17,
       "method": "jsonld",
       "stale": false,
       "last_ok": "2026-10-23"
@@ -856,7 +856,7 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "carried": 12,
+      "carried": 11,
       "stale": true,
       "error_class": "billing",
       "note": "llm: skipped (billing failure earlier this run)"
@@ -894,8 +894,8 @@
     {
       "source": "Maison Poème",
       "method": "jsonld",
-      "found": 19,
-      "kept": 16,
+      "found": 20,
+      "kept": 17,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1495,31 +1495,6 @@
         "recurring"
       ],
       "tags_llm_done": true
-    },
-    {
-      "title": "MEHMET ATLI, YILMAZ GUNEYLÎ",
-      "start": "2026-10-22T20:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "KURDISH MUSIC NEW ALBUM",
-      "url": "https://www.sounds.brussels/jazz-concert/mehmet-atli-yilmaz-guneyli/",
-      "image": "https://www.sounds.brussels/wp-content/uploads/2026/07/sounds-social-1024x576-1.jpg",
-      "source": "Sounds Jazz Club",
-      "uid": "ff70f4f81a1bcaab",
-      "colour": "#E8336D",
-      "translated": true,
-      "category": "music",
-      "category_llm": true,
-      "tags": [
-        "evening",
-        "live"
-      ],
-      "tags_llm_done": true,
-      "stale": true,
-      "price_min": 8.0,
-      "price_max": 15.0,
-      "detail_checked": 4
     },
     {
       "title": "© Friends of the Little House Neighborhood Walk Les Marollen and Friends of the Little House Organizer: N22, in collaboration with Community Center",
@@ -2156,24 +2131,6 @@
       "tags_llm_done": true
     },
     {
-      "title": "Sense and Sensibility",
-      "start": "2026-10-23T14:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "Sense and Sensibility Fri 23 Oct 14:30 Studio 5 cinema € 7,00–€ 10,50 dates dates Fri 23 Oct 14:30 tickets Wed 23 Sep 21:00 Past event Fri 25 Sep 18:50 Past event Sat 26 Sep 21:00 Past event Fri 2 Oct 21:15 Past event Sun 4 Oct 15:30 Past event Sat 10 Oct 15:30 Past event Sun 11 Oct 18:00 Past event",
-      "url": "https://www.flagey.be/en/agenda/sense-and-sensibility-9bx5",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "cd941a614301e526",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "De Troostboom (L’Arbre du Réconfort) ven 23/10 - 16:00 Cours, Stages et Ateliers",
       "start": "2026-10-23T16:00:00+02:00",
       "end": null,
@@ -2226,26 +2183,6 @@
       "detail_checked": 4,
       "category": "other",
       "tags": []
-    },
-    {
-      "title": "A Woman's Life",
-      "start": "2026-10-23T17:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "A Woman's Life Fri 23 Oct 17:00 Studio 5 cinema € 7,00–€ 10,50 dates dates Fri 23 Oct 17:00 tickets Thu 17 Sep 19:10 Past event Sat 19 Sep 19:15 Past event Sun 20 Sep 15:00 Past event Thu 24 Sep 19:10 Past event Sat 26 Sep 19:00 Past event Thu 1 Oct 19:15 Past event Wed 7 Oct 17:00 Past event",
-      "url": "https://www.flagey.be/en/agenda/a-woman-s-life-5dwn",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "379a0ddc5649daf4",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
     },
     {
       "title": "Permanence info & buvette du Steki",
@@ -2312,45 +2249,6 @@
       "detail_checked": 4
     },
     {
-      "title": "BXL Pantheres invite Rodney Saint-éloi et Yara El Ghadban",
-      "start": "2026-10-23T18:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "dans 7h Apprendre BXL Pantheres invite Rodney Saint-éloi et Yara El Ghadban Vendredi 23 octobre 2026 à 18:30 Anderlecht - 1070 Organisé par ProtestBase",
-      "url": "https://protestbase.be/manifestations/bruxelles",
-      "image": "https://protestbase.be/og.jpg",
-      "source": "Protestbase Bruxelles",
-      "price_min": null,
-      "price_max": null,
-      "uid": "0de20b00dab306e0",
-      "colour": "#E07A00",
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Le ciné club des Sous-Entendu·e·s: short films screening",
-      "start": "2026-10-23T19:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "Le ciné club des Sous-Entendu·e·s: short films screening Fri 23 Oct 19:00 Studio 5 cinema short film special screening Tickets Normal € 10,50 -12 € 7,00 -26 € 8,50 65+ € 8,50 € 7,00–€ 10,50 last tickets",
-      "url": "https://www.flagey.be/en/agenda/le-cine-club-des-sous-entendu-e-s-short-films-screening-dnnt",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 26.0,
-      "uid": "0cb58a7577b00554",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "L'épisode suivant ven 23/10 - 19:30 Spectacle",
       "start": "2026-10-23T19:30:00+02:00",
       "end": null,
@@ -2415,26 +2313,6 @@
       "price_min": 1.25,
       "price_max": 1900.0,
       "detail_checked": 4
-    },
-    {
-      "title": "Digger",
-      "start": "2026-10-23T21:15:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "Digger Fri 23 Oct and Fri 30 Oct Studio 5 cinema € 7,00–€ 10,50 dates dates Fri 23 Oct 21:15 tickets Fri 30 Oct 15:50 tickets Thu 1 Oct 21:10 Past event Fri 2 Oct 18:50 Past event Sun 4 Oct 20:50 Past event Fri 9 Oct 18:50 Past event Sat 10 Oct 20:50 Past event Thu 15 Oct 21:00 Past event Sun 18 Oct",
-      "url": "https://www.flagey.be/en/agenda/digger-yhg6",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "c8cd43735c5e03bd",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
     },
     {
       "title": "Illegaal Djipsies #14 ven 23/10 - 22:00 Clubbing",
@@ -2870,7 +2748,7 @@
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "dans 20h Manifestation 12h voor Cuba - Eis het einde van de blokkade! Samedi 24 octobre 2026 à 08:00 Bruxelles - 1000 Organisé par ProtestBase",
+      "description": "dans 10h Manifestation 12h voor Cuba - Eis het einde van de blokkade! Samedi 24 octobre 2026 à 08:00 Bruxelles - 1000 Organisé par ProtestBase",
       "url": "https://protestbase.be/manifestations/bruxelles",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
@@ -2905,35 +2783,35 @@
       "tags_llm_done": true
     },
     {
-      "title": "Ateliers histoires et résistance - Bruxelles",
-      "start": "2026-10-24T09:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "dans 22h Apprendre Ateliers histoires et résistance - Bruxelles Samedi 24 octobre 2026 à 09:30 Etterbeek - 1040 Organisé par ProtestBase",
-      "url": "https://protestbase.be/manifestations/bruxelles",
-      "image": "https://protestbase.be/og.jpg",
-      "source": "Protestbase Bruxelles",
-      "price_min": null,
-      "price_max": null,
-      "uid": "2212c002c47cf18a",
-      "colour": "#E07A00",
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "Y en a marre - Formation initiale",
       "start": "2026-10-24T09:30:00+02:00",
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "dans 22h Apprendre Y en a marre - Formation initiale Samedi 24 octobre 2026 à 09:30 Ixelles - 1050 Organisé par ProtestBase",
+      "description": "dans 12h Apprendre Y en a marre - Formation initiale Samedi 24 octobre 2026 à 09:30 Ixelles - 1050 Organisé par ProtestBase",
       "url": "https://protestbase.be/manifestations/bruxelles",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
       "price_min": null,
       "price_max": null,
       "uid": "b69be72c0fbfafbf",
+      "colour": "#E07A00",
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Ateliers histoires et résistance - Bruxelles",
+      "start": "2026-10-24T09:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "dans 12h Apprendre Ateliers histoires et résistance - Bruxelles Samedi 24 octobre 2026 à 09:30 Etterbeek - 1040 Organisé par ProtestBase",
+      "url": "https://protestbase.be/manifestations/bruxelles",
+      "image": "https://protestbase.be/og.jpg",
+      "source": "Protestbase Bruxelles",
+      "price_min": null,
+      "price_max": null,
+      "uid": "2212c002c47cf18a",
       "colour": "#E07A00",
       "category": "other",
       "tags": []
@@ -3016,7 +2894,7 @@
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "Demain Aide recherchée Manifestation Manifestation Samedi 24 octobre 2026 à 13:00 Ixelles - 1050 Organisé par El Ghad pour les Droits de l'Homme",
+      "description": "dans 15h Aide recherchée Manifestation Manifestation Samedi 24 octobre 2026 à 13:00 Ixelles - 1050 Organisé par El Ghad pour les Droits de l'Homme",
       "url": "https://protestbase.be/manifestations/bruxelles",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
@@ -3028,35 +2906,35 @@
       "tags": []
     },
     {
-      "title": "Discussion & musique: vaincre l'extrème droite - Molenbeek",
-      "start": "2026-10-24T13:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Demain Apprendre Discussion & musique: vaincre l'extrème droite - Molenbeek Samedi 24 octobre 2026 à 13:30 Molenbeek-Saint-Jean - 1080 Organisé par ProtestBase",
-      "url": "https://protestbase.be/manifestations/bruxelles",
-      "image": "https://protestbase.be/og.jpg",
-      "source": "Protestbase Bruxelles",
-      "price_min": null,
-      "price_max": null,
-      "uid": "578bbeac67ef5629",
-      "colour": "#E07A00",
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "CHANGE - Oxfam Youth Training - Spark Your Activism",
       "start": "2026-10-24T13:30:00+02:00",
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "Demain Apprendre CHANGE - Oxfam Youth Training - Spark Your Activism Samedi 24 octobre 2026 à 13:30 Etterbeek - 1040 Organisé par Rosalie Buytaert",
+      "description": "dans 16h Apprendre CHANGE - Oxfam Youth Training - Spark Your Activism Samedi 24 octobre 2026 à 13:30 Etterbeek - 1040 Organisé par Rosalie Buytaert",
       "url": "https://protestbase.be/manifestations/bruxelles",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
       "price_min": null,
       "price_max": null,
       "uid": "a57d42ccba39583f",
+      "colour": "#E07A00",
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Discussion & musique: vaincre l'extrème droite - Molenbeek",
+      "start": "2026-10-24T13:30:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "dans 16h Apprendre Discussion & musique: vaincre l'extrème droite - Molenbeek Samedi 24 octobre 2026 à 13:30 Molenbeek-Saint-Jean - 1080 Organisé par ProtestBase",
+      "url": "https://protestbase.be/manifestations/bruxelles",
+      "image": "https://protestbase.be/og.jpg",
+      "source": "Protestbase Bruxelles",
+      "price_min": null,
+      "price_max": null,
+      "uid": "578bbeac67ef5629",
       "colour": "#E07A00",
       "category": "other",
       "tags": []
@@ -3213,7 +3091,7 @@
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "Demain Soutien Soirée de soutien WUUNE Samedi 24 octobre 2026 à 18:00 Schaerbeek - 1030 Organisé par ProtestBase",
+      "description": "dans 20h Soutien Soirée de soutien WUUNE Samedi 24 octobre 2026 à 18:00 Schaerbeek - 1030 Organisé par ProtestBase",
       "url": "https://protestbase.be/manifestations/bruxelles",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
@@ -3232,7 +3110,7 @@
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "Demain Soutien 🎟️ GRANDE TOMBOLA DE SOUTIEN À WUUNE ET AUX LOCATAIRES 🎟️ Samedi 24 octobre 2026 à 18:00 Schaerbeek - 1030 Organisé par ProtestBase",
+      "description": "dans 20h Soutien 🎟️ GRANDE TOMBOLA DE SOUTIEN À WUUNE ET AUX LOCATAIRES 🎟️ Samedi 24 octobre 2026 à 18:00 Schaerbeek - 1030 Organisé par ProtestBase",
       "url": "https://protestbase.be/manifestations/bruxelles",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
@@ -3873,26 +3751,6 @@
       "tags_llm_done": true
     },
     {
-      "title": "general mar 27 oct '26 AB Grande salle Beast in Black + Sonata Arctica, Frozen Crown Métal de classe mondiale Concert Acheter",
-      "start": "2026-10-27T19:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "general mar 27 oct '26 AB Grande salle Beast in Black + Sonata Arctica, Frozen Crown Métal de classe mondiale Concert Acheter",
-      "url": "https://www.abconcerts.be/fr/agenda/beast-in-black/a10Qw000006iQeTIAU",
-      "image": "https://abconcerts.be/assets/website/components/images/og-image.1c2180e4.png",
-      "source": "Ancienne Belgique",
-      "price_min": 8.4,
-      "price_max": 45.0,
-      "uid": "3eba616f1697bf2d",
-      "colour": "#C0392B",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "general mar 27 oct '26 AB Club Tomoki Sanders L'enfant de Pharoah Sanders et figure clé de Kassa Overall, Tomoki Sanders fait ses débuts che",
       "start": "2026-10-27T19:00:00+01:00",
       "end": null,
@@ -3925,6 +3783,26 @@
       "price_min": 2.0,
       "price_max": 27.0,
       "uid": "aaf82905b9c1d797",
+      "colour": "#C0392B",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
+      "title": "general mar 27 oct '26 AB Grande salle Beast in Black + Sonata Arctica, Frozen Crown Métal de classe mondiale Concert Acheter",
+      "start": "2026-10-27T19:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "general mar 27 oct '26 AB Grande salle Beast in Black + Sonata Arctica, Frozen Crown Métal de classe mondiale Concert Acheter",
+      "url": "https://www.abconcerts.be/fr/agenda/beast-in-black/a10Qw000006iQeTIAU",
+      "image": "https://abconcerts.be/assets/website/components/images/og-image.1c2180e4.png",
+      "source": "Ancienne Belgique",
+      "price_min": 8.4,
+      "price_max": 45.0,
+      "uid": "3eba616f1697bf2d",
       "colour": "#C0392B",
       "detail_checked": 4,
       "category": "other",
@@ -3975,7 +3853,7 @@
       "all_day": true,
       "location": "Bozar, Rue Baron Horta 1, 1000 Bruxelles, Belgique, 1000 Bruxelles, Bruxelles, Belgique, Bruxelles",
       "description": "Une voix d’Irlande — Concert de gala caritatif 27 oct 2026 Concerts Classique / Contemporain / Baroque / Carillons Bozar Bruxelles - Bruxelles Un concert de gala exceptionnel fera résonner Bozar le 27 octobre au son de magnifiques mélodies irlandaises et d’extraits d’opéras et de comédies musicale",
-      "url": "https://www.out.be/fr/evenements/222700_une-voix-d-irlande-concert-de-gala-caritatif.html",
+      "url": "https://www.out.be/fr/evenements/223494_une-voix-d-irlande-concert-de-gala-caritatif.html",
       "image": "https://www.out.be/assets/img/logo-outbe.svg",
       "source": "Out.be",
       "price_min": 40.0,
@@ -4163,6 +4041,42 @@
       ]
     },
     {
+      "title": "Lucy Lost",
+      "start": "2026-10-28T14:45:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "Lucy Lost Wed 28 Oct - Sun 8 Nov Studio 5 cinema animation € 7,00–€ 10,50 dates dates Wed 28 Oct 14:45 tickets Fri 30 Oct 14:00 tickets Sun 8 Nov 14:00 tickets",
+      "url": "https://www.flagey.be/en/agenda/lucy-lost-b55c",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 10.5,
+      "uid": "d00e2eef3bbb3374",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "L'Autre Côté du Soleil",
+      "start": "2026-10-28T16:40:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "L'Autre Côté du Soleil Wed 28 Oct 16:40 Studio 5 cinema special screening € 7,00–€ 10,50 dates dates Wed 28 Oct 16:40 tickets Wed 14 Oct 19:00 Past event premiere attended by the filmmaker Wed 21 Oct 17:35 Past event",
+      "url": "https://www.flagey.be/en/agenda/l-autre-cote-du-soleil-72sk",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 10.5,
+      "uid": "216c1a9496cc2684",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "Rally: Back to la Bourse for Palestine!",
       "start": "2026-10-28T18:00:00+00:00",
       "end": "2026-10-28T19:00:00+00:00",
@@ -4186,6 +4100,26 @@
         "outdoor"
       ],
       "tags_llm_done": true
+    },
+    {
+      "title": "Too many beasts",
+      "start": "2026-10-28T18:15:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "Too many beasts Wed 28 Oct and Thu 5 Nov Studio 5 cinema € 7,00–€ 10,50 dates dates Wed 28 Oct 18:15 tickets Thu 5 Nov 17:00 tickets Wed 14 Oct 21:05 Past event Fri 16 Oct 17:00 Past event Sat 17 Oct 19:00 Past event Wed 21 Oct 21:20 Past event Thu 22 Oct 19:20 Past event",
+      "url": "https://www.flagey.be/en/agenda/too-many-beasts-h34h",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 10.5,
+      "uid": "1453a3871da2d232",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
     },
     {
       "title": "The Pigeon and the Lazarus Bird",
@@ -4233,6 +4167,26 @@
       "price_min": 8.0,
       "price_max": 25.0,
       "detail_checked": 4
+    },
+    {
+      "title": "La Gradiva",
+      "start": "2026-10-28T20:15:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "La Gradiva Wed 28 Oct - Fri 27 Nov Studio 5 cinema € 7,00–€ 10,50 dates dates Wed 28 Oct 20:15 tickets Fri 30 Oct 20:30 tickets Sun 1 Nov 16:00 tickets Thu 5 Nov 21:05 tickets Sun 8 Nov 15:45 tickets Fri 13 Nov 18:45 tickets Sun 15 Nov 18:15 tickets Sat 21 Nov 15:50 tickets Fri 27 Nov 16:10 tickets",
+      "url": "https://www.flagey.be/en/agenda/la-gradiva-mbb1",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 10.5,
+      "uid": "9d7e829260268746",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
     },
     {
       "title": "© Nico Wei Gratis Jonge Belgische Cinema #24 Externe organisator: Le p'tit ciné do 29.10.2026 GC Pianofabriek, Sint-Gillis Thema activiteit",
@@ -4960,24 +4914,6 @@
       "tags": []
     },
     {
-      "title": "Marie Darah 31.10.2026 > 05.12.2026 Sculpture poétique Groupe B — complet Atelier Écriture Lecture",
-      "start": "2026-10-31T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "Marie Darah 31.10.2026 > 05.12.2026 Sculpture poétique Groupe B — complet Atelier Écriture Lecture",
-      "url": "https://www.lamaisondulivre.be/atelier/sculpture-poetique-groupe-b-2/",
-      "image": "https://www.lamaisondulivre.be/wp-content/uploads/2025/08/calendar_ssfond.png",
-      "source": "La Maison du Livre",
-      "price_min": 10.0,
-      "price_max": 150.0,
-      "uid": "16a33164bd7333ca",
-      "colour": "#C0392B",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "Marie Darah 31.10.2026 > 05.12.2026 Sculpture poétique Groupe A — ANNULÉ Atelier Écriture Lecture",
       "start": "2026-10-31T00:00:00+01:00",
       "end": null,
@@ -4990,6 +4926,24 @@
       "price_min": 30.0,
       "price_max": 150.0,
       "uid": "f5b6974f28259806",
+      "colour": "#C0392B",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Marie Darah 31.10.2026 > 05.12.2026 Sculpture poétique Groupe B — complet Atelier Écriture Lecture",
+      "start": "2026-10-31T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "Marie Darah 31.10.2026 > 05.12.2026 Sculpture poétique Groupe B — complet Atelier Écriture Lecture",
+      "url": "https://www.lamaisondulivre.be/atelier/sculpture-poetique-groupe-b-2/",
+      "image": "https://www.lamaisondulivre.be/wp-content/uploads/2025/08/calendar_ssfond.png",
+      "source": "La Maison du Livre",
+      "price_min": 10.0,
+      "price_max": 150.0,
+      "uid": "16a33164bd7333ca",
       "colour": "#C0392B",
       "detail_checked": 4,
       "category": "other",
@@ -5053,6 +5007,25 @@
         "evening"
       ],
       "stale": true
+    },
+    {
+      "title": "Earth's Greatest Enemy - documentary screening Brussels",
+      "start": "2026-10-31T18:30:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "samedi 31 octobre 2026 Apprendre Earth's Greatest Enemy - documentary screening Brussels Samedi 31 octobre 2026 à 18:30 Saint-Gilles - 1060 Organisé par ProtestBase",
+      "url": "https://protestbase.be/manifestations/bruxelles",
+      "image": "https://protestbase.be/og.jpg",
+      "source": "Protestbase Bruxelles",
+      "price_min": null,
+      "price_max": null,
+      "uid": "d62bde8e7bbf8a09",
+      "colour": "#E07A00",
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
     },
     {
       "title": "SAXONEO",
@@ -10803,6 +10776,23 @@
       "uid": "e989eb20bdcd6b39",
       "colour": "#00937A",
       "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Beyond the Story – Soutien à Husam",
+      "start": "2026-12-05T14:00:00+01:00",
+      "end": "2026-12-05T23:30:00+01:00",
+      "all_day": false,
+      "location": "Maison poème, Rue d'Écosse 30, 1060 Saint-Gilles",
+      "description": "Solidarité avec Husam : une aprèm et soirée de soutien pour récolter des fonds afin de l’aider à payer ses frais administratifs et judiciaires. On t’explique : Tu le sais peut-être, Husam est palestinien et est identifié par la police comme un des meneurs des manifestations pour la Palestine à Bruxelles. Sans surprise, la répression […]",
+      "url": "https://maisonpoeme.be/",
+      "image": "https://maisonpoeme.be/wp-content/uploads/2026/10/format-carre_-1024x1024.png",
+      "source": "Maison Poème",
+      "price_min": null,
+      "price_max": null,
+      "uid": "6f369fc8e3ef75fc",
+      "colour": "#7B49D6",
       "category": "other",
       "tags": []
     },
