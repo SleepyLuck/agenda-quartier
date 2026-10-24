@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T11:23:29.128431+02:00",
+  "generated": "2026-10-24T20:33:17.652785+02:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
@@ -78,7 +78,7 @@
       "name": "Sounds Jazz Club",
       "url": "https://www.sounds.brussels/agenda/",
       "colour": "#E8336D",
-      "count": 11,
+      "count": 10,
       "method": "none",
       "stale": true,
       "last_ok": "2026-10-03"
@@ -150,7 +150,7 @@
       "name": "Le Senghor",
       "url": "https://www.senghor.be/agenda/",
       "colour": "#E8336D",
-      "count": 32,
+      "count": 31,
       "method": "none",
       "stale": true,
       "last_ok": "2026-10-03"
@@ -159,7 +159,7 @@
       "name": "Flagey",
       "url": "https://www.flagey.be/agenda",
       "colour": "#1B6FE0",
-      "count": 11,
+      "count": 12,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-10-24"
@@ -186,7 +186,7 @@
       "name": "Kaaitheater",
       "url": "https://kaaitheater.be/nl/agenda",
       "colour": "#7B49D6",
-      "count": 3,
+      "count": 2,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-10-24"
@@ -285,7 +285,7 @@
       "name": "Théâtre National Wallonie-Bruxelles",
       "url": "https://www.theatrenational.be/en/program/",
       "colour": "#8A7500",
-      "count": 22,
+      "count": 21,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-10-24"
@@ -312,7 +312,7 @@
       "name": "Agenda engagé (Syndicats magazine)",
       "url": "https://syndicatsmagazine.be/agenda-engage-octobre-2026/",
       "colour": "#00937A",
-      "count": 1,
+      "count": 0,
       "method": "none",
       "stale": true,
       "last_ok": "2026-10-03"
@@ -339,7 +339,7 @@
       "name": "Conférences gesticulées (network catalogue)",
       "url": "https://conferences-gesticulees.net/",
       "colour": "#C0392B",
-      "count": 5,
+      "count": 12,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-10-24"
@@ -420,7 +420,7 @@
       "name": "Forest (commune agenda)",
       "url": "https://forest.brussels/fr/agenda",
       "colour": "#0F8CA8",
-      "count": 23,
+      "count": 21,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-10-24"
@@ -582,7 +582,7 @@
       "name": "Welzijnszorg / BOP",
       "url": "https://www.bop.brussels/",
       "colour": "#E8336D",
-      "count": 1,
+      "count": 0,
       "method": "manual",
       "stale": false,
       "last_ok": "2026-10-24"
@@ -856,7 +856,7 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "carried": 11,
+      "carried": 10,
       "stale": true,
       "error_class": "billing",
       "note": "llm: skipped (billing failure earlier this run)"
@@ -936,7 +936,7 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "carried": 32,
+      "carried": 31,
       "stale": true,
       "error_class": "billing",
       "note": "browser: jsonld/recipe empty, llm skipped (billing failure earlier this run)"
@@ -944,8 +944,8 @@
     {
       "source": "Flagey",
       "method": "recipe",
-      "found": 11,
-      "kept": 11,
+      "found": 12,
+      "kept": 12,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -954,7 +954,7 @@
     {
       "source": "BOZAR",
       "method": "recipe",
-      "found": 8,
+      "found": 7,
       "kept": 6,
       "carried": 0,
       "stale": false,
@@ -975,7 +975,7 @@
       "source": "Kaaitheater",
       "method": "recipe",
       "found": 19,
-      "kept": 3,
+      "kept": 2,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1084,8 +1084,8 @@
     {
       "source": "Théâtre National Wallonie-Bruxelles",
       "method": "recipe",
-      "found": 31,
-      "kept": 22,
+      "found": 30,
+      "kept": 21,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1116,7 +1116,7 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "carried": 1,
+      "carried": 0,
       "stale": true,
       "error_class": "billing",
       "note": "llm: skipped (billing failure earlier this run)"
@@ -1145,7 +1145,7 @@
       "source": "Conférences gesticulées (network catalogue)",
       "method": "recipe",
       "found": 12,
-      "kept": 5,
+      "kept": 12,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1235,7 +1235,7 @@
       "source": "Forest (commune agenda)",
       "method": "recipe",
       "found": 23,
-      "kept": 23,
+      "kept": 21,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1414,8 +1414,8 @@
     {
       "source": "Welzijnszorg / BOP",
       "method": "manual",
-      "found": 1,
-      "kept": 1,
+      "found": 0,
+      "kept": 0,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1495,176 +1495,6 @@
         "recurring"
       ],
       "tags_llm_done": true
-    },
-    {
-      "title": "Startmoment Brussel - Samen Tegen Armoede 2026",
-      "start": "2026-10-23T13:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "BOP, Zaterdagplein 6, 1000 Brussels",
-      "description": "Kick-off of the 'Samen tegen armoede' campaign in Brussels (Dutch).",
-      "url": "https://www.bop.brussels/",
-      "image": null,
-      "source": "Welzijnszorg / BOP",
-      "tickets": null,
-      "social": {},
-      "uid": "1b44d70e0cd1d21c",
-      "manual": true,
-      "colour": "#E8336D",
-      "detail_checked": 4,
-      "translated": true,
-      "category": "civic-politics",
-      "category_llm": true,
-      "tags": [],
-      "tags_llm_done": true
-    },
-    {
-      "title": "Opening De Troostboom ven 23/10 - 16:00 Divers",
-      "start": "2026-10-23T16:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Opening De Troostboom ven 23/10 - 16:00 Divers",
-      "url": "http://forest.brussels/fr/agenda/opening-de-troostboom",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "5e3a51113064c107",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "Fantastic Forest 2026 ven 23/10 - 18:00 Cinéma",
-      "start": "2026-10-23T18:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Centre Jules Verne, chaussée de Neerstalle 63-67, 1190 Forest",
-      "description": "Fantastic Forest 2026 ven 23/10 - 18:00 Cinéma",
-      "url": "http://forest.brussels/fr/agenda/cinema/2026/fantastic-forest-2026",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": 1.25,
-      "price_max": 5.0,
-      "uid": "ec220234d7939923",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Special Cuba Evening",
-      "start": "2026-10-23T18:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Maison du Peuple de Braine-l'Alleud, Place du Môle 11, 1420 Braine L'Alleud",
-      "description": "Special evening about Cuba with debate featuring Yolanda Lamas on syndicalism and Latin America partnerships, aperitif, tastings, Latin music.",
-      "url": "https://framaforms.org/inscription-soiree-speciale-cuba-ciepbw-jeunesfgtb-23-octobre-a-partir-de-18h30-1789740238?fbclid=IwcGRvZgVleHRuA2FlbQIxMABicmlkETFPS0VNMjV1eTU5aWRONDRoc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHor5nSGnpmySpBZTvHDjPnO9anl9pAM_bUTwoPQ2Gb15DEoADhrTJujF2w4K_aem_qEyc3Cmsog7GxM2COWIT9w",
-      "image": "https://syndicatsmagazine.be/wp-content/uploads/2026/09/250505DSC_6145-1_-scaled.jpg",
-      "source": "Agenda engagé (Syndicats magazine)",
-      "uid": "7f7119094e5d5873",
-      "colour": "#00937A",
-      "translated": true,
-      "category": "food-drink",
-      "category_llm": true,
-      "tags": [
-        "evening",
-        "food-drink",
-        "live"
-      ],
-      "tags_llm_done": true,
-      "stale": true,
-      "detail_checked": 4
-    },
-    {
-      "title": "L'épisode suivant ven 23/10 - 19:30 Spectacle",
-      "start": "2026-10-23T19:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "L'épisode suivant ven 23/10 - 19:30 Spectacle",
-      "url": "http://forest.brussels/fr/agenda/spectacle/2026/lepisode-suivant",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "4a35a0c106c946ad",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "PABLO MURGIER PAZDERA TRIO",
-      "start": "2026-10-23T20:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Beyond notes, pure connection",
-      "url": "https://www.sounds.brussels/jazz-concert/pablo-murgier-pazdera-trio/",
-      "image": "https://www.sounds.brussels/wp-content/uploads/2026/07/sounds-social-1024x576-1.jpg",
-      "source": "Sounds Jazz Club",
-      "uid": "390cc5843465cdf7",
-      "colour": "#E8336D",
-      "translated": true,
-      "category": "music",
-      "category_llm": true,
-      "tags": [
-        "evening",
-        "live"
-      ],
-      "tags_llm_done": true,
-      "stale": true,
-      "price_min": 8.0,
-      "price_max": 25.0,
-      "detail_checked": 4
-    },
-    {
-      "title": "Beatriz Villar / Fado de Coimbra",
-      "start": "2026-10-23T20:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Le Senghor",
-      "description": "",
-      "url": "https://www.senghor.be/evenement/beatriz-villar/",
-      "image": null,
-      "source": "Le Senghor",
-      "uid": "c29182a0b7ff60d6",
-      "colour": "#E8336D",
-      "category": "other",
-      "tags": [
-        "evening"
-      ],
-      "stale": true,
-      "price_min": 1.25,
-      "price_max": 1900.0,
-      "detail_checked": 4
-    },
-    {
-      "title": "vr 23.10.26 20:00 The Harvest of Broken Promises Pankaj Tiwari CAMPO",
-      "start": "2026-10-23T20:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "vr 23.10.26 20:00 The Harvest of Broken Promises Pankaj Tiwari CAMPO performance De Kriekelaar Tickets",
-      "url": "https://kaaitheater.be/nl/agenda/26-27/harvest-broken-promises",
-      "image": null,
-      "source": "Kaaitheater",
-      "price_min": null,
-      "price_max": null,
-      "uid": "fbdeab7b9d2023a7",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
     },
     {
       "title": "Mark with a K & Mc Chucky",
@@ -1749,28 +1579,6 @@
       "detail_checked": 4,
       "category": "other",
       "tags": []
-    },
-    {
-      "title": "Look Who's Talking: Helena Kritis (NL)",
-      "start": "2026-10-24T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "Guided tour 24.10.2026 Look Who's Talking: Helena Kritis (NL)",
-      "url": "https://wiels.org/en/events",
-      "image": "https://wiels.org/actions/assets/generate-transform?transformId=9",
-      "source": "WIELS",
-      "price_min": null,
-      "price_max": null,
-      "uid": "e6e35a5a182df21d",
-      "colour": "#E07A00",
-      "translated": true,
-      "category": "talks-discussions",
-      "category_llm": true,
-      "tags": [
-        "registration-required"
-      ],
-      "tags_llm_done": true
     },
     {
       "title": "© Gc Tenweyngaert Gratis Kledingswap in Ten Weyngaert Organisator: Gemeenschapscentrum Ten Weyngaert vzw za 24.10.2026 GC Ten Weyngaert, Vo",
@@ -1858,30 +1666,6 @@
       "tags": [
         "late-night"
       ]
-    },
-    {
-      "title": "Urban Dance Caravan",
-      "start": "2026-10-24T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "24 October 2026 Battle, Dance, Choreographic tours Urban Dance Caravan Detours Festival An overview of urban dance styles: breakdancing, house, Afro, electro, krump",
-      "url": "https://www.theatrenational.be/en/activities/4670-urban-dance-caravan-o-detours-festival",
-      "image": "https://www.theatrenational.be/en/image/og/image/7175",
-      "source": "Théâtre National Wallonie-Bruxelles",
-      "price_min": null,
-      "price_max": null,
-      "uid": "d09c9d54c36992f6",
-      "colour": "#8A7500",
-      "detail_checked": 4,
-      "translated": true,
-      "category": "culture-arts",
-      "category_llm": true,
-      "tags": [
-        "dance",
-        "live"
-      ],
-      "tags_llm_done": true
     },
     {
       "title": "Urban Dance Caravan Night",
@@ -2107,23 +1891,6 @@
       "detail_checked": 4
     },
     {
-      "title": "12h voor Cuba - Eis het einde van de blokkade!",
-      "start": "2026-10-24T08:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "il y a 3h Manifestation 12h voor Cuba - Eis het einde van de blokkade! Samedi 24 octobre 2026 à 08:00 Bruxelles - 1000 Organisé par ProtestBase",
-      "url": "https://protestbase.be/manifestations/bruxelles",
-      "image": "https://protestbase.be/og.jpg",
-      "source": "Protestbase Bruxelles",
-      "price_min": null,
-      "price_max": null,
-      "uid": "37f7f33327d8e3b8",
-      "colour": "#E07A00",
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "No Congress or Meeting for the RN in Orléans on 24 and 25 October!",
       "start": "2026-10-24T08:30:00+00:00",
       "end": "2026-10-24T09:30:00+00:00",
@@ -2161,40 +1928,6 @@
       "uid": "b86587f2cea0f09d",
       "colour": "#0F8CA8",
       "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "Y en a marre - Formation initiale",
-      "start": "2026-10-24T09:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "il y a 2h Apprendre Y en a marre - Formation initiale Samedi 24 octobre 2026 à 09:30 Ixelles - 1050 Organisé par ProtestBase",
-      "url": "https://protestbase.be/manifestations/bruxelles",
-      "image": "https://protestbase.be/og.jpg",
-      "source": "Protestbase Bruxelles",
-      "price_min": null,
-      "price_max": null,
-      "uid": "b69be72c0fbfafbf",
-      "colour": "#E07A00",
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "Ateliers histoires et résistance - Bruxelles",
-      "start": "2026-10-24T09:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "il y a 2h Apprendre Ateliers histoires et résistance - Bruxelles Samedi 24 octobre 2026 à 09:30 Etterbeek - 1040 Organisé par ProtestBase",
-      "url": "https://protestbase.be/manifestations/bruxelles",
-      "image": "https://protestbase.be/og.jpg",
-      "source": "Protestbase Bruxelles",
-      "price_min": null,
-      "price_max": null,
-      "uid": "2212c002c47cf18a",
-      "colour": "#E07A00",
       "category": "other",
       "tags": []
     },
@@ -2271,24 +2004,6 @@
       "tags": []
     },
     {
-      "title": "Ali Cherri: Pray, Lips of Clay sam 24/10 - 11:00 Exposition",
-      "start": "2026-10-24T11:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Ali Cherri: Pray, Lips of Clay sam 24/10 - 11:00 Exposition",
-      "url": "http://forest.brussels/fr/agenda/exposition/2026/ali-cherri-pray-lips-of-clay",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "b0624ec92b9d0317",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "L'Air et l'Etre Yuko Nakaya sam 24/10 - 11:00 Exposition",
       "start": "2026-10-24T11:00:00+02:00",
       "end": null,
@@ -2307,19 +2022,20 @@
       "tags": []
     },
     {
-      "title": "Manifestation",
-      "start": "2026-10-24T13:00:00+02:00",
+      "title": "Ali Cherri: Pray, Lips of Clay sam 24/10 - 11:00 Exposition",
+      "start": "2026-10-24T11:00:00+02:00",
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "dans 2h Aide recherchée Manifestation Manifestation Samedi 24 octobre 2026 à 13:00 Ixelles - 1050 Organisé par El Ghad pour les Droits de l'Homme",
-      "url": "https://protestbase.be/manifestations/bruxelles",
-      "image": "https://protestbase.be/og.jpg",
-      "source": "Protestbase Bruxelles",
+      "description": "Ali Cherri: Pray, Lips of Clay sam 24/10 - 11:00 Exposition",
+      "url": "http://forest.brussels/fr/agenda/exposition/2026/ali-cherri-pray-lips-of-clay",
+      "image": null,
+      "source": "Forest (commune agenda)",
       "price_min": null,
       "price_max": null,
-      "uid": "e82e350f78e57285",
-      "colour": "#E07A00",
+      "uid": "b0624ec92b9d0317",
+      "colour": "#0F8CA8",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -2347,7 +2063,7 @@
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "dans 2h Apprendre Discussion & musique: vaincre l'extrème droite - Molenbeek Samedi 24 octobre 2026 à 13:30 Molenbeek-Saint-Jean - 1080 Organisé par ProtestBase",
+      "description": "il y a 7h Apprendre Discussion & musique: vaincre l'extrème droite - Molenbeek Samedi 24 octobre 2026 à 13:30 Molenbeek-Saint-Jean - 1080 Organisé par ProtestBase",
       "url": "https://protestbase.be/manifestations/bruxelles",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
@@ -2355,61 +2071,6 @@
       "price_max": null,
       "uid": "578bbeac67ef5629",
       "colour": "#E07A00",
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "CHANGE - Oxfam Youth Training - Spark Your Activism",
-      "start": "2026-10-24T13:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "dans 2h Apprendre CHANGE - Oxfam Youth Training - Spark Your Activism Samedi 24 octobre 2026 à 13:30 Etterbeek - 1040 Organisé par Rosalie Buytaert",
-      "url": "https://protestbase.be/manifestations/bruxelles",
-      "image": "https://protestbase.be/og.jpg",
-      "source": "Protestbase Bruxelles",
-      "price_min": null,
-      "price_max": null,
-      "uid": "a57d42ccba39583f",
-      "colour": "#E07A00",
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "Le Corset",
-      "start": "2026-10-24T14:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "Le Corset Sat 24 Oct - Sun 29 Nov Studio 5 cinema animation special screening € 0,00–€ 10,50 dates dates Sat 24 Oct 14:00 tickets Sun 25 Oct 14:15 tickets Sun 29 Nov 12:45 tickets Free screening as part of ‘En Avant!’ Sat 17 Oct 14:45 Past event Sun 18 Oct 14:15 Past event",
-      "url": "https://www.flagey.be/en/agenda/le-corset-6995",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "70620e2d5fee4ffd",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "title": "Troc de vêtements au Ten Weyngaert sam 24/10 - 14:00 Marchés & brocantes",
-      "start": "2026-10-24T14:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Troc de vêtements au Ten Weyngaert sam 24/10 - 14:00 Marchés & brocantes",
-      "url": "http://forest.brussels/fr/agenda/marches-brocantes/2026/troc-de-vetements-au-ten-weyngaert",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "5e347bbe33bab68f",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -2426,6 +2087,24 @@
       "price_min": null,
       "price_max": null,
       "uid": "6d4ba9c093bf71bc",
+      "colour": "#0F8CA8",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Troc de vêtements au Ten Weyngaert sam 24/10 - 14:00 Marchés & brocantes",
+      "start": "2026-10-24T14:00:00+02:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Troc de vêtements au Ten Weyngaert sam 24/10 - 14:00 Marchés & brocantes",
+      "url": "http://forest.brussels/fr/agenda/marches-brocantes/2026/troc-de-vetements-au-ten-weyngaert",
+      "image": null,
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "5e347bbe33bab68f",
       "colour": "#0F8CA8",
       "detail_checked": 4,
       "category": "other",
@@ -2486,24 +2165,6 @@
       "tags": []
     },
     {
-      "title": "A Man of His Time",
-      "start": "2026-10-24T15:45:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "A Man of His Time Sat 24 Oct - Sat 7 Nov Studio 5 cinema new release € 7,00–€ 10,50 dates dates Sat 24 Oct 15:45 tickets Thu 29 Oct 16:15 tickets Sat 7 Nov 16:00 tickets Wed 30 Sep 20:45 Past event Sat 3 Oct 20:50 Past event Sun 4 Oct 18:00 Past event Thu 8 Oct 20:30 Past event Sat 10 Oct 18:00 Past",
-      "url": "https://www.flagey.be/en/agenda/a-man-of-his-time-q1cd",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "a0e2962ac591fec5",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "JEUX Hoshi Go Club",
       "start": "2026-10-24T17:00:00+02:00",
       "end": "2026-10-24T22:00:00+02:00",
@@ -2527,7 +2188,7 @@
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "dans 7h Soutien Soirée de soutien WUUNE Samedi 24 octobre 2026 à 18:00 Schaerbeek - 1030 Organisé par ProtestBase",
+      "description": "il y a 2h Soutien Soirée de soutien WUUNE Samedi 24 octobre 2026 à 18:00 Schaerbeek - 1030 Organisé par ProtestBase",
       "url": "https://protestbase.be/manifestations/bruxelles",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
@@ -2535,45 +2196,6 @@
       "price_max": null,
       "uid": "87f66db90d5c0de1",
       "colour": "#E07A00",
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "🎟️ GRANDE TOMBOLA DE SOUTIEN À WUUNE ET AUX LOCATAIRES 🎟️",
-      "start": "2026-10-24T18:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "dans 7h Soutien 🎟️ GRANDE TOMBOLA DE SOUTIEN À WUUNE ET AUX LOCATAIRES 🎟️ Samedi 24 octobre 2026 à 18:00 Schaerbeek - 1030 Organisé par ProtestBase",
-      "url": "https://protestbase.be/manifestations/bruxelles",
-      "image": "https://protestbase.be/og.jpg",
-      "source": "Protestbase Bruxelles",
-      "price_min": null,
-      "price_max": null,
-      "uid": "10fa81e3bcf7b10a",
-      "colour": "#E07A00",
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Coward",
-      "start": "2026-10-24T18:45:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "Coward Sat 24 Oct - Sun 22 Nov Studio 5 cinema € 7,00–€ 10,50 dates dates Sat 24 Oct 18:45 tickets Fri 30 Oct 18:15 tickets Sun 1 Nov 18:40 tickets Thu 5 Nov 18:50 tickets Fri 6 Nov 21:05 tickets Thu 12 Nov 16:10 tickets Thu 19 Nov 17:00 tickets Sun 22 Nov 14:15 tickets Wed 21 Oct 19:10 Past event T",
-      "url": "https://www.flagey.be/en/agenda/coward-xdbs",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "300933de6aa76f6d",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
       "category": "other",
       "tags": [
         "evening"
@@ -2896,6 +2518,26 @@
       "detail_checked": 4,
       "category": "other",
       "tags": []
+    },
+    {
+      "title": "Le Corset",
+      "start": "2026-10-25T14:15:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "Le Corset Sun 25 Oct and Sun 29 Nov Studio 5 cinema animation special screening € 0,00–€ 10,50 dates dates Sun 25 Oct 14:15 tickets Sun 29 Nov 12:45 tickets Free screening as part of ‘En Avant!’ Sat 17 Oct 14:45 Past event Sun 18 Oct 14:15 Past event Sat 24 Oct 14:00 Past event",
+      "url": "https://www.flagey.be/en/agenda/le-corset-6995",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 0.0,
+      "price_max": 10.5,
+      "uid": "639af4c07670b75f",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "free"
+      ]
     },
     {
       "title": "Akira",
@@ -3279,6 +2921,26 @@
       "tags_llm_done": true
     },
     {
+      "title": "general mar 27 oct '26 AB Grande salle Beast in Black + Sonata Arctica, Frozen Crown Métal de classe mondiale Concert Acheter",
+      "start": "2026-10-27T19:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "general mar 27 oct '26 AB Grande salle Beast in Black + Sonata Arctica, Frozen Crown Métal de classe mondiale Concert Acheter",
+      "url": "https://www.abconcerts.be/fr/agenda/beast-in-black/a10Qw000006iQeTIAU",
+      "image": "https://abconcerts.be/assets/website/components/images/og-image.1c2180e4.png",
+      "source": "Ancienne Belgique",
+      "price_min": 8.4,
+      "price_max": 45.0,
+      "uid": "3eba616f1697bf2d",
+      "colour": "#C0392B",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
       "title": "general mar 27 oct '26 AB Club Tomoki Sanders L'enfant de Pharoah Sanders et figure clé de Kassa Overall, Tomoki Sanders fait ses débuts che",
       "start": "2026-10-27T19:00:00+01:00",
       "end": null,
@@ -3311,26 +2973,6 @@
       "price_min": 2.0,
       "price_max": 27.0,
       "uid": "aaf82905b9c1d797",
-      "colour": "#C0392B",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "general mar 27 oct '26 AB Grande salle Beast in Black + Sonata Arctica, Frozen Crown Métal de classe mondiale Concert Acheter",
-      "start": "2026-10-27T19:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "general mar 27 oct '26 AB Grande salle Beast in Black + Sonata Arctica, Frozen Crown Métal de classe mondiale Concert Acheter",
-      "url": "https://www.abconcerts.be/fr/agenda/beast-in-black/a10Qw000006iQeTIAU",
-      "image": "https://abconcerts.be/assets/website/components/images/og-image.1c2180e4.png",
-      "source": "Ancienne Belgique",
-      "price_min": 8.4,
-      "price_max": 45.0,
-      "uid": "3eba616f1697bf2d",
       "colour": "#C0392B",
       "detail_checked": 4,
       "category": "other",
@@ -3381,7 +3023,7 @@
       "all_day": true,
       "location": "Bozar, Rue Baron Horta 1, 1000 Bruxelles, Belgique, 1000 Bruxelles, Bruxelles, Belgique, Bruxelles",
       "description": "Une voix d’Irlande — Concert de gala caritatif 27 oct 2026 Concerts Classique / Contemporain / Baroque / Carillons Bozar Bruxelles - Bruxelles Un concert de gala exceptionnel fera résonner Bozar le 27 octobre au son de magnifiques mélodies irlandaises et d’extraits d’opéras et de comédies musicale",
-      "url": "https://www.out.be/fr/evenements/222700_une-voix-d-irlande-concert-de-gala-caritatif.html",
+      "url": "https://www.out.be/fr/evenements/223494_une-voix-d-irlande-concert-de-gala-caritatif.html",
       "image": "https://www.out.be/assets/img/logo-outbe.svg",
       "source": "Out.be",
       "price_min": 40.0,
@@ -3650,6 +3292,26 @@
       "tags_llm_done": true
     },
     {
+      "title": "De Troostboom - luistersessie ‘Dwalen door Verlies' mer 28/10 - 18:00 Cours, Stages et Ateliers",
+      "start": "2026-10-28T18:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "De Troostboom - luistersessie ‘Dwalen door Verlies' mer 28/10 - 18:00 Cours, Stages et Ateliers",
+      "url": "http://forest.brussels/fr/agenda/de-troostboom--luistersessie-dwalen-door-verlies-",
+      "image": null,
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "7a7f184984844853",
+      "colour": "#0F8CA8",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
       "title": "Too many beasts",
       "start": "2026-10-28T18:15:00+01:00",
       "end": null,
@@ -3825,6 +3487,60 @@
       "description": "29 Oct 2026 Pourtant j’ai tout bien fait comme il faut ! Véronique Kesmedjian Saint-Léonard-de-Noblat (87)",
       "url": "https://conferences-gesticulees.net/events/29-10-2026-veronique-kesmedjian-lescalier-saint-leonard-de-noblat/",
       "image": null,
+      "source": "Conférences gesticulées (network catalogue)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "e63d3be7c4534de9",
+      "colour": "#C0392B",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "29 Oct 2026 Divorcée pour le meilleur et le meilleur Caps Montpellier (34)",
+      "start": "2026-10-29T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "29 Oct 2026 Divorcée pour le meilleur et le meilleur Caps Montpellier (34)",
+      "url": "https://conferences-gesticulees.net/events/29-10-2026-caps-le-quartier-genereux/",
+      "image": null,
+      "source": "Conférences gesticulées (network catalogue)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "d68ea0e5adeef702",
+      "colour": "#C0392B",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "29 Oct 2026 Plus jamais ça ?! Conférence gesticulée sur l’avant-génocide des Tutsis au Rwanda Claire-Emmanuelle Mercier Chambéry ()",
+      "start": "2026-10-29T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "29 Oct 2026 Plus jamais ça ?! Conférence gesticulée sur l’avant-génocide des Tutsis au Rwanda Claire-Emmanuelle Mercier Chambéry ()",
+      "url": "https://conferences-gesticulees.net/events/29-10-2026-claire-emmanuelle-mercier-le-bruit-qui-court-bar-et-restaurant/",
+      "image": null,
+      "source": "Conférences gesticulées (network catalogue)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "c787e0c1337077c6",
+      "colour": "#C0392B",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "29 Oct 2026 Pourtant j’ai tout bien fait comme il faut ! Véronique Kesmedjian Saint-Léonard-de-Noblat (87)",
+      "start": "2026-10-29T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "29 Oct 2026 Pourtant j’ai tout bien fait comme il faut ! Véronique Kesmedjian Saint-Léonard-de-Noblat (87)",
+      "url": "https://conferences-gesticulees.net/events/29-10-2026-veronique-kesmedjian-lescalier-saint-leonard-de-noblat/",
+      "image": null,
       "source": "Conférences gesticulées (per-day pages)",
       "price_min": null,
       "price_max": null,
@@ -3891,6 +3607,63 @@
       "category_llm": true,
       "tags": [],
       "tags_llm_done": true
+    },
+    {
+      "title": "La PERCHE : Le Corset",
+      "start": "2026-10-29T14:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "La PERCHE : Le Corset Thu 29 Oct 14:00 Studio 5 cinema animation special screening Tickets Normal € 10,50 -12 € 7,00 -26 € 8,50 65+ € 8,50 € 7,00–€ 10,50 tickets",
+      "url": "https://www.flagey.be/en/agenda/la-perche-le-corset-yhhb",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 26.0,
+      "uid": "2472dbd65eb735cd",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "A Man of His Time",
+      "start": "2026-10-29T16:15:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "A Man of His Time Thu 29 Oct and Sat 7 Nov Studio 5 cinema new release € 7,00–€ 10,50 dates dates Thu 29 Oct 16:15 tickets Sat 7 Nov 16:00 tickets Wed 30 Sep 20:45 Past event Sat 3 Oct 20:50 Past event Sun 4 Oct 18:00 Past event Thu 8 Oct 20:30 Past event Sat 10 Oct 18:00 Past event Wed 14 Oct 16:00",
+      "url": "https://www.flagey.be/en/agenda/a-man-of-his-time-q1cd",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 10.5,
+      "uid": "4b3e1aaafc150d4f",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Res Nullius",
+      "start": "2026-10-29T19:05:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "Res Nullius Thu 29 Oct 19:05 Studio 5 cinema documentary special screening € 7,00–€ 10,50 dates dates Thu 29 Oct 19:05 tickets Thu 3 Sep 19:00 Past event Premiere attended by the director / last tickets Fri 11 Sep 17:30 Past event Sat 19 Sep 15:15 Past event Wed 23 Sep 19:05 Past event free / specia",
+      "url": "https://www.flagey.be/en/agenda/res-nullius-n94f",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 10.5,
+      "uid": "8947919f05ebac20",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening",
+        "free"
+      ]
     },
     {
       "title": "MONK – Tribute Night",
@@ -4048,6 +3821,60 @@
       "description": "30 Oct 2026 Pourtant j’ai tout bien fait comme il faut ! Véronique Kesmedjian Aubusson (23)",
       "url": "https://conferences-gesticulees.net/events/30-10-2026-veronique-kesmedjian-le-fabuleux-estin-aubusson/",
       "image": null,
+      "source": "Conférences gesticulées (network catalogue)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "34d365ba71d50cb4",
+      "colour": "#C0392B",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "30 Oct 2026 Comment je me suis disputée ma vie en patriarchie : Anne D. Tournai (75)",
+      "start": "2026-10-30T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "30 Oct 2026 Comment je me suis disputée ma vie en patriarchie : Anne D. Tournai (75)",
+      "url": "https://conferences-gesticulees.net/events/30-10-2026-anne-d-les-filles-du-viaduc/",
+      "image": null,
+      "source": "Conférences gesticulées (network catalogue)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "0c8feea639729451",
+      "colour": "#C0392B",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "30 Oct 2026 Sorties de chantier – Monte ta conf’ Céline Callot Eckbolsheim (67)",
+      "start": "2026-10-30T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "30 Oct 2026 Sorties de chantier – Monte ta conf’ Céline Callot Eckbolsheim (67)",
+      "url": "https://conferences-gesticulees.net/events/30-10-2026-celine-callot-csc-de-la-montagne-vertz/",
+      "image": null,
+      "source": "Conférences gesticulées (network catalogue)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "111184769fc3ef24",
+      "colour": "#C0392B",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "30 Oct 2026 Pourtant j’ai tout bien fait comme il faut ! Véronique Kesmedjian Aubusson (23)",
+      "start": "2026-10-30T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "30 Oct 2026 Pourtant j’ai tout bien fait comme il faut ! Véronique Kesmedjian Aubusson (23)",
+      "url": "https://conferences-gesticulees.net/events/30-10-2026-veronique-kesmedjian-le-fabuleux-estin-aubusson/",
+      "image": null,
       "source": "Conférences gesticulées (per-day pages)",
       "price_min": null,
       "price_max": null,
@@ -4170,7 +3997,7 @@
       "stale": true
     },
     {
-      "title": "Minigolf Course – 2026 Residency Outings",
+      "title": "Parcours Minigolf – Sorties de résidences 2026 ⚠︎Événement au BAMP",
       "start": "2026-10-30T19:30:00+01:00",
       "end": "2026-10-30T23:00:00+01:00",
       "all_day": false,
@@ -4181,15 +4008,12 @@
       "source": "Maison Poème",
       "price_min": null,
       "price_max": null,
-      "uid": "2734425d8d6a2a97",
+      "uid": "444b1185a0569785",
       "colour": "#7B49D6",
-      "translated": true,
       "category": "other",
-      "category_llm": true,
       "tags": [
         "evening"
-      ],
-      "tags_llm_done": true
+      ]
     },
     {
       "title": "MF DOOM Jazz Suite by New Jazz Underground",
@@ -4441,6 +4265,24 @@
       "price_max": 8.0,
       "uid": "250d6b35feecfca5",
       "colour": "#00937A",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "31 Oct 2026 J’aurais dû m’appeler Aïcha Nadège De vaulx(-en-velin) Amiens (80)",
+      "start": "2026-10-31T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "31 Oct 2026 J’aurais dû m’appeler Aïcha Nadège De vaulx(-en-velin) Amiens (80)",
+      "url": "https://conferences-gesticulees.net/events/31-10-2026-nadege-de-vaulx-en-velin-festival-cite-carter-festival-witches-week/",
+      "image": null,
+      "source": "Conférences gesticulées (network catalogue)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "1946ef681a134ef7",
+      "colour": "#C0392B",
       "detail_checked": 4,
       "category": "other",
       "tags": []
@@ -5369,6 +5211,23 @@
       "tags_llm_done": true
     },
     {
+      "title": "Rencontre internationale des travailleuses du care à Bruxelles",
+      "start": "2026-11-03T09:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "mardi 3 novembre 2026 Soutien Rencontre internationale des travailleuses du care à Bruxelles Mardi 3 novembre 2026 à 09:00 Schaerbeek - 1030 Organisé par ProtestBase",
+      "url": "https://protestbase.be/manifestations/bruxelles",
+      "image": "https://protestbase.be/og.jpg",
+      "source": "Protestbase Bruxelles",
+      "price_min": null,
+      "price_max": null,
+      "uid": "2a2a4b3acc7dbe54",
+      "colour": "#E07A00",
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "Battice First Tuesday Collections Fair",
       "start": "2026-11-03T12:30:00+01:00",
       "end": "2026-11-03T18:00:00+01:00",
@@ -5389,6 +5248,23 @@
         "drop-in"
       ],
       "tags_llm_done": true
+    },
+    {
+      "title": "LES UNIVERSITÉS EN COLÈRE FONT LEUR RENTRÉE (3/11)",
+      "start": "2026-11-03T16:30:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "mardi 3 novembre 2026 Apprendre LES UNIVERSITÉS EN COLÈRE FONT LEUR RENTRÉE (3/11) Mardi 3 novembre 2026 à 16:30 Bruxelles - 1000 Organisé par ProtestBase",
+      "url": "https://protestbase.be/manifestations/bruxelles",
+      "image": "https://protestbase.be/og.jpg",
+      "source": "Protestbase Bruxelles",
+      "price_min": null,
+      "price_max": null,
+      "uid": "faa86d37ec77985c",
+      "colour": "#E07A00",
+      "category": "other",
+      "tags": []
     },
     {
       "title": "Rally: Against Colonialism, Fascism, Wars and Genocides!",
@@ -5430,6 +5306,25 @@
       "uid": "e80d5c0cc9fdba75",
       "colour": "#E07A00",
       "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
+      "title": "Assemblée ouverte 'La Couque' - Balai en lutte @ulb",
+      "start": "2026-11-03T18:30:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "mardi 3 novembre 2026 Soutien Assemblée ouverte 'La Couque' - Balai en lutte @ulb Mardi 3 novembre 2026 à 18:30 Ixelles - 1050 Organisé par ProtestBase",
+      "url": "https://protestbase.be/manifestations/bruxelles",
+      "image": "https://protestbase.be/og.jpg",
+      "source": "Protestbase Bruxelles",
+      "price_min": null,
+      "price_max": null,
+      "uid": "9a81351d5a0ffdd6",
+      "colour": "#E07A00",
       "category": "other",
       "tags": [
         "evening"
@@ -5600,6 +5495,25 @@
         "outdoor"
       ],
       "tags_llm_done": true
+    },
+    {
+      "title": "AG Commune Colère",
+      "start": "2026-11-04T18:30:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "mercredi 4 novembre 2026 Soutien AG Commune Colère Mercredi 4 novembre 2026 à 18:30 Molenbeek-Saint-Jean - 1080 Organisé par Kinoa",
+      "url": "https://protestbase.be/manifestations/bruxelles",
+      "image": "https://protestbase.be/og.jpg",
+      "source": "Protestbase Bruxelles",
+      "price_min": null,
+      "price_max": null,
+      "uid": "b9e4d137cd0bff37",
+      "colour": "#E07A00",
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
     },
     {
       "title": "B-B-B-B-BIG Birthday Party! Tickets",
@@ -5779,6 +5693,25 @@
       "uid": "ff02a8eaf72eb646",
       "colour": "#0F8CA8",
       "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
+      "title": "Sud du Liban: comprendre la résistance anti-coloniale",
+      "start": "2026-11-05T19:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "jeudi 5 novembre 2026 Apprendre Sud du Liban: comprendre la résistance anti-coloniale Jeudi 5 novembre 2026 à 19:00 Schaerbeek - 1030 Organisé par ProtestBase",
+      "url": "https://protestbase.be/manifestations/bruxelles",
+      "image": "https://protestbase.be/og.jpg",
+      "source": "Protestbase Bruxelles",
+      "price_min": null,
+      "price_max": null,
+      "uid": "38fc9ceba297c83b",
+      "colour": "#E07A00",
       "category": "other",
       "tags": [
         "evening"
@@ -6321,6 +6254,23 @@
         "live"
       ],
       "tags_llm_done": true
+    },
+    {
+      "title": "Islamophobie: nommer, comprendre, agir",
+      "start": "2026-11-07T16:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "samedi 7 novembre 2026 Apprendre Islamophobie: nommer, comprendre, agir Samedi 7 novembre 2026 à 16:00 Bruxelles - 1000 Organisé par ProtestBase",
+      "url": "https://protestbase.be/manifestations/bruxelles",
+      "image": "https://protestbase.be/og.jpg",
+      "source": "Protestbase Bruxelles",
+      "price_min": null,
+      "price_max": null,
+      "uid": "74652ad040caf527",
+      "colour": "#E07A00",
+      "category": "other",
+      "tags": []
     },
     {
       "title": "Pink Night 2026 Tickets",
@@ -7327,7 +7277,7 @@
       "all_day": false,
       "location": "Brasserie Quartier Leopold, Place du Luxembourg 9, Bruxelles, Bruxelles",
       "description": "✨ **Meet new people in Brussels every Friday evening!** Looking to expand your social circle, meet international people and enjoy relaxed conversations in the heart of Brussels? Join **EuroMeet every Friday anytime from 18:30 until at least 22:30** at the **Quartier Leopold brasserie**, located on Place du Luxembourg, directly opposite the European Parliament. Our meetup offers a friendly, relaxed and international atmosphere where it is easy to talk and get to know people—without loud music or a chaotic party environment. . 🍻 Drinks, food and dinner available 🌍 Internationals, expats, newcome",
-      "url": "https://www.meetup.com/brussels-meetup/events/nphtztyjcpbrb/",
+      "url": "https://www.meetup.com/brussels-meetup/events/wnwrbvyjcpbrb/",
       "image": "https://secure.meetupstatic.com/photos/event/1/7/b/3/600_533826067.jpeg",
       "source": "Brussels Language Meetup",
       "price_min": 150.0,
@@ -7383,6 +7333,23 @@
         "live"
       ],
       "tags_llm_done": true
+    },
+    {
+      "title": "Screenings: Ali Cherri at BAFF (FR)",
+      "start": "2026-11-14T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "Screening 11.11 14.11.2026 Screenings: Ali Cherri at BAFF (FR)",
+      "url": "https://wiels.org/en/events",
+      "image": "https://wiels.org/actions/assets/generate-transform?transformId=9",
+      "source": "WIELS",
+      "price_min": null,
+      "price_max": null,
+      "uid": "feaaf0cf93f2ae5a",
+      "colour": "#E07A00",
+      "category": "other",
+      "tags": []
     },
     {
       "title": "14 Nov 2026 Moi, Français-Juif-Arabe Michel Benizri Albertville (73)",
@@ -9003,6 +8970,24 @@
       ]
     },
     {
+      "title": "Fanny Garin 21.11.2026 > 22.11.2026 Polar et poésie — complet Atelier Écriture Poésie Polar",
+      "start": "2026-11-21T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "Fanny Garin 21.11.2026 > 22.11.2026 Polar et poésie — complet Atelier Écriture Poésie Polar",
+      "url": "https://www.lamaisondulivre.be/atelier/polar-et-poesie/",
+      "image": "https://www.lamaisondulivre.be/wp-content/uploads/2025/08/calendar_ssfond.png",
+      "source": "La Maison du Livre",
+      "price_min": 12.0,
+      "price_max": 60.0,
+      "uid": "8a1e9e563034d1d8",
+      "colour": "#C0392B",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "21.11.2026 Une histoire de rencontres Parcours d'éditeur Rencontre",
       "start": "2026-11-21T18:30:00+01:00",
       "end": null,
@@ -9021,24 +9006,6 @@
       "tags": [
         "evening"
       ]
-    },
-    {
-      "title": "Fanny Garin 21.11.2026 > 22.11.2026 Polar et poésie — complet Atelier Écriture Poésie Polar",
-      "start": "2026-11-21T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "Fanny Garin 21.11.2026 > 22.11.2026 Polar et poésie — complet Atelier Écriture Poésie Polar",
-      "url": "https://www.lamaisondulivre.be/atelier/polar-et-poesie/",
-      "image": "https://www.lamaisondulivre.be/wp-content/uploads/2025/08/calendar_ssfond.png",
-      "source": "La Maison du Livre",
-      "price_min": 12.0,
-      "price_max": 60.0,
-      "uid": "8a1e9e563034d1d8",
-      "colour": "#C0392B",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
     },
     {
       "title": "La Ronde occitane",
