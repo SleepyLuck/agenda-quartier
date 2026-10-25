@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T10:36:24.451501+01:00",
+  "generated": "2026-10-25T19:42:36.410518+01:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
@@ -159,7 +159,7 @@
       "name": "Flagey",
       "url": "https://www.flagey.be/agenda",
       "colour": "#1B6FE0",
-      "count": 12,
+      "count": 10,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-10-25"
@@ -186,7 +186,7 @@
       "name": "Kaaitheater",
       "url": "https://kaaitheater.be/nl/agenda",
       "colour": "#7B49D6",
-      "count": 4,
+      "count": 3,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-10-25"
@@ -195,7 +195,7 @@
       "name": "Ancienne Belgique",
       "url": "https://www.abconcerts.be/fr/agenda",
       "colour": "#C0392B",
-      "count": 9,
+      "count": 10,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-10-25"
@@ -222,7 +222,7 @@
       "name": "Quefaire.be brocantes (Brussels region)",
       "url": "https://www.quefaire.be/brocantes/region-de-bruxelles",
       "colour": "#E8336D",
-      "count": 2,
+      "count": 3,
       "method": "jsonld",
       "stale": false,
       "last_ok": "2026-10-25"
@@ -420,7 +420,7 @@
       "name": "Forest (commune agenda)",
       "url": "https://forest.brussels/fr/agenda",
       "colour": "#0F8CA8",
-      "count": 24,
+      "count": 23,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-10-25"
@@ -483,7 +483,7 @@
       "name": "Mazette (brewpub, Jeu de Balle)",
       "url": "https://mazette.brussels/",
       "colour": "#C0392B",
-      "count": 3,
+      "count": 2,
       "method": "none",
       "stale": true,
       "last_ok": "2026-10-03"
@@ -519,7 +519,7 @@
       "name": "Out.be",
       "url": "https://www.out.be/fr/",
       "colour": "#1B6FE0",
-      "count": 4,
+      "count": 5,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-10-25"
@@ -864,7 +864,7 @@
     {
       "source": "U-Square",
       "method": "recipe",
-      "found": 5,
+      "found": 4,
       "kept": 3,
       "carried": 0,
       "stale": false,
@@ -944,8 +944,8 @@
     {
       "source": "Flagey",
       "method": "recipe",
-      "found": 12,
-      "kept": 12,
+      "found": 10,
+      "kept": 10,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -975,7 +975,7 @@
       "source": "Kaaitheater",
       "method": "recipe",
       "found": 21,
-      "kept": 4,
+      "kept": 3,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -984,8 +984,8 @@
     {
       "source": "Ancienne Belgique",
       "method": "recipe",
-      "found": 9,
-      "kept": 9,
+      "found": 10,
+      "kept": 10,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1014,8 +1014,8 @@
     {
       "source": "Quefaire.be brocantes (Brussels region)",
       "method": "jsonld",
-      "found": 2,
-      "kept": 2,
+      "found": 3,
+      "kept": 3,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1235,7 +1235,7 @@
       "source": "Forest (commune agenda)",
       "method": "recipe",
       "found": 24,
-      "kept": 24,
+      "kept": 23,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1306,7 +1306,7 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "carried": 3,
+      "carried": 2,
       "stale": true,
       "error_class": "billing",
       "note": "browser: jsonld/recipe empty, llm skipped (billing failure earlier this run)"
@@ -1344,8 +1344,8 @@
     {
       "source": "Out.be",
       "method": "recipe",
-      "found": 4,
-      "kept": 4,
+      "found": 5,
+      "kept": 5,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1497,100 +1497,6 @@
       "tags_llm_done": true
     },
     {
-      "title": "Gemeentehuis Vorst: art deco paleis voor het volk sam 24/10 - 14:30 Visites Guidées",
-      "start": "2026-10-24T14:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Gemeentehuis Vorst: art deco paleis voor het volk sam 24/10 - 14:30 Visites Guidées",
-      "url": "http://forest.brussels/fr/agenda/gemeentehuis-vorst-art-deco-paleis-voor-het-volk",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "7a413c294101a696",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "Till et Lamme sam 24/10 - 15:00 Spectacle",
-      "start": "2026-10-24T15:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Till et Lamme sam 24/10 - 15:00 Spectacle",
-      "url": "http://forest.brussels/fr/agenda/spectacle/2026/till-et-lamme",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "25c5acf3e60db791",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "JEUX Hoshi Go Club",
-      "start": "2026-10-24T17:00:00+02:00",
-      "end": "2026-10-24T22:00:00+02:00",
-      "all_day": false,
-      "location": "Mazette",
-      "description": "Go Club",
-      "url": "https://mazette.brussels/",
-      "image": "https://mazette.brussels/wp-content/uploads/2024/12/hom-terrasse2.webp",
-      "source": "Mazette (brewpub, Jeu de Balle)",
-      "uid": "8800157569a01687",
-      "colour": "#C0392B",
-      "category": "other",
-      "tags": [
-        "evening"
-      ],
-      "stale": true
-    },
-    {
-      "title": "za 24.10.26 18:00 The Harvest of Broken Promises Pankaj Tiwari CAMPO",
-      "start": "2026-10-24T18:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "za 24.10.26 18:00 The Harvest of Broken Promises Pankaj Tiwari CAMPO performance De Kriekelaar Tickets",
-      "url": "https://kaaitheater.be/nl/agenda/26-27/harvest-broken-promises",
-      "image": null,
-      "source": "Kaaitheater",
-      "price_min": null,
-      "price_max": null,
-      "uid": "c098446c0ed1e5e8",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Concert TW Classics 1190 sam 24/10 - 19:30 Concert",
-      "start": "2026-10-24T19:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Concert TW Classics 1190 sam 24/10 - 19:30 Concert",
-      "url": "http://forest.brussels/fr/agenda/concert/2026/concert-tw-classics-1190",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "3a1ef89268683d0d",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "GYPSY JAZZ NIGHT BY RENAUD CROLS",
       "start": "2026-10-24T20:00:00+02:00",
       "end": null,
@@ -1682,24 +1588,6 @@
       "tags_llm_done": true
     },
     {
-      "title": "25 octobre 2026 #Être ensemble +",
-      "start": "2026-10-25T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "25 octobre 2026 #Être ensemble + Bal folk avec une initiation à la danse par Frisse folk # Être ensemble",
-      "url": "https://www.tricoterie.be/fr/agenda/l-agenda-culturel/fr/agenda/l-agenda-culturel/bal-folk?id_evenement=7879",
-      "image": null,
-      "source": "La Tricoterie",
-      "price_min": 14.0,
-      "price_max": 26.0,
-      "uid": "54a451cd416d47a3",
-      "colour": "#00937A",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "À l'assaut du ciel, Cuba ou la solidarité anti-impérialiste I Cinéma d'Attac Doc I Rencontre dimanche 25 oct.",
       "start": "2026-10-25T00:00:00+02:00",
       "end": null,
@@ -1755,46 +1643,6 @@
       "detail_checked": 4,
       "category": "other",
       "tags": []
-    },
-    {
-      "title": "Brocante organisée par 60 familles japonaises",
-      "start": "2026-10-25T00:00:00+02:00",
-      "end": "2026-10-25T00:00:00+02:00",
-      "all_day": false,
-      "location": "Eglise Notre-Damme Stockel, Woluwe-Saint-Pierre",
-      "description": "",
-      "url": "https://www.quefaire.be/brocante-organisee-par-60-8769427.shtml",
-      "image": "https://www.quefaire.be/img_n/8769427_1.jpeg",
-      "source": "Quefaire.be brocantes (Brussels region)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "4a2d478d031724fd",
-      "colour": "#E8336D",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "late-night"
-      ]
-    },
-    {
-      "title": "Superbe Brocante couverte sous le viaduc Herman Debroux",
-      "start": "2026-10-25T00:00:00+02:00",
-      "end": "2026-10-25T00:00:00+02:00",
-      "all_day": false,
-      "location": "Viaduc Herman Debroux, Auderghem",
-      "description": "",
-      "url": "https://www.quefaire.be/superbe-brocante-couverte-8775548.shtml",
-      "image": "https://www.quefaire.be/img_n/8775548_1.jpeg",
-      "source": "Quefaire.be brocantes (Brussels region)",
-      "price_min": 15.0,
-      "price_max": 15.0,
-      "uid": "37dced1c9e7953ea",
-      "colour": "#E8336D",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "late-night"
-      ]
     },
     {
       "title": "Formation C.A.R.E. : Comprendre, agir, rêver ensemble pour une...",
@@ -1907,24 +1755,6 @@
       "tags": []
     },
     {
-      "title": "Ali Cherri: Pray, Lips of Clay dim 25/10 - 11:00 Exposition",
-      "start": "2026-10-25T11:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Ali Cherri: Pray, Lips of Clay dim 25/10 - 11:00 Exposition",
-      "url": "http://forest.brussels/fr/agenda/exposition/2026/ali-cherri-pray-lips-of-clay",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "778b3714ffbe4c4d",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "Le Parc Duden dim 25/10 - 11:00 Visites Guidées",
       "start": "2026-10-25T11:00:00+01:00",
       "end": null,
@@ -1937,6 +1767,24 @@
       "price_min": null,
       "price_max": null,
       "uid": "93080c8b2edb19bf",
+      "colour": "#0F8CA8",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Ali Cherri: Pray, Lips of Clay dim 25/10 - 11:00 Exposition",
+      "start": "2026-10-25T11:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Ali Cherri: Pray, Lips of Clay dim 25/10 - 11:00 Exposition",
+      "url": "http://forest.brussels/fr/agenda/exposition/2026/ali-cherri-pray-lips-of-clay",
+      "image": null,
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "778b3714ffbe4c4d",
       "colour": "#0F8CA8",
       "detail_checked": 4,
       "category": "other",
@@ -1961,24 +1809,6 @@
       "tags": []
     },
     {
-      "title": "L’Arbre du Réconfort - film Têtes Brûlées avec débat dim 25/10 - 14:00 Cinéma",
-      "start": "2026-10-25T14:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "L’Arbre du Réconfort - film Têtes Brûlées avec débat dim 25/10 - 14:00 Cinéma",
-      "url": "http://forest.brussels/fr/agenda/cinema/2026/larbre-du-reconfort-film-tetes-brulees-avec-debat",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "ca7fa718ece8e4c2",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "Cartographie les voies lentes de Forest dim 25/10 - 14:00 Animations",
       "start": "2026-10-25T14:00:00+01:00",
       "end": null,
@@ -1997,39 +1827,19 @@
       "tags": []
     },
     {
-      "title": "Le Corset",
-      "start": "2026-10-25T14:15:00+01:00",
+      "title": "L’Arbre du Réconfort - film Têtes Brûlées avec débat dim 25/10 - 14:00 Cinéma",
+      "start": "2026-10-25T14:00:00+01:00",
       "end": null,
       "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "Le Corset Sun 25 Oct and Sun 29 Nov Studio 5 cinema animation special screening € 0,00–€ 10,50 dates dates Sun 25 Oct 14:15 tickets Sun 29 Nov 12:45 tickets Free screening as part of ‘En Avant!’ Sat 17 Oct 14:45 Past event Sun 18 Oct 14:15 Past event Sat 24 Oct 14:00 Past event",
-      "url": "https://www.flagey.be/en/agenda/le-corset-6995",
+      "location": "",
+      "description": "L’Arbre du Réconfort - film Têtes Brûlées avec débat dim 25/10 - 14:00 Cinéma",
+      "url": "http://forest.brussels/fr/agenda/cinema/2026/larbre-du-reconfort-film-tetes-brulees-avec-debat",
       "image": null,
-      "source": "Flagey",
-      "price_min": 0.0,
-      "price_max": 10.5,
-      "uid": "639af4c07670b75f",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "title": "Akira",
-      "start": "2026-10-25T16:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "Akira Sun 25 Oct 16:00 Studio 5 cinema animation € 7,00–€ 10,50 dates dates Sun 25 Oct 16:00 tickets Wed 9 Sep 21:00 Past event Thu 10 Sep 16:20 Past event Sun 13 Sep 18:30 Past event Fri 18 Sep 18:50 Past event Sun 20 Sep 21:00 Past event Thu 24 Sep 21:00 Past event Fri 25 Sep 16:30 Past event Wed",
-      "url": "https://www.flagey.be/en/agenda/akira-f95q",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "c9180fbc529a5b07",
-      "colour": "#1B6FE0",
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "ca7fa718ece8e4c2",
+      "colour": "#0F8CA8",
       "detail_checked": 4,
       "category": "other",
       "tags": []
@@ -2112,26 +1922,6 @@
       "price_max": 10.0,
       "uid": "9a40802f83c1b4b7",
       "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "The Invite",
-      "start": "2026-10-25T18:30:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "The Invite Sun 25 Oct 18:30 Studio 5 cinema € 7,00–€ 10,50 dates dates Sun 25 Oct 18:30 tickets Wed 16 Sep 21:00 Past event Sat 19 Sep 21:10 Past event Sun 20 Sep 17:00 Past event Wed 23 Sep 17:00 Past event Fri 25 Sep 21:20 Past event Sun 27 Sep 18:30 Past event Wed 30 Sep 18:40 Past event Sat 3 Oc",
-      "url": "https://www.flagey.be/en/agenda/the-invite-zgr4",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "b1d0e771a6011b1d",
-      "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "other",
       "tags": [
@@ -2319,24 +2109,6 @@
       "tags": []
     },
     {
-      "title": "Stage découverte d'Halloween lun 26/10 - 10:00 Cours, Stages et Ateliers",
-      "start": "2026-10-26T10:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Stage découverte d'Halloween lun 26/10 - 10:00 Cours, Stages et Ateliers",
-      "url": "http://forest.brussels/fr/agenda/cours-stages-et-ateliers/2026/stage-decouverte-dhalloween",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "696d2c90e944d8cf",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "L'Arbre de reconfort - Atelier créatif : créer des pierres de réconfort lun 26/10 - 10:00 Cours, Stages et Ateliers",
       "start": "2026-10-26T10:00:00+01:00",
       "end": null,
@@ -2349,6 +2121,24 @@
       "price_min": null,
       "price_max": null,
       "uid": "39981050edd5fac2",
+      "colour": "#0F8CA8",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Stage découverte d'Halloween lun 26/10 - 10:00 Cours, Stages et Ateliers",
+      "start": "2026-10-26T10:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Stage découverte d'Halloween lun 26/10 - 10:00 Cours, Stages et Ateliers",
+      "url": "http://forest.brussels/fr/agenda/cours-stages-et-ateliers/2026/stage-decouverte-dhalloween",
+      "image": null,
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "696d2c90e944d8cf",
       "colour": "#0F8CA8",
       "detail_checked": 4,
       "category": "other",
@@ -3032,6 +2822,46 @@
       ]
     },
     {
+      "title": "Écouter Pause general jeu 29 oct '26 AB Club IJSLAND Tempête iconoclaste anticapitaliste où se mêlent beats secs, déclarations politiques et",
+      "start": "2026-10-29T19:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Écouter Pause general jeu 29 oct '26 AB Club IJSLAND Tempête iconoclaste anticapitaliste où se mêlent beats secs, déclarations politiques et jeux de mots affûtés Concert Complet",
+      "url": "https://www.abconcerts.be/fr/agenda/ijsland/a10Qw00000GcJq1IAF",
+      "image": "https://abconcerts.be/assets/website/components/images/og-image.1c2180e4.png",
+      "source": "Ancienne Belgique",
+      "price_min": 4.9,
+      "price_max": 27.0,
+      "uid": "46d2ac100aa24f60",
+      "colour": "#C0392B",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
+      "title": "Brocante - Halloween",
+      "start": "2026-10-29T00:00:00+01:00",
+      "end": "2026-10-29T00:00:00+01:00",
+      "all_day": false,
+      "location": "La Satinerie, Koekelberg",
+      "description": "",
+      "url": "https://www.quefaire.be/brocante-halloween-8774949.shtml",
+      "image": "https://www.quefaire.be/img_n/8774949_1.jpeg",
+      "source": "Quefaire.be brocantes (Brussels region)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "2ff269f6be998a63",
+      "colour": "#E8336D",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "late-night"
+      ]
+    },
+    {
       "title": "29 Oct 2026 Pourtant j’ai tout bien fait comme il faut ! Véronique Kesmedjian Saint-Léonard-de-Noblat (87)",
       "start": "2026-10-29T00:00:00+01:00",
       "end": null,
@@ -3257,26 +3087,6 @@
       ]
     },
     {
-      "title": "Tai chi avondcursus 2 jeu 29/10 - 19:30 Sport",
-      "start": "2026-10-29T19:30:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Tai chi avondcursus 2 jeu 29/10 - 19:30 Sport",
-      "url": "http://forest.brussels/fr/agenda/tai-chi-avondcursus-2",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "3dc3638371c87d89",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "Yoga en meditatie jeu 29/10 - 19:30 Sport",
       "start": "2026-10-29T19:30:00+01:00",
       "end": null,
@@ -3289,6 +3099,26 @@
       "price_min": null,
       "price_max": null,
       "uid": "3a824ae5095d2f01",
+      "colour": "#0F8CA8",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
+      "title": "Tai chi avondcursus 2 jeu 29/10 - 19:30 Sport",
+      "start": "2026-10-29T19:30:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Tai chi avondcursus 2 jeu 29/10 - 19:30 Sport",
+      "url": "http://forest.brussels/fr/agenda/tai-chi-avondcursus-2",
+      "image": null,
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "3dc3638371c87d89",
       "colour": "#0F8CA8",
       "detail_checked": 4,
       "category": "other",
@@ -3697,6 +3527,46 @@
       ]
     },
     {
+      "title": "Coward",
+      "start": "2026-10-30T18:15:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "Coward Fri 30 Oct - Sun 22 Nov Studio 5 cinema € 7,00–€ 10,50 dates dates Fri 30 Oct 18:15 tickets Sun 1 Nov 18:40 tickets Thu 5 Nov 18:50 tickets Fri 6 Nov 21:05 tickets Thu 12 Nov 16:10 tickets Thu 19 Nov 17:00 tickets Sun 22 Nov 14:15 tickets Wed 21 Oct 19:10 Past event Thu 22 Oct 17:15 Past even",
+      "url": "https://www.flagey.be/en/agenda/coward-xdbs",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 10.5,
+      "uid": "9f2869e5e9080256",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
+      "title": "Procession 'Dia de Muertos' ven 30/10 - 18:30 Animations",
+      "start": "2026-10-30T18:30:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Procession 'Dia de Muertos' ven 30/10 - 18:30 Animations",
+      "url": "http://forest.brussels/fr/agenda/animations/2026/procession-dia-de-muertos",
+      "image": null,
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "b2dbc9aef76908a0",
+      "colour": "#0F8CA8",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
       "title": "French Folk Forever",
       "start": "2026-10-30T19:30:00+01:00",
       "end": null,
@@ -3819,6 +3689,26 @@
       "detail_checked": 4,
       "category": "other",
       "tags": []
+    },
+    {
+      "title": "French Folk Forever MoAW présente : Bòsc + Bourrasque + Lutèce Lockness tickets ven 30/10 - 20:00 Concert",
+      "start": "2026-10-30T20:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "French Folk Forever MoAW présente : Bòsc + Bourrasque + Lutèce Lockness tickets ven 30/10 - 20:00 Concert",
+      "url": "http://forest.brussels/fr/agenda/concert/2026/french-folk-forever-moaw-presente-bosc-bourrasque-lutece-lockness-tickets",
+      "image": null,
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "21e3527656a6f7bd",
+      "colour": "#0F8CA8",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
     },
     {
       "title": "Nostalgia 80s & 90s Party",
@@ -4281,6 +4171,46 @@
       "detail_checked": 4,
       "category": "other",
       "tags": []
+    },
+    {
+      "title": "Brocante",
+      "start": "2026-11-01T00:00:00+01:00",
+      "end": "2026-11-01T00:00:00+01:00",
+      "all_day": false,
+      "location": "Forest, Bruxelles",
+      "description": "",
+      "url": "https://www.quefaire.be/brocante-8770806.shtml",
+      "image": "https://www.quefaire.be/img_n/8770806_1.jpeg",
+      "source": "Quefaire.be brocantes (Brussels region)",
+      "price_min": 10.0,
+      "price_max": 10.0,
+      "uid": "af0b552c612df495",
+      "colour": "#E8336D",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "late-night"
+      ]
+    },
+    {
+      "title": "Brocante, plantes, thé/café et gateaux",
+      "start": "2026-11-01T00:00:00+01:00",
+      "end": "2026-11-01T00:00:00+01:00",
+      "all_day": false,
+      "location": "Chez Moi, Bruxelles",
+      "description": "",
+      "url": "https://www.quefaire.be/brocante-plantes-the-cafe-8773002.shtml",
+      "image": "https://www.quefaire.be/img_n/8773002_1.jpeg",
+      "source": "Quefaire.be brocantes (Brussels region)",
+      "price_min": 1.0,
+      "price_max": 1.0,
+      "uid": "10ff4df0c2eb9eab",
+      "colour": "#E8336D",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "late-night"
+      ]
     },
     {
       "title": "Sablon Antiques Market",
@@ -5588,6 +5518,24 @@
       "price_max": null,
       "uid": "5dfacec6de85b322",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Formation Ennéagramme 06 nov 2026 Stages / Cours Cours Villers-la-Ville Villers-la-Ville - Brabant Wallon Un parcours de 4, 8 ou 10 jours",
+      "start": "2026-11-06T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "Villers-la-Ville, 1495 Villers-la-Ville, Brabant Wallon, Belgique, Villers-la-Ville",
+      "description": "Formation Ennéagramme 06 nov 2026 Stages / Cours Cours Villers-la-Ville Villers-la-Ville - Brabant Wallon Un parcours de 4, 8 ou 10 jours pour mieux comprendre vos automatismes, vos relations et créer de nouvelles possibilités de changement. Pourquoi est-ce que certaines situations nous touchent a",
+      "url": "https://www.out.be/fr/evenements/222662_formation-enneagramme.html",
+      "image": "https://www.out.be/assets/img/logo-outbe.svg",
+      "source": "Out.be",
+      "price_min": 105.0,
+      "price_max": 399.0,
+      "uid": "4f930d32724266b2",
+      "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "other",
       "tags": []
@@ -8707,24 +8655,6 @@
       ]
     },
     {
-      "title": "Fanny Garin 21.11.2026 > 22.11.2026 Polar et poésie — complet Atelier Écriture Poésie Polar",
-      "start": "2026-11-21T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "Fanny Garin 21.11.2026 > 22.11.2026 Polar et poésie — complet Atelier Écriture Poésie Polar",
-      "url": "https://www.lamaisondulivre.be/atelier/polar-et-poesie/",
-      "image": "https://www.lamaisondulivre.be/wp-content/uploads/2025/08/calendar_ssfond.png",
-      "source": "La Maison du Livre",
-      "price_min": 12.0,
-      "price_max": 60.0,
-      "uid": "8a1e9e563034d1d8",
-      "colour": "#C0392B",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "21.11.2026 Une histoire de rencontres Parcours d'éditeur Rencontre",
       "start": "2026-11-21T18:30:00+01:00",
       "end": null,
@@ -8743,6 +8673,24 @@
       "tags": [
         "evening"
       ]
+    },
+    {
+      "title": "Fanny Garin 21.11.2026 > 22.11.2026 Polar et poésie — complet Atelier Écriture Poésie Polar",
+      "start": "2026-11-21T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "Fanny Garin 21.11.2026 > 22.11.2026 Polar et poésie — complet Atelier Écriture Poésie Polar",
+      "url": "https://www.lamaisondulivre.be/atelier/polar-et-poesie/",
+      "image": "https://www.lamaisondulivre.be/wp-content/uploads/2025/08/calendar_ssfond.png",
+      "source": "La Maison du Livre",
+      "price_min": 12.0,
+      "price_max": 60.0,
+      "uid": "8a1e9e563034d1d8",
+      "colour": "#C0392B",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
     },
     {
       "title": "La Ronde occitane",
