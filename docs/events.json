@@ -1,15 +1,15 @@
 {
-  "generated": "2026-10-25T19:42:36.410518+01:00",
+  "generated": "2026-10-26T11:58:04.322550+01:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
       "name": "La Vieille Chéchette",
       "url": "https://chechette.be/lagenda/",
       "colour": "#E8336D",
-      "count": 5,
+      "count": 4,
       "method": "jsonld",
       "stale": false,
-      "last_ok": "2026-10-25"
+      "last_ok": "2026-10-26"
     },
     {
       "name": "GC Pianofabriek",
@@ -27,7 +27,7 @@
       "count": 6,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-10-25"
+      "last_ok": "2026-10-26"
     },
     {
       "name": "Recyclart",
@@ -42,10 +42,10 @@
       "name": "Le Jacques Franck",
       "url": "https://www.lejacquesfranck.be/agenda",
       "colour": "#7B49D6",
-      "count": 4,
+      "count": 5,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-10-25"
+      "last_ok": "2026-10-26"
     },
     {
       "name": "Fuse",
@@ -54,7 +54,7 @@
       "count": 13,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-10-25"
+      "last_ok": "2026-10-26"
     },
     {
       "name": "Goudblommeke in Papier",
@@ -63,7 +63,7 @@
       "count": 2,
       "method": "wordpress",
       "stale": false,
-      "last_ok": "2026-10-25"
+      "last_ok": "2026-10-26"
     },
     {
       "name": "Le Poche",
@@ -72,13 +72,13 @@
       "count": 7,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-10-25"
+      "last_ok": "2026-10-26"
     },
     {
       "name": "Sounds Jazz Club",
       "url": "https://www.sounds.brussels/agenda/",
       "colour": "#E8336D",
-      "count": 10,
+      "count": 9,
       "method": "none",
       "stale": true,
       "last_ok": "2026-10-03"
@@ -90,7 +90,7 @@
       "count": 3,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-10-25"
+      "last_ok": "2026-10-26"
     },
     {
       "name": "BRASS",
@@ -106,8 +106,8 @@
       "url": "https://wiels.org/en/events",
       "colour": "#E07A00",
       "count": 12,
-      "method": "browser",
-      "stale": false,
+      "method": "none",
+      "stale": true,
       "last_ok": "2026-10-25"
     },
     {
@@ -117,7 +117,7 @@
       "count": 17,
       "method": "jsonld",
       "stale": false,
-      "last_ok": "2026-10-25"
+      "last_ok": "2026-10-26"
     },
     {
       "name": "CCLJ",
@@ -132,7 +132,7 @@
       "name": "GC Ten Weyngaert",
       "url": "https://www.tenweyngaert.be/activiteiten",
       "colour": "#0F8CA8",
-      "count": 7,
+      "count": 6,
       "method": "none",
       "stale": true,
       "last_ok": "2026-10-13"
@@ -151,7 +151,7 @@
       "url": "https://www.senghor.be/agenda/",
       "colour": "#E8336D",
       "count": 31,
-      "method": "none",
+      "method": "browser",
       "stale": true,
       "last_ok": "2026-10-03"
     },
@@ -162,7 +162,7 @@
       "count": 10,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-10-25"
+      "last_ok": "2026-10-26"
     },
     {
       "name": "BOZAR",
@@ -171,7 +171,7 @@
       "count": 7,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-10-25"
+      "last_ok": "2026-10-26"
     },
     {
       "name": "KVS",
@@ -180,25 +180,25 @@
       "count": 21,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-10-25"
+      "last_ok": "2026-10-26"
     },
     {
       "name": "Kaaitheater",
       "url": "https://kaaitheater.be/nl/agenda",
       "colour": "#7B49D6",
-      "count": 3,
+      "count": 2,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-10-25"
+      "last_ok": "2026-10-26"
     },
     {
       "name": "Ancienne Belgique",
       "url": "https://www.abconcerts.be/fr/agenda",
       "colour": "#C0392B",
-      "count": 10,
+      "count": 8,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-10-25"
+      "last_ok": "2026-10-26"
     },
     {
       "name": "Demosphere Bruxelles",
@@ -207,7 +207,7 @@
       "count": 28,
       "method": "ics",
       "stale": false,
-      "last_ok": "2026-10-25"
+      "last_ok": "2026-10-26"
     },
     {
       "name": "CBCS (Brussels social sector agenda)",
@@ -216,7 +216,7 @@
       "count": 11,
       "method": "ics",
       "stale": false,
-      "last_ok": "2026-10-25"
+      "last_ok": "2026-10-26"
     },
     {
       "name": "Quefaire.be brocantes (Brussels region)",
@@ -225,7 +225,7 @@
       "count": 3,
       "method": "jsonld",
       "stale": false,
-      "last_ok": "2026-10-25"
+      "last_ok": "2026-10-26"
     },
     {
       "name": "Brocabrac Belgique",
@@ -234,7 +234,7 @@
       "count": 40,
       "method": "jsonld",
       "stale": false,
-      "last_ok": "2026-10-25"
+      "last_ok": "2026-10-26"
     },
     {
       "name": "Brussels Language Meetup",
@@ -243,7 +243,7 @@
       "count": 4,
       "method": "jsonld",
       "stale": false,
-      "last_ok": "2026-10-25"
+      "last_ok": "2026-10-26"
     },
     {
       "name": "Brussels International Hub Events (Meetup)",
@@ -252,7 +252,7 @@
       "count": 4,
       "method": "jsonld",
       "stale": false,
-      "last_ok": "2026-10-25"
+      "last_ok": "2026-10-26"
     },
     {
       "name": "Saint-Gilles brocantes & braderies (commune)",
@@ -288,7 +288,7 @@
       "count": 20,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-10-25"
+      "last_ok": "2026-10-26"
     },
     {
       "name": "La Bellone",
@@ -297,7 +297,7 @@
       "count": 3,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-10-25"
+      "last_ok": "2026-10-26"
     },
     {
       "name": "FTI Brussel (programme page)",
@@ -321,10 +321,10 @@
       "name": "Protestbase Bruxelles",
       "url": "https://protestbase.be/manifestations/bruxelles",
       "colour": "#E07A00",
-      "count": 11,
+      "count": 12,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-10-25"
+      "last_ok": "2026-10-26"
     },
     {
       "name": "Stuut",
@@ -333,16 +333,16 @@
       "count": 5,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-10-25"
+      "last_ok": "2026-10-26"
     },
     {
       "name": "Conférences gesticulées (network catalogue)",
       "url": "https://conferences-gesticulees.net/",
       "colour": "#C0392B",
-      "count": 9,
+      "count": 11,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-10-25"
+      "last_ok": "2026-10-26"
     },
     {
       "name": "Conférences gesticulées (per-day pages)",
@@ -351,7 +351,7 @@
       "count": 99,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-10-25"
+      "last_ok": "2026-10-26"
     },
     {
       "name": "Centre d'Action Laïque events",
@@ -375,7 +375,7 @@
       "name": "Club Carré agenda",
       "url": "https://carre.be/agenda/",
       "colour": "#1B6FE0",
-      "count": 4,
+      "count": 3,
       "method": "none",
       "stale": true,
       "last_ok": "2026-10-03"
@@ -387,7 +387,7 @@
       "count": 22,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-10-25"
+      "last_ok": "2026-10-26"
     },
     {
       "name": "Varia",
@@ -396,7 +396,7 @@
       "count": 4,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-10-25"
+      "last_ok": "2026-10-26"
     },
     {
       "name": "Halles de Schaerbeek",
@@ -405,7 +405,7 @@
       "count": 8,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-10-25"
+      "last_ok": "2026-10-26"
     },
     {
       "name": "La Maison du Livre",
@@ -414,16 +414,16 @@
       "count": 9,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-10-25"
+      "last_ok": "2026-10-26"
     },
     {
       "name": "Forest (commune agenda)",
       "url": "https://forest.brussels/fr/agenda",
       "colour": "#0F8CA8",
-      "count": 23,
+      "count": 24,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-10-25"
+      "last_ok": "2026-10-26"
     },
     {
       "name": "Brocantes 1060 (Saint-Gilles)",
@@ -519,10 +519,10 @@
       "name": "Out.be",
       "url": "https://www.out.be/fr/",
       "colour": "#1B6FE0",
-      "count": 5,
+      "count": 7,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-10-25"
+      "last_ok": "2026-10-26"
     },
     {
       "name": "FTI Brussel",
@@ -531,7 +531,7 @@
       "count": 0,
       "method": "manual",
       "stale": false,
-      "last_ok": "2026-10-25"
+      "last_ok": "2026-10-26"
     },
     {
       "name": "Midis de la Poesie",
@@ -540,7 +540,7 @@
       "count": 8,
       "method": "manual",
       "stale": false,
-      "last_ok": "2026-10-25"
+      "last_ok": "2026-10-26"
     },
     {
       "name": "CRUSH festival",
@@ -549,7 +549,7 @@
       "count": 7,
       "method": "manual",
       "stale": false,
-      "last_ok": "2026-10-25"
+      "last_ok": "2026-10-26"
     },
     {
       "name": "Neighbourhood flyer",
@@ -558,7 +558,7 @@
       "count": 1,
       "method": "manual",
       "stale": false,
-      "last_ok": "2026-10-25"
+      "last_ok": "2026-10-26"
     },
     {
       "name": "Surgir asbl (Brasserie Atlas)",
@@ -567,7 +567,7 @@
       "count": 2,
       "method": "manual",
       "stale": false,
-      "last_ok": "2026-10-25"
+      "last_ok": "2026-10-26"
     },
     {
       "name": "Mazette",
@@ -576,7 +576,7 @@
       "count": 3,
       "method": "manual",
       "stale": false,
-      "last_ok": "2026-10-25"
+      "last_ok": "2026-10-26"
     },
     {
       "name": "Welzijnszorg / BOP",
@@ -585,7 +585,7 @@
       "count": 0,
       "method": "manual",
       "stale": false,
-      "last_ok": "2026-10-25"
+      "last_ok": "2026-10-26"
     },
     {
       "name": "ANTE Festival",
@@ -594,7 +594,7 @@
       "count": 0,
       "method": "manual",
       "stale": false,
-      "last_ok": "2026-10-25"
+      "last_ok": "2026-10-26"
     },
     {
       "name": "The Bridge Theatre",
@@ -603,7 +603,7 @@
       "count": 1,
       "method": "manual",
       "stale": false,
-      "last_ok": "2026-10-25"
+      "last_ok": "2026-10-26"
     }
   ],
   "categories": [
@@ -775,7 +775,7 @@
       "source": "La Vieille Chéchette",
       "method": "jsonld",
       "found": 18,
-      "kept": 5,
+      "kept": 4,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -814,8 +814,8 @@
     {
       "source": "Le Jacques Franck",
       "method": "recipe",
-      "found": 4,
-      "kept": 4,
+      "found": 5,
+      "kept": 5,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -856,7 +856,7 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "carried": 10,
+      "carried": 9,
       "stale": true,
       "error_class": "billing",
       "note": "llm: skipped (billing failure earlier this run)"
@@ -883,13 +883,13 @@
     },
     {
       "source": "WIELS",
-      "method": "browser",
-      "found": 12,
-      "kept": 12,
-      "carried": 0,
-      "stale": false,
-      "error_class": "",
-      "note": ""
+      "method": "none",
+      "found": 0,
+      "kept": 0,
+      "carried": 12,
+      "stale": true,
+      "error_class": "billing",
+      "note": "browser: jsonld/recipe empty, llm skipped (billing failure earlier this run)"
     },
     {
       "source": "Maison Poème",
@@ -916,7 +916,7 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "carried": 7,
+      "carried": 6,
       "stale": true,
       "error_class": "site",
       "note": "browser: robots.txt disallows https://www.tenweyngaert.be/activiteiten"
@@ -933,13 +933,13 @@
     },
     {
       "source": "Le Senghor",
-      "method": "none",
-      "found": 0,
+      "method": "browser",
+      "found": 9,
       "kept": 0,
       "carried": 31,
       "stale": true,
-      "error_class": "billing",
-      "note": "browser: jsonld/recipe empty, llm skipped (billing failure earlier this run)"
+      "error_class": "",
+      "note": ""
     },
     {
       "source": "Flagey",
@@ -975,7 +975,7 @@
       "source": "Kaaitheater",
       "method": "recipe",
       "found": 21,
-      "kept": 3,
+      "kept": 2,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -984,8 +984,8 @@
     {
       "source": "Ancienne Belgique",
       "method": "recipe",
-      "found": 10,
-      "kept": 10,
+      "found": 8,
+      "kept": 8,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1125,7 +1125,7 @@
       "source": "Protestbase Bruxelles",
       "method": "recipe",
       "found": 12,
-      "kept": 11,
+      "kept": 12,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1145,7 +1145,7 @@
       "source": "Conférences gesticulées (network catalogue)",
       "method": "recipe",
       "found": 12,
-      "kept": 9,
+      "kept": 11,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1186,7 +1186,7 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "carried": 4,
+      "carried": 3,
       "stale": true,
       "error_class": "billing",
       "note": "llm: skipped (billing failure earlier this run)"
@@ -1235,7 +1235,7 @@
       "source": "Forest (commune agenda)",
       "method": "recipe",
       "found": 24,
-      "kept": 23,
+      "kept": 24,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1344,8 +1344,8 @@
     {
       "source": "Out.be",
       "method": "recipe",
-      "found": 5,
-      "kept": 5,
+      "found": 9,
+      "kept": 7,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1497,372 +1497,6 @@
       "tags_llm_done": true
     },
     {
-      "title": "GYPSY JAZZ NIGHT BY RENAUD CROLS",
-      "start": "2026-10-24T20:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "GYPSY JAZZ NIGHT",
-      "url": "https://www.sounds.brussels/jazz-concert/gipsy-jazz-night-by-renaud-crols/",
-      "image": "https://www.sounds.brussels/wp-content/uploads/2026/07/sounds-social-1024x576-1.jpg",
-      "source": "Sounds Jazz Club",
-      "uid": "1d21d3859a7f0ded",
-      "colour": "#E8336D",
-      "translated": true,
-      "category": "music",
-      "category_llm": true,
-      "tags": [
-        "evening",
-        "live"
-      ],
-      "tags_llm_done": true,
-      "stale": true,
-      "price_min": 8.0,
-      "price_max": 25.0,
-      "detail_checked": 4
-    },
-    {
-      "title": "za 24.10.26 20:00 Chapters of Celebration Benjamin Abel Meirhaeghe Wouter Deltour Muziektheater Transparant | PeriferiK",
-      "start": "2026-10-24T20:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "za 24.10.26 20:00 Chapters of Celebration Benjamin Abel Meirhaeghe Wouter Deltour Muziektheater Transparant | PeriferiK dans CC Strombeek Tickets",
-      "url": "https://kaaitheater.be/nl/agenda/26-27/chapters-celebration",
-      "image": null,
-      "source": "Kaaitheater",
-      "price_min": 16.0,
-      "price_max": 32.0,
-      "uid": "2705ade9e3b80c22",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Levi",
-      "start": "2026-10-24T23:00:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "Carré, Willebroek",
-      "description": "",
-      "url": "https://carre.be/events/levi/",
-      "image": "https://carre.be/wp-content/uploads/2026/08/carrelinks.jpg",
-      "source": "Club Carré agenda",
-      "uid": "2487bcc0ecf104a0",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "other",
-      "category_llm": true,
-      "tags": [
-        "late-night"
-      ],
-      "tags_llm_done": true,
-      "stale": true,
-      "time_checked": 3,
-      "detail_checked": 4
-    },
-    {
-      "title": "4pm Monoculus, Italian and Feminist Book Club",
-      "start": "2026-10-25T00:00:00+02:00",
-      "end": "2026-10-25T00:00:00+02:00",
-      "all_day": true,
-      "location": "",
-      "description": "The first meeting of Monoculus, Italian and feminist book club, will be on Sunday 25 October 2026! From 4pm to 7pm at Vieille Chéchette. We will discuss the book \"Doing Feminism\" by Giulia Siviero (Nottetempo, 2024). For any questions or curiosity, don't hesitate to write to Ginevra (+39 338 911 8404) or Silvia",
-      "url": "https://chechette.be/events/16h-monoculus-club-del-libro-italofono-e-femminista/",
-      "image": null,
-      "source": "La Vieille Chéchette",
-      "price_min": null,
-      "price_max": null,
-      "uid": "1abe3466ab10d521",
-      "colour": "#E8336D",
-      "detail_checked": 4,
-      "translated": true,
-      "category": "talks-discussions",
-      "category_llm": true,
-      "tags": [
-        "drop-in"
-      ],
-      "tags_llm_done": true
-    },
-    {
-      "title": "À l'assaut du ciel, Cuba ou la solidarité anti-impérialiste I Cinéma d'Attac Doc I Rencontre dimanche 25 oct.",
-      "start": "2026-10-25T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "À l'assaut du ciel, Cuba ou la solidarité anti-impérialiste I Cinéma d'Attac Doc I Rencontre dimanche 25 oct. Réserver",
-      "url": "https://lejacquesfranck.be/event/a-lassaut-du-ciel-cuba-ou-la-solidarite-anti-impérialiste-i-cinéma-dattac/2026-10-25/",
-      "image": "https://lejacquesfranck.be/resources/assets/img/logo-og.png",
-      "source": "Le Jacques Franck",
-      "price_min": 4.5,
-      "price_max": 15.0,
-      "uid": "4ec05826e92e2721",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "© Quetzalcoatl Gratis De Troostboom - film Têtes Brûlées met nabespreking Organisator: Gemeenschapscentrum Ten Weyngaert vzw zo 25.10.2026",
-      "start": "2026-10-25T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "© Quetzalcoatl Gratis De Troostboom - film Têtes Brûlées met nabespreking Organisator: Gemeenschapscentrum Ten Weyngaert vzw zo 25.10.2026 GC Ten Weyngaert, Vorst Thema activiteit Film 12 - 99 jaar",
-      "url": "https://www.tenweyngaert.be/activiteiten/de-troostboom-film-tetes-brulees-met-nabespreking",
-      "image": null,
-      "source": "GC Ten Weyngaert",
-      "price_min": null,
-      "price_max": null,
-      "uid": "5714de8ee0f1bc3a",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "free"
-      ],
-      "stale": true
-    },
-    {
-      "title": "Little Trouble Girls - Urška Djukić",
-      "start": "2026-10-25T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "Little Trouble Girls - Urška Djukić Sold out Cancelled Postponed Last Tickets Films New release Little Trouble Girls - Urška Djukić Now → 25 Oct.'26 From 8 €",
-      "url": "https://www.bozar.be/en/calendar/little-trouble-girls-urska-djukic",
-      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
-      "source": "BOZAR",
-      "price_min": 8.0,
-      "price_max": 8.0,
-      "uid": "aaec14742c3327b1",
-      "colour": "#00937A",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "Formation C.A.R.E. : Comprendre, agir, rêver ensemble pour une...",
-      "start": "2026-10-25T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "oct. 25 Formation C.A.R.E. : Comprendre, agir, rêver ensemble pour une... 23 - 25 octobre Bruxelles",
-      "url": "https://stuut.info/Formation-C-A-R-E-Comprendre-agir-rever-ensemble-pour-une-autre-societe-14067",
-      "image": "https://stuut.info/squelettes/images/stuut_lin_fb_1200x627.jpeg",
-      "source": "Stuut",
-      "price_min": 15.0,
-      "price_max": 15.0,
-      "uid": "5abb07cc7cc79137",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "Festival Les-Sous-Entendu.e.s",
-      "start": "2026-10-25T19:30:00+02:00",
-      "end": null,
-      "all_day": false,
-      "location": "L’Échappée, 28 rue Drootbeek, 1020 Laeken – www.echappee.collectifs.net",
-      "description": "oct. 25 Festival Les-Sous-Entendu.e.s 23 - 25 octobre Bruxelles",
-      "url": "https://stuut.info/Festival-Les-Sous-Entendu-e-s-Savoir-Faire-comme-outils-de-lutte-13938",
-      "image": "https://stuut.info/squelettes/images/stuut_lin_fb_1200x627.jpeg",
-      "source": "Stuut",
-      "price_min": 5.0,
-      "price_max": 5.0,
-      "uid": "4aabbf3552e1fefe",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "AFA BXL/WEEKEND ANTIRACISTE",
-      "start": "2026-10-25T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "Frénésie – Café culturel – Bd Anspach 177, 1000 Bruxelles",
-      "description": "oct. 25 AFA BXL/WEEKEND ANTIRACISTE 23 - 25 octobre Bruxelles",
-      "url": "https://stuut.info/AFA-BXL-WEEKEND-ANTIRACISTE-23-24-25-OCTOBRE-14213",
-      "image": "https://stuut.info/squelettes/images/stuut_lin_fb_1200x627.jpeg",
-      "source": "Stuut",
-      "price_min": 5.0,
-      "price_max": 5.0,
-      "uid": "832fe01fd1814ed2",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "25 Oct 2026 Mon corps leur choix Cristelle Jouglet Mûrs-Erigné (49)",
-      "start": "2026-10-25T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "25 Oct 2026 Mon corps leur choix Cristelle Jouglet Mûrs-Erigné (49)",
-      "url": "https://conferences-gesticulees.net/events/25-10-2026-cristelle-jouglet-le-biau-jardin/",
-      "image": null,
-      "source": "Conférences gesticulées (network catalogue)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "48634fb816d80fad",
-      "colour": "#C0392B",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "25 Oct 2026 Mon corps leur choix Cristelle Jouglet Mûrs-Erigné (49)",
-      "start": "2026-10-25T00:00:00+02:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "25 Oct 2026 Mon corps leur choix Cristelle Jouglet Mûrs-Erigné (49)",
-      "url": "https://conferences-gesticulees.net/events/25-10-2026-cristelle-jouglet-le-biau-jardin/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "95b1c8a5f4355d7f",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "De Troostboom (L’Arbre du Réconfort) dim 25/10 - 09:00 Cours, Stages et Ateliers",
-      "start": "2026-10-25T09:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "De Troostboom (L’Arbre du Réconfort) dim 25/10 - 09:00 Cours, Stages et Ateliers",
-      "url": "http://forest.brussels/fr/agenda/cours-stages-et-ateliers/2026/de-troostboom-larbre-du-reconfort",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "e6b86df8c863eae9",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "Le Parc Duden dim 25/10 - 11:00 Visites Guidées",
-      "start": "2026-10-25T11:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Le Parc Duden dim 25/10 - 11:00 Visites Guidées",
-      "url": "http://forest.brussels/fr/agenda/visites-guidees/2026/le-parc-duden",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "93080c8b2edb19bf",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "Ali Cherri: Pray, Lips of Clay dim 25/10 - 11:00 Exposition",
-      "start": "2026-10-25T11:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Ali Cherri: Pray, Lips of Clay dim 25/10 - 11:00 Exposition",
-      "url": "http://forest.brussels/fr/agenda/exposition/2026/ali-cherri-pray-lips-of-clay",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "778b3714ffbe4c4d",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "Lost and Found. La photographie japonaise dim 25/10 - 13:00 Exposition",
-      "start": "2026-10-25T13:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Lost and Found. La photographie japonaise dim 25/10 - 13:00 Exposition",
-      "url": "http://forest.brussels/fr/agenda/exposition/2026/lost-and-found-la-photographie-japonaise",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "90c90795ed173ecc",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "Cartographie les voies lentes de Forest dim 25/10 - 14:00 Animations",
-      "start": "2026-10-25T14:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Cartographie les voies lentes de Forest dim 25/10 - 14:00 Animations",
-      "url": "http://forest.brussels/fr/agenda/animations/2026/cartographie-les-voies-lentes-de-forest",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "e9b5e9b1167bcc7f",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "L’Arbre du Réconfort - film Têtes Brûlées avec débat dim 25/10 - 14:00 Cinéma",
-      "start": "2026-10-25T14:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "L’Arbre du Réconfort - film Têtes Brûlées avec débat dim 25/10 - 14:00 Cinéma",
-      "url": "http://forest.brussels/fr/agenda/cinema/2026/larbre-du-reconfort-film-tetes-brulees-avec-debat",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "ca7fa718ece8e4c2",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "💸 OBJECTIF 3000 💸",
-      "start": "2026-10-25T16:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "oct. 25 💸 OBJECTIF 3000 💸 16h00 - 02h00",
-      "url": "https://stuut.info/💸-OBJECTIF-3000-💸-14183",
-      "image": "https://stuut.info/squelettes/images/stuut_lin_fb_1200x627.jpeg",
-      "source": "Stuut",
-      "price_min": 5.0,
-      "price_max": 5.0,
-      "uid": "e71696e3e8a87b53",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "JUNIO JOCOL Y SU FM LATINA",
       "start": "2026-10-25T17:00:00+01:00",
       "end": null,
@@ -1907,46 +1541,6 @@
       "price_min": 30.0,
       "price_max": 1900.0,
       "detail_checked": 4
-    },
-    {
-      "title": "FÊTE DE SOUTIEN : Syndicat d’habitant.es WUUNE",
-      "start": "2026-10-25T18:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "oct. 25 FÊTE DE SOUTIEN : Syndicat d’habitant.es WUUNE 18h00 - 00h00",
-      "url": "https://stuut.info/FETE-DE-SOUTIEN-Syndicat-d-habitant-es-WUUNE-14265",
-      "image": "https://stuut.info/squelettes/images/stuut_lin_fb_1200x627.jpeg",
-      "source": "Stuut",
-      "price_min": 10.0,
-      "price_max": 10.0,
-      "uid": "9a40802f83c1b4b7",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Amores Perros",
-      "start": "2026-10-25T20:35:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "Amores Perros Sun 25 Oct - Wed 11 Nov Studio 5 cinema € 7,00–€ 10,50 dates dates Sun 25 Oct 20:35 tickets Thu 29 Oct 20:30 tickets Sun 8 Nov 20:00 tickets Wed 11 Nov 16:00 tickets",
-      "url": "https://www.flagey.be/en/agenda/amores-perros-ntqw",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "9c04be3d60814b3a",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
     },
     {
       "title": "6:30 PM Walkabout AJILE: \"Ending the New Man\"",
@@ -2052,45 +1646,6 @@
       "stale": true
     },
     {
-      "title": "lab lun 26 oct '26 AB Antenna Passagenwerk: a workshop by Lauren Elkin Un atelier consacré au lieu, au pouvoir et à l'attention, qui explore",
-      "start": "2026-10-26T13:30:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "lab lun 26 oct '26 AB Antenna Passagenwerk: a workshop by Lauren Elkin Un atelier consacré au lieu, au pouvoir et à l'attention, qui explore la manière dont les environnements façonnent les vies et le langage. Atelier Acheter",
-      "url": "https://www.abconcerts.be/fr/agenda/passagenwerk-a-workshop-by-lauren-elkin/a10Qw00000OxC7NIAV",
-      "image": "https://abconcerts.be/assets/website/components/images/og-image.1c2180e4.png",
-      "source": "Ancienne Belgique",
-      "price_min": 2.0,
-      "price_max": 27.0,
-      "uid": "dd2f6b615e468b01",
-      "colour": "#C0392B",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "lab lun 26 oct '26 AB Salon Book Presentation: Vocal Break: On Women, Music and Power (by Lauren Elkin) Une réinterprétation d'une originali",
-      "start": "2026-10-26T19:30:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "lab lun 26 oct '26 AB Salon Book Presentation: Vocal Break: On Women, Music and Power (by Lauren Elkin) Une réinterprétation d'une originalité saisissante de la puissance et de la polyvalence de la voix féminine. Présentation de livre Gratuit - inscription",
-      "url": "https://www.abconcerts.be/fr/agenda/book-presentation-vocal-break-on-women-music-and-power-by-lauren-elkin/a10Qw00000O5rSVIAZ",
-      "image": "https://abconcerts.be/assets/website/components/images/og-image.1c2180e4.png",
-      "source": "Ancienne Belgique",
-      "price_min": 2.0,
-      "price_max": 27.0,
-      "uid": "38edbc971bf3ee75",
-      "colour": "#C0392B",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening",
-        "free"
-      ]
-    },
-    {
       "title": "Expo TW - Collectief 'le 180' lun 26/10 - 09:00 Exposition",
       "start": "2026-10-26T09:00:00+01:00",
       "end": null,
@@ -2109,18 +1664,18 @@
       "tags": []
     },
     {
-      "title": "L'Arbre de reconfort - Atelier créatif : créer des pierres de réconfort lun 26/10 - 10:00 Cours, Stages et Ateliers",
-      "start": "2026-10-26T10:00:00+01:00",
+      "title": "De Troostboom (L’Arbre du Réconfort) lun 26/10 - 09:00 Cours, Stages et Ateliers",
+      "start": "2026-10-26T09:00:00+01:00",
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "L'Arbre de reconfort - Atelier créatif : créer des pierres de réconfort lun 26/10 - 10:00 Cours, Stages et Ateliers",
-      "url": "http://forest.brussels/fr/agenda/cours-stages-et-ateliers/2026/larbre-de-reconfort-atelier-creatif-creer-des-pierres-de",
+      "description": "De Troostboom (L’Arbre du Réconfort) lun 26/10 - 09:00 Cours, Stages et Ateliers",
+      "url": "http://forest.brussels/fr/agenda/cours-stages-et-ateliers/2026/de-troostboom-larbre-du-reconfort",
       "image": null,
       "source": "Forest (commune agenda)",
       "price_min": null,
       "price_max": null,
-      "uid": "39981050edd5fac2",
+      "uid": "fe18e7bddc85d9aa",
       "colour": "#0F8CA8",
       "detail_checked": 4,
       "category": "other",
@@ -2145,6 +1700,24 @@
       "tags": []
     },
     {
+      "title": "L'Arbre de reconfort - Atelier créatif : créer des pierres de réconfort lun 26/10 - 10:00 Cours, Stages et Ateliers",
+      "start": "2026-10-26T10:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "L'Arbre de reconfort - Atelier créatif : créer des pierres de réconfort lun 26/10 - 10:00 Cours, Stages et Ateliers",
+      "url": "http://forest.brussels/fr/agenda/cours-stages-et-ateliers/2026/larbre-de-reconfort-atelier-creatif-creer-des-pierres-de",
+      "image": null,
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "39981050edd5fac2",
+      "colour": "#0F8CA8",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "Café Mortel lun 26/10 - 13:00 Cours, Stages et Ateliers",
       "start": "2026-10-26T13:00:00+01:00",
       "end": null,
@@ -2161,6 +1734,102 @@
       "detail_checked": 4,
       "category": "other",
       "tags": []
+    },
+    {
+      "title": "Permanence squat : À l’assaut du vide",
+      "start": "2026-10-26T16:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "oct. 26 Permanence squat : À l’assaut du vide 16h00 - 18h00",
+      "url": "https://stuut.info/Permanence-squat-A-l-assaut-du-vide-13437",
+      "image": "https://stuut.info/squelettes/images/stuut_lin_fb_1200x627.jpeg",
+      "source": "Stuut",
+      "price_min": 10.0,
+      "price_max": 10.0,
+      "uid": "9d971549fa4fbdce",
+      "colour": "#7B49D6",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Menacé.e d’expulsion ? Révolté.e par les expulsions ?",
+      "start": "2026-10-26T16:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "oct. 26 Menacé.e d’expulsion ? Révolté.e par les expulsions ? 16h00 - 18h00 Bruxelles",
+      "url": "https://stuut.info/Menace-e-d-expulsion-Revolte-e-par-les-expulsions-13761",
+      "image": "https://stuut.info/squelettes/images/stuut_lin_fb_1200x627.jpeg",
+      "source": "Stuut",
+      "price_min": 10.0,
+      "price_max": 10.0,
+      "uid": "285252008e886763",
+      "colour": "#7B49D6",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Contraception dite masculine | Nouvelles permanences bimensuelles",
+      "start": "2026-10-26T18:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "oct. 26 Contraception dite masculine | Nouvelles permanences bimensuelles 18h00 - 20h00 Bruxelles",
+      "url": "https://stuut.info/Contraception-dite-masculine-Nouvelles-permanences-bimensuelles-13777",
+      "image": "https://stuut.info/squelettes/images/stuut_lin_fb_1200x627.jpeg",
+      "source": "Stuut",
+      "price_min": 5.0,
+      "price_max": 5.0,
+      "uid": "9b638c3b99523230",
+      "colour": "#7B49D6",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
+      "title": "Arpentage - Frontex, le spectre des disparu.e.s",
+      "start": "2026-10-26T18:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "oct. 26 Arpentage - Frontex, le spectre des disparu.e.s 18h00 - 21h00 Bruxelles",
+      "url": "https://stuut.info/Arpentage-Frontex-le-spectre-des-disparu-e-s-Nihilisme-politique-aux-frontieres-14035",
+      "image": "https://stuut.info/squelettes/images/stuut_lin_fb_1200x627.jpeg",
+      "source": "Stuut",
+      "price_min": 250.0,
+      "price_max": 250.0,
+      "uid": "a417e79c7b492327",
+      "colour": "#7B49D6",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
+      "title": "ACAB Kino : War at a Distance",
+      "start": "2026-10-26T18:30:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Boulevard du Triomphe,",
+      "description": "oct. 26 ACAB Kino : War at a Distance 18h30 - 21h30 Bruxelles",
+      "url": "https://stuut.info/ACAB-Kino-War-at-a-Distance-14328",
+      "image": "https://stuut.info/squelettes/images/stuut_lin_fb_1200x627.jpeg",
+      "source": "Stuut",
+      "price_min": 5.0,
+      "price_max": 5.0,
+      "uid": "5be72418a05ec3af",
+      "colour": "#7B49D6",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
     },
     {
       "title": "BOIRE & MANGER PizZwanze",
@@ -2226,18 +1895,18 @@
       "tags_llm_done": true
     },
     {
-      "title": "general mar 27 oct '26 AB Grande salle Beast in Black + Sonata Arctica, Frozen Crown Métal de classe mondiale Concert Acheter",
-      "start": "2026-10-27T19:00:00+01:00",
+      "title": "general mar 27 oct '26 AB Grande salle Beast in Black + Sonata Arctica, Frozen Crown Métal de classe mondiale Concert Derniers tickets",
+      "start": "2026-10-27T18:30:00+01:00",
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "general mar 27 oct '26 AB Grande salle Beast in Black + Sonata Arctica, Frozen Crown Métal de classe mondiale Concert Acheter",
+      "description": "general mar 27 oct '26 AB Grande salle Beast in Black + Sonata Arctica, Frozen Crown Métal de classe mondiale Concert Derniers tickets",
       "url": "https://www.abconcerts.be/fr/agenda/beast-in-black/a10Qw000006iQeTIAU",
       "image": "https://abconcerts.be/assets/website/components/images/og-image.1c2180e4.png",
       "source": "Ancienne Belgique",
       "price_min": 8.4,
       "price_max": 45.0,
-      "uid": "3eba616f1697bf2d",
+      "uid": "a345a3ac4616b3a8",
       "colour": "#C0392B",
       "detail_checked": 4,
       "category": "other",
@@ -2271,7 +1940,7 @@
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "lab mar 27 oct '26 AB Antenna Nightlab Masterclass: Creating an Edit w/NC NC vous donne des conseils et astuces pour réaliser des montages Atelier Derniers tickets",
+      "description": "lab mar 27 oct '26 AB Antenna Nightlab Masterclass: Creating an Edit w/NC NC vous donne des conseils et astuces pour réaliser des montages Atelier Complet",
       "url": "https://www.abconcerts.be/fr/agenda/nightlab-masterclass-creating-an-edit-wnc/a10Qw00000QcKV5IAN",
       "image": "https://abconcerts.be/assets/website/components/images/og-image.1c2180e4.png",
       "source": "Ancienne Belgique",
@@ -2322,19 +1991,39 @@
       "tags": []
     },
     {
-      "title": "Une voix d’Irlande — Concert de gala caritatif 27 oct 2026 Concerts Classique / Contemporain / Baroque / Carillons Bozar Bruxelles - Bruxe",
+      "title": "Tomoki Sanders 27 oct 2026 Concerts Jazz Ancienne Belgique (AB) Bruxelles - Bruxelles Tomoki Sanders (États-Unis) n’est autre que l’enfant",
       "start": "2026-10-27T00:00:00+01:00",
       "end": null,
       "all_day": true,
-      "location": "Bozar, Rue Baron Horta 1, 1000 Bruxelles, Belgique, 1000 Bruxelles, Bruxelles, Belgique, Bruxelles",
-      "description": "Une voix d’Irlande — Concert de gala caritatif 27 oct 2026 Concerts Classique / Contemporain / Baroque / Carillons Bozar Bruxelles - Bruxelles Un concert de gala exceptionnel fera résonner Bozar le 27 octobre au son de magnifiques mélodies irlandaises et d’extraits d’opéras et de comédies musicale",
-      "url": "https://www.out.be/fr/evenements/223494_une-voix-d-irlande-concert-de-gala-caritatif.html",
+      "location": "Ancienne Belgique, 110 Boulevard Anspachlaan, 1000 Bruxelles, Bruxelles, Belgique, 1000 Bruxelles, Bruxelles, Belgique, Bruxelles",
+      "description": "Tomoki Sanders 27 oct 2026 Concerts Jazz Ancienne Belgique (AB) Bruxelles - Bruxelles Tomoki Sanders (États-Unis) n’est autre que l’enfant du légendaire saxophoniste Pharoah Sanders, qui, aux côtés de John Coltrane et d’Archie Shepp, a joué un rôle crucial dans le développement du free",
+      "url": "https://www.out.be/fr/evenements/213533_tomoki-sanders.html",
       "image": "https://www.out.be/assets/img/logo-outbe.svg",
       "source": "Out.be",
-      "price_min": 40.0,
-      "price_max": 70.0,
-      "uid": "d006933a73422f7b",
+      "price_min": null,
+      "price_max": null,
+      "uid": "fa7231be9cb41cf8",
       "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "title": "Ali Cherri: Pray, Lips of Clay mar 27/10 - 11:00 Exposition",
+      "start": "2026-10-27T11:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Ali Cherri: Pray, Lips of Clay mar 27/10 - 11:00 Exposition",
+      "url": "http://forest.brussels/fr/agenda/exposition/2026/ali-cherri-pray-lips-of-clay",
+      "image": null,
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "cf1909d5ef108b8b",
+      "colour": "#0F8CA8",
       "detail_checked": 4,
       "category": "other",
       "tags": []
@@ -2387,6 +2076,26 @@
         "evening"
       ],
       "tags_llm_done": true
+    },
+    {
+      "title": "Meet the Artist: Gerard Byrne",
+      "start": "2026-10-27T19:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Meet the Artist: Gerard Byrne Sold out Cancelled Postponed Last Tickets Films Talks & Debates Art & Film In the presence of the director Highly Recommended Meet the Artist: Gerard Byrne 27 Oct.'26 - 19:00 From 10 €",
+      "url": "https://www.bozar.be/en/calendar/meet-artist-gerard-byrne",
+      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
+      "source": "BOZAR",
+      "price_min": 10.0,
+      "price_max": 10.0,
+      "uid": "a1ae82d7b90e5e16",
+      "colour": "#00937A",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
     },
     {
       "title": "6:30 PM Choir of la Vieille Chéchette",
@@ -2516,24 +2225,22 @@
       ]
     },
     {
-      "title": "7ème Aaaargh Retro Film Festival #7 | 28 oct. > 1 nov. 28 oct 01 nov Cinéma Festival Quai 22 (espace culturel) Namur - Namur Le 7ème Aaaar",
+      "title": "Spécial adultes Spécial familles Spécial enfants Spécial célibataires Spécial étudiants Le Fantastique Halloween du Château de Lavaux-Sainte",
       "start": "2026-10-28T00:00:00+01:00",
-      "end": "2026-11-01T00:00:00+01:00",
+      "end": null,
       "all_day": true,
-      "location": "Quai 22 (espace culturel), 22 rue du Séminaire, 5000 Namur, Namur, Belgique, Namur",
-      "description": "7ème Aaaargh Retro Film Festival #7 | 28 oct. > 1 nov. 28 oct 01 nov Cinéma Festival Quai 22 (espace culturel) Namur - Namur Le 7ème Aaaargh Retro Film Festival revient du 28 octobre au 1er novembre 2026 au Quai 22 à Namur pour cinq jours de cinéma de genre. Unique festival de cinéma de genre en W",
-      "url": "https://www.out.be/fr/evenements/223380_7eme-aaaargh-retro-film-festival-7/28-oct.-1-nov..html",
+      "location": "Château de Lavaux-Sainte-Anne, 8 Rue du Château, 5580 Lavaux-Sainte-Anne, Namur, Belgique, Lavaux-Sainte-Anne",
+      "description": "Spécial adultes Spécial familles Spécial enfants Spécial célibataires Spécial étudiants Le Fantastique Halloween du Château de Lavaux-Sainte-Anne 28 oct 31 oct Fêtes / Folklore Festivités Château de Lavaux-Sainte-Anne Lavaux-Sainte-Anne - Namur Fantastique Halloween – 6ᵉ édition au Château de Lava",
+      "url": "https://www.out.be/fr/evenements/199730_le-fantastique-halloween-du-chateau-de-lavaux-sainte-anne.html",
       "image": "https://www.out.be/assets/img/logo-outbe.svg",
       "source": "Out.be",
-      "price_min": 3.0,
-      "price_max": 65.0,
-      "uid": "5a7761ff32991810",
+      "price_min": 5.0,
+      "price_max": 15.0,
+      "uid": "095bf46c6c228c43",
       "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "other",
-      "tags": [
-        "recurring"
-      ]
+      "tags": []
     },
     {
       "title": "Tai Chi Ochtendcursus mer 28/10 - 09:00 Sport",
@@ -2992,6 +2699,24 @@
       "tags_llm_done": true
     },
     {
+      "title": "Lost and Found. La photographie japonaise jeu 29/10 - 13:00 Exposition",
+      "start": "2026-10-29T13:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Lost and Found. La photographie japonaise jeu 29/10 - 13:00 Exposition",
+      "url": "http://forest.brussels/fr/agenda/exposition/2026/lost-and-found-la-photographie-japonaise",
+      "image": null,
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "3bda6e47ba44107e",
+      "colour": "#0F8CA8",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "Hoe omgaan met rouw in je klas? jeu 29/10 - 13:30 Cours, Stages et Ateliers",
       "start": "2026-10-29T13:30:00+01:00",
       "end": null,
@@ -3172,6 +2897,26 @@
       ]
     },
     {
+      "title": "Amores Perros",
+      "start": "2026-10-29T20:30:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Amores Perros Thu 29 Oct - Wed 11 Nov Studio 5 cinema € 7,00–€ 10,50 dates dates Thu 29 Oct 20:30 tickets Sun 8 Nov 20:00 tickets Wed 11 Nov 16:00 tickets Sun 25 Oct 20:35 Past event",
+      "url": "https://www.flagey.be/en/agenda/amores-perros-ntqw",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 10.5,
+      "uid": "e5a919489ee07c56",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
       "title": "© Joan Arki Langevin Gratis concert Joan Arki Langevin Organisator: Gemeenschapscentrum Pianofabriek vzw vr 30.10.2026 GC Pianofabriek, Sin",
       "start": "2026-10-30T00:00:00+01:00",
       "end": null,
@@ -3230,7 +2975,8 @@
       "tags": [
         "free"
       ],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Opening: Portia Zvavahera - Kuzviramba Mamuri",
@@ -3252,7 +2998,8 @@
       "tags": [
         "free"
       ],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Artist Talk: Portia Zvavahera (EN)",
@@ -3271,7 +3018,8 @@
       "category": "other",
       "tags": [
         "free"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "30 Oct 2026 Pourtant j’ai tout bien fait comme il faut ! Véronique Kesmedjian Aubusson (23)",
@@ -3382,18 +3130,18 @@
       "tags": []
     },
     {
-      "title": "Spécial adultes Spécial familles Spécial enfants Corrida Halloween à Verlaine 30 oct 2026 Sports Sport en extérieur Ecole communale Verlaine",
+      "title": "The Bausa 30 oct 2026 Concerts Pop / Rock / Pop-Rock Ancienne Belgique (AB) Bruxelles - Bruxelles Impossible d’y échapper : « Magnetic » d",
       "start": "2026-10-30T00:00:00+01:00",
       "end": null,
       "all_day": true,
-      "location": "Ecole communale Verlaine, rue Vinâve des Stréats 32, 4537 Verlaine, Liège, Belgique, Verlaine",
-      "description": "Spécial adultes Spécial familles Spécial enfants Corrida Halloween à Verlaine 30 oct 2026 Sports Sport en extérieur Ecole communale Verlaine Verlaine - Liège Corrida d'Halloween du Lions Club de Verlaine Participez au Jogging d'Halloween à Verlaine : 1, 3, 6 et 9 km en soirée et déguisé ! À vos ba",
-      "url": "https://www.out.be/fr/evenements/219358_corrida-halloween-a-verlaine.html",
+      "location": "Ancienne Belgique, 110 Boulevard Anspachlaan, 1000 Bruxelles, Bruxelles, Belgique, 1000 Bruxelles, Bruxelles, Belgique, Bruxelles",
+      "description": "The Bausa 30 oct 2026 Concerts Pop / Rock / Pop-Rock Ancienne Belgique (AB) Bruxelles - Bruxelles Impossible d’y échapper : « Magnetic » de The Bausa est partout. On l’entend en boucle sur TikTok, dans les boîtes de nuit et sur toutes les playlists estivales que l’on croise.Le trio norvégien The B",
+      "url": "https://www.out.be/fr/evenements/213534_the-bausa.html",
       "image": "https://www.out.be/assets/img/logo-outbe.svg",
       "source": "Out.be",
       "price_min": null,
       "price_max": null,
-      "uid": "5f8d0b99ac28ba96",
+      "uid": "f721d949dcf217e9",
       "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "other",
@@ -3441,7 +3189,7 @@
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "dans 5 jours Apprendre Arpentage: l'histoire cachée des femmes meneuses de révoltes d'esclaves Vendredi 30 octobre 2026 à 10:00 Etterbeek - 1040 Organisé par ProtestBase",
+      "description": "dans 4 jours Apprendre Arpentage: l'histoire cachée des femmes meneuses de révoltes d'esclaves Vendredi 30 octobre 2026 à 10:00 Etterbeek - 1040 Organisé par ProtestBase",
       "url": "https://protestbase.be/manifestations/bruxelles",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
@@ -3484,6 +3232,24 @@
       "price_max": null,
       "uid": "50d1e762eb718f0f",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Accès aux personnes à mobilité réduite Spécial adultes Spécial familles Spécial enfants Spécial étudiants Escape City Halloween 2026 30 oct",
+      "start": "2026-10-30T13:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Centre de Ressources Multimédia - La Médiathèque, Rue Albert 1 36, 7100 La Louvière, Belgique, La Louvière",
+      "description": "Accès aux personnes à mobilité réduite Spécial adultes Spécial familles Spécial enfants Spécial étudiants Escape City Halloween 2026 30 oct 31 oct Activités diverses Activités en plein air Centre de Ressources Multimédia - La Médiathèque La Louvière - Région Wallonne Escape City Halloween : La Mal",
+      "url": "https://www.out.be/fr/evenements/223335_escape-city-halloween-2026.html",
+      "image": "https://www.out.be/assets/img/logo-outbe.svg",
+      "source": "Out.be",
+      "price_min": null,
+      "price_max": null,
+      "uid": "90d1534186e2103e",
+      "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "other",
       "tags": []
@@ -3899,6 +3665,24 @@
       "tags": []
     },
     {
+      "title": "31 Oct 2026 Sorties de chantier – Monte ta conf’ Céline Callot Eckbolsheim (67)",
+      "start": "2026-10-31T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "31 Oct 2026 Sorties de chantier – Monte ta conf’ Céline Callot Eckbolsheim (67)",
+      "url": "https://conferences-gesticulees.net/events/31-10-2026-celine-callot-csc-de-la-montagne-verte/",
+      "image": null,
+      "source": "Conférences gesticulées (network catalogue)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "2baa1b9d68aba9d0",
+      "colour": "#C0392B",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "31 Oct 2026 J’aurais dû m’appeler Aïcha Nadège De vaulx(-en-velin) Amiens (80)",
       "start": "2026-10-31T00:00:00+01:00",
       "end": null,
@@ -3935,24 +3719,6 @@
       "tags": []
     },
     {
-      "title": "Marie Darah 31.10.2026 > 05.12.2026 Sculpture poétique Groupe B — complet Atelier Écriture Lecture",
-      "start": "2026-10-31T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "Marie Darah 31.10.2026 > 05.12.2026 Sculpture poétique Groupe B — complet Atelier Écriture Lecture",
-      "url": "https://www.lamaisondulivre.be/atelier/sculpture-poetique-groupe-b-2/",
-      "image": "https://www.lamaisondulivre.be/wp-content/uploads/2025/08/calendar_ssfond.png",
-      "source": "La Maison du Livre",
-      "price_min": 10.0,
-      "price_max": 150.0,
-      "uid": "16a33164bd7333ca",
-      "colour": "#C0392B",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "Marie Darah 31.10.2026 > 05.12.2026 Sculpture poétique Groupe A — ANNULÉ Atelier Écriture Lecture",
       "start": "2026-10-31T00:00:00+01:00",
       "end": null,
@@ -3971,12 +3737,30 @@
       "tags": []
     },
     {
+      "title": "Marie Darah 31.10.2026 > 05.12.2026 Sculpture poétique Groupe B — complet Atelier Écriture Lecture",
+      "start": "2026-10-31T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "Marie Darah 31.10.2026 > 05.12.2026 Sculpture poétique Groupe B — complet Atelier Écriture Lecture",
+      "url": "https://www.lamaisondulivre.be/atelier/sculpture-poetique-groupe-b-2/",
+      "image": "https://www.lamaisondulivre.be/wp-content/uploads/2025/08/calendar_ssfond.png",
+      "source": "La Maison du Livre",
+      "price_min": 10.0,
+      "price_max": 150.0,
+      "uid": "16a33164bd7333ca",
+      "colour": "#C0392B",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "Ateliers histoires et résistance - Bruxelles",
       "start": "2026-10-31T09:30:00+01:00",
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "dans 6 jours Apprendre Ateliers histoires et résistance - Bruxelles Samedi 31 octobre 2026 à 09:30 Etterbeek - 1040 Organisé par ProtestBase",
+      "description": "dans 5 jours Apprendre Ateliers histoires et résistance - Bruxelles Samedi 31 octobre 2026 à 09:30 Etterbeek - 1040 Organisé par ProtestBase",
       "url": "https://protestbase.be/manifestations/bruxelles",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
@@ -3984,6 +3768,24 @@
       "price_max": null,
       "uid": "3f1aba973f038815",
       "colour": "#E07A00",
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Conversatietafel Nederlands sam 31/10 - 09:30 Cours, Stages et Ateliers",
+      "start": "2026-10-31T09:30:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Conversatietafel Nederlands sam 31/10 - 09:30 Cours, Stages et Ateliers",
+      "url": "http://forest.brussels/fr/agenda/conversatietafel-nederlands",
+      "image": null,
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "2de4aeed04298f64",
+      "colour": "#0F8CA8",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -4012,6 +3814,42 @@
       "tags_llm_done": true
     },
     {
+      "title": "Portia Zvavahera: Kuzviramba Mamuri sam 31/10 - 11:00 Exposition",
+      "start": "2026-10-31T11:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Portia Zvavahera: Kuzviramba Mamuri sam 31/10 - 11:00 Exposition",
+      "url": "http://forest.brussels/fr/agenda/exposition/2026/portia-zvavahera-kuzviramba-mamuri",
+      "image": null,
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "0ed8a4f519e16528",
+      "colour": "#0F8CA8",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Halloween: des frites et des frissons sam 31/10 - 13:30 Exposition",
+      "start": "2026-10-31T13:30:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Halloween: des frites et des frissons sam 31/10 - 13:30 Exposition",
+      "url": "http://forest.brussels/fr/agenda/exposition/2026/halloween-des-frites-et-des-frissons",
+      "image": null,
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "734104bcb47ab982",
+      "colour": "#0F8CA8",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "JEUX Hoshi Go Club",
       "start": "2026-10-31T17:00:00+01:00",
       "end": "2026-10-31T22:00:00+01:00",
@@ -4035,7 +3873,7 @@
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "dans 6 jours Apprendre Earth's Greatest Enemy - documentary screening Brussels Samedi 31 octobre 2026 à 18:30 Saint-Gilles - 1060 Organisé par ProtestBase",
+      "description": "dans 5 jours Apprendre Earth's Greatest Enemy - documentary screening Brussels Samedi 31 octobre 2026 à 18:30 Saint-Gilles - 1060 Organisé par ProtestBase",
       "url": "https://protestbase.be/manifestations/bruxelles",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
@@ -4246,11 +4084,47 @@
       "description": "01 Nov 2026 Sorties de chantier – Monte ta conf’ Céline Callot Eckbolsheim (67)",
       "url": "https://conferences-gesticulees.net/events/01-11-2026-celine-callot-csc-de-la-montagne-verte/",
       "image": null,
+      "source": "Conférences gesticulées (network catalogue)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "6992da3f852632c7",
+      "colour": "#C0392B",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "01 Nov 2026 Sorties de chantier – Monte ta conf’ Céline Callot Eckbolsheim (67)",
+      "start": "2026-11-01T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "01 Nov 2026 Sorties de chantier – Monte ta conf’ Céline Callot Eckbolsheim (67)",
+      "url": "https://conferences-gesticulees.net/events/01-11-2026-celine-callot-csc-de-la-montagne-verte/",
+      "image": null,
       "source": "Conférences gesticulées (per-day pages)",
       "price_min": null,
       "price_max": null,
       "uid": "df404bb73aa1d2b6",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "The HU 01 nov 2026 Concerts Pop / Rock / Pop-Rock Ancienne Belgique (AB) Bruxelles - Bruxelles The HU se distingue immédiatement par son s",
+      "start": "2026-11-01T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "Ancienne Belgique, 110 Boulevard Anspachlaan, 1000 Bruxelles, Bruxelles, Belgique, 1000 Bruxelles, Bruxelles, Belgique, Bruxelles",
+      "description": "The HU 01 nov 2026 Concerts Pop / Rock / Pop-Rock Ancienne Belgique (AB) Bruxelles - Bruxelles The HU se distingue immédiatement par son son unique : une basse percutante aux accents heavy metal se mêle harmonieusement au folk mongol traditionnel. On y retrouve le morin khuur à deux cordes (viè",
+      "url": "https://www.out.be/fr/evenements/208551_the-hu.html",
+      "image": "https://www.out.be/assets/img/logo-outbe.svg",
+      "source": "Out.be",
+      "price_min": null,
+      "price_max": null,
+      "uid": "5b0d29d803aad223",
+      "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "other",
       "tags": []
@@ -4554,6 +4428,24 @@
       "tags": []
     },
     {
+      "title": "Family Funday dim 01/11 - 14:00 Visites Guidées",
+      "start": "2026-11-01T14:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Family Funday dim 01/11 - 14:00 Visites Guidées",
+      "url": "http://forest.brussels/fr/agenda/visites-guidees/2026/family-funday",
+      "image": null,
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "af02ef52f07557ce",
+      "colour": "#0F8CA8",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "Once Upon a Time There Was a Miller's Daughter…",
       "start": "2026-11-01T15:00:00+01:00",
       "end": "2026-11-01T17:00:00+01:00",
@@ -4629,6 +4521,24 @@
       "price_max": null,
       "uid": "59427a6d98b72f18",
       "colour": "#00937A",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "02 Nov 2026 Sortir de l’hétérosexualité, et après ? Maëlle Tempête Lesquin (59)",
+      "start": "2026-11-02T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "02 Nov 2026 Sortir de l’hétérosexualité, et après ? Maëlle Tempête Lesquin (59)",
+      "url": "https://conferences-gesticulees.net/events/02-11-2026-maelle-tempete-mucma-espace-culture-universite-de-lille/",
+      "image": null,
+      "source": "Conférences gesticulées (network catalogue)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "c14b88d5ce5d6753",
+      "colour": "#C0392B",
       "detail_checked": 4,
       "category": "other",
       "tags": []
@@ -5041,7 +4951,8 @@
       "category": "other",
       "tags": [
         "free"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "L'être ou ne pas l'être",
@@ -5228,7 +5139,8 @@
       "uid": "6a2203342bdf32fe",
       "colour": "#E07A00",
       "category": "other",
-      "tags": []
+      "tags": [],
+      "stale": true
     },
     {
       "title": "05.11.26 ― 07.11.26 Ceci n'est pas Noire: act II Alesandra Seutin / KVS Langue: FR EN Surtitrage: NL • FR • EN",
@@ -5518,24 +5430,6 @@
       "price_max": null,
       "uid": "5dfacec6de85b322",
       "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "Formation Ennéagramme 06 nov 2026 Stages / Cours Cours Villers-la-Ville Villers-la-Ville - Brabant Wallon Un parcours de 4, 8 ou 10 jours",
-      "start": "2026-11-06T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "Villers-la-Ville, 1495 Villers-la-Ville, Brabant Wallon, Belgique, Villers-la-Ville",
-      "description": "Formation Ennéagramme 06 nov 2026 Stages / Cours Cours Villers-la-Ville Villers-la-Ville - Brabant Wallon Un parcours de 4, 8 ou 10 jours pour mieux comprendre vos automatismes, vos relations et créer de nouvelles possibilités de changement. Pourquoi est-ce que certaines situations nous touchent a",
-      "url": "https://www.out.be/fr/evenements/222662_formation-enneagramme.html",
-      "image": "https://www.out.be/assets/img/logo-outbe.svg",
-      "source": "Out.be",
-      "price_min": 105.0,
-      "price_max": 399.0,
-      "uid": "4f930d32724266b2",
-      "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "other",
       "tags": []
@@ -5944,6 +5838,24 @@
       ]
     },
     {
+      "title": "Res Nullius Mois du Doc dimanche 08 nov.",
+      "start": "2026-11-08T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "Res Nullius Mois du Doc dimanche 08 nov. Réserver",
+      "url": "https://lejacquesfranck.be/event/res-nullius/2026-11-08/",
+      "image": "https://lejacquesfranck.be/resources/assets/img/logo-og.png",
+      "source": "Le Jacques Franck",
+      "price_min": 4.5,
+      "price_max": 15.0,
+      "uid": "0461d6d16ac25bb6",
+      "colour": "#7B49D6",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "Look Who's Talking: Sofia Dati (FR)",
       "start": "2026-11-08T00:00:00+01:00",
       "end": null,
@@ -5958,7 +5870,8 @@
       "uid": "9e5c697ed7f5881c",
       "colour": "#E07A00",
       "category": "other",
-      "tags": []
+      "tags": [],
+      "stale": true
     },
     {
       "title": "Sablon Antiques Market",
@@ -6369,6 +6282,24 @@
       "tags": [
         "evening"
       ]
+    },
+    {
+      "title": "Enragez-vous ! Festival d’automne du Théâtre Action I International mardi 10 nov.",
+      "start": "2026-11-10T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "Enragez-vous ! Festival d’automne du Théâtre Action I International mardi 10 nov.",
+      "url": "https://lejacquesfranck.be/event/enrengez-vous/2026-11-10/",
+      "image": "https://lejacquesfranck.be/resources/assets/img/logo-og.png",
+      "source": "Le Jacques Franck",
+      "price_min": 10.0,
+      "price_max": 15.0,
+      "uid": "20415bc25ef83662",
+      "colour": "#7B49D6",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
     },
     {
       "title": "Fuse presents: Worakls",
@@ -7034,7 +6965,8 @@
       "uid": "feaaf0cf93f2ae5a",
       "colour": "#E07A00",
       "category": "other",
-      "tags": []
+      "tags": [],
+      "stale": true
     },
     {
       "title": "14 Nov 2026 Moi, Français-Juif-Arabe Michel Benizri Albertville (73)",
@@ -7201,6 +7133,23 @@
       ]
     },
     {
+      "title": "Y en a marre! - Formation",
+      "start": "2026-11-14T14:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "samedi 14 novembre 2026 Apprendre Y en a marre! - Formation Samedi 14 novembre 2026 à 14:00 Ixelles - 1050 Organisé par ProtestBase",
+      "url": "https://protestbase.be/manifestations/bruxelles",
+      "image": "https://protestbase.be/og.jpg",
+      "source": "Protestbase Bruxelles",
+      "price_min": null,
+      "price_max": null,
+      "uid": "ca1a6e93911447a8",
+      "colour": "#E07A00",
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "NEXUS - EN QUÊTE D’UNE VOIE OFFSITE Les Brigittines Tickets",
       "start": "2026-11-14T19:00:00+01:00",
       "end": null,
@@ -7357,6 +7306,24 @@
       "tags": []
     },
     {
+      "title": "Jacques Duvall & Benjamin Shoos 16 nov 2026 Concerts Chanson française L'Archiduc Bruxelles - Bruxelles Dix ans après leur dernière collab",
+      "start": "2026-11-16T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "L'Archiduc, 6 Rue Antoine Dansaert, 6 Antoine Dansaertstraat, 1000 Bruxelles, Bruxelles, Belgique, Bruxelles",
+      "description": "Jacques Duvall & Benjamin Shoos 16 nov 2026 Concerts Chanson française L'Archiduc Bruxelles - Bruxelles Dix ans après leur dernière collaboration, deux figures essentielles de la pop belge francophone réunies : Jacques Duvall et Benjamin Schoos.Jacques Duvall est l'un des paroliers les plus estimé",
+      "url": "https://www.out.be/fr/evenements/224118_jacques-duvall-benjamin-shoos.html",
+      "image": "https://www.out.be/assets/img/logo-outbe.svg",
+      "source": "Out.be",
+      "price_min": 20.0,
+      "price_max": 20.0,
+      "uid": "0b807ddb25c96506",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "Melting Papot' - Open doors of the South Basin",
       "start": "2026-11-16T08:00:00+01:00",
       "end": "2026-11-20T17:00:00+01:00",
@@ -7403,18 +7370,18 @@
       "tags_llm_done": true
     },
     {
-      "title": "17.11.26 PRÓXIMAMENTE 2026 KINOLATINO short films screening KVS Langue: ES Surtitrage: EN",
+      "title": "17.11.26 PRÓXIMAMENTE 2026 KINOLATINO short films screening KVS Langue: FR PO MULTI ES FARSI Surtitrage: EN",
       "start": "2026-11-17T00:00:00+01:00",
       "end": null,
       "all_day": true,
       "location": "",
-      "description": "17.11.26 PRÓXIMAMENTE 2026 KINOLATINO short films screening KVS Langue: ES Surtitrage: EN film Réservation",
+      "description": "17.11.26 PRÓXIMAMENTE 2026 KINOLATINO short films screening KVS Langue: FR PO MULTI ES FARSI Surtitrage: EN film Réservation",
       "url": "https://www.kvs.be/fr/Evenement/kinolatino-short-films-screening-2",
       "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
       "source": "KVS",
       "price_min": null,
       "price_max": null,
-      "uid": "4078e47de9af1a8e",
+      "uid": "92506d8caea095eb",
       "colour": "#E07A00",
       "detail_checked": 4,
       "category": "other",
@@ -7580,50 +7547,40 @@
       "tags": []
     },
     {
-      "title": "18.11.26 ― 19.11.26 PRÓXIMAMENTE 2026 Yo, Chacarera India Sánchez Ortiz",
+      "title": "18.11.26 ― 19.11.26 PRÓXIMAMENTE 2026 Yo, Chacarera (WIP) India Sánchez Ortiz",
       "start": "2026-11-18T00:00:00+01:00",
       "end": null,
       "all_day": true,
       "location": "",
-      "description": "18.11.26 ― 19.11.26 PRÓXIMAMENTE 2026 Yo, Chacarera India Sánchez Ortiz theatre Buy tickets",
-      "url": "https://www.kvs.be/fr/Evenement/yo-chacarera-1",
+      "description": "18.11.26 ― 19.11.26 PRÓXIMAMENTE 2026 Yo, Chacarera (WIP) India Sánchez Ortiz dans Acheter des billets",
+      "url": "https://www.kvs.be/fr/Evenement/yo-chacarera-wip-2",
       "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
       "source": "KVS",
       "price_min": null,
       "price_max": null,
-      "uid": "97bc6f8b5d54185c",
+      "uid": "3c7f71de4d2bdb2f",
       "colour": "#E07A00",
       "detail_checked": 4,
-      "translated": true,
-      "category": "culture-arts",
-      "category_llm": true,
-      "tags": [
-        "live"
-      ],
-      "tags_llm_done": true
+      "category": "other",
+      "tags": []
     },
     {
-      "title": "18.11.26 ― 20.11.26 PRÓXIMAMENTE 2026 CHOCLO, CHOCLO, POCHOCLO Marta Salinas",
+      "title": "18.11.26 ― 20.11.26 PRÓXIMAMENTE 2026 CHOCLO, CHOCLO, POCHOCLO (WIP) Marta Salinas",
       "start": "2026-11-18T00:00:00+01:00",
       "end": null,
       "all_day": true,
       "location": "",
-      "description": "18.11.26 ― 20.11.26 PRÓXIMAMENTE 2026 CHOCLO, CHOCLO, POCHOCLO Marta Salinas theatre Buy tickets",
-      "url": "https://www.kvs.be/fr/Evenement/choclo-choclo-pochoclo-2",
+      "description": "18.11.26 ― 20.11.26 PRÓXIMAMENTE 2026 CHOCLO, CHOCLO, POCHOCLO (WIP) Marta Salinas performance dans Acheter des billets",
+      "url": "https://www.kvs.be/fr/Evenement/choclo-choclo-pochoclo-wip-2",
       "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
       "source": "KVS",
       "price_min": null,
       "price_max": null,
-      "uid": "ec7612f1253a76b6",
+      "uid": "564c7a7329e26af9",
       "colour": "#E07A00",
       "detail_checked": 4,
-      "translated": true,
-      "category": "culture-arts",
-      "category_llm": true,
-      "tags": [
-        "live"
-      ],
-      "tags_llm_done": true
+      "category": "other",
+      "tags": []
     },
     {
       "title": "18.11.26 PRÓXIMAMENTE 2026 MINDBLOWERS @ PRÓXIMAMENTE KVS & VUB Language: EN ES Subtitles: EN • ES",
@@ -8087,46 +8044,40 @@
       "tags_llm_done": true
     },
     {
-      "title": "20.11.26 PRÓXIMAMENTE 2026 RUDERAL Marcos Ariola Langue: ES Surtitrage: EN",
+      "title": "20.11.26 PRÓXIMAMENTE 2026 RUDERAL (WIP) Marcos Ariola Langue: ES Surtitrage: EN",
       "start": "2026-11-20T00:00:00+01:00",
       "end": null,
       "all_day": true,
       "location": "",
-      "description": "20.11.26 PRÓXIMAMENTE 2026 RUDERAL Marcos Ariola Langue: ES Surtitrage: EN dans Acheter des billets",
-      "url": "https://www.kvs.be/fr/Evenement/ruderal-2",
+      "description": "20.11.26 PRÓXIMAMENTE 2026 RUDERAL (WIP) Marcos Ariola Langue: ES Surtitrage: EN dans Acheter des billets",
+      "url": "https://www.kvs.be/fr/Evenement/ruderal-wip-2",
       "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
       "source": "KVS",
       "price_min": null,
       "price_max": null,
-      "uid": "9982c31a1d849736",
+      "uid": "6810534422cf07d0",
       "colour": "#E07A00",
       "detail_checked": 4,
       "category": "other",
       "tags": []
     },
     {
-      "title": "11.20.26 COMING SOON 2026 Wild Eye Sebastián Escalona",
+      "title": "20.11.26 PRÓXIMAMENTE 2026 Ojo Salvaje (WIP) Sebastián Escalona",
       "start": "2026-11-20T00:00:00+01:00",
       "end": null,
       "all_day": true,
       "location": "",
-      "description": "11.20.26 COMING SOON 2026 Wild Eye Sebastián Escalona Buy tickets",
-      "url": "https://www.kvs.be/fr/Evenement/ojo-salvaje-1",
+      "description": "20.11.26 PRÓXIMAMENTE 2026 Ojo Salvaje (WIP) Sebastián Escalona Acheter des billets",
+      "url": "https://www.kvs.be/fr/Evenement/ojo-salvaje-wip-2",
       "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
       "source": "KVS",
       "price_min": null,
       "price_max": null,
-      "uid": "989dd893ba1e9aee",
+      "uid": "dbc9a6a5b7ce3ea0",
       "colour": "#E07A00",
       "detail_checked": 4,
-      "translated": true,
-      "category": "culture-arts",
-      "category_llm": true,
-      "tags": [
-        "live",
-        "registration-required"
-      ],
-      "tags_llm_done": true
+      "category": "other",
+      "tags": []
     },
     {
       "title": "20.11.26 PRÓXIMAMENTE 2026 KARAOKE NIGHT",
@@ -8693,6 +8644,24 @@
       "tags": []
     },
     {
+      "title": "SŒURS de Pascal Rambert – Théâtre Marni, Bruxelles 21 nov 2026 Théatre / Spectacles Professionnels Le Marni Ixelles - Bruxelles SŒURS de P",
+      "start": "2026-11-21T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "Le Marni, 25 Rue de Vergnies, 1050 Ixelles, Bruxelles, Belgique, Ixelles",
+      "description": "SŒURS de Pascal Rambert – Théâtre Marni, Bruxelles 21 nov 2026 Théatre / Spectacles Professionnels Le Marni Ixelles - Bruxelles SŒURS de Pascal Rambert Deux sœurs. Une histoire commune. Deux visions du monde. Comment se construire lorsque l'on n'a pas été désirée ? Peut-on vraiment échapper à son",
+      "url": "https://www.out.be/fr/evenements/223064_soeurs-de-pascal-rambert-theatre-marni-bruxelles.html",
+      "image": "https://www.out.be/assets/img/logo-outbe.svg",
+      "source": "Out.be",
+      "price_min": 0.0,
+      "price_max": 20.0,
+      "uid": "8b043c2ac0ea6212",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "La Ronde occitane",
       "start": "2026-11-21T14:00:00+01:00",
       "end": null,
@@ -8843,26 +8812,6 @@
       "detail_checked": 4,
       "category": "other",
       "tags": []
-    },
-    {
-      "title": "Accès aux personnes à mobilité réduite Vivaldi et Porpora a l'ospedale della Pietà de Venise à Limal 22 nov 2026 Concerts Classique / Contem",
-      "start": "2026-11-22T17:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Eglise Saint Martin de Limal, Place Albert Ier, 1300 Limal, Brabant Wallon, Belgique, Limal",
-      "description": "Accès aux personnes à mobilité réduite Vivaldi et Porpora a l'ospedale della Pietà de Venise à Limal 22 nov 2026 Concerts Classique / Contemporain / Baroque / Carillons Eglise Saint Martin de Limal Limal - Brabant Wallon IL DILETTO VOCALE à l’Ospedale della Pietà à VeniseVIVALDI et PORPORA 22 nove",
-      "url": "https://www.out.be/fr/evenements/223112_vivaldi-et-porpora-a-l-ospedale-della-pieta-de-venise-a-limal.html",
-      "image": "https://www.out.be/assets/img/logo-outbe.svg",
-      "source": "Out.be",
-      "price_min": 15.0,
-      "price_max": 20.0,
-      "uid": "d06474e6a2d7eacd",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
     },
     {
       "title": "La guerre des prix",
@@ -9400,7 +9349,8 @@
       "category": "other",
       "tags": [
         "free"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "27 Nov 2026 C’est dangereux, my love ! Estelle Thareau Le Pont-de-Claix ()",
@@ -9947,7 +9897,8 @@
       "tags": [
         "free"
       ],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "02 Déc 2026 Sois passif et tais-toi ! Donatienne Hermesse Brussels (10)",
@@ -10190,6 +10141,24 @@
       "tags": []
     },
     {
+      "title": "04 Déc 2026 Gestival de la Solid à Clisson Matthieu Clisson (44)",
+      "start": "2026-12-04T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "04 Déc 2026 Gestival de la Solid à Clisson Matthieu Clisson (44)",
+      "url": "https://conferences-gesticulees.net/events/04-12-2026-matthieu-espace-saint-jacques-clisson/",
+      "image": null,
+      "source": "Conférences gesticulées (per-day pages)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "c0927f4495a82ce0",
+      "colour": "#0F8CA8",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "DJ CAM – SOUNDS TRIP HOP NIGHT",
       "start": "2026-12-04T20:00:00+01:00",
       "end": null,
@@ -10341,7 +10310,7 @@
       "end": null,
       "all_day": true,
       "location": "",
-      "description": "Tickets Respire Geneviève Damas 08.12.2026 – 16.01.2027",
+      "description": "CRUSH Tickets Respire Geneviève Damas 08.12.2026 – 16.01.2027",
       "url": "https://lestanneurs.be/spectacle/respire-26-27/",
       "image": "https://lestanneurs.be/wp-content/uploads/2025/04/Visuel-saison-H.jpg",
       "source": "Les Tanneurs",
@@ -10457,7 +10426,7 @@
       "end": null,
       "all_day": true,
       "location": "",
-      "description": "SDH 2026 Tickets Harmony Fany Ducat 03 – 09.12.2026",
+      "description": "CRUSH SDH 26 Tickets Harmony Fany Ducat 03 – 09.12.2026",
       "url": "https://lestanneurs.be/spectacle/harmony-26-27/",
       "image": "https://lestanneurs.be/wp-content/uploads/2025/04/Visuel-saison-H.jpg",
       "source": "Les Tanneurs",
@@ -10583,7 +10552,8 @@
         "free",
         "recurring"
       ],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Under the Gaze of Camille Claudel's Statues",
@@ -10901,7 +10871,7 @@
       "end": null,
       "all_day": true,
       "location": "",
-      "description": "Tickets Une Traversée Cie Tchaïka 11 – 13.12.2026",
+      "description": "CRUSH Tickets Une Traversée Cie Tchaïka 11 – 13.12.2026",
       "url": "https://lestanneurs.be/spectacle/une-traversee-26-27/",
       "image": "https://lestanneurs.be/wp-content/uploads/2025/04/Visuel-saison-H.jpg",
       "source": "Les Tanneurs",
@@ -11148,7 +11118,8 @@
         "recurring",
         "registration-required"
       ],
-      "tags_llm_done": true
+      "tags_llm_done": true,
+      "stale": true
     },
     {
       "title": "Ateliers Altérité - public presentation",
@@ -11236,7 +11207,8 @@
       "uid": "d80615ff77491c2d",
       "colour": "#E07A00",
       "category": "other",
-      "tags": []
+      "tags": [],
+      "stale": true
     },
     {
       "title": "All We Imagine As Light",
