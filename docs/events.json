@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-27T11:15:03.474713+01:00",
+  "generated": "2026-10-27T21:26:27.148730+01:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
@@ -195,7 +195,7 @@
       "name": "Ancienne Belgique",
       "url": "https://www.abconcerts.be/fr/agenda",
       "colour": "#C0392B",
-      "count": 7,
+      "count": 8,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-10-27"
@@ -204,7 +204,7 @@
       "name": "Demosphere Bruxelles",
       "url": "https://bxl.demosphere.net/events.ics",
       "colour": "#0F8CA8",
-      "count": 28,
+      "count": 29,
       "method": "ics",
       "stale": false,
       "last_ok": "2026-10-27"
@@ -483,7 +483,7 @@
       "name": "Mazette (brewpub, Jeu de Balle)",
       "url": "https://mazette.brussels/",
       "colour": "#C0392B",
-      "count": 2,
+      "count": 1,
       "method": "none",
       "stale": true,
       "last_ok": "2026-10-03"
@@ -519,7 +519,7 @@
       "name": "Out.be",
       "url": "https://www.out.be/fr/",
       "colour": "#1B6FE0",
-      "count": 9,
+      "count": 7,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-10-27"
@@ -954,7 +954,7 @@
     {
       "source": "BOZAR",
       "method": "recipe",
-      "found": 8,
+      "found": 7,
       "kept": 7,
       "carried": 0,
       "stale": false,
@@ -984,8 +984,8 @@
     {
       "source": "Ancienne Belgique",
       "method": "recipe",
-      "found": 7,
-      "kept": 7,
+      "found": 8,
+      "kept": 8,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -994,8 +994,8 @@
     {
       "source": "Demosphere Bruxelles",
       "method": "ics",
-      "found": 29,
-      "kept": 28,
+      "found": 30,
+      "kept": 29,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1306,7 +1306,7 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "carried": 2,
+      "carried": 1,
       "stale": true,
       "error_class": "billing",
       "note": "browser: jsonld/recipe empty, llm skipped (billing failure earlier this run)"
@@ -1345,7 +1345,7 @@
       "source": "Out.be",
       "method": "recipe",
       "found": 9,
-      "kept": 9,
+      "kept": 7,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1495,44 +1495,6 @@
         "recurring"
       ],
       "tags_llm_done": true
-    },
-    {
-      "title": "BOIRE & MANGER PizZwanze",
-      "start": "2026-10-26T18:30:00+01:00",
-      "end": "2026-10-26T22:30:00+01:00",
-      "all_day": false,
-      "location": "Mazette",
-      "description": "Pizza evening",
-      "url": "https://mazette.brussels/",
-      "image": "https://mazette.brussels/wp-content/uploads/2024/12/hom-terrasse2.webp",
-      "source": "Mazette (brewpub, Jeu de Balle)",
-      "uid": "7f7b856cee9d728f",
-      "colour": "#C0392B",
-      "category": "other",
-      "tags": [
-        "evening"
-      ],
-      "stale": true
-    },
-    {
-      "title": "Filem'On x CineMOUV'teens : Christy and his brother lun 26/10 - 19:00 Cinéma",
-      "start": "2026-10-26T19:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Filem'On x CineMOUV'teens : Christy and his brother lun 26/10 - 19:00 Cinéma",
-      "url": "http://forest.brussels/fr/agenda/cinema/2026/filemon-x-cinemouvteens-christy-and-his-brother",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "cf019ae3ef504838",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
     },
     {
       "title": "5–7 PM organic produce baskets Ferme de Nadir",
@@ -1844,6 +1806,44 @@
       "stale": true
     },
     {
+      "title": "Dao - Alain Gomis",
+      "start": "2026-10-28T00:00:00+01:00",
+      "end": "2026-12-06T00:00:00+01:00",
+      "all_day": true,
+      "location": "",
+      "description": "Dao - Alain Gomis Sold out Cancelled Postponed Last Tickets Films New release Dao - Alain Gomis 28 Oct. → 6 Dec.'26 From 8 €",
+      "url": "https://www.bozar.be/en/calendar/dao-alain-gomis",
+      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
+      "source": "BOZAR",
+      "price_min": 8.0,
+      "price_max": 8.0,
+      "uid": "cce3896fd0de1ffe",
+      "colour": "#00937A",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "title": "New Beginnings - Isabelle Ingold & Vivianne Perelmuter",
+      "start": "2026-10-28T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "New Beginnings - Isabelle Ingold & Vivianne Perelmuter Sold out Cancelled Postponed Last Tickets Films New release In the presence of the director New Beginnings - Isabelle Ingold & Vivianne Perelmuter In the presence of the film directors on 28 October and 6 November 28 Oct. → 8 Nov.'26 From 8 €",
+      "url": "https://www.bozar.be/en/calendar/new-beginnings-isabelle-ingold-vivianne-perelmuter",
+      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
+      "source": "BOZAR",
+      "price_min": 8.0,
+      "price_max": 8.0,
+      "uid": "39f9d0e2300b5402",
+      "colour": "#00937A",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "lab mer 28 oct '26 AB Salon Group Atelier w/Julie Rens Focus sur ton set live! Atelier Gratuit - inscription",
       "start": "2026-10-28T16:00:00+01:00",
       "end": null,
@@ -1864,18 +1864,18 @@
       ]
     },
     {
-      "title": "general mer 28 oct '26 AB Grande salle 47ter FR: Entre rap et chanson, entre jeunesse et âge adulte Concert Acheter",
+      "title": "general mer 28 oct '26 AB Grande salle 47ter + GS FR: Entre rap et chanson, entre jeunesse et âge adulte Concert Acheter",
       "start": "2026-10-28T19:00:00+01:00",
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "general mer 28 oct '26 AB Grande salle 47ter FR: Entre rap et chanson, entre jeunesse et âge adulte Concert Acheter",
+      "description": "general mer 28 oct '26 AB Grande salle 47ter + GS FR: Entre rap et chanson, entre jeunesse et âge adulte Concert Acheter",
       "url": "https://www.abconcerts.be/fr/agenda/47ter/a10Qw00000C36d4IAB",
       "image": "https://abconcerts.be/assets/website/components/images/og-image.1c2180e4.png",
       "source": "Ancienne Belgique",
       "price_min": 6.4,
       "price_max": 33.0,
-      "uid": "1a696fd42644df97",
+      "uid": "d0a9619a2c8dbe0a",
       "colour": "#C0392B",
       "detail_checked": 4,
       "category": "other",
@@ -1914,24 +1914,6 @@
       "price_min": 5.0,
       "price_max": 15.0,
       "uid": "095bf46c6c228c43",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "HIER, IK ALS KEIZERIN - MOLENSTRAAT 103/BUS 5 28 oct 2026 Théatre / Spectacles KVS - Koninklijke Vlaamse Schouwburg Bruxelles - Bruxelles",
-      "start": "2026-10-28T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "KVS - Koninklijke Vlaamse Schouwburg, 7 Quai au Pierres de Taille, 1000 Bruxelles, Bruxelles, Belgique, Bruxelles",
-      "description": "HIER, IK ALS KEIZERIN - MOLENSTRAAT 103/BUS 5 28 oct 2026 Théatre / Spectacles KVS - Koninklijke Vlaamse Schouwburg Bruxelles - Bruxelles Minnie Maes est la plus petite, la plus grise des petites souris.Elle ne laisse aucune trace — Minnie est si minuscule.Dans un monde de plus en plus dur et laid",
-      "url": "https://www.out.be/fr/evenements/217291_hier-ik-als-keizerin-molenstraat-103-bus-5.html",
-      "image": "https://www.out.be/assets/img/logo-outbe.svg",
-      "source": "Out.be",
-      "price_min": null,
-      "price_max": null,
-      "uid": "b2e27a039321adfb",
       "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "other",
@@ -2182,6 +2164,26 @@
       ]
     },
     {
+      "title": "Daan Vandewalle",
+      "start": "2026-10-28T20:30:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Daan Vandewalle Sold out Cancelled Postponed Last Tickets Concerts Piano Daan Vandewalle Rzewski. The People United Will Never Be Defeated! 28 Oct.'26 - 20:30 From 28 €",
+      "url": "https://www.bozar.be/en/calendar/daan-vandewalle",
+      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
+      "source": "BOZAR",
+      "price_min": 28.0,
+      "price_max": 28.0,
+      "uid": "76d806d7633c5617",
+      "colour": "#00937A",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
       "title": "© Nico Wei Gratis Jonge Belgische Cinema #24 Externe organisator: Le p'tit ciné do 29.10.2026 GC Pianofabriek, Sint-Gillis Thema activiteit",
       "start": "2026-10-29T00:00:00+01:00",
       "end": null,
@@ -2262,26 +2264,6 @@
       ]
     },
     {
-      "title": "Écouter Pause general jeu 29 oct '26 AB Grande salle Lane 8 + Quentin Quivera This Never Happened, une spectacle unique ! Concert Acheter",
-      "start": "2026-10-29T19:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Écouter Pause general jeu 29 oct '26 AB Grande salle Lane 8 + Quentin Quivera This Never Happened, une spectacle unique ! Concert Acheter",
-      "url": "https://www.abconcerts.be/fr/agenda/lane-8/a10Qw00000IzS53IAF",
-      "image": "https://abconcerts.be/assets/website/components/images/og-image.1c2180e4.png",
-      "source": "Ancienne Belgique",
-      "price_min": 6.2,
-      "price_max": 31.0,
-      "uid": "ae02a0ac66650692",
-      "colour": "#C0392B",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "Écouter Pause general jeu 29 oct '26 AB Club IJSLAND Tempête iconoclaste anticapitaliste où se mêlent beats secs, déclarations politiques et",
       "start": "2026-10-29T19:00:00+01:00",
       "end": null,
@@ -2294,6 +2276,26 @@
       "price_min": 4.9,
       "price_max": 27.0,
       "uid": "46d2ac100aa24f60",
+      "colour": "#C0392B",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
+      "title": "Écouter Pause general jeu 29 oct '26 AB Grande salle Lane 8 + Quentin Quivera This Never Happened, une spectacle unique ! Concert Acheter",
+      "start": "2026-10-29T19:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Écouter Pause general jeu 29 oct '26 AB Grande salle Lane 8 + Quentin Quivera This Never Happened, une spectacle unique ! Concert Acheter",
+      "url": "https://www.abconcerts.be/fr/agenda/lane-8/a10Qw00000IzS53IAF",
+      "image": "https://abconcerts.be/assets/website/components/images/og-image.1c2180e4.png",
+      "source": "Ancienne Belgique",
+      "price_min": 6.2,
+      "price_max": 31.0,
+      "uid": "ae02a0ac66650692",
       "colour": "#C0392B",
       "detail_checked": 4,
       "category": "other",
@@ -2450,6 +2452,24 @@
       "tags": []
     },
     {
+      "title": "Les Muffatti & Anthony Romaniuk 29 oct 2026 Concerts Classique / Contemporain / Baroque / Carillons Palais des Beaux-Arts de Bruxelles - Boz",
+      "start": "2026-10-29T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "Palais des Beaux-Arts de Bruxelles - Bozar, Rue Ravenstein 23, 1000 Bruxelles, Belgique, Bruxelles",
+      "description": "Les Muffatti & Anthony Romaniuk 29 oct 2026 Concerts Classique / Contemporain / Baroque / Carillons Palais des Beaux-Arts de Bruxelles - Bozar Bruxelles - Bruxelles La série de concerts Echoes of Brussels parcourt l'histoire de notre capitale et s'intéresse à ses créations et ses habitants mémorab",
+      "url": "https://www.out.be/fr/evenements/221426_les-muffatti-anthony-romaniuk.html",
+      "image": "https://www.out.be/assets/img/logo-outbe.svg",
+      "source": "Out.be",
+      "price_min": null,
+      "price_max": null,
+      "uid": "c183ab47ab1cb080",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "Nourrir les débris - closing (finissage)",
       "start": "2026-10-29T00:00:00+01:00",
       "end": null,
@@ -2585,26 +2605,6 @@
       ]
     },
     {
-      "title": "Tai chi avondcursus 2 jeu 29/10 - 19:30 Sport",
-      "start": "2026-10-29T19:30:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Tai chi avondcursus 2 jeu 29/10 - 19:30 Sport",
-      "url": "http://forest.brussels/fr/agenda/tai-chi-avondcursus-2",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "3dc3638371c87d89",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "Yoga en meditatie jeu 29/10 - 19:30 Sport",
       "start": "2026-10-29T19:30:00+01:00",
       "end": null,
@@ -2617,6 +2617,26 @@
       "price_min": null,
       "price_max": null,
       "uid": "3a824ae5095d2f01",
+      "colour": "#0F8CA8",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
+      "title": "Tai chi avondcursus 2 jeu 29/10 - 19:30 Sport",
+      "start": "2026-10-29T19:30:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Tai chi avondcursus 2 jeu 29/10 - 19:30 Sport",
+      "url": "http://forest.brussels/fr/agenda/tai-chi-avondcursus-2",
+      "image": null,
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "3dc3638371c87d89",
       "colour": "#0F8CA8",
       "detail_checked": 4,
       "category": "other",
@@ -2792,6 +2812,26 @@
       ]
     },
     {
+      "title": "general ven 30 oct '26 AB Grande salle Elmer + Keenan Mundane La voix la plus brute de la kleinkunst néerlandaise présente un nouvel album e",
+      "start": "2026-10-30T19:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "general ven 30 oct '26 AB Grande salle Elmer + Keenan Mundane La voix la plus brute de la kleinkunst néerlandaise présente un nouvel album et un nouveau show Concert Liveurope Acheter",
+      "url": "https://www.abconcerts.be/fr/agenda/elmer/a10Qw000008tjnvIAA",
+      "image": "https://abconcerts.be/assets/website/components/images/og-image.1c2180e4.png",
+      "source": "Ancienne Belgique",
+      "price_min": 4.6,
+      "price_max": 27.0,
+      "uid": "531a6e8badb7e419",
+      "colour": "#C0392B",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
       "title": "general ven 30 oct '26 AB Club The Bausa Mélodies scandinaves + énergie électronique + instruments live = The Bausa à l'AB Club Concert Live",
       "start": "2026-10-30T19:00:00+01:00",
       "end": null,
@@ -2915,6 +2955,24 @@
       "price_max": null,
       "uid": "b88f65c9b3ad1dcd",
       "colour": "#0F8CA8",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Roel Dieltiens, Bart Naessens & Ageet Zweistra / Quand le violoncelle s'est mis à chanter 30 oct 2026 Concerts Classique / Contemporain / Ba",
+      "start": "2026-10-30T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "Flagey, Place Flagey Flageyplein, 1050 Ixelles, Bruxelles, Belgique, Ixelles",
+      "description": "Roel Dieltiens, Bart Naessens & Ageet Zweistra / Quand le violoncelle s'est mis à chanter 30 oct 2026 Concerts Classique / Contemporain / Baroque / Carillons Flagey Ixelles - Bruxelles Bien avant que le violoncelle ne devienne l’un des instruments solistes les plus appréciés de la musique classiqu",
+      "url": "https://www.out.be/fr/evenements/218608_roel-dieltiens-bart-naessens-ageet-zweistra-quand-le-violoncelle-s-est-mis-a-chanter.html",
+      "image": "https://www.out.be/assets/img/logo-outbe.svg",
+      "source": "Out.be",
+      "price_min": null,
+      "price_max": null,
+      "uid": "eebf0b6c1fa77a73",
+      "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "other",
       "tags": []
@@ -3401,24 +3459,6 @@
       "tags": []
     },
     {
-      "title": "The Magic City: Birmingham According To Sun Ra - Pablo Guarise & Guillaume Maupin",
-      "start": "2026-10-31T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "The Magic City: Birmingham According To Sun Ra - Pablo Guarise & Guillaume Maupin Sold out Cancelled Postponed Last Tickets Films New release Art & Film In the presence of the director The Magic City: Birmingham According To Sun Ra - Pablo Guarise & Guillaume Maupin Now → 31 Oct.'26 From 8 €",
-      "url": "https://www.bozar.be/en/calendar/magic-city-birmingham-according-sun-ra-pablo-guarise-guillaume-maupin-0",
-      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
-      "source": "BOZAR",
-      "price_min": 8.0,
-      "price_max": 8.0,
-      "uid": "250d6b35feecfca5",
-      "colour": "#00937A",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "31 Oct 2026 J’aurais dû m’appeler Aïcha Nadège De vaulx(-en-velin) Amiens (80)",
       "start": "2026-10-31T00:00:00+01:00",
       "end": null,
@@ -3491,24 +3531,6 @@
       "tags": []
     },
     {
-      "title": "Marie Darah 31.10.2026 > 05.12.2026 Sculpture poétique Groupe B — complet Atelier Écriture Lecture",
-      "start": "2026-10-31T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "Marie Darah 31.10.2026 > 05.12.2026 Sculpture poétique Groupe B — complet Atelier Écriture Lecture",
-      "url": "https://www.lamaisondulivre.be/atelier/sculpture-poetique-groupe-b-2/",
-      "image": "https://www.lamaisondulivre.be/wp-content/uploads/2025/08/calendar_ssfond.png",
-      "source": "La Maison du Livre",
-      "price_min": 10.0,
-      "price_max": 150.0,
-      "uid": "16a33164bd7333ca",
-      "colour": "#C0392B",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "Marie Darah 31.10.2026 > 05.12.2026 Sculpture poétique Groupe A — ANNULÉ Atelier Écriture Lecture",
       "start": "2026-10-31T00:00:00+01:00",
       "end": null,
@@ -3527,37 +3549,19 @@
       "tags": []
     },
     {
-      "title": "Aleksey Shadrin & Camille Thomas / Grieg, Brahms & Glass 31 oct 2026 Concerts Classique / Contemporain / Baroque / Carillons Flagey Ixelles",
+      "title": "Marie Darah 31.10.2026 > 05.12.2026 Sculpture poétique Groupe B — complet Atelier Écriture Lecture",
       "start": "2026-10-31T00:00:00+01:00",
       "end": null,
       "all_day": true,
-      "location": "Flagey, Place Flagey Flageyplein, 1050 Ixelles, Bruxelles, Belgique, Ixelles",
-      "description": "Aleksey Shadrin & Camille Thomas / Grieg, Brahms & Glass 31 oct 2026 Concerts Classique / Contemporain / Baroque / Carillons Flagey Ixelles - Bruxelles Deux des violoncellistes les plus captivants d’aujourd’hui se rencontrent dans un récital consacré à l’extraordinaire puissance émotionnelle du vi",
-      "url": "https://www.out.be/fr/evenements/218611_aleksey-shadrin-camille-thomas-grieg-brahms-glass.html",
-      "image": "https://www.out.be/assets/img/logo-outbe.svg",
-      "source": "Out.be",
-      "price_min": null,
-      "price_max": null,
-      "uid": "eab0eda61d46358f",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "Jungle 31 oct 2026 Concerts Electronique Forest National Forest - Bruxelles Jungle a été fondé à Londres en 2013 par Tom McFarland et J Ll",
-      "start": "2026-10-31T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "Forest National, Av. Victor Rousseau 208, 1190 Forest, Belgique, Forest",
-      "description": "Jungle 31 oct 2026 Concerts Electronique Forest National Forest - Bruxelles Jungle a été fondé à Londres en 2013 par Tom McFarland et J Lloyd. Depuis 2024, le duo est officiellement devenu un trio avec l’arrivée de Lydia Kitto. Leur premier album ‘Jungle’ (2014) ainsi que son",
-      "url": "https://www.out.be/fr/evenements/206186_jungle.html",
-      "image": "https://www.out.be/assets/img/logo-outbe.svg",
-      "source": "Out.be",
-      "price_min": null,
-      "price_max": null,
-      "uid": "07598ca57524f025",
-      "colour": "#1B6FE0",
+      "location": "",
+      "description": "Marie Darah 31.10.2026 > 05.12.2026 Sculpture poétique Groupe B — complet Atelier Écriture Lecture",
+      "url": "https://www.lamaisondulivre.be/atelier/sculpture-poetique-groupe-b-2/",
+      "image": "https://www.lamaisondulivre.be/wp-content/uploads/2025/08/calendar_ssfond.png",
+      "source": "La Maison du Livre",
+      "price_min": 10.0,
+      "price_max": 150.0,
+      "uid": "16a33164bd7333ca",
+      "colour": "#C0392B",
       "detail_checked": 4,
       "category": "other",
       "tags": []
@@ -3801,24 +3805,6 @@
       "tags": []
     },
     {
-      "title": "In-I In Motion - Juliette Binoche",
-      "start": "2026-11-01T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "In-I In Motion - Juliette Binoche Sold out Cancelled Postponed Last Tickets Films New release Highly Recommended In-I In Motion - Juliette Binoche Now → 1 Nov.'26 From 8 €",
-      "url": "https://www.bozar.be/en/calendar/i-motion-juliette-binoche-0",
-      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
-      "source": "BOZAR",
-      "price_min": 8.0,
-      "price_max": 8.0,
-      "uid": "521e310a64db9cff",
-      "colour": "#00937A",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "Brocante",
       "start": "2026-11-01T00:00:00+01:00",
       "end": "2026-11-01T00:00:00+01:00",
@@ -3955,24 +3941,6 @@
       "price_max": null,
       "uid": "df404bb73aa1d2b6",
       "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "Closing Concert: From Bach to Harry Potter – Brussels Cello Festival 2026 01 nov 2026 Concerts Classique / Contemporain / Baroque / Carillon",
-      "start": "2026-11-01T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "Flagey, Place Flagey Flageyplein, 1050 Ixelles, Bruxelles, Belgique, Ixelles",
-      "description": "Closing Concert: From Bach to Harry Potter – Brussels Cello Festival 2026 01 nov 2026 Concerts Classique / Contemporain / Baroque / Carillons Flagey Ixelles - Bruxelles De l’ouverture spectaculaire de la Toccata et Fugue de Bach à l’univers magique de Harry Potter, le Brussels Cello Festival termi",
-      "url": "https://www.out.be/fr/evenements/218615_closing-concert-from-bach-to-harry-potter-brussels-cello-festival-2026.html",
-      "image": "https://www.out.be/assets/img/logo-outbe.svg",
-      "source": "Out.be",
-      "price_min": null,
-      "price_max": null,
-      "uid": "9eb0131e5a890bfd",
-      "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "other",
       "tags": []
@@ -4435,24 +4403,6 @@
       "tags_llm_done": true
     },
     {
-      "title": "Sport - en speelweek voor lagere schoolkinderen lun 02/11 - 09:00 Animations",
-      "start": "2026-11-02T09:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Sport - en speelweek voor lagere schoolkinderen lun 02/11 - 09:00 Animations",
-      "url": "http://forest.brussels/fr/agenda/sport--en-speelweek-voor-lagere-schoolkinderen",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "18aaec79bcda6ccd",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "Stage d’automne : workshop stop-motion lun 02/11 - 09:00 Animations",
       "start": "2026-11-02T09:00:00+01:00",
       "end": null,
@@ -4465,6 +4415,24 @@
       "price_min": 50.0,
       "price_max": 50.0,
       "uid": "5f97dd6d823b59f2",
+      "colour": "#0F8CA8",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Sport - en speelweek voor lagere schoolkinderen lun 02/11 - 09:00 Animations",
+      "start": "2026-11-02T09:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Sport - en speelweek voor lagere schoolkinderen lun 02/11 - 09:00 Animations",
+      "url": "http://forest.brussels/fr/agenda/sport--en-speelweek-voor-lagere-schoolkinderen",
+      "image": null,
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "18aaec79bcda6ccd",
       "colour": "#0F8CA8",
       "detail_checked": 4,
       "category": "other",
@@ -4679,7 +4647,7 @@
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "mardi 3 novembre 2026 Soutien Rencontre internationale des travailleuses du care à Bruxelles Mardi 3 novembre 2026 à 09:00 Schaerbeek - 1030 Organisé par ProtestBase",
+      "description": "dans 6 jours Soutien Rencontre internationale des travailleuses du care à Bruxelles Mardi 3 novembre 2026 à 09:00 Schaerbeek - 1030 Organisé par ProtestBase",
       "url": "https://protestbase.be/manifestations/bruxelles",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
@@ -4958,6 +4926,26 @@
         "outdoor"
       ],
       "tags_llm_done": true
+    },
+    {
+      "title": "Nocturnes gratuites mer 04/11 - 18:00 Visites Guidées",
+      "start": "2026-11-04T18:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Nocturnes gratuites mer 04/11 - 18:00 Visites Guidées",
+      "url": "http://forest.brussels/fr/agenda/visites-guidees/2026/nocturnes-gratuites",
+      "image": null,
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "ba23710e2b9bbfae",
+      "colour": "#0F8CA8",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
     },
     {
       "title": "AG Commune Colère",
@@ -7049,18 +7037,18 @@
       ]
     },
     {
-      "title": "Y en a marre! - Formation",
+      "title": "Contre les violences faites aux enfants et aux ados",
       "start": "2026-11-14T14:00:00+01:00",
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "samedi 14 novembre 2026 Apprendre Y en a marre! - Formation Samedi 14 novembre 2026 à 14:00 Ixelles - 1050 Organisé par ProtestBase",
+      "description": "samedi 14 novembre 2026 Manifestation Contre les violences faites aux enfants et aux ados Samedi 14 novembre 2026 à 14:00 Bruxelles - 1000 Organisé par ProtestBase",
       "url": "https://protestbase.be/manifestations/bruxelles",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
       "price_min": null,
       "price_max": null,
-      "uid": "ca1a6e93911447a8",
+      "uid": "06ae24de105189e0",
       "colour": "#E07A00",
       "category": "other",
       "tags": []
@@ -7157,6 +7145,24 @@
       "price_min": null,
       "price_max": null,
       "uid": "2ec94cdd9d31c1c6",
+      "colour": "#0F8CA8",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Agir pour plus de démocratie",
+      "start": "2026-11-15T13:00:00+00:00",
+      "end": "2026-11-15T14:00:00+00:00",
+      "all_day": false,
+      "location": ",",
+      "description": "plus d'infos sur : https://bxl.demosphere.net/rv/18856",
+      "url": "https://bxl.demosphere.net/rv/18856",
+      "image": null,
+      "source": "Demosphere Bruxelles",
+      "price_min": null,
+      "price_max": null,
+      "uid": "cb12b02bf1a056f7",
       "colour": "#0F8CA8",
       "detail_checked": 4,
       "category": "other",
@@ -9135,24 +9141,6 @@
       ],
       "stale": true,
       "detail_checked": 4
-    },
-    {
-      "title": "Nous l'Orchestre - Philippe Béziat",
-      "start": "2026-11-26T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "Nous l'Orchestre - Philippe Béziat Sold out Cancelled Postponed Last Tickets Films Art & Film Nous l'Orchestre - Philippe Béziat Now → 26 Nov.'26 From 8 €",
-      "url": "https://www.bozar.be/en/calendar/nous-lorchestre-philippe-beziat",
-      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
-      "source": "BOZAR",
-      "price_min": 8.0,
-      "price_max": 8.0,
-      "uid": "41f298f33a33a342",
-      "colour": "#00937A",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
     },
     {
       "title": "26.11.26 FLIRT FLAMAND Passa Porta Langue: NL FR Surtitrage: FR",
