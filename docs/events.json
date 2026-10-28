@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T12:04:59.037243+01:00",
+  "generated": "2026-10-28T21:48:48.981011+01:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
@@ -51,7 +51,7 @@
       "name": "Fuse",
       "url": "https://www.fuse.be/events",
       "colour": "#C0392B",
-      "count": 13,
+      "count": 14,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-10-28"
@@ -60,7 +60,7 @@
       "name": "Goudblommeke in Papier",
       "url": "https://goudblommekeinpapier.be/agenda/",
       "colour": "#0F8CA8",
-      "count": 2,
+      "count": 5,
       "method": "wordpress",
       "stale": false,
       "last_ok": "2026-10-28"
@@ -87,7 +87,7 @@
       "name": "U-Square",
       "url": "https://usquare.brussels/en/agenda",
       "colour": "#1B6FE0",
-      "count": 3,
+      "count": 4,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-10-28"
@@ -151,7 +151,7 @@
       "url": "https://www.senghor.be/agenda/",
       "colour": "#E8336D",
       "count": 30,
-      "method": "none",
+      "method": "browser",
       "stale": true,
       "last_ok": "2026-10-03"
     },
@@ -159,7 +159,7 @@
       "name": "Flagey",
       "url": "https://www.flagey.be/agenda",
       "colour": "#1B6FE0",
-      "count": 10,
+      "count": 9,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-10-28"
@@ -195,7 +195,7 @@
       "name": "Ancienne Belgique",
       "url": "https://www.abconcerts.be/fr/agenda",
       "colour": "#C0392B",
-      "count": 8,
+      "count": 9,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-10-28"
@@ -205,15 +205,15 @@
       "url": "https://bxl.demosphere.net/events.ics",
       "colour": "#0F8CA8",
       "count": 29,
-      "method": "none",
-      "stale": true,
-      "last_ok": "2026-10-27"
+      "method": "ics",
+      "stale": false,
+      "last_ok": "2026-10-28"
     },
     {
       "name": "CBCS (Brussels social sector agenda)",
       "url": "https://cbcs.be/agenda/?ical=1",
       "colour": "#8A7500",
-      "count": 13,
+      "count": 15,
       "method": "ics",
       "stale": false,
       "last_ok": "2026-10-28"
@@ -336,27 +336,9 @@
       "last_ok": "2026-10-28"
     },
     {
-      "name": "Conférences gesticulées (network catalogue)",
-      "url": "https://conferences-gesticulees.net/",
-      "colour": "#C0392B",
-      "count": 12,
-      "method": "recipe",
-      "stale": false,
-      "last_ok": "2026-10-28"
-    },
-    {
-      "name": "Conférences gesticulées (per-day pages)",
-      "url": "https://conferences-gesticulees.net/events/",
-      "colour": "#0F8CA8",
-      "count": 99,
-      "method": "recipe",
-      "stale": false,
-      "last_ok": "2026-10-28"
-    },
-    {
       "name": "Centre d'Action Laïque events",
       "url": "https://laicite.be/notre-action/agenda/festival-des-libertes-2026/",
-      "colour": "#8A7500",
+      "colour": "#C0392B",
       "count": 0,
       "method": "none",
       "stale": true,
@@ -365,7 +347,7 @@
     {
       "name": "English Comedy Brussels",
       "url": "https://englishcomedybrussels.com/",
-      "colour": "#E8336D",
+      "colour": "#0F8CA8",
       "count": 1,
       "method": "none",
       "stale": true,
@@ -374,7 +356,7 @@
     {
       "name": "Club Carré agenda",
       "url": "https://carre.be/agenda/",
-      "colour": "#1B6FE0",
+      "colour": "#8A7500",
       "count": 3,
       "method": "none",
       "stale": true,
@@ -383,7 +365,7 @@
     {
       "name": "Les Tanneurs",
       "url": "https://lestanneurs.be/",
-      "colour": "#00937A",
+      "colour": "#E8336D",
       "count": 22,
       "method": "recipe",
       "stale": false,
@@ -392,7 +374,7 @@
     {
       "name": "Varia",
       "url": "https://varia.be/en",
-      "colour": "#E07A00",
+      "colour": "#1B6FE0",
       "count": 4,
       "method": "recipe",
       "stale": false,
@@ -401,7 +383,7 @@
     {
       "name": "Halles de Schaerbeek",
       "url": "https://www.halles.be/en/",
-      "colour": "#7B49D6",
+      "colour": "#00937A",
       "count": 8,
       "method": "recipe",
       "stale": false,
@@ -410,8 +392,8 @@
     {
       "name": "La Maison du Livre",
       "url": "https://www.lamaisondulivre.be/agenda/",
-      "colour": "#C0392B",
-      "count": 9,
+      "colour": "#E07A00",
+      "count": 10,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-10-28"
@@ -419,7 +401,7 @@
     {
       "name": "Forest (commune agenda)",
       "url": "https://forest.brussels/fr/agenda",
-      "colour": "#0F8CA8",
+      "colour": "#7B49D6",
       "count": 24,
       "method": "recipe",
       "stale": false,
@@ -428,7 +410,7 @@
     {
       "name": "Brocantes 1060 (Saint-Gilles)",
       "url": "https://www.brocantes1060.be/",
-      "colour": "#8A7500",
+      "colour": "#C0392B",
       "count": 0,
       "method": "none",
       "stale": true,
@@ -437,7 +419,7 @@
     {
       "name": "Lire et Écrire",
       "url": "https://lire-et-ecrire.be/",
-      "colour": "#E8336D",
+      "colour": "#0F8CA8",
       "count": 0,
       "method": "none",
       "stale": true,
@@ -446,7 +428,7 @@
     {
       "name": "Anderlecht (commune agenda)",
       "url": "https://anderlecht.be/",
-      "colour": "#1B6FE0",
+      "colour": "#8A7500",
       "count": 0,
       "method": "none",
       "stale": true,
@@ -455,7 +437,7 @@
     {
       "name": "Latin Clubbing",
       "url": "https://www.latinclubbing.be/events/?ical=1",
-      "colour": "#00937A",
+      "colour": "#E8336D",
       "count": 0,
       "method": "none",
       "stale": false,
@@ -464,7 +446,7 @@
     {
       "name": "Saint-Gilles Culture (agenda)",
       "url": "https://www.saintgillesculture.brussels/agenda",
-      "colour": "#E07A00",
+      "colour": "#1B6FE0",
       "count": 0,
       "method": "browser",
       "stale": false,
@@ -473,7 +455,7 @@
     {
       "name": "Les Riches-Claires",
       "url": "https://lesrichesclaires.be/",
-      "colour": "#7B49D6",
+      "colour": "#00937A",
       "count": 0,
       "method": "none",
       "stale": false,
@@ -482,7 +464,7 @@
     {
       "name": "Mazette (brewpub, Jeu de Balle)",
       "url": "https://mazette.brussels/",
-      "colour": "#C0392B",
+      "colour": "#E07A00",
       "count": 1,
       "method": "none",
       "stale": true,
@@ -491,7 +473,7 @@
     {
       "name": "The Bridge Theatre (English-language)",
       "url": "https://thebridge.brussels/",
-      "colour": "#0F8CA8",
+      "colour": "#7B49D6",
       "count": 0,
       "method": "none",
       "stale": false,
@@ -500,7 +482,7 @@
     {
       "name": "CRUSH festival",
       "url": "https://festivalcrush.be/en/",
-      "colour": "#8A7500",
+      "colour": "#C0392B",
       "count": 0,
       "method": "none",
       "stale": false,
@@ -509,7 +491,7 @@
     {
       "name": "ANTE Festival",
       "url": "https://www.ante.brussels/en/",
-      "colour": "#E8336D",
+      "colour": "#0F8CA8",
       "count": 0,
       "method": "none",
       "stale": false,
@@ -518,8 +500,26 @@
     {
       "name": "Out.be",
       "url": "https://www.out.be/fr/",
+      "colour": "#8A7500",
+      "count": 9,
+      "method": "recipe",
+      "stale": false,
+      "last_ok": "2026-10-28"
+    },
+    {
+      "name": "Brasserie Illegaal",
+      "url": "https://brasserie-illegaal.com/all-events/?ical=1",
+      "colour": "#E8336D",
+      "count": 3,
+      "method": "ics",
+      "stale": false,
+      "last_ok": "2026-10-28"
+    },
+    {
+      "name": "Craft Studios",
+      "url": "https://www.craft-studios.be/en/events",
       "colour": "#1B6FE0",
-      "count": 8,
+      "count": 12,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-10-28"
@@ -824,8 +824,8 @@
     {
       "source": "Fuse",
       "method": "recipe",
-      "found": 13,
-      "kept": 13,
+      "found": 14,
+      "kept": 14,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -834,8 +834,8 @@
     {
       "source": "Goudblommeke in Papier",
       "method": "wordpress",
-      "found": 2,
-      "kept": 2,
+      "found": 5,
+      "kept": 5,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -864,8 +864,8 @@
     {
       "source": "U-Square",
       "method": "recipe",
-      "found": 4,
-      "kept": 3,
+      "found": 5,
+      "kept": 4,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -933,19 +933,19 @@
     },
     {
       "source": "Le Senghor",
-      "method": "none",
-      "found": 0,
+      "method": "browser",
+      "found": 9,
       "kept": 0,
       "carried": 30,
       "stale": true,
-      "error_class": "billing",
-      "note": "browser: jsonld/recipe empty, llm skipped (billing failure earlier this run)"
+      "error_class": "",
+      "note": ""
     },
     {
       "source": "Flagey",
       "method": "recipe",
-      "found": 10,
-      "kept": 10,
+      "found": 9,
+      "kept": 9,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -984,8 +984,8 @@
     {
       "source": "Ancienne Belgique",
       "method": "recipe",
-      "found": 8,
-      "kept": 8,
+      "found": 9,
+      "kept": 9,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -993,19 +993,19 @@
     },
     {
       "source": "Demosphere Bruxelles",
-      "method": "none",
-      "found": 0,
-      "kept": 0,
-      "carried": 29,
-      "stale": true,
-      "error_class": "site",
-      "note": "ics: ConnectTimeout: HTTPSConnectionPool(host='bxl.demosphere.net', port=443): Max retries exceeded with url: /events.ics (Caused by ConnectTimeoutError(<HTTPSConnection(host='bxl.demosphere.net', por"
+      "method": "ics",
+      "found": 30,
+      "kept": 29,
+      "carried": 0,
+      "stale": false,
+      "error_class": "",
+      "note": ""
     },
     {
       "source": "CBCS (Brussels social sector agenda)",
       "method": "ics",
-      "found": 15,
-      "kept": 13,
+      "found": 17,
+      "kept": 15,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1142,26 +1142,6 @@
       "note": ""
     },
     {
-      "source": "Conférences gesticulées (network catalogue)",
-      "method": "recipe",
-      "found": 12,
-      "kept": 12,
-      "carried": 0,
-      "stale": false,
-      "error_class": "",
-      "note": ""
-    },
-    {
-      "source": "Conférences gesticulées (per-day pages)",
-      "method": "recipe",
-      "found": 99,
-      "kept": 99,
-      "carried": 0,
-      "stale": false,
-      "error_class": "",
-      "note": ""
-    },
-    {
       "source": "Centre d'Action Laïque events",
       "method": "none",
       "found": 0,
@@ -1224,8 +1204,8 @@
     {
       "source": "La Maison du Livre",
       "method": "recipe",
-      "found": 10,
-      "kept": 9,
+      "found": 11,
+      "kept": 10,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1345,7 +1325,27 @@
       "source": "Out.be",
       "method": "recipe",
       "found": 9,
-      "kept": 8,
+      "kept": 9,
+      "carried": 0,
+      "stale": false,
+      "error_class": "",
+      "note": ""
+    },
+    {
+      "source": "Brasserie Illegaal",
+      "method": "ics",
+      "found": 3,
+      "kept": 3,
+      "carried": 0,
+      "stale": false,
+      "error_class": "",
+      "note": ""
+    },
+    {
+      "source": "Craft Studios",
+      "method": "recipe",
+      "found": 12,
+      "kept": 12,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1497,32 +1497,6 @@
       "tags_llm_done": true
     },
     {
-      "title": "Rally: Against colonialism, fascism, wars and genocides!",
-      "start": "2026-10-27T17:00:00+00:00",
-      "end": "2026-10-27T18:00:00+00:00",
-      "all_day": false,
-      "location": "1000 Brussels, Central Station Carrefour de l'Europe",
-      "description": "For more information: https://bxl.demosphere.net/rv/18757",
-      "url": "https://bxl.demosphere.net/rv/18757",
-      "image": null,
-      "source": "Demosphere Bruxelles",
-      "price_min": null,
-      "price_max": null,
-      "uid": "762ddcbe01e636d9",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "translated": true,
-      "category": "activism-justice",
-      "category_llm": true,
-      "tags": [
-        "activism",
-        "evening",
-        "outdoor"
-      ],
-      "tags_llm_done": true,
-      "stale": true
-    },
-    {
       "title": "6:30 PM Choir of la Vieille Chéchette",
       "start": "2026-10-28T00:00:00+01:00",
       "end": "2026-10-28T00:00:00+01:00",
@@ -1615,7 +1589,7 @@
       "end": null,
       "all_day": true,
       "location": "",
-      "description": "New Beginnings - Isabelle Ingold & Vivianne Perelmuter Sold out Cancelled Postponed Last Tickets Films New release In the presence of the director New Beginnings - Isabelle Ingold & Vivianne Perelmuter In the presence of the film directors on 28 October and 6 November 28 Oct. → 8 Nov.'26 From 8 €",
+      "description": "New Beginnings - Isabelle Ingold & Vivianne Perelmuter Sold out Cancelled Postponed Last Tickets Films New release In the presence of the director New Beginnings - Isabelle Ingold & Vivianne Perelmuter In the presence of the film directors on 28 October and 6 November Now → 8 Nov.'26 From 8 €",
       "url": "https://www.bozar.be/en/calendar/new-beginnings-isabelle-ingold-vivianne-perelmuter",
       "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
       "source": "BOZAR",
@@ -1626,26 +1600,6 @@
       "detail_checked": 4,
       "category": "other",
       "tags": []
-    },
-    {
-      "title": "Dao - Alain Gomis",
-      "start": "2026-10-28T00:00:00+01:00",
-      "end": "2026-12-06T00:00:00+01:00",
-      "all_day": true,
-      "location": "",
-      "description": "Dao - Alain Gomis Sold out Cancelled Postponed Last Tickets Films New release Dao - Alain Gomis 28 Oct. → 6 Dec.'26 From 8 €",
-      "url": "https://www.bozar.be/en/calendar/dao-alain-gomis",
-      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
-      "source": "BOZAR",
-      "price_min": 8.0,
-      "price_max": 8.0,
-      "uid": "cce3896fd0de1ffe",
-      "colour": "#00937A",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "recurring"
-      ]
     },
     {
       "title": "Permanence d’impression BOURAGE Papiir",
@@ -1678,13 +1632,13 @@
       "price_min": 5.0,
       "price_max": 15.0,
       "uid": "095bf46c6c228c43",
-      "colour": "#1B6FE0",
+      "colour": "#8A7500",
       "detail_checked": 4,
-      "category": "other",
+      "category": "family-children",
       "tags": []
     },
     {
-      "title": "Expo TW - Collectief 'le 180' mer 28/10 - 09:00 Exposition",
+      "title": "Expo TW - Collectief 'le 180'",
       "start": "2026-10-28T09:00:00+01:00",
       "end": null,
       "all_day": false,
@@ -1695,14 +1649,14 @@
       "source": "Forest (commune agenda)",
       "price_min": null,
       "price_max": null,
-      "uid": "b77ff41b9158fbc2",
-      "colour": "#0F8CA8",
+      "uid": "d9167b4a834db454",
+      "colour": "#7B49D6",
       "detail_checked": 4,
-      "category": "other",
+      "category": "culture-arts",
       "tags": []
     },
     {
-      "title": "De Troostboom (L’Arbre du Réconfort) mer 28/10 - 09:00 Cours, Stages et Ateliers",
+      "title": "De Troostboom (L’Arbre du Réconfort)",
       "start": "2026-10-28T09:00:00+01:00",
       "end": null,
       "all_day": false,
@@ -1713,14 +1667,14 @@
       "source": "Forest (commune agenda)",
       "price_min": null,
       "price_max": null,
-      "uid": "9767fa56190cbed0",
-      "colour": "#0F8CA8",
+      "uid": "9548da5a53513353",
+      "colour": "#7B49D6",
       "detail_checked": 4,
-      "category": "other",
+      "category": "workshops-creative",
       "tags": []
     },
     {
-      "title": "Tai Chi Ochtendcursus mer 28/10 - 09:00 Sport",
+      "title": "Tai Chi Ochtendcursus",
       "start": "2026-10-28T09:00:00+01:00",
       "end": null,
       "all_day": false,
@@ -1731,14 +1685,14 @@
       "source": "Forest (commune agenda)",
       "price_min": null,
       "price_max": null,
-      "uid": "e13a3b0ac94eba1c",
-      "colour": "#0F8CA8",
+      "uid": "e9718e3aca25ac1d",
+      "colour": "#7B49D6",
       "detail_checked": 4,
-      "category": "other",
+      "category": "sport-wellbeing",
       "tags": []
     },
     {
-      "title": "Stage découverte d'Halloween mer 28/10 - 10:00 Cours, Stages et Ateliers",
+      "title": "Stage découverte d'Halloween",
       "start": "2026-10-28T10:00:00+01:00",
       "end": null,
       "all_day": false,
@@ -1749,14 +1703,14 @@
       "source": "Forest (commune agenda)",
       "price_min": null,
       "price_max": null,
-      "uid": "9c89acd3bee1ccd0",
-      "colour": "#0F8CA8",
+      "uid": "dae895ca628dc2d7",
+      "colour": "#7B49D6",
       "detail_checked": 4,
-      "category": "other",
+      "category": "workshops-creative",
       "tags": []
     },
     {
-      "title": "Ali Cherri: Pray, Lips of Clay mer 28/10 - 11:00 Exposition",
+      "title": "Ali Cherri: Pray, Lips of Clay",
       "start": "2026-10-28T11:00:00+01:00",
       "end": null,
       "all_day": false,
@@ -1767,28 +1721,10 @@
       "source": "Forest (commune agenda)",
       "price_min": null,
       "price_max": null,
-      "uid": "3ac32baadbe3967d",
-      "colour": "#0F8CA8",
+      "uid": "0e8d69172716250b",
+      "colour": "#7B49D6",
       "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "Lucy Lost",
-      "start": "2026-10-28T14:45:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "Lucy Lost Wed 28 Oct - Sun 8 Nov Studio 5 cinema animation € 7,00–€ 10,50 dates dates Wed 28 Oct 14:45 tickets Fri 30 Oct 14:00 tickets Sun 8 Nov 14:00 tickets",
-      "url": "https://www.flagey.be/en/agenda/lucy-lost-b55c",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "d00e2eef3bbb3374",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
+      "category": "culture-arts",
       "tags": []
     },
     {
@@ -1806,25 +1742,7 @@
       "uid": "8da3d6a1e76bd1fd",
       "colour": "#7B49D6",
       "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "L'Autre Côté du Soleil",
-      "start": "2026-10-28T16:40:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "L'Autre Côté du Soleil Wed 28 Oct 16:40 Studio 5 cinema special screening € 7,00–€ 10,50 dates dates Wed 28 Oct 16:40 tickets Wed 14 Oct 19:00 Past event premiere attended by the filmmaker Wed 21 Oct 17:35 Past event",
-      "url": "https://www.flagey.be/en/agenda/l-autre-cote-du-soleil-72sk",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "216c1a9496cc2684",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
+      "category": "workshops-creative",
       "tags": []
     },
     {
@@ -1850,11 +1768,10 @@
         "evening",
         "outdoor"
       ],
-      "tags_llm_done": true,
-      "stale": true
+      "tags_llm_done": true
     },
     {
-      "title": "De Troostboom - luistersessie ‘Dwalen door Verlies' mer 28/10 - 18:00 Cours, Stages et Ateliers",
+      "title": "De Troostboom - luistersessie ‘Dwalen door Verlies'",
       "start": "2026-10-28T18:00:00+01:00",
       "end": null,
       "all_day": false,
@@ -1865,30 +1782,10 @@
       "source": "Forest (commune agenda)",
       "price_min": null,
       "price_max": null,
-      "uid": "7a7f184984844853",
-      "colour": "#0F8CA8",
+      "uid": "f504bf56dfae19dc",
+      "colour": "#7B49D6",
       "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Too many beasts",
-      "start": "2026-10-28T18:15:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "Too many beasts Wed 28 Oct and Thu 5 Nov Studio 5 cinema € 7,00–€ 10,50 dates dates Wed 28 Oct 18:15 tickets Thu 5 Nov 17:00 tickets Wed 14 Oct 21:05 Past event Fri 16 Oct 17:00 Past event Sat 17 Oct 19:00 Past event Wed 21 Oct 21:20 Past event Thu 22 Oct 19:20 Past event",
-      "url": "https://www.flagey.be/en/agenda/too-many-beasts-h34h",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "1453a3871da2d232",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
+      "category": "workshops-creative",
       "tags": [
         "evening"
       ]
@@ -1981,26 +1878,6 @@
       "detail_checked": 4
     },
     {
-      "title": "La Gradiva",
-      "start": "2026-10-28T20:15:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "La Gradiva Wed 28 Oct - Fri 27 Nov Studio 5 cinema € 7,00–€ 10,50 dates dates Wed 28 Oct 20:15 tickets Fri 30 Oct 20:30 tickets Sun 1 Nov 16:00 tickets Thu 5 Nov 21:05 tickets Sun 8 Nov 15:45 tickets Fri 13 Nov 18:45 tickets Sun 15 Nov 18:15 tickets Sat 21 Nov 15:50 tickets Fri 27 Nov 16:10 tickets",
-      "url": "https://www.flagey.be/en/agenda/la-gradiva-mbb1",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "9d7e829260268746",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "Daan Vandewalle",
       "start": "2026-10-28T20:30:00+01:00",
       "end": null,
@@ -2015,7 +1892,7 @@
       "uid": "76d806d7633c5617",
       "colour": "#00937A",
       "detail_checked": 4,
-      "category": "other",
+      "category": "music",
       "tags": [
         "evening"
       ]
@@ -2035,7 +1912,7 @@
       "uid": "1b3c859624a70e3e",
       "colour": "#1B6FE0",
       "detail_checked": 4,
-      "category": "other",
+      "category": "film-cinema",
       "tags": [
         "free"
       ],
@@ -2056,7 +1933,7 @@
       "uid": "709e926b8528b186",
       "colour": "#00937A",
       "detail_checked": 4,
-      "category": "other",
+      "category": "talks-discussions",
       "tags": []
     },
     {
@@ -2115,7 +1992,7 @@
       "uid": "8eb4a332ffebc613",
       "colour": "#C0392B",
       "detail_checked": 4,
-      "category": "other",
+      "category": "music",
       "tags": [
         "free"
       ]
@@ -2135,7 +2012,7 @@
       "uid": "46d2ac100aa24f60",
       "colour": "#C0392B",
       "detail_checked": 4,
-      "category": "other",
+      "category": "music",
       "tags": [
         "evening"
       ]
@@ -2155,7 +2032,7 @@
       "uid": "ae02a0ac66650692",
       "colour": "#C0392B",
       "detail_checked": 4,
-      "category": "other",
+      "category": "music",
       "tags": [
         "evening"
       ]
@@ -2175,7 +2052,7 @@
       "uid": "9c5ff25ea56b7051",
       "colour": "#C0392B",
       "detail_checked": 4,
-      "category": "other",
+      "category": "music",
       "tags": [
         "evening"
       ]
@@ -2195,7 +2072,7 @@
       "uid": "2ff269f6be998a63",
       "colour": "#E8336D",
       "detail_checked": 4,
-      "category": "other",
+      "category": "markets-fairs",
       "tags": [
         "late-night"
       ]
@@ -2221,111 +2098,21 @@
       ]
     },
     {
-      "title": "29 Oct 2026 Pourtant j’ai tout bien fait comme il faut ! Véronique Kesmedjian Saint-Léonard-de-Noblat (87)",
+      "title": "Oct 29 Sold Out PUMPKINS CARVING NIGHT Ixelles , Belgium Atelier ponctuel Event Sold Out Event Info",
       "start": "2026-10-29T00:00:00+01:00",
       "end": null,
       "all_day": true,
       "location": "",
-      "description": "29 Oct 2026 Pourtant j’ai tout bien fait comme il faut ! Véronique Kesmedjian Saint-Léonard-de-Noblat (87)",
-      "url": "https://conferences-gesticulees.net/events/29-10-2026-veronique-kesmedjian-lescalier-saint-leonard-de-noblat/",
-      "image": null,
-      "source": "Conférences gesticulées (network catalogue)",
+      "description": "Oct 29 Sold Out PUMPKINS CARVING NIGHT Ixelles , Belgium Atelier ponctuel Event Sold Out Event Info",
+      "url": "https://www.craft-studios.be/en/event/pumpkins-carving-night-291/register",
+      "image": "https://www.craft-studios.be/web/image/website/1/social_default_image",
+      "source": "Craft Studios",
       "price_min": null,
       "price_max": null,
-      "uid": "e63d3be7c4534de9",
-      "colour": "#C0392B",
+      "uid": "50f96372abafc4d1",
+      "colour": "#1B6FE0",
       "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "29 Oct 2026 Divorcée pour le meilleur et le meilleur Caps Montpellier (34)",
-      "start": "2026-10-29T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "29 Oct 2026 Divorcée pour le meilleur et le meilleur Caps Montpellier (34)",
-      "url": "https://conferences-gesticulees.net/events/29-10-2026-caps-le-quartier-genereux/",
-      "image": null,
-      "source": "Conférences gesticulées (network catalogue)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "d68ea0e5adeef702",
-      "colour": "#C0392B",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "29 Oct 2026 Plus jamais ça ?! Conférence gesticulée sur l’avant-génocide des Tutsis au Rwanda Claire-Emmanuelle Mercier Chambéry ()",
-      "start": "2026-10-29T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "29 Oct 2026 Plus jamais ça ?! Conférence gesticulée sur l’avant-génocide des Tutsis au Rwanda Claire-Emmanuelle Mercier Chambéry ()",
-      "url": "https://conferences-gesticulees.net/events/29-10-2026-claire-emmanuelle-mercier-le-bruit-qui-court-bar-et-restaurant/",
-      "image": null,
-      "source": "Conférences gesticulées (network catalogue)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "c787e0c1337077c6",
-      "colour": "#C0392B",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "29 Oct 2026 Pourtant j’ai tout bien fait comme il faut ! Véronique Kesmedjian Saint-Léonard-de-Noblat (87)",
-      "start": "2026-10-29T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "29 Oct 2026 Pourtant j’ai tout bien fait comme il faut ! Véronique Kesmedjian Saint-Léonard-de-Noblat (87)",
-      "url": "https://conferences-gesticulees.net/events/29-10-2026-veronique-kesmedjian-lescalier-saint-leonard-de-noblat/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "e53eee29ab02c46c",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "29 Oct 2026 Divorcée pour le meilleur et le meilleur Caps Montpellier (34)",
-      "start": "2026-10-29T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "29 Oct 2026 Divorcée pour le meilleur et le meilleur Caps Montpellier (34)",
-      "url": "https://conferences-gesticulees.net/events/29-10-2026-caps-le-quartier-genereux/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "d431d45fccaacdfb",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "29 Oct 2026 Plus jamais ça ?! Conférence gesticulée sur l’avant-génocide des Tutsis au Rwanda Claire-Emmanuelle Mercier Chambéry ()",
-      "start": "2026-10-29T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "29 Oct 2026 Plus jamais ça ?! Conférence gesticulée sur l’avant-génocide des Tutsis au Rwanda Claire-Emmanuelle Mercier Chambéry ()",
-      "url": "https://conferences-gesticulees.net/events/29-10-2026-claire-emmanuelle-mercier-le-bruit-qui-court-bar-et-restaurant/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "22811ab7c8348d8e",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
+      "category": "workshops-creative",
       "tags": []
     },
     {
@@ -2351,7 +2138,25 @@
       "tags_llm_done": true
     },
     {
-      "title": "Lost and Found. La photographie japonaise jeu 29/10 - 13:00 Exposition",
+      "title": "Close Encounter",
+      "start": "2026-10-29T12:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "Close Encounter Brussels Philharmonic Thu 29 Oct - Thu 3 Jun Studio 4 music classical orchestra Show options for your wishlist € 5,00 dates dates 29 Oct 12:00 Studio 4 To wishlist Sign in to add this to your wishlist Tickets Normal € 5,00 € 5,00 tickets 12 Nov 12:00 Studio 4 To wishlist Sign in to a",
+      "url": "https://www.flagey.be/en/agenda/close-encounter-nk2f",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 5.0,
+      "price_max": 5.0,
+      "uid": "9e1a56fcd1f60c3d",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "music",
+      "tags": []
+    },
+    {
+      "title": "Lost and Found. La photographie japonaise",
       "start": "2026-10-29T13:00:00+01:00",
       "end": null,
       "all_day": false,
@@ -2362,14 +2167,14 @@
       "source": "Forest (commune agenda)",
       "price_min": null,
       "price_max": null,
-      "uid": "3bda6e47ba44107e",
-      "colour": "#0F8CA8",
+      "uid": "ba7a6132ef63ce24",
+      "colour": "#7B49D6",
       "detail_checked": 4,
-      "category": "other",
+      "category": "culture-arts",
       "tags": []
     },
     {
-      "title": "Hoe omgaan met rouw in je klas? jeu 29/10 - 13:30 Cours, Stages et Ateliers",
+      "title": "Hoe omgaan met rouw in je klas?",
       "start": "2026-10-29T13:30:00+01:00",
       "end": null,
       "all_day": false,
@@ -2380,50 +2185,14 @@
       "source": "Forest (commune agenda)",
       "price_min": null,
       "price_max": null,
-      "uid": "c059261852fce0e8",
-      "colour": "#0F8CA8",
+      "uid": "2b18930e7d19adf1",
+      "colour": "#7B49D6",
       "detail_checked": 4,
-      "category": "other",
+      "category": "workshops-creative",
       "tags": []
     },
     {
-      "title": "La PERCHE : Le Corset",
-      "start": "2026-10-29T14:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "La PERCHE : Le Corset Thu 29 Oct 14:00 Studio 5 cinema animation special screening Tickets Normal € 10,50 -12 € 7,00 -26 € 8,50 65+ € 8,50 € 7,00–€ 10,50 tickets",
-      "url": "https://www.flagey.be/en/agenda/la-perche-le-corset-yhhb",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 26.0,
-      "uid": "2472dbd65eb735cd",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "A Man of His Time",
-      "start": "2026-10-29T16:15:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "A Man of His Time Thu 29 Oct and Sat 7 Nov Studio 5 cinema new release € 7,00–€ 10,50 dates dates Thu 29 Oct 16:15 tickets Sat 7 Nov 16:00 tickets Wed 30 Sep 20:45 Past event Sat 3 Oct 20:50 Past event Sun 4 Oct 18:00 Past event Thu 8 Oct 20:30 Past event Sat 10 Oct 18:00 Past event Wed 14 Oct 16:00",
-      "url": "https://www.flagey.be/en/agenda/a-man-of-his-time-q1cd",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "4b3e1aaafc150d4f",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "Tai chi avondcursus 1 jeu 29/10 - 18:00 Sport",
+      "title": "Tai chi avondcursus 1",
       "start": "2026-10-29T18:00:00+01:00",
       "end": null,
       "all_day": false,
@@ -2434,37 +2203,36 @@
       "source": "Forest (commune agenda)",
       "price_min": null,
       "price_max": null,
-      "uid": "bb1a209462b77e54",
-      "colour": "#0F8CA8",
+      "uid": "a0fc608505f3a14a",
+      "colour": "#7B49D6",
       "detail_checked": 4,
-      "category": "other",
+      "category": "sport-wellbeing",
       "tags": [
         "evening"
       ]
     },
     {
-      "title": "Res Nullius",
-      "start": "2026-10-29T19:05:00+01:00",
+      "title": "Okonski",
+      "start": "2026-10-29T18:30:00+01:00",
       "end": null,
       "all_day": false,
       "location": "Flagey, Flagey",
-      "description": "Res Nullius Thu 29 Oct 19:05 Studio 5 cinema documentary special screening € 7,00–€ 10,50 dates dates Thu 29 Oct 19:05 tickets Thu 3 Sep 19:00 Past event Premiere attended by the director / last tickets Fri 11 Sep 17:30 Past event Sat 19 Sep 15:15 Past event Wed 23 Sep 19:05 Past event free / specia",
-      "url": "https://www.flagey.be/en/agenda/res-nullius-n94f",
+      "description": "Okonski Thu 29 Oct 18:30 Studio 1 music jazz To wishlist Sign in to add this to your wishlist Standard Normal € 23,00 -26 € 21,00 65+ € 21,00 € 21,00–€ 23,00 last tickets",
+      "url": "https://www.flagey.be/en/agenda/okonski-fkjq",
       "image": null,
       "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "8947919f05ebac20",
+      "price_min": 21.0,
+      "price_max": 26.0,
+      "uid": "f898e602f66a3c38",
       "colour": "#1B6FE0",
       "detail_checked": 4,
-      "category": "other",
+      "category": "music",
       "tags": [
-        "evening",
-        "free"
+        "evening"
       ]
     },
     {
-      "title": "Yoga en meditatie jeu 29/10 - 19:30 Sport",
+      "title": "Yoga en meditatie",
       "start": "2026-10-29T19:30:00+01:00",
       "end": null,
       "all_day": false,
@@ -2475,16 +2243,16 @@
       "source": "Forest (commune agenda)",
       "price_min": null,
       "price_max": null,
-      "uid": "3a824ae5095d2f01",
-      "colour": "#0F8CA8",
+      "uid": "d07e0cdb12fc73f8",
+      "colour": "#7B49D6",
       "detail_checked": 4,
-      "category": "other",
+      "category": "sport-wellbeing",
       "tags": [
         "evening"
       ]
     },
     {
-      "title": "Tai chi avondcursus 2 jeu 29/10 - 19:30 Sport",
+      "title": "Tai chi avondcursus 2",
       "start": "2026-10-29T19:30:00+01:00",
       "end": null,
       "all_day": false,
@@ -2495,10 +2263,10 @@
       "source": "Forest (commune agenda)",
       "price_min": null,
       "price_max": null,
-      "uid": "3dc3638371c87d89",
-      "colour": "#0F8CA8",
+      "uid": "85fc52693d42d19f",
+      "colour": "#7B49D6",
       "detail_checked": 4,
-      "category": "other",
+      "category": "sport-wellbeing",
       "tags": [
         "evening"
       ]
@@ -2529,21 +2297,21 @@
       "detail_checked": 4
     },
     {
-      "title": "Amores Perros",
-      "start": "2026-10-29T20:30:00+01:00",
+      "title": "L'Antidote",
+      "start": "2026-10-29T20:15:00+01:00",
       "end": null,
       "all_day": false,
-      "location": "",
-      "description": "Amores Perros Thu 29 Oct - Wed 11 Nov Studio 5 cinema € 7,00–€ 10,50 dates dates Thu 29 Oct 20:30 tickets Sun 8 Nov 20:00 tickets Wed 11 Nov 16:00 tickets Sun 25 Oct 20:35 Past event",
-      "url": "https://www.flagey.be/en/agenda/amores-perros-ntqw",
+      "location": "Flagey, Flagey",
+      "description": "L'Antidote Thu 29 Oct 20:15 Studio 4 music global jazz To wishlist Sign in to add this to your wishlist Categorie 1 Normal € 24,00 -26 € 21,00 65+ € 21,00 € 21,00–€ 24,00 tickets",
+      "url": "https://www.flagey.be/en/agenda/l-antidote-ln6g",
       "image": null,
       "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "e5a919489ee07c56",
+      "price_min": 21.0,
+      "price_max": 26.0,
+      "uid": "e8ca535e5fa9320c",
       "colour": "#1B6FE0",
       "detail_checked": 4,
-      "category": "other",
+      "category": "music",
       "tags": [
         "evening"
       ]
@@ -2563,7 +2331,7 @@
       "uid": "c697acbe9c517d3b",
       "colour": "#00937A",
       "detail_checked": 4,
-      "category": "other",
+      "category": "music",
       "tags": [
         "evening"
       ]
@@ -2583,7 +2351,7 @@
       "uid": "391e4a3a8289446d",
       "colour": "#E8336D",
       "detail_checked": 4,
-      "category": "other",
+      "category": "music",
       "tags": []
     },
     {
@@ -2601,7 +2369,7 @@
       "uid": "11a74a8097197754",
       "colour": "#1B6FE0",
       "detail_checked": 4,
-      "category": "other",
+      "category": "music",
       "tags": [
         "free"
       ],
@@ -2703,7 +2471,7 @@
       "uid": "531a6e8badb7e419",
       "colour": "#C0392B",
       "detail_checked": 4,
-      "category": "other",
+      "category": "music",
       "tags": [
         "evening"
       ]
@@ -2723,121 +2491,67 @@
       "uid": "bb21736cfca59a4f",
       "colour": "#C0392B",
       "detail_checked": 4,
-      "category": "other",
+      "category": "music",
       "tags": [
         "evening"
       ]
     },
     {
-      "title": "30 Oct 2026 Pourtant j’ai tout bien fait comme il faut ! Véronique Kesmedjian Aubusson (23)",
+      "title": "Camerata Salzburg & Vox Luminis 30 oct 2026 Concerts Classique / Contemporain / Baroque / Carillons Palais des Beaux-Arts de Bruxelles - Boz",
+      "start": "2026-10-30T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "Palais des Beaux-Arts de Bruxelles - Bozar, Rue Ravenstein 23, 1000 Bruxelles, Belgique, Bruxelles",
+      "description": "Camerata Salzburg & Vox Luminis 30 oct 2026 Concerts Classique / Contemporain / Baroque / Carillons Palais des Beaux-Arts de Bruxelles - Bozar Bruxelles - Bruxelles Le surnom «Messe pour les temps troublés», donné à la Missa in angustiis, fait-il référence aux tensions entourant le quotidien de Jo",
+      "url": "https://www.out.be/fr/evenements/221428_camerata-salzburg-vox-luminis.html",
+      "image": "https://www.out.be/assets/img/logo-outbe.svg",
+      "source": "Out.be",
+      "price_min": null,
+      "price_max": null,
+      "uid": "f1937c7a2cdc50e2",
+      "colour": "#8A7500",
+      "detail_checked": 4,
+      "category": "music",
+      "tags": []
+    },
+    {
+      "title": "Oct 30 Crochet from scratch Ixelles , Belgium Cours approfondis et stages Get Tickets",
       "start": "2026-10-30T00:00:00+01:00",
       "end": null,
       "all_day": true,
       "location": "",
-      "description": "30 Oct 2026 Pourtant j’ai tout bien fait comme il faut ! Véronique Kesmedjian Aubusson (23)",
-      "url": "https://conferences-gesticulees.net/events/30-10-2026-veronique-kesmedjian-le-fabuleux-estin-aubusson/",
-      "image": null,
-      "source": "Conférences gesticulées (network catalogue)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "34d365ba71d50cb4",
-      "colour": "#C0392B",
+      "description": "Oct 30 Crochet from scratch Ixelles , Belgium Cours approfondis et stages Get Tickets",
+      "url": "https://www.craft-studios.be/en/event/crochet-from-scratch-343/register",
+      "image": "https://www.craft-studios.be/web/image/website/1/social_default_image",
+      "source": "Craft Studios",
+      "price_min": 167.0,
+      "price_max": 167.0,
+      "uid": "f702442ce6b1f2ee",
+      "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "other",
       "tags": []
     },
     {
-      "title": "30 Oct 2026 Comment je me suis disputée ma vie en patriarchie : Anne D. Tournai (75)",
+      "title": "Oct 30 Winter Sweater Friday Ixelles , Belgium Atelier ponctuel Get Tickets",
       "start": "2026-10-30T00:00:00+01:00",
       "end": null,
       "all_day": true,
       "location": "",
-      "description": "30 Oct 2026 Comment je me suis disputée ma vie en patriarchie : Anne D. Tournai (75)",
-      "url": "https://conferences-gesticulees.net/events/30-10-2026-anne-d-les-filles-du-viaduc/",
-      "image": null,
-      "source": "Conférences gesticulées (network catalogue)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "0c8feea639729451",
-      "colour": "#C0392B",
+      "description": "Oct 30 Winter Sweater Friday Ixelles , Belgium Atelier ponctuel Get Tickets",
+      "url": "https://www.craft-studios.be/en/event/winter-sweater-friday-275/register",
+      "image": "https://www.craft-studios.be/web/image/website/1/social_default_image",
+      "source": "Craft Studios",
+      "price_min": 35.0,
+      "price_max": 45.0,
+      "uid": "44cc50eed1814344",
+      "colour": "#1B6FE0",
       "detail_checked": 4,
-      "category": "other",
+      "category": "workshops-creative",
       "tags": []
     },
     {
-      "title": "30 Oct 2026 Sorties de chantier – Monte ta conf’ Céline Callot Eckbolsheim (67)",
-      "start": "2026-10-30T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "30 Oct 2026 Sorties de chantier – Monte ta conf’ Céline Callot Eckbolsheim (67)",
-      "url": "https://conferences-gesticulees.net/events/30-10-2026-celine-callot-csc-de-la-montagne-vertz/",
-      "image": null,
-      "source": "Conférences gesticulées (network catalogue)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "111184769fc3ef24",
-      "colour": "#C0392B",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "30 Oct 2026 Pourtant j’ai tout bien fait comme il faut ! Véronique Kesmedjian Aubusson (23)",
-      "start": "2026-10-30T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "30 Oct 2026 Pourtant j’ai tout bien fait comme il faut ! Véronique Kesmedjian Aubusson (23)",
-      "url": "https://conferences-gesticulees.net/events/30-10-2026-veronique-kesmedjian-le-fabuleux-estin-aubusson/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "5aedc8fc3a2b937b",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "30 Oct 2026 Comment je me suis disputée ma vie en patriarchie : Anne D. Tournai (75)",
-      "start": "2026-10-30T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "30 Oct 2026 Comment je me suis disputée ma vie en patriarchie : Anne D. Tournai (75)",
-      "url": "https://conferences-gesticulees.net/events/30-10-2026-anne-d-les-filles-du-viaduc/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "45227429528f2994",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "30 Oct 2026 Sorties de chantier – Monte ta conf’ Céline Callot Eckbolsheim (67)",
-      "start": "2026-10-30T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "30 Oct 2026 Sorties de chantier – Monte ta conf’ Céline Callot Eckbolsheim (67)",
-      "url": "https://conferences-gesticulees.net/events/30-10-2026-celine-callot-csc-de-la-montagne-vertz/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "b88f65c9b3ad1dcd",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "Morning Routine avec Rosas ven 30/10 - 09:00 Cours, Stages et Ateliers",
+      "title": "Morning Routine avec Rosas",
       "start": "2026-10-30T09:00:00+01:00",
       "end": null,
       "all_day": false,
@@ -2848,14 +2562,14 @@
       "source": "Forest (commune agenda)",
       "price_min": 25.0,
       "price_max": 25.0,
-      "uid": "52f28fdbc7dde0ec",
-      "colour": "#0F8CA8",
+      "uid": "e091ad44eda4b29b",
+      "colour": "#7B49D6",
       "detail_checked": 4,
-      "category": "other",
+      "category": "workshops-creative",
       "tags": []
     },
     {
-      "title": "Pilates 2 ven 30/10 - 09:30 Sport",
+      "title": "Pilates 2",
       "start": "2026-10-30T09:30:00+01:00",
       "end": null,
       "all_day": false,
@@ -2866,10 +2580,10 @@
       "source": "Forest (commune agenda)",
       "price_min": null,
       "price_max": null,
-      "uid": "8dd7a92290ad86c9",
-      "colour": "#0F8CA8",
+      "uid": "7871b43c554530fc",
+      "colour": "#7B49D6",
       "detail_checked": 4,
-      "category": "other",
+      "category": "sport-wellbeing",
       "tags": []
     },
     {
@@ -2886,11 +2600,11 @@
       "price_max": null,
       "uid": "2ea51c262d5a487f",
       "colour": "#E07A00",
-      "category": "other",
+      "category": "activism-justice",
       "tags": []
     },
     {
-      "title": "Pilates 3 ven 30/10 - 10:30 Sport",
+      "title": "Pilates 3",
       "start": "2026-10-30T10:30:00+01:00",
       "end": null,
       "all_day": false,
@@ -2901,14 +2615,14 @@
       "source": "Forest (commune agenda)",
       "price_min": null,
       "price_max": null,
-      "uid": "55744d3de36ba7b6",
-      "colour": "#0F8CA8",
+      "uid": "04cea8e229e222b6",
+      "colour": "#7B49D6",
       "detail_checked": 4,
-      "category": "other",
+      "category": "sport-wellbeing",
       "tags": []
     },
     {
-      "title": "Yoga ven 30/10 - 11:30 Sport",
+      "title": "Yoga",
       "start": "2026-10-30T11:30:00+01:00",
       "end": null,
       "all_day": false,
@@ -2919,10 +2633,10 @@
       "source": "Forest (commune agenda)",
       "price_min": null,
       "price_max": null,
-      "uid": "50d1e762eb718f0f",
-      "colour": "#0F8CA8",
+      "uid": "66be43d673601d4a",
+      "colour": "#7B49D6",
       "detail_checked": 4,
-      "category": "other",
+      "category": "sport-wellbeing",
       "tags": []
     },
     {
@@ -2938,28 +2652,30 @@
       "price_min": null,
       "price_max": null,
       "uid": "90d1534186e2103e",
-      "colour": "#1B6FE0",
+      "colour": "#8A7500",
       "detail_checked": 4,
-      "category": "other",
+      "category": "family-children",
       "tags": []
     },
     {
-      "title": "Digger",
-      "start": "2026-10-30T15:50:00+01:00",
+      "title": "Roel Dieltiens, Bart Naessens & Ageet Zweistra / When the Cello Began to Sing",
+      "start": "2026-10-30T17:00:00+01:00",
       "end": null,
       "all_day": false,
-      "location": "",
-      "description": "Digger Fri 30 Oct 15:50 Studio 5 cinema € 7,00–€ 10,50 dates dates Fri 30 Oct 15:50 tickets Thu 1 Oct 21:10 Past event Fri 2 Oct 18:50 Past event Sun 4 Oct 20:50 Past event Fri 9 Oct 18:50 Past event Sat 10 Oct 20:50 Past event Thu 15 Oct 21:00 Past event Sun 18 Oct 16:00 Past event Fri 23 Oct 21:15",
-      "url": "https://www.flagey.be/en/agenda/digger-yhg6",
+      "location": "Flagey, Flagey",
+      "description": "Roel Dieltiens, Bart Naessens & Ageet Zweistra / When the Cello Began to Sing Fri 30 Oct 17:00 Studio 1 music hosted event classical contemporary To wishlist Sign in to add this to your wishlist Standard Normal € 21,00 -26 € 12,00 65+ € 19,00 This event is proposed by an external organizer. € 12,00–",
+      "url": "https://www.flagey.be/en/agenda/roel-dieltiens-bart-naessens-and-ageet-zweistra-when-the-cello-began-to-sing-cq21",
       "image": null,
       "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "17f1ef34bce10077",
+      "price_min": 12.0,
+      "price_max": 26.0,
+      "uid": "19d1cf41ce090330",
       "colour": "#1B6FE0",
       "detail_checked": 4,
-      "category": "other",
-      "tags": []
+      "category": "music",
+      "tags": [
+        "evening"
+      ]
     },
     {
       "title": "🌟EuroMeet: Connecting with International Friends in Brussels Every Friday🍻🎉",
@@ -2976,33 +2692,13 @@
       "uid": "ff740f651d6ed29a",
       "colour": "#00937A",
       "detail_checked": 4,
-      "category": "other",
+      "category": "music",
       "tags": [
         "evening"
       ]
     },
     {
-      "title": "Coward",
-      "start": "2026-10-30T18:15:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "Coward Fri 30 Oct - Sun 22 Nov Studio 5 cinema € 7,00–€ 10,50 dates dates Fri 30 Oct 18:15 tickets Sun 1 Nov 18:40 tickets Thu 5 Nov 18:50 tickets Fri 6 Nov 21:05 tickets Thu 12 Nov 16:10 tickets Thu 19 Nov 17:00 tickets Sun 22 Nov 14:15 tickets Wed 21 Oct 19:10 Past event Thu 22 Oct 17:15 Past even",
-      "url": "https://www.flagey.be/en/agenda/coward-xdbs",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "9f2869e5e9080256",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Procession 'Dia de Muertos' ven 30/10 - 18:30 Animations",
+      "title": "Procession 'Dia de Muertos'",
       "start": "2026-10-30T18:30:00+01:00",
       "end": null,
       "all_day": false,
@@ -3013,8 +2709,8 @@
       "source": "Forest (commune agenda)",
       "price_min": null,
       "price_max": null,
-      "uid": "b2dbc9aef76908a0",
-      "colour": "#0F8CA8",
+      "uid": "0e90a97e4423d715",
+      "colour": "#7B49D6",
       "detail_checked": 4,
       "category": "other",
       "tags": [
@@ -3036,7 +2732,7 @@
       "uid": "2be5df61725b4f18",
       "colour": "#00937A",
       "detail_checked": 4,
-      "category": "other",
+      "category": "music",
       "tags": [
         "evening"
       ],
@@ -3057,6 +2753,26 @@
       "uid": "444b1185a0569785",
       "colour": "#7B49D6",
       "category": "other",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
+      "title": "Symfomania!",
+      "start": "2026-10-30T19:30:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "Symfomania! Junior 7-12 Fri 30 Oct - Sun 13 Jun music meet junior classical workshop Show options for your wishlist € 5,00–€ 51,00 dates dates 30 Oct 19:30 Studio 2 To wishlist Sign in to add this to your wishlist Categorie 1 Normal € 41,00 65+ € 36,00 -18 € 5,00 Categorie 2 Normal € 36,00 65+ € 31,",
+      "url": "https://www.flagey.be/en/agenda/symfomania-rd37",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 5.0,
+      "price_max": 51.0,
+      "uid": "7ac6963d305689dc",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "music",
       "tags": [
         "evening"
       ]
@@ -3140,13 +2856,13 @@
       "price_min": null,
       "price_max": null,
       "uid": "780f5e3804515bce",
-      "colour": "#7B49D6",
+      "colour": "#00937A",
       "detail_checked": 4,
-      "category": "other",
+      "category": "festivals-celebrations",
       "tags": []
     },
     {
-      "title": "French Folk Forever MoAW présente : Bòsc + Bourrasque + Lutèce Lockness tickets ven 30/10 - 20:00 Concert",
+      "title": "French Folk Forever MoAW présente : Bòsc + Bourrasque + Lutèce Lockness tickets",
       "start": "2026-10-30T20:00:00+01:00",
       "end": null,
       "all_day": false,
@@ -3157,8 +2873,28 @@
       "source": "Forest (commune agenda)",
       "price_min": null,
       "price_max": null,
-      "uid": "21e3527656a6f7bd",
-      "colour": "#0F8CA8",
+      "uid": "dc3a89c1cae52bd1",
+      "colour": "#7B49D6",
+      "detail_checked": 4,
+      "category": "music",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
+      "title": "Brussels Philharmonic, Victor Julien-Laferrière & Sascha Goetzel",
+      "start": "2026-10-30T20:15:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "Brussels Philharmonic, Victor Julien-Laferrière & Sascha Goetzel Strauss: Der Rosenkavalier Fri 30 Oct 20:15 Studio 4 classical orchestra To wishlist Sign in to add this to your wishlist Categorie 1 Normal € 41,00 65+ € 36,00 -18 € 5,00 Categorie 2 Normal € 36,00 65+ € 31,00 -18 € 5,00 Categorie 3 N",
+      "url": "https://www.flagey.be/en/agenda/brussels-philharmonic-victor-julien-laferriere-and-sascha-goetzel-1xwr",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 18.0,
+      "price_max": 41.0,
+      "uid": "c7e5489fa48bfe84",
+      "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "other",
       "tags": [
@@ -3176,7 +2912,7 @@
       "image": "https://carre.be/wp-content/uploads/2026/08/carrelinks.jpg",
       "source": "Club Carré agenda",
       "uid": "fe31049ba9dd38b4",
-      "colour": "#1B6FE0",
+      "colour": "#8A7500",
       "translated": true,
       "category": "festivals-celebrations",
       "category_llm": true,
@@ -3226,7 +2962,7 @@
       "uid": "c47f477b5e74f040",
       "colour": "#1B6FE0",
       "detail_checked": 4,
-      "category": "other",
+      "category": "music",
       "tags": [
         "free"
       ],
@@ -3273,7 +3009,7 @@
       "uid": "88cb357db0a44dcb",
       "colour": "#7B49D6",
       "detail_checked": 4,
-      "category": "other",
+      "category": "music",
       "tags": []
     },
     {
@@ -3332,7 +3068,7 @@
       "uid": "4b74ca9ab0b0b1a2",
       "colour": "#C0392B",
       "detail_checked": 4,
-      "category": "other",
+      "category": "music",
       "tags": [
         "evening",
         "free"
@@ -3353,80 +3089,28 @@
       "uid": "85d3c72cf025f83d",
       "colour": "#C0392B",
       "detail_checked": 4,
-      "category": "other",
+      "category": "music",
       "tags": []
     },
     {
-      "title": "31 Oct 2026 J’aurais dû m’appeler Aïcha Nadège De vaulx(-en-velin) Amiens (80)",
-      "start": "2026-10-31T00:00:00+01:00",
+      "title": "general sam 31 oct '26 AB Grande salle Les Truttes Stars ‘n' Stripes – The 30th Anniversary Tour Concert Derniers tickets",
+      "start": "2026-10-31T19:00:00+01:00",
       "end": null,
-      "all_day": true,
+      "all_day": false,
       "location": "",
-      "description": "31 Oct 2026 J’aurais dû m’appeler Aïcha Nadège De vaulx(-en-velin) Amiens (80)",
-      "url": "https://conferences-gesticulees.net/events/31-10-2026-nadege-de-vaulx-en-velin-festival-cite-carter-festival-witches-week/",
-      "image": null,
-      "source": "Conférences gesticulées (network catalogue)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "1946ef681a134ef7",
+      "description": "general sam 31 oct '26 AB Grande salle Les Truttes Stars ‘n' Stripes – The 30th Anniversary Tour Concert Derniers tickets",
+      "url": "https://www.abconcerts.be/fr/agenda/les-truttes/a10Qw00000CAlzdIAD",
+      "image": "https://abconcerts.be/assets/website/components/images/og-image.1c2180e4.png",
+      "source": "Ancienne Belgique",
+      "price_min": 6.8,
+      "price_max": 35.0,
+      "uid": "fcf47f72940e0f80",
       "colour": "#C0392B",
       "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "31 Oct 2026 Sorties de chantier – Monte ta conf’ Céline Callot Eckbolsheim (67)",
-      "start": "2026-10-31T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "31 Oct 2026 Sorties de chantier – Monte ta conf’ Céline Callot Eckbolsheim (67)",
-      "url": "https://conferences-gesticulees.net/events/31-10-2026-celine-callot-csc-de-la-montagne-verte/",
-      "image": null,
-      "source": "Conférences gesticulées (network catalogue)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "2baa1b9d68aba9d0",
-      "colour": "#C0392B",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "31 Oct 2026 J’aurais dû m’appeler Aïcha Nadège De vaulx(-en-velin) Amiens (80)",
-      "start": "2026-10-31T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "31 Oct 2026 J’aurais dû m’appeler Aïcha Nadège De vaulx(-en-velin) Amiens (80)",
-      "url": "https://conferences-gesticulees.net/events/31-10-2026-nadege-de-vaulx-en-velin-festival-cite-carter-festival-witches-week/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "79809fe2480ed536",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "31 Oct 2026 Sorties de chantier – Monte ta conf’ Céline Callot Eckbolsheim (67)",
-      "start": "2026-10-31T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "31 Oct 2026 Sorties de chantier – Monte ta conf’ Céline Callot Eckbolsheim (67)",
-      "url": "https://conferences-gesticulees.net/events/31-10-2026-celine-callot-csc-de-la-montagne-verte/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "e93bc7e31c5790bf",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
+      "category": "music",
+      "tags": [
+        "evening"
+      ]
     },
     {
       "title": "Marie Darah 31.10.2026 > 05.12.2026 Sculpture poétique Groupe B — complet Atelier Écriture Lecture",
@@ -3441,9 +3125,9 @@
       "price_min": 10.0,
       "price_max": 150.0,
       "uid": "16a33164bd7333ca",
-      "colour": "#C0392B",
+      "colour": "#E07A00",
       "detail_checked": 4,
-      "category": "other",
+      "category": "workshops-creative",
       "tags": []
     },
     {
@@ -3459,27 +3143,9 @@
       "price_min": 30.0,
       "price_max": 150.0,
       "uid": "f5b6974f28259806",
-      "colour": "#C0392B",
+      "colour": "#E07A00",
       "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "Gala Concert – Brussels Cello Festival 2026 31 oct 2026 Concerts Classique / Contemporain / Baroque / Carillons Flagey Ixelles - Bruxelles",
-      "start": "2026-10-31T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "Flagey, Place Flagey Flageyplein, 1050 Ixelles, Bruxelles, Belgique, Ixelles",
-      "description": "Gala Concert – Brussels Cello Festival 2026 31 oct 2026 Concerts Classique / Contemporain / Baroque / Carillons Flagey Ixelles - Bruxelles De la musique de chambre la plus intime à la sonorité saisissante de douze violoncelles réunis sur scène, ce concert de gala révèle toute l’étendue de l’univer",
-      "url": "https://www.out.be/fr/evenements/218613_gala-concert-brussels-cello-festival-2026.html",
-      "image": "https://www.out.be/assets/img/logo-outbe.svg",
-      "source": "Out.be",
-      "price_min": null,
-      "price_max": null,
-      "uid": "2fee684be4c3e7c4",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
+      "category": "workshops-creative",
       "tags": []
     },
     {
@@ -3488,7 +3154,7 @@
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "dans 3 jours Apprendre Ateliers histoires et résistance - Bruxelles Samedi 31 octobre 2026 à 09:30 Etterbeek - 1040 Organisé par ProtestBase",
+      "description": "dans 2 jours Apprendre Ateliers histoires et résistance - Bruxelles Samedi 31 octobre 2026 à 09:30 Etterbeek - 1040 Organisé par ProtestBase",
       "url": "https://protestbase.be/manifestations/bruxelles",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
@@ -3496,11 +3162,11 @@
       "price_max": null,
       "uid": "3f1aba973f038815",
       "colour": "#E07A00",
-      "category": "other",
+      "category": "workshops-creative",
       "tags": []
     },
     {
-      "title": "Conversatietafel Nederlands sam 31/10 - 09:30 Cours, Stages et Ateliers",
+      "title": "Conversatietafel Nederlands",
       "start": "2026-10-31T09:30:00+01:00",
       "end": null,
       "all_day": false,
@@ -3511,10 +3177,10 @@
       "source": "Forest (commune agenda)",
       "price_min": null,
       "price_max": null,
-      "uid": "2de4aeed04298f64",
-      "colour": "#0F8CA8",
+      "uid": "494fc80d72ac8b29",
+      "colour": "#7B49D6",
       "detail_checked": 4,
-      "category": "other",
+      "category": "workshops-creative",
       "tags": []
     },
     {
@@ -3542,7 +3208,25 @@
       "tags_llm_done": true
     },
     {
-      "title": "Portia Zvavahera: Kuzviramba Mamuri sam 31/10 - 11:00 Exposition",
+      "title": "Recital by Laureates – Buchet International Cello Competition 2026",
+      "start": "2026-10-31T11:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "Recital by Laureates – Buchet International Cello Competition 2026 Sat 31 Oct 11:00 Studio 1 music hosted event classical contemporary To wishlist Sign in to add this to your wishlist Standard Normal € 18,00 -26 € 9,00 65+ € 16,00 This event is proposed by an external organizer. € 9,00–€ 18,00 ticke",
+      "url": "https://www.flagey.be/en/agenda/recital-by-laureates-buchet-international-cello-competition-2026-jswy",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 9.0,
+      "price_max": 26.0,
+      "uid": "e9131ee1ec1b88db",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "music",
+      "tags": []
+    },
+    {
+      "title": "Portia Zvavahera: Kuzviramba Mamuri",
       "start": "2026-10-31T11:00:00+01:00",
       "end": null,
       "all_day": false,
@@ -3553,14 +3237,14 @@
       "source": "Forest (commune agenda)",
       "price_min": null,
       "price_max": null,
-      "uid": "0ed8a4f519e16528",
-      "colour": "#0F8CA8",
+      "uid": "eee92ae396958f9d",
+      "colour": "#7B49D6",
       "detail_checked": 4,
-      "category": "other",
+      "category": "culture-arts",
       "tags": []
     },
     {
-      "title": "Halloween: des frites et des frissons sam 31/10 - 13:30 Exposition",
+      "title": "Halloween: des frites et des frissons",
       "start": "2026-10-31T13:30:00+01:00",
       "end": null,
       "all_day": false,
@@ -3571,11 +3255,49 @@
       "source": "Forest (commune agenda)",
       "price_min": null,
       "price_max": null,
-      "uid": "734104bcb47ab982",
-      "colour": "#0F8CA8",
+      "uid": "5357ed71d5342b0b",
+      "colour": "#7B49D6",
       "detail_checked": 4,
-      "category": "other",
+      "category": "culture-arts",
       "tags": []
+    },
+    {
+      "title": "Ettore Pagano, Marie Hallynck & Han Bin Yoon / Life after the 2026 Queen Elisabeth Competition",
+      "start": "2026-10-31T14:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "Ettore Pagano, Marie Hallynck & Han Bin Yoon / Life after the 2026 Queen Elisabeth Competition Sat 31 Oct 14:00 Studio 4 music hosted event classical contemporary To wishlist Sign in to add this to your wishlist Categorie 1 Normal € 25,00 -26 € 12,00 65+ € 22,00 This event is proposed by an external",
+      "url": "https://www.flagey.be/en/agenda/ettore-pagano-marie-hallynck-and-han-bin-yoon-life-after-the-2026-queen-elisabeth-competition-tf2c",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 22.0,
+      "price_max": 26.0,
+      "uid": "fbb31df5543adc34",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "music",
+      "tags": []
+    },
+    {
+      "title": "Aleksey Shadrin & Camille Thomas / Rachmaninov, Brahms & Glass",
+      "start": "2026-10-31T17:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "Aleksey Shadrin & Camille Thomas / Rachmaninov, Brahms & Glass Sat 31 Oct 17:00 Studio 4 music hosted event classical contemporary To wishlist Sign in to add this to your wishlist Categorie 1 Normal € 25,00 -26 € 12,00 65+ € 22,00 This event is proposed by an external organizer. € 12,00–€ 25,00 tick",
+      "url": "https://www.flagey.be/en/agenda/aleksey-shadrin-and-camille-thomas-rachmaninov-brahms-and-glass-mkfx",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 12.0,
+      "price_max": 26.0,
+      "uid": "9feca238c14319bc",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "music",
+      "tags": [
+        "evening"
+      ]
     },
     {
       "title": "JEUX Hoshi Go Club",
@@ -3588,7 +3310,7 @@
       "image": "https://mazette.brussels/wp-content/uploads/2024/12/hom-terrasse2.webp",
       "source": "Mazette (brewpub, Jeu de Balle)",
       "uid": "07781dbaaf97d476",
-      "colour": "#C0392B",
+      "colour": "#E07A00",
       "category": "other",
       "tags": [
         "evening"
@@ -3609,7 +3331,7 @@
       "price_max": null,
       "uid": "d62bde8e7bbf8a09",
       "colour": "#E07A00",
-      "category": "other",
+      "category": "film-cinema",
       "tags": [
         "evening"
       ]
@@ -3661,6 +3383,26 @@
       "detail_checked": 4
     },
     {
+      "title": "Optimistic Club : Le grand Cirque des Opti'monstres",
+      "start": "2026-10-31T22:00:00+01:00",
+      "end": "2026-11-01T05:00:00+01:00",
+      "all_day": false,
+      "location": "Bollinx, Rue Bollinckx, 300, Forest - Brussel, 1090, Belgium",
+      "description": "Approchez, approchez ! Le Grand Cirque des Opti’Monstres ouvre ses portes pour un soir seulement ! Deux mois ont passé depuis que les Optimistes se sont quitté.e.s sur les rives du Rhône. Chacun.e a regagné sa place dans le monde ordinaire avec les poches pleines de souvenirs. Ces souvenirs ont germé jusqu’à métamorphoser ces splendides créatures: ici des ailes qui poussent d’une crinière soyeuse, là une fourrure fluorescente sous la lumière de la pleine lune, là-bas des tentacules à franges ou une queue de sirène qui a appris à danser sur la terre ferme. La nuit d’Halloween tombe à point pour",
+      "url": "https://brasserie-illegaal.com/event/optimistic-club-le-grand-cirque-des-optimonstres/",
+      "image": null,
+      "source": "Brasserie Illegaal",
+      "price_min": 10.0,
+      "price_max": 15.0,
+      "uid": "be28d003378d6659",
+      "colour": "#E8336D",
+      "detail_checked": 4,
+      "category": "culture-arts",
+      "tags": [
+        "late-night"
+      ]
+    },
+    {
       "title": "Halloween w/ Yade Lauren",
       "start": "2026-10-31T23:00:00+01:00",
       "end": null,
@@ -3671,7 +3413,7 @@
       "image": "https://carre.be/wp-content/uploads/2026/08/carrelinks.jpg",
       "source": "Club Carré agenda",
       "uid": "43c8ce048ef10f2d",
-      "colour": "#1B6FE0",
+      "colour": "#8A7500",
       "translated": true,
       "category": "music",
       "category_llm": true,
@@ -3735,7 +3477,7 @@
       "uid": "af0b552c612df495",
       "colour": "#E8336D",
       "detail_checked": 4,
-      "category": "other",
+      "category": "markets-fairs",
       "tags": [
         "late-night"
       ]
@@ -3755,7 +3497,7 @@
       "uid": "10ff4df0c2eb9eab",
       "colour": "#E8336D",
       "detail_checked": 4,
-      "category": "other",
+      "category": "markets-fairs",
       "tags": [
         "late-night"
       ]
@@ -3795,7 +3537,7 @@
       "uid": "7dfa23107bc45bfe",
       "colour": "#E8336D",
       "detail_checked": 4,
-      "category": "other",
+      "category": "markets-fairs",
       "tags": [
         "late-night"
       ]
@@ -3826,39 +3568,21 @@
       "tags_llm_done": true
     },
     {
-      "title": "01 Nov 2026 Sorties de chantier – Monte ta conf’ Céline Callot Eckbolsheim (67)",
+      "title": "Sufi Morning: Aqnazar Alovatov & Ensemble Navo 01 nov 2026 Concerts Palais des Beaux-Arts de Bruxelles - Bozar Bruxelles - Bruxelles Alors",
       "start": "2026-11-01T00:00:00+01:00",
       "end": null,
       "all_day": true,
-      "location": "",
-      "description": "01 Nov 2026 Sorties de chantier – Monte ta conf’ Céline Callot Eckbolsheim (67)",
-      "url": "https://conferences-gesticulees.net/events/01-11-2026-celine-callot-csc-de-la-montagne-verte/",
-      "image": null,
-      "source": "Conférences gesticulées (network catalogue)",
+      "location": "Palais des Beaux-Arts de Bruxelles - Bozar, Rue Ravenstein 23, 1000 Bruxelles, Belgique, Bruxelles",
+      "description": "Sufi Morning: Aqnazar Alovatov & Ensemble Navo 01 nov 2026 Concerts Palais des Beaux-Arts de Bruxelles - Bozar Bruxelles - Bruxelles Alors que la dernière note de la Sufi Night résonne encore dans les couloirs du Palais des Beaux-Arts, Aqnazar Alovatov en entonne déjà une nouvelle. Avec l'Ensemble",
+      "url": "https://www.out.be/fr/evenements/220193_sufi-morning-aqnazar-alovatov-ensemble-navo.html",
+      "image": "https://www.out.be/assets/img/logo-outbe.svg",
+      "source": "Out.be",
       "price_min": null,
       "price_max": null,
-      "uid": "6992da3f852632c7",
-      "colour": "#C0392B",
+      "uid": "116bf18edb67f75a",
+      "colour": "#8A7500",
       "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "01 Nov 2026 Sorties de chantier – Monte ta conf’ Céline Callot Eckbolsheim (67)",
-      "start": "2026-11-01T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "01 Nov 2026 Sorties de chantier – Monte ta conf’ Céline Callot Eckbolsheim (67)",
-      "url": "https://conferences-gesticulees.net/events/01-11-2026-celine-callot-csc-de-la-montagne-verte/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "df404bb73aa1d2b6",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
+      "category": "music",
       "tags": []
     },
     {
@@ -3995,7 +3719,7 @@
       "uid": "2dc76ae2560c8e19",
       "colour": "#1B6FE0",
       "detail_checked": 4,
-      "category": "other",
+      "category": "markets-fairs",
       "tags": []
     },
     {
@@ -4156,7 +3880,7 @@
       "uid": "16d9a7e52cca2192",
       "colour": "#1B6FE0",
       "detail_checked": 4,
-      "category": "other",
+      "category": "markets-fairs",
       "tags": []
     },
     {
@@ -4178,7 +3902,7 @@
       "tags": []
     },
     {
-      "title": "Family Funday dim 01/11 - 14:00 Visites Guidées",
+      "title": "Family Funday",
       "start": "2026-11-01T14:00:00+01:00",
       "end": null,
       "all_day": false,
@@ -4189,8 +3913,8 @@
       "source": "Forest (commune agenda)",
       "price_min": null,
       "price_max": null,
-      "uid": "af02ef52f07557ce",
-      "colour": "#0F8CA8",
+      "uid": "6350a0cfc9cd930e",
+      "colour": "#7B49D6",
       "detail_checked": 4,
       "category": "other",
       "tags": []
@@ -4254,7 +3978,7 @@
       "uid": "df75574526e79024",
       "colour": "#00937A",
       "detail_checked": 4,
-      "category": "other",
+      "category": "environment",
       "tags": []
     },
     {
@@ -4276,39 +4000,21 @@
       "tags": []
     },
     {
-      "title": "02 Nov 2026 Sortir de l’hétérosexualité, et après ? Maëlle Tempête Lesquin (59)",
+      "title": "Puscifer 02 nov 2026 Concerts Pop / Rock / Pop-Rock Ancienne Belgique (AB) Bruxelles - Bruxelles Puscifer, le collectif éclectique gravita",
       "start": "2026-11-02T00:00:00+01:00",
       "end": null,
       "all_day": true,
-      "location": "",
-      "description": "02 Nov 2026 Sortir de l’hétérosexualité, et après ? Maëlle Tempête Lesquin (59)",
-      "url": "https://conferences-gesticulees.net/events/02-11-2026-maelle-tempete-mucma-espace-culture-universite-de-lille/",
-      "image": null,
-      "source": "Conférences gesticulées (network catalogue)",
+      "location": "Ancienne Belgique, 110 Boulevard Anspachlaan, 1000 Bruxelles, Bruxelles, Belgique, 1000 Bruxelles, Bruxelles, Belgique, Bruxelles",
+      "description": "Puscifer 02 nov 2026 Concerts Pop / Rock / Pop-Rock Ancienne Belgique (AB) Bruxelles - Bruxelles Puscifer, le collectif éclectique gravitant autour de Maynard James Keenan, Mat Mitchell et Carina Round, fera escale à l’Ancienne Belgique le 2 novembre à Bruxelles dans le cadre de sa tournée « Norm",
+      "url": "https://www.out.be/fr/evenements/210372_puscifer.html",
+      "image": "https://www.out.be/assets/img/logo-outbe.svg",
+      "source": "Out.be",
       "price_min": null,
       "price_max": null,
-      "uid": "c14b88d5ce5d6753",
-      "colour": "#C0392B",
+      "uid": "3d227b64abaad7ac",
+      "colour": "#8A7500",
       "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "02 Nov 2026 Sortir de l’hétérosexualité, et après ? Maëlle Tempête Lesquin (59)",
-      "start": "2026-11-02T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "02 Nov 2026 Sortir de l’hétérosexualité, et après ? Maëlle Tempête Lesquin (59)",
-      "url": "https://conferences-gesticulees.net/events/02-11-2026-maelle-tempete-mucma-espace-culture-universite-de-lille/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "237724cdaf05c42b",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
+      "category": "music",
       "tags": []
     },
     {
@@ -4337,7 +4043,7 @@
       "tags_llm_done": true
     },
     {
-      "title": "Stage d’automne : workshop stop-motion lun 02/11 - 09:00 Animations",
+      "title": "Stage d’automne : workshop stop-motion",
       "start": "2026-11-02T09:00:00+01:00",
       "end": null,
       "all_day": false,
@@ -4348,14 +4054,14 @@
       "source": "Forest (commune agenda)",
       "price_min": 50.0,
       "price_max": 50.0,
-      "uid": "5f97dd6d823b59f2",
-      "colour": "#0F8CA8",
+      "uid": "45118da43d7c9ee8",
+      "colour": "#7B49D6",
       "detail_checked": 4,
-      "category": "other",
+      "category": "workshops-creative",
       "tags": []
     },
     {
-      "title": "Sport - en speelweek voor lagere schoolkinderen lun 02/11 - 09:00 Animations",
+      "title": "Sport - en speelweek voor lagere schoolkinderen",
       "start": "2026-11-02T09:00:00+01:00",
       "end": null,
       "all_day": false,
@@ -4366,10 +4072,10 @@
       "source": "Forest (commune agenda)",
       "price_min": null,
       "price_max": null,
-      "uid": "18aaec79bcda6ccd",
-      "colour": "#0F8CA8",
+      "uid": "a4fd35b8a5368448",
+      "colour": "#7B49D6",
       "detail_checked": 4,
-      "category": "other",
+      "category": "family-children",
       "tags": []
     },
     {
@@ -4385,9 +4091,9 @@
       "price_min": 5.0,
       "price_max": 5.0,
       "uid": "9f2803f288604d39",
-      "colour": "#7B49D6",
+      "colour": "#00937A",
       "detail_checked": 4,
-      "category": "other",
+      "category": "culture-arts",
       "tags": [
         "evening"
       ]
@@ -4497,96 +4203,6 @@
       "tags_llm_done": true
     },
     {
-      "title": "03 Nov 2026 Mortelle randonnée pour l’éducation populaire Adélie et Landry Périers-en-Auge (14)",
-      "start": "2026-11-03T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "03 Nov 2026 Mortelle randonnée pour l’éducation populaire Adélie et Landry Périers-en-Auge (14)",
-      "url": "https://conferences-gesticulees.net/events/03-11-2026-adelie-et-landry-village-vacances-dives-mer/",
-      "image": null,
-      "source": "Conférences gesticulées (network catalogue)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "1a48b90c89139912",
-      "colour": "#C0392B",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "03 Nov 2026 Mon corps leur choix Cristelle Jouglet Rennes (35)",
-      "start": "2026-11-03T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "03 Nov 2026 Mon corps leur choix Cristelle Jouglet Rennes (35)",
-      "url": "https://conferences-gesticulees.net/events/03-11-2026-cristelle-jouglet-le-bigrelieu/",
-      "image": null,
-      "source": "Conférences gesticulées (network catalogue)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "e62facb24ffe2098",
-      "colour": "#C0392B",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "03 Nov 2026 Mortelle randonnée pour l’éducation populaire Adélie et Landry Périers-en-Auge (14)",
-      "start": "2026-11-03T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "03 Nov 2026 Mortelle randonnée pour l’éducation populaire Adélie et Landry Périers-en-Auge (14)",
-      "url": "https://conferences-gesticulees.net/events/03-11-2026-adelie-et-landry-village-vacances-dives-mer/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "01a9f730f60d8902",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "03 Nov 2026 Mon corps leur choix Cristelle Jouglet Rennes (35)",
-      "start": "2026-11-03T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "03 Nov 2026 Mon corps leur choix Cristelle Jouglet Rennes (35)",
-      "url": "https://conferences-gesticulees.net/events/03-11-2026-cristelle-jouglet-le-bigrelieu/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "aabbc6d33e6e42d9",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "Je suis un voleur • Loutfi Chama Fabrice Murgia 03 nov 14 nov Théatre / Spectacles Théâtre National Wallonie-Bruxelles Bruxelles - Bruxell",
-      "start": "2026-11-03T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "Théâtre National, Boulevard Emile Jacqmain, 111-115, 1000 Bruxelles, Bruxelles, Belgique, Bruxelles",
-      "description": "Je suis un voleur • Loutfi Chama Fabrice Murgia 03 nov 14 nov Théatre / Spectacles Théâtre National Wallonie-Bruxelles Bruxelles - Bruxelles Fabrice Murgia revient au Théâtre National avec une création alliant souffle épique et réalisme d’un récit profondément incarné.Une existence presque entière",
-      "url": "https://www.out.be/fr/evenements/211990_je-suis-un-voleur-loutfi-chama-fabrice-murgia.html",
-      "image": "https://www.out.be/assets/img/logo-outbe.svg",
-      "source": "Out.be",
-      "price_min": 17.0,
-      "price_max": 17.0,
-      "uid": "293ba9710e987200",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "Jeu de Balle Square Flea Market",
       "start": "2026-11-03T09:00:00+01:00",
       "end": "2026-11-03T14:00:00+01:00",
@@ -4617,7 +4233,7 @@
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "dans 6 jours Soutien Rencontre internationale des travailleuses du care à Bruxelles Mardi 3 novembre 2026 à 09:00 Schaerbeek - 1030 Organisé par ProtestBase",
+      "description": "dans 5 jours Soutien Rencontre internationale des travailleuses du care à Bruxelles Mardi 3 novembre 2026 à 09:00 Schaerbeek - 1030 Organisé par ProtestBase",
       "url": "https://protestbase.be/manifestations/bruxelles",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
@@ -4625,7 +4241,7 @@
       "price_max": null,
       "uid": "2a2a4b3acc7dbe54",
       "colour": "#E07A00",
-      "category": "other",
+      "category": "activism-justice",
       "tags": []
     },
     {
@@ -4664,7 +4280,7 @@
       "price_max": null,
       "uid": "faa86d37ec77985c",
       "colour": "#E07A00",
-      "category": "other",
+      "category": "activism-justice",
       "tags": []
     },
     {
@@ -4690,8 +4306,7 @@
         "evening",
         "outdoor"
       ],
-      "tags_llm_done": true,
-      "stale": true
+      "tags_llm_done": true
     },
     {
       "title": "Conversation Exchange - All languages are welcome",
@@ -4708,7 +4323,7 @@
       "uid": "e80d5c0cc9fdba75",
       "colour": "#E07A00",
       "detail_checked": 4,
-      "category": "other",
+      "category": "community-social",
       "tags": [
         "evening"
       ]
@@ -4727,7 +4342,7 @@
       "price_max": null,
       "uid": "9a81351d5a0ffdd6",
       "colour": "#E07A00",
-      "category": "other",
+      "category": "activism-justice",
       "tags": [
         "evening"
       ]
@@ -4813,19 +4428,19 @@
       "detail_checked": 4
     },
     {
-      "title": "04 Nov 2026 LE POIDS DU SAC À DOS Manon Bé Divajeu (26)",
+      "title": "Nov 04 Drawing Peoples Ixelles , Belgium Cours approfondis et stages Get Tickets",
       "start": "2026-11-04T00:00:00+01:00",
       "end": null,
       "all_day": true,
       "location": "",
-      "description": "04 Nov 2026 LE POIDS DU SAC À DOS Manon Bé Divajeu (26)",
-      "url": "https://conferences-gesticulees.net/events/04-11-2026-manon-be-archijeux/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "d0101e6ab669c106",
-      "colour": "#0F8CA8",
+      "description": "Nov 04 Drawing Peoples Ixelles , Belgium Cours approfondis et stages Get Tickets",
+      "url": "https://www.craft-studios.be/en/event/drawing-peoples-342/register",
+      "image": "https://www.craft-studios.be/web/image/website/1/social_default_image",
+      "source": "Craft Studios",
+      "price_min": 130.0,
+      "price_max": 130.0,
+      "uid": "9e86475703c4d3d5",
+      "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "other",
       "tags": []
@@ -4846,8 +4461,7 @@
       "colour": "#0F8CA8",
       "detail_checked": 4,
       "category": "other",
-      "tags": [],
-      "stale": true
+      "tags": []
     },
     {
       "title": "Jeu de Balle Square Flea Market",
@@ -4897,11 +4511,10 @@
         "evening",
         "outdoor"
       ],
-      "tags_llm_done": true,
-      "stale": true
+      "tags_llm_done": true
     },
     {
-      "title": "Nocturnes gratuites mer 04/11 - 18:00 Visites Guidées",
+      "title": "Nocturnes gratuites",
       "start": "2026-11-04T18:00:00+01:00",
       "end": null,
       "all_day": false,
@@ -4912,8 +4525,8 @@
       "source": "Forest (commune agenda)",
       "price_min": null,
       "price_max": null,
-      "uid": "ba23710e2b9bbfae",
-      "colour": "#0F8CA8",
+      "uid": "5cde8e6889d76f37",
+      "colour": "#7B49D6",
       "detail_checked": 4,
       "category": "other",
       "tags": [
@@ -4952,7 +4565,7 @@
       "price_min": 12.0,
       "price_max": 18.0,
       "uid": "1cd9f2139de8b894",
-      "colour": "#7B49D6",
+      "colour": "#00937A",
       "detail_checked": 4,
       "category": "other",
       "tags": [
@@ -5000,43 +4613,25 @@
       "price_max": null,
       "uid": "6a2203342bdf32fe",
       "colour": "#E07A00",
-      "category": "other",
+      "category": "workshops-creative",
       "tags": []
     },
     {
-      "title": "05.11.26 ― 07.11.26 Ceci n'est pas Noire: act II Alesandra Seutin / KVS Langue: FR EN Surtitrage: NL • FR • EN",
+      "title": "05.11.26 ― 09.01.27 Ceci n'est pas Noire: act II Alesandra Seutin / KVS Langue: FR EN Surtitrage: NL • FR • EN",
       "start": "2026-11-05T00:00:00+01:00",
       "end": null,
       "all_day": true,
       "location": "",
-      "description": "05.11.26 ― 07.11.26 Ceci n'est pas Noire: act II Alesandra Seutin / KVS Langue: FR EN Surtitrage: NL • FR • EN danstheater Infos et billets",
+      "description": "05.11.26 ― 09.01.27 Ceci n'est pas Noire: act II Alesandra Seutin / KVS Langue: FR EN Surtitrage: NL • FR • EN danstheater Infos et billets",
       "url": "https://www.kvs.be/fr/Evenement/ceci-n-est-pas-noire-act-ii-2",
       "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
       "source": "KVS",
       "price_min": null,
       "price_max": null,
-      "uid": "e07bc0bcffde90b0",
+      "uid": "5f334043fe4efcde",
       "colour": "#E07A00",
       "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "05 Nov 2026 Corps en colère Daniela Abadi Saint-Herblain (44)",
-      "start": "2026-11-05T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "05 Nov 2026 Corps en colère Daniela Abadi Saint-Herblain (44)",
-      "url": "https://conferences-gesticulees.net/events/05-11-2026-daniela-abadi-odysee-orvault/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "712a5a09f79a650e",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
+      "category": "culture-arts",
       "tags": []
     },
     {
@@ -5052,12 +4647,30 @@
       "price_min": null,
       "price_max": null,
       "uid": "aefb383d67e3052a",
-      "colour": "#C0392B",
+      "colour": "#E07A00",
       "detail_checked": 4,
       "category": "other",
       "tags": [
         "evening"
       ]
+    },
+    {
+      "title": "Nov 05 LIFE DRAWING NIGHT Ixelles , Belgium Cours régulier Event Get Tickets",
+      "start": "2026-11-05T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "Nov 05 LIFE DRAWING NIGHT Ixelles , Belgium Cours régulier Event Get Tickets",
+      "url": "https://www.craft-studios.be/en/event/life-drawing-night-301/register",
+      "image": "https://www.craft-studios.be/web/image/website/1/social_default_image",
+      "source": "Craft Studios",
+      "price_min": 20.0,
+      "price_max": 25.0,
+      "uid": "fbef21783728a66a",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
     },
     {
       "title": "Jeu de Balle Square Flea Market",
@@ -5120,8 +4733,7 @@
       "category": "other",
       "tags": [
         "evening"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Sud du Liban: comprendre la résistance anti-coloniale",
@@ -5137,7 +4749,7 @@
       "price_max": null,
       "uid": "38fc9ceba297c83b",
       "colour": "#E07A00",
-      "category": "other",
+      "category": "activism-justice",
       "tags": [
         "evening"
       ]
@@ -5164,6 +4776,24 @@
         "dance"
       ],
       "tags_llm_done": true
+    },
+    {
+      "title": "Eclosion Festival",
+      "start": "2026-11-06T00:00:00+01:00",
+      "end": "2026-11-07T00:00:00+01:00",
+      "all_day": true,
+      "location": "",
+      "description": "06 - 07 Nov 2026 Eclosion Festival Read more",
+      "url": "https://usquare.brussels/en/agenda/2026/10/eclosion-festival",
+      "image": null,
+      "source": "U-Square",
+      "price_min": null,
+      "price_max": null,
+      "uid": "63d1ec2f25daccb2",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "festivals-celebrations",
+      "tags": []
     },
     {
       "title": "Parcours d’Artistes d’Ixelles à UR Square",
@@ -5207,96 +4837,6 @@
       "tags_llm_done": true
     },
     {
-      "title": "06 Nov 2026 Comment je me suis disputée ma vie en patriarchie : Anne D. Lille (59)",
-      "start": "2026-11-06T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "06 Nov 2026 Comment je me suis disputée ma vie en patriarchie : Anne D. Lille (59)",
-      "url": "https://conferences-gesticulees.net/events/06-11-2026-anne-d-le-hangart/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "23c1b3b97048a83f",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "06 Nov 2026 QUAND ON VEUT ON PEUT ? – La fille de coiffeuse qui voulait monter sur... Peggy Pexy Green Asse (17)",
-      "start": "2026-11-06T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "06 Nov 2026 QUAND ON VEUT ON PEUT ? – La fille de coiffeuse qui voulait monter sur... Peggy Pexy Green Asse (17)",
-      "url": "https://conferences-gesticulees.net/events/06-11-2026-peggy-pexy-green-bibliojette/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "39ccd629ff76f840",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "06 Nov 2026 Je suis grosse, gourmande, et je t’emm**** Maëlle BULLE Saint-Servais (22)",
-      "start": "2026-11-06T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "06 Nov 2026 Je suis grosse, gourmande, et je t’emm**** Maëlle BULLE Saint-Servais (22)",
-      "url": "https://conferences-gesticulees.net/events/06-11-2026-maelle-bulle-salle-des-fetes-de-callac-22/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "bc43a0ea5125d644",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "06 Nov 2026 Je t’aime camarade, manifeste pour des organisations militantes plus joyeuses Florence Poznanski Nantes (44)",
-      "start": "2026-11-06T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "06 Nov 2026 Je t’aime camarade, manifeste pour des organisations militantes plus joyeuses Florence Poznanski Nantes (44)",
-      "url": "https://conferences-gesticulees.net/events/06-11-2026-florence-poznanski-cafe-des-marchandises/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "90335f62eaad186e",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "06 Nov 2026 Que va-t-on faire du surveillant général? Jean-Marc Thouéry Arabaux (09)",
-      "start": "2026-11-06T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "06 Nov 2026 Que va-t-on faire du surveillant général? Jean-Marc Thouéry Arabaux (09)",
-      "url": "https://conferences-gesticulees.net/events/06-11-2026-jean-marc-thouery-la-mauvaise-foix/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "5dfacec6de85b322",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "Accès aux personnes à mobilité réduite Amazing Asia Bruxelles 06 nov 08 nov Activités diverses Festival Multidisciplinaire Tour & Taxis Brux",
       "start": "2026-11-06T00:00:00+01:00",
       "end": null,
@@ -5309,9 +4849,9 @@
       "price_min": 2.0,
       "price_max": 12.0,
       "uid": "f5597b8a6ca0fc8e",
-      "colour": "#1B6FE0",
+      "colour": "#8A7500",
       "detail_checked": 4,
-      "category": "other",
+      "category": "festivals-celebrations",
       "tags": []
     },
     {
@@ -5327,6 +4867,42 @@
       "price_min": null,
       "price_max": null,
       "uid": "f135928efe6322f8",
+      "colour": "#8A7500",
+      "detail_checked": 4,
+      "category": "culture-arts",
+      "tags": []
+    },
+    {
+      "title": "Nov 06 CHARMS PATE POLYMERE Ixelles , Belgium Atelier ponctuel Get Tickets",
+      "start": "2026-11-06T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "Nov 06 CHARMS PATE POLYMERE Ixelles , Belgium Atelier ponctuel Get Tickets",
+      "url": "https://www.craft-studios.be/en/event/charms-pate-polymere-284/register",
+      "image": "https://www.craft-studios.be/web/image/website/1/social_default_image",
+      "source": "Craft Studios",
+      "price_min": 25.0,
+      "price_max": 25.0,
+      "uid": "12a24ced3850a3a3",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "workshops-creative",
+      "tags": []
+    },
+    {
+      "title": "Nov 06 PAINT YOUR DATE Ixelles , Belgium Cours régulier Event Get Tickets",
+      "start": "2026-11-06T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "Nov 06 PAINT YOUR DATE Ixelles , Belgium Cours régulier Event Get Tickets",
+      "url": "https://www.craft-studios.be/en/event/paint-your-date-295/register",
+      "image": "https://www.craft-studios.be/web/image/website/1/social_default_image",
+      "source": "Craft Studios",
+      "price_min": 25.0,
+      "price_max": 25.0,
+      "uid": "33cefd6daf1e29bc",
       "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "other",
@@ -5390,7 +4966,7 @@
       "uid": "a4c4ce6fc1b6d176",
       "colour": "#00937A",
       "detail_checked": 4,
-      "category": "other",
+      "category": "music",
       "tags": [
         "evening"
       ]
@@ -5410,7 +4986,7 @@
       "uid": "ed2866214c66c3f6",
       "colour": "#00937A",
       "detail_checked": 4,
-      "category": "other",
+      "category": "music",
       "tags": [
         "evening"
       ],
@@ -5507,42 +5083,6 @@
       "tags": []
     },
     {
-      "title": "07 Nov 2026 Mon Histoire Populaire de l’énergie Manuel Moreau Germigny-l'Exempt (18)",
-      "start": "2026-11-07T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "07 Nov 2026 Mon Histoire Populaire de l’énergie Manuel Moreau Germigny-l'Exempt (18)",
-      "url": "https://conferences-gesticulees.net/events/07-11-2026-manuel-moreau-salle-le-luisant-latelier-val-daubois/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "4c37abeac769a25b",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "07 Nov 2026 RSA, guerre aux pauvres et paix sociale Caroline Courty Bordeaux ()",
-      "start": "2026-11-07T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "07 Nov 2026 RSA, guerre aux pauvres et paix sociale Caroline Courty Bordeaux ()",
-      "url": "https://conferences-gesticulees.net/events/07-11-2026-caroline-courty-le-fantoche/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "dd577e04f6dab56e",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "La Convivialité Cie Chantal & Bernadette 03 – 07.11.2026",
       "start": "2026-11-07T00:00:00+01:00",
       "end": null,
@@ -5555,7 +5095,7 @@
       "price_min": 75.0,
       "price_max": 75.0,
       "uid": "0073e116af3f5a8e",
-      "colour": "#00937A",
+      "colour": "#E8336D",
       "detail_checked": 4,
       "category": "other",
       "tags": []
@@ -5573,7 +5113,7 @@
       "price_min": 75.0,
       "price_max": 75.0,
       "uid": "f424fb3cf6b8d62d",
-      "colour": "#00937A",
+      "colour": "#E8336D",
       "detail_checked": 4,
       "category": "other",
       "tags": []
@@ -5591,9 +5131,9 @@
       "price_min": 25.0,
       "price_max": 125.0,
       "uid": "264068336596f632",
-      "colour": "#C0392B",
+      "colour": "#E07A00",
       "detail_checked": 4,
-      "category": "other",
+      "category": "workshops-creative",
       "tags": []
     },
     {
@@ -5730,7 +5270,7 @@
       "price_max": null,
       "uid": "74652ad040caf527",
       "colour": "#E07A00",
-      "category": "other",
+      "category": "activism-justice",
       "tags": []
     },
     {
@@ -5746,9 +5286,29 @@
       "price_min": 7.0,
       "price_max": 18.0,
       "uid": "226887e131280011",
-      "colour": "#7B49D6",
+      "colour": "#00937A",
       "detail_checked": 4,
       "category": "other",
+      "tags": [
+        "late-night"
+      ]
+    },
+    {
+      "title": "303 FUNKSTREET RELEASE PARTY",
+      "start": "2026-11-07T22:00:00+01:00",
+      "end": "2026-11-08T05:00:00+01:00",
+      "all_day": false,
+      "location": "Bollinx, Rue Bollinckx, 300, Forest - Brussel, 1090, Belgium",
+      "description": "⏣▼⏣▼⏣ 303FUNKSTREET ⏣▼⏣▼⏣▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀Get ready for Saturday, November 7, when we’ll light up the night with electrifying 303-waves and tekno beats. Expect an unforgettable lineup of top-tier DJs and producers bringing their best to the dancefloor. Bring your crew, your cash, and your energy, we’ll see you there! 【Ｐｒｅ－Ｓａｌｅ ｏｐｅｎ ｎｏｗ:】【ONLY 400 TICKETS AVAILABLE】 ⏣▼⏣▼⏣ ⏣▼⏣▼⏣▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀303Breakstreet is a non-profit organization offering workshops, vinyl releases, artist contests etc.. All profits go directly to the support of new underground artists. We mainly focus on givi",
+      "url": "https://brasserie-illegaal.com/event/303-funkstreet-release-party/",
+      "image": null,
+      "source": "Brasserie Illegaal",
+      "price_min": 7.0,
+      "price_max": 25.0,
+      "uid": "2c66b568d2418f1b",
+      "colour": "#E8336D",
+      "detail_checked": 4,
+      "category": "workshops-creative",
       "tags": [
         "late-night"
       ]
@@ -6055,7 +5615,7 @@
       "price_max": null,
       "uid": "31d276fcc51f2736",
       "colour": "#E07A00",
-      "category": "other",
+      "category": "activism-justice",
       "tags": []
     },
     {
@@ -6070,30 +5630,12 @@
       "source": "Le Senghor",
       "uid": "214d0d52e724b8da",
       "colour": "#E8336D",
-      "category": "other",
+      "category": "family-children",
       "tags": [
         "evening"
       ],
       "stale": true,
       "detail_checked": 4
-    },
-    {
-      "title": "09 Nov 2026 Je t’aime camarade, manifeste pour des organisations militantes plus joyeuses Florence Poznanski Rezé (44)",
-      "start": "2026-11-09T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "09 Nov 2026 Je t’aime camarade, manifeste pour des organisations militantes plus joyeuses Florence Poznanski Rezé (44)",
-      "url": "https://conferences-gesticulees.net/events/09-11-2026-florence-poznanski-le-wattignies/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "2aeb80f41a21890c",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
     },
     {
       "title": "Bruxelles : nos sols pollués · Médor",
@@ -6113,8 +5655,7 @@
       "category": "other",
       "tags": [
         "evening"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Rencontre avec Adèle Haenel",
@@ -6150,7 +5691,7 @@
       "price_max": null,
       "uid": "f8d4a743d1e424f7",
       "colour": "#7B49D6",
-      "category": "other",
+      "category": "environment",
       "tags": [
         "evening"
       ]
@@ -6170,7 +5711,7 @@
       "uid": "20415bc25ef83662",
       "colour": "#7B49D6",
       "detail_checked": 4,
-      "category": "other",
+      "category": "culture-arts",
       "tags": []
     },
     {
@@ -6196,60 +5737,6 @@
         "live"
       ],
       "tags_llm_done": true
-    },
-    {
-      "title": "10 Nov 2026 QUAND ON VEUT ON PEUT ? – La fille de coiffeuse qui voulait monter sur... Peggy Pexy Green Woluwe-Saint-Lambert - Sint-Lambrecht",
-      "start": "2026-11-10T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "10 Nov 2026 QUAND ON VEUT ON PEUT ? – La fille de coiffeuse qui voulait monter sur... Peggy Pexy Green Woluwe-Saint-Lambert - Sint-Lambrechts-Woluwe (12)",
-      "url": "https://conferences-gesticulees.net/events/10-11-2026-peggy-pexy-green-senghor-centre-culturel/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": 13.0,
-      "price_max": 13.0,
-      "uid": "5a1248e44d17925c",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "10 Nov 2026 « Nous produisons, nous décidons » Anne Cyplewski Aubagne en Provence (13)",
-      "start": "2026-11-10T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "10 Nov 2026 « Nous produisons, nous décidons » Anne Cyplewski Aubagne en Provence (13)",
-      "url": "https://conferences-gesticulees.net/events/10-11-2026-anne-cyplewski-theatre-comoedia/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "58ba5fff4dae2b31",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "10 Nov 2026 Rébellion féministe d’une CPE Emilienne Heddache Angers (49)",
-      "start": "2026-11-10T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "10 Nov 2026 Rébellion féministe d’une CPE Emilienne Heddache Angers (49)",
-      "url": "https://conferences-gesticulees.net/events/10-11-2026-emilienne-heddache-larchipel/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "2587ddcc0cd4bec8",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
     },
     {
       "title": "Nurturing Connections - Babel'zin celebrates 5 years",
@@ -6297,8 +5784,7 @@
         "evening",
         "outdoor"
       ],
-      "tags_llm_done": true,
-      "stale": true
+      "tags_llm_done": true
     },
     {
       "title": "Conversation Exchange - All languages are welcome",
@@ -6315,7 +5801,7 @@
       "uid": "541f3f9dfcee7a13",
       "colour": "#E07A00",
       "detail_checked": 4,
-      "category": "other",
+      "category": "community-social",
       "tags": [
         "evening"
       ]
@@ -6368,19 +5854,19 @@
       "detail_checked": 4
     },
     {
-      "title": "11 Nov 2026 C’est dangereux, my love ! Estelle Thareau Saint-Genis-Laval (69)",
+      "title": "Nov 11 Crochet - Coasters and placemat Ixelles , Belgium Cours régulier Get Tickets",
       "start": "2026-11-11T00:00:00+01:00",
       "end": null,
       "all_day": true,
       "location": "",
-      "description": "11 Nov 2026 C’est dangereux, my love ! Estelle Thareau Saint-Genis-Laval (69)",
-      "url": "https://conferences-gesticulees.net/events/11-11-2026-estelle-thareau-ecole-steiner-st-genis-laval/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "ddb0a686d51224b0",
-      "colour": "#0F8CA8",
+      "description": "Nov 11 Crochet - Coasters and placemat Ixelles , Belgium Cours régulier Get Tickets",
+      "url": "https://www.craft-studios.be/en/event/crochet-coasters-and-placemat-323/register",
+      "image": "https://www.craft-studios.be/web/image/website/1/social_default_image",
+      "source": "Craft Studios",
+      "price_min": 35.0,
+      "price_max": 35.0,
+      "uid": "e4d94b89c7da3340",
+      "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "other",
       "tags": []
@@ -6408,8 +5894,7 @@
         "evening",
         "outdoor"
       ],
-      "tags_llm_done": true,
-      "stale": true
+      "tags_llm_done": true
     },
     {
       "title": "NEXUS - EN QUÊTE D’UNE VOIE OFFSITE Les Brigittines Tickets",
@@ -6424,7 +5909,7 @@
       "price_min": 5.0,
       "price_max": 17.0,
       "uid": "d9b32b7530dd967a",
-      "colour": "#7B49D6",
+      "colour": "#00937A",
       "detail_checked": 4,
       "category": "other",
       "tags": [
@@ -6476,42 +5961,6 @@
       "tags_llm_done": true
     },
     {
-      "title": "12 Nov 2026 Y’a Pas de Nous Sans TOIT Sofi Paris (75)",
-      "start": "2026-11-12T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "12 Nov 2026 Y’a Pas de Nous Sans TOIT Sofi Paris (75)",
-      "url": "https://conferences-gesticulees.net/events/12-11-2026-sofi-le-carre-de-baudouin/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "0cc33ca87b94efaf",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "12 Nov 2026 J’avais pas vu le coup venir Sophie Assante Paris (75)",
-      "start": "2026-11-12T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "12 Nov 2026 J’avais pas vu le coup venir Sophie Assante Paris (75)",
-      "url": "https://conferences-gesticulees.net/events/12-11-2026-sophie-assante-cite-audacieuse/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "ba46ecc98684fab3",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "12.11.2026 > 03.12.2026 Derrière le brouillard Exposition",
       "start": "2026-11-12T00:00:00+01:00",
       "end": null,
@@ -6524,9 +5973,27 @@
       "price_min": null,
       "price_max": null,
       "uid": "9707828357383e50",
-      "colour": "#C0392B",
+      "colour": "#E07A00",
       "detail_checked": 4,
-      "category": "other",
+      "category": "culture-arts",
+      "tags": []
+    },
+    {
+      "title": "Nov 12 STRUCTURAL LAMPS IN PAPER Ixelles , Belgium Atelier ponctuel Get Tickets",
+      "start": "2026-11-12T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "Nov 12 STRUCTURAL LAMPS IN PAPER Ixelles , Belgium Atelier ponctuel Get Tickets",
+      "url": "https://www.craft-studios.be/en/event/structural-lamps-in-paper-351/register",
+      "image": "https://www.craft-studios.be/web/image/website/1/social_default_image",
+      "source": "Craft Studios",
+      "price_min": 57.0,
+      "price_max": 57.0,
+      "uid": "6a4cf438fb839011",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "workshops-creative",
       "tags": []
     },
     {
@@ -6616,7 +6083,7 @@
       "price_min": 5.0,
       "price_max": 17.0,
       "uid": "63a70b37a0c4294f",
-      "colour": "#7B49D6",
+      "colour": "#00937A",
       "detail_checked": 4,
       "category": "other",
       "tags": []
@@ -6672,60 +6139,6 @@
       "tags_llm_done": true
     },
     {
-      "title": "13 Nov 2026 Game over! Travail again… atn Crest (26)",
-      "start": "2026-11-13T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "13 Nov 2026 Game over! Travail again… atn Crest (26)",
-      "url": "https://conferences-gesticulees.net/events/13-11-2026-atn-lhydre/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "a2e413a5a58c5cc5",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "13 Nov 2026 La transition énergétique : mais si je peux être contre tout ! Julien Dupoux Saint-Junien-les-Combes (87)",
-      "start": "2026-11-13T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "13 Nov 2026 La transition énergétique : mais si je peux être contre tout ! Julien Dupoux Saint-Junien-les-Combes (87)",
-      "url": "https://conferences-gesticulees.net/events/13-11-2026-julien-dupoux-la-cuf/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "b59f35a91a27d185",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "13 Nov 2026 Mon corps leur choix Cristelle Jouglet Poitiers (86)",
-      "start": "2026-11-13T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "13 Nov 2026 Mon corps leur choix Cristelle Jouglet Poitiers (86)",
-      "url": "https://conferences-gesticulees.net/events/13-11-2026-cristelle-jouglet-k7/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": 10.0,
-      "price_max": 10.0,
-      "uid": "c54e90b5d923e8d6",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "Œdipus",
       "start": "2026-11-13T13:30:00+01:00",
       "end": null,
@@ -6738,9 +6151,27 @@
       "price_min": 13.0,
       "price_max": 36.0,
       "uid": "9d340a16f893f380",
-      "colour": "#E07A00",
+      "colour": "#1B6FE0",
       "detail_checked": 4,
-      "category": "other",
+      "category": "culture-arts",
+      "tags": []
+    },
+    {
+      "title": "Nov 13 PIMP YOUR TOP - BEADS EMBROIDERY Ixelles , Belgium Atelier ponctuel Get Tickets",
+      "start": "2026-11-13T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "Nov 13 PIMP YOUR TOP - BEADS EMBROIDERY Ixelles , Belgium Atelier ponctuel Get Tickets",
+      "url": "https://www.craft-studios.be/en/event/pimp-your-top-beads-embroidery-273/register",
+      "image": "https://www.craft-studios.be/web/image/website/1/social_default_image",
+      "source": "Craft Studios",
+      "price_min": 25.0,
+      "price_max": 25.0,
+      "uid": "1562e278276fd465",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "workshops-creative",
       "tags": []
     },
     {
@@ -6757,7 +6188,7 @@
       "price_max": null,
       "uid": "5fe8edcd63bf4c0c",
       "colour": "#E07A00",
-      "category": "other",
+      "category": "talks-discussions",
       "tags": []
     },
     {
@@ -6775,7 +6206,7 @@
       "uid": "ae6760eed5b7891a",
       "colour": "#00937A",
       "detail_checked": 4,
-      "category": "other",
+      "category": "music",
       "tags": [
         "evening"
       ]
@@ -6793,7 +6224,7 @@
       "price_min": 5.0,
       "price_max": 24.0,
       "uid": "d7f5973c1fdb28d1",
-      "colour": "#7B49D6",
+      "colour": "#00937A",
       "detail_checked": 4,
       "category": "other",
       "tags": [
@@ -6838,115 +6269,7 @@
       "price_max": null,
       "uid": "feaaf0cf93f2ae5a",
       "colour": "#E07A00",
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "14 Nov 2026 Moi, Français-Juif-Arabe Michel Benizri Albertville (73)",
-      "start": "2026-11-14T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "14 Nov 2026 Moi, Français-Juif-Arabe Michel Benizri Albertville (73)",
-      "url": "https://conferences-gesticulees.net/events/14-11-2026-michel-benizri-salle-de-la-pierre-du-roy/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "0b5a0968ef721059",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "14 Nov 2026 Un rubik’s cube dans les urnes Jérome Noir Annonay (07)",
-      "start": "2026-11-14T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "14 Nov 2026 Un rubik’s cube dans les urnes Jérome Noir Annonay (07)",
-      "url": "https://conferences-gesticulees.net/events/14-11-2026-jerome-noir-espace-cordeliers-annonay/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "9544a1ccb57f74cd",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "14 Nov 2026 Super Papa, tu veux une médaille ? Laurent Chinot Castres (81)",
-      "start": "2026-11-14T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "14 Nov 2026 Super Papa, tu veux une médaille ? Laurent Chinot Castres (81)",
-      "url": "https://conferences-gesticulees.net/events/14-11-2026-laurent-chinot-mediatheque-de-castres/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "6f893529cb3c715b",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "14 Nov 2026 Folie décoloniale Sandrine Gashonga Charleroi (60)",
-      "start": "2026-11-14T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "14 Nov 2026 Folie décoloniale Sandrine Gashonga Charleroi (60)",
-      "url": "https://conferences-gesticulees.net/events/14-11-2026-sandrine-gashonga-auberge-jeunesse-charleroi-youth-hostel/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "db72bdce63b89ca3",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "14 Nov 2026 Tu la vois ma langue ? Carole Gutman Saint-Etienne (42)",
-      "start": "2026-11-14T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "14 Nov 2026 Tu la vois ma langue ? Carole Gutman Saint-Etienne (42)",
-      "url": "https://conferences-gesticulees.net/events/14-11-2026-carole-gutman-cafe-remue-meninges-43-rue-michelet-42000-saint-etienne/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "dc9229dcf106d383",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "14 Nov 2026 Mon corps leur choix Cristelle Jouglet Poitiers (86)",
-      "start": "2026-11-14T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "14 Nov 2026 Mon corps leur choix Cristelle Jouglet Poitiers (86)",
-      "url": "https://conferences-gesticulees.net/events/14-11-2026-cristelle-jouglet-la-locomotive/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "94368e443c2ab821",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
+      "category": "film-cinema",
       "tags": []
     },
     {
@@ -6962,7 +6285,7 @@
       "price_min": 75.0,
       "price_max": 75.0,
       "uid": "db1885e2055bcdd3",
-      "colour": "#00937A",
+      "colour": "#E8336D",
       "detail_checked": 4,
       "category": "other",
       "tags": []
@@ -6980,9 +6303,9 @@
       "price_min": 75.0,
       "price_max": 75.0,
       "uid": "c728c073de8b0cfe",
-      "colour": "#00937A",
+      "colour": "#E8336D",
       "detail_checked": 4,
-      "category": "other",
+      "category": "music",
       "tags": []
     },
     {
@@ -6998,28 +6321,28 @@
       "price_min": 10.0,
       "price_max": 27.0,
       "uid": "17ad5fcf2de4ed65",
-      "colour": "#E07A00",
+      "colour": "#1B6FE0",
       "detail_checked": 4,
-      "category": "other",
+      "category": "culture-arts",
       "tags": [
         "evening"
       ]
     },
     {
-      "title": "Y en a marre! - Formation",
+      "title": "Contre les violences faites aux enfants et aux ados",
       "start": "2026-11-14T14:00:00+01:00",
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "samedi 14 novembre 2026 Apprendre Y en a marre! - Formation Samedi 14 novembre 2026 à 14:00 Ixelles - 1050 Organisé par ProtestBase",
+      "description": "samedi 14 novembre 2026 Manifestation Contre les violences faites aux enfants et aux ados Samedi 14 novembre 2026 à 14:00 Bruxelles - 1000 Organisé par ProtestBase",
       "url": "https://protestbase.be/manifestations/bruxelles",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
       "price_min": null,
       "price_max": null,
-      "uid": "ca1a6e93911447a8",
+      "uid": "06ae24de105189e0",
       "colour": "#E07A00",
-      "category": "other",
+      "category": "activism-justice",
       "tags": []
     },
     {
@@ -7035,11 +6358,31 @@
       "price_min": 5.0,
       "price_max": 17.0,
       "uid": "d3997847a5607157",
-      "colour": "#7B49D6",
+      "colour": "#00937A",
       "detail_checked": 4,
       "category": "other",
       "tags": [
         "evening"
+      ]
+    },
+    {
+      "title": "GOULASH DISKO PARTY",
+      "start": "2026-11-14T22:00:00+01:00",
+      "end": "2026-11-15T05:00:00+01:00",
+      "all_day": false,
+      "location": "Bollinx, Rue Bollinckx, 300, Forest - Brussel, 1090, Belgium",
+      "description": "Goulash Disko BXL is back for its autumn edition, when the days shorten and the air gets cold, we need to get together to create a bubble of warmth and love. Oh we’re so looking forward to reconnecting with our vibrant, loving community ! As always we’ll bring you the best multi-culti psychedelic dance music to trip to and sweat to, outstanding guest artists, beautiful scenography, epic after-party & more to provide you with a mind-bending experience ! We’re back with a 100% local line-up. As you know we’re always very happy to bring you great international artists, but we also feel our role i",
+      "url": "https://brasserie-illegaal.com/event/goulash-disko-party-2/",
+      "image": null,
+      "source": "Brasserie Illegaal",
+      "price_min": 15.0,
+      "price_max": 15.0,
+      "uid": "37561b85387ba122",
+      "colour": "#E8336D",
+      "detail_checked": 4,
+      "category": "music",
+      "tags": [
+        "late-night"
       ]
     },
     {
@@ -7053,7 +6396,7 @@
       "image": "https://carre.be/wp-content/uploads/2026/08/carrelinks.jpg",
       "source": "Club Carré agenda",
       "uid": "87f53b210dd18ca8",
-      "colour": "#1B6FE0",
+      "colour": "#8A7500",
       "translated": true,
       "category": "other",
       "category_llm": true,
@@ -7066,57 +6409,21 @@
       "detail_checked": 4
     },
     {
-      "title": "15 Nov 2026 C’est dangereux, my love ! Estelle Thareau Aurel (26)",
+      "title": "Nov 15 ADVENT CALENDAR Ixelles , Belgium Atelier ponctuel Event Get Tickets",
       "start": "2026-11-15T00:00:00+01:00",
       "end": null,
       "all_day": true,
       "location": "",
-      "description": "15 Nov 2026 C’est dangereux, my love ! Estelle Thareau Aurel (26)",
-      "url": "https://conferences-gesticulees.net/events/15-11-2026-estelle-thareau-aurel-la-coconnerie/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "d2ec31bf441e73db",
-      "colour": "#0F8CA8",
+      "description": "Nov 15 ADVENT CALENDAR Ixelles , Belgium Atelier ponctuel Event Get Tickets",
+      "url": "https://www.craft-studios.be/en/event/advent-calendar-286/register",
+      "image": "https://www.craft-studios.be/web/image/website/1/social_default_image",
+      "source": "Craft Studios",
+      "price_min": 50.0,
+      "price_max": 50.0,
+      "uid": "e28cb2296af24ca3",
+      "colour": "#1B6FE0",
       "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "15 Nov 2026 Y’a Pas de Nous Sans TOIT Sofi Pantin (93)",
-      "start": "2026-11-15T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "15 Nov 2026 Y’a Pas de Nous Sans TOIT Sofi Pantin (93)",
-      "url": "https://conferences-gesticulees.net/events/15-11-2026-sofi-la-guinguette-du-pavillon/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "f34ab578885b22b0",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "15 Nov 2026 L’art de la joie handie Alexandre L. Dijon (21)",
-      "start": "2026-11-15T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "15 Nov 2026 L’art de la joie handie Alexandre L. Dijon (21)",
-      "url": "https://conferences-gesticulees.net/events/15-11-2026-alexandre-l-maision-commune-quartier-libre-des-lentilleres/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "2ec94cdd9d31c1c6",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
+      "category": "workshops-creative",
       "tags": []
     },
     {
@@ -7135,8 +6442,24 @@
       "colour": "#0F8CA8",
       "detail_checked": 4,
       "category": "other",
-      "tags": [],
-      "stale": true
+      "tags": []
+    },
+    {
+      "title": "Piet Wittevrongel brengt het verhaal van de Askoy II",
+      "start": "2026-11-15T15:00:00+01:00",
+      "end": "2026-11-15T17:00:00+01:00",
+      "all_day": false,
+      "location": "Goudblommeke in papier",
+      "description": "Piet Wittevrongel brengt het verhaal van de Askoy II ( boot van Jacques BREL) Zondag 15 november 2026 om 15 u. In het Goudblommeke in Papier, Cellebroerstraat 55, 1000 Brussel Inkom: 10 euro Piet Wittevrongel brengt het verhaal van de Askoy II Piet Wittewrongel, bracht het wrak van de boot van Jacques BREL, uit Nieuw-Zeeland terug naar België. Samen met zijn broer hebben ze de boot prachtig gerestaureerd en een film van 55min gemaakt over heel dit avontuur. Dit verhaal samen met fragmenten van de film. Piet zal ons dit boeiend verhaal vertellen. De Askoy II een stalen zeiljacht van 20 meter, w",
+      "url": "https://goudblommekeinpapier.be/event/piet-wittevrongel-brengt-het-verhaal-van-de-askoy-ii/",
+      "image": "https://goudblommekeinpapier.be/wp-content/uploads/2026/01/BoeketjeGoudgeblomd-e1768249155571.jpeg",
+      "source": "Goudblommeke in Papier",
+      "price_min": 10.0,
+      "price_max": 10.0,
+      "uid": "d971e95562ada723",
+      "colour": "#0F8CA8",
+      "category": "other",
+      "tags": []
     },
     {
       "title": "Fatna, une femme nommée Rachid",
@@ -7171,31 +6494,13 @@
       "source": "Maison des Cultures de Saint-Gilles",
       "uid": "39cae45712f25feb",
       "colour": "#C0392B",
-      "category": "other",
+      "category": "festivals-celebrations",
       "tags": [
         "recurring"
       ],
       "stale": true,
       "time_checked": 3,
       "detail_checked": 4
-    },
-    {
-      "title": "16 Nov 2026 Mon corps leur choix Cristelle Jouglet (49)",
-      "start": "2026-11-16T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "16 Nov 2026 Mon corps leur choix Cristelle Jouglet (49)",
-      "url": "https://conferences-gesticulees.net/events/16-11-2026-cristelle-jouglet-centre-troglodyte-des-perrieres/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": 5.0,
-      "price_max": 5.0,
-      "uid": "bfbaab19b0b6575f",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
     },
     {
       "title": "Jacques Duvall & Benjamin Shoos 16 nov 2026 Concerts Chanson française L'Archiduc Bruxelles - Bruxelles Dix ans après leur dernière collab",
@@ -7210,9 +6515,9 @@
       "price_min": 20.0,
       "price_max": 20.0,
       "uid": "0b807ddb25c96506",
-      "colour": "#1B6FE0",
+      "colour": "#8A7500",
       "detail_checked": 4,
-      "category": "other",
+      "category": "music",
       "tags": []
     },
     {
@@ -7276,7 +6581,7 @@
       "uid": "92506d8caea095eb",
       "colour": "#E07A00",
       "detail_checked": 4,
-      "category": "other",
+      "category": "film-cinema",
       "tags": []
     },
     {
@@ -7322,42 +6627,6 @@
       "tags_llm_done": true
     },
     {
-      "title": "17 Nov 2026 Folie décoloniale Sandrine Gashonga Esch-sur-Alzette (40)",
-      "start": "2026-11-17T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "17 Nov 2026 Folie décoloniale Sandrine Gashonga Esch-sur-Alzette (40)",
-      "url": "https://conferences-gesticulees.net/events/17-11-2026-sandrine-gashonga-musee-national-de-la-resistance-et-des-droits-humains/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "f8c199896d2a6344",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "17 Nov 2026 Au cœur de L’Or Gris Thierry Müller Namur (50)",
-      "start": "2026-11-17T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "17 Nov 2026 Au cœur de L’Or Gris Thierry Müller Namur (50)",
-      "url": "https://conferences-gesticulees.net/events/17-11-2026-thierry-muller-centre-creagora/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "5b4706d89642b3e0",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "Balade sonore \"de Midi à 14h\"",
       "start": "2026-11-17T10:00:00+01:00",
       "end": "2026-11-17T12:00:00+01:00",
@@ -7390,9 +6659,8 @@
       "uid": "6e09da0785c34db4",
       "colour": "#0F8CA8",
       "detail_checked": 4,
-      "category": "other",
-      "tags": [],
-      "stale": true
+      "category": "culture-arts",
+      "tags": []
     },
     {
       "title": "Rally: Against colonialism, fascism, wars and genocide!",
@@ -7417,8 +6685,7 @@
         "evening",
         "outdoor"
       ],
-      "tags_llm_done": true,
-      "stale": true
+      "tags_llm_done": true
     },
     {
       "title": "Conversation Exchange - All languages are welcome",
@@ -7427,7 +6694,7 @@
       "all_day": false,
       "location": "l'amour fou, Chaussée d'Ixelles 185, Ixelles, Ixelles",
       "description": "Would you like to improve your language skills and networking in a casual atmosphere? This event is for you! All languages welcome! Everyone is welcome! The aim is to speak with native/fluent speakers of your target language(s). You'll be around all types of people throughout the whole event. We will be in a private area. A great atmosphere is guaranteed! You'll have to order a drink to attend the event 😀 Don't hesitate to contact us for any further information",
-      "url": "https://www.meetup.com/brusselsinternationalhubevents/events/lprnrtyjcpbwb/",
+      "url": "https://www.meetup.com/brusselsinternationalhubevents/events/317177533/",
       "image": "https://secure.meetupstatic.com/photos/event/2/8/2/e/600_528130286.jpeg",
       "source": "Brussels International Hub Events (Meetup)",
       "price_min": 150.0,
@@ -7435,7 +6702,7 @@
       "uid": "12acff9d98253017",
       "colour": "#E07A00",
       "detail_checked": 4,
-      "category": "other",
+      "category": "community-social",
       "tags": [
         "evening"
       ]
@@ -7541,39 +6808,21 @@
       "tags_llm_done": true
     },
     {
-      "title": "18 Nov 2026 Tuer la honte Samah Le Ban-Saint-Martin (57)",
+      "title": "Nov 18 leather notebook cover Ixelles , Belgium Atelier ponctuel Event Get Tickets",
       "start": "2026-11-18T00:00:00+01:00",
       "end": null,
       "all_day": true,
       "location": "",
-      "description": "18 Nov 2026 Tuer la honte Samah Le Ban-Saint-Martin (57)",
-      "url": "https://conferences-gesticulees.net/events/18-11-2026-samah-irts-de-lorraine-site-de-metz-41-ave-de-la-liberte-57050-le-ban-saint-martin/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "7fdb38ea49361186",
-      "colour": "#0F8CA8",
+      "description": "Nov 18 leather notebook cover Ixelles , Belgium Atelier ponctuel Event Get Tickets",
+      "url": "https://www.craft-studios.be/en/event/leather-notebook-cover-347/register",
+      "image": "https://www.craft-studios.be/web/image/website/1/social_default_image",
+      "source": "Craft Studios",
+      "price_min": 55.0,
+      "price_max": 55.0,
+      "uid": "7a13f20637c4703c",
+      "colour": "#1B6FE0",
       "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "18 Nov 2026 Y’a toujours eu des pauvres, c’est comme ça ! Catherine Marcadier Saint-Laurent-De-Vaux (69)",
-      "start": "2026-11-18T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "18 Nov 2026 Y’a toujours eu des pauvres, c’est comme ça ! Catherine Marcadier Saint-Laurent-De-Vaux (69)",
-      "url": "https://conferences-gesticulees.net/events/18-11-2026-catherine-marcadier-theatre-du-griffon-vaugneray/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": 10.0,
-      "price_max": 10.0,
-      "uid": "4f1ffd10e0264204",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
+      "category": "workshops-creative",
       "tags": []
     },
     {
@@ -7588,7 +6837,7 @@
       "source": "Le Senghor",
       "uid": "7968e5c32bfbfb1a",
       "colour": "#E8336D",
-      "category": "other",
+      "category": "music",
       "tags": [],
       "stale": true,
       "price_min": 1900.0,
@@ -7610,7 +6859,7 @@
       "uid": "c4514de9d562fce7",
       "colour": "#E8336D",
       "detail_checked": 4,
-      "category": "other",
+      "category": "workshops-creative",
       "tags": []
     },
     {
@@ -7640,6 +6889,26 @@
         "registration-required"
       ],
       "tags_llm_done": true
+    },
+    {
+      "title": "Arpentage : Le guide du richard - Voyage au coeur du capitalisme belge",
+      "start": "2026-11-18T17:00:00+00:00",
+      "end": "2026-11-18T18:00:00+00:00",
+      "all_day": false,
+      "location": "1060 Saint-Gilles, Le Steki 4-6 rue Defnet",
+      "description": "plus d'infos sur : https://bxl.demosphere.net/rv/18858",
+      "url": "https://bxl.demosphere.net/rv/18858",
+      "image": null,
+      "source": "Demosphere Bruxelles",
+      "price_min": null,
+      "price_max": null,
+      "uid": "26211f5c080a9868",
+      "colour": "#0F8CA8",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
     },
     {
       "title": "J'peux pas j'ai gravure - engraving workshop at Mazette",
@@ -7693,8 +6962,7 @@
         "evening",
         "outdoor"
       ],
-      "tags_llm_done": true,
-      "stale": true
+      "tags_llm_done": true
     },
     {
       "title": "Chants et huchements",
@@ -7802,96 +7070,6 @@
       "tags_llm_done": true
     },
     {
-      "title": "19 Nov 2026 LE POIDS DU SAC À DOS Manon Bé Montoison (26)",
-      "start": "2026-11-19T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "19 Nov 2026 LE POIDS DU SAC À DOS Manon Bé Montoison (26)",
-      "url": "https://conferences-gesticulees.net/events/19-11-2026-manon-be-la-colline-26800-montoison/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "a82a5cee97b4d8e9",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "19 Nov 2026 Le Mensonge des 3 petits cochons Manuel Moreau Vauréal (95)",
-      "start": "2026-11-19T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "19 Nov 2026 Le Mensonge des 3 petits cochons Manuel Moreau Vauréal (95)",
-      "url": "https://conferences-gesticulees.net/events/19-11-2026-manuel-moreau-mairie-de-vaureal/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "ea69a0c28b3b370f",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "19 Nov 2026 J’aurais dû m’appeler Aïcha Nadège De vaulx(-en-velin) Niort (79)",
-      "start": "2026-11-19T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "19 Nov 2026 J’aurais dû m’appeler Aïcha Nadège De vaulx(-en-velin) Niort (79)",
-      "url": "https://conferences-gesticulees.net/events/19-11-2026-nadege-de-vaulx-en-velin-festival-impulsion-femmes/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "9be3df1eb4e86f2d",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "19 Nov 2026 Au cœur de L’Or Gris Thierry Müller Liège (40)",
-      "start": "2026-11-19T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "19 Nov 2026 Au cœur de L’Or Gris Thierry Müller Liège (40)",
-      "url": "https://conferences-gesticulees.net/events/19-11-2026-thierry-muller-salle-prevers/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": 5.0,
-      "price_max": 5.0,
-      "uid": "021f499d6588722f",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "19 Nov 2026 Monte ton anecdote Les tumultueuses Les tumultueuses Villeurbanne (69)",
-      "start": "2026-11-19T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "19 Nov 2026 Monte ton anecdote Les tumultueuses Les tumultueuses Villeurbanne (69)",
-      "url": "https://conferences-gesticulees.net/events/19-11-2026-les-tumultueuses-les-tumultueuses-mjc-de-villeurbanne/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "370fcc06b3fe2545",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "Ric Diez is Happy/Sad",
       "start": "2026-11-19T00:00:00+01:00",
       "end": null,
@@ -7902,7 +7080,7 @@
       "image": null,
       "source": "English Comedy Brussels",
       "uid": "50564071a7c0c692",
-      "colour": "#E8336D",
+      "colour": "#0F8CA8",
       "translated": true,
       "category": "music",
       "category_llm": true,
@@ -8027,118 +7205,10 @@
       "uid": "5b454339a4648e40",
       "colour": "#E07A00",
       "detail_checked": 4,
-      "category": "other",
+      "category": "music",
       "tags": [
         "free"
       ]
-    },
-    {
-      "title": "20 Nov 2026 Moi, Français-Juif-Arabe Michel Benizri Angers (49)",
-      "start": "2026-11-20T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "20 Nov 2026 Moi, Français-Juif-Arabe Michel Benizri Angers (49)",
-      "url": "https://conferences-gesticulees.net/events/20-11-2026-michel-benizri-centre-culturel-les-hauts-de-st-aubin/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "c0f8a83d303e1da7",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "20 Nov 2026 Y a t’il des juifs arabes dans la salle? Véronique Malka Gennevilliers (92)",
-      "start": "2026-11-20T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "20 Nov 2026 Y a t’il des juifs arabes dans la salle? Véronique Malka Gennevilliers (92)",
-      "url": "https://conferences-gesticulees.net/events/20-11-2026-veronique-malka-espace-saad-abssi-92230-gennevilliers/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "ef1b0f8779f2edc6",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "20 Nov 2026 C’est dangereux, my love ! Estelle Thareau Paris (75)",
-      "start": "2026-11-20T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "20 Nov 2026 C’est dangereux, my love ! Estelle Thareau Paris (75)",
-      "url": "https://conferences-gesticulees.net/events/20-11-2026-estelle-thareau-paris/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "4672ade59f429af3",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "20 Nov 2026 Tuer la honte Samah Lyon (69)",
-      "start": "2026-11-20T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "20 Nov 2026 Tuer la honte Samah Lyon (69)",
-      "url": "https://conferences-gesticulees.net/events/20-11-2026-samah-la-mediane-lyon/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "73fdc0e54451d16b",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "20 Nov 2026 Pourquoi j’ai invité mon agresseur à mon mariage Bettina Zourli Nancy (54)",
-      "start": "2026-11-20T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "20 Nov 2026 Pourquoi j’ai invité mon agresseur à mon mariage Bettina Zourli Nancy (54)",
-      "url": "https://conferences-gesticulees.net/events/20-11-2026-bettina-zourli-universite-de-lorraine/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "e096890da8448b52",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "20 Nov 2026 Mon Histoire Populaire de l’énergie Manuel Moreau Paris (75)",
-      "start": "2026-11-20T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "20 Nov 2026 Mon Histoire Populaire de l’énergie Manuel Moreau Paris (75)",
-      "url": "https://conferences-gesticulees.net/events/20-11-2026-manuel-moreau-enercoop/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "f94b2e17ecb0277e",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
     },
     {
       "title": "From Hospital to Living Space - Reflective Morning on the Healthcare Journey of Brussels Residents",
@@ -8178,7 +7248,7 @@
       "uid": "575392d5cd7dc2c3",
       "colour": "#8A7500",
       "detail_checked": 4,
-      "category": "other",
+      "category": "talks-discussions",
       "tags": []
     },
     {
@@ -8196,7 +7266,7 @@
       "uid": "f7617cf08e84d7a9",
       "colour": "#8A7500",
       "detail_checked": 4,
-      "category": "other",
+      "category": "activism-justice",
       "tags": []
     },
     {
@@ -8287,7 +7357,7 @@
       "uid": "ffb2c693c4488079",
       "colour": "#C0392B",
       "detail_checked": 4,
-      "category": "other",
+      "category": "festivals-celebrations",
       "tags": []
     },
     {
@@ -8357,168 +7427,6 @@
       "tags_llm_done": true
     },
     {
-      "title": "21 Nov 2026 Moi, Français-Juif-Arabe Michel Benizri Clisson (44)",
-      "start": "2026-11-21T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "21 Nov 2026 Moi, Français-Juif-Arabe Michel Benizri Clisson (44)",
-      "url": "https://conferences-gesticulees.net/events/21-11-2026-michel-benizri-chapelle-saint-jacques/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "211b22146a4b7e17",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "21 Nov 2026 Super Papa, tu veux une médaille ? Laurent Chinot Saint-André-des-Eaux (22)",
-      "start": "2026-11-21T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "21 Nov 2026 Super Papa, tu veux une médaille ? Laurent Chinot Saint-André-des-Eaux (22)",
-      "url": "https://conferences-gesticulees.net/events/21-11-2026-laurent-chinot-leprouvette/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "6c3b5b5871da179f",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "21 Nov 2026 Mortelle randonnée pour l’éducation populaire Adélie et Landry Sauzet (30)",
-      "start": "2026-11-21T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "21 Nov 2026 Mortelle randonnée pour l’éducation populaire Adélie et Landry Sauzet (30)",
-      "url": "https://conferences-gesticulees.net/events/21-11-2026-adelie-et-landry-centre-social-temps-libre/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "5b1dd115eeb4e675",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "21 Nov 2026 Comment le Système a tué mes parents Julie Hélin Lille (59)",
-      "start": "2026-11-21T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "21 Nov 2026 Comment le Système a tué mes parents Julie Hélin Lille (59)",
-      "url": "https://conferences-gesticulees.net/events/21-11-2026-julie-helin-kawaa-lille/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "fd32830afea33f8b",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "21 Nov 2026 Je suis grosse, gourmande, et je t’emm**** Maëlle BULLE Saint-Vincent-des-Landes (44)",
-      "start": "2026-11-21T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "21 Nov 2026 Je suis grosse, gourmande, et je t’emm**** Maëlle BULLE Saint-Vincent-des-Landes (44)",
-      "url": "https://conferences-gesticulees.net/events/21-11-2026-maelle-bulle-saint-vincent-des-landes-salle-campagnart/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "5c5a4410179656dd",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "21 Nov 2026 Qu’est ce que je fous là ? Anne-Sophie M. Salins-les-Bains (39)",
-      "start": "2026-11-21T16:45:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "21 Nov 2026 Qu’est ce que je fous là ? Anne-Sophie M. Salins-les-Bains (39)",
-      "url": "https://conferences-gesticulees.net/events/21-11-2026-anne-sophie-m-la-cabiotte/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "726556fc0df7c964",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "21 Nov 2026 Antioxydant Honorine Perino Alixan (26)",
-      "start": "2026-11-21T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "21 Nov 2026 Antioxydant Honorine Perino Alixan (26)",
-      "url": "https://conferences-gesticulees.net/events/21-11-2026-honorine-perino-la-melo/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "0b0a5494645aaa23",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "21 Nov 2026 Rébellion féministe d’une CPE Emilienne Heddache Gramat (46)",
-      "start": "2026-11-21T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "21 Nov 2026 Rébellion féministe d’une CPE Emilienne Heddache Gramat (46)",
-      "url": "https://conferences-gesticulees.net/events/21-11-2026-emilienne-heddache-la-talvere/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": 10.0,
-      "price_max": 10.0,
-      "uid": "25efe4c6ee45c0fc",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "21 Nov 2026 Pourquoi j’ai invité mon agresseur à mon mariage Bettina Zourli Buhl-Lorraine (57)",
-      "start": "2026-11-21T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "21 Nov 2026 Pourquoi j’ai invité mon agresseur à mon mariage Bettina Zourli Buhl-Lorraine (57)",
-      "url": "https://conferences-gesticulees.net/events/21-11-2026-bettina-zourli-centre-socio-culturel-de-sarrebourg/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "2442f3a3b60e783b",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "Rectum Crocodile",
       "start": "2026-11-21T18:00:00+01:00",
       "end": null,
@@ -8531,9 +7439,9 @@
       "price_min": null,
       "price_max": null,
       "uid": "32dc65599501c16c",
-      "colour": "#E07A00",
+      "colour": "#1B6FE0",
       "detail_checked": 4,
-      "category": "other",
+      "category": "culture-arts",
       "tags": [
         "evening"
       ]
@@ -8551,9 +7459,27 @@
       "price_min": 12.0,
       "price_max": 60.0,
       "uid": "8a1e9e563034d1d8",
-      "colour": "#C0392B",
+      "colour": "#E07A00",
       "detail_checked": 4,
-      "category": "other",
+      "category": "workshops-creative",
+      "tags": []
+    },
+    {
+      "title": "21.11.2026 > 22.11.2026 Détruire / construire : collages en chantier Atelier Collage",
+      "start": "2026-11-21T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "21.11.2026 > 22.11.2026 Détruire / construire : collages en chantier Atelier Collage",
+      "url": "https://www.lamaisondulivre.be/atelier/detruire-construire-collages-en-chantier/",
+      "image": "https://www.lamaisondulivre.be/wp-content/uploads/2025/08/calendar_ssfond.png",
+      "source": "La Maison du Livre",
+      "price_min": null,
+      "price_max": null,
+      "uid": "288243a1954ce81d",
+      "colour": "#E07A00",
+      "detail_checked": 4,
+      "category": "workshops-creative",
       "tags": []
     },
     {
@@ -8569,7 +7495,7 @@
       "price_min": null,
       "price_max": null,
       "uid": "416a61fc2f189a22",
-      "colour": "#C0392B",
+      "colour": "#E07A00",
       "detail_checked": 4,
       "category": "other",
       "tags": [
@@ -8589,9 +7515,9 @@
       "price_min": 0.0,
       "price_max": 20.0,
       "uid": "8b043c2ac0ea6212",
-      "colour": "#1B6FE0",
+      "colour": "#8A7500",
       "detail_checked": 4,
-      "category": "other",
+      "category": "culture-arts",
       "tags": []
     },
     {
@@ -8625,7 +7551,7 @@
       "source": "Le Senghor",
       "uid": "795bcc1665652237",
       "colour": "#E8336D",
-      "category": "other",
+      "category": "culture-arts",
       "tags": [],
       "stale": true,
       "price_min": 5.0,
@@ -8689,61 +7615,7 @@
       "uid": "55a6695f0d2dc115",
       "colour": "#00937A",
       "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "22 Nov 2026 Moi, Français-Juif-Arabe Michel Benizri Blain (44)",
-      "start": "2026-11-22T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "22 Nov 2026 Moi, Français-Juif-Arabe Michel Benizri Blain (44)",
-      "url": "https://conferences-gesticulees.net/events/22-11-2026-michel-benizri-salle-henri-dunant/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "4a29fe3bc17aba0e",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "22 Nov 2026 J’aimerais juste aller cueillir des pommes LauD Lille (59)",
-      "start": "2026-11-22T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "22 Nov 2026 J’aimerais juste aller cueillir des pommes LauD Lille (59)",
-      "url": "https://conferences-gesticulees.net/events/22-11-2026-laud-le-hangart/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "0d238793dc2e290d",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "22 Nov 2026 Comment sauver l’amour ? Lucie Juvigny (51)",
-      "start": "2026-11-22T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "22 Nov 2026 Comment sauver l’amour ? Lucie Juvigny (51)",
-      "url": "https://conferences-gesticulees.net/events/22-11-2026-lucie-festival-aperos-contes-de-juvigny/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "68dc6bd5ed47fdcd",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
+      "category": "film-cinema",
       "tags": []
     },
     {
@@ -8804,9 +7676,9 @@
       "price_min": 25.0,
       "price_max": 125.0,
       "uid": "e8f507093021ef5e",
-      "colour": "#C0392B",
+      "colour": "#E07A00",
       "detail_checked": 4,
-      "category": "other",
+      "category": "workshops-creative",
       "tags": []
     },
     {
@@ -8860,78 +7732,6 @@
       "tags_llm_done": true
     },
     {
-      "title": "24 Nov 2026 C’est dangereux, my love ! Estelle Thareau Brignais ()",
-      "start": "2026-11-24T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "24 Nov 2026 C’est dangereux, my love ! Estelle Thareau Brignais ()",
-      "url": "https://conferences-gesticulees.net/events/24-11-2026-estelle-thareau-brignais-auditorium/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "53316f8c3d4074a2",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "24 Nov 2026 Tic-Tac-Tic-Tac…. Pierre Stassart Namur (50)",
-      "start": "2026-11-24T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "24 Nov 2026 Tic-Tac-Tic-Tac…. Pierre Stassart Namur (50)",
-      "url": "https://conferences-gesticulees.net/events/24-11-2026-pierre-stassart-universite-de-namur-faculte-de-philosophie/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "0a724afe3e497c56",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "24 Nov 2026 Pourquoi t’es pas partie ? Maritchu Livron-sur-Drôme (26)",
-      "start": "2026-11-24T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "24 Nov 2026 Pourquoi t’es pas partie ? Maritchu Livron-sur-Drôme (26)",
-      "url": "https://conferences-gesticulees.net/events/24-11-2026-maritchu-mediatheque-de-livron-sur-drome/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "5f9be3761d20c5f8",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "24 Nov 2026 « On est priés d’ouvrir les oreilles » Marie Seux Villerupt (54)",
-      "start": "2026-11-24T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "24 Nov 2026 « On est priés d’ouvrir les oreilles » Marie Seux Villerupt (54)",
-      "url": "https://conferences-gesticulees.net/events/24-11-2026-marie-seux-villerupt/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "838ee4ddbc4b7fd5",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "En correspondance #2 Venedig Meer – Florence Minder 24.11.2026",
       "start": "2026-11-24T00:00:00+01:00",
       "end": null,
@@ -8944,9 +7744,9 @@
       "price_min": 75.0,
       "price_max": 75.0,
       "uid": "ff4b756b50115a46",
-      "colour": "#00937A",
+      "colour": "#E8336D",
       "detail_checked": 4,
-      "category": "other",
+      "category": "culture-arts",
       "tags": []
     },
     {
@@ -8972,8 +7772,7 @@
         "evening",
         "outdoor"
       ],
-      "tags_llm_done": true,
-      "stale": true
+      "tags_llm_done": true
     },
     {
       "title": "Conversation Exchange - All languages are welcome",
@@ -8990,7 +7789,27 @@
       "uid": "5f4409aab3de8b54",
       "colour": "#E07A00",
       "detail_checked": 4,
-      "category": "other",
+      "category": "community-social",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
+      "title": "Stoemp concerten – Alice George Perez + Zachary Bloemperk",
+      "start": "2026-11-24T20:30:00+01:00",
+      "end": "2026-11-24T23:00:00+01:00",
+      "all_day": false,
+      "location": "Het Goudblommeke in Papier",
+      "description": "Alice George Perez + Zachary Bloemperk 📍 Het Goudblommeke in Papier Een muzikaal moment nodig dat zacht onder je huid kruipt en nog lang blijft hangen? Dat wordt ongetwijfeld deze avond met singer-songwriters Alice George Perez en Zachary Bloemperk op 24 november in het iconische café Het Goudblommeke in Papier. 🕐 Di 24 nov 20u30 – Zachary Bloemperk 21u20 – Alice George Perez",
+      "url": "https://goudblommekeinpapier.be/event/stoemp-concerten-alice-george-perez-zachary-bloemperk/",
+      "image": "https://goudblommekeinpapier.be/wp-content/uploads/2026/10/stoempconcerten-kl.jpg",
+      "source": "Goudblommeke in Papier",
+      "price_min": null,
+      "price_max": null,
+      "uid": "91c57158bace649b",
+      "colour": "#0F8CA8",
+      "detail_checked": 4,
+      "category": "music",
       "tags": [
         "evening"
       ]
@@ -9010,64 +7829,10 @@
       "uid": "b5f78dee4f851299",
       "colour": "#E07A00",
       "detail_checked": 4,
-      "category": "other",
+      "category": "environment",
       "tags": [
         "free"
       ]
-    },
-    {
-      "title": "25 Nov 2026 C’est dangereux, my love ! Estelle Thareau Valence (26)",
-      "start": "2026-11-25T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "25 Nov 2026 C’est dangereux, my love ! Estelle Thareau Valence (26)",
-      "url": "https://conferences-gesticulees.net/events/25-11-2026-estelle-thareau-valence/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "e4994955fc5eb4e4",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "25 Nov 2026 Evasion Mineure Marie Mazaudou Dinsac (87)",
-      "start": "2026-11-25T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "25 Nov 2026 Evasion Mineure Marie Mazaudou Dinsac (87)",
-      "url": "https://conferences-gesticulees.net/events/25-11-2026-marie-mazaudou-cinema-du-dorat/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "f7ca08a07360f07f",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "25 Nov 2026 Tuer la honte Samah Caen (14)",
-      "start": "2026-11-25T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "25 Nov 2026 Tuer la honte Samah Caen (14)",
-      "url": "https://conferences-gesticulees.net/events/25-11-2026-samah-auditorium-du-pole-de-formation-et-de-recherche-en-sante-universite-caen-normandie/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "1c97492943509637",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
     },
     {
       "title": "Rally: Back to the Stock Exchange for Palestine!",
@@ -9089,8 +7854,7 @@
       "category_llm": true,
       "tags": [
         "evening"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Par.Sek",
@@ -9130,7 +7894,7 @@
       "price_max": null,
       "uid": "7918c77173d05526",
       "colour": "#1B6FE0",
-      "category": "other",
+      "category": "music",
       "tags": [
         "free"
       ],
@@ -9151,60 +7915,6 @@
       "price_max": null,
       "uid": "8e59360f32b77f56",
       "colour": "#E07A00",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "26 Nov 2026 Evasion Mineure Marie Mazaudou Saint-Junien (87)",
-      "start": "2026-11-26T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "26 Nov 2026 Evasion Mineure Marie Mazaudou Saint-Junien (87)",
-      "url": "https://conferences-gesticulees.net/events/26-11-2026-marie-mazaudou-saint-junien/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "3a1787f007ad347c",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "26 Nov 2026 Métier-passion, désillusions, dominations Marlène Brest (29)",
-      "start": "2026-11-26T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "26 Nov 2026 Métier-passion, désillusions, dominations Marlène Brest (29)",
-      "url": "https://conferences-gesticulees.net/events/26-11-2026-marlene-kafkerin-brest-29/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "b48ed432c70ea25c",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "26 Nov 2026 Comment sauver l’amour ? Lucie Dunkirk (59)",
-      "start": "2026-11-26T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "26 Nov 2026 Comment sauver l’amour ? Lucie Dunkirk (59)",
-      "url": "https://conferences-gesticulees.net/events/26-11-2026-lucie-la-bib/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "f1b5fd8a29f05d23",
-      "colour": "#0F8CA8",
       "detail_checked": 4,
       "category": "other",
       "tags": []
@@ -9244,7 +7954,7 @@
       "price_max": null,
       "uid": "b9e46156576bf7a0",
       "colour": "#1B6FE0",
-      "category": "other",
+      "category": "music",
       "tags": [
         "free"
       ],
@@ -9289,114 +7999,6 @@
       ]
     },
     {
-      "title": "27 Nov 2026 C’est dangereux, my love ! Estelle Thareau Le Pont-de-Claix ()",
-      "start": "2026-11-27T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "27 Nov 2026 C’est dangereux, my love ! Estelle Thareau Le Pont-de-Claix ()",
-      "url": "https://conferences-gesticulees.net/events/27-11-2026-estelle-thareau-champagnier-bibliotheque/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "42916f76d60fb665",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "27 Nov 2026 LE POIDS DU SAC À DOS Manon Bé Romans-sur-Isère (26)",
-      "start": "2026-11-27T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "27 Nov 2026 LE POIDS DU SAC À DOS Manon Bé Romans-sur-Isère (26)",
-      "url": "https://conferences-gesticulees.net/events/27-11-2026-manon-be-cafe-le-passage-26100-romans/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "2510fa783dd542de",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "27 Nov 2026 Evasion Mineure Marie Mazaudou Saint-Sulpice-les-Feuilles (87)",
-      "start": "2026-11-27T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "27 Nov 2026 Evasion Mineure Marie Mazaudou Saint-Sulpice-les-Feuilles (87)",
-      "url": "https://conferences-gesticulees.net/events/27-11-2026-marie-mazaudou-tiers-lieu-la-papote/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "e7cd23f212a351d5",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "27 Nov 2026 Tuer la honte Samah Santes (59)",
-      "start": "2026-11-27T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "27 Nov 2026 Tuer la honte Samah Santes (59)",
-      "url": "https://conferences-gesticulees.net/events/27-11-2026-samah-pole-medical-agora-sante-de-santes/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": 12.0,
-      "price_max": 12.0,
-      "uid": "ad0772979b7c4eef",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "27 Nov 2026 Comment sauver l’amour ? Lucie Grande-Synthe (59)",
-      "start": "2026-11-27T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "27 Nov 2026 Comment sauver l’amour ? Lucie Grande-Synthe (59)",
-      "url": "https://conferences-gesticulees.net/events/27-11-2026-lucie-latrium/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "c56d8438d88fbf73",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "27 Nov 2026 Moi, Français-Juif-Arabe Michel Benizri Marseille (13)",
-      "start": "2026-11-27T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "27 Nov 2026 Moi, Français-Juif-Arabe Michel Benizri Marseille (13)",
-      "url": "https://conferences-gesticulees.net/events/27-11-2026-michel-benizri-centre-social-de-lestaque-et-du-bassin-de-seon/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": 5.0,
-      "price_max": 5.0,
-      "uid": "867541236146419f",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "Training: Development and Interculturality",
       "start": "2026-11-27T18:00:00+00:00",
       "end": "2026-11-27T19:00:00+00:00",
@@ -9418,8 +8020,7 @@
         "evening",
         "registration-required"
       ],
-      "tags_llm_done": true,
-      "stale": true
+      "tags_llm_done": true
     },
     {
       "title": "Darya & Dounya",
@@ -9526,60 +8127,6 @@
       "detail_checked": 4
     },
     {
-      "title": "28 Nov 2026 To Be Or Not To Bipolaire ? ÉLODIE Roissy-en-Brie (77)",
-      "start": "2026-11-28T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "28 Nov 2026 To Be Or Not To Bipolaire ? ÉLODIE Roissy-en-Brie (77)",
-      "url": "https://conferences-gesticulees.net/events/28-11-2026-elodie-mediatheque-demery-raphael-cuevas/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "a1f995d680d1bb64",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "28 Nov 2026 C’est dangereux, my love ! Estelle Thareau La Mure ()",
-      "start": "2026-11-28T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "28 Nov 2026 C’est dangereux, my love ! Estelle Thareau La Mure ()",
-      "url": "https://conferences-gesticulees.net/events/28-11-2026-estelle-thareau-la-mure-cafe-le-beaumonde/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "644e919ed05e48f7",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "28 Nov 2026 Corps en colère Daniela Abadi Argenteuil (95)",
-      "start": "2026-11-28T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "28 Nov 2026 Corps en colère Daniela Abadi Argenteuil (95)",
-      "url": "https://conferences-gesticulees.net/events/28-11-2026-daniela-abadi-mediatheque-elsa-triolet-et-aragon/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "7b1e4460dfe1f635",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "Ayoub Marina Otero & Ibrahim Ibnou Goush 24 – 28.11.2026",
       "start": "2026-11-28T00:00:00+01:00",
       "end": null,
@@ -9592,7 +8139,7 @@
       "price_min": 75.0,
       "price_max": 75.0,
       "uid": "563b42f3a366794d",
-      "colour": "#00937A",
+      "colour": "#E8336D",
       "detail_checked": 4,
       "category": "other",
       "tags": []
@@ -9610,9 +8157,9 @@
       "price_min": null,
       "price_max": null,
       "uid": "cdd3dacac8f48996",
-      "colour": "#E07A00",
+      "colour": "#1B6FE0",
       "detail_checked": 4,
-      "category": "other",
+      "category": "culture-arts",
       "tags": [
         "evening"
       ]
@@ -9642,21 +8189,21 @@
       "tags_llm_done": true
     },
     {
-      "title": "29 Nov 2026 Je suis grosse, gourmande, et je t’emm**** Maëlle BULLE Vitré (35)",
-      "start": "2026-11-29T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "29 Nov 2026 Je suis grosse, gourmande, et je t’emm**** Maëlle BULLE Vitré (35)",
-      "url": "https://conferences-gesticulees.net/events/29-11-2026-maelle-bulle-maison-de-quartier-de-vitre/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "c396d45c0d7313cb",
+      "title": "Theater der Dingen – Théâtre d’Objets",
+      "start": "2026-11-29T15:00:00+01:00",
+      "end": "2026-11-29T17:00:00+01:00",
+      "all_day": false,
+      "location": "Het Goudblommeke in Papier",
+      "description": "Theater der dingen in het GOUDBLOMMEKE Cellebroersstraat 53-55, 1000 Brussel Le théâtre d’Objets à la Fleur au papier doré Rue des Alexiens 53-55 à 1000 Bruxelles Zondag 29 november 2026, 15u Dimanche 29 novembre 2026, 15h FREDERIC LE JUNTER met Deel 1/ PART 1: 20-25 min MASSES (geanimeerde installatie)/ Deel 2/ PART2 : 20-25 min CHANSON IMPOPULAIRES Frédéric Le Junter Frédéric Le Junter is een veelzijdige Franse kunstenaar en muzikant die sinds de jaren 80 een uniek universum heeft opgebouwd op het snijvlak van geluidskunst, performance en beeldende kunst . Sinds de start van zijn carrière he",
+      "url": "https://goudblommekeinpapier.be/event/theater-der-dingen-theatre-dobjets/",
+      "image": "https://goudblommekeinpapier.be/wp-content/uploads/2024/09/machintrucokt2024nl.jpg",
+      "source": "Goudblommeke in Papier",
+      "price_min": 10.0,
+      "price_max": 10.0,
+      "uid": "d6413ab46bd75e29",
       "colour": "#0F8CA8",
       "detail_checked": 4,
-      "category": "other",
+      "category": "culture-arts",
       "tags": []
     },
     {
@@ -9751,24 +8298,6 @@
       "tags_llm_done": true
     },
     {
-      "title": "01 Déc 2026 Je suis grosse, gourmande, et je t’emm**** Maëlle BULLE Rennes (35)",
-      "start": "2026-12-01T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "01 Déc 2026 Je suis grosse, gourmande, et je t’emm**** Maëlle BULLE Rennes (35)",
-      "url": "https://conferences-gesticulees.net/events/01-12-2026-maelle-bulle-la-cohue-maurepas-rennes/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "f6ff7d0970b51d5d",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "Rally: Against Colonialism, Fascism, Wars and Genocides!",
       "start": "2026-12-01T17:00:00+00:00",
       "end": "2026-12-01T18:00:00+00:00",
@@ -9791,8 +8320,7 @@
         "evening",
         "outdoor"
       ],
-      "tags_llm_done": true,
-      "stale": true
+      "tags_llm_done": true
     },
     {
       "title": "Barbara Wiernik & Guests",
@@ -9838,26 +8366,6 @@
       "tags_llm_done": true
     },
     {
-      "title": "02 Déc 2026 Sois passif et tais-toi ! Donatienne Hermesse Brussels (10)",
-      "start": "2026-12-02T19:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "02 Déc 2026 Sois passif et tais-toi ! Donatienne Hermesse Brussels (10)",
-      "url": "https://conferences-gesticulees.net/events/02-12-2026-donatienne-hermesse-bouillon-de-cultures/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": 7.0,
-      "price_max": 10.0,
-      "uid": "55c7df4bd2ef0d20",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "Travailler dans le social-santé à Bruxelles - Bien-être au travail et attractivité des métiers",
       "start": "2026-12-02T09:30:00+01:00",
       "end": "2026-12-02T17:00:00+01:00",
@@ -9872,7 +8380,7 @@
       "uid": "1b7134b3d6b80157",
       "colour": "#8A7500",
       "detail_checked": 4,
-      "category": "other",
+      "category": "sport-wellbeing",
       "tags": []
     },
     {
@@ -9898,62 +8406,7 @@
         "evening",
         "outdoor"
       ],
-      "tags_llm_done": true,
-      "stale": true
-    },
-    {
-      "title": "03 Déc 2026 UNE RÉVOLTE NOMMÉE DÉSIR – journal d’une sortie de route Nicole Brussels (10)",
-      "start": "2026-12-03T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "03 Déc 2026 UNE RÉVOLTE NOMMÉE DÉSIR – journal d’une sortie de route Nicole Brussels (10)",
-      "url": "https://conferences-gesticulees.net/events/03-12-2026-nicole-garcia-lorca/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": 10.0,
-      "price_max": 10.0,
-      "uid": "f6237ff9d0d0f0cc",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "03 Déc 2026 Comment le Système a tué mes parents Julie Hélin Nice (06)",
-      "start": "2026-12-03T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "03 Déc 2026 Comment le Système a tué mes parents Julie Hélin Nice (06)",
-      "url": "https://conferences-gesticulees.net/events/03-12-2026-julie-helin-les-diables-bleus/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "cadd316ea870bc75",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "03 Déc 2026 Corps en colère Daniela Abadi La Peyratte (79)",
-      "start": "2026-12-03T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "03 Déc 2026 Corps en colère Daniela Abadi La Peyratte (79)",
-      "url": "https://conferences-gesticulees.net/events/03-12-2026-daniela-abadi-domaine-de-la-bertrandiere/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "d20620ff26e20e1d",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
+      "tags_llm_done": true
     },
     {
       "title": "The Volunteer Market in Social Action",
@@ -10005,96 +8458,6 @@
         "evening"
       ],
       "tags_llm_done": true
-    },
-    {
-      "title": "04 Déc 2026 Que va-t-on faire du surveillant général? Jean-Marc Thouéry Cahors (46)",
-      "start": "2026-12-04T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "04 Déc 2026 Que va-t-on faire du surveillant général? Jean-Marc Thouéry Cahors (46)",
-      "url": "https://conferences-gesticulees.net/events/04-12-2026-jean-marc-thouery-bourse-du-travail-de-cahors/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "5f1b26d6e491314b",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "04 Déc 2026 Divorcée pour le meilleur et le meilleur Caps Lille (59)",
-      "start": "2026-12-04T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "04 Déc 2026 Divorcée pour le meilleur et le meilleur Caps Lille (59)",
-      "url": "https://conferences-gesticulees.net/events/04-12-2026-caps-le-hangart/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "7e0d0e34320e608f",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "04 Déc 2026 J’aurais dû m’appeler Aïcha Nadège De vaulx(-en-velin) Pantin (93)",
-      "start": "2026-12-04T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "04 Déc 2026 J’aurais dû m’appeler Aïcha Nadège De vaulx(-en-velin) Pantin (93)",
-      "url": "https://conferences-gesticulees.net/events/04-12-2026-nadege-de-vaulx-en-velin-bilbliotheque-andre-malraux-les-lilas-93/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "f447e23823745fea",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "04 Déc 2026 Comment je me suis disputée ma vie en patriarchie : Anne D. Lille (59)",
-      "start": "2026-12-04T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "04 Déc 2026 Comment je me suis disputée ma vie en patriarchie : Anne D. Lille (59)",
-      "url": "https://conferences-gesticulees.net/events/04-12-2026-anne-d-le-kawaa/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "b04b5f252f9b33f0",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "04 Déc 2026 Gestival de la Solid à Clisson Matthieu Clisson (44)",
-      "start": "2026-12-04T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "04 Déc 2026 Gestival de la Solid à Clisson Matthieu Clisson (44)",
-      "url": "https://conferences-gesticulees.net/events/04-12-2026-matthieu-espace-saint-jacques-clisson/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "c0927f4495a82ce0",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
     },
     {
       "title": "DJ CAM – SOUNDS TRIP HOP NIGHT",
@@ -10158,7 +8521,7 @@
       "price_min": 75.0,
       "price_max": 75.0,
       "uid": "e989eb20bdcd6b39",
-      "colour": "#00937A",
+      "colour": "#E8336D",
       "detail_checked": 4,
       "category": "other",
       "tags": []
@@ -10177,7 +8540,7 @@
       "price_max": null,
       "uid": "6f369fc8e3ef75fc",
       "colour": "#7B49D6",
-      "category": "other",
+      "category": "activism-justice",
       "tags": []
     },
     {
@@ -10220,6 +8583,24 @@
       "detail_checked": 4
     },
     {
+      "title": "Dao - Alain Gomis",
+      "start": "2026-12-06T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "Dao - Alain Gomis Sold out Cancelled Postponed Last Tickets Films New release Dao - Alain Gomis Now → 6 Dec.'26 From 8 €",
+      "url": "https://www.bozar.be/en/calendar/dao-alain-gomis",
+      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
+      "source": "BOZAR",
+      "price_min": 8.0,
+      "price_max": 8.0,
+      "uid": "de8c360e604d3342",
+      "colour": "#00937A",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "ERASMUS PLEADS FOR PEACE",
       "start": "2026-12-06T15:00:00+01:00",
       "end": "2026-12-06T17:00:00+01:00",
@@ -10255,7 +8636,7 @@
       "price_min": 10.0,
       "price_max": 75.0,
       "uid": "b0389548433cd077",
-      "colour": "#00937A",
+      "colour": "#E8336D",
       "detail_checked": 4,
       "category": "other",
       "tags": []
@@ -10283,8 +8664,7 @@
         "evening",
         "outdoor"
       ],
-      "tags_llm_done": true,
-      "stale": true
+      "tags_llm_done": true
     },
     {
       "title": "Tender Bodies",
@@ -10372,7 +8752,7 @@
       "price_min": 10.0,
       "price_max": 75.0,
       "uid": "687be8a478c8f743",
-      "colour": "#00937A",
+      "colour": "#E8336D",
       "detail_checked": 4,
       "category": "other",
       "tags": []
@@ -10417,7 +8797,7 @@
       "uid": "02ff50b702de86b0",
       "colour": "#E8336D",
       "detail_checked": 4,
-      "category": "other",
+      "category": "talks-discussions",
       "tags": []
     },
     {
@@ -10443,8 +8823,7 @@
         "evening",
         "outdoor"
       ],
-      "tags_llm_done": true,
-      "stale": true
+      "tags_llm_done": true
     },
     {
       "title": "The Staart",
@@ -10493,24 +8872,6 @@
         "recurring"
       ],
       "tags_llm_done": true
-    },
-    {
-      "title": "10 Déc 2026 Sortir de l’hétérosexualité, et après ? Maëlle Tempête Lille (59)",
-      "start": "2026-12-10T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "10 Déc 2026 Sortir de l’hétérosexualité, et après ? Maëlle Tempête Lille (59)",
-      "url": "https://conferences-gesticulees.net/events/10-12-2026-maelle-tempete-bus-magique/",
-      "image": null,
-      "source": "Conférences gesticulées (per-day pages)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "ba6972f234617860",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
     },
     {
       "title": "Under the Gaze of Camille Claudel's Statues",
@@ -10691,6 +9052,24 @@
       "tags_llm_done": true
     },
     {
+      "title": "Fuse presents: Tommy Four Seven, Kr!z & DHÆÜR",
+      "start": "2026-12-12T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "Sat 12 Dec Fuse presents: Tommy Four Seven, Kr!z & DHÆÜR Tickets Line-up Room 01 Tommy Four Seven Kr!z DHÆÜR Initial Code Buy tickets More info",
+      "url": "https://www.fuse.be/events/fuse-presents-tommy-four-seven-kr-z-dhæür",
+      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788368690",
+      "source": "Fuse",
+      "price_min": 0.0,
+      "price_max": 20.0,
+      "uid": "ae654cc43f9ee590",
+      "colour": "#C0392B",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "CRUSH 09 – 12.12.2026",
       "start": "2026-12-12T00:00:00+01:00",
       "end": null,
@@ -10703,9 +9082,9 @@
       "price_min": 10.0,
       "price_max": 75.0,
       "uid": "cf2f90e5cca1ad4c",
-      "colour": "#00937A",
+      "colour": "#E8336D",
       "detail_checked": 4,
-      "category": "other",
+      "category": "festivals-celebrations",
       "tags": []
     },
     {
@@ -10721,9 +9100,9 @@
       "price_min": 0.0,
       "price_max": 8.0,
       "uid": "ffcaa0df06f17a25",
-      "colour": "#C0392B",
+      "colour": "#E07A00",
       "detail_checked": 4,
-      "category": "other",
+      "category": "workshops-creative",
       "tags": []
     },
     {
@@ -10747,8 +9126,7 @@
       "tags": [
         "registration-required"
       ],
-      "tags_llm_done": true,
-      "stale": true
+      "tags_llm_done": true
     },
     {
       "title": "Quelle place pour le vivant, dans nos regards, dans nos choix?",
@@ -10766,8 +9144,7 @@
       "colour": "#0F8CA8",
       "detail_checked": 4,
       "category": "other",
-      "tags": [],
-      "stale": true
+      "tags": []
     },
     {
       "title": "Ravage tout court (Adeline Rosenstein / Maison Ravage)",
@@ -10837,7 +9214,7 @@
       "price_min": 10.0,
       "price_max": 75.0,
       "uid": "6486bea7bac75261",
-      "colour": "#00937A",
+      "colour": "#E8336D",
       "detail_checked": 4,
       "category": "other",
       "tags": []
@@ -10893,6 +9270,40 @@
       "tags_llm_done": true
     },
     {
+      "title": "\"Rencontre avec les lieux de liens\" (Sophie Thunus et La Bienvenue)",
+      "start": "2026-12-14T09:00:00+01:00",
+      "end": "2026-12-14T12:30:00+01:00",
+      "all_day": false,
+      "location": "Collectif Formation Société, rue de la Victoire, 26, Bruxelles, 1060, Belgique",
+      "description": "Lundi 14 décembre 2026 de 9.15 à 12.00 au CFS (26 rue de la victoire, 1060) – (report de la séance d’octobre 2026) Début 2026, une rencontre avait eu lieu autour du film documentaire La Bienvenue, en collaboration avec Maya Duverdier, Sophie Thunus, et le collectif La Bienvenue. À l’occasion de la sortie d’un nouvel ouvrage en lien avec le documentaire, Sophie Thunus, Alain Loute et Naomi Ohura seront présents pour un temps d’échange consacré à la question des lieux de liens, de l’hospitalité et des formes de sociabilité qui permettent de faire tenir les collectifs et les solidarités. L’ouvrag",
+      "url": "https://cbcs.be/event/rencontre-avec-les-lieux-de-liens-sophie-thunus-et-la-bienvenue/",
+      "image": null,
+      "source": "CBCS (Brussels social sector agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "1942105796b6785a",
+      "colour": "#8A7500",
+      "category": "activism-justice",
+      "tags": []
+    },
+    {
+      "title": "\"Merci de participer (c'est obligatoire) !\" par Sabine Muller",
+      "start": "2026-12-14T14:00:00+01:00",
+      "end": "2026-12-14T15:30:00+01:00",
+      "all_day": false,
+      "location": "Collectif Formation Société, rue de la Victoire, 26, Bruxelles, 1060, Belgique",
+      "description": "Lundi 14 décembre 2026 à 14h00 au CFS (26 rue de la victoire, 1060 Saint-Gilles) Le réseau Nomade et le Collectif Formation Société vous proposent d’assister à une conférence gesticulée de Sabine Muller (romaniste, thérapeute systémique, formatrice, coach et comédienne entre autres qualités…). Elle s’intitule « Merci de Participer (c’est obligatoire) » et aborde la question de l’injonction participative, dans une plongée grinçante dans une société où l’obligation se déguise en choix. La participation est au cœur de nos vies privées comme professionnelles. Elle nous semble aller de soi en démoc",
+      "url": "https://cbcs.be/event/merci-de-participer-cest-obligatoire-par-sabine-muller/",
+      "image": null,
+      "source": "CBCS (Brussels social sector agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "84cbaa55a4bab5ed",
+      "colour": "#8A7500",
+      "category": "talks-discussions",
+      "tags": []
+    },
+    {
       "title": "Hidden Figures",
       "start": "2026-12-15T00:00:00+01:00",
       "end": null,
@@ -10937,8 +9348,7 @@
         "activism",
         "evening"
       ],
-      "tags_llm_done": true,
-      "stale": true
+      "tags_llm_done": true
     },
     {
       "title": "Écoute ta peine",
@@ -11035,8 +9445,7 @@
         "activism",
         "evening"
       ],
-      "tags_llm_done": true,
-      "stale": true
+      "tags_llm_done": true
     },
     {
       "title": "Concert acousmatique",
@@ -11050,7 +9459,7 @@
       "source": "Le Senghor",
       "uid": "35b3d2c1eec97257",
       "colour": "#E8336D",
-      "category": "other",
+      "category": "music",
       "tags": [
         "evening"
       ],
@@ -11075,8 +9484,7 @@
       "colour": "#0F8CA8",
       "detail_checked": 4,
       "category": "other",
-      "tags": [],
-      "stale": true
+      "tags": []
     },
     {
       "title": "Morning Routine with Rosas (EN)",
@@ -11143,7 +9551,7 @@
       "price_min": 75.0,
       "price_max": 75.0,
       "uid": "84750a0ca8a88c10",
-      "colour": "#00937A",
+      "colour": "#E8336D",
       "detail_checked": 4,
       "category": "other",
       "tags": []
@@ -11251,8 +9659,7 @@
         "activism",
         "evening"
       ],
-      "tags_llm_done": true,
-      "stale": true
+      "tags_llm_done": true
     },
     {
       "title": "Gathering: Back to la Bourse for Palestine!",
@@ -11276,8 +9683,7 @@
         "activism",
         "evening"
       ],
-      "tags_llm_done": true,
-      "stale": true
+      "tags_llm_done": true
     },
     {
       "title": "A Fox Under A Pink Moon",
@@ -11322,8 +9728,7 @@
         "activism",
         "evening"
       ],
-      "tags_llm_done": true,
-      "stale": true
+      "tags_llm_done": true
     },
     {
       "title": "Festival Noël au Théâtre 2026 26 – 30.12.2026",
@@ -11338,9 +9743,9 @@
       "price_min": 75.0,
       "price_max": 75.0,
       "uid": "00a007ba3e117e32",
-      "colour": "#00937A",
+      "colour": "#E8336D",
       "detail_checked": 4,
-      "category": "other",
+      "category": "culture-arts",
       "tags": []
     },
     {
@@ -11365,8 +9770,7 @@
         "activism",
         "evening"
       ],
-      "tags_llm_done": true,
-      "stale": true
+      "tags_llm_done": true
     },
     {
       "title": "Fuse presents: NYE w/ Len Faki & Steffi",
@@ -11515,7 +9919,7 @@
       "price_min": 75.0,
       "price_max": 75.0,
       "uid": "a85483ea848b75dd",
-      "colour": "#00937A",
+      "colour": "#E8336D",
       "detail_checked": 4,
       "category": "other",
       "tags": []
@@ -11608,7 +10012,7 @@
       "price_min": 20.0,
       "price_max": 75.0,
       "uid": "5ddc9b9c80108f21",
-      "colour": "#00937A",
+      "colour": "#E8336D",
       "detail_checked": 4,
       "category": "other",
       "tags": []
@@ -11626,7 +10030,7 @@
       "price_min": 20.0,
       "price_max": 75.0,
       "uid": "9c086890be34180e",
-      "colour": "#00937A",
+      "colour": "#E8336D",
       "detail_checked": 4,
       "category": "other",
       "tags": []
@@ -11644,7 +10048,7 @@
       "price_min": 20.0,
       "price_max": 75.0,
       "uid": "73f0114ed6366a68",
-      "colour": "#00937A",
+      "colour": "#E8336D",
       "detail_checked": 4,
       "category": "other",
       "tags": []
@@ -11709,7 +10113,7 @@
       "uid": "0576c83057002736",
       "colour": "#8A7500",
       "detail_checked": 4,
-      "category": "other",
+      "category": "music",
       "tags": [
         "recurring"
       ]
@@ -11727,7 +10131,7 @@
       "price_min": 75.0,
       "price_max": 75.0,
       "uid": "7010224adf8cf12d",
-      "colour": "#00937A",
+      "colour": "#E8336D",
       "detail_checked": 4,
       "category": "other",
       "tags": []
@@ -11747,7 +10151,7 @@
       "uid": "0e91b2f76b87adc6",
       "colour": "#00937A",
       "detail_checked": 4,
-      "category": "other",
+      "category": "culture-arts",
       "tags": []
     },
     {
@@ -11765,7 +10169,7 @@
       "uid": "26f97ebdd93c84b6",
       "colour": "#00937A",
       "detail_checked": 4,
-      "category": "other",
+      "category": "culture-arts",
       "tags": []
     },
     {
@@ -11804,7 +10208,7 @@
       "uid": "be4ff680dc35b0cc",
       "colour": "#8A7500",
       "detail_checked": 4,
-      "category": "other",
+      "category": "culture-arts",
       "tags": [
         "recurring"
       ]
@@ -11843,7 +10247,7 @@
       "uid": "f392d2ff8015e89c",
       "colour": "#8A7500",
       "detail_checked": 4,
-      "category": "other",
+      "category": "culture-arts",
       "tags": [
         "recurring"
       ]
@@ -11879,7 +10283,7 @@
       "price_min": 75.0,
       "price_max": 75.0,
       "uid": "91515e451d17a58b",
-      "colour": "#00937A",
+      "colour": "#E8336D",
       "detail_checked": 4,
       "category": "other",
       "tags": []
@@ -11897,9 +10301,9 @@
       "price_min": 75.0,
       "price_max": 75.0,
       "uid": "371200a4c623fd37",
-      "colour": "#00937A",
+      "colour": "#E8336D",
       "detail_checked": 4,
-      "category": "other",
+      "category": "culture-arts",
       "tags": []
     },
     {
@@ -11917,7 +10321,7 @@
       "uid": "c252e89aae91f6f6",
       "colour": "#8A7500",
       "detail_checked": 4,
-      "category": "other",
+      "category": "culture-arts",
       "tags": [
         "recurring"
       ]
@@ -11953,7 +10357,7 @@
       "price_min": 10.0,
       "price_max": 75.0,
       "uid": "1d949a442ddb8a3d",
-      "colour": "#00937A",
+      "colour": "#E8336D",
       "detail_checked": 4,
       "category": "other",
       "tags": []
@@ -11991,7 +10395,7 @@
       "uid": "4145a5ebed1e8241",
       "colour": "#8A7500",
       "detail_checked": 4,
-      "category": "other",
+      "category": "culture-arts",
       "tags": [
         "recurring"
       ]
@@ -12009,7 +10413,7 @@
       "price_min": 13.0,
       "price_max": 75.0,
       "uid": "3ef594de60e99035",
-      "colour": "#00937A",
+      "colour": "#E8336D",
       "detail_checked": 4,
       "category": "other",
       "tags": []
