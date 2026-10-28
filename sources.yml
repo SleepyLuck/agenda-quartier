@@ -401,12 +401,11 @@ sources:
     method: ics
 
   # --- Added 2026-10-28: user-suggested, verified via probe.py on a GitHub
-  # Actions runner. No ics/wordpress/jsonld signal and 0 dates in the static
-  # HTML (Odoo site, content looks JS-injected) - method: browser renders
-  # with headless Chromium first, same as the festival sites above, so it
-  # can still pick up a recipe/jsonld match for free; only falls through to
-  # the paid llm rung (currently billing-blocked - see Oct 2026 incident) if
-  # the rendered page has no recognisable repeated block either.
+  # Actions runner. The homepage (/en) is JS-rendered with 0 dates in static
+  # HTML (Odoo site) and even came back empty after full Playwright
+  # rendering (inspect_source.py --rendered) - but /en/events is a real,
+  # separate schedule page: method: recipe found 12 dated items in one
+  # repeated block (div.col-xl-12) with no rendering or LLM call needed.
   - name: Craft Studios
-    url: https://www.craft-studios.be/en
-    method: browser
+    url: https://www.craft-studios.be/en/events
+    method: recipe
