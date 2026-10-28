@@ -3,6 +3,32 @@ from unittest.mock import patch
 import extract
 
 
+def test_normalise_event_strips_trailing_date_badge_from_title():
+    raw = {"title": "Tai Chi Ochtendcursus mer 28/10 - 09:00 Sport",
+           "start": "2026-10-28T09:00:00"}
+    ev = extract.normalise_event(raw, "Forest (commune agenda)", "https://example.com", "Europe/Brussels")
+    assert ev["title"] == "Tai Chi Ochtendcursus"
+
+
+def test_normalise_event_leaves_ordinary_titles_untouched():
+    raw = {"title": "Samedi au marché aux puces", "start": "2026-10-28T09:00:00"}
+    ev = extract.normalise_event(raw, "Some Source", "https://example.com", "Europe/Brussels")
+    assert ev["title"] == "Samedi au marché aux puces"
+
+
+def test_deterministic_category_matches_obvious_keywords():
+    assert extract.deterministic_category({"title": "Concert de jazz", "description": ""}) == "music"
+    assert extract.deterministic_category({"title": "Yoga en plein air", "description": ""}) == "sport-wellbeing"
+    assert extract.deterministic_category({"title": "Brocante du quartier", "description": ""}) == "markets-fairs"
+    assert extract.deterministic_category({"title": "Mystery event", "description": ""}) == "other"
+
+
+def test_deterministic_category_does_not_mistake_casual_language_exchange_for_networking():
+    ev = {"title": "Conversation Exchange - All languages are welcome",
+          "description": "Improve your language skills and networking in a casual atmosphere"}
+    assert extract.deterministic_category(ev) == "community-social"
+
+
 def test_fill_price_from_text_sets_price_from_inline_mention():
     events = [
         {"title": "Atelier", "description": "Tarif: 12€ par personne", "price_min": None},

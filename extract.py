@@ -137,9 +137,21 @@ def fetch_rendered(url: str, respect_robots: bool = True, wait_ms: int = 3000) -
 
 # ---------------------------------------------------------------- helpers
 
+# Some commune-agenda "recipe" listings (confirmed on Forest's: "Tai Chi
+# Ochtendcursus mer 28/10 - 09:00 Sport") concatenate the weekday/date/time
+# and a trailing category label straight onto the event's own title with no
+# separator in the markup - discovery.py's generic repeated-block title
+# picker has no DOM boundary to split on there, so trim the known suffix
+# shape back off the title here instead of guessing at the source's markup.
+_TITLE_DATE_BADGE_RE = re.compile(
+    r"\s+\b(?:lun|mar|mer|jeu|ven|sam|dim)\b\.?\s*\d{1,2}/\d{1,2}\s*-\s*\d{1,2}:\d{2}\s*.*$",
+    re.I)
+
+
 def normalise_event(raw: dict, source: str, page_url: str, tz: str) -> dict | None:
     """Coerce a loose dict into the canonical event shape. None = unusable."""
     title = clean_text(raw.get("title") or raw.get("name") or "")
+    title = _TITLE_DATE_BADGE_RE.sub("", title).strip()
     start = to_iso(raw.get("start") or raw.get("startDate") or raw.get("start_date"), tz)
     if not title or not start:
         return None
@@ -590,6 +602,71 @@ CATEGORIES = [
 ]
 CATEGORY_IDS = {c["id"] for c in CATEGORIES}
 
+# Free (no API) fallback for when the LLM call is unavailable or fails - keeps
+# events out of the catch-all "other" bucket while billing is down, confirmed
+# in production (2026-10) to have left 71% of events stuck there for weeks.
+# Deliberately never cached as a real classification (see classify_categories'
+# category_llm flag) so a correctly-funded run always supersedes this guess.
+# Ordered roughly narrowest-first so a title matching both a specific and a
+# broad category (e.g. "concert" and "exposition" together) still resolves
+# by keyword-hit count, not list position - see deterministic_category().
+DETERMINISTIC_CATEGORY_WORDS: dict[str, list[str]] = {
+    "music": ["concert", "musique", "muziek", "music", "dj set", "jam session",
+              "chorale", "choeur", "choir", "koor", "live music", "open mic musical"],
+    "film-cinema": ["cinema", "cinéma", "cine-club", "ciné-club", "documentaire",
+                    "documentary", "projection film", "screening", "vertoning", "kortfilm",
+                    "short film", "film festival"],
+    "sport-wellbeing": ["yoga", "pilates", "tai chi", "taichi", "meditation", "méditation",
+                        "fitness", "course a pied", "running", "escalade", "climbing",
+                        "bien-etre", "bien-être", "wellness", "randonnee", "randonnée"],
+    "workshops-creative": ["atelier", "workshop", "stage de", "cours de", "ceramique",
+                           "céramique", "couture", "sewing", "naaien", "dessin", "tekenen",
+                           "gravure", "artisanat", "ambacht", "peinture", "schilderen"],
+    "food-drink": ["degustation", "dégustation", "brunch", "apero", "apéro", "diner-spectacle",
+                   "repas convivial", "cuisine", "cooking class", "tasting", "brasserie",
+                   "food truck", "boire et manger"],
+    "family-children": ["enfants", "kinderen", "kids", "famille", "family friendly",
+                        "jeune public", "conte pour enfants", "storytelling", "atelier enfants"],
+    "markets-fairs": ["brocante", "marche aux puces", "marché aux puces", "vlooienmarkt",
+                      "rommelmarkt", "braderie", "vide-grenier", "flea market"],
+    "festivals-celebrations": ["festival", "fete de quartier", "fête de quartier",
+                              "buurtfeest", "carnaval", "kermesse"],
+    "activism-justice": ["manifestation", "rally", "protest", "betoging", "greve", "grève",
+                         "strike", "militant", "activisme", "activism", "droits humains",
+                         "human rights", "solidarite", "solidarité"],
+    "environment": ["repair cafe", "repair café", "jardin partage", "jardin partagé",
+                    "urban gardening", "compost", "clean-up", "nettoyage de quartier",
+                    "ecologie", "écologie", "sustainability", "durable"],
+    "civic-politics": ["conseil communal", "conseil de quartier", "consultation publique",
+                       "assemblee citoyenne", "assemblée citoyenne", "reunion de quartier",
+                       "réunion de quartier"],
+    "professional-networking": ["professional networking", "business networking", "entrepreneur",
+                                "startup", "reseau professionnel", "réseau professionnel",
+                                "meetup professionnel"],
+    "talks-discussions": ["conference", "conférence", "lezing", "table ronde", "debat",
+                          "débat", "seminaire", "séminaire", "colloque", "symposium",
+                          "panel discussion"],
+    "community-social": ["rencontre conviviale", "meetup", "potluck", "social club",
+                         "comite de quartier", "comité de quartier", "language exchange",
+                         "conversation exchange", "taalcafe", "taalcafé"],
+    "culture-arts": ["theatre", "théâtre", "theater", "danse", "dance", "spectacle",
+                     "exposition", "tentoonstelling", "exhibition", "vernissage",
+                     "galerie", "gallery", "cirque", "circus", "choregraphie", "chorégraphie"],
+}
+_FOLDED_CATEGORY_WORDS = {cat: [discovery.fold(w) for w in words]
+                           for cat, words in DETERMINISTIC_CATEGORY_WORDS.items()}
+
+
+def deterministic_category(e: dict) -> str:
+    text = discovery.fold(f"{e.get('title', '')} {e.get('description', '')}")
+    best_id, best_score = "other", 0
+    for cat_id, words in _FOLDED_CATEGORY_WORDS.items():
+        score = sum(1 for w in words if w in text)
+        if score > best_score:
+            best_id, best_score = cat_id, score
+    return best_id
+
+
 CATEGORY_PROMPT = """Classify each neighbourhood event below into exactly one category id
 from this list:
 
@@ -623,7 +700,7 @@ def classify_categories(events: list[dict], model: str, cache: dict[str, str]) -
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
         for e in todo:
-            e["category"] = "other"  # not cached - retried once a key exists
+            e["category"] = deterministic_category(e)  # not cached - retried once a key exists
         return
 
     cat_list = "\n".join(f'- {c["id"]}: {c["label"]} — {c["hint"]}' for c in CATEGORIES)
@@ -656,8 +733,9 @@ def classify_categories(events: list[dict], model: str, cache: dict[str, str]) -
                 e["category"] = cat
                 e["category_llm"] = True
             else:
-                e["category"] = "other"  # display fallback only - uid missing/invalid,
-                # not cached, so a failed or partial batch retries this event next run
+                e["category"] = deterministic_category(e)  # display fallback only -
+                # uid missing/invalid, not cached, so a failed or partial batch
+                # retries this event next run
 
 
 # -------------------------------------------------------------------- tags

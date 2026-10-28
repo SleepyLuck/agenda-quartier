@@ -414,6 +414,22 @@
     </div>
   </div>
 
+  <div class="qfblock">
+    <div class="lbl">Time of day</div>
+    <div class="side-only">
+      <button class="qfitem" data-timeband="morning" aria-pressed="false"><span class="chip" style="background:var(--chip-weekend-bg);color:var(--chip-weekend-ink)">🌅</span>Morning</button>
+      <button class="qfitem" data-timeband="afternoon" aria-pressed="false"><span class="chip" style="background:var(--chip-weekend-bg);color:var(--chip-weekend-ink)">☀️</span>Afternoon</button>
+      <button class="qfitem" data-timeband="evening" aria-pressed="false"><span class="chip" style="background:var(--accent-soft);color:var(--accent-text)">🌆</span>Evening</button>
+      <button class="qfitem" data-timeband="late-night" aria-pressed="false"><span class="chip" style="background:var(--overlay-bg);color:var(--overlay-ink)">🌙</span>Late night</button>
+    </div>
+    <div class="qf-mobilerow" role="group" aria-label="Time of day">
+      <button class="pill-btn" data-timeband="morning" aria-pressed="false">🌅 Morning</button>
+      <button class="pill-btn" data-timeband="afternoon" aria-pressed="false">☀️ Afternoon</button>
+      <button class="pill-btn" data-timeband="evening" aria-pressed="false">🌆 Evening</button>
+      <button class="pill-btn" data-timeband="late-night" aria-pressed="false">🌙 Late night</button>
+    </div>
+  </div>
+
   <div class="newsletter">
     <div class="box">
       <p>Never miss what's happening around you</p>
@@ -1118,6 +1134,7 @@ function resetFilters(){
   state.timeband = "all";
   document.getElementById("timeband").value = "all";
   document.querySelectorAll("[data-qf]").forEach(b=>b.setAttribute("aria-pressed","false"));
+  document.querySelectorAll("[data-timeband]").forEach(b=>b.setAttribute("aria-pressed","false"));
   renderSources(); renderCats(); renderTagFilters(); renderAll();
 }
 
@@ -1265,7 +1282,17 @@ document.getElementById("viewMonth").onclick = ()=> setView("month");
 document.getElementById("prev").onclick = ()=>{ state.month.setMonth(state.month.getMonth()-1); renderGrid(); };
 document.getElementById("next").onclick = ()=>{ state.month.setMonth(state.month.getMonth()+1); renderGrid(); };
 document.getElementById("range").onchange = e => { state.range = e.target.value; renderAll(); };
-document.getElementById("timeband").onchange = e => { state.timeband = e.target.value; renderAll(); };
+function setTimeband(value){
+  state.timeband = value;
+  document.getElementById("timeband").value = value;
+  document.querySelectorAll("[data-timeband]").forEach(b=>
+    b.setAttribute("aria-pressed", String(b.dataset.timeband === value)));
+  renderAll();
+}
+document.getElementById("timeband").onchange = e => setTimeband(e.target.value);
+document.querySelectorAll("[data-timeband]").forEach(b=>{
+  b.onclick = ()=> setTimeband(state.timeband === b.dataset.timeband ? "all" : b.dataset.timeband);
+});
 document.getElementById("pickedClear").onclick = ()=>{ state.picked = null; renderAll(); };
 
 function toggleQF(key){

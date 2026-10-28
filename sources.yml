@@ -264,15 +264,21 @@ sources:
     url: https://stuut.info/
     method: recipe
 
-  - name: Conférences gesticulées (network catalogue)
-    url: https://conferences-gesticulees.net/
-    method: recipe
-
-  # Richest repeated-block signal of all 65 candidates probed (98 dated
-  # items in one listing block) - upgraded from llm to recipe.
-  - name: Conférences gesticulées (per-day pages)
-    url: https://conferences-gesticulees.net/events/
-    method: recipe
+  # Removed 2026-10-28: both entries turned out to be a NATIONWIDE French
+  # catalog (Montpellier, Tournai, Aubusson, Eckbolsheim...), not a
+  # Saint-Gilles/Brussels one - confirmed on live data, 111 of 518 events
+  # (21% of the whole feed) with zero neighbourhood relevance, plus near-
+  # duplicate entries between the two source entries for the same talk.
+  # It scored well on discovery.py's structural heuristic (98 dated items
+  # in one block) during the original find-related-sites sweep, but that
+  # heuristic never checked geography - do not re-add without a per-item
+  # location filter.
+  # - name: Conférences gesticulées (network catalogue)
+  #   url: https://conferences-gesticulees.net/
+  #   method: recipe
+  # - name: Conférences gesticulées (per-day pages)
+  #   url: https://conferences-gesticulees.net/events/
+  #   method: recipe
 
   - name: Centre d'Action Laïque events
     url: https://laicite.be/notre-action/agenda/festival-des-libertes-2026/
@@ -383,3 +389,24 @@ sources:
   - name: Out.be
     url: https://www.out.be/fr/
     method: auto
+
+  # --- Added 2026-10-28: user-suggested, verified via probe.py on a GitHub
+  # Actions runner.
+  # Real .ics export (3 events live), also has a working WordPress REST
+  # endpoint, but the feed is simpler/more robust than HTML parsing.
+  # method: ics fetches source url directly as an ics file, so url must be
+  # the feed itself, not the site's homepage.
+  - name: Brasserie Illegaal
+    url: https://brasserie-illegaal.com/all-events/?ical=1
+    method: ics
+
+  # --- Added 2026-10-28: user-suggested, verified via probe.py on a GitHub
+  # Actions runner. No ics/wordpress/jsonld signal and 0 dates in the static
+  # HTML (Odoo site, content looks JS-injected) - method: browser renders
+  # with headless Chromium first, same as the festival sites above, so it
+  # can still pick up a recipe/jsonld match for free; only falls through to
+  # the paid llm rung (currently billing-blocked - see Oct 2026 incident) if
+  # the rendered page has no recognisable repeated block either.
+  - name: Craft Studios
+    url: https://www.craft-studios.be/en
+    method: browser
