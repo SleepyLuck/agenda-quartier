@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30T12:13:01.655131+01:00",
+  "generated": "2026-10-30T21:21:04.984249+01:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
@@ -78,7 +78,7 @@
       "name": "Sounds Jazz Club",
       "url": "https://www.sounds.brussels/agenda/",
       "colour": "#E8336D",
-      "count": 7,
+      "count": 6,
       "method": "none",
       "stale": true,
       "last_ok": "2026-10-03"
@@ -159,7 +159,7 @@
       "name": "Flagey",
       "url": "https://www.flagey.be/agenda",
       "colour": "#1B6FE0",
-      "count": 9,
+      "count": 11,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-10-30"
@@ -168,7 +168,7 @@
       "name": "BOZAR",
       "url": "https://www.bozar.be/en/calendar",
       "colour": "#00937A",
-      "count": 6,
+      "count": 7,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-10-30"
@@ -186,9 +186,9 @@
       "name": "Kaaitheater",
       "url": "https://kaaitheater.be/nl/agenda",
       "colour": "#7B49D6",
-      "count": 1,
+      "count": 0,
       "method": "recipe",
-      "stale": false,
+      "stale": true,
       "last_ok": "2026-10-30"
     },
     {
@@ -222,7 +222,7 @@
       "name": "Quefaire.be brocantes (Brussels region)",
       "url": "https://www.quefaire.be/brocantes/region-de-bruxelles",
       "colour": "#E8336D",
-      "count": 3,
+      "count": 4,
       "method": "jsonld",
       "stale": false,
       "last_ok": "2026-10-30"
@@ -856,7 +856,7 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "carried": 7,
+      "carried": 6,
       "stale": true,
       "error_class": "billing",
       "note": "llm: skipped (billing failure earlier this run)"
@@ -944,8 +944,8 @@
     {
       "source": "Flagey",
       "method": "recipe",
-      "found": 9,
-      "kept": 9,
+      "found": 11,
+      "kept": 11,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -954,8 +954,8 @@
     {
       "source": "BOZAR",
       "method": "recipe",
-      "found": 7,
-      "kept": 6,
+      "found": 8,
+      "kept": 7,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -975,9 +975,9 @@
       "source": "Kaaitheater",
       "method": "recipe",
       "found": 20,
-      "kept": 1,
+      "kept": 0,
       "carried": 0,
-      "stale": false,
+      "stale": true,
       "error_class": "",
       "note": ""
     },
@@ -1014,8 +1014,8 @@
     {
       "source": "Quefaire.be brocantes (Brussels region)",
       "method": "jsonld",
-      "found": 3,
-      "kept": 3,
+      "found": 4,
+      "kept": 4,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1473,51 +1473,6 @@
       "tags_llm_done": true
     },
     {
-      "title": "MONK – Tribute Night",
-      "start": "2026-10-29T20:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "The Monk Legacy, Jazz Master, Master of Modern Jazz, Monk's Legacy",
-      "url": "https://www.sounds.brussels/jazz-concert/monk-tribute-night/",
-      "image": "https://www.sounds.brussels/wp-content/uploads/2026/07/sounds-social-1024x576-1.jpg",
-      "source": "Sounds Jazz Club",
-      "uid": "5b80810c35fdefeb",
-      "colour": "#E8336D",
-      "translated": true,
-      "category": "music",
-      "category_llm": true,
-      "tags": [
-        "evening",
-        "live"
-      ],
-      "tags_llm_done": true,
-      "stale": true,
-      "price_min": 8.0,
-      "price_max": 25.0,
-      "detail_checked": 4
-    },
-    {
-      "title": "do 29.10.26 20:00 it doesn't go without saying (& other gossips) Alix Eynaudi Elizabeth Ward",
-      "start": "2026-10-29T20:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "do 29.10.26 20:00 it doesn't go without saying (& other gossips) Alix Eynaudi Elizabeth Ward performance Kaaistudios Tickets",
-      "url": "https://kaaitheater.be/nl/agenda/26-27/it-doesnt-go-without-saying-other-gossips",
-      "image": null,
-      "source": "Kaaitheater",
-      "price_min": 14.0,
-      "price_max": 26.0,
-      "uid": "07a2cfe60553b778",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "20h Concert Sigma",
       "start": "2026-10-30T00:00:00+01:00",
       "end": "2026-10-30T00:00:00+01:00",
@@ -1579,47 +1534,6 @@
       "tags_llm_done": true
     },
     {
-      "title": "Opening: Portia Zvavahera - Kuzviramba Mamuri",
-      "start": "2026-10-30T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "Free 30.10.2026 Opening: Portia Zvavahera - Kuzviramba Mamuri",
-      "url": "https://wiels.org/en/events",
-      "image": "https://wiels.org/actions/assets/generate-transform?transformId=9",
-      "source": "WIELS",
-      "price_min": null,
-      "price_max": null,
-      "uid": "0a644e27f23c7b84",
-      "colour": "#E07A00",
-      "translated": true,
-      "category": "culture-arts",
-      "category_llm": true,
-      "tags": [
-        "free"
-      ],
-      "tags_llm_done": true
-    },
-    {
-      "title": "Artist Talk: Portia Zvavahera (EN)",
-      "start": "2026-10-30T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "Free Conversation 30.10.2026 Artist Talk: Portia Zvavahera (EN)",
-      "url": "https://wiels.org/en/events",
-      "image": "https://wiels.org/actions/assets/generate-transform?transformId=9",
-      "source": "WIELS",
-      "price_min": null,
-      "price_max": null,
-      "uid": "8c5fc7e2717eebca",
-      "colour": "#E07A00",
-      "category": "other",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "title": "Oct 30 Crochet from scratch Ixelles , Belgium Cours approfondis et stages Get Tickets",
       "start": "2026-10-30T00:00:00+01:00",
       "end": null,
@@ -1635,24 +1549,6 @@
       "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "other",
-      "tags": []
-    },
-    {
-      "title": "Oct 30 Winter Sweater Friday Ixelles , Belgium Atelier ponctuel Get Tickets",
-      "start": "2026-10-30T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "Oct 30 Winter Sweater Friday Ixelles , Belgium Atelier ponctuel Get Tickets",
-      "url": "https://www.craft-studios.be/en/event/winter-sweater-friday-275/register",
-      "image": "https://www.craft-studios.be/web/image/website/1/social_default_image",
-      "source": "Craft Studios",
-      "price_min": 35.0,
-      "price_max": 45.0,
-      "uid": "44cc50eed1814344",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "workshops-creative",
       "tags": []
     },
     {
@@ -1725,23 +1621,6 @@
       "colour": "#7B49D6",
       "detail_checked": 4,
       "category": "sport-wellbeing",
-      "tags": []
-    },
-    {
-      "title": "Arpentage: l'histoire cachée des femmes meneuses de révoltes d'esclaves",
-      "start": "2026-10-30T10:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "il y a 2h Apprendre Arpentage: l'histoire cachée des femmes meneuses de révoltes d'esclaves Vendredi 30 octobre 2026 à 10:00 Etterbeek - 1040 Organisé par ProtestBase",
-      "url": "https://protestbase.be/manifestations/bruxelles",
-      "image": "https://protestbase.be/og.jpg",
-      "source": "Protestbase Bruxelles",
-      "price_min": null,
-      "price_max": null,
-      "uid": "2ea51c262d5a487f",
-      "colour": "#E07A00",
-      "category": "activism-justice",
       "tags": []
     },
     {
@@ -1871,42 +1750,6 @@
       "tags": []
     },
     {
-      "title": "Lucy Lost",
-      "start": "2026-10-30T14:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "Lucy Lost Fri 30 Oct and Sun 8 Nov Studio 5 cinema animation € 7,00–€ 10,50 dates dates Fri 30 Oct 14:00 tickets Sun 8 Nov 14:00 tickets Wed 28 Oct 14:45 Past event",
-      "url": "https://www.flagey.be/en/agenda/lucy-lost-b55c",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "611aea45e687c1d2",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "film-cinema",
-      "tags": []
-    },
-    {
-      "title": "Digger",
-      "start": "2026-10-30T15:50:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "Digger Fri 30 Oct 15:50 Studio 5 cinema € 7,00–€ 10,50 dates dates Fri 30 Oct 15:50 tickets Thu 1 Oct 21:10 Past event Fri 2 Oct 18:50 Past event Sun 4 Oct 20:50 Past event Fri 9 Oct 18:50 Past event Sat 10 Oct 20:50 Past event Thu 15 Oct 21:00 Past event Sun 18 Oct 16:00 Past event Fri 23 Oct 21:15",
-      "url": "https://www.flagey.be/en/agenda/digger-yhg6",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "17f1ef34bce10077",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "film-cinema",
-      "tags": []
-    },
-    {
       "title": "Permanence info & buvette du Steki",
       "start": "2026-10-30T17:00:00+01:00",
       "end": null,
@@ -1942,26 +1785,6 @@
       "colour": "#00937A",
       "detail_checked": 4,
       "category": "music",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Coward",
-      "start": "2026-10-30T18:15:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "Coward Fri 30 Oct - Sun 22 Nov Studio 5 cinema € 7,00–€ 10,50 dates dates Fri 30 Oct 18:15 tickets Sun 1 Nov 18:40 tickets Thu 5 Nov 18:50 tickets Fri 6 Nov 21:05 tickets Thu 12 Nov 16:10 tickets Thu 19 Nov 17:00 tickets Sun 22 Nov 14:15 tickets Wed 21 Oct 19:10 Past event Thu 22 Oct 17:15 Past even",
-      "url": "https://www.flagey.be/en/agenda/coward-xdbs",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "9f2869e5e9080256",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "film-cinema",
       "tags": [
         "evening"
       ]
@@ -2073,6 +1896,26 @@
       "detail_checked": 4
     },
     {
+      "title": "Camerata Salzburg & Vox Luminis",
+      "start": "2026-10-30T20:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Camerata Salzburg & Vox Luminis Sold out Cancelled Postponed Last Tickets Concerts International Orchestras Camerata Salzburg & Vox Luminis Mozart. Requiem 30 Oct.'26 - 20:00 From 30 €",
+      "url": "https://www.bozar.be/en/calendar/camerata-salzburg-vox-luminis",
+      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
+      "source": "BOZAR",
+      "price_min": 30.0,
+      "price_max": 30.0,
+      "uid": "c76a519152c874cd",
+      "colour": "#00937A",
+      "detail_checked": 4,
+      "category": "music",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
       "title": "La fabrique de la pauvreté",
       "start": "2026-10-30T20:00:00+01:00",
       "end": null,
@@ -2126,26 +1969,6 @@
       "colour": "#7B49D6",
       "detail_checked": 4,
       "category": "music",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "La Gradiva",
-      "start": "2026-10-30T20:30:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "La Gradiva Fri 30 Oct - Fri 27 Nov Studio 5 cinema € 7,00–€ 10,50 dates dates Fri 30 Oct 20:30 tickets Sun 1 Nov 16:00 tickets Thu 5 Nov 21:05 tickets Sun 8 Nov 15:45 tickets Fri 13 Nov 18:45 tickets Sun 15 Nov 18:15 tickets Sat 21 Nov 15:50 tickets Fri 27 Nov 16:10 tickets Wed 28 Oct 20:15 Past eve",
-      "url": "https://www.flagey.be/en/agenda/la-gradiva-mbb1",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "7da4ec5b5b0239c4",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "film-cinema",
       "tags": [
         "evening"
       ]
@@ -2382,7 +2205,7 @@
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "dans 21h Apprendre Ateliers histoires et résistance - Bruxelles Samedi 31 octobre 2026 à 09:30 Etterbeek - 1040 Organisé par ProtestBase",
+      "description": "dans 12h Apprendre Ateliers histoires et résistance - Bruxelles Samedi 31 octobre 2026 à 09:30 Etterbeek - 1040 Organisé par ProtestBase",
       "url": "https://protestbase.be/manifestations/bruxelles",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
@@ -2533,7 +2356,7 @@
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "Demain Apprendre Earth's Greatest Enemy - documentary screening Brussels Samedi 31 octobre 2026 à 18:30 Saint-Gilles - 1060 Organisé par ProtestBase",
+      "description": "dans 21h Apprendre Earth's Greatest Enemy - documentary screening Brussels Samedi 31 octobre 2026 à 18:30 Saint-Gilles - 1060 Organisé par ProtestBase",
       "url": "https://protestbase.be/manifestations/bruxelles",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
@@ -2808,6 +2631,26 @@
       "colour": "#E8336D",
       "detail_checked": 4,
       "category": "other",
+      "tags": [
+        "late-night"
+      ]
+    },
+    {
+      "title": "Brocante sous le viaduc Herman Debroux (Bruxelles) accès facile metro",
+      "start": "2026-11-01T00:00:00+01:00",
+      "end": "2026-11-01T00:00:00+01:00",
+      "all_day": false,
+      "location": "Viaduc Herman Debroux, Auderghem",
+      "description": "",
+      "url": "https://www.quefaire.be/brocante-sous-le-viaduc-8776861.shtml",
+      "image": "https://www.quefaire.be/img/logo_fb.png",
+      "source": "Quefaire.be brocantes (Brussels region)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "5368413398c80b20",
+      "colour": "#E8336D",
+      "detail_checked": 4,
+      "category": "markets-fairs",
       "tags": [
         "late-night"
       ]
@@ -3213,6 +3056,24 @@
       "tags_llm_done": true
     },
     {
+      "title": "La Gradiva",
+      "start": "2026-11-01T16:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "La Gradiva Sun 1 Nov - Fri 27 Nov Studio 5 cinema € 7,00–€ 10,50 dates dates Sun 1 Nov 16:00 tickets Thu 5 Nov 21:05 tickets Sun 8 Nov 15:45 tickets Fri 13 Nov 18:45 tickets Sun 15 Nov 18:15 tickets Sat 21 Nov 15:50 tickets Fri 27 Nov 16:10 tickets Wed 28 Oct 20:15 Past event Fri 30 Oct 20:30 Past e",
+      "url": "https://www.flagey.be/en/agenda/la-gradiva-mbb1",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 10.5,
+      "uid": "d219403391b59b73",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "film-cinema",
+      "tags": []
+    },
+    {
       "title": "Obsessions",
       "start": "2026-11-01T18:00:00+01:00",
       "end": null,
@@ -3232,6 +3093,46 @@
       "price_min": 5.0,
       "price_max": 30.0,
       "detail_checked": 4
+    },
+    {
+      "title": "Coward",
+      "start": "2026-11-01T18:40:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "Coward Sun 1 Nov - Sun 22 Nov Studio 5 cinema € 7,00–€ 10,50 dates dates Sun 1 Nov 18:40 tickets Thu 5 Nov 18:50 tickets Fri 6 Nov 21:05 tickets Thu 12 Nov 16:10 tickets Thu 19 Nov 17:00 tickets Sun 22 Nov 14:15 tickets Wed 21 Oct 19:10 Past event Thu 22 Oct 17:15 Past event Sat 24 Oct 18:45 Past ev",
+      "url": "https://www.flagey.be/en/agenda/coward-xdbs",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 10.5,
+      "uid": "cb321840be94c59d",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "film-cinema",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
+      "title": "The Revenant",
+      "start": "2026-11-01T21:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "The Revenant Sun 1 Nov 21:00 Studio 5 cinema € 7,00–€ 10,50 dates dates Sun 1 Nov 21:00 tickets Sun 11 Oct 20:30 Past event Sat 24 Oct 21:00 Past event",
+      "url": "https://www.flagey.be/en/agenda/the-revenant-trrg",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 10.5,
+      "uid": "31edf148fdf00a30",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "film-cinema",
+      "tags": [
+        "evening"
+      ]
     },
     {
       "title": "02 novembre 2026 #Ateliers & zéro déchet +",
@@ -3385,6 +3286,26 @@
       "detail_checked": 4,
       "category": "family-children",
       "tags": []
+    },
+    {
+      "title": "Tegar",
+      "start": "2026-11-02T16:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "Tegar Mon 2 Nov 16:00 Studio 5 hosted event cinema junior special screening Free (booking required)",
+      "url": "https://www.flagey.be/en/agenda/tegar-mb58",
+      "image": null,
+      "source": "Flagey",
+      "price_min": null,
+      "price_max": null,
+      "uid": "42554b576deee640",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "film-cinema",
+      "tags": [
+        "free"
+      ]
     },
     {
       "title": "Lundynamite OFFSITE Théâtre de la vie Tickets",
@@ -3561,7 +3482,7 @@
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "dans 4 jours Soutien Rencontre internationale des travailleuses du care à Bruxelles Mardi 3 novembre 2026 à 09:00 Schaerbeek - 1030 Organisé par ProtestBase",
+      "description": "dans 3 jours Soutien Rencontre internationale des travailleuses du care à Bruxelles Mardi 3 novembre 2026 à 09:00 Schaerbeek - 1030 Organisé par ProtestBase",
       "url": "https://protestbase.be/manifestations/bruxelles",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
@@ -3871,6 +3792,26 @@
       "tags": []
     },
     {
+      "title": "Eruption",
+      "start": "2026-11-04T17:15:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "Eruption Wed 4 Nov - Sun 29 Nov Studio 5 cinema € 7,00–€ 10,50 dates dates Wed 4 Nov 17:15 tickets Sun 8 Nov 18:30 tickets Sat 14 Nov 15:35 tickets Wed 18 Nov 17:30 tickets Sun 29 Nov 17:50 tickets",
+      "url": "https://www.flagey.be/en/agenda/eruption-yh35",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 10.5,
+      "uid": "a6afb9705bc9c3fa",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "film-cinema",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
       "title": "Rally: Back to la Bourse for Palestine!",
       "start": "2026-11-04T18:00:00+00:00",
       "end": "2026-11-04T19:00:00+00:00",
@@ -3930,6 +3871,26 @@
       "uid": "b9e4d137cd0bff37",
       "colour": "#E07A00",
       "category": "other",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
+      "title": "New Beginnings",
+      "start": "2026-11-04T18:50:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "New Beginnings Wed 4 Nov - Thu 26 Nov Studio 5 cinema documentary special screening € 7,00–€ 10,50 dates dates Wed 4 Nov 18:50 tickets Premiere in the presence of the directors Sat 14 Nov 17:05 tickets Thu 26 Nov 17:15 tickets",
+      "url": "https://www.flagey.be/en/agenda/new-beginnings-c724",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 10.5,
+      "uid": "74be9620aa2025bb",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "film-cinema",
       "tags": [
         "evening"
       ]
@@ -4275,18 +4236,18 @@
       "tags": []
     },
     {
-      "title": "Nov 06 CHARMS PATE POLYMERE Ixelles , Belgium Atelier ponctuel Get Tickets",
+      "title": "Nov 06 Sold Out CHARMS PATE POLYMERE Ixelles , Belgium Atelier ponctuel Sold Out Event Info",
       "start": "2026-11-06T00:00:00+01:00",
       "end": null,
       "all_day": true,
       "location": "",
-      "description": "Nov 06 CHARMS PATE POLYMERE Ixelles , Belgium Atelier ponctuel Get Tickets",
+      "description": "Nov 06 Sold Out CHARMS PATE POLYMERE Ixelles , Belgium Atelier ponctuel Sold Out Event Info",
       "url": "https://www.craft-studios.be/en/event/charms-pate-polymere-284/register",
       "image": "https://www.craft-studios.be/web/image/website/1/social_default_image",
       "source": "Craft Studios",
-      "price_min": 25.0,
-      "price_max": 25.0,
-      "uid": "12a24ced3850a3a3",
+      "price_min": null,
+      "price_max": null,
+      "uid": "53fad08f4937831a",
       "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "workshops-creative",
@@ -5396,18 +5357,18 @@
       "stale": true
     },
     {
-      "title": "Screenings: Panos Aprahamian (EN)",
+      "title": "Screenings & conversation: Panos Aprahamian (EN)",
       "start": "2026-11-12T00:00:00+01:00",
       "end": null,
       "all_day": true,
       "location": "",
-      "description": "Free Screening 12.11.2026 Screenings: Panos Aprahamian (EN)",
+      "description": "Free Screening Conversation 12.11.2026 Screenings & conversation: Panos Aprahamian (EN)",
       "url": "https://wiels.org/en/events",
       "image": "https://wiels.org/actions/assets/generate-transform?transformId=9",
       "source": "WIELS",
       "price_min": null,
       "price_max": null,
-      "uid": "292591778d6b8318",
+      "uid": "1bbbe50020959239",
       "colour": "#E07A00",
       "category": "film-cinema",
       "tags": [
@@ -5787,6 +5748,25 @@
       ]
     },
     {
+      "title": "Lecture: Tamar Garb on Portia Zvavahera (EN)",
+      "start": "2026-11-14T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "Free 14.11.2026 Lecture Lecture: Tamar Garb on Portia Zvavahera (EN)",
+      "url": "https://wiels.org/en/events",
+      "image": "https://wiels.org/actions/assets/generate-transform?transformId=9",
+      "source": "WIELS",
+      "price_min": null,
+      "price_max": null,
+      "uid": "5cbd19ab223ae0c1",
+      "colour": "#E07A00",
+      "category": "other",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "title": "Rouge Fany Ducat 10 – 14.11.2026",
       "start": "2026-11-14T00:00:00+01:00",
       "end": null,
@@ -5860,6 +5840,23 @@
       "tags": []
     },
     {
+      "title": "Contre les violences faites aux enfants et aux ados",
+      "start": "2026-11-14T14:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "samedi 14 novembre 2026 Manifestation Contre les violences faites aux enfants et aux ados Samedi 14 novembre 2026 à 14:00 Bruxelles - 1000 Organisé par ProtestBase",
+      "url": "https://protestbase.be/manifestations/bruxelles",
+      "image": "https://protestbase.be/og.jpg",
+      "source": "Protestbase Bruxelles",
+      "price_min": null,
+      "price_max": null,
+      "uid": "06ae24de105189e0",
+      "colour": "#E07A00",
+      "category": "activism-justice",
+      "tags": []
+    },
+    {
       "title": "NEXUS - EN QUÊTE D’UNE VOIE OFFSITE Les Brigittines Tickets",
       "start": "2026-11-14T19:00:00+01:00",
       "end": null,
@@ -5921,6 +5918,23 @@
       "stale": true,
       "time_checked": 3,
       "detail_checked": 4
+    },
+    {
+      "title": "Family Funday: Small Journey edition (FR/NL)",
+      "start": "2026-11-15T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "Guided tour Workshop 15.11.2026 Family & kets Family Funday: Small Journey edition (FR/NL)",
+      "url": "https://wiels.org/en/events",
+      "image": "https://wiels.org/actions/assets/generate-transform?transformId=9",
+      "source": "WIELS",
+      "price_min": null,
+      "price_max": null,
+      "uid": "2235fb7d8ce2567d",
+      "colour": "#E07A00",
+      "category": "workshops-creative",
+      "tags": []
     },
     {
       "title": "Nov 15 ADVENT CALENDAR Ixelles , Belgium Atelier ponctuel Event Get Tickets",
@@ -6015,24 +6029,6 @@
       "stale": true,
       "time_checked": 3,
       "detail_checked": 4
-    },
-    {
-      "title": "Jacques Duvall & Benjamin Shoos 16 nov 2026 Concerts Chanson française L'Archiduc Bruxelles - Bruxelles Dix ans après leur dernière collab",
-      "start": "2026-11-16T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "L'Archiduc, 6 Rue Antoine Dansaert, 6 Antoine Dansaertstraat, 1000 Bruxelles, Bruxelles, Belgique, Bruxelles",
-      "description": "Jacques Duvall & Benjamin Shoos 16 nov 2026 Concerts Chanson française L'Archiduc Bruxelles - Bruxelles Dix ans après leur dernière collaboration, deux figures essentielles de la pop belge francophone réunies : Jacques Duvall et Benjamin Schoos.Jacques Duvall est l'un des paroliers les plus estimé",
-      "url": "https://www.out.be/fr/evenements/224118_jacques-duvall-benjamin-shoos.html",
-      "image": "https://www.out.be/assets/img/logo-outbe.svg",
-      "source": "Out.be",
-      "price_min": 20.0,
-      "price_max": 20.0,
-      "uid": "0b807ddb25c96506",
-      "colour": "#8A7500",
-      "detail_checked": 4,
-      "category": "music",
-      "tags": []
     },
     {
       "title": "Melting Papot' - Open doors of the South Basin",
@@ -6640,6 +6636,24 @@
       "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "workshops-creative",
+      "tags": []
+    },
+    {
+      "title": "Nov 19 Life Drawing Night Ixelles , Belgium Cours régulier Event Get Tickets",
+      "start": "2026-11-19T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "Nov 19 Life Drawing Night Ixelles , Belgium Cours régulier Event Get Tickets",
+      "url": "https://www.craft-studios.be/en/event/life-drawing-night-302/register",
+      "image": "https://www.craft-studios.be/web/image/website/1/social_default_image",
+      "source": "Craft Studios",
+      "price_min": 20.0,
+      "price_max": 25.0,
+      "uid": "4695f163da92b400",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "other",
       "tags": []
     },
     {
@@ -8554,6 +8568,24 @@
         "registration-required"
       ],
       "tags_llm_done": true
+    },
+    {
+      "title": "Los Conciertos MAS FLAMENCO 11 déc 2026 Concerts World (musique du monde) / Musique traditionnelle Le Jacques Franck Saint-Gilles - Bruxel",
+      "start": "2026-12-11T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "Le Jacques Franck, Chau. de Waterloo 94, 1060 Saint-Gilles, Belgique, 1060 Sint-Gillis, Bruxelles, Belgique, Saint-Gilles",
+      "description": "Los Conciertos MAS FLAMENCO 11 déc 2026 Concerts World (musique du monde) / Musique traditionnelle Le Jacques Franck Saint-Gilles - Bruxelles LE FLAMENCO DANS TOUTE SA SPLENDEUR, AU CŒUR DE BRUXELLES !Le vendredi 11 décembre, laissez-vous emporter par la magie du flamenco authentique, dans une soi",
+      "url": "https://www.out.be/fr/evenements/224776_los-conciertos-mas-flamenco.html",
+      "image": "https://www.out.be/assets/img/logo-outbe.svg",
+      "source": "Out.be",
+      "price_min": 32.0,
+      "price_max": 36.0,
+      "uid": "a499bb3422db4fb8",
+      "colour": "#8A7500",
+      "detail_checked": 4,
+      "category": "music",
+      "tags": []
     },
     {
       "title": "Kabylifornie (Agathe Yamina Meziani)",
