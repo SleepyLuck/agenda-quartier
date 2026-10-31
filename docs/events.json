@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31T11:48:18.702571+01:00",
+  "generated": "2026-10-31T20:45:14.892225+01:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
@@ -78,7 +78,7 @@
       "name": "Sounds Jazz Club",
       "url": "https://www.sounds.brussels/agenda/",
       "colour": "#E8336D",
-      "count": 6,
+      "count": 5,
       "method": "none",
       "stale": true,
       "last_ok": "2026-10-03"
@@ -96,7 +96,7 @@
       "name": "BRASS",
       "url": "https://www.lebrass.be/",
       "colour": "#00937A",
-      "count": 2,
+      "count": 1,
       "method": "none",
       "stale": true,
       "last_ok": "2026-10-16"
@@ -114,7 +114,7 @@
       "name": "Maison Poème",
       "url": "https://maisonpoeme.be/",
       "colour": "#7B49D6",
-      "count": 16,
+      "count": 15,
       "method": "jsonld",
       "stale": false,
       "last_ok": "2026-10-31"
@@ -150,7 +150,7 @@
       "name": "Le Senghor",
       "url": "https://www.senghor.be/agenda/",
       "colour": "#E8336D",
-      "count": 30,
+      "count": 29,
       "method": "browser",
       "stale": true,
       "last_ok": "2026-10-03"
@@ -159,7 +159,7 @@
       "name": "Flagey",
       "url": "https://www.flagey.be/agenda",
       "colour": "#1B6FE0",
-      "count": 12,
+      "count": 13,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-10-31"
@@ -186,9 +186,9 @@
       "name": "Kaaitheater",
       "url": "https://kaaitheater.be/nl/agenda",
       "colour": "#7B49D6",
-      "count": 1,
+      "count": 0,
       "method": "recipe",
-      "stale": false,
+      "stale": true,
       "last_ok": "2026-10-31"
     },
     {
@@ -331,8 +331,8 @@
       "url": "https://stuut.info/",
       "colour": "#7B49D6",
       "count": 5,
-      "method": "recipe",
-      "stale": false,
+      "method": "none",
+      "stale": true,
       "last_ok": "2026-10-31"
     },
     {
@@ -402,7 +402,7 @@
       "name": "Forest (commune agenda)",
       "url": "https://forest.brussels/fr/agenda",
       "colour": "#7B49D6",
-      "count": 24,
+      "count": 22,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-10-31"
@@ -809,7 +809,7 @@
       "carried": 2,
       "stale": true,
       "error_class": "billing",
-      "note": "llm: 400 Bad Request: {\"type\":\"error\",\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase"
+      "note": "llm: 401 Unauthorized: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgasz6PKwnAckg3P22Lm7\"}"
     },
     {
       "source": "Le Jacques Franck",
@@ -856,7 +856,7 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "carried": 6,
+      "carried": 5,
       "stale": true,
       "error_class": "billing",
       "note": "llm: skipped (billing failure earlier this run)"
@@ -876,7 +876,7 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "carried": 2,
+      "carried": 1,
       "stale": true,
       "error_class": "billing",
       "note": "llm: skipped (billing failure earlier this run)"
@@ -894,8 +894,8 @@
     {
       "source": "Maison Poème",
       "method": "jsonld",
-      "found": 20,
-      "kept": 16,
+      "found": 19,
+      "kept": 15,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -936,7 +936,7 @@
       "method": "browser",
       "found": 9,
       "kept": 0,
-      "carried": 30,
+      "carried": 29,
       "stale": true,
       "error_class": "",
       "note": ""
@@ -944,8 +944,8 @@
     {
       "source": "Flagey",
       "method": "recipe",
-      "found": 12,
-      "kept": 12,
+      "found": 13,
+      "kept": 13,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -954,7 +954,7 @@
     {
       "source": "BOZAR",
       "method": "recipe",
-      "found": 8,
+      "found": 7,
       "kept": 6,
       "carried": 0,
       "stale": false,
@@ -974,10 +974,10 @@
     {
       "source": "Kaaitheater",
       "method": "recipe",
-      "found": 21,
-      "kept": 1,
+      "found": 20,
+      "kept": 0,
       "carried": 0,
-      "stale": false,
+      "stale": true,
       "error_class": "",
       "note": ""
     },
@@ -1133,13 +1133,13 @@
     },
     {
       "source": "Stuut",
-      "method": "recipe",
-      "found": 5,
-      "kept": 5,
-      "carried": 0,
-      "stale": false,
-      "error_class": "",
-      "note": ""
+      "method": "none",
+      "found": 0,
+      "kept": 0,
+      "carried": 5,
+      "stale": true,
+      "error_class": "site",
+      "note": "recipe: ReadTimeout: HTTPSConnectionPool(host='stuut.info', port=443): Read timed out. (read timeout=25)"
     },
     {
       "source": "Centre d'Action Laïque events",
@@ -1215,7 +1215,7 @@
       "source": "Forest (commune agenda)",
       "method": "recipe",
       "found": 24,
-      "kept": 24,
+      "kept": 22,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1473,133 +1473,6 @@
       "tags_llm_done": true
     },
     {
-      "title": "Procession 'Dia de Muertos'",
-      "start": "2026-10-30T18:30:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Procession 'Dia de Muertos' ven 30/10 - 18:30 Animations",
-      "url": "http://forest.brussels/fr/agenda/animations/2026/procession-dia-de-muertos",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "0e90a97e4423d715",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "French Folk Forever",
-      "start": "2026-10-30T19:30:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Ve 30/10 19:30 PORTES ET BAR | 20:00 CONCERTS 📍 BRASS concerts French Folk Forever MoAW présente : Bòsc + Bourrasque + Lutèce Lockness tickets infos",
-      "url": "https://www.lebrass.be/event/concerts-frenchfolk/",
-      "image": "https://www.lebrass.be/wp-content/uploads/2025/12/rq-181016-BRASS-ext-05-04-1200-min-1024x576.jpg",
-      "source": "BRASS",
-      "price_min": 1.25,
-      "price_max": 15.0,
-      "uid": "2be5df61725b4f18",
-      "colour": "#00937A",
-      "detail_checked": 4,
-      "category": "music",
-      "tags": [
-        "evening"
-      ],
-      "stale": true
-    },
-    {
-      "title": "MF DOOM Jazz Suite by New Jazz Underground",
-      "start": "2026-10-30T20:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "From jazz to hip-hop",
-      "url": "https://www.sounds.brussels/jazz-concert/mf-doom-jazz-suite-by-new-jazz-underground/",
-      "image": "https://www.sounds.brussels/wp-content/uploads/2026/07/sounds-social-1024x576-1.jpg",
-      "source": "Sounds Jazz Club",
-      "uid": "624517e09ff2f507",
-      "colour": "#E8336D",
-      "translated": true,
-      "category": "music",
-      "category_llm": true,
-      "tags": [
-        "evening",
-        "live"
-      ],
-      "tags_llm_done": true,
-      "stale": true,
-      "price_min": 8.0,
-      "price_max": 25.0,
-      "detail_checked": 4
-    },
-    {
-      "title": "Al'Fanamenco",
-      "start": "2026-10-30T20:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Le Senghor",
-      "description": "",
-      "url": "https://www.senghor.be/evenement/alfanamenco/",
-      "image": null,
-      "source": "Le Senghor",
-      "uid": "32193078a82b2e1c",
-      "colour": "#E8336D",
-      "category": "other",
-      "tags": [
-        "evening"
-      ],
-      "stale": true,
-      "price_min": 1.25,
-      "price_max": 1900.0,
-      "detail_checked": 4
-    },
-    {
-      "title": "vr 30.10.26 20:00 it doesn't go without saying (& other gossips) Alix Eynaudi Elizabeth Ward",
-      "start": "2026-10-30T20:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "vr 30.10.26 20:00 it doesn't go without saying (& other gossips) Alix Eynaudi Elizabeth Ward performance Kaaistudios Tickets",
-      "url": "https://kaaitheater.be/nl/agenda/26-27/it-doesnt-go-without-saying-other-gossips",
-      "image": null,
-      "source": "Kaaitheater",
-      "price_min": 14.0,
-      "price_max": 26.0,
-      "uid": "5bd9df6364fc49dc",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "French Folk Forever MoAW présente : Bòsc + Bourrasque + Lutèce Lockness tickets",
-      "start": "2026-10-30T20:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "French Folk Forever MoAW présente : Bòsc + Bourrasque + Lutèce Lockness tickets ven 30/10 - 20:00 Concert",
-      "url": "http://forest.brussels/fr/agenda/concert/2026/french-folk-forever-moaw-presente-bosc-bourrasque-lutece-lockness-tickets",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "dc3a89c1cae52bd1",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "music",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "Nostalgia 80s & 90s Party",
       "start": "2026-10-30T21:00:00+01:00",
       "end": null,
@@ -1767,7 +1640,8 @@
       "colour": "#7B49D6",
       "detail_checked": 4,
       "category": "other",
-      "tags": []
+      "tags": [],
+      "stale": true
     },
     {
       "title": "Fin du Concours Inktober-Fest",
@@ -1785,7 +1659,8 @@
       "colour": "#7B49D6",
       "detail_checked": 4,
       "category": "other",
-      "tags": []
+      "tags": [],
+      "stale": true
     },
     {
       "title": "Marie Darah 31.10.2026 > 05.12.2026 Sculpture poétique Groupe B — complet Atelier Écriture Lecture",
@@ -1824,24 +1699,6 @@
       "tags": []
     },
     {
-      "title": "Gala Concert – Brussels Cello Festival 2026 31 oct 2026 Concerts Classique / Contemporain / Baroque / Carillons Flagey Ixelles - Bruxelles",
-      "start": "2026-10-31T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "Flagey, Place Flagey Flageyplein, 1050 Ixelles, Bruxelles, Belgique, Ixelles",
-      "description": "Gala Concert – Brussels Cello Festival 2026 31 oct 2026 Concerts Classique / Contemporain / Baroque / Carillons Flagey Ixelles - Bruxelles De la musique de chambre la plus intime à la sonorité saisissante de douze violoncelles réunis sur scène, ce concert de gala révèle toute l’étendue de l’univer",
-      "url": "https://www.out.be/fr/evenements/218613_gala-concert-brussels-cello-festival-2026.html",
-      "image": "https://www.out.be/assets/img/logo-outbe.svg",
-      "source": "Out.be",
-      "price_min": null,
-      "price_max": null,
-      "uid": "2fee684be4c3e7c4",
-      "colour": "#8A7500",
-      "detail_checked": 4,
-      "category": "music",
-      "tags": []
-    },
-    {
       "title": "De Troostboom (L’Arbre du Réconfort)",
       "start": "2026-10-31T09:00:00+01:00",
       "end": null,
@@ -1858,65 +1715,6 @@
       "detail_checked": 4,
       "category": "workshops-creative",
       "tags": []
-    },
-    {
-      "title": "Ateliers histoires et résistance - Bruxelles",
-      "start": "2026-10-31T09:30:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "il y a 2h Apprendre Ateliers histoires et résistance - Bruxelles Samedi 31 octobre 2026 à 09:30 Etterbeek - 1040 Organisé par ProtestBase",
-      "url": "https://protestbase.be/manifestations/bruxelles",
-      "image": "https://protestbase.be/og.jpg",
-      "source": "Protestbase Bruxelles",
-      "price_min": null,
-      "price_max": null,
-      "uid": "3f1aba973f038815",
-      "colour": "#E07A00",
-      "category": "workshops-creative",
-      "tags": []
-    },
-    {
-      "title": "Conversatietafel Nederlands",
-      "start": "2026-10-31T09:30:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Conversatietafel Nederlands sam 31/10 - 09:30 Cours, Stages et Ateliers",
-      "url": "http://forest.brussels/fr/agenda/conversatietafel-nederlands",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "494fc80d72ac8b29",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "workshops-creative",
-      "tags": []
-    },
-    {
-      "title": "Offline",
-      "start": "2026-10-31T11:00:00+01:00",
-      "end": "2026-10-31T14:00:00+01:00",
-      "all_day": false,
-      "location": "Maison poème, Rue d'Écosse 30, 1060 Saint-Gilles",
-      "description": "One Saturday per month at the Maison poème bar. Free entry. 11 AM to 2 PM. How do you nourish your imagination while avoiding screens? Once a month, Maison poème invites you to a timeless moment to rest, read, and reconnect, far from screens. 11 AM to 1 PM: silent reading [...]",
-      "url": "https://maisonpoeme.be/",
-      "image": "https://maisonpoeme.be/wp-content/uploads/2026/06/format-carre-1024x1024.jpg",
-      "source": "Maison Poème",
-      "price_min": null,
-      "price_max": null,
-      "uid": "e1bc165b13eae796",
-      "colour": "#7B49D6",
-      "translated": true,
-      "category": "community-social",
-      "category_llm": true,
-      "tags": [
-        "drop-in",
-        "free",
-        "recurring"
-      ],
-      "tags_llm_done": true
     },
     {
       "title": "Portia Zvavahera: Kuzviramba Mamuri",
@@ -2006,45 +1804,8 @@
       "colour": "#7B49D6",
       "detail_checked": 4,
       "category": "other",
-      "tags": []
-    },
-    {
-      "title": "Monster Mia",
-      "start": "2026-10-31T15:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "Monster Mia Sat 31 Oct 15:00 Studio 5 cinema Tickets Normal € 10,50 -12 € 7,00 -26 € 8,50 65+ € 8,50 € 7,00–€ 10,50 tickets",
-      "url": "https://www.flagey.be/en/agenda/monster-mia-syj6",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 26.0,
-      "uid": "a05cd92695dd40f2",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "film-cinema",
-      "tags": []
-    },
-    {
-      "title": "Casper",
-      "start": "2026-10-31T17:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "Casper Sat 31 Oct 17:00 Studio 5 cinema Tickets Normal € 10,50 -12 € 7,00 -26 € 8,50 65+ € 8,50 € 7,00–€ 10,50 tickets",
-      "url": "https://www.flagey.be/en/agenda/casper-rs89",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 26.0,
-      "uid": "7aed993f882ab2c3",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "film-cinema",
-      "tags": [
-        "evening"
-      ]
+      "tags": [],
+      "stale": true
     },
     {
       "title": "JEUX Hoshi Go Club",
@@ -2082,7 +1843,8 @@
       "category": "activism-justice",
       "tags": [
         "evening"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Earth's Greatest Enemy - documentary screening Brussels",
@@ -2090,7 +1852,7 @@
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "dans 7h Apprendre Earth's Greatest Enemy - documentary screening Brussels Samedi 31 octobre 2026 à 18:30 Saint-Gilles - 1060 Organisé par ProtestBase",
+      "description": "il y a 2h Apprendre Earth's Greatest Enemy - documentary screening Brussels Samedi 31 octobre 2026 à 18:30 Saint-Gilles - 1060 Organisé par ProtestBase",
       "url": "https://protestbase.be/manifestations/bruxelles",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
@@ -2121,27 +1883,8 @@
       "category": "film-cinema",
       "tags": [
         "evening"
-      ]
-    },
-    {
-      "title": "The Rocky Horror Picture Show",
-      "start": "2026-10-31T19:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "The Rocky Horror Picture Show Sat 31 Oct 19:00 Studio 5 cinema tickets",
-      "url": "https://www.flagey.be/en/agenda/the-rocky-horror-picture-show-zp3s",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 26.0,
-      "uid": "30da94fa27bea07e",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "film-cinema",
-      "tags": [
-        "evening"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "The Magic City: Birmingham According To Sun Ra - Pablo Guarise & Guillaume Maupin",
@@ -3046,24 +2789,6 @@
       "tags_llm_done": true
     },
     {
-      "title": "Sport - en speelweek voor lagere schoolkinderen",
-      "start": "2026-11-02T09:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Sport - en speelweek voor lagere schoolkinderen lun 02/11 - 09:00 Animations",
-      "url": "http://forest.brussels/fr/agenda/sport--en-speelweek-voor-lagere-schoolkinderen",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "a4fd35b8a5368448",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "family-children",
-      "tags": []
-    },
-    {
       "title": "Expo TW - Collectief 'le 180'",
       "start": "2026-11-02T09:00:00+01:00",
       "end": null,
@@ -3097,6 +2822,24 @@
       "colour": "#7B49D6",
       "detail_checked": 4,
       "category": "workshops-creative",
+      "tags": []
+    },
+    {
+      "title": "Sport - en speelweek voor lagere schoolkinderen",
+      "start": "2026-11-02T09:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Sport - en speelweek voor lagere schoolkinderen lun 02/11 - 09:00 Animations",
+      "url": "http://forest.brussels/fr/agenda/sport--en-speelweek-voor-lagere-schoolkinderen",
+      "image": null,
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "a4fd35b8a5368448",
+      "colour": "#7B49D6",
+      "detail_checked": 4,
+      "category": "family-children",
       "tags": []
     },
     {
@@ -3282,24 +3025,6 @@
         "recurring"
       ],
       "tags_llm_done": true
-    },
-    {
-      "title": "J.O.N.A.S. et Sofia 03 nov 2026 Théatre / Spectacles Le Marni Ixelles - Bruxelles Ce sont deux destins qui s'entrecroisent. Celui de Jonas",
-      "start": "2026-11-03T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "Théâtre Marni, 25 Rue de Vergnies, 1050 Ixelles, Bruxelles, Belgique, Ixelles",
-      "description": "J.O.N.A.S. et Sofia 03 nov 2026 Théatre / Spectacles Le Marni Ixelles - Bruxelles Ce sont deux destins qui s'entrecroisent. Celui de Jonas qui bascule lorsque Sofia tombe sous ses coups. Mais du fond de sa cellule, c'est une fenêtre unique sur son passé, ses peurs, ses regrets et s",
-      "url": "https://www.out.be/fr/evenements/210186_j.o.n.a.s.-et-sofia.html",
-      "image": "https://www.out.be/assets/img/logo-outbe.svg",
-      "source": "Out.be",
-      "price_min": null,
-      "price_max": null,
-      "uid": "d5d70ce7d5367c35",
-      "colour": "#8A7500",
-      "detail_checked": 4,
-      "category": "culture-arts",
-      "tags": []
     },
     {
       "title": "Jeu de Balle Square Flea Market",
@@ -3888,6 +3613,24 @@
       ]
     },
     {
+      "title": "Van Herzeele - Galland 05 nov 2026 Concerts Pop / Rock / Pop-Rock Le Marni Ixelles - Bruxelles Dans ce duo, Jeroen Van Herzeele (Ben Sluij",
+      "start": "2026-11-05T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "Théâtre Marni, 25 Rue de Vergnies, 1050 Ixelles, Bruxelles, Belgique, Ixelles",
+      "description": "Van Herzeele - Galland 05 nov 2026 Concerts Pop / Rock / Pop-Rock Le Marni Ixelles - Bruxelles Dans ce duo, Jeroen Van Herzeele (Ben Sluijs, Mâäk's Spirit, Toots Thielemans, Chris Joris, Philip Catherine) et Stéphane Galland (Aka Moon, Ibrahim Maalouf, Tigran Hamasyan, Kurt Rosenwinkel, Malcolm",
+      "url": "https://www.out.be/fr/evenements/211200_van-herzeele-galland.html",
+      "image": "https://www.out.be/assets/img/logo-outbe.svg",
+      "source": "Out.be",
+      "price_min": 30.0,
+      "price_max": 30.0,
+      "uid": "72f9044eccbc0ec7",
+      "colour": "#8A7500",
+      "detail_checked": 4,
+      "category": "music",
+      "tags": []
+    },
+    {
       "title": "Nov 05 LIFE DRAWING NIGHT Ixelles , Belgium Cours régulier Event Get Tickets",
       "start": "2026-11-05T00:00:00+01:00",
       "end": null,
@@ -3947,6 +3690,26 @@
       "detail_checked": 4,
       "category": "other",
       "tags": []
+    },
+    {
+      "title": "Too many beasts",
+      "start": "2026-11-05T17:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "Too many beasts Thu 5 Nov 17:00 Studio 5 cinema € 7,00–€ 10,50 dates dates Thu 5 Nov 17:00 tickets Wed 14 Oct 21:05 Past event Fri 16 Oct 17:00 Past event Sat 17 Oct 19:00 Past event Wed 21 Oct 21:20 Past event Thu 22 Oct 19:20 Past event Wed 28 Oct 18:15 Past event",
+      "url": "https://www.flagey.be/en/agenda/too-many-beasts-h34h",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 10.5,
+      "uid": "2b8a01a96a10a432",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "film-cinema",
+      "tags": [
+        "evening"
+      ]
     },
     {
       "title": "Soirée Agir Collectivement « Droit du vivant »",
@@ -4277,6 +4040,24 @@
       "tags": []
     },
     {
+      "title": "Vagabond",
+      "start": "2026-11-06T16:45:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "Vagabond Fri 6 Nov - Sun 22 Nov Studio 5 cinema € 7,00–€ 10,50 dates dates Fri 6 Nov 16:45 tickets Thu 12 Nov 18:25 tickets Sun 22 Nov 16:30 tickets",
+      "url": "https://www.flagey.be/en/agenda/vagabond-b5q7",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 10.5,
+      "uid": "c2a7222a86e3046f",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "film-cinema",
+      "tags": []
+    },
+    {
       "title": "🌟EuroMeet: Connecting with International Friends in Brussels Every Friday🍻🎉",
       "start": "2026-11-06T17:30:00+00:00",
       "end": "2026-11-06T21:30:00+00:00",
@@ -4500,6 +4281,24 @@
       "tags": []
     },
     {
+      "title": "Urban32 Festival 2026 07 nov 2026 Concerts Electronique Palais des Beaux-Arts de Bruxelles - Bozar Bruxelles - Bruxelles Pour son 5e anniv",
+      "start": "2026-11-07T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "Palais des Beaux-Arts de Bruxelles - Bozar, Rue Ravenstein 23, 1000 Bruxelles, Belgique, Bruxelles",
+      "description": "Urban32 Festival 2026 07 nov 2026 Concerts Electronique Palais des Beaux-Arts de Bruxelles - Bozar Bruxelles - Bruxelles Pour son 5e anniversaire, Urban32 Festival investit Bozar pour une programmation hydride et interculturelle autour des arts urbains.Plus qu'une expérience musicale, Urban32 se v",
+      "url": "https://www.out.be/fr/evenements/223069_urban32-festival-2026.html",
+      "image": "https://www.out.be/assets/img/logo-outbe.svg",
+      "source": "Out.be",
+      "price_min": null,
+      "price_max": null,
+      "uid": "a310e2aae998ca03",
+      "colour": "#8A7500",
+      "detail_checked": 4,
+      "category": "music",
+      "tags": []
+    },
+    {
       "title": "Family Center Flea Market",
       "start": "2026-11-07T05:30:00+01:00",
       "end": "2026-11-07T13:00:00+01:00",
@@ -4572,6 +4371,24 @@
       "tags_llm_done": true
     },
     {
+      "title": "Conversatietafel Nederlands",
+      "start": "2026-11-07T09:30:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Conversatietafel Nederlands sam 07/11 - 09:30 Cours, Stages et Ateliers",
+      "url": "http://forest.brussels/fr/agenda/conversatietafel-nederlands",
+      "image": null,
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "3d81f009a16bb87b",
+      "colour": "#7B49D6",
+      "detail_checked": 4,
+      "category": "workshops-creative",
+      "tags": []
+    },
+    {
       "title": "Ronquières Sloped Flea Market",
       "start": "2026-11-07T10:00:00+01:00",
       "end": "2026-11-07T14:00:00+01:00",
@@ -4635,6 +4452,42 @@
       "colour": "#7B49D6",
       "detail_checked": 4,
       "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Cléo de 5 à 7",
+      "start": "2026-11-07T14:15:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "Cléo de 5 à 7 Sat 7 Nov - Wed 25 Nov Studio 5 cinema € 7,00–€ 10,50 dates dates Sat 7 Nov 14:15 tickets Sun 15 Nov 14:00 tickets Wed 25 Nov 21:10 tickets",
+      "url": "https://www.flagey.be/en/agenda/cleo-de-5-a-7-fc77",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 10.5,
+      "uid": "f7ccaadb7e679ba4",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "film-cinema",
+      "tags": []
+    },
+    {
+      "title": "A Man of His Time",
+      "start": "2026-11-07T16:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "A Man of His Time Sat 7 Nov 16:00 Studio 5 cinema new release € 7,00–€ 10,50 dates dates Sat 7 Nov 16:00 tickets Wed 30 Sep 20:45 Past event Sat 3 Oct 20:50 Past event Sun 4 Oct 18:00 Past event Thu 8 Oct 20:30 Past event Sat 10 Oct 18:00 Past event Wed 14 Oct 16:00 Past event Sun 18 Oct 18:30 Past",
+      "url": "https://www.flagey.be/en/agenda/a-man-of-his-time-q1cd",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 10.5,
+      "uid": "543690fe572b6213",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "film-cinema",
       "tags": []
     },
     {
@@ -6858,7 +6711,7 @@
       "all_day": false,
       "location": "Brasserie Quartier Leopold, Place du Luxembourg 9, Bruxelles, Bruxelles",
       "description": "✨ **Meet new people in Brussels every Friday evening!** Looking to expand your social circle, meet international people and enjoy relaxed conversations in the heart of Brussels? Join **EuroMeet every Friday anytime from 18:30 until at least 22:30** at the **Quartier Leopold brasserie**, located on Place du Luxembourg, directly opposite the European Parliament. Our meetup offers a friendly, relaxed and international atmosphere where it is easy to talk and get to know people—without loud music or a chaotic party environment. . 🍻 Drinks, food and dinner available 🌍 Internationals, expats, newcome",
-      "url": "https://www.meetup.com/brussels-meetup/events/nphtztyjcpbbc/",
+      "url": "https://www.meetup.com/brussels-meetup/events/wnwrbvyjcpbbc/",
       "image": "https://secure.meetupstatic.com/photos/event/1/7/b/3/600_533826067.jpeg",
       "source": "Brussels Language Meetup",
       "price_min": 150.0,
@@ -7067,26 +6920,6 @@
       ]
     },
     {
-      "title": "21.11.2026 Une histoire de rencontres Parcours d'éditeur Rencontre",
-      "start": "2026-11-21T18:30:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "21.11.2026 Une histoire de rencontres Parcours d'éditeur Rencontre",
-      "url": "https://www.lamaisondulivre.be/programme/une-histoire-de-rencontres/",
-      "image": "https://www.lamaisondulivre.be/wp-content/uploads/2025/08/calendar_ssfond.png",
-      "source": "La Maison du Livre",
-      "price_min": null,
-      "price_max": null,
-      "uid": "416a61fc2f189a22",
-      "colour": "#E07A00",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "Fanny Garin 21.11.2026 > 22.11.2026 Polar et poésie — complet Atelier Écriture Poésie Polar",
       "start": "2026-11-21T00:00:00+01:00",
       "end": null,
@@ -7121,6 +6954,26 @@
       "detail_checked": 4,
       "category": "workshops-creative",
       "tags": []
+    },
+    {
+      "title": "21.11.2026 Une histoire de rencontres Parcours d'éditeur Rencontre",
+      "start": "2026-11-21T18:30:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "21.11.2026 Une histoire de rencontres Parcours d'éditeur Rencontre",
+      "url": "https://www.lamaisondulivre.be/programme/une-histoire-de-rencontres/",
+      "image": "https://www.lamaisondulivre.be/wp-content/uploads/2025/08/calendar_ssfond.png",
+      "source": "La Maison du Livre",
+      "price_min": null,
+      "price_max": null,
+      "uid": "416a61fc2f189a22",
+      "colour": "#E07A00",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
     },
     {
       "title": "SŒURS de Pascal Rambert – Théâtre Marni, Bruxelles 21 nov 2026 Théatre / Spectacles Professionnels Le Marni Ixelles - Bruxelles SŒURS de P",
@@ -7177,6 +7030,25 @@
       "price_min": 5.0,
       "price_max": 5.0,
       "detail_checked": 4
+    },
+    {
+      "title": "Soirée de soutien 💥 camarades perquisitionné·es pour leur supposés liens avec Code Rouge",
+      "start": "2026-11-21T18:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "samedi 21 novembre 2026 Soutien Soirée de soutien 💥 camarades perquisitionné·es pour leur supposés liens avec Code Rouge Samedi 21 novembre 2026 à 18:00 Jette - 1090 Organisé par ProtestBase",
+      "url": "https://protestbase.be/manifestations/bruxelles",
+      "image": "https://protestbase.be/og.jpg",
+      "source": "Protestbase Bruxelles",
+      "price_min": null,
+      "price_max": null,
+      "uid": "7c730b2f912e36cb",
+      "colour": "#E07A00",
+      "category": "activism-justice",
+      "tags": [
+        "evening"
+      ]
     },
     {
       "title": "Anon jogar ina bourreira",
