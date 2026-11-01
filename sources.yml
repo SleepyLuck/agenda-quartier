@@ -126,10 +126,15 @@ sources:
     url: https://cclj.be/notre-agenda/
     method: auto
 
-  # Started returning a flat 403 to the plain fetch() at some point after
-  # being added (confirmed via probe.py, 2026-11-01) - method: impersonate
-  # spoofs a real Chrome TLS fingerprint/headers instead, cheaper than a
-  # full headless browser for a 403-from-anti-bot problem specifically.
+  # Corrected 2026-11-01: confirmed via inspect_source.py that this is NOT a
+  # bypassable anti-bot 403 - the site's own robots.txt endpoint itself now
+  # returns 403 (same bot-wall blocking everything), which this project's
+  # robots_allows() conservatively reads as a blanket disallow, same as
+  # fetch_impersonated() still does. Left on method: impersonate (behaves
+  # identically to the previous "browser" here - both honour robots.txt -
+  # but costs nothing and would help immediately if the robots.txt fetch
+  # itself stops being blocked). Do not bypass robots.txt to force this one
+  # through; it may be a deliberate "no bots" policy, not just a WAF quirk.
   - name: GC Ten Weyngaert
     url: https://www.tenweyngaert.be/activiteiten
     method: impersonate
@@ -228,10 +233,17 @@ sources:
   # method: recipe (no API call) upgraded from llm on 2026-10-01: discovery.py's
   # static analysis found a repeated listing block with dates in each item, so
   # the page can be parsed directly instead of needing an LLM call.
-  # Re-probed 2026-10-03 after a "recipe: nothing found" run: the page right
-  # now has a clean div.col-8-sm.col-6-xmd block with 17 dated items, so the
-  # recipe rung reads it fine - that miss looks transient (site content
-  # changes as the season page is edited), not a structural break.
+  # Corrected 2026-11-01 (the Oct 3 note above wrongly called this transient):
+  # confirmed via inspect_source.py --items that every item's date/range parses
+  # fine (e.g. "3 → 13 nov." -> 2026-11-03..13) - the real, persistent problem
+  # is the title. Each item's own <a href> has no usable text and there's no
+  # h1-h4 heading either, so title extraction falls through to None and the
+  # whole item is skipped, every time, regardless of the date fix. The items'
+  # flattened text reads like "<artist name> <date range> Billets <show name>" -
+  # the real title looks like it follows a "Billets"/"Gratuit" keyword, but
+  # that needs a Le Rideau-specific heuristic, not a general extraction fix.
+  # Left on recipe (correctly finds 0, not a crash) rather than reverting to
+  # llm, since llm is billing-blocked anyway right now.
   - name: Le Rideau
     url: https://lerideau.brussels/spectacles/saison/2026-2027
     method: recipe
@@ -248,12 +260,13 @@ sources:
   # sharing a name with a manual source confused the carry-forward/dedup logic
   # (fixed in scrape.py), but kept the names apart too to avoid two identically
   # named entries in the UI's source list.
-  # Started returning a flat 403 to the plain fetch() at some point after
-  # being added (confirmed via probe.py, 2026-11-01) - method: impersonate
-  # spoofs a real Chrome TLS fingerprint/headers to get past that; still
-  # needs the llm rung afterwards (no repeated block to parse as recipe),
-  # so this source stays empty until the Anthropic billing issue is fixed
-  # too, but at least isn't *also* blocked at the fetch step once it is.
+  # Corrected 2026-11-01: confirmed via inspect_source.py this is the same
+  # situation as GC Ten Weyngaert above, not a bypassable anti-bot 403 - the
+  # site's own robots.txt endpoint returns an error, which robots_allows()
+  # conservatively reads as a blanket disallow (and fetch_impersonated()
+  # still honours). Left on method: impersonate for the same reason: no
+  # worse than "llm" was, and ready to work the moment robots.txt itself
+  # becomes fetchable again. Do not bypass robots.txt to force this through.
   - name: FTI Brussel (programme page)
     url: https://www.ftifestival.be/programma/brussel
     method: impersonate
