@@ -56,6 +56,30 @@ def main(argv: list[str]) -> int:
             print(f"  sample: {b['sample']}\n")
         return 0
 
+    if "--items" in argv:
+        # Full per-item text + what find_dates()/find_times() make of it, for
+        # when find_listing_blocks() and extract_recipe_events() disagree on
+        # whether the top block actually has usable dates (find_listing_blocks'
+        # 100-char sample can hide why a longer item fails to parse).
+        from bs4 import BeautifulSoup
+        html = fetch(src["url"], src.get("respect_robots", defaults.get("respect_robots", True)))
+        soup = BeautifulSoup(html, "lxml")
+        for t in soup(["script", "style", "noscript", "nav", "footer"]):
+            t.decompose()
+        candidates = D._listing_candidates(soup, today, 3)
+        if not candidates:
+            print("no candidates")
+            return 0
+        _, items, _, _, _ = candidates[0]
+        for i, item in enumerate(items[:6]):
+            text = item.get_text(" ", strip=True)
+            print(f"--- item {i} ({len(text)} chars) ---")
+            print(text[:400])
+            print(f"find_dates: {D.find_dates(text, today)}")
+            print(f"time tag: {item.find('time')}")
+            print()
+        return 0
+
     if "--rendered" in argv:
         html = fetch_rendered(src["url"], src.get("respect_robots", defaults.get("respect_robots", True)))
         events = D.extract_recipe_events(html, src["url"], today)
