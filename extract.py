@@ -12,6 +12,12 @@ after load where the plain HTML has no event data at all. Set it explicitly
 per source in sources.yml when probe.py shows ~0 date-like strings in the
 page text but the site clearly has an agenda.
 
+A sixth, "impersonate", is also opt-in only: it fetches with a spoofed
+real-browser TLS fingerprint and headers (fetch_impersonated(), via the
+scrapling library) instead of this project's own plain UA string, for sites
+whose anti-bot layer 403s the plain fetch() but don't need JavaScript
+executed - cheaper than "browser" when that's the actual problem.
+
 Every strategy returns the same dict shape, see normalise_event().
 """
 
@@ -133,6 +139,24 @@ def fetch_rendered(url: str, respect_robots: bool = True, wait_ms: int = 3000) -
                 return page.content()
         finally:
             browser.close()
+
+
+def fetch_impersonated(url: str, respect_robots: bool = True) -> str:
+    """Like fetch(), but spoofs a real Chrome browser's TLS fingerprint and
+    headers (via the scrapling library's Fetcher, curl_cffi underneath)
+    instead of this project's own plain requests.get() UA string - for sites
+    whose anti-bot layer flat-out 403s the plain fetch but don't actually
+    need JavaScript executed, so a full fetch_rendered() browser would be
+    overkill. Confirmed live (2026-11-01): GC Ten Weyngaert and FTI Brussel
+    (programme page) both started returning a flat 403 to the plain fetch()
+    at some point after being added."""
+    if respect_robots and not robots_allows(url):
+        raise PermissionError(f"robots.txt disallows {url}")
+    from scrapling.fetchers import Fetcher
+    page = Fetcher.get(url, impersonate="chrome", stealthy_headers=True, timeout=TIMEOUT)
+    if page.status >= 400:
+        raise requests.HTTPError(f"{page.status} Client Error: impersonated fetch for url: {url}")
+    return str(page.html_content)
 
 
 # ---------------------------------------------------------------- helpers
@@ -1219,6 +1243,17 @@ def extract(source_cfg: dict, defaults: dict, skip_llm: bool = False
                                         horizon_days, keep_past_days)
                 elif not events and not robots_blocked:
                     last_error = "browser: jsonld/recipe empty, llm skipped (billing failure earlier this run)"
+                    error_class = "billing"
+            elif step == "impersonate":
+                page_html = fetch_impersonated(url, robots)
+                events = parse_jsonld(page_html, name, url, tz)
+                if not events:
+                    events = parse_recipe(page_html, name, url, tz)
+                if not events and not skip_llm:
+                    events = parse_llm(page_html, name, url, tz, model,
+                                        horizon_days, keep_past_days)
+                elif not events and not robots_blocked:
+                    last_error = "impersonate: jsonld/recipe empty, llm skipped (billing failure earlier this run)"
                     error_class = "billing"
             else:
                 continue

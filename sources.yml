@@ -126,9 +126,13 @@ sources:
     url: https://cclj.be/notre-agenda/
     method: auto
 
+  # Started returning a flat 403 to the plain fetch() at some point after
+  # being added (confirmed via probe.py, 2026-11-01) - method: impersonate
+  # spoofs a real Chrome TLS fingerprint/headers instead, cheaper than a
+  # full headless browser for a 403-from-anti-bot problem specifically.
   - name: GC Ten Weyngaert
     url: https://www.tenweyngaert.be/activiteiten
-    method: browser
+    method: impersonate
 
   # Re-probed 2026-10-03 after showing up in the "no events found" notice:
   # robots OK, page fetches fine, but 0 date-like strings in static HTML and
@@ -244,9 +248,15 @@ sources:
   # sharing a name with a manual source confused the carry-forward/dedup logic
   # (fixed in scrape.py), but kept the names apart too to avoid two identically
   # named entries in the UI's source list.
+  # Started returning a flat 403 to the plain fetch() at some point after
+  # being added (confirmed via probe.py, 2026-11-01) - method: impersonate
+  # spoofs a real Chrome TLS fingerprint/headers to get past that; still
+  # needs the llm rung afterwards (no repeated block to parse as recipe),
+  # so this source stays empty until the Anthropic billing issue is fixed
+  # too, but at least isn't *also* blocked at the fetch step once it is.
   - name: FTI Brussel (programme page)
     url: https://www.ftifestival.be/programma/brussel
-    method: llm
+    method: impersonate
 
   # NOTE: URL is month-specific (.../agenda-engage-<month>-2026/) - needs
   # updating by hand each month.
