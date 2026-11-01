@@ -418,11 +418,38 @@ def find_listing_blocks(html: str, today: date | None = None, min_items: int = 3
     return best[:5]
 
 
+def _date_from_time_tag(item, today: date | None) -> dict | None:
+    """_listing_candidates() counts a bare <time> tag as "has a date" even when its
+    visible text has nothing find_dates() can parse (e.g. an ISO datetime attribute
+    next to an icon, no human-readable date alongside it) - without this fallback,
+    extract_recipe_events() silently extracted nothing from a block it had just told
+    find_listing_blocks() was a good one. Confirmed live (2026-11-01): Le Rideau,
+    Brocantes 1060 and Anderlecht all scored well on with_date but extracted zero
+    real events until this was added."""
+    tag = item.find("time")
+    if not tag:
+        return None
+    raw = (tag.get("datetime") or "").strip()
+    m = re.match(r"(\d{4})-(\d{2})-(\d{2})(?:[T ](\d{2}):(\d{2}))?", raw)
+    if m:
+        y, mo, d, hh, mm = m.groups()
+        try:
+            return {"start": date(int(y), int(mo), int(d)), "end": None,
+                    "time": f"{hh}:{mm}" if hh else None,
+                    "raw": raw, "how": "time-tag", "confidence": "high"}
+        except ValueError:
+            pass
+    text = tag.get_text(" ", strip=True)
+    found = find_dates(text, today) if text else []
+    return found[0] if found else None
+
+
 def extract_recipe_events(html: str, base: str, today: date | None = None, min_items: int = 3) -> list[dict]:
     """Extract events from the page's best repeated listing block, no LLM involved: picks the
     highest-scoring container from _listing_candidates(), then per item takes the first link
-    (title + url), the first date/time found in the item's own text, and the item's text as a
-    short description. Items with no parsable date are skipped, never guessed."""
+    (title + url), the first date/time found in the item's own text (or its <time> tag, see
+    _date_from_time_tag), and the item's text as a short description. Items with no parsable
+    date are skipped, never guessed."""
     soup = BeautifulSoup(html, "lxml")
     for t in soup(["script", "style", "noscript", "nav", "footer"]):
         t.decompose()
@@ -434,6 +461,9 @@ def extract_recipe_events(html: str, base: str, today: date | None = None, min_i
     for item in items:
         text = item.get_text(" ", strip=True)
         dates = find_dates(text, today)
+        if not dates:
+            tag_date = _date_from_time_tag(item, today)
+            dates = [tag_date] if tag_date else []
         if not dates:
             continue
         d = dates[0]

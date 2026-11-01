@@ -153,6 +153,24 @@ def test_extract_recipe_events_skips_undated_items():
 def test_extract_recipe_events_no_listing_returns_empty():
     assert D.extract_recipe_events("<html><body><p>Nothing here</p></body></html>", "https://x.be/", TODAY) == []
 
+def test_extract_recipe_events_falls_back_to_time_tag_datetime_attribute():
+    # Confirmed live on Le Rideau/Brocantes 1060/Anderlecht (2026-11-01): a <time>
+    # tag with an ISO datetime attribute and no separately-parsable text date made
+    # _listing_candidates() pick the block (it counts any <time> tag as "has a
+    # date"), but the old extract_recipe_events() only ever tried find_dates() on
+    # the item's visible text, so it silently extracted zero events from a block
+    # it had just scored as a good listing.
+    html = """<div class="list">
+      <article class="ev"><a href="/a">Dated show</a><time datetime="2026-12-11T19:30:00+01:00"></time></article>
+      <article class="ev"><a href="/b">Another dated show</a><time datetime="2026-12-12T19:00:00+01:00"></time></article>
+      <article class="ev"><a href="/c">Third dated show</a><time datetime="2026-12-13"></time></article>
+    </div>"""
+    evs = D.extract_recipe_events(html, "https://x.be/", TODAY)
+    by_title = {e["title"]: e for e in evs}
+    assert set(by_title) == {"Dated show", "Another dated show", "Third dated show"}
+    assert by_title["Dated show"]["start"] == "2026-12-11" and by_title["Dated show"]["time"] == "19:30"
+    assert by_title["Third dated show"]["start"] == "2026-12-13" and "time" not in by_title["Third dated show"]
+
 def test_signals():
     s = D.extract_signals(LISTING, "https://x.be/")
     assert "utick" in s["ticket_platforms"] and "instagram" in s["social"] and "facebook" not in s["social"]
