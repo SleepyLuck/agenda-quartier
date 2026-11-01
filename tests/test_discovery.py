@@ -150,6 +150,21 @@ def test_extract_recipe_events_skips_undated_items():
     evs = D.extract_recipe_events(html, "https://x.be/", TODAY)
     assert {e["title"] for e in evs} == {"Dated show", "Another dated show", "Third dated show"}
 
+def test_extract_recipe_events_handles_item_that_is_itself_the_link():
+    # Confirmed live on Brocantes 1060 (2026-11-01): the repeated item is the
+    # <a> tag itself (not a wrapper around a separate nested <a>), so the old
+    # item.find("a", href=True) - which only searches descendants - never
+    # found it, and every item lost both its title and its url.
+    html = """<div class="list">
+      <a class="ev" href="/a">Dated show ven. 11 déc. 19:30</a>
+      <a class="ev" href="/b">Another dated show sam. 12 déc. 19:00</a>
+      <a class="ev" href="/c">Third dated show dim. 13 déc. 15:00</a>
+    </div>"""
+    evs = D.extract_recipe_events(html, "https://x.be/", TODAY)
+    by_title = {e["title"]: e for e in evs}
+    assert len(evs) == 3
+    assert by_title["Dated show ven. 11 déc. 19:30"]["url"] == "https://x.be/a"
+
 def test_extract_recipe_events_no_listing_returns_empty():
     assert D.extract_recipe_events("<html><body><p>Nothing here</p></body></html>", "https://x.be/", TODAY) == []
 

@@ -468,7 +468,13 @@ def extract_recipe_events(html: str, base: str, today: date | None = None, min_i
             continue
         d = dates[0]
         times = find_times(text)
-        a = item.find("a", href=True)
+        # The repeated item is sometimes the link itself (e.g. <a class="event">...)
+        # rather than a wrapper around one - item.find("a") only searches
+        # descendants, so it misses that case and a real linked item loses both
+        # its title and its url. Confirmed live on Brocantes 1060 (2026-11-01):
+        # item=a.th-past-events-container, with_link=0 under the old check even
+        # though every item IS a link.
+        a = item if (item.name == "a" and item.get("href")) else item.find("a", href=True)
         title = (a.get_text(" ", strip=True) if a else None) or next(
             (item.find(h).get_text(" ", strip=True) for h in ("h1", "h2", "h3", "h4") if item.find(h)), None)
         if not title:
