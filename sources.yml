@@ -409,3 +409,42 @@ sources:
   - name: Craft Studios
     url: https://www.craft-studios.be/en/events
     method: recipe
+
+  # --- Added 2026-11-01: from a user-supplied research report on several
+  # Brussels events/organisations, verified via probe.py on a GitHub Actions
+  # runner. Belgian civic/activism orgs (same category already represented
+  # by Demosphere/Protestbase/CBCS), not the nationwide-France problem the
+  # Conférences gesticulées sources turned out to be.
+  - name: Financité
+    url: https://www.financite.be/
+    method: recipe
+
+  # pass=True, commune_hits=2 - Inter-Environnement Bruxelles, a Brussels
+  # urban/environmental federation.
+  - name: Inter-Environnement Bruxelles (IEB)
+    url: https://www.ieb.be/
+    method: recipe
+
+  # pass=True - repeated block is literally article.entry.event..., 10 dated
+  # items. CNCD-11.11.11, a well-known Brussels-based NGO coalition.
+  - name: CNCD-11.11.11
+    url: https://www.cncd.be/
+    method: recipe
+
+  - name: Gresea
+    url: https://gresea.be/
+    method: recipe
+
+  # WordPress "The Events Calendar" plugin detected - the most reliable of
+  # this batch (REST-backed), 13 listed events at probe time.
+  - name: POUR.press
+    url: https://pour.press/
+    method: wordpress
+
+  # Real .ics export (1 event live, low volume but genuine - will
+  # self-populate like Latin Clubbing above). method: ics fetches source url
+  # directly as an ics file, so url must be the feed itself. Climate
+  # Coalition Belgium (bilingual domain; klimaatcoalitie.be redirects here).
+  - name: Klimaatcoalitie (Climate Coalition Belgium)
+    url: https://klimaatcoalitie-coalitionclimat.be/events/?ical=1
+    method: ics
