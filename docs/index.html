@@ -690,9 +690,12 @@ async function load(){
   if(ageHours > 48) notices.push(["stale",
     `Last updated ${Math.floor(ageHours/24)} days ago. The automatic collection seems to have stopped — check the repository's Actions tab.`]);
 
-  const silent = (d.sources||[]).filter(s => s.count === 0).map(s => s.name);
-  if(silent.length) notices.push(["",
-    `No events found for: ${silent.join(", ")}. These sites may have changed structure — run probe.py again.`]);
+  // Sources currently returning nothing (billing outages, seasonal gaps, a
+  // changed page) are a maintainer concern, not a visitor one - this used to
+  // surface as a banner here ("No events found for: ...") but reads as a
+  // site error to someone just checking what's on. Diagnose with
+  // inspect_source.py / probe.py instead; the per-source counts are still in
+  // events.json's "sources" array for that.
 
   const box = document.getElementById("notices");
   box.innerHTML = notices.map(([cls,msg]) => `<div class="notice ${cls}">${esc(msg)}</div>`).join("");
