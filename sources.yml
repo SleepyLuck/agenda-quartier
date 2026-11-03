@@ -471,3 +471,12 @@ sources:
   - name: Klimaatcoalitie (Climate Coalition Belgium)
     url: https://klimaatcoalitie-coalitionclimat.be/events/?ical=1
     method: ics
+
+  # --- Added 2026-11-03: user-suggested (via a shared "Open Coworking Day"
+  # event link), verified via probe.py on a GitHub Actions runner. Real .ics
+  # export covering the whole calendar (50 events live, not just the one
+  # event the user linked) - method: ics fetches source url directly as an
+  # ics file, so url must be the feed itself, not the site's events page.
+  - name: Hackerspace Brussels (HSBXL)
+    url: https://hsbxl.be/events/index.ics
+    method: ics
