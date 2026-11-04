@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-04T13:49:25.350787+01:00",
+  "generated": "2026-11-04T22:45:31.971155+01:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
@@ -51,7 +51,7 @@
       "name": "Fuse",
       "url": "https://www.fuse.be/events",
       "colour": "#C0392B",
-      "count": 15,
+      "count": 16,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-11-04"
@@ -78,7 +78,7 @@
       "name": "Sounds Jazz Club",
       "url": "https://www.sounds.brussels/agenda/",
       "colour": "#E8336D",
-      "count": 4,
+      "count": 3,
       "method": "none",
       "stale": true,
       "last_ok": "2026-10-03"
@@ -114,7 +114,7 @@
       "name": "Maison Poème",
       "url": "https://maisonpoeme.be/",
       "colour": "#7B49D6",
-      "count": 15,
+      "count": 16,
       "method": "jsonld",
       "stale": false,
       "last_ok": "2026-11-04"
@@ -159,16 +159,16 @@
       "name": "Flagey",
       "url": "https://www.flagey.be/agenda",
       "colour": "#1B6FE0",
-      "count": 14,
-      "method": "none",
-      "stale": true,
-      "last_ok": "2026-11-03"
+      "count": 13,
+      "method": "recipe",
+      "stale": false,
+      "last_ok": "2026-11-04"
     },
     {
       "name": "BOZAR",
       "url": "https://www.bozar.be/en/calendar",
       "colour": "#00937A",
-      "count": 7,
+      "count": 5,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-11-04"
@@ -213,7 +213,7 @@
       "name": "CBCS (Brussels social sector agenda)",
       "url": "https://cbcs.be/agenda/?ical=1",
       "colour": "#8A7500",
-      "count": 15,
+      "count": 16,
       "method": "ics",
       "stale": false,
       "last_ok": "2026-11-04"
@@ -330,7 +330,7 @@
       "name": "Stuut",
       "url": "https://stuut.info/",
       "colour": "#7B49D6",
-      "count": 2,
+      "count": 0,
       "method": "none",
       "stale": true,
       "last_ok": "2026-11-03"
@@ -887,8 +887,8 @@
     {
       "source": "Fuse",
       "method": "recipe",
-      "found": 15,
-      "kept": 15,
+      "found": 16,
+      "kept": 16,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -919,10 +919,10 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "carried": 4,
+      "carried": 3,
       "stale": true,
       "error_class": "billing",
-      "note": "llm: 401 Unauthorized: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CghuQQAicoiLDK2s9uhQ6\"}"
+      "note": "llm: 401 Unauthorized: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgicMAJy1SH8197Hft2dx\"}"
     },
     {
       "source": "U-Square",
@@ -957,8 +957,8 @@
     {
       "source": "Maison Poème",
       "method": "jsonld",
-      "found": 19,
-      "kept": 15,
+      "found": 20,
+      "kept": 16,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1006,19 +1006,19 @@
     },
     {
       "source": "Flagey",
-      "method": "none",
-      "found": 0,
-      "kept": 0,
-      "carried": 14,
-      "stale": true,
-      "error_class": "billing",
-      "note": "llm: skipped (billing failure earlier this run)"
+      "method": "recipe",
+      "found": 13,
+      "kept": 13,
+      "carried": 0,
+      "stale": false,
+      "error_class": "",
+      "note": ""
     },
     {
       "source": "BOZAR",
       "method": "recipe",
-      "found": 7,
-      "kept": 7,
+      "found": 6,
+      "kept": 5,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1067,8 +1067,8 @@
     {
       "source": "CBCS (Brussels social sector agenda)",
       "method": "ics",
-      "found": 17,
-      "kept": 15,
+      "found": 18,
+      "kept": 16,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1199,7 +1199,7 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "carried": 2,
+      "carried": 0,
       "stale": true,
       "error_class": "site",
       "note": "recipe: ReadTimeout: HTTPSConnectionPool(host='stuut.info', port=443): Read timed out. (read timeout=25)"
@@ -1606,71 +1606,6 @@
       "tags_llm_done": true
     },
     {
-      "title": "Linogravure engagée « Eat the rich »",
-      "start": "2026-11-03T14:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "nov. 3 Linogravure engagée « Eat the rich » 14h00 - 18h00 Bruxelles",
-      "url": "https://stuut.info/Linogravure-engagee-Eat-the-rich-14182",
-      "image": "https://stuut.info/squelettes/images/stuut_lin_fb_1200x627.jpeg",
-      "source": "Stuut",
-      "price_min": null,
-      "price_max": null,
-      "uid": "949851c8d4690b49",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "workshops-creative",
-      "tags": [],
-      "stale": true
-    },
-    {
-      "title": "Expo photos : Après le féminicide",
-      "start": "2026-11-03T19:30:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "nov. 3 Expo photos : Après le féminicide 3 - 26 novembre",
-      "url": "https://stuut.info/Expo-photos-Apres-le-feminicide-14286",
-      "image": "https://stuut.info/squelettes/images/stuut_lin_fb_1200x627.jpeg",
-      "source": "Stuut",
-      "price_min": null,
-      "price_max": null,
-      "uid": "f5d552f2ae0c15e5",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ],
-      "stale": true
-    },
-    {
-      "title": "MARTINA CAMARGO",
-      "start": "2026-11-03T20:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Afro-Colombian Tambora Living Legend",
-      "url": "https://www.sounds.brussels/jazz-concert/martina-camargo/",
-      "image": "https://www.sounds.brussels/wp-content/uploads/2026/07/sounds-social-1024x576-1.jpg",
-      "source": "Sounds Jazz Club",
-      "uid": "87950292edd410d2",
-      "colour": "#E8336D",
-      "translated": true,
-      "category": "music",
-      "category_llm": true,
-      "tags": [
-        "evening",
-        "live"
-      ],
-      "tags_llm_done": true,
-      "stale": true,
-      "price_min": 8.0,
-      "price_max": 25.0,
-      "detail_checked": 4
-    },
-    {
       "title": "4 novembre 2026",
       "start": "2026-11-04T00:00:00+01:00",
       "end": null,
@@ -1707,26 +1642,6 @@
       "tags": []
     },
     {
-      "title": "Free Guided tour 04.11.2026 Look Who’s Talking: Laura Herman (NL)",
-      "start": "2026-11-04T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "Free Guided tour 04.11.2026 Look Who’s Talking: Laura Herman (NL)",
-      "url": "https://wiels.org/en/events/look-whos-talking-laura-herman",
-      "image": "https://wiels.org/actions/assets/generate-transform?transformId=9",
-      "source": "WIELS",
-      "price_min": 0.0,
-      "price_max": 12.0,
-      "uid": "8f48c8c0d713860a",
-      "colour": "#E07A00",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "title": "L'être ou ne pas l'être",
       "start": "2026-11-04T00:00:00+01:00",
       "end": "2026-11-06T00:00:00+01:00",
@@ -1745,42 +1660,6 @@
       "detail_checked": 4
     },
     {
-      "title": "Live Magazine autumn edition '26",
-      "start": "2026-11-04T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "Live Magazine autumn edition '26 Sold out Cancelled Postponed Last Tickets Talks & Debates Lecture Live Magazine autumn edition '26 3 + 4 Nov.'26 From 16 €",
-      "url": "https://www.bozar.be/en/calendar/live-magazine-autumn-edition-26",
-      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
-      "source": "BOZAR",
-      "price_min": 16.0,
-      "price_max": 16.0,
-      "uid": "bc1923fb681596bb",
-      "colour": "#00937A",
-      "detail_checked": 4,
-      "category": "talks-discussions",
-      "tags": []
-    },
-    {
-      "title": "Kurtág Fragments - Dénes Nagy",
-      "start": "2026-11-04T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "Kurtág Fragments - Dénes Nagy Sold out Cancelled Postponed Last Tickets Films Art & Film In the presence of the director Kurtág Fragments - Dénes Nagy In the presence of the director on November 4 4 → 8 Nov.'26 From 8 €",
-      "url": "https://www.bozar.be/en/calendar/kurtag-fragments-denes-nagy",
-      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
-      "source": "BOZAR",
-      "price_min": 8.0,
-      "price_max": 8.0,
-      "uid": "07f06a144f77662b",
-      "colour": "#00937A",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "Nov 04 Drawing Peoples Ixelles , Belgium Cours approfondis et stages Get Tickets",
       "start": "2026-11-04T00:00:00+01:00",
       "end": null,
@@ -1794,24 +1673,6 @@
       "price_max": 130.0,
       "uid": "9e86475703c4d3d5",
       "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "4 nov",
-      "start": "2026-11-04T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "4 nov Ixelles 04/11/2026 STOP Omnibus pesticide ! Rassemblement Le Parlement européen s’apprête à se prononcer sur l’Omnibus pesticides. Avec ce texte, 49 substances, dont le glyphosate et l’acétamipride, pourraient être autorisées sans limite de durée, en supprimant leur réévaluation périodique obl",
-      "url": "https://www.cncd.be/STOP-Omnibus-pesticide",
-      "image": "https://www.cncd.be/IMG/logo/spip_fond_login.jpg",
-      "source": "CNCD-11.11.11",
-      "price_min": null,
-      "price_max": null,
-      "uid": "252bf6ed405e7dc4",
-      "colour": "#7B49D6",
       "detail_checked": 4,
       "category": "other",
       "tags": []
@@ -2004,24 +1865,6 @@
       "tags": []
     },
     {
-      "title": "Children of Liberty / New York, Mirian et Moi - Rémy Schaepman & Leahn Vivier–Chapas (10+)",
-      "start": "2026-11-04T14:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Children of Liberty / New York, Mirian et Moi - Rémy Schaepman & Leahn Vivier–Chapas (10+) Sold out Cancelled Postponed Last Tickets Films Festival In the presence of the director Kids’ Palace Children of Liberty / New York, Mirian et Moi - Rémy Schaepman & Leahn Vivier–Chapas (10+) In the presence",
-      "url": "https://www.bozar.be/en/calendar/children-liberty-new-york-mirian-et-moi-remy-schaepman-leahn-vivier-chapas-10",
-      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
-      "source": "BOZAR",
-      "price_min": 4.0,
-      "price_max": 8.0,
-      "uid": "d9e7abbea827242c",
-      "colour": "#00937A",
-      "detail_checked": 4,
-      "category": "family-children",
-      "tags": []
-    },
-    {
       "title": "Ciné Kadé ism Filem'On - Bloemen en kransen (6+)",
       "start": "2026-11-04T15:00:00+01:00",
       "end": null,
@@ -2038,27 +1881,6 @@
       "detail_checked": 4,
       "category": "film-cinema",
       "tags": []
-    },
-    {
-      "title": "Eruption",
-      "start": "2026-11-04T17:15:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "Eruption Wed 4 Nov - Sun 29 Nov Studio 5 cinema € 7,00–€ 10,50 dates dates Wed 4 Nov 17:15 tickets Sun 8 Nov 18:30 tickets Sat 14 Nov 15:35 tickets Wed 18 Nov 17:30 tickets Sun 29 Nov 17:50 tickets",
-      "url": "https://www.flagey.be/en/agenda/eruption-yh35",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "a6afb9705bc9c3fa",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "film-cinema",
-      "tags": [
-        "evening"
-      ],
-      "stale": true
     },
     {
       "title": "Rally: Back to la Bourse for Palestine!",
@@ -2104,108 +1926,6 @@
       "tags": [
         "evening"
       ]
-    },
-    {
-      "title": "dans 5h Soutien AG Commune Colère Mercredi 4 novembre 2026 à 18:30 Molenbeek-Saint-Jean - 1080 Organisé par Kinoa",
-      "start": "2026-11-04T18:30:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Molenbeek-Saint-Jean, 27 Rue Ransfort, Molenbeek-Saint-Jean",
-      "description": "dans 5h Soutien AG Commune Colère Mercredi 4 novembre 2026 à 18:30 Molenbeek-Saint-Jean - 1080 Organisé par Kinoa",
-      "url": "https://protestbase.be/event/350a7152-1d03-4050-8131-f0d175d2d2d4",
-      "image": "https://protestbase.be/og.jpg",
-      "source": "Protestbase Bruxelles",
-      "price_min": null,
-      "price_max": null,
-      "uid": "46a81235234930b3",
-      "colour": "#E07A00",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "dans 5h Apprendre Conférence: Échos de révolution Mercredi 4 novembre 2026 à 18:30 Bruxelles - 1000 Organisé par ProtestBase",
-      "start": "2026-11-04T18:30:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Bruxelles, Franklin Rooseveltlaan, Bruxelles",
-      "description": "dans 5h Apprendre Conférence: Échos de révolution Mercredi 4 novembre 2026 à 18:30 Bruxelles - 1000 Organisé par ProtestBase",
-      "url": "https://protestbase.be/event/dde1ec71-4577-4bdc-b36c-c0bf4ea30296",
-      "image": "https://protestbase.be/og.jpg",
-      "source": "Protestbase Bruxelles",
-      "price_min": null,
-      "price_max": null,
-      "uid": "b1ecfd6ead6d4a96",
-      "colour": "#E07A00",
-      "detail_checked": 4,
-      "category": "talks-discussions",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "New Beginnings",
-      "start": "2026-11-04T18:50:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "New Beginnings Wed 4 Nov - Thu 26 Nov Studio 5 cinema documentary special screening € 7,00–€ 10,50 dates dates Wed 4 Nov 18:50 tickets Premiere in the presence of the directors Sat 14 Nov 17:05 tickets Thu 26 Nov 17:15 tickets",
-      "url": "https://www.flagey.be/en/agenda/new-beginnings-c724",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "74be9620aa2025bb",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "film-cinema",
-      "tags": [
-        "evening"
-      ],
-      "stale": true
-    },
-    {
-      "title": "Meet the Writer: Asmaa Azaizeh",
-      "start": "2026-11-04T19:30:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Meet the Writer: Asmaa Azaizeh Sold out Cancelled Postponed Last Tickets Concerts Talks & Debates Literature Highly Recommended Meet the Writer: Asmaa Azaizeh 4 Nov.'26 - 19:30 From 12 €",
-      "url": "https://www.bozar.be/en/calendar/meet-writer-asmaa-azaizeh",
-      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
-      "source": "BOZAR",
-      "price_min": 12.0,
-      "price_max": 12.0,
-      "uid": "d8c3fa80c1aa1eed",
-      "colour": "#00937A",
-      "detail_checked": 4,
-      "category": "talks-discussions",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Wild Horse Nine",
-      "start": "2026-11-04T21:05:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Wild Horse Nine Wed 4 Nov - Sat 28 Nov Studio 5 cinema new release € 7,00–€ 10,50 dates dates Wed 4 Nov 21:05 tickets Fri 6 Nov 18:50 tickets Sat 7 Nov 19:00 tickets Fri 13 Nov 21:25 tickets Sat 14 Nov 18:50 tickets Wed 18 Nov 19:00 tickets Sat 28 Nov 16:45 tickets",
-      "url": "https://www.flagey.be/en/agenda/wild-horse-nine-8jg3",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "51455c9afe737e42",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "film-cinema",
-      "tags": [
-        "evening"
-      ],
-      "stale": true
     },
     {
       "title": "19h Ecoute de la création sonore Apprivoiser le flou de Leo Ligavant",
@@ -2474,8 +2194,7 @@
       "category": "film-cinema",
       "tags": [
         "evening"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Soirée Agir Collectivement « Droit du vivant »",
@@ -2515,22 +2234,21 @@
       "category": "film-cinema",
       "tags": [
         "evening"
-      ],
-      "stale": true
+      ]
     },
     {
-      "title": "Demain Apprendre Sud du Liban: comprendre la résistance anti-coloniale Jeudi 5 novembre 2026 à 19:00 Schaerbeek - 1030 Organisé par ProtestB",
+      "title": "dans 20h Apprendre Sud du Liban: comprendre la résistance anti-coloniale Jeudi 5 novembre 2026 à 19:00 Schaerbeek - 1030 Organisé par Protes",
       "start": "2026-11-05T19:00:00+01:00",
       "end": null,
       "all_day": false,
       "location": "Schaerbeek, 297 Lindestraat, Schaerbeek",
-      "description": "Demain Apprendre Sud du Liban: comprendre la résistance anti-coloniale Jeudi 5 novembre 2026 à 19:00 Schaerbeek - 1030 Organisé par ProtestBase",
+      "description": "dans 20h Apprendre Sud du Liban: comprendre la résistance anti-coloniale Jeudi 5 novembre 2026 à 19:00 Schaerbeek - 1030 Organisé par ProtestBase",
       "url": "https://protestbase.be/event/b0f6a46b-fc8f-4de9-b648-29bd1fa26044",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
       "price_min": null,
       "price_max": null,
-      "uid": "f0fd1fb97e14756b",
+      "uid": "3bb9762ab847b4df",
       "colour": "#E07A00",
       "detail_checked": 4,
       "category": "activism-justice",
@@ -2576,8 +2294,7 @@
       "category": "film-cinema",
       "tags": [
         "evening"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "19h30 Concert Pollyanna",
@@ -3052,8 +2769,7 @@
       "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "film-cinema",
-      "tags": [],
-      "stale": true
+      "tags": []
     },
     {
       "title": "🌟EuroMeet: Connecting with International Friends in Brussels Every Friday🍻🎉",
@@ -3071,6 +2787,26 @@
       "colour": "#00937A",
       "detail_checked": 4,
       "category": "music",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
+      "title": "Wild Horse Nine",
+      "start": "2026-11-06T18:50:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "Wild Horse Nine Fri 6 Nov - Sat 28 Nov Studio 5 cinema new release € 7,00–€ 10,50 dates dates Fri 6 Nov 18:50 tickets Sat 7 Nov 19:00 tickets Fri 13 Nov 21:25 tickets Sat 14 Nov 18:50 tickets Wed 18 Nov 19:00 tickets Sat 28 Nov 16:45 tickets Wed 4 Nov 21:05 Past event",
+      "url": "https://www.flagey.be/en/agenda/wild-horse-nine-8jg3",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 10.5,
+      "uid": "c4a6c5c5179c1a15",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "film-cinema",
       "tags": [
         "evening"
       ]
@@ -3380,6 +3116,24 @@
       "tags": []
     },
     {
+      "title": "Découvrir le Livre d'Urantia, un guide spirituel qui éclaire et inspire. 07 nov 08 nov Conférences / Débats Religion / Spiritualité Salle G.",
+      "start": "2026-11-07T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "Salle G. Massinon & A. Bodart de Pontaury, 30 Rue Félicien Rops, 5640 Mettet, Namur, Belgique, Mettet",
+      "description": "Découvrir le Livre d'Urantia, un guide spirituel qui éclaire et inspire. 07 nov 08 nov Conférences / Débats Religion / Spiritualité Salle G. Massinon & A. Bodart de Pontaury Mettet - Namur les Lecteurs belges du Livre d'Urantia (LBLU asbl) vous invitent à un week-end exceptionnel de découverte, de",
+      "url": "https://www.out.be/fr/evenements/220851_decouvrir-le-livre-d-urantia-un-guide-spirituel-qui-eclaire-et-inspire..html",
+      "image": "https://www.out.be/assets/img/logo-outbe.svg",
+      "source": "Out.be",
+      "price_min": null,
+      "price_max": null,
+      "uid": "40343f0cb9e6a71b",
+      "colour": "#8A7500",
+      "detail_checked": 4,
+      "category": "talks-discussions",
+      "tags": []
+    },
+    {
       "title": "7 nov",
       "start": "2026-11-07T00:00:00+01:00",
       "end": null,
@@ -3587,8 +3341,7 @@
       "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "film-cinema",
-      "tags": [],
-      "stale": true
+      "tags": []
     },
     {
       "title": "A Man of His Time",
@@ -3606,8 +3359,7 @@
       "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "film-cinema",
-      "tags": [],
-      "stale": true
+      "tags": []
     },
     {
       "title": "dans 3 jours Apprendre Islamophobie: nommer, comprendre, agir Samedi 7 novembre 2026 à 16:00 Bruxelles - 1000 Organisé par ProtestBase",
@@ -3685,8 +3437,7 @@
       "category": "film-cinema",
       "tags": [
         "evening"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "303 FUNKSTREET RELEASE PARTY",
@@ -4163,8 +3914,7 @@
       "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "film-cinema",
-      "tags": [],
-      "stale": true
+      "tags": []
     },
     {
       "title": "dans 4 jours Manifestation Rassemblement festif veille de la cop 31 Dimanche 8 novembre 2026 à 14:00 Bruxelles - 1000 Organisé par ProtestBa",
@@ -4240,6 +3990,26 @@
       "detail_checked": 4
     },
     {
+      "title": "Eruption",
+      "start": "2026-11-08T18:30:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "Eruption Sun 8 Nov - Sun 29 Nov Studio 5 cinema € 7,00–€ 10,50 dates dates Sun 8 Nov 18:30 tickets Sat 14 Nov 15:35 tickets Wed 18 Nov 17:30 tickets Sun 29 Nov 17:50 tickets Wed 4 Nov 17:15 Past event",
+      "url": "https://www.flagey.be/en/agenda/eruption-yh35",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 10.5,
+      "uid": "09086b5355d82843",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "film-cinema",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
       "title": "Amores Perros",
       "start": "2026-11-08T20:00:00+01:00",
       "end": null,
@@ -4257,8 +4027,7 @@
       "category": "film-cinema",
       "tags": [
         "evening"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "9 novembre 2026",
@@ -4274,6 +4043,24 @@
       "price_max": null,
       "uid": "a0ce287a9c17797f",
       "colour": "#00937A",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "9 nov",
+      "start": "2026-11-09T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "9 nov Arlon 09/11/2026 Opération 11.11.11. Participez au petit déjeuner la Mutualité chrétienne près... Dans le cadre de l'Opération 11.11.11, la Mutualité chrétienne qui apporte particulièrement son soutien à l'expansion de mutualités de santé à l’échelle internationale, pour rendre les soins acces",
+      "url": "https://www.cncd.be/Operation-11-11-11-Participez-au-3942",
+      "image": "https://www.cncd.be/IMG/logo/spip_fond_login.jpg",
+      "source": "CNCD-11.11.11",
+      "price_min": 10.0,
+      "price_max": 13.0,
+      "uid": "9abba5d66561c098",
+      "colour": "#7B49D6",
       "detail_checked": 4,
       "category": "other",
       "tags": []
@@ -4434,26 +4221,6 @@
         "live"
       ],
       "tags_llm_done": true
-    },
-    {
-      "title": "Rimbaud - le spectacle musical / Première 10 nov 2026 Théatre / Spectacles Comédies Musicales La Station des Rêveurs - Schaerbeek Schaerbeek",
-      "start": "2026-11-10T18:30:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "La Station des Rêveurs - Schaerbeek, Pl. Princesse Elisabeth 5, 1030 Schaerbeek, Belgique, Schaerbeek",
-      "description": "Rimbaud - le spectacle musical / Première 10 nov 2026 Théatre / Spectacles Comédies Musicales La Station des Rêveurs - Schaerbeek Schaerbeek - Bruxelles Une première, 135 ans jour pour jour après sa mort — 10 novembre 2026 10 novembre 1891. Arthur Rimbaud meurt à Marseille. 10 novembre 2026. 135 a",
-      "url": "https://www.out.be/fr/evenements/219801_rimbaud-le-spectacle-musical-premiere.html",
-      "image": "https://www.out.be/assets/img/logo-outbe.svg",
-      "source": "Out.be",
-      "price_min": 25.0,
-      "price_max": 25.0,
-      "uid": "3b097ff2f2b1b859",
-      "colour": "#8A7500",
-      "detail_checked": 4,
-      "category": "culture-arts",
-      "tags": [
-        "evening"
-      ]
     },
     {
       "title": "Plus d'info",
@@ -4665,6 +4432,24 @@
       "tags": []
     },
     {
+      "title": "11 nov",
+      "start": "2026-11-11T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "11 nov Masnuy-Saint-Jean 11/11/2026 Jurbise se coupe en 4 pour 11.11.11 Jurbise se coupe en quatre pour 11.11.11. Un merveilleux petit déjeuner se tiendra à Jurbise le 11 novembre. Au programme énormément de choses préparées maison par le groupe local 11.11.11 de Jurbise. Une manière agréable et gou",
+      "url": "https://www.cncd.be/Jurbise-se-coupe-en-4-pour-11-11-3948",
+      "image": "https://www.cncd.be/IMG/logo/spip_fond_login.jpg",
+      "source": "CNCD-11.11.11",
+      "price_min": 8.0,
+      "price_max": 8.0,
+      "uid": "e1371d0286811696",
+      "colour": "#7B49D6",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "Brocante",
       "start": "2026-11-11T08:00:00+01:00",
       "end": "2026-11-11T16:00:00+01:00",
@@ -4795,8 +4580,7 @@
       "category": "film-cinema",
       "tags": [
         "evening"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Minotaur",
@@ -4816,8 +4600,7 @@
       "category": "film-cinema",
       "tags": [
         "evening"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "18h30 Slow Jam Trad",
@@ -5843,6 +5626,24 @@
       "tags": []
     },
     {
+      "title": "Hosted Screening 15.11.2026 Lecture Lecture & Screening: Michel Lorand - Nighttime (2026) (FR)",
+      "start": "2026-11-15T11:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Hosted Screening 15.11.2026 Lecture Lecture & Screening: Michel Lorand - Nighttime (2026) (FR)",
+      "url": "https://wiels.org/en/events/lecture-screening-michel-lorand-nighttime-2026",
+      "image": "https://wiels.org/actions/assets/generate-transform?transformId=9",
+      "source": "WIELS",
+      "price_min": 0.0,
+      "price_max": 12.0,
+      "uid": "275705bcb530e074",
+      "colour": "#E07A00",
+      "detail_checked": 4,
+      "category": "film-cinema",
+      "tags": []
+    },
+    {
       "title": "Journée des arts pour les enfants de 0 à 6 ans",
       "start": "2026-11-15T00:00:00+01:00",
       "end": null,
@@ -6580,6 +6381,25 @@
         "outdoor"
       ],
       "tags_llm_done": true
+    },
+    {
+      "title": "Bal des faiseur·ses de livres et leurs ami·es",
+      "start": "2026-11-18T18:00:00+01:00",
+      "end": "2026-11-18T23:55:00+01:00",
+      "all_day": false,
+      "location": "Maison poème, Rue d'Écosse 30, 1060 Saint-Gilles",
+      "description": "Que vous l'attendiez avec impatience ou découvriez son existence, le Bal des faiseur·ses de livres et leurs ami·es est bel et bien de retour pour une seconde édition ! Cette année, retrouvons-nous à la Maison poème le vendredi 13 novembre 2026, à partir de 18h ! Pour celleux qui aurait manqué le rendez-vous l'année passée, cette soirée […]",
+      "url": "https://maisonpoeme.be/",
+      "image": "https://maisonpoeme.be/wp-content/uploads/2026/11/Bal-des-faiseurses-de-livres_2-720x1024.jpeg",
+      "source": "Maison Poème",
+      "price_min": null,
+      "price_max": null,
+      "uid": "e61048bd7c17069d",
+      "colour": "#7B49D6",
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
     },
     {
       "title": "BruNix: Brussels Nix meetup",
@@ -7364,24 +7184,6 @@
       ]
     },
     {
-      "title": "Fanny Garin 21.11.2026 > 22.11.2026 Polar et poésie — complet Atelier Écriture Poésie Polar",
-      "start": "2026-11-21T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "Fanny Garin 21.11.2026 > 22.11.2026 Polar et poésie — complet Atelier Écriture Poésie Polar",
-      "url": "https://www.lamaisondulivre.be/atelier/polar-et-poesie/",
-      "image": "https://www.lamaisondulivre.be/wp-content/uploads/2025/08/calendar_ssfond.png",
-      "source": "La Maison du Livre",
-      "price_min": 12.0,
-      "price_max": 60.0,
-      "uid": "8a1e9e563034d1d8",
-      "colour": "#E07A00",
-      "detail_checked": 4,
-      "category": "workshops-creative",
-      "tags": []
-    },
-    {
       "title": "Ariane Poot Tom Nisse 21.11.2026 > 22.11.2026 Détruire / construire : collages en chantier Atelier Collage",
       "start": "2026-11-21T00:00:00+01:00",
       "end": null,
@@ -7418,6 +7220,24 @@
       "tags": [
         "evening"
       ]
+    },
+    {
+      "title": "Fanny Garin 21.11.2026 > 22.11.2026 Polar et poésie — complet Atelier Écriture Poésie Polar",
+      "start": "2026-11-21T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "Fanny Garin 21.11.2026 > 22.11.2026 Polar et poésie — complet Atelier Écriture Poésie Polar",
+      "url": "https://www.lamaisondulivre.be/atelier/polar-et-poesie/",
+      "image": "https://www.lamaisondulivre.be/wp-content/uploads/2025/08/calendar_ssfond.png",
+      "source": "La Maison du Livre",
+      "price_min": 12.0,
+      "price_max": 60.0,
+      "uid": "8a1e9e563034d1d8",
+      "colour": "#E07A00",
+      "detail_checked": 4,
+      "category": "workshops-creative",
+      "tags": []
     },
     {
       "title": "SŒURS de Pascal Rambert – Théâtre Marni, Bruxelles 21 nov 2026 Théatre / Spectacles Professionnels Le Marni Ixelles - Bruxelles SŒURS de P",
@@ -7532,6 +7352,26 @@
       ]
     },
     {
+      "title": "samedi 21 novembre 2026 Soutien Soirée de soutien 💥 camarades perquisitionné·es pour leur supposés liens avec Code Rouge Samedi 21 novembre",
+      "start": "2026-11-21T18:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Jette, 104 Joseph De Heynlaan, Jette",
+      "description": "samedi 21 novembre 2026 Soutien Soirée de soutien 💥 camarades perquisitionné·es pour leur supposés liens avec Code Rouge Samedi 21 novembre 2026 à 18:00 Jette - 1090 Organisé par ProtestBase",
+      "url": "https://protestbase.be/event/5cd970e7-c549-4331-bbaf-8189d4fee6c2",
+      "image": "https://protestbase.be/og.jpg",
+      "source": "Protestbase Bruxelles",
+      "price_min": null,
+      "price_max": null,
+      "uid": "545c5e1d13926f30",
+      "colour": "#E07A00",
+      "detail_checked": 4,
+      "category": "activism-justice",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
       "title": "Anon jogar ina bourreira",
       "start": "2026-11-21T20:00:00+01:00",
       "end": null,
@@ -7610,6 +7450,24 @@
       "tags": []
     },
     {
+      "title": "The Six - Reiner Holzemer",
+      "start": "2026-11-22T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "The Six - Reiner Holzemer Sold out Cancelled Postponed Last Tickets Films New release In the presence of the director The Six - Reiner Holzemer In the presence of the director on the 3rd of November Now → 22 Nov.'26 From 8 €",
+      "url": "https://www.bozar.be/en/calendar/six-reiner-holzemer",
+      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
+      "source": "BOZAR",
+      "price_min": 8.0,
+      "price_max": 8.0,
+      "uid": "f9409854442d5eed",
+      "colour": "#00937A",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "Sunday Electronics Workshop 035",
       "start": "2026-11-22T14:00:00+01:00",
       "end": "2026-11-22T20:00:00+01:00",
@@ -7625,6 +7483,24 @@
       "colour": "#E8336D",
       "detail_checked": 4,
       "category": "workshops-creative",
+      "tags": []
+    },
+    {
+      "title": "dimanche 22 novembre 2026 Manifestation Europese betoging: Oorlogskoorts verwoest, Welzijn beschermt Dimanche 22 novembre 2026 à 15:00 Schae",
+      "start": "2026-11-22T15:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Schaerbeek, Vooruitgangstraat, Schaerbeek",
+      "description": "dimanche 22 novembre 2026 Manifestation Europese betoging: Oorlogskoorts verwoest, Welzijn beschermt Dimanche 22 novembre 2026 à 15:00 Schaerbeek - 1030 Organisé par ProtestBase",
+      "url": "https://protestbase.be/event/f4060c22-973f-4cc2-8769-8967e81c2f08",
+      "image": "https://protestbase.be/og.jpg",
+      "source": "Protestbase Bruxelles",
+      "price_min": null,
+      "price_max": null,
+      "uid": "38174ec3385b7830",
+      "colour": "#E07A00",
+      "detail_checked": 4,
+      "category": "activism-justice",
       "tags": []
     },
     {
@@ -7860,7 +7736,7 @@
       "all_day": false,
       "location": "l'amour fou, Chaussée d'Ixelles 185, Ixelles, Ixelles",
       "description": "Would you like to improve your language skills and networking in a casual atmosphere? This event is for you! All languages welcome! Everyone is welcome! The aim is to speak with native/fluent speakers of your target language(s). You'll be around all types of people throughout the whole event. We will be in a private area. A great atmosphere is guaranteed! You'll have to order a drink to attend the event 😀 Don't hesitate to contact us for any further information",
-      "url": "https://www.meetup.com/brusselsinternationalhubevents/events/lprnrtyjcpbgc/",
+      "url": "https://www.meetup.com/brusselsinternationalhubevents/events/317286998/",
       "image": "https://secure.meetupstatic.com/photos/event/2/8/2/e/600_528130286.jpeg",
       "source": "Brussels International Hub Events (Meetup)",
       "price_min": 150.0,
@@ -8059,6 +7935,24 @@
       "detail_checked": 4
     },
     {
+      "title": "Nous l'Orchestre - Philippe Béziat",
+      "start": "2026-11-26T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "Nous l'Orchestre - Philippe Béziat Sold out Cancelled Postponed Last Tickets Films Art & Film Nous l'Orchestre - Philippe Béziat Now → 26 Nov.'26 From 8 €",
+      "url": "https://www.bozar.be/en/calendar/nous-lorchestre-philippe-beziat",
+      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
+      "source": "BOZAR",
+      "price_min": 8.0,
+      "price_max": 8.0,
+      "uid": "41f298f33a33a342",
+      "colour": "#00937A",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "26.11.26 FLIRT FLAMAND Passa Porta Langue: NL FR Surtitrage: FR",
       "start": "2026-11-26T00:00:00+01:00",
       "end": null,
@@ -8098,26 +7992,6 @@
       "detail_checked": 4
     },
     {
-      "title": "do 26.11.26 20:00 AfterMyth Noha Ramadan",
-      "start": "2026-11-26T20:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "do 26.11.26 20:00 AfterMyth Noha Ramadan dans Kaaistudios Tickets",
-      "url": "https://kaaitheater.be/nl/agenda/26-27/aftermyth",
-      "image": null,
-      "source": "Kaaitheater",
-      "price_min": 12.0,
-      "price_max": 20.0,
-      "uid": "10b4d94bba451a61",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "do 26.11.26 20:00 anger angels Sophia Rodriguez Teresa Vittucci",
       "start": "2026-11-26T20:00:00+01:00",
       "end": null,
@@ -8130,6 +8004,26 @@
       "price_min": 14.0,
       "price_max": 26.0,
       "uid": "5257f7b92d7ea182",
+      "colour": "#7B49D6",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
+      "title": "do 26.11.26 20:00 AfterMyth Noha Ramadan",
+      "start": "2026-11-26T20:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "do 26.11.26 20:00 AfterMyth Noha Ramadan dans Kaaistudios Tickets",
+      "url": "https://kaaitheater.be/nl/agenda/26-27/aftermyth",
+      "image": null,
+      "source": "Kaaitheater",
+      "price_min": 12.0,
+      "price_max": 20.0,
+      "uid": "10b4d94bba451a61",
       "colour": "#7B49D6",
       "detail_checked": 4,
       "category": "other",
@@ -9083,26 +8977,6 @@
       "detail_checked": 4
     },
     {
-      "title": "Free 07.10 02.12.2026 Free Nocturne",
-      "start": "2026-12-02T11:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Free 07.10 02.12.2026 Free Nocturne",
-      "url": "https://wiels.org/en/events/nocturnes",
-      "image": "https://wiels.org/actions/assets/generate-transform?transformId=9",
-      "source": "WIELS",
-      "price_min": 0.0,
-      "price_max": 12.0,
-      "uid": "ecd1f627258f55c0",
-      "colour": "#E07A00",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "free"
-      ]
-    },
-    {
       "title": "Travailler dans le social-santé à Bruxelles - Bien-être au travail et attractivité des métiers",
       "start": "2026-12-02T09:30:00+01:00",
       "end": "2026-12-02T17:00:00+01:00",
@@ -9195,6 +9069,24 @@
         "evening"
       ],
       "tags_llm_done": true
+    },
+    {
+      "title": "Fuse presents: AEREA (live), Bailey Ibbs & Papa Nugs",
+      "start": "2026-12-04T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "Fri 04 Dec Fuse presents: AEREA (live), Bailey Ibbs & Papa Nugs Tickets Line-up Room 01 AEREA / LIVE Bailey Ibbs DJ Hyperdrive Bored Bouddha Motion Papa Nugs Innershades Asian Sal Buy tickets More info",
+      "url": "https://www.fuse.be/events/fuse-presents-aerea-live-bailey-ibbs-papa-nugs",
+      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788368690",
+      "source": "Fuse",
+      "price_min": 0.0,
+      "price_max": 25.0,
+      "uid": "32639eb8c3007f0f",
+      "colour": "#C0392B",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
     },
     {
       "title": "Open Coworking Day: Join and Cowork on Your Projects",
@@ -9410,6 +9302,24 @@
       "price_max": 75.0,
       "uid": "b0389548433cd077",
       "colour": "#E8336D",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Le rétablissement : parle-t-on vraiment de la même chose ?",
+      "start": "2026-12-08T09:00:00+01:00",
+      "end": "2026-12-08T13:30:00+01:00",
+      "all_day": false,
+      "location": "Sleep Well Youth Hostel, Rue du Damier 23, Bruxelles, 1000, Belgique",
+      "description": "Le 8 décembre prochain, le Smes organise sa table d’échanges annuelle autour d’une question : « Le rétablissement : un paradigme commun en santé mentale, assuétudes et sans-chez-soirisme ? » Informations et inscriptions 👉 https://smes.be/fr/retablissement-un-paradigme-partage/ Au programme, trois regards pour questionner nos pratiques et croiser les perspectives des secteurs de la santé mentale, des assuétudes et du sans-chez-soirisme : Sur le terrain : entre pratiques, réalités et défis. À la croisée des secteurs : quelles différences et quelles collaborations ? Face aux attentes de la sociét",
+      "url": "https://cbcs.be/event/le-retablissement-parle-t-on-vraiment-de-la-meme-chose/",
+      "image": null,
+      "source": "CBCS (Brussels social sector agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "ff2884911658b646",
+      "colour": "#8A7500",
       "detail_checked": 4,
       "category": "other",
       "tags": []
@@ -10349,6 +10259,24 @@
       "tags": []
     },
     {
+      "title": "Workshop 25.09 18.12.2026 Morning Routine with Rosas (EN)",
+      "start": "2026-12-18T11:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Workshop 25.09 18.12.2026 Morning Routine with Rosas (EN)",
+      "url": "https://wiels.org/en/events/morning-routine-with-rosas-2",
+      "image": "https://wiels.org/actions/assets/generate-transform?transformId=9",
+      "source": "WIELS",
+      "price_min": 0.0,
+      "price_max": 20.0,
+      "uid": "bff9ec81cac4c708",
+      "colour": "#E07A00",
+      "detail_checked": 4,
+      "category": "workshops-creative",
+      "tags": []
+    },
+    {
       "title": "Open Coworking Day: Join and Cowork on Your Projects",
       "start": "2026-12-18T09:30:00+01:00",
       "end": "2026-12-18T18:00:00+01:00",
@@ -11154,6 +11082,7 @@
       "price_max": null,
       "uid": "fa8a41525df50ebb",
       "colour": "#E8336D",
+      "detail_checked": 4,
       "category": "other",
       "tags": [
         "evening"
@@ -11173,6 +11102,7 @@
       "price_max": null,
       "uid": "0dbfbed4c62a2fb8",
       "colour": "#E8336D",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -11285,6 +11215,7 @@
       "price_max": null,
       "uid": "6004e84956e1d4b5",
       "colour": "#E8336D",
+      "detail_checked": 4,
       "category": "other",
       "tags": [
         "evening"
@@ -11344,6 +11275,7 @@
       "price_max": null,
       "uid": "ccbf38a9cd11f71e",
       "colour": "#E8336D",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -11415,6 +11347,7 @@
       "price_max": null,
       "uid": "d3ea6efaa11ea845",
       "colour": "#E8336D",
+      "detail_checked": 4,
       "category": "other",
       "tags": [
         "evening"
@@ -11454,6 +11387,7 @@
       "price_max": null,
       "uid": "6635c407a7469421",
       "colour": "#E8336D",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -11545,6 +11479,7 @@
       "price_max": null,
       "uid": "aa0d807d898130f0",
       "colour": "#E8336D",
+      "detail_checked": 4,
       "category": "other",
       "tags": [
         "evening"
@@ -11582,6 +11517,7 @@
       "price_max": null,
       "uid": "1670f42141796b46",
       "colour": "#E8336D",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -11599,6 +11535,7 @@
       "price_max": null,
       "uid": "181c21b47e4572b1",
       "colour": "#E8336D",
+      "detail_checked": 4,
       "category": "other",
       "tags": [
         "evening"
@@ -11618,6 +11555,7 @@
       "price_max": null,
       "uid": "beb4f33f2e0978e1",
       "colour": "#E8336D",
+      "detail_checked": 4,
       "category": "other",
       "tags": []
     },
@@ -11635,6 +11573,7 @@
       "price_max": null,
       "uid": "99e4e154d317e0e4",
       "colour": "#E8336D",
+      "detail_checked": 4,
       "category": "other",
       "tags": [
         "evening"
