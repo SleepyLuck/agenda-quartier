@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-07T12:34:29.643796+01:00",
+  "generated": "2026-11-07T20:49:34.153335+01:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
@@ -159,7 +159,7 @@
       "name": "Flagey",
       "url": "https://www.flagey.be/agenda",
       "colour": "#1B6FE0",
-      "count": 13,
+      "count": 12,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-11-07"
@@ -177,7 +177,7 @@
       "name": "KVS",
       "url": "https://www.kvs.be/fr/agenda",
       "colour": "#E07A00",
-      "count": 22,
+      "count": 21,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-11-07"
@@ -186,7 +186,7 @@
       "name": "Kaaitheater",
       "url": "https://kaaitheater.be/nl/agenda",
       "colour": "#7B49D6",
-      "count": 17,
+      "count": 16,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-11-07"
@@ -195,7 +195,7 @@
       "name": "Ancienne Belgique",
       "url": "https://www.abconcerts.be/fr/agenda",
       "colour": "#C0392B",
-      "count": 7,
+      "count": 8,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-11-07"
@@ -321,7 +321,7 @@
       "name": "Protestbase Bruxelles",
       "url": "https://protestbase.be/manifestations/bruxelles",
       "colour": "#E07A00",
-      "count": 11,
+      "count": 12,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-11-07"
@@ -331,8 +331,8 @@
       "url": "https://stuut.info/",
       "colour": "#7B49D6",
       "count": 5,
-      "method": "recipe",
-      "stale": false,
+      "method": "none",
+      "stale": true,
       "last_ok": "2026-11-07"
     },
     {
@@ -366,7 +366,7 @@
       "name": "Les Tanneurs",
       "url": "https://lestanneurs.be/",
       "colour": "#E8336D",
-      "count": 22,
+      "count": 21,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-11-07"
@@ -402,7 +402,7 @@
       "name": "Forest (commune agenda)",
       "url": "https://forest.brussels/fr/agenda",
       "colour": "#7B49D6",
-      "count": 24,
+      "count": 23,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-11-07"
@@ -546,7 +546,7 @@
       "name": "CNCD-11.11.11",
       "url": "https://www.cncd.be/",
       "colour": "#7B49D6",
-      "count": 8,
+      "count": 9,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-11-07"
@@ -922,12 +922,12 @@
       "carried": 3,
       "stale": true,
       "error_class": "billing",
-      "note": "llm: 401 Unauthorized: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgoV25NEQMeNDN5fhvNZy\"}"
+      "note": "llm: 401 Unauthorized: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgp97J3oQu5HbxcNMj4KU\"}"
     },
     {
       "source": "U-Square",
       "method": "recipe",
-      "found": 7,
+      "found": 6,
       "kept": 4,
       "carried": 0,
       "stale": false,
@@ -1007,8 +1007,8 @@
     {
       "source": "Flagey",
       "method": "recipe",
-      "found": 13,
-      "kept": 13,
+      "found": 12,
+      "kept": 12,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1027,8 +1027,8 @@
     {
       "source": "KVS",
       "method": "recipe",
-      "found": 22,
-      "kept": 22,
+      "found": 21,
+      "kept": 21,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1038,7 +1038,7 @@
       "source": "Kaaitheater",
       "method": "recipe",
       "found": 17,
-      "kept": 17,
+      "kept": 16,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1047,8 +1047,8 @@
     {
       "source": "Ancienne Belgique",
       "method": "recipe",
-      "found": 7,
-      "kept": 7,
+      "found": 8,
+      "kept": 8,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1077,7 +1077,7 @@
     {
       "source": "Quefaire.be brocantes (Brussels region)",
       "method": "jsonld",
-      "found": 5,
+      "found": 4,
       "kept": 4,
       "carried": 0,
       "stale": false,
@@ -1188,7 +1188,7 @@
       "source": "Protestbase Bruxelles",
       "method": "recipe",
       "found": 12,
-      "kept": 11,
+      "kept": 12,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1196,13 +1196,13 @@
     },
     {
       "source": "Stuut",
-      "method": "recipe",
-      "found": 5,
-      "kept": 5,
-      "carried": 0,
-      "stale": false,
-      "error_class": "",
-      "note": ""
+      "method": "none",
+      "found": 0,
+      "kept": 0,
+      "carried": 5,
+      "stale": true,
+      "error_class": "site",
+      "note": "recipe: ConnectionError: HTTPSConnectionPool(host='stuut.info', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='stuut.info', port=443): Failed to estab"
     },
     {
       "source": "Centre d'Action Laïque events",
@@ -1237,8 +1237,8 @@
     {
       "source": "Les Tanneurs",
       "method": "recipe",
-      "found": 28,
-      "kept": 22,
+      "found": 27,
+      "kept": 21,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1278,7 +1278,7 @@
       "source": "Forest (commune agenda)",
       "method": "recipe",
       "found": 24,
-      "kept": 24,
+      "kept": 23,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1438,7 +1438,7 @@
       "source": "CNCD-11.11.11",
       "method": "recipe",
       "found": 10,
-      "kept": 8,
+      "kept": 9,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1606,46 +1606,6 @@
       "tags_llm_done": true
     },
     {
-      "title": "Quartier Monde | la montée du fascisme",
-      "start": "2026-11-06T19:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Quartier Monde | la montée du fascisme ven 06/11 - 19:00 Conférences et congrès",
-      "url": "http://forest.brussels/fr/agenda/conferences-et-congres/2026/quartier-monde-la-montee-du-fascisme",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "7aa13302ec52dae4",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "talks-discussions",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "vr 06.11.26 20:00 (titre provisoire) Johana Malédon Compagnie MÂLE | Africa is/in the Future",
-      "start": "2026-11-06T20:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "vr 06.11.26 20:00 (titre provisoire) Johana Malédon Compagnie MÂLE | Africa is/in the Future dans Kaaistudios Tickets",
-      "url": "https://kaaitheater.be/nl/agenda/26-27/titre-provisoire",
-      "image": null,
-      "source": "Kaaitheater",
-      "price_min": 12.0,
-      "price_max": 20.0,
-      "uid": "9a112ffb1f113be3",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "Fuse presents: WSNWG (live all night long)",
       "start": "2026-11-07T00:00:00+01:00",
       "end": null,
@@ -1668,42 +1628,6 @@
         "live"
       ],
       "tags_llm_done": true
-    },
-    {
-      "title": "Hosted 07.11.2026 Rawabet Festival",
-      "start": "2026-11-07T11:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Hosted 07.11.2026 Rawabet Festival",
-      "url": "https://wiels.org/en/events/rawabet-festival",
-      "image": "https://wiels.org/actions/assets/generate-transform?transformId=9",
-      "source": "WIELS",
-      "price_min": 0.0,
-      "price_max": 12.0,
-      "uid": "c2d9cd1bc6a39b97",
-      "colour": "#E07A00",
-      "detail_checked": 4,
-      "category": "festivals-celebrations",
-      "tags": []
-    },
-    {
-      "title": "07.11.26 ― 09.01.27 Ceci n'est pas Noire: act II Alesandra Seutin / KVS Langue: FR EN Surtitrage: NL • FR • EN",
-      "start": "2026-11-07T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "07.11.26 ― 09.01.27 Ceci n'est pas Noire: act II Alesandra Seutin / KVS Langue: FR EN Surtitrage: NL • FR • EN danstheater Infos et billets",
-      "url": "https://www.kvs.be/fr/Evenement/ceci-n-est-pas-noire-act-ii-2",
-      "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
-      "source": "KVS",
-      "price_min": null,
-      "price_max": null,
-      "uid": "e075affb93d7944c",
-      "colour": "#E07A00",
-      "detail_checked": 4,
-      "category": "culture-arts",
-      "tags": []
     },
     {
       "title": "Brocante intérieure",
@@ -1764,24 +1688,6 @@
       "price_max": 1360.0,
       "uid": "ea9ad9245def5879",
       "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "Lignes de fracture Cie Michèle Noiret 03 – 07.11.2026",
-      "start": "2026-11-07T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "Tickets Lignes de fracture Cie Michèle Noiret 03 – 07.11.2026",
-      "url": "https://lestanneurs.be/spectacle/lignes-de-fracture/",
-      "image": "https://lestanneurs.be/wp-content/uploads/2025/04/Visuel-saison-H.jpg",
-      "source": "Les Tanneurs",
-      "price_min": 75.0,
-      "price_max": 75.0,
-      "uid": "f424fb3cf6b8d62d",
-      "colour": "#E8336D",
       "detail_checked": 4,
       "category": "other",
       "tags": []
@@ -2105,42 +2011,6 @@
       "tags": []
     },
     {
-      "title": "Cléo de 5 à 7",
-      "start": "2026-11-07T14:15:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "Cléo de 5 à 7 Sat 7 Nov - Wed 25 Nov Studio 5 cinema € 7,00–€ 10,50 dates dates Sat 7 Nov 14:15 tickets Sun 15 Nov 14:00 tickets Wed 25 Nov 21:10 tickets",
-      "url": "https://www.flagey.be/en/agenda/cleo-de-5-a-7-fc77",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "f7ccaadb7e679ba4",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "film-cinema",
-      "tags": []
-    },
-    {
-      "title": "A Man of His Time",
-      "start": "2026-11-07T16:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "A Man of His Time Sat 7 Nov 16:00 Studio 5 cinema new release € 7,00–€ 10,50 dates dates Sat 7 Nov 16:00 tickets Wed 30 Sep 20:45 Past event Sat 3 Oct 20:50 Past event Sun 4 Oct 18:00 Past event Thu 8 Oct 20:30 Past event Sat 10 Oct 18:00 Past event Wed 14 Oct 16:00 Past event Sun 18 Oct 18:30 Past",
-      "url": "https://www.flagey.be/en/agenda/a-man-of-his-time-q1cd",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "543690fe572b6213",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "film-cinema",
-      "tags": []
-    },
-    {
       "title": "Urban32 Festival 2026",
       "start": "2026-11-07T16:00:00+01:00",
       "end": null,
@@ -2156,24 +2026,6 @@
       "colour": "#00937A",
       "detail_checked": 4,
       "category": "festivals-celebrations",
-      "tags": []
-    },
-    {
-      "title": "dans 4h Apprendre Islamophobie: nommer, comprendre, agir Samedi 7 novembre 2026 à 16:00 Bruxelles - 1000 Organisé par ProtestBase",
-      "start": "2026-11-07T16:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Bruxelles, 24 Slachthuisstraat, Bruxelles",
-      "description": "dans 4h Apprendre Islamophobie: nommer, comprendre, agir Samedi 7 novembre 2026 à 16:00 Bruxelles - 1000 Organisé par ProtestBase",
-      "url": "https://protestbase.be/event/c5d23204-5a2e-4bfb-ab8c-11d63a63c5c1",
-      "image": "https://protestbase.be/og.jpg",
-      "source": "Protestbase Bruxelles",
-      "price_min": null,
-      "price_max": null,
-      "uid": "ae52751c3317b76b",
-      "colour": "#E07A00",
-      "detail_checked": 4,
-      "category": "activism-justice",
       "tags": []
     },
     {
@@ -2194,7 +2046,8 @@
       "category": "other",
       "tags": [
         "evening"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Boycott culturel d’Israël",
@@ -2214,27 +2067,8 @@
       "category": "other",
       "tags": [
         "evening"
-      ]
-    },
-    {
-      "title": "Wild Horse Nine",
-      "start": "2026-11-07T19:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "Wild Horse Nine Sat 7 Nov - Sat 28 Nov Studio 5 cinema new release € 7,00–€ 10,50 dates dates Sat 7 Nov 19:00 tickets Fri 13 Nov 21:25 tickets Sat 14 Nov 18:50 tickets Wed 18 Nov 19:00 tickets Sat 28 Nov 16:45 tickets Wed 4 Nov 21:05 Past event Fri 6 Nov 18:50 Past event",
-      "url": "https://www.flagey.be/en/agenda/wild-horse-nine-8jg3",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "fc6aee4e95a11af7",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "film-cinema",
-      "tags": [
-        "evening"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Pavel Kolesnikov",
@@ -2794,18 +2628,18 @@
       "tags": []
     },
     {
-      "title": "Demain Manifestation Rassemblement festif veille de la cop 31 Dimanche 8 novembre 2026 à 14:00 Bruxelles - 1000 Organisé par ProtestBase",
+      "title": "dans 17h Manifestation Rassemblement festif veille de la cop 31 Dimanche 8 novembre 2026 à 14:00 Bruxelles - 1000 Organisé par ProtestBase",
       "start": "2026-11-08T14:00:00+01:00",
       "end": null,
       "all_day": false,
       "location": "Bruxelles, Place de l'Albertine - Albertinaplein, Bruxelles",
-      "description": "Demain Manifestation Rassemblement festif veille de la cop 31 Dimanche 8 novembre 2026 à 14:00 Bruxelles - 1000 Organisé par ProtestBase",
+      "description": "dans 17h Manifestation Rassemblement festif veille de la cop 31 Dimanche 8 novembre 2026 à 14:00 Bruxelles - 1000 Organisé par ProtestBase",
       "url": "https://protestbase.be/event/53e84a0d-310e-476b-aa3c-fa09af284c64",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
       "price_min": null,
       "price_max": null,
-      "uid": "f9f6cd1894e884a3",
+      "uid": "f7ff98d3d6981486",
       "colour": "#E07A00",
       "detail_checked": 4,
       "category": "activism-justice",
@@ -2998,7 +2832,8 @@
       "colour": "#7B49D6",
       "detail_checked": 4,
       "category": "activism-justice",
-      "tags": []
+      "tags": [],
+      "stale": true
     },
     {
       "title": "9 nov",
@@ -3070,7 +2905,8 @@
       "colour": "#7B49D6",
       "detail_checked": 4,
       "category": "other",
-      "tags": []
+      "tags": [],
+      "stale": true
     },
     {
       "title": "Menacé.e d’expulsion ? Révolté.e par les expulsions ?",
@@ -3088,7 +2924,8 @@
       "colour": "#7B49D6",
       "detail_checked": 4,
       "category": "other",
-      "tags": []
+      "tags": [],
+      "stale": true
     },
     {
       "title": "Bruxelles : nos sols pollués · Médor",
@@ -3104,26 +2941,6 @@
       "price_max": null,
       "uid": "3ec5798f5de2a556",
       "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Rencontre avec Adèle Haenel",
-      "start": "2026-11-09T18:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Le 9 novembre 2026 de 18:00 à 20:00 Rencontre avec Adèle Haenel une rencontre avec Tulitu",
-      "url": "https://bellone.be/programmation-publique/rencontre-avec-adele-haenel",
-      "image": null,
-      "source": "La Bellone",
-      "price_min": null,
-      "price_max": null,
-      "uid": "24527353e9436562",
-      "colour": "#E8336D",
       "detail_checked": 4,
       "category": "other",
       "tags": [
@@ -3521,18 +3338,38 @@
       ]
     },
     {
-      "title": "Nov 11 Crochet - Coasters and placemat Ixelles , Belgium Cours régulier Get Tickets",
+      "title": "general mer 11 nov '26 Bozar (John) Coltrane 100: Joe Lovano x Melissa Aldana x Nduduzo Makhathini x ... Concert (John) Coltrane 100 Vendu a",
+      "start": "2026-11-11T19:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "general mer 11 nov '26 Bozar (John) Coltrane 100: Joe Lovano x Melissa Aldana x Nduduzo Makhathini x ... Concert (John) Coltrane 100 Vendu ailleurs",
+      "url": "https://www.abconcerts.be/fr/agenda/john-coltrane-100-joe-lovano-x-melissa-aldana-x-nduduzo-makhathini-x/a10Qw00000JgqP4IAJ",
+      "image": "https://abconcerts.be/assets/website/components/images/og-image.1c2180e4.png",
+      "source": "Ancienne Belgique",
+      "price_min": null,
+      "price_max": null,
+      "uid": "b5fba4a9ddded92c",
+      "colour": "#C0392B",
+      "detail_checked": 4,
+      "category": "music",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
+      "title": "Nov 11 CROCHET - COASTERS & PLACEMAT Ixelles , Belgium Cours régulier Get Tickets",
       "start": "2026-11-11T00:00:00+01:00",
       "end": null,
       "all_day": true,
       "location": "",
-      "description": "Nov 11 Crochet - Coasters and placemat Ixelles , Belgium Cours régulier Get Tickets",
-      "url": "https://www.craft-studios.be/en/event/crochet-coasters-and-placemat-323/register",
+      "description": "Nov 11 CROCHET - COASTERS & PLACEMAT Ixelles , Belgium Cours régulier Get Tickets",
+      "url": "https://www.craft-studios.be/en/event/crochet-coasters-placemat-323/register",
       "image": "https://www.craft-studios.be/web/image/website/1/social_default_image",
       "source": "Craft Studios",
       "price_min": 35.0,
       "price_max": 35.0,
-      "uid": "e4d94b89c7da3340",
+      "uid": "7c1ba21a0b4753be",
       "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "other",
@@ -3846,18 +3683,18 @@
       "tags": []
     },
     {
-      "title": "Nov 12 Sold Out STRUCTURAL LAMPS IN PAPER Ixelles , Belgium Atelier ponctuel Sold Out Event Info",
+      "title": "Nov 12 Sold Out STRUCTURAL PAPER LAMPS Ixelles , Belgium Atelier ponctuel Sold Out Event Info",
       "start": "2026-11-12T00:00:00+01:00",
       "end": null,
       "all_day": true,
       "location": "",
-      "description": "Nov 12 Sold Out STRUCTURAL LAMPS IN PAPER Ixelles , Belgium Atelier ponctuel Sold Out Event Info",
-      "url": "https://www.craft-studios.be/en/event/structural-lamps-in-paper-351/register",
+      "description": "Nov 12 Sold Out STRUCTURAL PAPER LAMPS Ixelles , Belgium Atelier ponctuel Sold Out Event Info",
+      "url": "https://www.craft-studios.be/en/event/structural-paper-lamps-351/register",
       "image": "https://www.craft-studios.be/web/image/website/1/social_default_image",
       "source": "Craft Studios",
       "price_min": null,
       "price_max": null,
-      "uid": "62907526d77a3cc7",
+      "uid": "7b6f579a87e5e860",
       "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "workshops-creative",
@@ -4539,6 +4376,26 @@
       ]
     },
     {
+      "title": "Wild Horse Nine",
+      "start": "2026-11-13T21:25:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "Wild Horse Nine Fri 13 Nov - Sat 28 Nov Studio 5 cinema new release € 7,00–€ 10,50 dates dates Fri 13 Nov 21:25 tickets Sat 14 Nov 18:50 tickets Wed 18 Nov 19:00 tickets Sat 28 Nov 16:45 tickets Wed 4 Nov 21:05 Past event Fri 6 Nov 18:50 Past event Sat 7 Nov 19:00 Past event",
+      "url": "https://www.flagey.be/en/agenda/wild-horse-nine-8jg3",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 10.5,
+      "uid": "edf5029cb41cff30",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "film-cinema",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
       "title": "14 novembre 2026",
       "start": "2026-11-14T00:00:00+01:00",
       "end": null,
@@ -4823,6 +4680,24 @@
       "tags": [
         "free"
       ]
+    },
+    {
+      "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+      "start": "2026-11-14T12:15:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "Shaun the Sheep: The Beast of Mossy Bottom Junior 6+ Anima Saturdays Sat 14 Nov Studio 5 cinema junior animation € 7,00–€ 9,00 dates dates Sat 14 Nov 12:15 tickets 14:00 sold-out",
+      "url": "https://www.flagey.be/en/agenda/shaun-the-sheep-the-beast-of-mossy-bottom-6jlb",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 9.0,
+      "uid": "6a82fb7cd20e3e27",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "film-cinema",
+      "tags": []
     },
     {
       "title": "samedi 14 novembre 2026 Manifestation Contre les violences faites aux enfants et aux ados Samedi 14 novembre 2026 à 14:00 Bruxelles - 1000 O",
@@ -5252,6 +5127,24 @@
       "tags": []
     },
     {
+      "title": "16 nov",
+      "start": "2026-11-16T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "16 nov Bruxelles 16/11/2026 Lunch parlementaire. La Belgique doit se positionner sur le Traité sur la... La Belgique doit-elle rester liée au Traité sur la Charte de l'énergie (TCE), malgré ses risques pour le climat, le droit européen et les finances publiques ? À la lumière de l'arbitrage lancé pa",
+      "url": "https://www.cncd.be/Lunch-parlementaire-La-Belgique",
+      "image": "https://www.cncd.be/IMG/logo/spip_fond_login.jpg",
+      "source": "CNCD-11.11.11",
+      "price_min": null,
+      "price_max": null,
+      "uid": "4c8f02e99d85c5d9",
+      "colour": "#7B49D6",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "Melting Papot' - Open doors of the South Basin",
       "start": "2026-11-16T08:00:00+01:00",
       "end": "2026-11-20T17:00:00+01:00",
@@ -5650,12 +5543,12 @@
       "tags_llm_done": true
     },
     {
-      "title": "Nov 18 leather notebook cover Ixelles , Belgium Atelier ponctuel Event Get Tickets",
+      "title": "Nov 18 LEATHER NOTEBOOK COVER Ixelles , Belgium Atelier ponctuel Event Get Tickets",
       "start": "2026-11-18T00:00:00+01:00",
       "end": null,
       "all_day": true,
       "location": "",
-      "description": "Nov 18 leather notebook cover Ixelles , Belgium Atelier ponctuel Event Get Tickets",
+      "description": "Nov 18 LEATHER NOTEBOOK COVER Ixelles , Belgium Atelier ponctuel Event Get Tickets",
       "url": "https://www.craft-studios.be/en/event/leather-notebook-cover-347/register",
       "image": "https://www.craft-studios.be/web/image/website/1/social_default_image",
       "source": "Craft Studios",
@@ -5685,24 +5578,6 @@
       "price_min": 1900.0,
       "price_max": 1900.0,
       "detail_checked": 4
-    },
-    {
-      "title": "Goûter poésie - Le pays des prénoms",
-      "start": "2026-11-18T14:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Le 18 novembre 2026 de 14:00 à 16:00 Goûter poésie - Le pays des prénoms Alphonse Eklou Uwantege Ateliers avec Midis poésie",
-      "url": "https://bellone.be/programmation-publique/gouter-poesie-le-pays-des-prenoms",
-      "image": null,
-      "source": "La Bellone",
-      "price_min": null,
-      "price_max": null,
-      "uid": "c4514de9d562fce7",
-      "colour": "#E8336D",
-      "detail_checked": 4,
-      "category": "workshops-creative",
-      "tags": []
     },
     {
       "title": "Goûter poésie: Le pays des prénoms (Alphonse Eklou Uwantege)",
@@ -6013,18 +5888,18 @@
       "detail_checked": 4
     },
     {
-      "title": "Nov 19 Sold Out Embroidered Christmas Ornament Ixelles , Belgium Atelier ponctuel Sold Out Event Info",
+      "title": "Nov 19 Sold Out EMBROIDERY CHRISTMAS ORNAMENTS Ixelles , Belgium Atelier ponctuel Sold Out Event Info",
       "start": "2026-11-19T00:00:00+01:00",
       "end": null,
       "all_day": true,
       "location": "",
-      "description": "Nov 19 Sold Out Embroidered Christmas Ornament Ixelles , Belgium Atelier ponctuel Sold Out Event Info",
-      "url": "https://www.craft-studios.be/en/event/embroidered-christmas-ornament-333/register",
+      "description": "Nov 19 Sold Out EMBROIDERY CHRISTMAS ORNAMENTS Ixelles , Belgium Atelier ponctuel Sold Out Event Info",
+      "url": "https://www.craft-studios.be/en/event/embroidery-christmas-ornaments-333/register",
       "image": "https://www.craft-studios.be/web/image/website/1/social_default_image",
       "source": "Craft Studios",
       "price_min": null,
       "price_max": null,
-      "uid": "1a4d31ecbb5b220b",
+      "uid": "81e32fcf478925ea",
       "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "workshops-creative",
@@ -6241,21 +6116,21 @@
       ]
     },
     {
-      "title": "Nov 20 Worshop cartes postales en linogravure Ixelles , Belgium Cours régulier Get Tickets",
+      "title": "Nov 20 LINOCUT - POSTCARD Ixelles , Belgium Cours régulier Get Tickets",
       "start": "2026-11-20T00:00:00+01:00",
       "end": null,
       "all_day": true,
       "location": "",
-      "description": "Nov 20 Worshop cartes postales en linogravure Ixelles , Belgium Cours régulier Get Tickets",
-      "url": "https://www.craft-studios.be/en/event/worshop-cartes-postales-en-linogravure-308/register",
+      "description": "Nov 20 LINOCUT - POSTCARD Ixelles , Belgium Cours régulier Get Tickets",
+      "url": "https://www.craft-studios.be/en/event/linocut-postcard-308/register",
       "image": "https://www.craft-studios.be/web/image/website/1/social_default_image",
       "source": "Craft Studios",
       "price_min": 35.0,
       "price_max": 35.0,
-      "uid": "7aa48105e7da4a67",
+      "uid": "bd0eb18bcf2c8183",
       "colour": "#1B6FE0",
       "detail_checked": 4,
-      "category": "workshops-creative",
+      "category": "other",
       "tags": []
     },
     {
@@ -6891,18 +6766,18 @@
       "tags": []
     },
     {
-      "title": "Nov 22 christmas ornament - embossed metal Ixelles , Belgium Atelier ponctuel Event Get Tickets",
+      "title": "Nov 22 CHRISTMAS EMBOSSED METAL ORNAMENTS Ixelles , Belgium Atelier ponctuel Event Get Tickets",
       "start": "2026-11-22T00:00:00+01:00",
       "end": null,
       "all_day": true,
       "location": "",
-      "description": "Nov 22 christmas ornament - embossed metal Ixelles , Belgium Atelier ponctuel Event Get Tickets",
-      "url": "https://www.craft-studios.be/en/event/christmas-ornament-embossed-metal-280/register",
+      "description": "Nov 22 CHRISTMAS EMBOSSED METAL ORNAMENTS Ixelles , Belgium Atelier ponctuel Event Get Tickets",
+      "url": "https://www.craft-studios.be/en/event/christmas-embossed-metal-ornaments-280/register",
       "image": "https://www.craft-studios.be/web/image/website/1/social_default_image",
       "source": "Craft Studios",
       "price_min": 35.0,
       "price_max": 35.0,
-      "uid": "1d9e8312a0393e0a",
+      "uid": "dd29e4e0918360c0",
       "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "workshops-creative",
@@ -7468,6 +7343,26 @@
       "tags": []
     },
     {
+      "title": "jeudi 26 novembre 2026 Apprendre Projection du film NAZA à l'ULB Jeudi 26 novembre 2026 à 18:00 Bruxelles - 1000 Organisé par ProtestBase",
+      "start": "2026-11-26T18:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Bruxelles, Franklin Rooseveltlaan, Bruxelles",
+      "description": "jeudi 26 novembre 2026 Apprendre Projection du film NAZA à l'ULB Jeudi 26 novembre 2026 à 18:00 Bruxelles - 1000 Organisé par ProtestBase",
+      "url": "https://protestbase.be/event/79d5f0bd-5f35-4d4b-a86b-8e6d1d9ef026",
+      "image": "https://protestbase.be/og.jpg",
+      "source": "Protestbase Bruxelles",
+      "price_min": null,
+      "price_max": null,
+      "uid": "182403f725d0eb1e",
+      "colour": "#E07A00",
+      "detail_checked": 4,
+      "category": "activism-justice",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
       "title": "Electric Fever",
       "start": "2026-11-26T19:00:00+01:00",
       "end": null,
@@ -7489,26 +7384,6 @@
       "detail_checked": 4
     },
     {
-      "title": "do 26.11.26 20:00 AfterMyth Noha Ramadan",
-      "start": "2026-11-26T20:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "do 26.11.26 20:00 AfterMyth Noha Ramadan dans Kaaistudios Tickets",
-      "url": "https://kaaitheater.be/nl/agenda/26-27/aftermyth",
-      "image": null,
-      "source": "Kaaitheater",
-      "price_min": 12.0,
-      "price_max": 20.0,
-      "uid": "10b4d94bba451a61",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "do 26.11.26 20:00 anger angels Sophia Rodriguez Teresa Vittucci",
       "start": "2026-11-26T20:00:00+01:00",
       "end": null,
@@ -7521,6 +7396,26 @@
       "price_min": 14.0,
       "price_max": 26.0,
       "uid": "5257f7b92d7ea182",
+      "colour": "#7B49D6",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
+      "title": "do 26.11.26 20:00 AfterMyth Noha Ramadan",
+      "start": "2026-11-26T20:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "do 26.11.26 20:00 AfterMyth Noha Ramadan dans Kaaistudios Tickets",
+      "url": "https://kaaitheater.be/nl/agenda/26-27/aftermyth",
+      "image": null,
+      "source": "Kaaitheater",
+      "price_min": 12.0,
+      "price_max": 20.0,
+      "uid": "10b4d94bba451a61",
       "colour": "#7B49D6",
       "detail_checked": 4,
       "category": "other",
@@ -7702,6 +7597,24 @@
       "tags": []
     },
     {
+      "title": "vendredi 27 novembre 2026 Apprendre Cuba assiégié par le capitalisme - séminaire d'actualité sociale Vendredi 27 novembre 2026 à 09:00 Saint",
+      "start": "2026-11-27T09:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Saint-Gilles, 45 Rue de Suède - Zwedenstraat, Saint-Gilles",
+      "description": "vendredi 27 novembre 2026 Apprendre Cuba assiégié par le capitalisme - séminaire d'actualité sociale Vendredi 27 novembre 2026 à 09:00 Saint-Gilles - 1060 Organisé par ProtestBase",
+      "url": "https://protestbase.be/event/0c09154f-dd5c-4180-89ef-bb45b199b27e",
+      "image": "https://protestbase.be/og.jpg",
+      "source": "Protestbase Bruxelles",
+      "price_min": null,
+      "price_max": null,
+      "uid": "f993970e32902099",
+      "colour": "#E07A00",
+      "detail_checked": 4,
+      "category": "talks-discussions",
+      "tags": []
+    },
+    {
       "title": "Open Coworking Day: Join and Cowork on Your Projects",
       "start": "2026-11-27T09:30:00+01:00",
       "end": "2026-11-27T18:00:00+01:00",
@@ -7726,7 +7639,7 @@
       "all_day": false,
       "location": "Brasserie Quartier Leopold, Place du Luxembourg 9, Bruxelles, Bruxelles",
       "description": "✨ **Meet new people in Brussels every Friday evening!** Looking to expand your social circle, meet international people and enjoy relaxed conversations in the heart of Brussels? Join **EuroMeet every Friday anytime from 18:30 until at least 22:30** at the **Quartier Leopold brasserie**, located on Place du Luxembourg, directly opposite the European Parliament. Our meetup offers a friendly, relaxed and international atmosphere where it is easy to talk and get to know people—without loud music or a chaotic party environment. . 🍻 Drinks, food and dinner available 🌍 Internationals, expats, newcome",
-      "url": "https://www.meetup.com/brussels-meetup/events/bngwbvyjcpbkc/",
+      "url": "https://www.meetup.com/brussels-meetup/events/317329731/",
       "image": "https://secure.meetupstatic.com/photos/event/1/7/b/3/600_533826067.jpeg",
       "source": "Brussels Language Meetup",
       "price_min": 150.0,
@@ -8534,6 +8447,24 @@
       ]
     },
     {
+      "title": "Guided tour 02.12.2026 Look Who's Talking Look Who’s Talking: Daniel Blanga Gubbay (EN)",
+      "start": "2026-12-02T11:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Guided tour 02.12.2026 Look Who's Talking Look Who’s Talking: Daniel Blanga Gubbay (EN)",
+      "url": "https://wiels.org/en/events/look-whos-talking-daniel-blanga-gubbay",
+      "image": "https://wiels.org/actions/assets/generate-transform?transformId=9",
+      "source": "WIELS",
+      "price_min": 0.0,
+      "price_max": 12.0,
+      "uid": "f20fb03ee81b41ef",
+      "colour": "#E07A00",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "Travailler dans le social-santé à Bruxelles - Bien-être au travail et attractivité des métiers",
       "start": "2026-12-02T09:30:00+01:00",
       "end": "2026-12-02T17:00:00+01:00",
@@ -9043,24 +8974,6 @@
       "tags_llm_done": true
     },
     {
-      "title": "Matinée de réflexion : Pratiquer une dramaturgie partagée",
-      "start": "2026-12-09T09:30:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Le 9 décembre 2026 de 09:30 à 13:30 Matinée de réflexion : Pratiquer une dramaturgie partagée Séminaires avec La RAC , Les complicités chorégraphiques",
-      "url": "https://bellone.be/programmation-publique/matinee-de-reflexion-pratiquer-une-dramaturgie-partagee",
-      "image": null,
-      "source": "La Bellone",
-      "price_min": null,
-      "price_max": null,
-      "uid": "02ff50b702de86b0",
-      "colour": "#E8336D",
-      "detail_checked": 4,
-      "category": "talks-discussions",
-      "tags": []
-    },
-    {
       "title": "Gathering: Back to la Bourse for Palestine!",
       "start": "2026-12-09T18:00:00+00:00",
       "end": "2026-12-09T19:00:00+00:00",
@@ -9242,6 +9155,24 @@
       "price_min": null,
       "price_max": null,
       "uid": "33205487bc92aa98",
+      "colour": "#E8336D",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Bayo Hassan Bello",
+      "start": "2026-12-11T12:30:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Le 11 décembre 2026 de 12:30 à 13:30 Bayo Hassan Bello Half & Half Closer",
+      "url": "https://bellone.be/programmation-publique/bayo-hassan-bello-2",
+      "image": null,
+      "source": "La Bellone",
+      "price_min": null,
+      "price_max": null,
+      "uid": "c6c0c3f5878d2786",
       "colour": "#E8336D",
       "detail_checked": 4,
       "category": "other",
@@ -9685,6 +9616,26 @@
       "detail_checked": 4,
       "category": "talks-discussions",
       "tags": []
+    },
+    {
+      "title": "Bellone on Stage « Les Loyautés (3la Slamtek) »",
+      "start": "2026-12-14T19:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Le 14 décembre 2026 de 19:00 à 20:00 Bellone on Stage « Les Loyautés (3la Slamtek) » Brandon Kano Butare & Marwane Lakhal Lecture avec Théâtre des Martyrs,",
+      "url": "https://bellone.be/programmation-publique/bellone-on-stage-les-loyautes-3la-slamtek",
+      "image": null,
+      "source": "La Bellone",
+      "price_min": null,
+      "price_max": null,
+      "uid": "3c327a44a8bec765",
+      "colour": "#E8336D",
+      "detail_checked": 4,
+      "category": "culture-arts",
+      "tags": [
+        "evening"
+      ]
     },
     {
       "title": "Hidden Figures",
@@ -11039,6 +10990,24 @@
       "tags": [
         "recurring"
       ]
+    },
+    {
+      "title": "Ichraf Nasri",
+      "start": "2027-02-11T12:30:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Le 11 février 2027 de 12:30 à 13:30 Ichraf Nasri Half & Half Closer",
+      "url": "https://bellone.be/programmation-publique/ichraf-nasri",
+      "image": null,
+      "source": "La Bellone",
+      "price_min": null,
+      "price_max": null,
+      "uid": "cdf3105a8d8dc52c",
+      "colour": "#E8336D",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
     },
     {
       "title": "Open Coworking Day: Join and Cowork on Your Projects",
