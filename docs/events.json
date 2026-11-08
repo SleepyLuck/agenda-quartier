@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-08T12:46:11.502865+01:00",
+  "generated": "2026-11-08T21:10:32.050802+01:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
@@ -151,7 +151,7 @@
       "url": "https://www.senghor.be/agenda/",
       "colour": "#E8336D",
       "count": 26,
-      "method": "none",
+      "method": "browser",
       "stale": true,
       "last_ok": "2026-10-03"
     },
@@ -159,7 +159,7 @@
       "name": "Flagey",
       "url": "https://www.flagey.be/agenda",
       "colour": "#1B6FE0",
-      "count": 12,
+      "count": 11,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-11-08"
@@ -186,7 +186,7 @@
       "name": "Kaaitheater",
       "url": "https://kaaitheater.be/nl/agenda",
       "colour": "#7B49D6",
-      "count": 17,
+      "count": 16,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-11-08"
@@ -222,7 +222,7 @@
       "name": "Quefaire.be brocantes (Brussels region)",
       "url": "https://www.quefaire.be/brocantes/region-de-bruxelles",
       "colour": "#E8336D",
-      "count": 3,
+      "count": 7,
       "method": "jsonld",
       "stale": false,
       "last_ok": "2026-11-08"
@@ -330,7 +330,7 @@
       "name": "Stuut",
       "url": "https://stuut.info/",
       "colour": "#7B49D6",
-      "count": 5,
+      "count": 3,
       "method": "none",
       "stale": true,
       "last_ok": "2026-11-07"
@@ -402,7 +402,7 @@
       "name": "Forest (commune agenda)",
       "url": "https://forest.brussels/fr/agenda",
       "colour": "#7B49D6",
-      "count": 24,
+      "count": 23,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-11-08"
@@ -546,7 +546,7 @@
       "name": "CNCD-11.11.11",
       "url": "https://www.cncd.be/",
       "colour": "#7B49D6",
-      "count": 8,
+      "count": 9,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-11-08"
@@ -922,7 +922,7 @@
       "carried": 3,
       "stale": true,
       "error_class": "billing",
-      "note": "llm: 401 Unauthorized: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgqPmUAwiMCELa7UVyqAT\"}"
+      "note": "llm: 401 Unauthorized: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgr4QhnCUoudPWwnqKg3o\"}"
     },
     {
       "source": "U-Square",
@@ -996,19 +996,19 @@
     },
     {
       "source": "Le Senghor",
-      "method": "none",
-      "found": 0,
+      "method": "browser",
+      "found": 9,
       "kept": 0,
       "carried": 26,
       "stale": true,
-      "error_class": "billing",
-      "note": "browser: jsonld/recipe empty, llm skipped (billing failure earlier this run)"
+      "error_class": "",
+      "note": ""
     },
     {
       "source": "Flagey",
       "method": "recipe",
-      "found": 12,
-      "kept": 12,
+      "found": 11,
+      "kept": 11,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1017,7 +1017,7 @@
     {
       "source": "BOZAR",
       "method": "recipe",
-      "found": 8,
+      "found": 6,
       "kept": 5,
       "carried": 0,
       "stale": false,
@@ -1038,7 +1038,7 @@
       "source": "Kaaitheater",
       "method": "recipe",
       "found": 18,
-      "kept": 17,
+      "kept": 16,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1077,8 +1077,8 @@
     {
       "source": "Quefaire.be brocantes (Brussels region)",
       "method": "jsonld",
-      "found": 4,
-      "kept": 3,
+      "found": 8,
+      "kept": 7,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1199,7 +1199,7 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "carried": 5,
+      "carried": 3,
       "stale": true,
       "error_class": "site",
       "note": "recipe: ConnectionError: HTTPSConnectionPool(host='stuut.info', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='stuut.info', port=443): Failed to estab"
@@ -1278,7 +1278,7 @@
       "source": "Forest (commune agenda)",
       "method": "recipe",
       "found": 24,
-      "kept": 24,
+      "kept": 23,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1438,7 +1438,7 @@
       "source": "CNCD-11.11.11",
       "method": "recipe",
       "found": 10,
-      "kept": 8,
+      "kept": 9,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1577,88 +1577,6 @@
   ],
   "events": [
     {
-      "title": "SOIRÉE SOLIDAIRE POUR CEUTA",
-      "start": "2026-11-07T17:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "nov. 7 SOIRÉE SOLIDAIRE POUR CEUTA 17h00 - 22h00 Bruxelles",
-      "url": "https://stuut.info/SOIREE-SOLIDAIRE-POUR-CEUTA-14625",
-      "image": "https://stuut.info/squelettes/images/stuut_lin_fb_1200x627.jpeg",
-      "source": "Stuut",
-      "price_min": null,
-      "price_max": null,
-      "uid": "e6cda51cf3194499",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ],
-      "stale": true
-    },
-    {
-      "title": "Boycott culturel d’Israël",
-      "start": "2026-11-07T18:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "nov. 7 Boycott culturel d’Israël 18h00 - 21h00",
-      "url": "https://stuut.info/Boycott-culturel-d-Israel-14507",
-      "image": "https://stuut.info/squelettes/images/stuut_lin_fb_1200x627.jpeg",
-      "source": "Stuut",
-      "price_min": null,
-      "price_max": null,
-      "uid": "69d6657d85ff2ef5",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ],
-      "stale": true
-    },
-    {
-      "title": "za 07.11.26 20:00 (titre provisoire) Johana Malédon Compagnie MÂLE | Africa is/in the Future",
-      "start": "2026-11-07T20:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "za 07.11.26 20:00 (titre provisoire) Johana Malédon Compagnie MÂLE | Africa is/in the Future dans Kaaistudios Tickets",
-      "url": "https://kaaitheater.be/nl/agenda/26-27/titre-provisoire",
-      "image": null,
-      "source": "Kaaitheater",
-      "price_min": 12.0,
-      "price_max": 20.0,
-      "uid": "1a59d341d6d6581a",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Vertelsels voor Verdorven Kinderen (16+)",
-      "start": "2026-11-07T20:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Vertelsels voor Verdorven Kinderen (16+) sam 07/11 - 20:00 Théâtre",
-      "url": "http://forest.brussels/fr/agenda/vertelsels-voor-verdorven-kinderen-16-",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "8bad9e0586c94e35",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "culture-arts",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "8 novembre 2026",
       "start": "2026-11-08T00:00:00+01:00",
       "end": null,
@@ -1693,84 +1611,6 @@
       "detail_checked": 4,
       "category": "other",
       "tags": []
-    },
-    {
-      "title": "Guided tour 08.11.2026 Look Who's Talking: Sofia Dati (FR)",
-      "start": "2026-11-08T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "Guided tour 08.11.2026 Look Who's Talking: Sofia Dati (FR)",
-      "url": "https://wiels.org/en/events/look-whos-talking-sofia-dati-2",
-      "image": "https://wiels.org/actions/assets/generate-transform?transformId=9",
-      "source": "WIELS",
-      "price_min": 0.0,
-      "price_max": 12.0,
-      "uid": "7fb67cdab646e02c",
-      "colour": "#E07A00",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "Brocante d’automne",
-      "start": "2026-11-08T00:00:00+01:00",
-      "end": "2026-11-08T00:00:00+01:00",
-      "all_day": false,
-      "location": "École du Sacre-Coeur de Stockel, Woluwe-Saint-Pierre",
-      "description": "",
-      "url": "https://www.quefaire.be/brocante-dautomne-8771009.shtml",
-      "image": "https://www.quefaire.be/img_n/8771009_1.jpeg",
-      "source": "Quefaire.be brocantes (Brussels region)",
-      "price_min": 12.0,
-      "price_max": 12.0,
-      "uid": "3551382912d2af2a",
-      "colour": "#E8336D",
-      "detail_checked": 4,
-      "category": "markets-fairs",
-      "tags": [
-        "late-night"
-      ]
-    },
-    {
-      "title": "Brocante - Ecole Sacré coeur de Stockel - 50 exposants",
-      "start": "2026-11-08T00:00:00+01:00",
-      "end": "2026-11-08T00:00:00+01:00",
-      "all_day": false,
-      "location": "Ecole Sacré Coeur de Stockel, Woluwe-Saint-Pierre",
-      "description": "",
-      "url": "https://www.quefaire.be/brocante-ecole-sacre-coeur-8776264.shtml",
-      "image": "https://www.quefaire.be/img_n/8776264_1.jpeg",
-      "source": "Quefaire.be brocantes (Brussels region)",
-      "price_min": 12.0,
-      "price_max": 20.0,
-      "uid": "56b076426c321699",
-      "colour": "#E8336D",
-      "detail_checked": 4,
-      "category": "markets-fairs",
-      "tags": [
-        "late-night"
-      ]
-    },
-    {
-      "title": "Garage sale",
-      "start": "2026-11-08T00:00:00+01:00",
-      "end": "2026-11-08T00:00:00+01:00",
-      "all_day": false,
-      "location": "A Domicile, Evere",
-      "description": "",
-      "url": "https://www.quefaire.be/garage-sale-8776749.shtml",
-      "image": "https://www.quefaire.be/img_n/8776749_1.jpeg",
-      "source": "Quefaire.be brocantes (Brussels region)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "88ea3e00e17d3905",
-      "colour": "#E8336D",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "late-night"
-      ]
     },
     {
       "title": "Sablon Antiques Market",
@@ -2116,24 +1956,6 @@
       "tags": []
     },
     {
-      "title": "Bozar Sunday #2: Jean Brusselmans",
-      "start": "2026-11-08T11:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Bozar Sunday #2: Jean Brusselmans Sold out Cancelled Postponed Last Tickets Kids’ Palace Bozar Sunday #2: Jean Brusselmans 8 Nov.'26 - 11:00",
-      "url": "https://www.bozar.be/en/calendar/bozar-sunday-2-jean-brusselmans",
-      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
-      "source": "BOZAR",
-      "price_min": null,
-      "price_max": null,
-      "uid": "f45e0db12cd0d0e9",
-      "colour": "#00937A",
-      "detail_checked": 4,
-      "category": "family-children",
-      "tags": []
-    },
-    {
       "title": "Portia Zvavahera: Kuzviramba Mamuri",
       "start": "2026-11-08T11:00:00+01:00",
       "end": null,
@@ -2188,42 +2010,6 @@
       "tags": []
     },
     {
-      "title": "Lucy Lost",
-      "start": "2026-11-08T14:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "Lucy Lost Sun 8 Nov 14:00 Studio 5 cinema animation € 7,00–€ 10,50 dates dates Sun 8 Nov 14:00 tickets Wed 28 Oct 14:45 Past event Fri 30 Oct 14:00 Past event",
-      "url": "https://www.flagey.be/en/agenda/lucy-lost-b55c",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "bf5791c1137aa816",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "film-cinema",
-      "tags": []
-    },
-    {
-      "title": "dans 1h Manifestation Rassemblement festif veille de la cop 31 Dimanche 8 novembre 2026 à 14:00 Bruxelles - 1000 Organisé par ProtestBase",
-      "start": "2026-11-08T14:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Bruxelles, Place de l'Albertine - Albertinaplein, Bruxelles",
-      "description": "dans 1h Manifestation Rassemblement festif veille de la cop 31 Dimanche 8 novembre 2026 à 14:00 Bruxelles - 1000 Organisé par ProtestBase",
-      "url": "https://protestbase.be/event/53e84a0d-310e-476b-aa3c-fa09af284c64",
-      "image": "https://protestbase.be/og.jpg",
-      "source": "Protestbase Bruxelles",
-      "price_min": null,
-      "price_max": null,
-      "uid": "766138742c2989e4",
-      "colour": "#E07A00",
-      "detail_checked": 4,
-      "category": "activism-justice",
-      "tags": []
-    },
-    {
       "title": "L’Arbre du Réconfort - film To Kill a Butterfly avec débat",
       "start": "2026-11-08T14:00:00+01:00",
       "end": null,
@@ -2260,24 +2046,6 @@
       "tags": []
     },
     {
-      "title": "La Gradiva",
-      "start": "2026-11-08T15:45:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "La Gradiva Sun 8 Nov - Fri 27 Nov Studio 5 cinema € 7,00–€ 10,50 dates dates Sun 8 Nov 15:45 tickets Fri 13 Nov 18:45 tickets Sun 15 Nov 18:15 tickets Sat 21 Nov 15:50 tickets Fri 27 Nov 16:10 tickets Wed 28 Oct 20:15 Past event Fri 30 Oct 20:30 Past event Sun 1 Nov 16:00 Past event Thu 5 Nov 21:05",
-      "url": "https://www.flagey.be/en/agenda/la-gradiva-mbb1",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "fab1d0a1ea101e56",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "film-cinema",
-      "tags": []
-    },
-    {
       "title": "Nyota, les enfants lumière",
       "start": "2026-11-08T18:00:00+01:00",
       "end": null,
@@ -2295,46 +2063,6 @@
       ],
       "stale": true,
       "detail_checked": 4
-    },
-    {
-      "title": "Eruption",
-      "start": "2026-11-08T18:30:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "Eruption Sun 8 Nov - Sun 29 Nov Studio 5 cinema € 7,00–€ 10,50 dates dates Sun 8 Nov 18:30 tickets Sat 14 Nov 15:35 tickets Wed 18 Nov 17:30 tickets Sun 29 Nov 17:50 tickets Wed 4 Nov 17:15 Past event",
-      "url": "https://www.flagey.be/en/agenda/eruption-yh35",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "09086b5355d82843",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "film-cinema",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Amores Perros",
-      "start": "2026-11-08T20:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "Amores Perros Sun 8 Nov and Wed 11 Nov Studio 5 cinema € 7,00–€ 10,50 dates dates Sun 8 Nov 20:00 tickets Wed 11 Nov 16:00 tickets Sun 25 Oct 20:35 Past event Thu 29 Oct 20:30 Past event",
-      "url": "https://www.flagey.be/en/agenda/amores-perros-ntqw",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "4d11a3ead4a73926",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "film-cinema",
-      "tags": [
-        "evening"
-      ]
     },
     {
       "title": "9 novembre 2026",
@@ -2526,18 +2254,18 @@
       ]
     },
     {
-      "title": "Demain Manifestation Weekly Protest Bourse Brussels Lundi 9 novembre 2026 à 19:00 Bruxelles - 1000 Organisé par ProtestBase",
+      "title": "dans 22h Manifestation Weekly Protest Bourse Brussels Lundi 9 novembre 2026 à 19:00 Bruxelles - 1000 Organisé par ProtestBase",
       "start": "2026-11-09T19:00:00+01:00",
       "end": null,
       "all_day": false,
       "location": "Bruxelles, Bourse, 1000 Brussels, Bruxelles",
-      "description": "Demain Manifestation Weekly Protest Bourse Brussels Lundi 9 novembre 2026 à 19:00 Bruxelles - 1000 Organisé par ProtestBase",
+      "description": "dans 22h Manifestation Weekly Protest Bourse Brussels Lundi 9 novembre 2026 à 19:00 Bruxelles - 1000 Organisé par ProtestBase",
       "url": "https://protestbase.be/event/82819804-5a9e-4554-b090-1ba9f47b24ed",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
       "price_min": null,
       "price_max": null,
-      "uid": "91eb9e7ddb73148e",
+      "uid": "c4f7f6df607e3a53",
       "colour": "#E07A00",
       "detail_checked": 4,
       "category": "activism-justice",
@@ -2680,26 +2408,6 @@
       "colour": "#C0392B",
       "detail_checked": 4,
       "category": "music",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Rimbaud - le spectacle musical / Première 10 nov 2026 Théatre / Spectacles Comédies Musicales La Station des Rêveurs - Schaerbeek Schaerbeek",
-      "start": "2026-11-10T18:30:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "La Station des Rêveurs - Schaerbeek, Pl. Princesse Elisabeth 5, 1030 Schaerbeek, Belgique, Schaerbeek",
-      "description": "Rimbaud - le spectacle musical / Première 10 nov 2026 Théatre / Spectacles Comédies Musicales La Station des Rêveurs - Schaerbeek Schaerbeek - Bruxelles Une première, 135 ans jour pour jour après sa mort — 10 novembre 2026 10 novembre 1891. Arthur Rimbaud meurt à Marseille. 10 novembre 2026. 135 a",
-      "url": "https://www.out.be/fr/evenements/219801_rimbaud-le-spectacle-musical-premiere.html",
-      "image": "https://www.out.be/assets/img/logo-outbe.svg",
-      "source": "Out.be",
-      "price_min": 25.0,
-      "price_max": 25.0,
-      "uid": "3b097ff2f2b1b859",
-      "colour": "#8A7500",
-      "detail_checked": 4,
-      "category": "culture-arts",
       "tags": [
         "evening"
       ]
@@ -2956,6 +2664,66 @@
       ]
     },
     {
+      "title": "Bric a Brac de l'étrange",
+      "start": "2026-11-11T00:00:00+01:00",
+      "end": "2026-11-11T00:00:00+01:00",
+      "all_day": false,
+      "location": "Centre d'Art Fantastique, Saint-Gilles",
+      "description": "",
+      "url": "https://www.quefaire.be/bric-a-brac-de-letrange-8750594.shtml",
+      "image": "https://www.quefaire.be/img_n/8750594_1.jpeg",
+      "source": "Quefaire.be brocantes (Brussels region)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "dc21b241be039360",
+      "colour": "#E8336D",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "late-night"
+      ]
+    },
+    {
+      "title": "Brocante au profit de l'asbl Compagnons Dépanneurs",
+      "start": "2026-11-11T00:00:00+01:00",
+      "end": "2026-11-11T00:00:00+01:00",
+      "all_day": false,
+      "location": "Siège Social de l'Asbl Compagnons Dépanneurs, Saint-Gilles",
+      "description": "",
+      "url": "https://www.quefaire.be/brocante-au-profit-de-lasbl-8767845.shtml",
+      "image": "https://www.quefaire.be/img_n/8767845_1.jpeg",
+      "source": "Quefaire.be brocantes (Brussels region)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "410e1427020bccf8",
+      "colour": "#E8336D",
+      "detail_checked": 4,
+      "category": "markets-fairs",
+      "tags": [
+        "late-night"
+      ]
+    },
+    {
+      "title": "14ème Grande Brocante Couverte à L'institut René Cartigny",
+      "start": "2026-11-11T00:00:00+01:00",
+      "end": "2026-11-11T00:00:00+01:00",
+      "all_day": false,
+      "location": "Institut Rene Cartigny, Ixelles",
+      "description": "",
+      "url": "https://www.quefaire.be/14eme-grande-brocante-8775637.shtml",
+      "image": "https://www.quefaire.be/img_n/8775637_1.jpeg",
+      "source": "Quefaire.be brocantes (Brussels region)",
+      "price_min": 15.0,
+      "price_max": 15.0,
+      "uid": "153ba6c84ac4101a",
+      "colour": "#E8336D",
+      "detail_checked": 4,
+      "category": "markets-fairs",
+      "tags": [
+        "late-night"
+      ]
+    },
+    {
       "title": "Nov 11 CROCHET - COASTERS & PLACEMAT Ixelles , Belgium Cours régulier Get Tickets",
       "start": "2026-11-11T00:00:00+01:00",
       "end": null,
@@ -3077,6 +2845,24 @@
       "colour": "#7B49D6",
       "detail_checked": 4,
       "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Amores Perros",
+      "start": "2026-11-11T16:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "Amores Perros Wed 11 Nov 16:00 Studio 5 cinema € 7,00–€ 10,50 dates dates Wed 11 Nov 16:00 tickets Sun 25 Oct 20:35 Past event Thu 29 Oct 20:30 Past event Sun 8 Nov 20:00 Past event",
+      "url": "https://www.flagey.be/en/agenda/amores-perros-ntqw",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 10.5,
+      "uid": "b504ee923bd67480",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "film-cinema",
       "tags": []
     },
     {
@@ -3785,18 +3571,18 @@
       "tags": []
     },
     {
-      "title": "dans 5 jours Soutien Violences faites aux femmes: un combat permanent - Séminaire d’actualité Sociale Vendredi 13 novembre 2026 à 09:00 Sain",
+      "title": "dans 4 jours Soutien Violences faites aux femmes: un combat permanent - Séminaire d’actualité Sociale Vendredi 13 novembre 2026 à 09:00 Sain",
       "start": "2026-11-13T09:00:00+01:00",
       "end": null,
       "all_day": false,
       "location": "Saint-Gilles, 45 Rue de Suède - Zwedenstraat, Saint-Gilles",
-      "description": "dans 5 jours Soutien Violences faites aux femmes: un combat permanent - Séminaire d’actualité Sociale Vendredi 13 novembre 2026 à 09:00 Saint-Gilles - 1060 Organisé par ProtestBase",
+      "description": "dans 4 jours Soutien Violences faites aux femmes: un combat permanent - Séminaire d’actualité Sociale Vendredi 13 novembre 2026 à 09:00 Saint-Gilles - 1060 Organisé par ProtestBase",
       "url": "https://protestbase.be/event/6fc66d51-baf0-4d18-816d-b2fd763e1d8a",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
       "price_min": null,
       "price_max": null,
-      "uid": "6ba176f672514527",
+      "uid": "1aa39a357d0ceebe",
       "colour": "#E07A00",
       "detail_checked": 4,
       "category": "talks-discussions",
@@ -3967,6 +3753,26 @@
       "colour": "#C0392B",
       "detail_checked": 4,
       "category": "other",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
+      "title": "La Gradiva",
+      "start": "2026-11-13T18:45:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "La Gradiva Fri 13 Nov - Fri 27 Nov Studio 5 cinema € 7,00–€ 10,50 dates dates Fri 13 Nov 18:45 tickets Sun 15 Nov 18:15 tickets Sat 21 Nov 15:50 tickets Fri 27 Nov 16:10 tickets Wed 28 Oct 20:15 Past event Fri 30 Oct 20:30 Past event Sun 1 Nov 16:00 Past event Thu 5 Nov 21:05 Past event Sun 8 Nov 15",
+      "url": "https://www.flagey.be/en/agenda/la-gradiva-mbb1",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 10.5,
+      "uid": "53b1a5a2a9e42f1f",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "film-cinema",
       "tags": [
         "evening"
       ]
@@ -4167,6 +3973,46 @@
       "category": "other",
       "tags": [
         "free"
+      ]
+    },
+    {
+      "title": "Grande vente mensuelle ... monthly sale ... Tweedehands verkoop",
+      "start": "2026-11-14T00:00:00+01:00",
+      "end": "2026-11-14T00:00:00+01:00",
+      "all_day": false,
+      "location": "Armée du Salut, Bruxelles",
+      "description": "",
+      "url": "https://www.quefaire.be/grande-vente-mensuelle-8773121.shtml",
+      "image": "https://www.quefaire.be/img_n/8773121_1.jpeg",
+      "source": "Quefaire.be brocantes (Brussels region)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "92b69d58a86015c7",
+      "colour": "#E8336D",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "late-night"
+      ]
+    },
+    {
+      "title": "Brocante",
+      "start": "2026-11-14T00:00:00+01:00",
+      "end": "2026-11-14T00:00:00+01:00",
+      "all_day": false,
+      "location": "Garage Sale Privé, Woluwe-Saint-Pierre",
+      "description": "",
+      "url": "https://www.quefaire.be/brocante-8774057.shtml",
+      "image": "https://www.quefaire.be/img/logo_fb.png",
+      "source": "Quefaire.be brocantes (Brussels region)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "e6c7b8185fc25661",
+      "colour": "#E8336D",
+      "detail_checked": 4,
+      "category": "markets-fairs",
+      "tags": [
+        "late-night"
       ]
     },
     {
@@ -4372,24 +4218,6 @@
       "tags": []
     },
     {
-      "title": "dans 6 jours Manifestation Contre les violences faites aux enfants et aux ados Samedi 14 novembre 2026 à 14:00 Bruxelles - 1000 Organisé par",
-      "start": "2026-11-14T14:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Bruxelles, Albertinaplein, Bruxelles",
-      "description": "dans 6 jours Manifestation Contre les violences faites aux enfants et aux ados Samedi 14 novembre 2026 à 14:00 Bruxelles - 1000 Organisé par ProtestBase",
-      "url": "https://protestbase.be/event/542bcd64-397d-428f-91a4-e75c7d4f416c",
-      "image": "https://protestbase.be/og.jpg",
-      "source": "Protestbase Bruxelles",
-      "price_min": null,
-      "price_max": null,
-      "uid": "0a710d7fca122541",
-      "colour": "#E07A00",
-      "detail_checked": 4,
-      "category": "activism-justice",
-      "tags": []
-    },
-    {
       "title": "dans 6 jours Apprendre Y en a marre! - Formation Samedi 14 novembre 2026 à 14:00 Ixelles - 1050 Organisé par ProtestBase",
       "start": "2026-11-14T14:00:00+01:00",
       "end": null,
@@ -4402,6 +4230,24 @@
       "price_min": null,
       "price_max": null,
       "uid": "2816ee184c23d568",
+      "colour": "#E07A00",
+      "detail_checked": 4,
+      "category": "activism-justice",
+      "tags": []
+    },
+    {
+      "title": "dans 6 jours Manifestation Contre les violences faites aux enfants et aux ados Samedi 14 novembre 2026 à 14:00 Bruxelles - 1000 Organisé par",
+      "start": "2026-11-14T14:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Bruxelles, Albertinaplein, Bruxelles",
+      "description": "dans 6 jours Manifestation Contre les violences faites aux enfants et aux ados Samedi 14 novembre 2026 à 14:00 Bruxelles - 1000 Organisé par ProtestBase",
+      "url": "https://protestbase.be/event/542bcd64-397d-428f-91a4-e75c7d4f416c",
+      "image": "https://protestbase.be/og.jpg",
+      "source": "Protestbase Bruxelles",
+      "price_min": null,
+      "price_max": null,
+      "uid": "0a710d7fca122541",
       "colour": "#E07A00",
       "detail_checked": 4,
       "category": "activism-justice",
@@ -4423,6 +4269,24 @@
       "colour": "#7B49D6",
       "detail_checked": 4,
       "category": "workshops-creative",
+      "tags": []
+    },
+    {
+      "title": "Eruption",
+      "start": "2026-11-14T15:35:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "Eruption Sat 14 Nov - Sun 29 Nov Studio 5 cinema € 7,00–€ 10,50 dates dates Sat 14 Nov 15:35 tickets Wed 18 Nov 17:30 tickets Sun 29 Nov 17:50 tickets Wed 4 Nov 17:15 Past event Sun 8 Nov 18:30 Past event",
+      "url": "https://www.flagey.be/en/agenda/eruption-yh35",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 10.5,
+      "uid": "ef4d422c494aa43b",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "film-cinema",
       "tags": []
     },
     {
@@ -4561,6 +4425,46 @@
       "detail_checked": 4,
       "category": "film-cinema",
       "tags": []
+    },
+    {
+      "title": "Brocante a l'interieur Brussels Retro Market",
+      "start": "2026-11-15T00:00:00+01:00",
+      "end": "2026-11-15T00:00:00+01:00",
+      "all_day": false,
+      "location": "Be Here Village Durable, Laeken",
+      "description": "",
+      "url": "https://www.quefaire.be/brocante-a-linterieur-8770485.shtml",
+      "image": "https://www.quefaire.be/img_n/8770483_1.jpeg",
+      "source": "Quefaire.be brocantes (Brussels region)",
+      "price_min": 10.0,
+      "price_max": 45.0,
+      "uid": "5b36f667062e2357",
+      "colour": "#E8336D",
+      "detail_checked": 4,
+      "category": "markets-fairs",
+      "tags": [
+        "late-night"
+      ]
+    },
+    {
+      "title": "La brocante de l’Ebrius",
+      "start": "2026-11-15T00:00:00+01:00",
+      "end": "2026-11-15T00:00:00+01:00",
+      "all_day": false,
+      "location": "Ebrius Artis, Bruxelles",
+      "description": "",
+      "url": "https://www.quefaire.be/la-brocante-de-lebrius-8777936.shtml",
+      "image": "https://www.quefaire.be/img_n/8777936_1.jpeg",
+      "source": "Quefaire.be brocantes (Brussels region)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "9a1ea2e51d14c145",
+      "colour": "#E8336D",
+      "detail_checked": 4,
+      "category": "markets-fairs",
+      "tags": [
+        "late-night"
+      ]
     },
     {
       "title": "Marché des antiquités du sablon",
@@ -5465,6 +5369,24 @@
       "tags": []
     },
     {
+      "title": "18 nov",
+      "start": "2026-11-18T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "18 nov Ottignies-Louvain-la-Neuve 18/11/2026 Formation découverte de la Mallette pédagogique \"Systèmes alimentaires... Manger est un geste quotidien… mais pas anodin ! Participez à cette formation découverte pour explorer la mallette pédagogique « Systèmes alimentaires justes et durables » et accomp",
+      "url": "https://www.cncd.be/formation-decouverte-mallette-pedagogique-systemes-alimentaires-lln",
+      "image": "https://www.cncd.be/IMG/logo/spip_fond_login.jpg",
+      "source": "CNCD-11.11.11",
+      "price_min": null,
+      "price_max": null,
+      "uid": "a5914b2c3db573de",
+      "colour": "#7B49D6",
+      "detail_checked": 4,
+      "category": "environment",
+      "tags": []
+    },
+    {
       "title": "Echos d'Essences – concert olfactif",
       "start": "2026-11-18T10:00:00+01:00",
       "end": null,
@@ -6139,7 +6061,7 @@
       "all_day": false,
       "location": "Brasserie Quartier Leopold, Place du Luxembourg 9, Bruxelles, Bruxelles",
       "description": "✨ **Meet new people in Brussels every Friday evening!** Looking to expand your social circle, meet international people and enjoy relaxed conversations in the heart of Brussels? Join **EuroMeet every Friday anytime from 18:30 until at least 22:30** at the **Quartier Leopold brasserie**, located on Place du Luxembourg, directly opposite the European Parliament. Our meetup offers a friendly, relaxed and international atmosphere where it is easy to talk and get to know people—without loud music or a chaotic party environment. . 🍻 Drinks, food and dinner available 🌍 Internationals, expats, newcome",
-      "url": "https://www.meetup.com/brussels-meetup/events/bngwbvyjcpbbc/",
+      "url": "https://www.meetup.com/brussels-meetup/events/317338577/",
       "image": "https://secure.meetupstatic.com/photos/event/1/7/b/3/600_533826067.jpeg",
       "source": "Brussels Language Meetup",
       "price_min": 150.0,
@@ -6386,24 +6308,6 @@
       ]
     },
     {
-      "title": "Fanny Garin 21.11.2026 > 22.11.2026 Polar et poésie — complet Atelier Écriture Poésie Polar",
-      "start": "2026-11-21T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "Fanny Garin 21.11.2026 > 22.11.2026 Polar et poésie — complet Atelier Écriture Poésie Polar",
-      "url": "https://www.lamaisondulivre.be/atelier/polar-et-poesie/",
-      "image": "https://www.lamaisondulivre.be/wp-content/uploads/2025/08/calendar_ssfond.png",
-      "source": "La Maison du Livre",
-      "price_min": 12.0,
-      "price_max": 60.0,
-      "uid": "8a1e9e563034d1d8",
-      "colour": "#E07A00",
-      "detail_checked": 4,
-      "category": "workshops-creative",
-      "tags": []
-    },
-    {
       "title": "Ariane Poot Tom Nisse 21.11.2026 > 22.11.2026 Détruire / construire : collages en chantier Atelier Collage",
       "start": "2026-11-21T00:00:00+01:00",
       "end": null,
@@ -6440,6 +6344,24 @@
       "tags": [
         "evening"
       ]
+    },
+    {
+      "title": "Fanny Garin 21.11.2026 > 22.11.2026 Polar et poésie — complet Atelier Écriture Poésie Polar",
+      "start": "2026-11-21T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "Fanny Garin 21.11.2026 > 22.11.2026 Polar et poésie — complet Atelier Écriture Poésie Polar",
+      "url": "https://www.lamaisondulivre.be/atelier/polar-et-poesie/",
+      "image": "https://www.lamaisondulivre.be/wp-content/uploads/2025/08/calendar_ssfond.png",
+      "source": "La Maison du Livre",
+      "price_min": 12.0,
+      "price_max": 60.0,
+      "uid": "8a1e9e563034d1d8",
+      "colour": "#E07A00",
+      "detail_checked": 4,
+      "category": "workshops-creative",
+      "tags": []
     },
     {
       "title": "SŒURS de Pascal Rambert – Théâtre Marni, Bruxelles 21 nov 2026 Théatre / Spectacles Professionnels Le Marni Ixelles - Bruxelles SŒURS de P",
@@ -6667,6 +6589,24 @@
       "colour": "#00937A",
       "detail_checked": 4,
       "category": "family-children",
+      "tags": []
+    },
+    {
+      "title": "The Six - Reiner Holzemer",
+      "start": "2026-11-22T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "The Six - Reiner Holzemer Sold out Cancelled Postponed Last Tickets Films New release In the presence of the director The Six - Reiner Holzemer In the presence of the director on the 3rd of November Now → 22 Nov.'26 From 8 €",
+      "url": "https://www.bozar.be/en/calendar/six-reiner-holzemer",
+      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
+      "source": "BOZAR",
+      "price_min": 8.0,
+      "price_max": 8.0,
+      "uid": "f9409854442d5eed",
+      "colour": "#00937A",
+      "detail_checked": 4,
+      "category": "other",
       "tags": []
     },
     {
@@ -8148,6 +8088,26 @@
       "tags_llm_done": true
     },
     {
+      "title": "lundi 30 novembre 2026 Manifestation Weekly Protest Bourse Brussels Lundi 30 novembre 2026 à 19:00 Bruxelles - 1000 Organisé par ProtestBase",
+      "start": "2026-11-30T19:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Bruxelles, Bourse, 1000 Brussels, Bruxelles",
+      "description": "lundi 30 novembre 2026 Manifestation Weekly Protest Bourse Brussels Lundi 30 novembre 2026 à 19:00 Bruxelles - 1000 Organisé par ProtestBase",
+      "url": "https://protestbase.be/event/b284b5a4-8cc8-43b7-9406-260bda903dfb",
+      "image": "https://protestbase.be/og.jpg",
+      "source": "Protestbase Bruxelles",
+      "price_min": null,
+      "price_max": null,
+      "uid": "bcea2b990fd67416",
+      "colour": "#E07A00",
+      "detail_checked": 4,
+      "category": "activism-justice",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
       "title": "Diana's Tree Evening",
       "start": "2026-11-30T19:30:00+01:00",
       "end": "2026-11-30T22:00:00+01:00",
@@ -9011,6 +8971,24 @@
       "tags_llm_done": true
     },
     {
+      "title": "Los Conciertos MAS FLAMENCO 11 déc 2026 Concerts World (musique du monde) / Musique traditionnelle Le Jacques Franck Saint-Gilles - Bruxel",
+      "start": "2026-12-11T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "Le Jacques Franck, Chau. de Waterloo 94, 1060 Saint-Gilles, Belgique, 1060 Sint-Gillis, Bruxelles, Belgique, Saint-Gilles",
+      "description": "Los Conciertos MAS FLAMENCO 11 déc 2026 Concerts World (musique du monde) / Musique traditionnelle Le Jacques Franck Saint-Gilles - Bruxelles LE FLAMENCO DANS TOUTE SA SPLENDEUR, AU CŒUR DE BRUXELLES !Le vendredi 11 décembre, laissez-vous emporter par la magie du flamenco authentique, dans une soi",
+      "url": "https://www.out.be/fr/evenements/224776_los-conciertos-mas-flamenco.html",
+      "image": "https://www.out.be/assets/img/logo-outbe.svg",
+      "source": "Out.be",
+      "price_min": 10.0,
+      "price_max": 36.0,
+      "uid": "a499bb3422db4fb8",
+      "colour": "#8A7500",
+      "detail_checked": 4,
+      "category": "music",
+      "tags": []
+    },
+    {
       "title": "Open Coworking Day: Join and Cowork on Your Projects",
       "start": "2026-12-11T09:30:00+01:00",
       "end": "2026-12-11T18:00:00+01:00",
@@ -9689,6 +9667,26 @@
       "price_min": 1.25,
       "price_max": 13.0,
       "detail_checked": 4
+    },
+    {
+      "title": "Free Workshop 01.10 17.12.2026 Cooking Workshop: Community In Residence",
+      "start": "2026-12-17T11:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Free Workshop 01.10 17.12.2026 Cooking Workshop: Community In Residence",
+      "url": "https://wiels.org/en/events/community-in-residence",
+      "image": "https://wiels.org/actions/assets/generate-transform?transformId=9",
+      "source": "WIELS",
+      "price_min": 0.0,
+      "price_max": 12.0,
+      "uid": "449f93ff62eb81e0",
+      "colour": "#E07A00",
+      "detail_checked": 4,
+      "category": "workshops-creative",
+      "tags": [
+        "free"
+      ]
     },
     {
       "title": "Quand la parole circule… créer les conditions d’un véritable échange",
