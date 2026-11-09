@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-08T21:10:32.050802+01:00",
+  "generated": "2026-11-09T14:38:06.270216+01:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
@@ -7,8 +7,8 @@
       "url": "https://chechette.be/lagenda/",
       "colour": "#E8336D",
       "count": 10,
-      "method": "jsonld",
-      "stale": false,
+      "method": "none",
+      "stale": true,
       "last_ok": "2026-11-08"
     },
     {
@@ -24,10 +24,10 @@
       "name": "La Tricoterie",
       "url": "https://www.tricoterie.be/fr/agenda/l-agenda-culturel/?lang=fr",
       "colour": "#00937A",
-      "count": 14,
+      "count": 13,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "Recyclart",
@@ -36,16 +36,16 @@
       "count": 4,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "Le Jacques Franck",
       "url": "https://www.lejacquesfranck.be/agenda",
       "colour": "#7B49D6",
-      "count": 4,
+      "count": 3,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "Fuse",
@@ -54,7 +54,7 @@
       "count": 15,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "Goudblommeke in Papier",
@@ -63,16 +63,16 @@
       "count": 4,
       "method": "wordpress",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "Le Poche",
       "url": "https://poche.be/shows",
       "colour": "#8A7500",
-      "count": 6,
+      "count": 7,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "Sounds Jazz Club",
@@ -90,7 +90,7 @@
       "count": 4,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "BRASS",
@@ -99,7 +99,7 @@
       "count": 3,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "WIELS",
@@ -108,7 +108,7 @@
       "count": 12,
       "method": "browser",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "Maison Poème",
@@ -117,7 +117,7 @@
       "count": 15,
       "method": "jsonld",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "CCLJ",
@@ -162,16 +162,16 @@
       "count": 11,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "BOZAR",
       "url": "https://www.bozar.be/en/calendar",
       "colour": "#00937A",
-      "count": 5,
+      "count": 6,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "KVS",
@@ -180,7 +180,7 @@
       "count": 21,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "Kaaitheater",
@@ -189,16 +189,16 @@
       "count": 16,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "Ancienne Belgique",
       "url": "https://www.abconcerts.be/fr/agenda",
       "colour": "#C0392B",
-      "count": 9,
+      "count": 8,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "Demosphere Bruxelles",
@@ -207,7 +207,7 @@
       "count": 24,
       "method": "ics",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "CBCS (Brussels social sector agenda)",
@@ -216,7 +216,7 @@
       "count": 14,
       "method": "ics",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "Quefaire.be brocantes (Brussels region)",
@@ -225,7 +225,7 @@
       "count": 7,
       "method": "jsonld",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "Brocabrac Belgique",
@@ -234,7 +234,7 @@
       "count": 40,
       "method": "jsonld",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "Brussels Language Meetup",
@@ -243,7 +243,7 @@
       "count": 4,
       "method": "jsonld",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "Brussels International Hub Events (Meetup)",
@@ -252,7 +252,7 @@
       "count": 4,
       "method": "jsonld",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "Saint-Gilles brocantes & braderies (commune)",
@@ -288,7 +288,7 @@
       "count": 18,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "La Bellone",
@@ -297,7 +297,7 @@
       "count": 3,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "FTI Brussel (programme page)",
@@ -324,7 +324,7 @@
       "count": 12,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "Stuut",
@@ -369,7 +369,7 @@
       "count": 20,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "Varia",
@@ -378,7 +378,7 @@
       "count": 4,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "Halles de Schaerbeek",
@@ -387,7 +387,7 @@
       "count": 11,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "La Maison du Livre",
@@ -396,16 +396,16 @@
       "count": 7,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "Forest (commune agenda)",
       "url": "https://forest.brussels/fr/agenda",
       "colour": "#7B49D6",
-      "count": 23,
+      "count": 24,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "Brocantes 1060 (Saint-Gilles)",
@@ -432,7 +432,7 @@
       "count": 6,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "Latin Clubbing",
@@ -501,10 +501,10 @@
       "name": "Out.be",
       "url": "https://www.out.be/fr/",
       "colour": "#8A7500",
-      "count": 4,
+      "count": 5,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "Brasserie Illegaal",
@@ -513,7 +513,7 @@
       "count": 2,
       "method": "ics",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "Craft Studios",
@@ -522,7 +522,7 @@
       "count": 12,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "Financité",
@@ -531,7 +531,7 @@
       "count": 5,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "Inter-Environnement Bruxelles (IEB)",
@@ -549,7 +549,7 @@
       "count": 9,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "Gresea",
@@ -558,7 +558,7 @@
       "count": 5,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "POUR.press",
@@ -582,10 +582,10 @@
       "name": "Hackerspace Brussels (HSBXL)",
       "url": "https://hsbxl.be/events/index.ics",
       "colour": "#E8336D",
-      "count": 41,
+      "count": 40,
       "method": "ics",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "FTI Brussel",
@@ -594,7 +594,7 @@
       "count": 0,
       "method": "manual",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "Midis de la Poesie",
@@ -603,7 +603,7 @@
       "count": 8,
       "method": "manual",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "CRUSH festival",
@@ -612,7 +612,7 @@
       "count": 7,
       "method": "manual",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "Neighbourhood flyer",
@@ -621,7 +621,7 @@
       "count": 0,
       "method": "manual",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "Surgir asbl (Brasserie Atlas)",
@@ -630,7 +630,7 @@
       "count": 0,
       "method": "manual",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "Mazette",
@@ -639,7 +639,7 @@
       "count": 3,
       "method": "manual",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "Welzijnszorg / BOP",
@@ -648,7 +648,7 @@
       "count": 0,
       "method": "manual",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "ANTE Festival",
@@ -657,7 +657,7 @@
       "count": 0,
       "method": "manual",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     },
     {
       "name": "The Bridge Theatre",
@@ -666,7 +666,7 @@
       "count": 0,
       "method": "manual",
       "stale": false,
-      "last_ok": "2026-11-08"
+      "last_ok": "2026-11-09"
     }
   ],
   "categories": [
@@ -836,13 +836,13 @@
   "report": [
     {
       "source": "La Vieille Chéchette",
-      "method": "jsonld",
-      "found": 14,
-      "kept": 10,
-      "carried": 0,
-      "stale": false,
-      "error_class": "",
-      "note": ""
+      "method": "none",
+      "found": 0,
+      "kept": 0,
+      "carried": 10,
+      "stale": true,
+      "error_class": "site",
+      "note": "llm: ReadTimeout: HTTPSConnectionPool(host='chechette.be', port=443): Read timed out. (read timeout=25)"
     },
     {
       "source": "GC Pianofabriek",
@@ -858,7 +858,7 @@
       "source": "La Tricoterie",
       "method": "recipe",
       "found": 19,
-      "kept": 14,
+      "kept": 13,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -877,8 +877,8 @@
     {
       "source": "Le Jacques Franck",
       "method": "recipe",
-      "found": 4,
-      "kept": 4,
+      "found": 3,
+      "kept": 3,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -908,7 +908,7 @@
       "source": "Le Poche",
       "method": "recipe",
       "found": 13,
-      "kept": 6,
+      "kept": 7,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -922,12 +922,12 @@
       "carried": 3,
       "stale": true,
       "error_class": "billing",
-      "note": "llm: 401 Unauthorized: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgr4QhnCUoudPWwnqKg3o\"}"
+      "note": "llm: 401 Unauthorized: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgsSHogXZ21ujHpjJK61v\"}"
     },
     {
       "source": "U-Square",
       "method": "recipe",
-      "found": 6,
+      "found": 5,
       "kept": 4,
       "carried": 0,
       "stale": false,
@@ -1018,7 +1018,7 @@
       "source": "BOZAR",
       "method": "recipe",
       "found": 6,
-      "kept": 5,
+      "kept": 6,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1047,8 +1047,8 @@
     {
       "source": "Ancienne Belgique",
       "method": "recipe",
-      "found": 9,
-      "kept": 9,
+      "found": 8,
+      "kept": 8,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1278,7 +1278,7 @@
       "source": "Forest (commune agenda)",
       "method": "recipe",
       "found": 24,
-      "kept": 23,
+      "kept": 24,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1387,8 +1387,8 @@
     {
       "source": "Out.be",
       "method": "recipe",
-      "found": 5,
-      "kept": 4,
+      "found": 9,
+      "kept": 5,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1477,8 +1477,8 @@
     {
       "source": "Hackerspace Brussels (HSBXL)",
       "method": "ics",
-      "found": 48,
-      "kept": 41,
+      "found": 47,
+      "kept": 40,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1577,475 +1577,6 @@
   ],
   "events": [
     {
-      "title": "8 novembre 2026",
-      "start": "2026-11-08T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "8 novembre 2026",
-      "url": "https://www.tricoterie.be/fr/agenda/l-agenda-culturel/?lang=fr&archives=2026-11-08",
-      "image": null,
-      "source": "La Tricoterie",
-      "price_min": null,
-      "price_max": null,
-      "uid": "ab7faf750aa31700",
-      "colour": "#00937A",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "Res Nullius Mois du Doc dimanche 08 nov.",
-      "start": "2026-11-08T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "Res Nullius Mois du Doc dimanche 08 nov. Réserver",
-      "url": "https://lejacquesfranck.be/event/res-nullius/2026-11-08/",
-      "image": "https://lejacquesfranck.be/resources/assets/img/logo-og.png",
-      "source": "Le Jacques Franck",
-      "price_min": 4.5,
-      "price_max": 15.0,
-      "uid": "0461d6d16ac25bb6",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "Sablon Antiques Market",
-      "start": "2026-11-08T00:00:00+01:00",
-      "end": "2026-11-08T00:00:00+01:00",
-      "all_day": true,
-      "location": "Place du Grand Sablon, Bruxelles",
-      "description": "Sablon Antiques Market - open every Saturday 9am to 5pm and Sundays 9am to 3pm on Place du Grand Sablon. This market in the heart of the antiques district on Place du Grand Sablon has been an institution since the 1960s. You'll find: silverware, jewelry, collectibles, ceramics and glassware, tableware, paintings, drawings, as well as Chinese porcelain, small furniture and African art, collections, vintage papers, period furniture...",
-      "url": "https://brocabrac.fr/ru/bruxelles/993117-marche-des-antiquites-du-sablon",
-      "image": "https://brocabrac.fr/cdn/event/photos/18/fa/18fac1a672bf41b31d66cc92926b28b29c2a41f2a9bbdb4c8aca05ae9e109f3f-large.jpg",
-      "source": "Brocabrac Belgique",
-      "price_min": null,
-      "price_max": null,
-      "uid": "f16a0f3b650bc778",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "translated": true,
-      "category": "markets-fairs",
-      "category_llm": true,
-      "tags": [
-        "recurring"
-      ],
-      "tags_llm_done": true
-    },
-    {
-      "title": "Festa Musicae 08 nov 2026 Concerts Classique / Contemporain / Baroque / Carillons Église protestante de Boitsfort Watermael-Boitsfort - Br",
-      "start": "2026-11-08T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "Église protestante de Boitsfort, Av. des Cailles 131, 1170 Watermael-Boitsfort, Belgique, Watermael-Boitsfort",
-      "description": "Festa Musicae 08 nov 2026 Concerts Classique / Contemporain / Baroque / Carillons Église protestante de Boitsfort Watermael-Boitsfort - Bruxelles",
-      "url": "https://www.out.be/fr/evenements/223279_festa-musicae.html",
-      "image": "https://www.out.be/assets/img/logo-outbe.svg",
-      "source": "Out.be",
-      "price_min": 6.0,
-      "price_max": 6.0,
-      "uid": "c00ee223a58eb0d1",
-      "colour": "#8A7500",
-      "detail_checked": 4,
-      "category": "music",
-      "tags": []
-    },
-    {
-      "title": "Brocante des bastions",
-      "start": "2026-11-08T04:00:00+01:00",
-      "end": "2026-11-08T13:00:00+01:00",
-      "all_day": false,
-      "location": "parking du retail Park des Bastions, Boulevard Walter de Marvis, Tournai",
-      "description": "30€ les 3 places de parking 10€ supplémentaire par place de parking",
-      "url": "https://brocabrac.fr/ht/tournai/1263919-brocante-des-bastions",
-      "image": "https://brocabrac.fr/cdn/event/photos/68/0d/680d42567209098cd7856fbea2af278be92a498eb927cc4dd13f3ad63c2be902-large.jpg",
-      "source": "Brocabrac Belgique",
-      "price_min": 10.0,
-      "price_max": 30.0,
-      "uid": "b8e764a86b453760",
-      "colour": "#1B6FE0",
-      "category": "markets-fairs",
-      "tags": [
-        "late-night"
-      ]
-    },
-    {
-      "title": "Broc à sec",
-      "start": "2026-11-08T06:00:00+01:00",
-      "end": "2026-11-08T13:00:00+01:00",
-      "all_day": false,
-      "location": "Parking souterrain du Carrefour, Avenue du Parc, Mouscron",
-      "description": "An indoor and illuminated flea market from 6:00am to 1:00pm. From May 3, 2026 broc'à sec will also have outdoor sections. 2 parking spaces + vehicle for €26 then €13 per additional space. From May 3, 2026 broc'à sec will also have outdoor sections. Possibility to occupy an outdoor space as there are approximately 20 spaces in front of the underground parking entrance. Info and reservations by email or phone.",
-      "url": "https://brocabrac.fr/ht/mouscron/1355547-broc-a-sec",
-      "image": null,
-      "source": "Brocabrac Belgique",
-      "price_min": 10.0,
-      "price_max": 20.0,
-      "uid": "91dcb9f45959d197",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "markets-fairs",
-      "category_llm": true,
-      "tags": [
-        "outdoor"
-      ],
-      "tags_llm_done": true
-    },
-    {
-      "title": "Souverain Flea Market",
-      "start": "2026-11-08T07:00:00+01:00",
-      "end": "2026-11-08T13:00:00+01:00",
-      "all_day": false,
-      "location": "Boulevard du Souverain, Auderghem",
-      "description": "Souverain Flea Market takes place the second Sunday of each month on the central median of Boulevard du Souverain. No reservations. Space cost: €15. Space size: 4 meters. Setup from 6am. Market hours: 7am to 1pm. Contact on site: Mr. Stéphane Vilers - by phone",
-      "url": "https://brocabrac.fr/ru/auderghem/1065613-brocante-du-souverain",
-      "image": "https://brocabrac.fr/cdn/event/photos/a5/1a/a51a970351b51ba4662c1c8ae06f348609a9f678be0cab565dc32a3c20be67d0-large.jpg",
-      "source": "Brocabrac Belgique",
-      "price_min": 15.0,
-      "price_max": 15.0,
-      "uid": "229630e174902b02",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "markets-fairs",
-      "category_llm": true,
-      "tags": [
-        "outdoor",
-        "recurring"
-      ],
-      "tags_llm_done": true
-    },
-    {
-      "title": "Mabru Flea Market",
-      "start": "2026-11-08T07:00:00+01:00",
-      "end": "2026-11-08T13:00:00+01:00",
-      "all_day": false,
-      "location": "mabru (marché matinal de Bruxelles), 22 quai des Usines, Bruxelles",
-      "description": "Large flea market held every Sunday morning at the mabru site (Brussels Morning Market). There are food stalls, household products, large appliances, many used electric and manual tools as well as many small vendors. Parking is paid (€5) and crowded; I recommend coming by tram which stops right in front.",
-      "url": "https://brocabrac.fr/ru/bruxelles/1407278-brocante-mabru",
-      "image": "https://brocabrac.fr/cdn/event/photos/14/85/1485a1388536fc0f2413ec15dc7d317458308f659b9743a52904ecf30726379c-large.jpg",
-      "source": "Brocabrac Belgique",
-      "price_min": 5.0,
-      "price_max": 5.0,
-      "uid": "b960b929d3d61ab7",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "markets-fairs",
-      "category_llm": true,
-      "tags": [
-        "food-drink",
-        "recurring"
-      ],
-      "tags_llm_done": true
-    },
-    {
-      "title": "Flea Market",
-      "start": "2026-11-08T07:00:00+01:00",
-      "end": "2026-11-08T17:00:00+01:00",
-      "all_day": false,
-      "location": "Centre Culturel à Izel, Avenue Germain Gilson, Chiny",
-      "description": "Bar & food service available all day. Books, various items, toys. €15 for 2 days or €10 per day. Opens from 7:00 am",
-      "url": "https://brocabrac.fr/lx/chiny/1353474-brocante",
-      "image": null,
-      "source": "Brocabrac Belgique",
-      "price_min": 10.0,
-      "price_max": 15.0,
-      "uid": "1e7b720263cc859e",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "markets-fairs",
-      "category_llm": true,
-      "tags": [
-        "food-drink"
-      ],
-      "tags_llm_done": true
-    },
-    {
-      "title": "Large Flea Market",
-      "start": "2026-11-08T07:00:00+01:00",
-      "end": "2026-11-08T14:00:00+01:00",
-      "all_day": false,
-      "location": "7 rue des français, Les Bons Villers",
-      "description": "Whether you're a vendor, antique dealer, merchant, visitor or individual, we welcome you every Sunday from 7:00am to 2:00pm at broc antik market belgium to buy, sell, hunt for treasures and especially to attend or participate in the large weekly unloading from the back of the truck. This flea market has become popular and essential for all vendors and treasure hunters in record time. It has especially become famous for the quality of its merchandise. From €15 unloading...",
-      "url": "https://brocabrac.fr/ht/les-bons-villers/1097040-grande-brocante",
-      "image": null,
-      "source": "Brocabrac Belgique",
-      "price_min": 15.0,
-      "price_max": 15.0,
-      "uid": "7a2099b29b3b616c",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "markets-fairs",
-      "category_llm": true,
-      "tags": [
-        "recurring"
-      ],
-      "tags_llm_done": true
-    },
-    {
-      "title": "Marché aux puces de welkenraedt",
-      "start": "2026-11-08T07:00:00+01:00",
-      "end": "2026-11-08T13:00:00+01:00",
-      "all_day": false,
-      "location": "Place des Combattants, Welkenraedt",
-      "description": "Chaque dimanche matin vous pouvez chiner au marché aux puces de welkenraedt Emplacement : 2,50€/mètre informations par téléphone (du lundi au vendredi de 9h à 17h30).",
-      "url": "https://brocabrac.fr/lg/welkenraedt/992188-marche-aux-puces-de-welkenraedt",
-      "image": "https://brocabrac.fr/cdn/event/photos/ab/a6/aba6b9d83cc7b33b514237632744250dcc2238a2605eefc0ae204e8fce90ad37-large.png",
-      "source": "Brocabrac Belgique",
-      "price_min": 2.5,
-      "price_max": 2.5,
-      "uid": "c39ed30266820796",
-      "colour": "#1B6FE0",
-      "category": "markets-fairs",
-      "tags": []
-    },
-    {
-      "title": "Silenrieux Flea Market",
-      "start": "2026-11-08T08:00:00+01:00",
-      "end": "2026-11-08T19:00:00+01:00",
-      "all_day": false,
-      "location": "Place de jeu balle, Silenrieux",
-      "description": "Silenrieux Flea Market - Place de Jeu de Balle - every Sunday. One space = one module 5 meters long x 3 meters deep. Vehicle parked in back. Ground markings and numbered spaces. Stand reservations are mandatory by phone Monday 9:00am to Wednesday 7:00pm! For first-time reservations, payment is required to the Green Fair association account BE25 3630 9200 8782. For 'regular' vendors, cash payment is...",
-      "url": "https://brocabrac.fr/na/silenrieux/1267634-marche-brocante",
-      "image": null,
-      "source": "Brocabrac Belgique",
-      "price_min": 8.0,
-      "price_max": 22.5,
-      "uid": "0a917cb3b56614c1",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "translated": true,
-      "category": "markets-fairs",
-      "category_llm": true,
-      "tags": [
-        "outdoor",
-        "recurring"
-      ],
-      "tags_llm_done": true
-    },
-    {
-      "title": "Weekly Spa Flea Market",
-      "start": "2026-11-08T08:00:00+01:00",
-      "end": "2026-11-08T14:00:00+01:00",
-      "all_day": false,
-      "location": "Galerie Léopold et Parc de 7 Heures, Rue du Fourneau, Spa",
-      "description": "The flea market takes place in Galerie Léopold and the Park of 7 Hours starting at 7am every Sunday. Food service and public restrooms nearby. No reservations for occasional vendors; spaces assigned on first-come basis between 5am and 7:30am. Space cost is €3 per meter. The flea market takes place in Galerie Léopold (under roof) and the Park of 7 Hours starting at 7am. Vehicles can stay at the space.",
-      "url": "https://brocabrac.fr/lg/spa/1344011-brocante-hebdomadaire-de-spa",
-      "image": null,
-      "source": "Brocabrac Belgique",
-      "price_min": 3.0,
-      "price_max": 3.0,
-      "uid": "0ec01e4ef8059379",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "markets-fairs",
-      "category_llm": true,
-      "tags": [
-        "food-drink",
-        "recurring"
-      ],
-      "tags_llm_done": true
-    },
-    {
-      "title": "Flea Market at Place du Jeu de Balle",
-      "start": "2026-11-08T09:00:00+01:00",
-      "end": "2026-11-08T14:00:00+01:00",
-      "all_day": false,
-      "location": "Quartier des Marolles, Place du Jeu de Balle, Bruxelles",
-      "description": "In the heart of Brussels, an exceptional antique flea market takes place every morning in Place du Jeu de Balle. Located in the Marolles neighborhood, the flea market attracts both passersby and curious shoppers alike. You'll find great bargains with a diverse selection of merchandise: clothing, jewelry, furniture, books, paintings, vintage items, teapots, lamps, collectibles, dishes, medals, furniture... Hours 9am-2pm",
-      "url": "https://brocabrac.fr/ru/bruxelles/993112-marche-aux-puces-de-la-place-du-jeu-de-balle",
-      "image": "https://brocabrac.fr/cdn/event/photos/eb/09/eb09b6d54d72c1d24ff3edc7e2f8ec2647908382a4b3451e7c1f0feaa206f3df-large.png",
-      "source": "Brocabrac Belgique",
-      "price_min": 9.0,
-      "price_max": 9.0,
-      "uid": "ce7f6fd8b902e514",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "translated": true,
-      "category": "markets-fairs",
-      "category_llm": true,
-      "tags": [
-        "outdoor",
-        "recurring"
-      ],
-      "tags_llm_done": true
-    },
-    {
-      "title": "De Troostboom (L’Arbre du Réconfort)",
-      "start": "2026-11-08T09:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "De Troostboom (L’Arbre du Réconfort) dim 08/11 - 09:00 Cours, Stages et Ateliers",
-      "url": "http://forest.brussels/fr/agenda/cours-stages-et-ateliers/2026/de-troostboom-larbre-du-reconfort",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "3cf3d0ad437ab35d",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "workshops-creative",
-      "tags": []
-    },
-    {
-      "title": "Ronquières Sloped Flea Market",
-      "start": "2026-11-08T10:00:00+01:00",
-      "end": "2026-11-08T14:00:00+01:00",
-      "all_day": false,
-      "location": "Rue Rosemont, Braine-Le-Comte",
-      "description": "Ronquières Sloped Flea Market - Rue Rosemont - free parking - every Saturday, Sunday and public holidays 10am to 2pm (tent open from 9am). No reservations. Phone for information. A space is 5m x 5m for €16 or 3 parking spaces/€24 etc with your vehicle always nearby.",
-      "url": "https://brocabrac.fr/ht/braine-le-comte/1190581-brocante-inclinee-de-ronquieres",
-      "image": null,
-      "source": "Brocabrac Belgique",
-      "price_min": 16.0,
-      "price_max": 24.0,
-      "uid": "543c5280d7488843",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "markets-fairs",
-      "category_llm": true,
-      "tags": [
-        "free",
-        "outdoor",
-        "recurring"
-      ],
-      "tags_llm_done": true
-    },
-    {
-      "title": "Cultural Center Flea Market",
-      "start": "2026-11-08T10:00:00+01:00",
-      "end": "2026-11-08T18:00:00+01:00",
-      "all_day": false,
-      "location": "centre culturel, Izel",
-      "description": "Bar and light food service available all day. Live music from 11am. Vendors: toys, gaming, books, antiques, miscellaneous items. €15 per table",
-      "url": "https://brocabrac.fr/lx/izel/1398635-brocante-du-centre-culturel",
-      "image": "https://brocabrac.fr/cdn/event/photos/dc/aa/dcaab822eac7a0f9e120024e199f374e05d85c5dcda5543c5a9739bdf25bbe79-large.jpg",
-      "source": "Brocabrac Belgique",
-      "price_min": 15.0,
-      "price_max": 15.0,
-      "uid": "fe74448d2ed85ca5",
-      "colour": "#1B6FE0",
-      "translated": true,
-      "category": "markets-fairs",
-      "category_llm": true,
-      "tags": [
-        "food-drink",
-        "live"
-      ],
-      "tags_llm_done": true
-    },
-    {
-      "title": "Vide-maison",
-      "start": "2026-11-08T10:00:00+01:00",
-      "end": "2026-11-08T17:00:00+01:00",
-      "all_day": false,
-      "location": "25 rue Bourgmestre Octave Targez, Philippeville",
-      "description": "Bonjour à toutes et tous, vous avez manqué le vide-maison de ce week-end ??? Vous avez envie de revenir pour à nouveau fouiner et découvrir de nouveaux trésors ?? Pas de soucis !!! Retrouvons nous samedi 7 et dimanche 8 novembre ! Venez nombreux. Merci de partager. Cécile . .",
-      "url": "https://brocabrac.fr/na/philippeville/1413658-vide-maison",
-      "image": "https://brocabrac.fr/cdn/event/photos/7d/63/7d63757abc7fb6c5b788bafa0b7793b49e2d7fdf0e1d9fc506f1b133a0ef9d0c-large.jpg",
-      "source": "Brocabrac Belgique",
-      "price_min": 10.0,
-      "price_max": 10.0,
-      "uid": "e4a5e7f147aba62d",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "Portia Zvavahera: Kuzviramba Mamuri",
-      "start": "2026-11-08T11:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Portia Zvavahera: Kuzviramba Mamuri dim 08/11 - 11:00 Exposition",
-      "url": "http://forest.brussels/fr/agenda/exposition/2026/portia-zvavahera-kuzviramba-mamuri",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "0c5a484e999aeff6",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "culture-arts",
-      "tags": []
-    },
-    {
-      "title": "Ali Cherri: Pray, Lips of Clay",
-      "start": "2026-11-08T11:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Ali Cherri: Pray, Lips of Clay dim 08/11 - 11:00 Exposition",
-      "url": "http://forest.brussels/fr/agenda/exposition/2026/ali-cherri-pray-lips-of-clay",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "1dead4c5f54cbe63",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "culture-arts",
-      "tags": []
-    },
-    {
-      "title": "Lost and Found. La photographie japonaise",
-      "start": "2026-11-08T13:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Lost and Found. La photographie japonaise dim 08/11 - 13:00 Exposition",
-      "url": "http://forest.brussels/fr/agenda/exposition/2026/lost-and-found-la-photographie-japonaise",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "a56add1a01652101",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "culture-arts",
-      "tags": []
-    },
-    {
-      "title": "L’Arbre du Réconfort - film To Kill a Butterfly avec débat",
-      "start": "2026-11-08T14:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "L’Arbre du Réconfort - film To Kill a Butterfly avec débat dim 08/11 - 14:00 Cinéma",
-      "url": "http://forest.brussels/fr/agenda/cinema/2026/larbre-du-reconfort-film-to-kill-a-butterfly-avec-debat",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "2fb658bba4322712",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "film-cinema",
-      "tags": []
-    },
-    {
-      "title": "Sunday Electronics Workshop 033 - CANCELLED",
-      "start": "2026-11-08T14:00:00+01:00",
-      "end": "2026-11-08T20:00:00+01:00",
-      "all_day": false,
-      "location": "HSBXL",
-      "description": "https://hsbxl.be/events/sunday-electronics/033/",
-      "url": "https://hsbxl.be/events/sunday-electronics/033/",
-      "image": null,
-      "source": "Hackerspace Brussels (HSBXL)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "a269632755e4407a",
-      "colour": "#E8336D",
-      "detail_checked": 4,
-      "category": "workshops-creative",
-      "tags": []
-    },
-    {
       "title": "Nyota, les enfants lumière",
       "start": "2026-11-08T18:00:00+01:00",
       "end": null,
@@ -2081,46 +1612,6 @@
       "detail_checked": 4,
       "category": "other",
       "tags": []
-    },
-    {
-      "title": "general lun 9 nov '26 AB Grande salle Enter Shikari + Holding Absence, The Callous Daoboys Nouvel album 'Lose Your self' Concert Acheter",
-      "start": "2026-11-09T19:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "general lun 9 nov '26 AB Grande salle Enter Shikari + Holding Absence, The Callous Daoboys Nouvel album 'Lose Your self' Concert Acheter",
-      "url": "https://www.abconcerts.be/fr/agenda/enter-shikari/a10Qw00000IRNPZIA5",
-      "image": "https://abconcerts.be/assets/website/components/images/og-image.1c2180e4.png",
-      "source": "Ancienne Belgique",
-      "price_min": 8.6,
-      "price_max": 44.0,
-      "uid": "c854e5f4993fbaba",
-      "colour": "#C0392B",
-      "detail_checked": 4,
-      "category": "music",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "general lun 9 nov '26 AB Salon Artist talk / Q&A: Craig Leon - Ramones Le producteur légendaire parle de son travail et de sa vie Interview",
-      "start": "2026-11-09T19:30:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "general lun 9 nov '26 AB Salon Artist talk / Q&A: Craig Leon - Ramones Le producteur légendaire parle de son travail et de sa vie Interview Punk 50: Celebrating 50 years of punk Acheter",
-      "url": "https://www.abconcerts.be/fr/agenda/artist-talk-qa-craig-leon-ramones/a10Qw00000ETS8vIAH",
-      "image": "https://abconcerts.be/assets/website/components/images/og-image.1c2180e4.png",
-      "source": "Ancienne Belgique",
-      "price_min": 2.0,
-      "price_max": 27.0,
-      "uid": "1cbd2f01be2593ae",
-      "colour": "#C0392B",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
     },
     {
       "title": "[Grêve] un blocage des dépôts TEC privés de Wallonie",
@@ -2175,6 +1666,24 @@
       "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "markets-fairs",
+      "tags": []
+    },
+    {
+      "title": "De Troostboom (L’Arbre du Réconfort)",
+      "start": "2026-11-09T09:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "De Troostboom (L’Arbre du Réconfort) lun 09/11 - 09:00 Cours, Stages et Ateliers",
+      "url": "http://forest.brussels/fr/agenda/cours-stages-et-ateliers/2026/de-troostboom-larbre-du-reconfort",
+      "image": null,
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "0c5a331f48bcede5",
+      "colour": "#7B49D6",
+      "detail_checked": 4,
+      "category": "workshops-creative",
       "tags": []
     },
     {
@@ -2254,18 +1763,18 @@
       ]
     },
     {
-      "title": "dans 22h Manifestation Weekly Protest Bourse Brussels Lundi 9 novembre 2026 à 19:00 Bruxelles - 1000 Organisé par ProtestBase",
+      "title": "dans 4h Manifestation Weekly Protest Bourse Brussels Lundi 9 novembre 2026 à 19:00 Bruxelles - 1000 Organisé par ProtestBase",
       "start": "2026-11-09T19:00:00+01:00",
       "end": null,
       "all_day": false,
       "location": "Bruxelles, Bourse, 1000 Brussels, Bruxelles",
-      "description": "dans 22h Manifestation Weekly Protest Bourse Brussels Lundi 9 novembre 2026 à 19:00 Bruxelles - 1000 Organisé par ProtestBase",
+      "description": "dans 4h Manifestation Weekly Protest Bourse Brussels Lundi 9 novembre 2026 à 19:00 Bruxelles - 1000 Organisé par ProtestBase",
       "url": "https://protestbase.be/event/82819804-5a9e-4554-b090-1ba9f47b24ed",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
       "price_min": null,
       "price_max": null,
-      "uid": "c4f7f6df607e3a53",
+      "uid": "0207e4c757928deb",
       "colour": "#E07A00",
       "detail_checked": 4,
       "category": "activism-justice",
@@ -2308,7 +1817,8 @@
       "colour": "#E8336D",
       "detail_checked": 4,
       "category": "other",
-      "tags": []
+      "tags": [],
+      "stale": true
     },
     {
       "title": "Enragez-vous ! Festival d’automne du Théâtre Action I International mardi 10 nov.",
@@ -2353,6 +1863,24 @@
       "tags_llm_done": true
     },
     {
+      "title": "Immersive Cinema 26-27",
+      "start": "2026-11-10T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "Immersive Cinema 26-27 Sold out Cancelled Postponed Last Tickets Films Immersive Cinema Secondary Education Higher Education Immersive Cinema 26-27 10 Nov.'26 → 2 Apr.'27",
+      "url": "https://www.bozar.be/en/calendar/immersive-cinema-26-27-0",
+      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
+      "source": "BOZAR",
+      "price_min": 6.0,
+      "price_max": 6.0,
+      "uid": "c74d8258907a1c28",
+      "colour": "#00937A",
+      "detail_checked": 4,
+      "category": "film-cinema",
+      "tags": []
+    },
+    {
       "title": "general mar 10 nov '26 GC Ten Noey Gelukkig Zijn Sessie @ GC Ten Noey Pratiquez le néerlandais à Bruxelles en chantant ! Concert De Gelukkig",
       "start": "2026-11-10T13:30:00+01:00",
       "end": null,
@@ -2370,6 +1898,26 @@
       "category": "music",
       "tags": [
         "free"
+      ]
+    },
+    {
+      "title": "general mar 10 nov '26 AB Club Sunday Charmers Entre tension brute et éclats 90's Concert Acheter",
+      "start": "2026-11-10T19:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "general mar 10 nov '26 AB Club Sunday Charmers Entre tension brute et éclats 90's Concert Acheter",
+      "url": "https://www.abconcerts.be/fr/agenda/sunday-charmers/a10Qw00000GpdSjIAJ",
+      "image": "https://abconcerts.be/assets/website/components/images/og-image.1c2180e4.png",
+      "source": "Ancienne Belgique",
+      "price_min": 5.0,
+      "price_max": 27.0,
+      "uid": "9fec90df306a83bd",
+      "colour": "#C0392B",
+      "detail_checked": 4,
+      "category": "music",
+      "tags": [
+        "evening"
       ]
     },
     {
@@ -2393,21 +1941,21 @@
       ]
     },
     {
-      "title": "general mar 10 nov '26 AB Club Sunday Charmers Entre tension brute et éclats 90's Concert Acheter",
-      "start": "2026-11-10T19:00:00+01:00",
+      "title": "Rimbaud - le spectacle musical / Première 10 nov 2026 Théatre / Spectacles Comédies Musicales La Station des Rêveurs - Schaerbeek Schaerbeek",
+      "start": "2026-11-10T18:30:00+01:00",
       "end": null,
       "all_day": false,
-      "location": "",
-      "description": "general mar 10 nov '26 AB Club Sunday Charmers Entre tension brute et éclats 90's Concert Acheter",
-      "url": "https://www.abconcerts.be/fr/agenda/sunday-charmers/a10Qw00000GpdSjIAJ",
-      "image": "https://abconcerts.be/assets/website/components/images/og-image.1c2180e4.png",
-      "source": "Ancienne Belgique",
-      "price_min": 5.0,
-      "price_max": 27.0,
-      "uid": "9fec90df306a83bd",
-      "colour": "#C0392B",
+      "location": "La Station des Rêveurs - Schaerbeek, Pl. Princesse Elisabeth 5, 1030 Schaerbeek, Belgique, Schaerbeek",
+      "description": "Rimbaud - le spectacle musical / Première 10 nov 2026 Théatre / Spectacles Comédies Musicales La Station des Rêveurs - Schaerbeek Schaerbeek - Bruxelles Une première, 135 ans jour pour jour après sa mort — 10 novembre 2026 10 novembre 1891. Arthur Rimbaud meurt à Marseille. 10 novembre 2026. 135 a",
+      "url": "https://www.out.be/fr/evenements/219801_rimbaud-le-spectacle-musical-premiere.html",
+      "image": "https://www.out.be/assets/img/logo-outbe.svg",
+      "source": "Out.be",
+      "price_min": 25.0,
+      "price_max": 25.0,
+      "uid": "3b097ff2f2b1b859",
+      "colour": "#8A7500",
       "detail_checked": 4,
-      "category": "music",
+      "category": "culture-arts",
       "tags": [
         "evening"
       ]
@@ -2469,6 +2017,42 @@
       "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "markets-fairs",
+      "tags": []
+    },
+    {
+      "title": "Portia Zvavahera: Kuzviramba Mamuri",
+      "start": "2026-11-10T11:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Portia Zvavahera: Kuzviramba Mamuri mar 10/11 - 11:00 Exposition",
+      "url": "http://forest.brussels/fr/agenda/exposition/2026/portia-zvavahera-kuzviramba-mamuri",
+      "image": null,
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "faf98765a7915550",
+      "colour": "#7B49D6",
+      "detail_checked": 4,
+      "category": "culture-arts",
+      "tags": []
+    },
+    {
+      "title": "Ali Cherri: Pray, Lips of Clay",
+      "start": "2026-11-10T11:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Ali Cherri: Pray, Lips of Clay mar 10/11 - 11:00 Exposition",
+      "url": "http://forest.brussels/fr/agenda/exposition/2026/ali-cherri-pray-lips-of-clay",
+      "image": null,
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "37cc9ede8f0682ad",
+      "colour": "#7B49D6",
+      "detail_checked": 4,
+      "category": "culture-arts",
       "tags": []
     },
     {
@@ -2946,7 +2530,8 @@
       "colour": "#E8336D",
       "detail_checked": 4,
       "category": "music",
-      "tags": []
+      "tags": [],
+      "stale": true
     },
     {
       "title": "© SpeakEasy Gratis Speakeasy Externe organisator: SpeakEasy Spoken Word BXL do 12.11.2026 GC Pianofabriek, Sint-Gillis Thema activiteit Poë",
@@ -3069,6 +2654,26 @@
       ]
     },
     {
+      "title": "general jeu 12 nov '26 AB Grande salle Wallace Cleaver + Henri Bleu Marcel Tour Concert Acheter",
+      "start": "2026-11-12T19:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "general jeu 12 nov '26 AB Grande salle Wallace Cleaver + Henri Bleu Marcel Tour Concert Acheter",
+      "url": "https://www.abconcerts.be/fr/agenda/wallace-cleaver/a10Qw00000FjOC1IAN",
+      "image": "https://abconcerts.be/assets/website/components/images/og-image.1c2180e4.png",
+      "source": "Ancienne Belgique",
+      "price_min": 6.0,
+      "price_max": 31.0,
+      "uid": "e61048aea18462d9",
+      "colour": "#C0392B",
+      "detail_checked": 4,
+      "category": "music",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
       "title": "12.11.2026 > 03.12.2026 Derrière le brouillard Exposition",
       "start": "2026-11-12T00:00:00+01:00",
       "end": null,
@@ -3084,6 +2689,42 @@
       "colour": "#E07A00",
       "detail_checked": 4,
       "category": "culture-arts",
+      "tags": []
+    },
+    {
+      "title": "Wallace Cleaver 12 nov 2026 Concerts Hip-Hop / Rap Ancienne Belgique (AB) Bruxelles - Bruxelles Une musique différente, pour une localisat",
+      "start": "2026-11-12T13:30:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Ancienne Belgique, 110 Boulevard Anspachlaan, 1000 Bruxelles, Bruxelles, Belgique, 1000 Bruxelles, Bruxelles, Belgique, Bruxelles",
+      "description": "Wallace Cleaver 12 nov 2026 Concerts Hip-Hop / Rap Ancienne Belgique (AB) Bruxelles - Bruxelles Une musique différente, pour une localisation différente. Originaire du Loir et Cher, Wallace Cleaver fait un pas de côté dans le rap français tout en étant un digne héritier de ce dernier. Porté par",
+      "url": "https://www.out.be/fr/evenements/208407_wallace-cleaver.html",
+      "image": "https://www.out.be/assets/img/logo-outbe.svg",
+      "source": "Out.be",
+      "price_min": 85.0,
+      "price_max": 85.0,
+      "uid": "ca9ae7ca631fe3c9",
+      "colour": "#8A7500",
+      "detail_checked": 4,
+      "category": "music",
+      "tags": []
+    },
+    {
+      "title": "HOUB 12 nov 14 nov Concerts Atelier 210 Etterbeek - Bruxelles Comment décrire nos corps si nous n’avons pas de langage ? En arabe, ḥoub si",
+      "start": "2026-11-12T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "Atelier 210, 210 Chaussée Saint-Pierre, 1040 Etterbeek, Bruxelles, Belgique, Etterbeek",
+      "description": "HOUB 12 nov 14 nov Concerts Atelier 210 Etterbeek - Bruxelles Comment décrire nos corps si nous n’avons pas de langage ? En arabe, ḥoub signifie « amour » sous toutes ses formes. La racine ح ب ب (« ḥbb ») fait référence à la graine, au noyau, à ce qui porte la v",
+      "url": "https://www.out.be/fr/evenements/209925_houb.html",
+      "image": "https://www.out.be/assets/img/logo-outbe.svg",
+      "source": "Out.be",
+      "price_min": null,
+      "price_max": null,
+      "uid": "f69542613fb34aba",
+      "colour": "#8A7500",
+      "detail_checked": 4,
+      "category": "music",
       "tags": []
     },
     {
@@ -3233,6 +2874,24 @@
         "live"
       ],
       "tags_llm_done": true
+    },
+    {
+      "title": "Lost and Found. La photographie japonaise",
+      "start": "2026-11-12T13:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Lost and Found. La photographie japonaise jeu 12/11 - 13:00 Exposition",
+      "url": "http://forest.brussels/fr/agenda/exposition/2026/lost-and-found-la-photographie-japonaise",
+      "image": null,
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "7ca0242f4851b5af",
+      "colour": "#7B49D6",
+      "detail_checked": 4,
+      "category": "culture-arts",
+      "tags": []
     },
     {
       "title": "Coward",
@@ -3434,7 +3093,8 @@
       "colour": "#E8336D",
       "detail_checked": 4,
       "category": "other",
-      "tags": []
+      "tags": [],
+      "stale": true
     },
     {
       "title": "13 novembre 2026",
@@ -3705,7 +3365,7 @@
       "all_day": false,
       "location": "",
       "description": "TW Allez ven 13/11 - 17:30 Animations",
-      "url": "http://forest.brussels/fr/agenda/animations/2026/tw-allez-3",
+      "url": "http://forest.brussels/fr/agenda/animations/2026/tw-allez",
       "image": null,
       "source": "Forest (commune agenda)",
       "price_min": null,
@@ -4182,6 +3842,42 @@
       ]
     },
     {
+      "title": "Grrrabuge Natural Wine Festival #4",
+      "start": "2026-11-14T10:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Grrrabuge Natural Wine Festival #4 sam 14/11 - 10:00 Festival",
+      "url": "http://forest.brussels/fr/agenda/festival/2026/grrrabuge-natural-wine-festival-4",
+      "image": null,
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "3c731c8391b8faf8",
+      "colour": "#7B49D6",
+      "detail_checked": 4,
+      "category": "festivals-celebrations",
+      "tags": []
+    },
+    {
+      "title": "Atelier bouturage de vivaces et de grimpantes",
+      "start": "2026-11-14T10:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Atelier bouturage de vivaces et de grimpantes sam 14/11 - 10:00 Cours, Stages et Ateliers",
+      "url": "http://forest.brussels/fr/agenda/cours-stages-et-ateliers/2026/atelier-bouturage-de-vivaces-et-de-grimpantes",
+      "image": null,
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "19793a28c3d5bc91",
+      "colour": "#7B49D6",
+      "detail_checked": 4,
+      "category": "workshops-creative",
+      "tags": []
+    },
+    {
       "title": "Vertelspel",
       "start": "2026-11-14T11:30:00+01:00",
       "end": null,
@@ -4218,36 +3914,36 @@
       "tags": []
     },
     {
-      "title": "dans 6 jours Apprendre Y en a marre! - Formation Samedi 14 novembre 2026 à 14:00 Ixelles - 1050 Organisé par ProtestBase",
+      "title": "dans 5 jours Apprendre Y en a marre! - Formation Samedi 14 novembre 2026 à 14:00 Ixelles - 1050 Organisé par ProtestBase",
       "start": "2026-11-14T14:00:00+01:00",
       "end": null,
       "all_day": false,
       "location": "Ixelles, 47 Rue Fritz Toussaint - Fritz Toussaintstraat, Ixelles",
-      "description": "dans 6 jours Apprendre Y en a marre! - Formation Samedi 14 novembre 2026 à 14:00 Ixelles - 1050 Organisé par ProtestBase",
+      "description": "dans 5 jours Apprendre Y en a marre! - Formation Samedi 14 novembre 2026 à 14:00 Ixelles - 1050 Organisé par ProtestBase",
       "url": "https://protestbase.be/event/099823b9-21eb-4853-9647-34919995a4ee",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
       "price_min": null,
       "price_max": null,
-      "uid": "2816ee184c23d568",
+      "uid": "8e465fe3b0c86862",
       "colour": "#E07A00",
       "detail_checked": 4,
       "category": "activism-justice",
       "tags": []
     },
     {
-      "title": "dans 6 jours Manifestation Contre les violences faites aux enfants et aux ados Samedi 14 novembre 2026 à 14:00 Bruxelles - 1000 Organisé par",
+      "title": "dans 5 jours Manifestation Contre les violences faites aux enfants et aux ados Samedi 14 novembre 2026 à 14:00 Bruxelles - 1000 Organisé par",
       "start": "2026-11-14T14:00:00+01:00",
       "end": null,
       "all_day": false,
       "location": "Bruxelles, Albertinaplein, Bruxelles",
-      "description": "dans 6 jours Manifestation Contre les violences faites aux enfants et aux ados Samedi 14 novembre 2026 à 14:00 Bruxelles - 1000 Organisé par ProtestBase",
+      "description": "dans 5 jours Manifestation Contre les violences faites aux enfants et aux ados Samedi 14 novembre 2026 à 14:00 Bruxelles - 1000 Organisé par ProtestBase",
       "url": "https://protestbase.be/event/542bcd64-397d-428f-91a4-e75c7d4f416c",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
       "price_min": null,
       "price_max": null,
-      "uid": "0a710d7fca122541",
+      "uid": "ed11c05bbbb4f9fe",
       "colour": "#E07A00",
       "detail_checked": 4,
       "category": "activism-justice",
@@ -4503,6 +4199,24 @@
       "tags": []
     },
     {
+      "title": "Coke Studio Sessions: JEN 15 nov 2026 Concerts Pop / Rock / Pop-Rock Ancienne Belgique (AB) Bruxelles - Bruxelles JEN est le projet pop-ro",
+      "start": "2026-11-15T13:30:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Ancienne Belgique, 110 Boulevard Anspachlaan, 1000 Bruxelles, Bruxelles, Belgique, 1000 Bruxelles, Bruxelles, Belgique, Bruxelles",
+      "description": "Coke Studio Sessions: JEN 15 nov 2026 Concerts Pop / Rock / Pop-Rock Ancienne Belgique (AB) Bruxelles - Bruxelles JEN est le projet pop-rock de Jente Neels, 24 ans. Avec un son novateur, des guitares puissantes et des accroches percutantes qui restent en tête, elle se fait rapidement un nom sur la",
+      "url": "https://www.out.be/fr/evenements/207035_coke-studio-sessions-jen.html",
+      "image": "https://www.out.be/assets/img/logo-outbe.svg",
+      "source": "Out.be",
+      "price_min": null,
+      "price_max": null,
+      "uid": "d3f00c3de4bc4bf8",
+      "colour": "#8A7500",
+      "detail_checked": 4,
+      "category": "music",
+      "tags": []
+    },
+    {
       "title": "Nov 15 ADVENT CALENDAR Ixelles , Belgium Atelier ponctuel Event Get Tickets",
       "start": "2026-11-15T00:00:00+01:00",
       "end": null,
@@ -4643,6 +4357,24 @@
       "tags": []
     },
     {
+      "title": "Bourse des collectionneurs woluwe shopping",
+      "start": "2026-11-15T07:00:00+01:00",
+      "end": "2026-11-15T13:00:00+01:00",
+      "all_day": false,
+      "location": "Woluwe Shopping, 70 boulevard de la Woluwe, Woluwe-Saint-Lambert",
+      "description": "La plus grande bourse depuis plus de 30 ans une fois par mois, un dimanche matin, le woluwe shopping center, à woluwe-saint-lambert (bruxelles), ouvre ses portes à une vaste « bourse des collectionneurs » qui attire d'innombrables amateurs. La bourse des collectionneurs prend alors possession des allées du shopping de woluwé afin de vous proposer tous les objets qui pourraient ravir les collectionneurs, amateurs de brocantes, ou tout simplement les familles quel que soient leurs dadas : bande...",
+      "url": "https://brocabrac.fr/ru/woluwe-saint-lambert/1269158-bourse-des-collectionneurs-woluwe-shopping",
+      "image": "https://brocabrac.fr/cdn/event/photos/5e/1b/5e1bcb7d066465ec8e3835b3265e60c7fbba0ce79b9988787175dfe03eb6efa7-large.jpg",
+      "source": "Brocabrac Belgique",
+      "price_min": 7.0,
+      "price_max": 50.0,
+      "uid": "e378fab9da0d3071",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "family-children",
+      "tags": []
+    },
+    {
       "title": "Brocante",
       "start": "2026-11-15T08:00:00+01:00",
       "end": "2026-11-15T17:00:00+01:00",
@@ -4769,18 +4501,18 @@
       "tags": []
     },
     {
-      "title": "dimanche 15 novembre 2026 Soutien AG Anti-Ice Belgique Dimanche 15 novembre 2026 à 14:00 Saint-Gilles - 1060 Organisé par ProtestBase",
+      "title": "dans 6 jours Soutien AG Anti-Ice Belgique Dimanche 15 novembre 2026 à 14:00 Saint-Gilles - 1060 Organisé par ProtestBase",
       "start": "2026-11-15T14:00:00+01:00",
       "end": null,
       "all_day": false,
       "location": "Saint-Gilles, 26 Rue de la Victoire - Overwinningsstraat, Saint-Gilles",
-      "description": "dimanche 15 novembre 2026 Soutien AG Anti-Ice Belgique Dimanche 15 novembre 2026 à 14:00 Saint-Gilles - 1060 Organisé par ProtestBase",
+      "description": "dans 6 jours Soutien AG Anti-Ice Belgique Dimanche 15 novembre 2026 à 14:00 Saint-Gilles - 1060 Organisé par ProtestBase",
       "url": "https://protestbase.be/event/275b5ea0-f2ee-402b-8bd0-f4c1f5fcbe83",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
       "price_min": null,
       "price_max": null,
-      "uid": "7d959c17b18a4c46",
+      "uid": "93db88f9109ae20c",
       "colour": "#E07A00",
       "detail_checked": 4,
       "category": "activism-justice",
@@ -4858,7 +4590,8 @@
       "colour": "#E8336D",
       "detail_checked": 4,
       "category": "other",
-      "tags": []
+      "tags": [],
+      "stale": true
     },
     {
       "title": "16 novembre 2026",
@@ -4958,6 +4691,24 @@
       "tags_llm_done": true
     },
     {
+      "title": "Marché aux puces de la place du jeu de balle",
+      "start": "2026-11-16T09:00:00+01:00",
+      "end": "2026-11-16T14:00:00+01:00",
+      "all_day": false,
+      "location": "Quartier des Marolles, Place du Jeu de Balle, Bruxelles",
+      "description": "Au cœur de bruxelles, tous les matins se tient une brocante d'antiquité exceptionnelle sur la place du jeu de balle. ... Situé dans le quartier des marolles, le marché aux puces attire aussi bien les passants que les curieux. ... Vous y ferez de très belles affaires tant les marchandises proposées sont diverses : vêtements, bijoux, mobilier d'intérieur, mais aussi des livres et des tableaux d'antiquité, fripes, théières, lampes, bibelots, vaisselles, médailles, meubles... ... Horaires 9h -14h...",
+      "url": "https://brocabrac.fr/ru/bruxelles/993112-marche-aux-puces-de-la-place-du-jeu-de-balle",
+      "image": "https://brocabrac.fr/cdn/event/photos/eb/09/eb09b6d54d72c1d24ff3edc7e2f8ec2647908382a4b3451e7c1f0feaa206f3df-large.png",
+      "source": "Brocabrac Belgique",
+      "price_min": 9.0,
+      "price_max": 9.0,
+      "uid": "e562b09ec8a6fac1",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "markets-fairs",
+      "tags": []
+    },
+    {
       "title": "Salon des écoles maternelles",
       "start": "2026-11-16T16:30:00+01:00",
       "end": null,
@@ -5011,7 +4762,8 @@
       "colour": "#E8336D",
       "detail_checked": 4,
       "category": "other",
-      "tags": []
+      "tags": [],
+      "stale": true
     },
     {
       "title": "Hors les murs Saison 26-27 17 — 21 novembre 2026 JULIETTE ET ROMÉO Eline Schumacher Découvrir",
@@ -5127,6 +4879,24 @@
       "colour": "#7B49D6",
       "detail_checked": 4,
       "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Marché aux puces de la place du jeu de balle",
+      "start": "2026-11-17T09:00:00+01:00",
+      "end": "2026-11-17T14:00:00+01:00",
+      "all_day": false,
+      "location": "Quartier des Marolles, Place du Jeu de Balle, Bruxelles",
+      "description": "Au cœur de bruxelles, tous les matins se tient une brocante d'antiquité exceptionnelle sur la place du jeu de balle. ... Situé dans le quartier des marolles, le marché aux puces attire aussi bien les passants que les curieux. ... Vous y ferez de très belles affaires tant les marchandises proposées sont diverses : vêtements, bijoux, mobilier d'intérieur, mais aussi des livres et des tableaux d'antiquité, fripes, théières, lampes, bibelots, vaisselles, médailles, meubles... ... Horaires 9h -14h...",
+      "url": "https://brocabrac.fr/ru/bruxelles/993112-marche-aux-puces-de-la-place-du-jeu-de-balle",
+      "image": "https://brocabrac.fr/cdn/event/photos/eb/09/eb09b6d54d72c1d24ff3edc7e2f8ec2647908382a4b3451e7c1f0feaa206f3df-large.png",
+      "source": "Brocabrac Belgique",
+      "price_min": 9.0,
+      "price_max": 9.0,
+      "uid": "49e5127fa1d85e13",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "markets-fairs",
       "tags": []
     },
     {
@@ -5387,6 +5157,24 @@
       "tags": []
     },
     {
+      "title": "Marché aux puces de la place du jeu de balle",
+      "start": "2026-11-18T09:00:00+01:00",
+      "end": "2026-11-18T14:00:00+01:00",
+      "all_day": false,
+      "location": "Quartier des Marolles, Place du Jeu de Balle, Bruxelles",
+      "description": "Au cœur de bruxelles, tous les matins se tient une brocante d'antiquité exceptionnelle sur la place du jeu de balle. ... Situé dans le quartier des marolles, le marché aux puces attire aussi bien les passants que les curieux. ... Vous y ferez de très belles affaires tant les marchandises proposées sont diverses : vêtements, bijoux, mobilier d'intérieur, mais aussi des livres et des tableaux d'antiquité, fripes, théières, lampes, bibelots, vaisselles, médailles, meubles... ... Horaires 9h -14h...",
+      "url": "https://brocabrac.fr/ru/bruxelles/993112-marche-aux-puces-de-la-place-du-jeu-de-balle",
+      "image": "https://brocabrac.fr/cdn/event/photos/eb/09/eb09b6d54d72c1d24ff3edc7e2f8ec2647908382a4b3451e7c1f0feaa206f3df-large.png",
+      "source": "Brocabrac Belgique",
+      "price_min": 9.0,
+      "price_max": 9.0,
+      "uid": "a7cbdad0956e018d",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "markets-fairs",
+      "tags": []
+    },
+    {
       "title": "Echos d'Essences – concert olfactif",
       "start": "2026-11-18T10:00:00+01:00",
       "end": null,
@@ -5582,7 +5370,8 @@
       "colour": "#E8336D",
       "detail_checked": 4,
       "category": "other",
-      "tags": []
+      "tags": [],
+      "stale": true
     },
     {
       "title": "Gratis Slameke Externe organisator: Slameke asbl do 19.11.2026 GC Pianofabriek, Sint-Gillis Thema activiteit Poëzie 18 - 99 jaar",
@@ -5747,6 +5536,24 @@
       "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Marché aux puces de la place du jeu de balle",
+      "start": "2026-11-19T09:00:00+01:00",
+      "end": "2026-11-19T14:00:00+01:00",
+      "all_day": false,
+      "location": "Quartier des Marolles, Place du Jeu de Balle, Bruxelles",
+      "description": "Au cœur de bruxelles, tous les matins se tient une brocante d'antiquité exceptionnelle sur la place du jeu de balle. ... Situé dans le quartier des marolles, le marché aux puces attire aussi bien les passants que les curieux. ... Vous y ferez de très belles affaires tant les marchandises proposées sont diverses : vêtements, bijoux, mobilier d'intérieur, mais aussi des livres et des tableaux d'antiquité, fripes, théières, lampes, bibelots, vaisselles, médailles, meubles... ... Horaires 9h -14h...",
+      "url": "https://brocabrac.fr/ru/bruxelles/993112-marche-aux-puces-de-la-place-du-jeu-de-balle",
+      "image": "https://brocabrac.fr/cdn/event/photos/eb/09/eb09b6d54d72c1d24ff3edc7e2f8ec2647908382a4b3451e7c1f0feaa206f3df-large.png",
+      "source": "Brocabrac Belgique",
+      "price_min": 9.0,
+      "price_max": 9.0,
+      "uid": "6bd4c0a6ea285550",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "markets-fairs",
       "tags": []
     },
     {
@@ -6019,6 +5826,24 @@
       "tags": []
     },
     {
+      "title": "Marché aux puces de la place du jeu de balle",
+      "start": "2026-11-20T09:00:00+01:00",
+      "end": "2026-11-20T14:00:00+01:00",
+      "all_day": false,
+      "location": "Quartier des Marolles, Place du Jeu de Balle, Bruxelles",
+      "description": "Au cœur de bruxelles, tous les matins se tient une brocante d'antiquité exceptionnelle sur la place du jeu de balle. ... Situé dans le quartier des marolles, le marché aux puces attire aussi bien les passants que les curieux. ... Vous y ferez de très belles affaires tant les marchandises proposées sont diverses : vêtements, bijoux, mobilier d'intérieur, mais aussi des livres et des tableaux d'antiquité, fripes, théières, lampes, bibelots, vaisselles, médailles, meubles... ... Horaires 9h -14h...",
+      "url": "https://brocabrac.fr/ru/bruxelles/993112-marche-aux-puces-de-la-place-du-jeu-de-balle",
+      "image": "https://brocabrac.fr/cdn/event/photos/eb/09/eb09b6d54d72c1d24ff3edc7e2f8ec2647908382a4b3451e7c1f0feaa206f3df-large.png",
+      "source": "Brocabrac Belgique",
+      "price_min": 9.0,
+      "price_max": 9.0,
+      "uid": "5c321ff678f1524e",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "markets-fairs",
+      "tags": []
+    },
+    {
       "title": "Réinventer la démocratie : savoirs et expériences",
       "start": "2026-11-20T09:30:00+01:00",
       "end": "2026-11-20T18:00:00+01:00",
@@ -6288,6 +6113,24 @@
       "tags_llm_done": true
     },
     {
+      "title": "Marché des antiquités du sablon",
+      "start": "2026-11-21T00:00:00+01:00",
+      "end": "2026-11-21T00:00:00+01:00",
+      "all_day": true,
+      "location": "Place du Grand Sablon, Bruxelles",
+      "description": "Marché des antiquités du sablon - ouvert tous les samedis de 9h à 17h et dimanches de 9h à 15h sur la place du grand sablon ... Ce marché situé au centre du quartier des antiquaires sur la place du grand sablon est une institution depuis les années 60. ... Vous y trouverez : orfèvrerie, bijouterie, objets de vitrine, céramique et verre, art de table, tableaux, dessins, mais aussi porcelaine chinoise, petit mobilier ou art africain, collections, vieux papiers, meubles de style...",
+      "url": "https://brocabrac.fr/ru/bruxelles/993117-marche-des-antiquites-du-sablon",
+      "image": "https://brocabrac.fr/cdn/event/photos/18/fa/18fac1a672bf41b31d66cc92926b28b29c2a41f2a9bbdb4c8aca05ae9e109f3f-large.jpg",
+      "source": "Brocabrac Belgique",
+      "price_min": null,
+      "price_max": null,
+      "uid": "7a0c47fc1a673b53",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "workshops-creative",
+      "tags": []
+    },
+    {
       "title": "Rectum Crocodile",
       "start": "2026-11-21T18:00:00+01:00",
       "end": null,
@@ -6364,24 +6207,6 @@
       "tags": []
     },
     {
-      "title": "SŒURS de Pascal Rambert – Théâtre Marni, Bruxelles 21 nov 2026 Théatre / Spectacles Professionnels Le Marni Ixelles - Bruxelles SŒURS de P",
-      "start": "2026-11-21T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "Le Marni, 25 Rue de Vergnies, 1050 Ixelles, Bruxelles, Belgique, Ixelles",
-      "description": "SŒURS de Pascal Rambert – Théâtre Marni, Bruxelles 21 nov 2026 Théatre / Spectacles Professionnels Le Marni Ixelles - Bruxelles SŒURS de Pascal Rambert Deux sœurs. Une histoire commune. Deux visions du monde. Comment se construire lorsque l'on n'a pas été désirée ? Peut-on vraiment échapper à son",
-      "url": "https://www.out.be/fr/evenements/223064_soeurs-de-pascal-rambert-theatre-marni-bruxelles.html",
-      "image": "https://www.out.be/assets/img/logo-outbe.svg",
-      "source": "Out.be",
-      "price_min": 0.0,
-      "price_max": 20.0,
-      "uid": "8b043c2ac0ea6212",
-      "colour": "#8A7500",
-      "detail_checked": 4,
-      "category": "culture-arts",
-      "tags": []
-    },
-    {
       "title": "Plus d'info",
       "start": "2026-11-21T00:00:00+01:00",
       "end": null,
@@ -6398,6 +6223,60 @@
       "detail_checked": 4,
       "category": "other",
       "tags": []
+    },
+    {
+      "title": "Brocante du family-center",
+      "start": "2026-11-21T05:30:00+01:00",
+      "end": "2026-11-21T13:00:00+01:00",
+      "all_day": false,
+      "location": "Parking du Family center, 173 rue de l'Industrie, Frameries",
+      "description": "Brocante existant sans interruption depuis 1988 tous les samedis matin. Pas de réservation, placement par arrivée. Marchandise neuve, nourriture et commerçants ambulants non admis. Emplacements avec voiture 5 mètres x 5 mètres pour 10 euros possibilité d'emplacement plus grand, 5€ par parking supplémentaire facebook.Com/brocanstoq ou www.brocanstoq.be",
+      "url": "https://brocabrac.fr/ht/frameries/1271045-brocante-du-family-center",
+      "image": null,
+      "source": "Brocabrac Belgique",
+      "price_min": 5.0,
+      "price_max": 10.0,
+      "uid": "3fd3af35b1777595",
+      "colour": "#1B6FE0",
+      "category": "markets-fairs",
+      "tags": []
+    },
+    {
+      "title": "Marché aux puces de la place du jeu de balle",
+      "start": "2026-11-21T09:00:00+01:00",
+      "end": "2026-11-21T14:00:00+01:00",
+      "all_day": false,
+      "location": "Quartier des Marolles, Place du Jeu de Balle, Bruxelles",
+      "description": "Au cœur de bruxelles, tous les matins se tient une brocante d'antiquité exceptionnelle sur la place du jeu de balle. ... Situé dans le quartier des marolles, le marché aux puces attire aussi bien les passants que les curieux. ... Vous y ferez de très belles affaires tant les marchandises proposées sont diverses : vêtements, bijoux, mobilier d'intérieur, mais aussi des livres et des tableaux d'antiquité, fripes, théières, lampes, bibelots, vaisselles, médailles, meubles... ... Horaires 9h -14h...",
+      "url": "https://brocabrac.fr/ru/bruxelles/993112-marche-aux-puces-de-la-place-du-jeu-de-balle",
+      "image": "https://brocabrac.fr/cdn/event/photos/eb/09/eb09b6d54d72c1d24ff3edc7e2f8ec2647908382a4b3451e7c1f0feaa206f3df-large.png",
+      "source": "Brocabrac Belgique",
+      "price_min": 9.0,
+      "price_max": 9.0,
+      "uid": "607927ed35471213",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "markets-fairs",
+      "tags": []
+    },
+    {
+      "title": "Brocante inclinée de ronquières",
+      "start": "2026-11-21T10:00:00+01:00",
+      "end": "2026-11-21T14:00:00+01:00",
+      "all_day": false,
+      "location": "Rue Rosemont, Braine-Le-Comte",
+      "description": "Brocante inclinée de ronquières - rue rosemont - parking gratuit - tous les samedis, dimanches et jours fériés de 10h à 14h (chapiteau ouvert dès 9h) Sans réservation. Informations par téléphone. Un emplacement est 5m x 5m à 16€ ou 3 parking/24€ etc avec la voiture toujours près de vous.",
+      "url": "https://brocabrac.fr/ht/braine-le-comte/1190581-brocante-inclinee-de-ronquieres",
+      "image": null,
+      "source": "Brocabrac Belgique",
+      "price_min": 16.0,
+      "price_max": 24.0,
+      "uid": "51528dfe5416bf2c",
+      "colour": "#1B6FE0",
+      "category": "markets-fairs",
+      "tags": [
+        "free"
+      ]
     },
     {
       "title": "La Ronde occitane",
@@ -6610,6 +6489,24 @@
       "tags": []
     },
     {
+      "title": "Marché des antiquités du sablon",
+      "start": "2026-11-22T00:00:00+01:00",
+      "end": "2026-11-22T00:00:00+01:00",
+      "all_day": true,
+      "location": "Place du Grand Sablon, Bruxelles",
+      "description": "Marché des antiquités du sablon - ouvert tous les samedis de 9h à 17h et dimanches de 9h à 15h sur la place du grand sablon ... Ce marché situé au centre du quartier des antiquaires sur la place du grand sablon est une institution depuis les années 60. ... Vous y trouverez : orfèvrerie, bijouterie, objets de vitrine, céramique et verre, art de table, tableaux, dessins, mais aussi porcelaine chinoise, petit mobilier ou art africain, collections, vieux papiers, meubles de style...",
+      "url": "https://brocabrac.fr/ru/bruxelles/993117-marche-des-antiquites-du-sablon",
+      "image": "https://brocabrac.fr/cdn/event/photos/18/fa/18fac1a672bf41b31d66cc92926b28b29c2a41f2a9bbdb4c8aca05ae9e109f3f-large.jpg",
+      "source": "Brocabrac Belgique",
+      "price_min": null,
+      "price_max": null,
+      "uid": "4612dab85accbd7a",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "workshops-creative",
+      "tags": []
+    },
+    {
       "title": "Nov 22 CHRISTMAS EMBOSSED METAL ORNAMENTS Ixelles , Belgium Atelier ponctuel Event Get Tickets",
       "start": "2026-11-22T00:00:00+01:00",
       "end": null,
@@ -6626,6 +6523,77 @@
       "detail_checked": 4,
       "category": "workshops-creative",
       "tags": []
+    },
+    {
+      "title": "Bourse vêtements",
+      "start": "2026-11-22T07:00:00+01:00",
+      "end": "2026-11-22T13:00:00+01:00",
+      "all_day": false,
+      "location": "Viaduc Herrmann-Debroux, Auderghem",
+      "description": "La brocante \"viaduc (vêtements)\" est une brocante exclusivement réservée à la vente de vêtements. Quatre brocantes de ce type ont lieu chaque année. 15€ sur réservation, 20€ sur place taille de l'emplacement : 9 mètres",
+      "url": "https://brocabrac.fr/ru/auderghem/1065381-bourse-vetements",
+      "image": "https://brocabrac.fr/cdn/event/photos/88/92/88922288902515c7be5d72ac3e3818370a0619d30b22b9478e8f833c2405ce70-large.png",
+      "source": "Brocabrac Belgique",
+      "price_min": 15.0,
+      "price_max": 20.0,
+      "uid": "f1ad5e9e17c2d95f",
+      "colour": "#1B6FE0",
+      "category": "markets-fairs",
+      "tags": []
+    },
+    {
+      "title": "Brocante mabru",
+      "start": "2026-11-22T07:00:00+01:00",
+      "end": "2026-11-22T13:00:00+01:00",
+      "all_day": false,
+      "location": "mabru (marché matinal de Bruxelles), 22 quai des Usines, Bruxelles",
+      "description": "Grande brocante se déroulant tous les dimanches matin sur le site mabru (marché matinal de bruxelles) il y a des stands de nourriture, de produis ménagers, du gros électoménager, beaucoup d'outils électriques et manuel d'occasion ainsi qu'une foule de petits exposants. Le parking est payant (5€) et bondé, je conseille de venir par le tram qui s'arrête juste devant.",
+      "url": "https://brocabrac.fr/ru/bruxelles/1407278-brocante-mabru",
+      "image": "https://brocabrac.fr/cdn/event/photos/14/85/1485a1388536fc0f2413ec15dc7d317458308f659b9743a52904ecf30726379c-large.jpg",
+      "source": "Brocabrac Belgique",
+      "price_min": 5.0,
+      "price_max": 5.0,
+      "uid": "3fabc7a45423b5d5",
+      "colour": "#1B6FE0",
+      "category": "markets-fairs",
+      "tags": []
+    },
+    {
+      "title": "Marché aux puces de la place du jeu de balle",
+      "start": "2026-11-22T09:00:00+01:00",
+      "end": "2026-11-22T14:00:00+01:00",
+      "all_day": false,
+      "location": "Quartier des Marolles, Place du Jeu de Balle, Bruxelles",
+      "description": "Au cœur de bruxelles, tous les matins se tient une brocante d'antiquité exceptionnelle sur la place du jeu de balle. ... Situé dans le quartier des marolles, le marché aux puces attire aussi bien les passants que les curieux. ... Vous y ferez de très belles affaires tant les marchandises proposées sont diverses : vêtements, bijoux, mobilier d'intérieur, mais aussi des livres et des tableaux d'antiquité, fripes, théières, lampes, bibelots, vaisselles, médailles, meubles... ... Horaires 9h -14h...",
+      "url": "https://brocabrac.fr/ru/bruxelles/993112-marche-aux-puces-de-la-place-du-jeu-de-balle",
+      "image": "https://brocabrac.fr/cdn/event/photos/eb/09/eb09b6d54d72c1d24ff3edc7e2f8ec2647908382a4b3451e7c1f0feaa206f3df-large.png",
+      "source": "Brocabrac Belgique",
+      "price_min": 9.0,
+      "price_max": 9.0,
+      "uid": "59758aa18f7ccfdc",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "markets-fairs",
+      "tags": []
+    },
+    {
+      "title": "Brocante inclinée de ronquières",
+      "start": "2026-11-22T10:00:00+01:00",
+      "end": "2026-11-22T14:00:00+01:00",
+      "all_day": false,
+      "location": "Rue Rosemont, Braine-Le-Comte",
+      "description": "Brocante inclinée de ronquières - rue rosemont - parking gratuit - tous les samedis, dimanches et jours fériés de 10h à 14h (chapiteau ouvert dès 9h) Sans réservation. Informations par téléphone. Un emplacement est 5m x 5m à 16€ ou 3 parking/24€ etc avec la voiture toujours près de vous.",
+      "url": "https://brocabrac.fr/ht/braine-le-comte/1190581-brocante-inclinee-de-ronquieres",
+      "image": null,
+      "source": "Brocabrac Belgique",
+      "price_min": 16.0,
+      "price_max": 24.0,
+      "uid": "17019e0907d9b9a3",
+      "colour": "#1B6FE0",
+      "category": "markets-fairs",
+      "tags": [
+        "free"
+      ]
     },
     {
       "title": "Sunday Electronics Workshop 035",
@@ -6702,7 +6670,8 @@
       "category": "other",
       "tags": [
         "free"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "23 novembre 2026",
@@ -6818,7 +6787,8 @@
       "colour": "#E8336D",
       "detail_checked": 4,
       "category": "other",
-      "tags": []
+      "tags": [],
+      "stale": true
     },
     {
       "title": "18:30 Activité « les 7 clichés du capitalisme »",
@@ -6836,7 +6806,8 @@
       "colour": "#E8336D",
       "detail_checked": 4,
       "category": "other",
-      "tags": []
+      "tags": [],
+      "stale": true
     },
     {
       "title": "Au Poche Saison 26-27 24 — 28 novembre 2026 FACE À FACE Agnès Limbos / Compagnie Gare Centrale Découvrir",
@@ -7265,7 +7236,8 @@
       "colour": "#E8336D",
       "detail_checked": 4,
       "category": "music",
-      "tags": []
+      "tags": [],
+      "stale": true
     },
     {
       "title": "Gratis POZAR Organisator: Gemeenschapscentrum Pianofabriek vzw, in samenwerking met Gemeenschapscentrum Kontakt vzw vr 27.11.2026 GC Pianof",
@@ -8969,24 +8941,6 @@
         "registration-required"
       ],
       "tags_llm_done": true
-    },
-    {
-      "title": "Los Conciertos MAS FLAMENCO 11 déc 2026 Concerts World (musique du monde) / Musique traditionnelle Le Jacques Franck Saint-Gilles - Bruxel",
-      "start": "2026-12-11T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "Le Jacques Franck, Chau. de Waterloo 94, 1060 Saint-Gilles, Belgique, 1060 Sint-Gillis, Bruxelles, Belgique, Saint-Gilles",
-      "description": "Los Conciertos MAS FLAMENCO 11 déc 2026 Concerts World (musique du monde) / Musique traditionnelle Le Jacques Franck Saint-Gilles - Bruxelles LE FLAMENCO DANS TOUTE SA SPLENDEUR, AU CŒUR DE BRUXELLES !Le vendredi 11 décembre, laissez-vous emporter par la magie du flamenco authentique, dans une soi",
-      "url": "https://www.out.be/fr/evenements/224776_los-conciertos-mas-flamenco.html",
-      "image": "https://www.out.be/assets/img/logo-outbe.svg",
-      "source": "Out.be",
-      "price_min": 10.0,
-      "price_max": 36.0,
-      "uid": "a499bb3422db4fb8",
-      "colour": "#8A7500",
-      "detail_checked": 4,
-      "category": "music",
-      "tags": []
     },
     {
       "title": "Open Coworking Day: Join and Cowork on Your Projects",
@@ -11098,6 +11052,26 @@
       "detail_checked": 4,
       "category": "other",
       "tags": []
+    },
+    {
+      "title": "Au Poche Saison 26-27 9 — 27 mars 2027 CONVERSATIONS AFTER SEX Mark O’Halloran / Magali Pinglaut Découvrir",
+      "start": "2027-03-09T00:00:00+01:00",
+      "end": "2027-03-27T00:00:00+01:00",
+      "all_day": true,
+      "location": "",
+      "description": "Au Poche Saison 26-27 9 — 27 mars 2027 CONVERSATIONS AFTER SEX Mark O’Halloran / Magali Pinglaut Découvrir",
+      "url": "https://poche.be/spectacles/2026-conversations-after-sex",
+      "image": "https://poche.be/images/theatre-foyer.jpg",
+      "source": "Le Poche",
+      "price_min": null,
+      "price_max": null,
+      "uid": "58771dd82d1ded8c",
+      "colour": "#8A7500",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "recurring"
+      ]
     }
   ]
 }
