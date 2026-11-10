@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-10T01:08:23.992593+01:00",
+  "generated": "2026-11-10T14:20:12.185895+01:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
@@ -151,7 +151,7 @@
       "url": "https://www.senghor.be/agenda/",
       "colour": "#E8336D",
       "count": 25,
-      "method": "browser",
+      "method": "none",
       "stale": true,
       "last_ok": "2026-10-03"
     },
@@ -160,15 +160,15 @@
       "url": "https://www.flagey.be/agenda",
       "colour": "#1B6FE0",
       "count": 11,
-      "method": "recipe",
-      "stale": false,
+      "method": "none",
+      "stale": true,
       "last_ok": "2026-11-10"
     },
     {
       "name": "BOZAR",
       "url": "https://www.bozar.be/en/calendar",
       "colour": "#00937A",
-      "count": 7,
+      "count": 5,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-11-10"
@@ -204,7 +204,7 @@
       "name": "Demosphere Bruxelles",
       "url": "https://bxl.demosphere.net/events.ics",
       "colour": "#0F8CA8",
-      "count": 24,
+      "count": 23,
       "method": "ics",
       "stale": false,
       "last_ok": "2026-11-10"
@@ -402,17 +402,17 @@
       "name": "Forest (commune agenda)",
       "url": "https://forest.brussels/fr/agenda",
       "colour": "#7B49D6",
-      "count": 20,
-      "method": "none",
-      "stale": true,
-      "last_ok": "2026-11-09"
+      "count": 24,
+      "method": "recipe",
+      "stale": false,
+      "last_ok": "2026-11-10"
     },
     {
       "name": "Brocantes 1060 (Saint-Gilles)",
       "url": "https://www.brocantes1060.be/",
       "colour": "#C0392B",
       "count": 0,
-      "method": "none",
+      "method": "recipe",
       "stale": true,
       "last_ok": "2026-10-03"
     },
@@ -867,7 +867,7 @@
     {
       "source": "Recyclart",
       "method": "recipe",
-      "found": 9,
+      "found": 8,
       "kept": 4,
       "carried": 0,
       "stale": false,
@@ -922,7 +922,7 @@
       "carried": 3,
       "stale": true,
       "error_class": "billing",
-      "note": "llm: 401 Unauthorized: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgtFz6uCvD5ttQNtLdUp9\"}"
+      "note": "llm: 401 Unauthorized: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CguJbFiFSWiW62Qt5ZZ52\"}"
     },
     {
       "source": "U-Square",
@@ -996,29 +996,29 @@
     },
     {
       "source": "Le Senghor",
-      "method": "browser",
-      "found": 9,
+      "method": "none",
+      "found": 0,
       "kept": 0,
       "carried": 25,
       "stale": true,
-      "error_class": "",
-      "note": ""
+      "error_class": "billing",
+      "note": "browser: jsonld/recipe empty, llm skipped (billing failure earlier this run)"
     },
     {
       "source": "Flagey",
-      "method": "recipe",
-      "found": 11,
-      "kept": 11,
-      "carried": 0,
-      "stale": false,
-      "error_class": "",
-      "note": ""
+      "method": "none",
+      "found": 0,
+      "kept": 0,
+      "carried": 11,
+      "stale": true,
+      "error_class": "billing",
+      "note": "llm: skipped (billing failure earlier this run)"
     },
     {
       "source": "BOZAR",
       "method": "recipe",
-      "found": 7,
-      "kept": 7,
+      "found": 5,
+      "kept": 5,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1057,8 +1057,8 @@
     {
       "source": "Demosphere Bruxelles",
       "method": "ics",
-      "found": 25,
-      "kept": 24,
+      "found": 24,
+      "kept": 23,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1276,23 +1276,23 @@
     },
     {
       "source": "Forest (commune agenda)",
-      "method": "none",
-      "found": 0,
-      "kept": 0,
-      "carried": 20,
-      "stale": true,
-      "error_class": "billing",
-      "note": "llm: skipped (billing failure earlier this run)"
+      "method": "recipe",
+      "found": 24,
+      "kept": 24,
+      "carried": 0,
+      "stale": false,
+      "error_class": "",
+      "note": ""
     },
     {
       "source": "Brocantes 1060 (Saint-Gilles)",
-      "method": "none",
-      "found": 0,
+      "method": "recipe",
+      "found": 10,
       "kept": 0,
       "carried": 0,
       "stale": true,
-      "error_class": "billing",
-      "note": "llm: skipped (billing failure earlier this run)"
+      "error_class": "",
+      "note": ""
     },
     {
       "source": "Lire et Écrire",
@@ -1577,44 +1577,6 @@
   ],
   "events": [
     {
-      "title": "De Troostboom (L’Arbre du Réconfort)",
-      "start": "2026-11-09T09:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "De Troostboom (L’Arbre du Réconfort) lun 09/11 - 09:00 Cours, Stages et Ateliers",
-      "url": "http://forest.brussels/fr/agenda/cours-stages-et-ateliers/2026/de-troostboom-larbre-du-reconfort",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "0c5a331f48bcede5",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "workshops-creative",
-      "tags": [],
-      "stale": true
-    },
-    {
-      "title": "Expo TW - Collectief 'le 180'",
-      "start": "2026-11-09T09:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Expo TW - Collectief 'le 180' lun 09/11 - 09:00 Exposition",
-      "url": "http://forest.brussels/fr/agenda/exposition/2026/expo-tw-collectief-le-180",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "6fc7217b5f1ce6c2",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "culture-arts",
-      "tags": [],
-      "stale": true
-    },
-    {
       "title": "Permanence squat : À l’assaut du vide",
       "start": "2026-11-09T16:00:00+01:00",
       "end": null,
@@ -1651,26 +1613,6 @@
       "category": "other",
       "tags": [],
       "stale": true
-    },
-    {
-      "title": "Bruxelles : nos sols pollués · Médor",
-      "start": "2026-11-09T17:30:00+00:00",
-      "end": "2026-11-09T18:30:00+00:00",
-      "all_day": false,
-      "location": "1000 Bruxelles, La Tricoterie Rue Théodore Verhaegen 158, 1060 Bruxelles",
-      "description": "plus d'infos sur : https://bxl.demosphere.net/rv/18849",
-      "url": "https://bxl.demosphere.net/rv/18849",
-      "image": null,
-      "source": "Demosphere Bruxelles",
-      "price_min": null,
-      "price_max": null,
-      "uid": "3ec5798f5de2a556",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
     },
     {
       "title": "17h-19h paniers « bio » Ferme de Nadir",
@@ -1734,44 +1676,6 @@
       "tags_llm_done": true
     },
     {
-      "title": "Immersive Cinema 26-27",
-      "start": "2026-11-10T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "Immersive Cinema 26-27 Sold out Cancelled Postponed Last Tickets Films Immersive Cinema Secondary Education Higher Education Immersive Cinema 26-27 10 Nov.'26 → 2 Apr.'27",
-      "url": "https://www.bozar.be/en/calendar/immersive-cinema-26-27-0",
-      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
-      "source": "BOZAR",
-      "price_min": 6.0,
-      "price_max": 6.0,
-      "uid": "c74d8258907a1c28",
-      "colour": "#00937A",
-      "detail_checked": 4,
-      "category": "film-cinema",
-      "tags": []
-    },
-    {
-      "title": "Rimbaud - le spectacle musical / Première 10 nov 2026 Théatre / Spectacles Comédies Musicales La Station des Rêveurs - Schaerbeek Schaerbeek",
-      "start": "2026-11-10T18:30:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "La Station des Rêveurs - Schaerbeek, Pl. Princesse Elisabeth 5, 1030 Schaerbeek, Belgique, Schaerbeek",
-      "description": "Rimbaud - le spectacle musical / Première 10 nov 2026 Théatre / Spectacles Comédies Musicales La Station des Rêveurs - Schaerbeek Schaerbeek - Bruxelles Une première, 135 ans jour pour jour après sa mort — 10 novembre 2026 10 novembre 1891. Arthur Rimbaud meurt à Marseille. 10 novembre 2026. 135 a",
-      "url": "https://www.out.be/fr/evenements/219801_rimbaud-le-spectacle-musical-premiere.html",
-      "image": "https://www.out.be/assets/img/logo-outbe.svg",
-      "source": "Out.be",
-      "price_min": 25.0,
-      "price_max": 25.0,
-      "uid": "3b097ff2f2b1b859",
-      "colour": "#8A7500",
-      "detail_checked": 4,
-      "category": "culture-arts",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "Plus d'info",
       "start": "2026-11-10T00:00:00+01:00",
       "end": null,
@@ -1831,6 +1735,42 @@
       "tags": []
     },
     {
+      "title": "Expo TW - Collectief 'le 180'",
+      "start": "2026-11-10T09:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Expo TW - Collectief 'le 180' mar 10/11 - 09:00 Exposition",
+      "url": "http://forest.brussels/fr/agenda/exposition/2026/expo-tw-collectief-le-180",
+      "image": null,
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "07c029bca7158fec",
+      "colour": "#7B49D6",
+      "detail_checked": 4,
+      "category": "culture-arts",
+      "tags": []
+    },
+    {
+      "title": "De Troostboom (L’Arbre du Réconfort)",
+      "start": "2026-11-10T09:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "De Troostboom (L’Arbre du Réconfort) mar 10/11 - 09:00 Cours, Stages et Ateliers",
+      "url": "http://forest.brussels/fr/agenda/cours-stages-et-ateliers/2026/de-troostboom-larbre-du-reconfort",
+      "image": null,
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "28f4dc3c0e95d794",
+      "colour": "#7B49D6",
+      "detail_checked": 4,
+      "category": "workshops-creative",
+      "tags": []
+    },
+    {
       "title": "Portia Zvavahera: Kuzviramba Mamuri",
       "start": "2026-11-10T11:00:00+01:00",
       "end": null,
@@ -1846,8 +1786,7 @@
       "colour": "#7B49D6",
       "detail_checked": 4,
       "category": "culture-arts",
-      "tags": [],
-      "stale": true
+      "tags": []
     },
     {
       "title": "Ali Cherri: Pray, Lips of Clay",
@@ -1865,22 +1804,21 @@
       "colour": "#7B49D6",
       "detail_checked": 4,
       "category": "culture-arts",
-      "tags": [],
-      "stale": true
+      "tags": []
     },
     {
-      "title": "dans 13h Apprendre INTRODUCTION À L’ACTION DIRECTE NON-VIOLENTE ET AUX FREINS À L’ACTION Mardi 10 novembre 2026 à 14:00 Bruxelles - 1000 Org",
+      "title": "il y a 16 min Apprendre INTRODUCTION À L’ACTION DIRECTE NON-VIOLENTE ET AUX FREINS À L’ACTION Mardi 10 novembre 2026 à 14:00 Bruxelles - 100",
       "start": "2026-11-10T14:00:00+01:00",
       "end": null,
       "all_day": false,
       "location": "Bruxelles, Franklin Rooseveltlaan, Bruxelles",
-      "description": "dans 13h Apprendre INTRODUCTION À L’ACTION DIRECTE NON-VIOLENTE ET AUX FREINS À L’ACTION Mardi 10 novembre 2026 à 14:00 Bruxelles - 1000 Organisé par ProtestBase",
+      "description": "il y a 16 min Apprendre INTRODUCTION À L’ACTION DIRECTE NON-VIOLENTE ET AUX FREINS À L’ACTION Mardi 10 novembre 2026 à 14:00 Bruxelles - 1000 Organisé par ProtestBase",
       "url": "https://protestbase.be/event/06336ac0-13d5-4c79-85c3-7856b26d3a79",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
       "price_min": null,
       "price_max": null,
-      "uid": "ee7134385640da02",
+      "uid": "ced5d9da1cde0c8d",
       "colour": "#E07A00",
       "detail_checked": 4,
       "category": "activism-justice",
@@ -1927,26 +1865,6 @@
       "colour": "#E07A00",
       "detail_checked": 4,
       "category": "community-social",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Meet the Architects : Central",
-      "start": "2026-11-10T19:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Meet the Architects : Central Sold out Cancelled Postponed Last Tickets Talks & Debates Architecture & Urbanism Highly Recommended Meet the Architects : Central 10 Nov.'26 - 19:00 From 12 €",
-      "url": "https://www.bozar.be/en/calendar/meet-architects-central",
-      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
-      "source": "BOZAR",
-      "price_min": 12.0,
-      "price_max": 12.0,
-      "uid": "085699b0ddea3c24",
-      "colour": "#00937A",
-      "detail_checked": 4,
-      "category": "talks-discussions",
       "tags": [
         "evening"
       ]
@@ -2159,21 +2077,21 @@
       ]
     },
     {
-      "title": "Central. Never Alone 11 nov 24 janv 2027 Expos Palais des Beaux-Arts de Bruxelles - Bozar Bruxelles - Bruxelles Le jeune cabinet bruxelloi",
-      "start": "2026-11-11T00:00:00+01:00",
+      "title": "Fifty Lab Music Festival 11 nov 2026 Concerts Pop / Rock / Pop-Rock Ancienne Belgique (AB) Bruxelles - Bruxelles Chaque année, nous vous p",
+      "start": "2026-11-11T13:30:00+01:00",
       "end": null,
-      "all_day": true,
-      "location": "Palais des Beaux-Arts de Bruxelles - Bozar, Rue Ravenstein 23, 1000 Bruxelles, Belgique, Bruxelles",
-      "description": "Central. Never Alone 11 nov 24 janv 2027 Expos Palais des Beaux-Arts de Bruxelles - Bozar Bruxelles - Bruxelles Le jeune cabinet bruxellois Central Office for Architecture and Urbanism se distingue par une approche à la fois ouverte et plurielle de l'architecture. Convaincus que celle-ci révèle to",
-      "url": "https://www.out.be/fr/evenements/220206_central.-never-alone.html",
+      "all_day": false,
+      "location": "Ancienne Belgique, 110 Boulevard Anspachlaan, 1000 Bruxelles, Bruxelles, Belgique, 1000 Bruxelles, Bruxelles, Belgique, Bruxelles",
+      "description": "Fifty Lab Music Festival 11 nov 2026 Concerts Pop / Rock / Pop-Rock Ancienne Belgique (AB) Bruxelles - Bruxelles Chaque année, nous vous proposons de nouveaux artistes passionnants, venus de Belgique et d’ailleurs, pour des concerts, des sets de DJ et de grandes découvertes, en plein cœur de Bruxe",
+      "url": "https://www.out.be/fr/evenements/222438_fifty-lab-music-festival.html",
       "image": "https://www.out.be/assets/img/logo-outbe.svg",
       "source": "Out.be",
       "price_min": null,
       "price_max": null,
-      "uid": "c70d78a7ba7b510e",
+      "uid": "23ef18b3895969b9",
       "colour": "#8A7500",
       "detail_checked": 4,
-      "category": "other",
+      "category": "music",
       "tags": []
     },
     {
@@ -2298,8 +2216,7 @@
       "colour": "#7B49D6",
       "detail_checked": 4,
       "category": "other",
-      "tags": [],
-      "stale": true
+      "tags": []
     },
     {
       "title": "Amores Perros",
@@ -2317,7 +2234,8 @@
       "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "film-cinema",
-      "tags": []
+      "tags": [],
+      "stale": true
     },
     {
       "title": "Rally: Back to la Bourse for Palestine!",
@@ -2362,7 +2280,8 @@
       "category": "film-cinema",
       "tags": [
         "evening"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Minotaur",
@@ -2382,7 +2301,8 @@
       "category": "film-cinema",
       "tags": [
         "evening"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "18h30 Slow Jam Trad",
@@ -2583,6 +2503,24 @@
       "tags": []
     },
     {
+      "title": "HOUB 12 nov 14 nov Concerts Atelier 210 Etterbeek - Bruxelles Comment décrire nos corps si nous n’avons pas de langage ? En arabe, ḥoub si",
+      "start": "2026-11-12T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "Atelier 210, 210 Chaussée Saint-Pierre, 1040 Etterbeek, Bruxelles, Belgique, Etterbeek",
+      "description": "HOUB 12 nov 14 nov Concerts Atelier 210 Etterbeek - Bruxelles Comment décrire nos corps si nous n’avons pas de langage ? En arabe, ḥoub signifie « amour » sous toutes ses formes. La racine ح ب ب (« ḥbb ») fait référence à la graine, au noyau, à ce qui porte la v",
+      "url": "https://www.out.be/fr/evenements/209925_houb.html",
+      "image": "https://www.out.be/assets/img/logo-outbe.svg",
+      "source": "Out.be",
+      "price_min": null,
+      "price_max": null,
+      "uid": "f69542613fb34aba",
+      "colour": "#8A7500",
+      "detail_checked": 4,
+      "category": "music",
+      "tags": []
+    },
+    {
       "title": "Nov 12 Sold Out STRUCTURAL PAPER LAMPS Ixelles , Belgium Atelier ponctuel Sold Out Event Info",
       "start": "2026-11-12T00:00:00+01:00",
       "end": null,
@@ -2672,8 +2610,7 @@
       "category": "other",
       "tags": [
         "free"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Autour de 'En lettres noires' (Siméon MB) - writing workshop",
@@ -2747,8 +2684,7 @@
       "colour": "#7B49D6",
       "detail_checked": 4,
       "category": "culture-arts",
-      "tags": [],
-      "stale": true
+      "tags": []
     },
     {
       "title": "Coward",
@@ -2766,7 +2702,8 @@
       "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "film-cinema",
-      "tags": []
+      "tags": [],
+      "stale": true
     },
     {
       "title": "Tai chi avondcursus 1",
@@ -2786,8 +2723,7 @@
       "category": "sport-wellbeing",
       "tags": [
         "evening"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Vagabond",
@@ -2807,7 +2743,8 @@
       "category": "film-cinema",
       "tags": [
         "evening"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "Conjunto Media Luna",
@@ -2853,8 +2790,7 @@
       "category": "sport-wellbeing",
       "tags": [
         "evening"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Tai chi avondcursus 2",
@@ -2874,8 +2810,7 @@
       "category": "sport-wellbeing",
       "tags": [
         "evening"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "do 12.11.26 20:00 Spaghetti Western Aurelie Di Marino Renée Goethijn",
@@ -2915,7 +2850,8 @@
       "category": "film-cinema",
       "tags": [
         "evening"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "do 12.11.26 20:30 HOUB Soumaya Phéline Abouda Zaïneb Hamdi",
@@ -3144,8 +3080,7 @@
       "colour": "#7B49D6",
       "detail_checked": 4,
       "category": "sport-wellbeing",
-      "tags": [],
-      "stale": true
+      "tags": []
     },
     {
       "title": "Open Coworking Day: Join and Cowork on Your Projects",
@@ -3181,8 +3116,7 @@
       "colour": "#7B49D6",
       "detail_checked": 4,
       "category": "sport-wellbeing",
-      "tags": [],
-      "stale": true
+      "tags": []
     },
     {
       "title": "Première Matières - Vernissage / WENC",
@@ -3200,8 +3134,7 @@
       "colour": "#7B49D6",
       "detail_checked": 4,
       "category": "culture-arts",
-      "tags": [],
-      "stale": true
+      "tags": []
     },
     {
       "title": "Yoga",
@@ -3219,8 +3152,7 @@
       "colour": "#7B49D6",
       "detail_checked": 4,
       "category": "sport-wellbeing",
-      "tags": [],
-      "stale": true
+      "tags": []
     },
     {
       "title": "dans 3 jours Manifestation ✊ Rassemblement devant l'ambassade israélienne Vendredi 13 novembre 2026 à 12:30 Uccle - 1180 Organisé par Protes",
@@ -3267,7 +3199,7 @@
       "all_day": false,
       "location": "",
       "description": "TW Allez ven 13/11 - 17:30 Animations",
-      "url": "http://forest.brussels/fr/agenda/animations/2026/tw-allez",
+      "url": "http://forest.brussels/fr/agenda/animations/2026/tw-allez-1",
       "image": null,
       "source": "Forest (commune agenda)",
       "price_min": null,
@@ -3278,8 +3210,7 @@
       "category": "other",
       "tags": [
         "evening"
-      ],
-      "stale": true
+      ]
     },
     {
       "title": "Bal des faiseur·ses de livres et leurs ami·es",
@@ -3338,7 +3269,8 @@
       "category": "film-cinema",
       "tags": [
         "evening"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "vr 13.11.26 20:00 Spaghetti Western Aurelie Di Marino Renée Goethijn",
@@ -3398,7 +3330,8 @@
       "category": "film-cinema",
       "tags": [
         "evening"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "14 novembre 2026",
@@ -3673,6 +3606,24 @@
       ]
     },
     {
+      "title": "Spectacle « Les z’arbres » Cie virgule >3ans 14 nov 2026 Théatre / Spectacles BRASS - Centre Culturel de Forest Forest - Bruxelles « Arbre",
+      "start": "2026-11-14T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "BRASS - Centre Culturel de Forest, 364 Brass - Van Volxemlaan, 1190 Forest, Bruxelles, Belgique, Forest",
+      "description": "Spectacle « Les z’arbres » Cie virgule >3ans 14 nov 2026 Théatre / Spectacles BRASS - Centre Culturel de Forest Forest - Bruxelles « Arbres par ci, arbres par là, ou l'arbre poussera l'enfant grandira ! » Roger Pain de Mie, personnage loufoque et burlesque, nous parle des arbres, de leur rôle, de",
+      "url": "https://www.out.be/fr/evenements/224482_spectacle-les-z-arbres-cie-virgule-3ans.html",
+      "image": "https://www.out.be/assets/img/logo-outbe.svg",
+      "source": "Out.be",
+      "price_min": null,
+      "price_max": null,
+      "uid": "478203d6adabb3e0",
+      "colour": "#8A7500",
+      "detail_checked": 4,
+      "category": "culture-arts",
+      "tags": []
+    },
+    {
       "title": "Brocante du family-center",
       "start": "2026-11-14T05:30:00+01:00",
       "end": "2026-11-14T13:00:00+01:00",
@@ -3723,8 +3674,7 @@
       "colour": "#7B49D6",
       "detail_checked": 4,
       "category": "workshops-creative",
-      "tags": [],
-      "stale": true
+      "tags": []
     },
     {
       "title": "Brocante inclinée de ronquières",
@@ -3761,8 +3711,7 @@
       "colour": "#7B49D6",
       "detail_checked": 4,
       "category": "festivals-celebrations",
-      "tags": [],
-      "stale": true
+      "tags": []
     },
     {
       "title": "Atelier bouturage de vivaces et de grimpantes",
@@ -3780,8 +3729,7 @@
       "colour": "#7B49D6",
       "detail_checked": 4,
       "category": "workshops-creative",
-      "tags": [],
-      "stale": true
+      "tags": []
     },
     {
       "title": "Vertelspel",
@@ -3799,8 +3747,7 @@
       "colour": "#7B49D6",
       "detail_checked": 4,
       "category": "culture-arts",
-      "tags": [],
-      "stale": true
+      "tags": []
     },
     {
       "title": "Shaun the Sheep: The Beast of Mossy Bottom",
@@ -3818,39 +3765,40 @@
       "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "film-cinema",
-      "tags": []
+      "tags": [],
+      "stale": true
     },
     {
-      "title": "dans 5 jours Manifestation Contre les violences faites aux enfants et aux ados Samedi 14 novembre 2026 à 14:00 Bruxelles - 1000 Organisé par",
+      "title": "dans 4 jours Manifestation Contre les violences faites aux enfants et aux ados Samedi 14 novembre 2026 à 14:00 Bruxelles - 1000 Organisé par",
       "start": "2026-11-14T14:00:00+01:00",
       "end": null,
       "all_day": false,
       "location": "Bruxelles, Albertinaplein, Bruxelles",
-      "description": "dans 5 jours Manifestation Contre les violences faites aux enfants et aux ados Samedi 14 novembre 2026 à 14:00 Bruxelles - 1000 Organisé par ProtestBase",
+      "description": "dans 4 jours Manifestation Contre les violences faites aux enfants et aux ados Samedi 14 novembre 2026 à 14:00 Bruxelles - 1000 Organisé par ProtestBase",
       "url": "https://protestbase.be/event/542bcd64-397d-428f-91a4-e75c7d4f416c",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
       "price_min": null,
       "price_max": null,
-      "uid": "ed11c05bbbb4f9fe",
+      "uid": "8cd967db95012c64",
       "colour": "#E07A00",
       "detail_checked": 4,
       "category": "activism-justice",
       "tags": []
     },
     {
-      "title": "dans 5 jours Apprendre Y en a marre! - Formation Samedi 14 novembre 2026 à 14:00 Ixelles - 1050 Organisé par ProtestBase",
+      "title": "dans 4 jours Apprendre Y en a marre! - Formation Samedi 14 novembre 2026 à 14:00 Ixelles - 1050 Organisé par ProtestBase",
       "start": "2026-11-14T14:00:00+01:00",
       "end": null,
       "all_day": false,
       "location": "Ixelles, 47 Rue Fritz Toussaint - Fritz Toussaintstraat, Ixelles",
-      "description": "dans 5 jours Apprendre Y en a marre! - Formation Samedi 14 novembre 2026 à 14:00 Ixelles - 1050 Organisé par ProtestBase",
+      "description": "dans 4 jours Apprendre Y en a marre! - Formation Samedi 14 novembre 2026 à 14:00 Ixelles - 1050 Organisé par ProtestBase",
       "url": "https://protestbase.be/event/099823b9-21eb-4853-9647-34919995a4ee",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
       "price_min": null,
       "price_max": null,
-      "uid": "8e465fe3b0c86862",
+      "uid": "0a5a37efa1a9793c",
       "colour": "#E07A00",
       "detail_checked": 4,
       "category": "activism-justice",
@@ -3872,8 +3820,7 @@
       "colour": "#7B49D6",
       "detail_checked": 4,
       "category": "workshops-creative",
-      "tags": [],
-      "stale": true
+      "tags": []
     },
     {
       "title": "Eruption",
@@ -3891,7 +3838,8 @@
       "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "film-cinema",
-      "tags": []
+      "tags": [],
+      "stale": true
     },
     {
       "title": "New Beginnings",
@@ -3911,7 +3859,8 @@
       "category": "film-cinema",
       "tags": [
         "evening"
-      ]
+      ],
+      "stale": true
     },
     {
       "title": "za 14.11.26 18:00 HOUB Soumaya Phéline Abouda Zaïneb Hamdi",
@@ -4391,18 +4340,18 @@
       "tags": []
     },
     {
-      "title": "dans 6 jours Soutien AG Anti-Ice Belgique Dimanche 15 novembre 2026 à 14:00 Saint-Gilles - 1060 Organisé par ProtestBase",
+      "title": "dans 5 jours Soutien AG Anti-Ice Belgique Dimanche 15 novembre 2026 à 14:00 Saint-Gilles - 1060 Organisé par ProtestBase",
       "start": "2026-11-15T14:00:00+01:00",
       "end": null,
       "all_day": false,
       "location": "Saint-Gilles, 26 Rue de la Victoire - Overwinningsstraat, Saint-Gilles",
-      "description": "dans 6 jours Soutien AG Anti-Ice Belgique Dimanche 15 novembre 2026 à 14:00 Saint-Gilles - 1060 Organisé par ProtestBase",
+      "description": "dans 5 jours Soutien AG Anti-Ice Belgique Dimanche 15 novembre 2026 à 14:00 Saint-Gilles - 1060 Organisé par ProtestBase",
       "url": "https://protestbase.be/event/275b5ea0-f2ee-402b-8bd0-f4c1f5fcbe83",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
       "price_min": null,
       "price_max": null,
-      "uid": "93db88f9109ae20c",
+      "uid": "bb56ec5ed81581a2",
       "colour": "#E07A00",
       "detail_checked": 4,
       "category": "activism-justice",
@@ -4540,24 +4489,6 @@
       "tags": []
     },
     {
-      "title": "Horse Lords presents 'Demand To Be Taken To Heaven Alive!' 16 nov 2026 Concerts Pop / Rock / Pop-Rock Ancienne Belgique (AB) Bruxelles - B",
-      "start": "2026-11-16T13:30:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Ancienne Belgique, 110 Boulevard Anspachlaan, 1000 Bruxelles, Bruxelles, Belgique, 1000 Bruxelles, Bruxelles, Belgique, Bruxelles",
-      "description": "Horse Lords presents 'Demand To Be Taken To Heaven Alive!' 16 nov 2026 Concerts Pop / Rock / Pop-Rock Ancienne Belgique (AB) Bruxelles - Bruxelles Cet événement s’inscrit dans le cadre du programme de concerts BRDCST, un face-à-face entre artistes hors du commun et un public avide de découvertes.",
-      "url": "https://www.out.be/fr/evenements/211099_horse-lords-presents-demand-to-be-taken-to-heaven-alive-.html",
-      "image": "https://www.out.be/assets/img/logo-outbe.svg",
-      "source": "Out.be",
-      "price_min": null,
-      "price_max": null,
-      "uid": "7b572b0a42a84b7c",
-      "colour": "#8A7500",
-      "detail_checked": 4,
-      "category": "music",
-      "tags": []
-    },
-    {
       "title": "16 nov",
       "start": "2026-11-16T00:00:00+01:00",
       "end": null,
@@ -4635,18 +4566,18 @@
       "tags": []
     },
     {
-      "title": "lundi 16 novembre 2026 Manifestation Weekly Protest Bourse Brussels Lundi 16 novembre 2026 à 19:00 Bruxelles - 1000 Organisé par ProtestBase",
+      "title": "dans 6 jours Manifestation Weekly Protest Bourse Brussels Lundi 16 novembre 2026 à 19:00 Bruxelles - 1000 Organisé par ProtestBase",
       "start": "2026-11-16T19:00:00+01:00",
       "end": null,
       "all_day": false,
       "location": "Bruxelles, Bourse, 1000 Brussels, Bruxelles",
-      "description": "lundi 16 novembre 2026 Manifestation Weekly Protest Bourse Brussels Lundi 16 novembre 2026 à 19:00 Bruxelles - 1000 Organisé par ProtestBase",
+      "description": "dans 6 jours Manifestation Weekly Protest Bourse Brussels Lundi 16 novembre 2026 à 19:00 Bruxelles - 1000 Organisé par ProtestBase",
       "url": "https://protestbase.be/event/5ab33443-16ad-4b3d-b708-de5245105449",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
       "price_min": null,
       "price_max": null,
-      "uid": "e257a2f57db20173",
+      "uid": "320fac70c9ff85ab",
       "colour": "#E07A00",
       "detail_checked": 4,
       "category": "activism-justice",
@@ -5656,18 +5587,18 @@
       "tags_llm_done": true
     },
     {
-      "title": "20.11.26 PRÓXIMAMENTE 2026 RUDERAL (WIP) Marcos Ariola Langue: ES Surtitrage: EN",
+      "title": "20.11.26 PRÓXIMAMENTE 2026 RUDERAL (WIP) Marcos Arriola Langue: ES Surtitrage: EN",
       "start": "2026-11-20T00:00:00+01:00",
       "end": null,
       "all_day": true,
       "location": "",
-      "description": "20.11.26 PRÓXIMAMENTE 2026 RUDERAL (WIP) Marcos Ariola Langue: ES Surtitrage: EN dans Acheter des billets",
+      "description": "20.11.26 PRÓXIMAMENTE 2026 RUDERAL (WIP) Marcos Arriola Langue: ES Surtitrage: EN dans Acheter des billets",
       "url": "https://www.kvs.be/fr/Evenement/ruderal-wip-2",
       "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
       "source": "KVS",
       "price_min": null,
       "price_max": null,
-      "uid": "6810534422cf07d0",
+      "uid": "f8a63286bb087c07",
       "colour": "#E07A00",
       "detail_checked": 4,
       "category": "other",
@@ -6745,6 +6676,24 @@
       "price_max": 47.0,
       "uid": "db630c9f299f1ec0",
       "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Plus d'info",
+      "start": "2026-11-23T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "lun 23.11.2026 Louvain-la-Neuve Capitalisme vs. Finance solidaire : le match A un moment où l’humanité est confrontée à des défis colossaux, la finance est amenée à jouer un rôle déterminant. Pourtant, la finance dérégulée ou la recherche de profit est plus puissante que jamais. Lors d'une soirée, o",
+      "url": "https://www.financite.be/activit%C3%A9/capitalisme-vs-finance-solidaire-le-match-2",
+      "image": null,
+      "source": "Financité",
+      "price_min": null,
+      "price_max": null,
+      "uid": "18ce30700ae0f7f1",
+      "colour": "#00937A",
       "detail_checked": 4,
       "category": "other",
       "tags": []
