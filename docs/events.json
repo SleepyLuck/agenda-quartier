@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12T14:38:15.300091+01:00",
+  "generated": "2026-11-12T23:05:18.098989+01:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
@@ -51,7 +51,7 @@
       "name": "Fuse",
       "url": "https://www.fuse.be/events",
       "colour": "#C0392B",
-      "count": 15,
+      "count": 16,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-11-12"
@@ -151,7 +151,7 @@
       "url": "https://www.senghor.be/agenda/",
       "colour": "#E8336D",
       "count": 24,
-      "method": "none",
+      "method": "browser",
       "stale": true,
       "last_ok": "2026-10-03"
     },
@@ -168,7 +168,7 @@
       "name": "BOZAR",
       "url": "https://www.bozar.be/en/calendar",
       "colour": "#00937A",
-      "count": 7,
+      "count": 6,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-11-12"
@@ -195,7 +195,7 @@
       "name": "Ancienne Belgique",
       "url": "https://www.abconcerts.be/fr/agenda",
       "colour": "#C0392B",
-      "count": 7,
+      "count": 10,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-11-12"
@@ -213,7 +213,7 @@
       "name": "CBCS (Brussels social sector agenda)",
       "url": "https://cbcs.be/agenda/?ical=1",
       "colour": "#8A7500",
-      "count": 14,
+      "count": 13,
       "method": "ics",
       "stale": false,
       "last_ok": "2026-11-12"
@@ -375,7 +375,7 @@
       "name": "Varia",
       "url": "https://varia.be/en",
       "colour": "#1B6FE0",
-      "count": 3,
+      "count": 4,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-11-12"
@@ -501,7 +501,7 @@
       "name": "Out.be",
       "url": "https://www.out.be/fr/",
       "colour": "#8A7500",
-      "count": 4,
+      "count": 6,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-11-12"
@@ -573,7 +573,7 @@
       "name": "Klimaatcoalitie (Climate Coalition Belgium)",
       "url": "https://klimaatcoalitie-coalitionclimat.be/events/?ical=1",
       "colour": "#8A7500",
-      "count": 4,
+      "count": 5,
       "method": "ics",
       "stale": false,
       "last_ok": "2026-11-12"
@@ -887,8 +887,8 @@
     {
       "source": "Fuse",
       "method": "recipe",
-      "found": 15,
-      "kept": 15,
+      "found": 16,
+      "kept": 16,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -922,7 +922,7 @@
       "carried": 3,
       "stale": true,
       "error_class": "billing",
-      "note": "llm: 401 Unauthorized: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Cgy7R4U2m4rLf7qV5EKVa\"}"
+      "note": "llm: 401 Unauthorized: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011CgynQMM48joAy1XJv1eBy\"}"
     },
     {
       "source": "U-Square",
@@ -996,13 +996,13 @@
     },
     {
       "source": "Le Senghor",
-      "method": "none",
-      "found": 0,
+      "method": "browser",
+      "found": 9,
       "kept": 0,
       "carried": 24,
       "stale": true,
-      "error_class": "billing",
-      "note": "browser: jsonld/recipe empty, llm skipped (billing failure earlier this run)"
+      "error_class": "",
+      "note": ""
     },
     {
       "source": "Flagey",
@@ -1017,8 +1017,8 @@
     {
       "source": "BOZAR",
       "method": "recipe",
-      "found": 7,
-      "kept": 7,
+      "found": 6,
+      "kept": 6,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1047,8 +1047,8 @@
     {
       "source": "Ancienne Belgique",
       "method": "recipe",
-      "found": 7,
-      "kept": 7,
+      "found": 10,
+      "kept": 10,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1067,8 +1067,8 @@
     {
       "source": "CBCS (Brussels social sector agenda)",
       "method": "ics",
-      "found": 16,
-      "kept": 14,
+      "found": 15,
+      "kept": 13,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1247,8 +1247,8 @@
     {
       "source": "Varia",
       "method": "recipe",
-      "found": 3,
-      "kept": 3,
+      "found": 4,
+      "kept": 4,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1387,8 +1387,8 @@
     {
       "source": "Out.be",
       "method": "recipe",
-      "found": 9,
-      "kept": 4,
+      "found": 8,
+      "kept": 6,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1467,8 +1467,8 @@
     {
       "source": "Klimaatcoalitie (Climate Coalition Belgium)",
       "method": "ics",
-      "found": 4,
-      "kept": 4,
+      "found": 5,
+      "kept": 5,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1652,49 +1652,6 @@
       "tags": []
     },
     {
-      "title": "Free Screening Conversation 12.11.2026 Screenings & conversation: Panos Aprahamian (EN)",
-      "start": "2026-11-12T11:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Free Screening Conversation 12.11.2026 Screenings & conversation: Panos Aprahamian (EN)",
-      "url": "https://wiels.org/en/events/screenings-panos-aprahamian",
-      "image": "https://wiels.org/actions/assets/generate-transform?transformId=9",
-      "source": "WIELS",
-      "price_min": 0.0,
-      "price_max": 12.0,
-      "uid": "cb8ce7d3a731940d",
-      "colour": "#E07A00",
-      "detail_checked": 4,
-      "category": "film-cinema",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "title": "12.11.26 ― 13.11.26 Spaghetti Western Aurélie Di Marino & Renée Goethijn / Kunstenwerkplaats Language: MULTI Subtitles: NL • FR",
-      "start": "2026-11-12T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "12.11.26 ― 13.11.26 Spaghetti Western Aurélie Di Marino & Renée Goethijn / Kunstenwerkplaats Language: MULTI Subtitles: NL • FR theatre Info and tickets",
-      "url": "https://www.kvs.be/fr/Evenement/spaghetti-western-2",
-      "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
-      "source": "KVS",
-      "price_min": null,
-      "price_max": null,
-      "uid": "ba27a5e19d1a9642",
-      "colour": "#E07A00",
-      "detail_checked": 4,
-      "translated": true,
-      "category": "culture-arts",
-      "category_llm": true,
-      "tags": [
-        "live"
-      ],
-      "tags_llm_done": true
-    },
-    {
       "title": "12.11.2026 > 03.12.2026 Derrière le brouillard Exposition",
       "start": "2026-11-12T00:00:00+01:00",
       "end": null,
@@ -1749,78 +1706,6 @@
       "tags": []
     },
     {
-      "title": "MAD Parcours • Kenza Taleb Vandeput 12 nov 14 nov Expos Visites guidées Théâtre National Wallonie-Bruxelles Bruxelles - Bruxelles Du 12 au",
-      "start": "2026-11-12T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "Théâtre National, Boulevard Emile Jacqmain, 111-115, 1000 Bruxelles, Bruxelles, Belgique, Bruxelles",
-      "description": "MAD Parcours • Kenza Taleb Vandeput 12 nov 14 nov Expos Visites guidées Théâtre National Wallonie-Bruxelles Bruxelles - Bruxelles Du 12 au 14 novembre 2026, dans le cadre du MAD Parcours, le Théâtre National vous ouvre ses portes et propose des visites guidées de l'atelier couture, de sa réserve c",
-      "url": "https://www.out.be/fr/evenements/225352_mad-parcours-kenza-taleb-vandeput.html",
-      "image": "https://www.out.be/assets/img/logo-outbe.svg",
-      "source": "Out.be",
-      "price_min": 10.0,
-      "price_max": 13.0,
-      "uid": "499e9db6b3555d64",
-      "colour": "#8A7500",
-      "detail_checked": 4,
-      "category": "workshops-creative",
-      "tags": []
-    },
-    {
-      "title": "HOUB 12 nov 14 nov Concerts Atelier 210 Etterbeek - Bruxelles Comment décrire nos corps si nous n’avons pas de langage ? En arabe, ḥoub si",
-      "start": "2026-11-12T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "Atelier 210, 210 Chaussée Saint-Pierre, 1040 Etterbeek, Bruxelles, Belgique, Etterbeek",
-      "description": "HOUB 12 nov 14 nov Concerts Atelier 210 Etterbeek - Bruxelles Comment décrire nos corps si nous n’avons pas de langage ? En arabe, ḥoub signifie « amour » sous toutes ses formes. La racine ح ب ب (« ḥbb ») fait référence à la graine, au noyau, à ce qui porte la v",
-      "url": "https://www.out.be/fr/evenements/209925_houb.html",
-      "image": "https://www.out.be/assets/img/logo-outbe.svg",
-      "source": "Out.be",
-      "price_min": null,
-      "price_max": null,
-      "uid": "f69542613fb34aba",
-      "colour": "#8A7500",
-      "detail_checked": 4,
-      "category": "music",
-      "tags": []
-    },
-    {
-      "title": "Nov 12 Sold Out STRUCTURAL PAPER LAMPS Ixelles , Belgium Atelier ponctuel Sold Out Event Info",
-      "start": "2026-11-12T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "Nov 12 Sold Out STRUCTURAL PAPER LAMPS Ixelles , Belgium Atelier ponctuel Sold Out Event Info",
-      "url": "https://www.craft-studios.be/en/event/structural-paper-lamps-351/register",
-      "image": "https://www.craft-studios.be/web/image/website/1/social_default_image",
-      "source": "Craft Studios",
-      "price_min": null,
-      "price_max": null,
-      "uid": "7b6f579a87e5e860",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "workshops-creative",
-      "tags": []
-    },
-    {
-      "title": "12 nov",
-      "start": "2026-11-12T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "12 nov Liège 12/11/2026 Opération 11.11.11. Participez au petit déjeuner la Mutualité chrétienne près... Dans le cadre de l'Opération 11.11.11, la Mutualité chrétienne qui apporte particulièrement son soutien à l'expansion de mutualités de santé à l’échelle internationale, pour rendre les soins acce",
-      "url": "https://www.cncd.be/Operation-11-11-11-Participez-au-3941",
-      "image": "https://www.cncd.be/IMG/logo/spip_fond_login.jpg",
-      "source": "CNCD-11.11.11",
-      "price_min": 10.0,
-      "price_max": 13.0,
-      "uid": "4faa8a259b386f97",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "Climate Alarmists - Grootouders voor het klimaat & Grandparents pour le climat",
       "start": "2026-11-12T08:00:00+01:00",
       "end": "2026-12-31T17:00:00+01:00",
@@ -1839,24 +1724,6 @@
       "tags": [
         "recurring"
       ]
-    },
-    {
-      "title": "Précarité et utilisation de l’IA en santé",
-      "start": "2026-11-12T09:00:00+01:00",
-      "end": "2026-11-12T17:00:00+01:00",
-      "all_day": false,
-      "location": "La Fonderie, Rue Ransfort 27, Bruxelles, 1080, Belgium",
-      "description": "Question santé vous invite ce 12 novembre pour parler de l’utilisation de l’IA en santé chez les publics en situation de précarité. Lien vers les inscriptions Inscrivez-vous dès maintenant et ne manquez pas cette journée d’échanges et de réflexions autour des usages de l’intelligence artificielle par les publics en situation de précarité dans le domaine de la santé. Pour explorer ces questions, Question Santé asbl vous invite à une journée de réflexion réunissant chercheur·euses, professionnel·les du social et de la santé, associations et acteur·rices de la promotion de la santé. Au programme ",
-      "url": "https://cbcs.be/event/precarite-et-utilisation-de-lia-en-sante/",
-      "image": null,
-      "source": "CBCS (Brussels social sector agenda)",
-      "price_min": 15.0,
-      "price_max": 15.0,
-      "uid": "e6f1fb012cc61cbb",
-      "colour": "#8A7500",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
     },
     {
       "title": "Marché aux puces de la place du jeu de balle",
@@ -1961,24 +1828,6 @@
       "tags_llm_done": true
     },
     {
-      "title": "Ali Cherri: Pray, Lips of Clay",
-      "start": "2026-11-12T11:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Ali Cherri: Pray, Lips of Clay jeu 12/11 - 11:00 Exposition",
-      "url": "http://forest.brussels/fr/agenda/exposition/2026/ali-cherri-pray-lips-of-clay",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "24447be26f45cab2",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "culture-arts",
-      "tags": []
-    },
-    {
       "title": "Portia Zvavahera: Kuzviramba Mamuri",
       "start": "2026-11-12T11:00:00+01:00",
       "end": null,
@@ -1991,6 +1840,24 @@
       "price_min": null,
       "price_max": null,
       "uid": "703497faf4190f2b",
+      "colour": "#7B49D6",
+      "detail_checked": 4,
+      "category": "culture-arts",
+      "tags": []
+    },
+    {
+      "title": "Ali Cherri: Pray, Lips of Clay",
+      "start": "2026-11-12T11:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Ali Cherri: Pray, Lips of Clay jeu 12/11 - 11:00 Exposition",
+      "url": "http://forest.brussels/fr/agenda/exposition/2026/ali-cherri-pray-lips-of-clay",
+      "image": null,
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "24447be26f45cab2",
       "colour": "#7B49D6",
       "detail_checked": 4,
       "category": "culture-arts",
@@ -2043,44 +1910,6 @@
       "tags": []
     },
     {
-      "title": "Coward",
-      "start": "2026-11-12T16:10:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "Coward Thu 12 Nov - Sun 22 Nov Studio 5 cinema € 7,00–€ 10,50 dates dates Thu 12 Nov 16:10 tickets Thu 19 Nov 17:00 tickets Sun 22 Nov 14:15 tickets Wed 21 Oct 19:10 Past event Thu 22 Oct 17:15 Past event Sat 24 Oct 18:45 Past event Fri 30 Oct 18:15 Past event Sun 1 Nov 18:40 Past event Thu 5 Nov 18",
-      "url": "https://www.flagey.be/en/agenda/coward-xdbs",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "cde36b35d441a461",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "film-cinema",
-      "tags": []
-    },
-    {
-      "title": "boxe pour enfants",
-      "start": "2026-11-12T17:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "12 boxe pour enfants",
-      "url": "https://anderlecht.be/fr/agenda/boxe-pour-enfants",
-      "image": null,
-      "source": "Anderlecht (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "375c13eab8da01b5",
-      "colour": "#8A7500",
-      "detail_checked": 4,
-      "category": "family-children",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "Tai chi avondcursus 1",
       "start": "2026-11-12T18:00:00+01:00",
       "end": null,
@@ -2096,26 +1925,6 @@
       "colour": "#7B49D6",
       "detail_checked": 4,
       "category": "sport-wellbeing",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Vagabond",
-      "start": "2026-11-12T18:25:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "Vagabond Thu 12 Nov and Sun 22 Nov Studio 5 cinema € 7,00–€ 10,50 dates dates Thu 12 Nov 18:25 tickets Sun 22 Nov 16:30 tickets Fri 6 Nov 16:45 Past event",
-      "url": "https://www.flagey.be/en/agenda/vagabond-b5q7",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "d1a8ec7e46a14af1",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "film-cinema",
       "tags": [
         "evening"
       ]
@@ -2147,46 +1956,6 @@
       "detail_checked": 4
     },
     {
-      "title": "Dentro - Elsa Amiel",
-      "start": "2026-11-12T19:30:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Dentro - Elsa Amiel Sold out Cancelled Postponed Last Tickets Films Festival New release In the presence of the director Highly Recommended Dentro - Elsa Amiel In the presence of Elsa Amiel 12 Nov.'26 - 19:30 From 10 €",
-      "url": "https://www.bozar.be/en/calendar/dentro-elsa-amiel",
-      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
-      "source": "BOZAR",
-      "price_min": 10.0,
-      "price_max": 10.0,
-      "uid": "b11b53c9dce92cd0",
-      "colour": "#00937A",
-      "detail_checked": 4,
-      "category": "festivals-celebrations",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Tai chi avondcursus 2",
-      "start": "2026-11-12T19:30:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Tai chi avondcursus 2 jeu 12/11 - 19:30 Sport",
-      "url": "http://forest.brussels/fr/agenda/tai-chi-avondcursus-2",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "aa67a670cfb44c55",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "sport-wellbeing",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "Yoga en meditatie",
       "start": "2026-11-12T19:30:00+01:00",
       "end": null,
@@ -2207,61 +1976,21 @@
       ]
     },
     {
-      "title": "Yoga Root & Rise",
+      "title": "Tai chi avondcursus 2",
       "start": "2026-11-12T19:30:00+01:00",
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "12 Yoga Root & Rise",
-      "url": "https://anderlecht.be/fr/agenda/yoga-root-rise",
+      "description": "Tai chi avondcursus 2 jeu 12/11 - 19:30 Sport",
+      "url": "http://forest.brussels/fr/agenda/tai-chi-avondcursus-2",
       "image": null,
-      "source": "Anderlecht (commune agenda)",
+      "source": "Forest (commune agenda)",
       "price_min": null,
       "price_max": null,
-      "uid": "451fca198a5a6340",
-      "colour": "#8A7500",
+      "uid": "aa67a670cfb44c55",
+      "colour": "#7B49D6",
       "detail_checked": 4,
       "category": "sport-wellbeing",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "La Frappe",
-      "start": "2026-11-12T20:30:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "La Frappe Thu 12 Nov 20:30 Studio 5 cinema special screening Tickets Normal € 10,50 -12 € 7,00 -26 € 8,50 65+ € 8,50 € 7,00–€ 10,50 tickets",
-      "url": "https://www.flagey.be/en/agenda/la-frappe-72l6",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 26.0,
-      "uid": "25c76c151b4f8df0",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "film-cinema",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Du rififi au couvent",
-      "start": "2026-11-12T20:45:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "12 Du rififi au couvent",
-      "url": "https://anderlecht.be/fr/agenda/du-rififi-au-couvent",
-      "image": null,
-      "source": "Anderlecht (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "63e04292bb439cda",
-      "colour": "#8A7500",
-      "detail_checked": 4,
-      "category": "other",
       "tags": [
         "evening"
       ]
@@ -2347,6 +2076,24 @@
       "tags_llm_done": true
     },
     {
+      "title": "13.11.26 Spaghetti Western Aurélie Di Marino & Renée Goethijn / Kunstenwerkplaats Langue: MULTI Surtitrage: NL • FR",
+      "start": "2026-11-13T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "13.11.26 Spaghetti Western Aurélie Di Marino & Renée Goethijn / Kunstenwerkplaats Langue: MULTI Surtitrage: NL • FR theater Derniers tickets",
+      "url": "https://www.kvs.be/fr/Evenement/spaghetti-western-2",
+      "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
+      "source": "KVS",
+      "price_min": null,
+      "price_max": null,
+      "uid": "c4d220cd08a91051",
+      "colour": "#E07A00",
+      "detail_checked": 4,
+      "category": "culture-arts",
+      "tags": []
+    },
+    {
       "title": "general ven 13 nov '26 AB Club Fifty Lab Music Festival + Alewya, Fred Gata, namesbliss, Bombay Mami Fifty Lab s'adresse aux esprits curieux",
       "start": "2026-11-13T18:30:00+01:00",
       "end": null,
@@ -2405,6 +2152,24 @@
       "tags": [
         "evening"
       ]
+    },
+    {
+      "title": "Jorge Gimenez, Matteo Bevilacqua 13 nov 2026 Concerts Classique / Contemporain / Baroque / Carillons Flagey Ixelles - Bruxelles Lorsqu’on",
+      "start": "2026-11-13T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "Flagey, Place Flagey Flageyplein, 1050 Ixelles, Bruxelles, Belgique, Ixelles",
+      "description": "Jorge Gimenez, Matteo Bevilacqua 13 nov 2026 Concerts Classique / Contemporain / Baroque / Carillons Flagey Ixelles - Bruxelles Lorsqu’on évoque le violoncelliste espagnol Jorge Giménez et le pianiste italien Matteo Bevilacqua, un plus un fait trois. Depuis qu’ils se sont rencontrés lors de leurs",
+      "url": "https://www.out.be/fr/evenements/208752_jorge-gimenez-matteo-bevilacqua.html",
+      "image": "https://www.out.be/assets/img/logo-outbe.svg",
+      "source": "Out.be",
+      "price_min": 16.0,
+      "price_max": 16.0,
+      "uid": "558433af20101df9",
+      "colour": "#8A7500",
+      "detail_checked": 4,
+      "category": "music",
+      "tags": []
     },
     {
       "title": "Nov 13 PIMP YOUR TOP - BEADS EMBROIDERY Ixelles , Belgium Atelier ponctuel Get Tickets",
@@ -2479,18 +2244,18 @@
       "tags": []
     },
     {
-      "title": "dans 18h Soutien Violences faites aux femmes: un combat permanent - Séminaire d’actualité Sociale Vendredi 13 novembre 2026 à 09:00 Saint-Gi",
+      "title": "dans 10h Soutien Violences faites aux femmes: un combat permanent - Séminaire d’actualité Sociale Vendredi 13 novembre 2026 à 09:00 Saint-Gi",
       "start": "2026-11-13T09:00:00+01:00",
       "end": null,
       "all_day": false,
       "location": "Saint-Gilles, 45 Rue de Suède - Zwedenstraat, Saint-Gilles",
-      "description": "dans 18h Soutien Violences faites aux femmes: un combat permanent - Séminaire d’actualité Sociale Vendredi 13 novembre 2026 à 09:00 Saint-Gilles - 1060 Organisé par ProtestBase",
+      "description": "dans 10h Soutien Violences faites aux femmes: un combat permanent - Séminaire d’actualité Sociale Vendredi 13 novembre 2026 à 09:00 Saint-Gilles - 1060 Organisé par ProtestBase",
       "url": "https://protestbase.be/event/6fc66d51-baf0-4d18-816d-b2fd763e1d8a",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
       "price_min": null,
       "price_max": null,
-      "uid": "8d93e66323b88209",
+      "uid": "1704d3f91a456026",
       "colour": "#E07A00",
       "detail_checked": 4,
       "category": "talks-discussions",
@@ -2677,18 +2442,18 @@
       "tags": []
     },
     {
-      "title": "dans 22h Manifestation ✊ Rassemblement devant l'ambassade israélienne Vendredi 13 novembre 2026 à 12:30 Uccle - 1180 Organisé par ProtestBas",
+      "title": "dans 13h Manifestation ✊ Rassemblement devant l'ambassade israélienne Vendredi 13 novembre 2026 à 12:30 Uccle - 1180 Organisé par ProtestBas",
       "start": "2026-11-13T12:30:00+01:00",
       "end": null,
       "all_day": false,
       "location": "Uccle, 40 Sterrewachtlaan, Uccle",
-      "description": "dans 22h Manifestation ✊ Rassemblement devant l'ambassade israélienne Vendredi 13 novembre 2026 à 12:30 Uccle - 1180 Organisé par ProtestBase",
+      "description": "dans 13h Manifestation ✊ Rassemblement devant l'ambassade israélienne Vendredi 13 novembre 2026 à 12:30 Uccle - 1180 Organisé par ProtestBase",
       "url": "https://protestbase.be/event/0f867533-baf3-47b7-9639-9cb3276143c8",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
       "price_min": null,
       "price_max": null,
-      "uid": "3323ec88083a6837",
+      "uid": "1646f1215e2a9400",
       "colour": "#E07A00",
       "detail_checked": 4,
       "category": "activism-justice",
@@ -2795,7 +2560,7 @@
       "all_day": false,
       "location": "",
       "description": "TW Allez ven 13/11 - 17:30 Animations",
-      "url": "http://forest.brussels/fr/agenda/animations/2026/tw-allez-2",
+      "url": "http://forest.brussels/fr/agenda/animations/2026/tw-allez-3",
       "image": null,
       "source": "Forest (commune agenda)",
       "price_min": null,
@@ -2864,6 +2629,46 @@
       "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "film-cinema",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
+      "title": "Hatha yoga soirée",
+      "start": "2026-11-13T19:15:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "13 Hatha yoga soirée",
+      "url": "https://anderlecht.be/fr/agenda/hatha-yoga-soiree",
+      "image": null,
+      "source": "Anderlecht (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "59ec5a3bdd9ec4f5",
+      "colour": "#8A7500",
+      "detail_checked": 4,
+      "category": "sport-wellbeing",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
+      "title": "Du rififi au couvent",
+      "start": "2026-11-13T20:45:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "13 Du rififi au couvent",
+      "url": "https://anderlecht.be/fr/agenda/du-rififi-au-couvent",
+      "image": null,
+      "source": "Anderlecht (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "0de48130989fc99b",
+      "colour": "#8A7500",
+      "detail_checked": 4,
+      "category": "other",
       "tags": [
         "evening"
       ]
@@ -3181,26 +2986,6 @@
       "tags": []
     },
     {
-      "title": "Chance",
-      "start": "2026-11-14T18:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Studio Varia, 154, rue Gray, Bruxelles",
-      "description": "Theater Chance Céline Beigbeder 10—14.11.2026 10—14.11.2026 Studio Varia A show brimming with daring and energy, in which a radiant trio pushes the boundaries of convention in an ode to motherhood and alternative possibilities.",
-      "url": "https://varia.be/en/programme/2026-2027/celine-beigbeder/chance",
-      "image": "https://varia.be/themes/_custom/frontend/assets/css/images/logo/TheatreVaria.png",
-      "source": "Varia",
-      "price_min": 10.0,
-      "price_max": 27.0,
-      "uid": "17ad5fcf2de4ed65",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "culture-arts",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "NEXUS - EN QUÊTE D’UNE VOIE Oumar Diallo 11 > 14.11.26 - Les Brigittines",
       "start": "2026-11-14T19:00:00+01:00",
       "end": null,
@@ -3235,6 +3020,24 @@
       "uid": "a9b1683ab94ec2cb",
       "colour": "#1B6FE0",
       "category": "markets-fairs",
+      "tags": []
+    },
+    {
+      "title": "BRASSIN PUBLIC à la dernière brasserie bruxelloise de lambic",
+      "start": "2026-11-14T08:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "14 BRASSIN PUBLIC à la dernière brasserie bruxelloise de lambic",
+      "url": "https://anderlecht.be/fr/agenda/brassin-public-a-la-derniere-brasserie-bruxelloise-de-lambic",
+      "image": null,
+      "source": "Anderlecht (commune agenda)",
+      "price_min": 13.0,
+      "price_max": 13.0,
+      "uid": "7ea91b8479523aab",
+      "colour": "#8A7500",
+      "detail_checked": 4,
+      "category": "food-drink",
       "tags": []
     },
     {
@@ -3666,6 +3469,64 @@
       "tags": []
     },
     {
+      "title": "Écouter Pause general dim 15 nov '26 AB Salon Screening: The Dome Sessions (2025) by Firas El Hallak Dans une coupole inachevée de Tripoli,",
+      "start": "2026-11-15T15:30:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Écouter Pause general dim 15 nov '26 AB Salon Screening: The Dome Sessions (2025) by Firas El Hallak Dans une coupole inachevée de Tripoli, des musiciens partent à la recherche du son d'un espace que la guerre a réduit au silence. Projection Acheter",
+      "url": "https://www.abconcerts.be/fr/agenda/screening-the-dome-sessions-2025-by-firas-el-hallak/a10Qw00000Q8mlKIAR",
+      "image": "https://abconcerts.be/assets/website/components/images/og-image.1c2180e4.png",
+      "source": "Ancienne Belgique",
+      "price_min": 2.0,
+      "price_max": 27.0,
+      "uid": "300c0a9116305d8e",
+      "colour": "#C0392B",
+      "detail_checked": 4,
+      "category": "music",
+      "tags": []
+    },
+    {
+      "title": "Écouter Pause general dim 15 nov '26 AB Club Coke Studio Sessions: JEN + FINN Sortie du premier album d’un projet pop-rock en solo Concert C",
+      "start": "2026-11-15T19:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Écouter Pause general dim 15 nov '26 AB Club Coke Studio Sessions: JEN + FINN Sortie du premier album d’un projet pop-rock en solo Concert Complet",
+      "url": "https://www.abconcerts.be/fr/agenda/coke-studio-sessions-jen/a10Qw00000GrL6jIAF",
+      "image": "https://abconcerts.be/assets/website/components/images/og-image.1c2180e4.png",
+      "source": "Ancienne Belgique",
+      "price_min": 3.4,
+      "price_max": 27.0,
+      "uid": "a719e90d3f3b91cf",
+      "colour": "#C0392B",
+      "detail_checked": 4,
+      "category": "music",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
+      "title": "general dim 15 nov '26 AB Grande salle OVERMONO (LIVE) + Blawan (special guest) Les frères gallois présentent leur deuxième album, « Pure De",
+      "start": "2026-11-15T19:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "general dim 15 nov '26 AB Grande salle OVERMONO (LIVE) + Blawan (special guest) Les frères gallois présentent leur deuxième album, « Pure Devotion » Concert Derniers tickets",
+      "url": "https://www.abconcerts.be/fr/agenda/overmono-live/a10Qw00000K4u3KIAR",
+      "image": "https://abconcerts.be/assets/website/components/images/og-image.1c2180e4.png",
+      "source": "Ancienne Belgique",
+      "price_min": 9.2,
+      "price_max": 47.0,
+      "uid": "ba4ca5fe632a8b41",
+      "colour": "#C0392B",
+      "detail_checked": 4,
+      "category": "music",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
       "title": "Brocante a l'interieur Brussels Retro Market",
       "start": "2026-11-15T00:00:00+01:00",
       "end": "2026-11-15T00:00:00+01:00",
@@ -4062,21 +3923,21 @@
       "tags": []
     },
     {
-      "title": "L'arbre de réconfort rituel de clôture",
+      "title": "Family Funday",
       "start": "2026-11-15T14:00:00+01:00",
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "L'arbre de réconfort rituel de clôture dim 15/11 - 14:00 Conférences et congrès",
-      "url": "http://forest.brussels/fr/agenda/conferences-et-congres/2026/larbre-de-reconfort-rituel-de-cloture",
+      "description": "Family Funday dim 15/11 - 14:00 Visites Guidées",
+      "url": "http://forest.brussels/fr/agenda/visites-guidees/2026/family-funday",
       "image": null,
       "source": "Forest (commune agenda)",
       "price_min": null,
       "price_max": null,
-      "uid": "5e21c7a40bdd1f66",
+      "uid": "ffa7b59648672293",
       "colour": "#7B49D6",
       "detail_checked": 4,
-      "category": "talks-discussions",
+      "category": "other",
       "tags": []
     },
     {
@@ -4442,6 +4303,42 @@
       "tags_llm_done": true
     },
     {
+      "title": "Blockbuster 17 nov 2026 Théatre / Spectacles Centre Culturel d'Uccle - CCU Uccle - Bruxelles Imaginez Julia Roberts, Brad Pitt, Sean Penn,",
+      "start": "2026-11-17T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "Centre Culturel d'Uccle - CCU, 47 Rue Rouge, 1180 Uccle, Bruxelles, Belgique, Uccle",
+      "description": "Blockbuster 17 nov 2026 Théatre / Spectacles Centre Culturel d'Uccle - CCU Uccle - Bruxelles Imaginez Julia Roberts, Brad Pitt, Sean Penn, Tom Cruise soudain affublés d’un savoureux accent belge ! Le Collectif Mensuel et Nicolas Ancion renouvèlent leur collaboration en signant cet O.V.N.I. th",
+      "url": "https://www.out.be/fr/evenements/214172_blockbuster.html",
+      "image": "https://www.out.be/assets/img/logo-outbe.svg",
+      "source": "Out.be",
+      "price_min": null,
+      "price_max": null,
+      "uid": "f4dfa3f58b022819",
+      "colour": "#8A7500",
+      "detail_checked": 4,
+      "category": "culture-arts",
+      "tags": []
+    },
+    {
+      "title": "Concert de gala de la Musique Royale des Guides 17 nov 2026 Concerts Palais des Beaux-Arts de Bruxelles - Bozar Bruxelles - Bruxelles Notr",
+      "start": "2026-11-17T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "Palais des Beaux-Arts de Bruxelles - Bozar, Rue Ravenstein 23, 1000 Bruxelles, Belgique, Bruxelles",
+      "description": "Concert de gala de la Musique Royale des Guides 17 nov 2026 Concerts Palais des Beaux-Arts de Bruxelles - Bozar Bruxelles - Bruxelles Notre concert de gala annuel, à l'occasion de la Fête du Roi, débutera par l'ouverture À la Jeunesse d'István Sárközy. Ensuite, l'Orchestreaccompagnera le violoncel",
+      "url": "https://www.out.be/fr/evenements/220209_concert-de-gala-de-la-musique-royale-des-guides.html",
+      "image": "https://www.out.be/assets/img/logo-outbe.svg",
+      "source": "Out.be",
+      "price_min": null,
+      "price_max": null,
+      "uid": "308560e347073126",
+      "colour": "#8A7500",
+      "detail_checked": 4,
+      "category": "music",
+      "tags": []
+    },
+    {
       "title": "17 nov",
       "start": "2026-11-17T00:00:00+01:00",
       "end": null,
@@ -4717,21 +4614,21 @@
       "tags_llm_done": true
     },
     {
-      "title": "Interpol + Bloc Party – Co-headline Tour 18 nov 2026 Concerts Pop / Rock / Pop-Rock Forest National Forest - Bruxelles Interpol et Bloc Pa",
+      "title": "Jean Brusselmans L’artiste au travail 18 nov 09 mai 2027 Expos Musées royaux des Beaux-Arts de Belgique Bruxelles - Bruxelles Cette exposi",
       "start": "2026-11-18T00:00:00+01:00",
       "end": null,
       "all_day": true,
-      "location": "Forest National, Av. Victor Rousseau 208, 1190 Forest, Belgique, Forest",
-      "description": "Interpol + Bloc Party – Co-headline Tour 18 nov 2026 Concerts Pop / Rock / Pop-Rock Forest National Forest - Bruxelles Interpol et Bloc Party unissent leurs forces pour une tournée commune et apportent leurs styles emblématiques à Forest National. Attendez-vous à une soirée où les sonorités sombre",
-      "url": "https://www.out.be/fr/evenements/194073_interpol-bloc-party-co-headline-tour.html",
+      "location": "Musées royaux des Beaux-Arts de Belgique, 3 Rue de la Régence, 1000 Bruxelles, Bruxelles, Belgique, Bruxelles",
+      "description": "Jean Brusselmans L’artiste au travail 18 nov 09 mai 2027 Expos Musées royaux des Beaux-Arts de Belgique Bruxelles - Bruxelles Cette exposition est rendue possible grâce à un ensemble exceptionnel de dons et legs consentis par les héritiers de Brusselmans — plus de 300 dessins, 22 peintures et de n",
+      "url": "https://www.out.be/fr/evenements/221914_jean-brusselmans-l-artiste-au-travail.html",
       "image": "https://www.out.be/assets/img/logo-outbe.svg",
       "source": "Out.be",
       "price_min": null,
       "price_max": null,
-      "uid": "bf0625f5dc3a7964",
+      "uid": "ec23f5a3e35991c9",
       "colour": "#8A7500",
       "detail_checked": 4,
-      "category": "music",
+      "category": "workshops-creative",
       "tags": []
     },
     {
@@ -4968,6 +4865,26 @@
       ]
     },
     {
+      "title": "SOS Civic Space: Vlaamse Jeugdraad x Forum des Jeunes",
+      "start": "2026-11-18T18:30:00+01:00",
+      "end": "2026-11-18T21:00:00+01:00",
+      "all_day": false,
+      "location": "Leopoldstraat 9, Brussel",
+      "description": "Hoeveel ruimte krijg jij om je mening te uiten, anderen te ontmoeten, je te verenigen en mee te beslissen over de samenleving? Die ruimte is belangrijk voor onze democratie. We noemen ze de civiele ruimte. Maar wat betekent dat precies, en waarom is die ruimte zo belangrijk voor jongeren? Ontdek het tijdens SOS Civic Space! Dit event laat je spelenderwijs kennismaken met de leefwereld van andere jongeren en laat je nadenken over hoe jij als jonge burger je steentje kunt bijdragen aan de samenleving. Daarnaast ontdek je hoe jongeren ook op internationaal niveau hun stem kunnen laten horen. Femk",
+      "url": "https://klimaatcoalitie-coalitionclimat.be/event/sos-civic-space-vlaamse-jeugdraad-x-forum-des-jeunes/",
+      "image": null,
+      "source": "Klimaatcoalitie (Climate Coalition Belgium)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "eaa5948793dff183",
+      "colour": "#8A7500",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
       "title": "Chants et huchements",
       "start": "2026-11-18T19:30:00+01:00",
       "end": "2026-11-18T22:00:00+01:00",
@@ -5174,6 +5091,26 @@
       "detail_checked": 4
     },
     {
+      "title": "Le Labo de l'Atout",
+      "start": "2026-11-19T20:30:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Studio Varia, 154, rue Gray, Bruxelles",
+      "description": "Multidisciplinary Le Labo de l'Atout L'Atout Comedy Club 19.11.2026—22.04.2027 19.11.2026—22.04.2027 Studio Varia Given the success of previous events, Varia is delighted to welcome back L’Atout Comedy Club.",
+      "url": "https://varia.be/en/programme/2026-2027/latout-comedy-club/le-labo-de-latout",
+      "image": "https://varia.be/themes/_custom/frontend/assets/css/images/logo/TheatreVaria.png",
+      "source": "Varia",
+      "price_min": 10.0,
+      "price_max": 27.0,
+      "uid": "3d779a20d08ee591",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
       "title": "Nov 19 Sold Out EMBROIDERY CHRISTMAS ORNAMENTS Ixelles , Belgium Atelier ponctuel Sold Out Event Info",
       "start": "2026-11-19T00:00:00+01:00",
       "end": null,
@@ -5283,6 +5220,26 @@
       "stale": true
     },
     {
+      "title": "Coward",
+      "start": "2026-11-19T17:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "Coward Thu 19 Nov and Sun 22 Nov Studio 5 cinema € 7,00–€ 10,50 dates dates Thu 19 Nov 17:00 tickets Sun 22 Nov 14:15 tickets Wed 21 Oct 19:10 Past event Thu 22 Oct 17:15 Past event Sat 24 Oct 18:45 Past event Fri 30 Oct 18:15 Past event Sun 1 Nov 18:40 Past event Thu 5 Nov 18:50 Past event Fri 6 No",
+      "url": "https://www.flagey.be/en/agenda/coward-xdbs",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 10.5,
+      "uid": "eaaba5a6fc774b08",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "film-cinema",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
       "title": "Balade sonore \"de Midi à 14h\"",
       "start": "2026-11-19T18:00:00+01:00",
       "end": "2026-11-19T20:00:00+01:00",
@@ -5303,6 +5260,26 @@
       ]
     },
     {
+      "title": "Love spells and all that",
+      "start": "2026-11-19T19:15:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "Love spells and all that Thu 19 Nov 19:15 Studio 5 cinema special screening Tickets Normal € 10,50 -12 € 7,00 -26 € 8,50 65+ € 8,50 € 7,00–€ 10,50 tickets",
+      "url": "https://www.flagey.be/en/agenda/love-spells-and-all-that-4wmv",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 26.0,
+      "uid": "3171d42d8710aa84",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "film-cinema",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
       "title": "do 19.11.26 20:00 Rectum Crocodile Marvin M'toumo",
       "start": "2026-11-19T20:00:00+01:00",
       "end": null,
@@ -5318,6 +5295,26 @@
       "colour": "#7B49D6",
       "detail_checked": 4,
       "category": "culture-arts",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
+      "title": "Heysel 85",
+      "start": "2026-11-19T21:15:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "Heysel 85 Thu 19 Nov - Sun 29 Nov Studio 5 cinema € 7,00–€ 10,50 dates dates Thu 19 Nov 21:15 tickets Sat 21 Nov 14:00 tickets Sun 22 Nov 18:35 tickets Thu 26 Nov 19:00 tickets Sun 29 Nov 16:00 tickets",
+      "url": "https://www.flagey.be/en/agenda/heysel-85-xdnl",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 10.5,
+      "uid": "6595b10bbbcaf796",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "film-cinema",
       "tags": [
         "evening"
       ]
@@ -5913,6 +5910,24 @@
       "tags": [
         "evening"
       ]
+    },
+    {
+      "title": "Personarama 19 nov 21 nov Théatre / Spectacles Marionnettes Le 140 Schaerbeek - Bruxelles C’est le chaos de la création qui se révèle !Ces",
+      "start": "2026-11-21T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "Personarama 19 nov 21 nov Théatre / Spectacles Marionnettes Le 140 Schaerbeek - Bruxelles C’est le chaos de la création qui se révèle !Ces figures fantastiques et fantasmées sont convoquées par un acteur, seul dans le théâtre, aux prises avec une oeuvre en devenir et encore naissante. L’ac",
+      "url": "https://www.out.be/fr/evenements/215704_personarama.html",
+      "image": "https://www.out.be/assets/img/logo-outbe.svg",
+      "source": "Out.be",
+      "price_min": null,
+      "price_max": null,
+      "uid": "6a2a75922b1b7f23",
+      "colour": "#8A7500",
+      "detail_checked": 4,
+      "category": "culture-arts",
+      "tags": []
     },
     {
       "title": "Brocante du family-center",
@@ -6983,6 +6998,24 @@
       "tags": []
     },
     {
+      "title": "Nov 26 ADVENT CALENDAR Ixelles , Belgium Atelier ponctuel Event Get Tickets",
+      "start": "2026-11-26T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "Nov 26 ADVENT CALENDAR Ixelles , Belgium Atelier ponctuel Event Get Tickets",
+      "url": "https://www.craft-studios.be/en/event/advent-calendar-377/register",
+      "image": "https://www.craft-studios.be/web/image/website/1/social_default_image",
+      "source": "Craft Studios",
+      "price_min": 50.0,
+      "price_max": 50.0,
+      "uid": "e97d7d312e6dded0",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "workshops-creative",
+      "tags": []
+    },
+    {
       "title": "jeudi 26 novembre 2026 Apprendre Projection du film NAZA à l'ULB Jeudi 26 novembre 2026 à 18:00 Bruxelles - 1000 Organisé par ProtestBase",
       "start": "2026-11-26T18:00:00+01:00",
       "end": null,
@@ -7024,26 +7057,6 @@
       "detail_checked": 4
     },
     {
-      "title": "do 26.11.26 20:00 anger angels Sophia Rodriguez Teresa Vittucci",
-      "start": "2026-11-26T20:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "do 26.11.26 20:00 anger angels Sophia Rodriguez Teresa Vittucci performance De Kriekelaar Tickets",
-      "url": "https://kaaitheater.be/nl/agenda/26-27/anger-angels",
-      "image": null,
-      "source": "Kaaitheater",
-      "price_min": 14.0,
-      "price_max": 26.0,
-      "uid": "5257f7b92d7ea182",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "do 26.11.26 20:00 AfterMyth Noha Ramadan",
       "start": "2026-11-26T20:00:00+01:00",
       "end": null,
@@ -7056,6 +7069,26 @@
       "price_min": 12.0,
       "price_max": 20.0,
       "uid": "10b4d94bba451a61",
+      "colour": "#7B49D6",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
+      "title": "do 26.11.26 20:00 anger angels Sophia Rodriguez Teresa Vittucci",
+      "start": "2026-11-26T20:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "do 26.11.26 20:00 anger angels Sophia Rodriguez Teresa Vittucci performance De Kriekelaar Tickets",
+      "url": "https://kaaitheater.be/nl/agenda/26-27/anger-angels",
+      "image": null,
+      "source": "Kaaitheater",
+      "price_min": 14.0,
+      "price_max": 26.0,
+      "uid": "5257f7b92d7ea182",
       "colour": "#7B49D6",
       "detail_checked": 4,
       "category": "other",
@@ -8249,6 +8282,24 @@
       "tags": []
     },
     {
+      "title": "Guided tour 05.12.2026 Look Who's Talking: Yolande Zola Zoli van der Heide (NL)",
+      "start": "2026-12-05T11:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Guided tour 05.12.2026 Look Who's Talking: Yolande Zola Zoli van der Heide (NL)",
+      "url": "https://wiels.org/en/events/look-whos-talking-yolande-zola-zoli-van-der-heide",
+      "image": "https://wiels.org/actions/assets/generate-transform?transformId=9",
+      "source": "WIELS",
+      "price_min": 0.0,
+      "price_max": 12.0,
+      "uid": "1fc2e53bc8ea3b6b",
+      "colour": "#E07A00",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "Un peu de fièvre Salvatore Calcagno/garçongarçon 03 – 05.12.2026",
       "start": "2026-12-05T00:00:00+01:00",
       "end": null,
@@ -8265,6 +8316,26 @@
       "detail_checked": 4,
       "category": "other",
       "tags": []
+    },
+    {
+      "title": "Les Veilleuses",
+      "start": "2026-12-05T18:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Hors les murs",
+      "description": "Masques Theater Les Veilleuses Héloïse Meire 25.11—05.12.2026 25.11—05.12.2026 Création Hors les murs Combining subtle interplay with evocative and poetic imagery, Héloïse Meire’s new production unfolds like a graphic novel brought to the stage, immersing us in the daily lives of family carers",
+      "url": "https://varia.be/en/programme/2026-2027/heloise-meire/les-veilleuses",
+      "image": "https://varia.be/themes/_custom/frontend/assets/css/images/logo/TheatreVaria.png",
+      "source": "Varia",
+      "price_min": null,
+      "price_max": null,
+      "uid": "826a5673860ffff3",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "culture-arts",
+      "tags": [
+        "evening"
+      ]
     },
     {
       "title": "Beyond the Story – Soutien à Husam",
@@ -9740,6 +9811,24 @@
         "evening"
       ],
       "tags_llm_done": true
+    },
+    {
+      "title": "Fuse presents: Imprint night w/ Deniro, Markus Suckut, Border One & Downside",
+      "start": "2026-12-26T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "Sat 26 Dec Fuse presents: Imprint night w/ Deniro, Markus Suckut, Border One & Downside Tickets Line-up Room 01 Deniro Markus Suckut Border One Downside Buy tickets More info",
+      "url": "https://www.fuse.be/events/fuse-presents-imprint-night-w-deniro-markus-suckut-border-one-downside",
+      "image": "https://www.fuse.be/uploads/general/_1200x630_fit_center-center_82_none/Logo-black-high.png?v=1788368690",
+      "source": "Fuse",
+      "price_min": 0.0,
+      "price_max": 20.0,
+      "uid": "c9c04372517bea73",
+      "colour": "#C0392B",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
     },
     {
       "title": "A Fox Under A Pink Moon",
