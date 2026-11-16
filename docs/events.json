@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-15T21:48:17.933519+01:00",
+  "generated": "2026-11-16T14:21:21.090929+01:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "count": 8,
       "method": "jsonld",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "GC Pianofabriek",
@@ -24,10 +24,10 @@
       "name": "La Tricoterie",
       "url": "https://www.tricoterie.be/fr/agenda/l-agenda-culturel/?lang=fr",
       "colour": "#00937A",
-      "count": 10,
+      "count": 9,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "Recyclart",
@@ -36,16 +36,16 @@
       "count": 2,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "Le Jacques Franck",
       "url": "https://www.lejacquesfranck.be/agenda",
       "colour": "#7B49D6",
-      "count": 2,
+      "count": 1,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "Fuse",
@@ -54,16 +54,16 @@
       "count": 14,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "Goudblommeke in Papier",
       "url": "https://goudblommekeinpapier.be/agenda/",
       "colour": "#0F8CA8",
-      "count": 4,
+      "count": 3,
       "method": "wordpress",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "Le Poche",
@@ -72,7 +72,7 @@
       "count": 7,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "Sounds Jazz Club",
@@ -90,7 +90,7 @@
       "count": 3,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "BRASS",
@@ -108,7 +108,7 @@
       "count": 10,
       "method": "browser",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "Maison Poème",
@@ -117,7 +117,7 @@
       "count": 14,
       "method": "jsonld",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "CCLJ",
@@ -151,7 +151,7 @@
       "url": "https://www.senghor.be/agenda/",
       "colour": "#E8336D",
       "count": 24,
-      "method": "none",
+      "method": "browser",
       "stale": true,
       "last_ok": "2026-10-03"
     },
@@ -159,7 +159,7 @@
       "name": "Flagey",
       "url": "https://www.flagey.be/agenda",
       "colour": "#1B6FE0",
-      "count": 13,
+      "count": 12,
       "method": "none",
       "stale": true,
       "last_ok": "2026-11-15"
@@ -168,10 +168,10 @@
       "name": "BOZAR",
       "url": "https://www.bozar.be/en/calendar",
       "colour": "#00937A",
-      "count": 7,
+      "count": 8,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "KVS",
@@ -180,16 +180,16 @@
       "count": 20,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "Kaaitheater",
       "url": "https://kaaitheater.be/nl/agenda",
       "colour": "#7B49D6",
-      "count": 11,
+      "count": 10,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "Ancienne Belgique",
@@ -198,31 +198,31 @@
       "count": 8,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "Demosphere Bruxelles",
       "url": "https://bxl.demosphere.net/events.ics",
       "colour": "#0F8CA8",
-      "count": 21,
+      "count": 20,
       "method": "ics",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "CBCS (Brussels social sector agenda)",
       "url": "https://cbcs.be/agenda/?ical=1",
       "colour": "#8A7500",
-      "count": 13,
+      "count": 14,
       "method": "ics",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "Quefaire.be brocantes (Brussels region)",
       "url": "https://www.quefaire.be/brocantes/region-de-bruxelles",
       "colour": "#E8336D",
-      "count": 3,
+      "count": 0,
       "method": "none",
       "stale": true,
       "last_ok": "2026-11-15"
@@ -234,7 +234,7 @@
       "count": 40,
       "method": "jsonld",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "Brussels Language Meetup",
@@ -243,7 +243,7 @@
       "count": 4,
       "method": "jsonld",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "Brussels International Hub Events (Meetup)",
@@ -252,7 +252,7 @@
       "count": 4,
       "method": "jsonld",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "Saint-Gilles brocantes & braderies (commune)",
@@ -285,10 +285,10 @@
       "name": "Théâtre National Wallonie-Bruxelles",
       "url": "https://www.theatrenational.be/en/program/",
       "colour": "#8A7500",
-      "count": 19,
+      "count": 20,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "La Bellone",
@@ -297,7 +297,7 @@
       "count": 3,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "FTI Brussel (programme page)",
@@ -324,7 +324,7 @@
       "count": 12,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "Stuut",
@@ -357,7 +357,7 @@
       "name": "Club Carré agenda",
       "url": "https://carre.be/agenda/",
       "colour": "#8A7500",
-      "count": 1,
+      "count": 0,
       "method": "none",
       "stale": true,
       "last_ok": "2026-10-03"
@@ -369,7 +369,7 @@
       "count": 18,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "Varia",
@@ -378,7 +378,7 @@
       "count": 4,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "Halles de Schaerbeek",
@@ -387,7 +387,7 @@
       "count": 10,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "La Maison du Livre",
@@ -396,7 +396,7 @@
       "count": 6,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "Forest (commune agenda)",
@@ -405,7 +405,7 @@
       "count": 24,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "Brocantes 1060 (Saint-Gilles)",
@@ -432,7 +432,7 @@
       "count": 12,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "Latin Clubbing",
@@ -450,7 +450,7 @@
       "count": 2,
       "method": "browser",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "Les Riches-Claires",
@@ -501,10 +501,10 @@
       "name": "Out.be",
       "url": "https://www.out.be/fr/",
       "colour": "#8A7500",
-      "count": 5,
+      "count": 7,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "Brasserie Illegaal",
@@ -513,7 +513,7 @@
       "count": 2,
       "method": "ics",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "Craft Studios",
@@ -522,7 +522,7 @@
       "count": 11,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "Financité",
@@ -531,7 +531,7 @@
       "count": 4,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "Inter-Environnement Bruxelles (IEB)",
@@ -549,7 +549,7 @@
       "count": 10,
       "method": "recipe",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "Gresea",
@@ -573,19 +573,19 @@
       "name": "Klimaatcoalitie (Climate Coalition Belgium)",
       "url": "https://klimaatcoalitie-coalitionclimat.be/events/?ical=1",
       "colour": "#8A7500",
-      "count": 3,
+      "count": 4,
       "method": "ics",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "Hackerspace Brussels (HSBXL)",
       "url": "https://hsbxl.be/events/index.ics",
       "colour": "#E8336D",
-      "count": 39,
+      "count": 38,
       "method": "ics",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "FTI Brussel",
@@ -594,7 +594,7 @@
       "count": 0,
       "method": "manual",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "Midis de la Poesie",
@@ -603,7 +603,7 @@
       "count": 5,
       "method": "manual",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "CRUSH festival",
@@ -612,7 +612,7 @@
       "count": 7,
       "method": "manual",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "Neighbourhood flyer",
@@ -621,7 +621,7 @@
       "count": 0,
       "method": "manual",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "Surgir asbl (Brasserie Atlas)",
@@ -630,7 +630,7 @@
       "count": 0,
       "method": "manual",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "Mazette",
@@ -639,7 +639,7 @@
       "count": 3,
       "method": "manual",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "Welzijnszorg / BOP",
@@ -648,7 +648,7 @@
       "count": 0,
       "method": "manual",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "ANTE Festival",
@@ -657,7 +657,7 @@
       "count": 0,
       "method": "manual",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     },
     {
       "name": "The Bridge Theatre",
@@ -666,7 +666,7 @@
       "count": 0,
       "method": "manual",
       "stale": false,
-      "last_ok": "2026-11-15"
+      "last_ok": "2026-11-16"
     }
   ],
   "categories": [
@@ -858,7 +858,7 @@
       "source": "La Tricoterie",
       "method": "recipe",
       "found": 19,
-      "kept": 10,
+      "kept": 9,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -867,7 +867,7 @@
     {
       "source": "Recyclart",
       "method": "recipe",
-      "found": 8,
+      "found": 6,
       "kept": 2,
       "carried": 0,
       "stale": false,
@@ -878,7 +878,7 @@
       "source": "Le Jacques Franck",
       "method": "recipe",
       "found": 3,
-      "kept": 2,
+      "kept": 1,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -897,8 +897,8 @@
     {
       "source": "Goudblommeke in Papier",
       "method": "wordpress",
-      "found": 4,
-      "kept": 4,
+      "found": 3,
+      "kept": 3,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -922,7 +922,7 @@
       "carried": 2,
       "stale": true,
       "error_class": "billing",
-      "note": "llm: 401 Unauthorized: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch5MqnFp1Qgw4QGRametr\"}"
+      "note": "llm: 401 Unauthorized: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011Ch6fgRGbfFH1gRCXkQDN3\"}"
     },
     {
       "source": "U-Square",
@@ -996,20 +996,20 @@
     },
     {
       "source": "Le Senghor",
-      "method": "none",
-      "found": 0,
+      "method": "browser",
+      "found": 9,
       "kept": 0,
       "carried": 24,
       "stale": true,
-      "error_class": "billing",
-      "note": "browser: jsonld/recipe empty, llm skipped (billing failure earlier this run)"
+      "error_class": "",
+      "note": ""
     },
     {
       "source": "Flagey",
       "method": "none",
       "found": 0,
       "kept": 0,
-      "carried": 13,
+      "carried": 12,
       "stale": true,
       "error_class": "billing",
       "note": "llm: skipped (billing failure earlier this run)"
@@ -1017,8 +1017,8 @@
     {
       "source": "BOZAR",
       "method": "recipe",
-      "found": 7,
-      "kept": 7,
+      "found": 8,
+      "kept": 8,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1037,8 +1037,8 @@
     {
       "source": "Kaaitheater",
       "method": "recipe",
-      "found": 18,
-      "kept": 11,
+      "found": 17,
+      "kept": 10,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1057,8 +1057,8 @@
     {
       "source": "Demosphere Bruxelles",
       "method": "ics",
-      "found": 22,
-      "kept": 21,
+      "found": 21,
+      "kept": 20,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1067,8 +1067,8 @@
     {
       "source": "CBCS (Brussels social sector agenda)",
       "method": "ics",
-      "found": 15,
-      "kept": 13,
+      "found": 16,
+      "kept": 14,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1079,7 +1079,7 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "carried": 3,
+      "carried": 0,
       "stale": true,
       "error_class": "parse",
       "note": "jsonld: nothing found"
@@ -1148,7 +1148,7 @@
       "source": "Théâtre National Wallonie-Bruxelles",
       "method": "recipe",
       "found": 27,
-      "kept": 19,
+      "kept": 20,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1229,7 +1229,7 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "carried": 1,
+      "carried": 0,
       "stale": true,
       "error_class": "billing",
       "note": "llm: skipped (billing failure earlier this run)"
@@ -1257,7 +1257,7 @@
     {
       "source": "Halles de Schaerbeek",
       "method": "recipe",
-      "found": 11,
+      "found": 10,
       "kept": 10,
       "carried": 0,
       "stale": false,
@@ -1388,7 +1388,7 @@
       "source": "Out.be",
       "method": "recipe",
       "found": 9,
-      "kept": 5,
+      "kept": 7,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1468,7 +1468,7 @@
       "source": "Klimaatcoalitie (Climate Coalition Belgium)",
       "method": "ics",
       "found": 5,
-      "kept": 3,
+      "kept": 4,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1477,8 +1477,8 @@
     {
       "source": "Hackerspace Brussels (HSBXL)",
       "method": "ics",
-      "found": 44,
-      "kept": 39,
+      "found": 43,
+      "kept": 38,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1577,628 +1577,6 @@
   ],
   "events": [
     {
-      "title": "BOEF",
-      "start": "2026-11-14T23:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Carré, Willebroek",
-      "description": "",
-      "url": "https://carre.be/events/boef/",
-      "image": "https://carre.be/wp-content/uploads/2026/08/carrelinks.jpg",
-      "source": "Club Carré agenda",
-      "uid": "87f53b210dd18ca8",
-      "colour": "#8A7500",
-      "translated": true,
-      "category": "other",
-      "category_llm": true,
-      "tags": [
-        "late-night"
-      ],
-      "tags_llm_done": true,
-      "stale": true,
-      "time_checked": 3,
-      "detail_checked": 4
-    },
-    {
-      "title": "15 novembre 2026",
-      "start": "2026-11-15T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "15 novembre 2026",
-      "url": "https://www.tricoterie.be/fr/agenda/l-agenda-culturel/?lang=fr&archives=2026-11-15",
-      "image": null,
-      "source": "La Tricoterie",
-      "price_min": null,
-      "price_max": null,
-      "uid": "5b14c59523532c29",
-      "colour": "#00937A",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "En attendant Zorro TEFF I Mois du Doc dimanche 15 nov.",
-      "start": "2026-11-15T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "En attendant Zorro TEFF I Mois du Doc dimanche 15 nov. Réserver",
-      "url": "https://lejacquesfranck.be/event/en-attendant-zorro/2026-11-15/",
-      "image": "https://lejacquesfranck.be/resources/assets/img/logo-og.png",
-      "source": "Le Jacques Franck",
-      "price_min": 4.5,
-      "price_max": 15.0,
-      "uid": "7c35781191caaf37",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "Brocante a l'interieur Brussels Retro Market",
-      "start": "2026-11-15T00:00:00+01:00",
-      "end": "2026-11-15T00:00:00+01:00",
-      "all_day": false,
-      "location": "Be Here Village Durable, Laeken",
-      "description": "",
-      "url": "https://www.quefaire.be/brocante-a-linterieur-8770485.shtml",
-      "image": "https://www.quefaire.be/img_n/8770483_1.jpeg",
-      "source": "Quefaire.be brocantes (Brussels region)",
-      "price_min": 10.0,
-      "price_max": 45.0,
-      "uid": "5b36f667062e2357",
-      "colour": "#E8336D",
-      "detail_checked": 4,
-      "category": "markets-fairs",
-      "tags": [
-        "late-night"
-      ],
-      "stale": true
-    },
-    {
-      "title": "La brocante de l’Ebrius",
-      "start": "2026-11-15T00:00:00+01:00",
-      "end": "2026-11-15T00:00:00+01:00",
-      "all_day": false,
-      "location": "Ebrius Artis, Bruxelles",
-      "description": "",
-      "url": "https://www.quefaire.be/la-brocante-de-lebrius-8777936.shtml",
-      "image": "https://www.quefaire.be/img_n/8777936_1.jpeg",
-      "source": "Quefaire.be brocantes (Brussels region)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "9a1ea2e51d14c145",
-      "colour": "#E8336D",
-      "detail_checked": 4,
-      "category": "markets-fairs",
-      "tags": [
-        "late-night"
-      ],
-      "stale": true
-    },
-    {
-      "title": "Brocante de l'école Joli Bois Primaire - Woluwé St Pierre",
-      "start": "2026-11-15T00:00:00+01:00",
-      "end": "2026-11-15T00:00:00+01:00",
-      "all_day": false,
-      "location": "Ecole Joli Bois Primaire, Woluwe-Saint-Pierre",
-      "description": "",
-      "url": "https://www.quefaire.be/brocante-de-lecole-joli-8779112.shtml",
-      "image": "https://www.quefaire.be/img_n/8779112_1.jpeg",
-      "source": "Quefaire.be brocantes (Brussels region)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "1c98b91bad239c20",
-      "colour": "#E8336D",
-      "detail_checked": 4,
-      "category": "markets-fairs",
-      "tags": [
-        "late-night"
-      ],
-      "stale": true
-    },
-    {
-      "title": "Marché des antiquités du sablon",
-      "start": "2026-11-15T00:00:00+01:00",
-      "end": "2026-11-15T00:00:00+01:00",
-      "all_day": true,
-      "location": "Place du Grand Sablon, Bruxelles",
-      "description": "Marché des antiquités du sablon - ouvert tous les samedis de 9h à 17h et dimanches de 9h à 15h sur la place du grand sablon ... Ce marché situé au centre du quartier des antiquaires sur la place du grand sablon est une institution depuis les années 60. ... Vous y trouverez : orfèvrerie, bijouterie, objets de vitrine, céramique et verre, art de table, tableaux, dessins, mais aussi porcelaine chinoise, petit mobilier ou art africain, collections, vieux papiers, meubles de style...",
-      "url": "https://brocabrac.fr/ru/bruxelles/993117-marche-des-antiquites-du-sablon",
-      "image": "https://brocabrac.fr/cdn/event/photos/18/fa/18fac1a672bf41b31d66cc92926b28b29c2a41f2a9bbdb4c8aca05ae9e109f3f-large.jpg",
-      "source": "Brocabrac Belgique",
-      "price_min": null,
-      "price_max": null,
-      "uid": "d318c817aa4b5854",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "workshops-creative",
-      "tags": []
-    },
-    {
-      "title": "Overmono 15 nov 2026 Concerts Pop / Rock / Pop-Rock Ancienne Belgique (AB) Bruxelles - Bruxelles Après la sortie de son deuxième album ‘Pu",
-      "start": "2026-11-15T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "Ancienne Belgique, 110 Boulevard Anspachlaan, 1000 Bruxelles, Bruxelles, Belgique, 1000 Bruxelles, Bruxelles, Belgique, Bruxelles",
-      "description": "Overmono 15 nov 2026 Concerts Pop / Rock / Pop-Rock Ancienne Belgique (AB) Bruxelles - Bruxelles Après la sortie de son deuxième album ‘Pure Devotion’ début août, Overmono enchaîne avec une tournée mondiale éponyme. Le dimanche 15 novembre, le duo formé par les frères Tom et Ed Russell fera vibre",
-      "url": "https://www.out.be/fr/evenements/217789_overmono.html",
-      "image": "https://www.out.be/assets/img/logo-outbe.svg",
-      "source": "Out.be",
-      "price_min": null,
-      "price_max": null,
-      "uid": "a2da124723b180f6",
-      "colour": "#8A7500",
-      "detail_checked": 4,
-      "category": "music",
-      "tags": []
-    },
-    {
-      "title": "Coke Studio Sessions: JEN 15 nov 2026 Concerts Pop / Rock / Pop-Rock Ancienne Belgique (AB) Bruxelles - Bruxelles JEN est le projet pop-ro",
-      "start": "2026-11-15T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "Ancienne Belgique, 110 Boulevard Anspachlaan, 1000 Bruxelles, Bruxelles, Belgique, 1000 Bruxelles, Bruxelles, Belgique, Bruxelles",
-      "description": "Coke Studio Sessions: JEN 15 nov 2026 Concerts Pop / Rock / Pop-Rock Ancienne Belgique (AB) Bruxelles - Bruxelles JEN est le projet pop-rock de Jente Neels, 24 ans. Avec un son novateur, des guitares puissantes et des accroches percutantes qui restent en tête, elle se fait rapidement un nom sur la",
-      "url": "https://www.out.be/fr/evenements/207035_coke-studio-sessions-jen.html",
-      "image": "https://www.out.be/assets/img/logo-outbe.svg",
-      "source": "Out.be",
-      "price_min": null,
-      "price_max": null,
-      "uid": "d3f00c3de4bc4bf8",
-      "colour": "#8A7500",
-      "detail_checked": 4,
-      "category": "music",
-      "tags": []
-    },
-    {
-      "title": "Musée du Capitalisme Ath - Fresque de la monnaie",
-      "start": "2026-11-15T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "dim 15.11.2026 Ath Atelier Musée du Capitalisme Ath - Fresque de la monnaie Plus d'info",
-      "url": "https://www.financite.be/activit%C3%A9/musee-du-capitalisme-ath-fresque-de-la-monnaie",
-      "image": null,
-      "source": "Financité",
-      "price_min": null,
-      "price_max": null,
-      "uid": "5eb2679126df6188",
-      "colour": "#00937A",
-      "detail_checked": 4,
-      "category": "workshops-creative",
-      "tags": []
-    },
-    {
-      "title": "Brocante des bastions",
-      "start": "2026-11-15T04:00:00+01:00",
-      "end": "2026-11-15T13:00:00+01:00",
-      "all_day": false,
-      "location": "parking du retail Park des Bastions, Boulevard Walter de Marvis, Tournai",
-      "description": "30€ les 3 places de parking 10€ supplémentaire par place de parking",
-      "url": "https://brocabrac.fr/ht/tournai/1263919-brocante-des-bastions",
-      "image": "https://brocabrac.fr/cdn/event/photos/68/0d/680d42567209098cd7856fbea2af278be92a498eb927cc4dd13f3ad63c2be902-large.jpg",
-      "source": "Brocabrac Belgique",
-      "price_min": 10.0,
-      "price_max": 30.0,
-      "uid": "95580190bab4a591",
-      "colour": "#1B6FE0",
-      "category": "markets-fairs",
-      "tags": [
-        "late-night"
-      ]
-    },
-    {
-      "title": "Broc à sec",
-      "start": "2026-11-15T06:00:00+01:00",
-      "end": "2026-11-15T13:00:00+01:00",
-      "all_day": false,
-      "location": "Parking souterrain du Carrefour, Avenue du Parc, Mouscron",
-      "description": "Une brocante couverte et illuminée de 6 h 00 à 13 h 00. A partir du 3 mai 2026 broc’à sec sera aussi broc’à l’air. Le prix pour exposants est de 20€/20m² avec ou sans voiture et 10€/10m² supplémentaires la présence est avec ou sans réservation et les portes du parking souterrain ouvrent à 5h45. Info et réservation par mail ou téléphone.",
-      "url": "https://brocabrac.fr/ht/mouscron/1355547-broc-a-sec",
-      "image": null,
-      "source": "Brocabrac Belgique",
-      "price_min": 10.0,
-      "price_max": 20.0,
-      "uid": "e49cc74a45624e2b",
-      "colour": "#1B6FE0",
-      "category": "markets-fairs",
-      "tags": []
-    },
-    {
-      "title": "Brocante du carrefour",
-      "start": "2026-11-15T07:00:00+01:00",
-      "end": "2026-11-15T13:00:00+01:00",
-      "all_day": false,
-      "location": "Parking du Carrefour, Auderghem",
-      "description": "La brocante du carrefour a lieu le troisième dimanche de chaque mois sur le parking du carrefour. Où réserver son emplacement : pas de réservation prix de l'emplacement : 25 € taille de l'emplacement : 6 mètres installation à partir de 6h heures d'accès à la brocante : de 7:h à 13h contact sur place : monsieur stéphane vilers - par téléphone.",
-      "url": "https://brocabrac.fr/ru/auderghem/992899-brocante-du-carrefour",
-      "image": null,
-      "source": "Brocabrac Belgique",
-      "price_min": 25.0,
-      "price_max": 25.0,
-      "uid": "509404f28a48fffc",
-      "colour": "#1B6FE0",
-      "category": "markets-fairs",
-      "tags": []
-    },
-    {
-      "title": "Brocante mabru",
-      "start": "2026-11-15T07:00:00+01:00",
-      "end": "2026-11-15T13:00:00+01:00",
-      "all_day": false,
-      "location": "mabru (marché matinal de Bruxelles), 22 quai des Usines, Bruxelles",
-      "description": "Grande brocante se déroulant tous les dimanches matin sur le site mabru (marché matinal de bruxelles) il y a des stands de nourriture, de produis ménagers, du gros électoménager, beaucoup d'outils électriques et manuel d'occasion ainsi qu'une foule de petits exposants. Le parking est payant (5€) et bondé, je conseille de venir par le tram qui s'arrête juste devant.",
-      "url": "https://brocabrac.fr/ru/bruxelles/1407278-brocante-mabru",
-      "image": "https://brocabrac.fr/cdn/event/photos/14/85/1485a1388536fc0f2413ec15dc7d317458308f659b9743a52904ecf30726379c-large.jpg",
-      "source": "Brocabrac Belgique",
-      "price_min": 5.0,
-      "price_max": 5.0,
-      "uid": "db977b5da3911b78",
-      "colour": "#1B6FE0",
-      "category": "markets-fairs",
-      "tags": []
-    },
-    {
-      "title": "Grande brocante",
-      "start": "2026-11-15T07:00:00+01:00",
-      "end": "2026-11-15T14:00:00+01:00",
-      "all_day": false,
-      "location": "7 rue des français, Les Bons Villers",
-      "description": "Que vous soyez brocanteurs ,antiquaires ,marchands, visiteurs ou particuliers ,nous vous attendons tous les dimanches de 7h00 à 14h00 chez broc antik market belgium pour venir vendre, acheter ,chiner et surtout pour assister ou participer au grand déballage hebdomadaire au cul du camion. Cette brocante est devenue populaire et incontournable pour tous les marchands et chineurs en un temps record. Elle est surtout devenue célèbre pour la qualité de ses marchandises. A partir de 15 € déballage ...",
-      "url": "https://brocabrac.fr/ht/les-bons-villers/1097040-grande-brocante",
-      "image": null,
-      "source": "Brocabrac Belgique",
-      "price_min": 15.0,
-      "price_max": 15.0,
-      "uid": "9dab648699ebbb14",
-      "colour": "#1B6FE0",
-      "category": "markets-fairs",
-      "tags": []
-    },
-    {
-      "title": "Marché aux puces de welkenraedt",
-      "start": "2026-11-15T07:00:00+01:00",
-      "end": "2026-11-15T13:00:00+01:00",
-      "all_day": false,
-      "location": "Place des Combattants, Welkenraedt",
-      "description": "Chaque dimanche matin vous pouvez chiner au marché aux puces de welkenraedt Emplacement : 2,50€/mètre informations par téléphone (du lundi au vendredi de 9h à 17h30).",
-      "url": "https://brocabrac.fr/lg/welkenraedt/992188-marche-aux-puces-de-welkenraedt",
-      "image": "https://brocabrac.fr/cdn/event/photos/ab/a6/aba6b9d83cc7b33b514237632744250dcc2238a2605eefc0ae204e8fce90ad37-large.png",
-      "source": "Brocabrac Belgique",
-      "price_min": 2.5,
-      "price_max": 2.5,
-      "uid": "2b85bc00e7020c44",
-      "colour": "#1B6FE0",
-      "category": "markets-fairs",
-      "tags": []
-    },
-    {
-      "title": "Bourse des collectionneurs woluwe shopping",
-      "start": "2026-11-15T07:00:00+01:00",
-      "end": "2026-11-15T13:00:00+01:00",
-      "all_day": false,
-      "location": "Woluwe Shopping, 70 boulevard de la Woluwe, Woluwe-Saint-Lambert",
-      "description": "La plus grande bourse depuis plus de 30 ans une fois par mois, un dimanche matin, le woluwe shopping center, à woluwe-saint-lambert (bruxelles), ouvre ses portes à une vaste « bourse des collectionneurs » qui attire d'innombrables amateurs. La bourse des collectionneurs prend alors possession des allées du shopping de woluwé afin de vous proposer tous les objets qui pourraient ravir les collectionneurs, amateurs de brocantes, ou tout simplement les familles quel que soient leurs dadas : bande...",
-      "url": "https://brocabrac.fr/ru/woluwe-saint-lambert/1269158-bourse-des-collectionneurs-woluwe-shopping",
-      "image": "https://brocabrac.fr/cdn/event/photos/5e/1b/5e1bcb7d066465ec8e3835b3265e60c7fbba0ce79b9988787175dfe03eb6efa7-large.jpg",
-      "source": "Brocabrac Belgique",
-      "price_min": 7.0,
-      "price_max": 50.0,
-      "uid": "e378fab9da0d3071",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "family-children",
-      "tags": []
-    },
-    {
-      "title": "Brocante",
-      "start": "2026-11-15T08:00:00+01:00",
-      "end": "2026-11-15T17:00:00+01:00",
-      "all_day": false,
-      "location": "Salle polyvalente, 19 rue Schmit, Aubange",
-      "description": "Brocante à la salle polyvalente d’aubange . Petite restauration et bars assurés. Venez-vous balader tout en faisant de bonnes affaires . La brocante est complète pour les exposants, nous attendons de nombreux visiteurs.",
-      "url": "https://brocabrac.fr/lx/aubange/1414865-brocante",
-      "image": "https://brocabrac.fr/cdn/event/photos/59/5e/595e0f2d3b4aa4cb8176af357218cd59d5280a497ffca3326d20635d72c53966-large.png",
-      "source": "Brocabrac Belgique",
-      "price_min": 8.0,
-      "price_max": 8.0,
-      "uid": "e593bc22e23885ee",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "markets-fairs",
-      "tags": []
-    },
-    {
-      "title": "Marché brocante",
-      "start": "2026-11-15T08:00:00+01:00",
-      "end": "2026-11-15T19:00:00+01:00",
-      "all_day": false,
-      "location": "Place de jeu balle, Silenrieux",
-      "description": "Marché brocante de silenrieux - place de jeu de balle - tous les dimanches. Un emplacement = un module de 5 mètres de long X 3 mètres de profondeur. Véhicule placé en arrière. Marquage au sol et numérotation des emplacements. La réservation des stands est obligatoire par téléphone du lundi 9h00 au mercredi 19h00 ! Pour une première réservation, le paiement est obligatoire sur le compte bancaire de l'asbl foire verte au be25 3630 9200 8782. Pour les exposants \"réguliers\", le paiement cash est ...",
-      "url": "https://brocabrac.fr/na/silenrieux/1267634-marche-brocante",
-      "image": null,
-      "source": "Brocabrac Belgique",
-      "price_min": 8.0,
-      "price_max": 22.5,
-      "uid": "c1d2909f12f6c94b",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "markets-fairs",
-      "tags": []
-    },
-    {
-      "title": "Brocante hebdomadaire de spa",
-      "start": "2026-11-15T08:00:00+01:00",
-      "end": "2026-11-15T14:00:00+01:00",
-      "all_day": false,
-      "location": "Galerie Léopold et Parc de 7 Heures, Rue du Fourneau, Spa",
-      "description": "La brocante a lieu dans la galerie léopold et le parc de 7 heures tous les dimanches . Restauration et toilette publique à proximité. Pas de réservation pour les exposants occasionnels , les emplacements seront attribués par ordre d'arrivée entre 5h et 7h30. Le prix des emplacements est de 3 euros du mètre. La brocante a lieu dans la galerie léopold (sous toit) et le parc de 7 heures. Les véhicules peuvent rester au stand.",
-      "url": "https://brocabrac.fr/lg/spa/1344011-brocante-hebdomadaire-de-spa",
-      "image": null,
-      "source": "Brocabrac Belgique",
-      "price_min": 3.0,
-      "price_max": 3.0,
-      "uid": "5b3adab5f30e5aa0",
-      "colour": "#1B6FE0",
-      "category": "markets-fairs",
-      "tags": []
-    },
-    {
-      "title": "Marché aux puces de la place du jeu de balle",
-      "start": "2026-11-15T09:00:00+01:00",
-      "end": "2026-11-15T14:00:00+01:00",
-      "all_day": false,
-      "location": "Quartier des Marolles, Place du Jeu de Balle, Bruxelles",
-      "description": "Au cœur de bruxelles, tous les matins se tient une brocante d'antiquité exceptionnelle sur la place du jeu de balle. ... Situé dans le quartier des marolles, le marché aux puces attire aussi bien les passants que les curieux. ... Vous y ferez de très belles affaires tant les marchandises proposées sont diverses : vêtements, bijoux, mobilier d'intérieur, mais aussi des livres et des tableaux d'antiquité, fripes, théières, lampes, bibelots, vaisselles, médailles, meubles... ... Horaires 9h -14h...",
-      "url": "https://brocabrac.fr/ru/bruxelles/993112-marche-aux-puces-de-la-place-du-jeu-de-balle",
-      "image": "https://brocabrac.fr/cdn/event/photos/eb/09/eb09b6d54d72c1d24ff3edc7e2f8ec2647908382a4b3451e7c1f0feaa206f3df-large.png",
-      "source": "Brocabrac Belgique",
-      "price_min": 9.0,
-      "price_max": 9.0,
-      "uid": "18e09e46c2a5fe4f",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "markets-fairs",
-      "tags": []
-    },
-    {
-      "title": "De Troostboom (L’Arbre du Réconfort)",
-      "start": "2026-11-15T09:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "De Troostboom (L’Arbre du Réconfort) dim 15/11 - 09:00 Cours, Stages et Ateliers",
-      "url": "http://forest.brussels/fr/agenda/cours-stages-et-ateliers/2026/de-troostboom-larbre-du-reconfort",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "2e42827bd1d9c5b0",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "workshops-creative",
-      "tags": []
-    },
-    {
-      "title": "Brocante inclinée de ronquières",
-      "start": "2026-11-15T10:00:00+01:00",
-      "end": "2026-11-15T14:00:00+01:00",
-      "all_day": false,
-      "location": "Rue Rosemont, Braine-Le-Comte",
-      "description": "Brocante inclinée de ronquières - rue rosemont - parking gratuit - tous les samedis, dimanches et jours fériés de 10h à 14h (chapiteau ouvert dès 9h) Sans réservation. Informations par téléphone. Un emplacement est 5m x 5m à 16€ ou 3 parking/24€ etc avec la voiture toujours près de vous.",
-      "url": "https://brocabrac.fr/ht/braine-le-comte/1190581-brocante-inclinee-de-ronquieres",
-      "image": null,
-      "source": "Brocabrac Belgique",
-      "price_min": 16.0,
-      "price_max": 24.0,
-      "uid": "a9e8f76b496ed6b2",
-      "colour": "#1B6FE0",
-      "category": "markets-fairs",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "title": "Toys n' geek 2026",
-      "start": "2026-11-15T10:00:00+01:00",
-      "end": "2026-11-15T16:00:00+01:00",
-      "all_day": false,
-      "location": "Complexe sportif et culturel, 82a rue des Ecoles, Etalle",
-      "description": "Toys’n geek est de retour pour sa 4ᵉ édition ! Après le succès de la précédente édition, la convention dédiée aux jouets rétro, cartes pokémon, retrogaming et à la culture geek revient le dimanche 15 novembre 2026. Passionnés, collectionneurs, nostalgiques des années 80, 90 et 2000, ou simples curieux : venez découvrir un événement unique où petits et grands retrouveront les univers qui ont marqué plusieurs générations. À l’approche des fêtes de fin d’année, c’est l’occasion idéale pour dénic...",
-      "url": "https://brocabrac.fr/lx/etalle/1397103-toys-n-geek-2026",
-      "image": "https://brocabrac.fr/cdn/event/photos/72/83/72835f6d7e4be4ee4454da3d194792b50f4f2389ae5b73c065622c20bb55b262-large.png",
-      "source": "Brocabrac Belgique",
-      "price_min": 2.0,
-      "price_max": 15.0,
-      "uid": "f9fd89fdcee3e2eb",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "Grrrabuge Natural Wine Festival #4",
-      "start": "2026-11-15T10:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Grrrabuge Natural Wine Festival #4 dim 15/11 - 10:00 Festival",
-      "url": "http://forest.brussels/fr/agenda/festival/2026/grrrabuge-natural-wine-festival-4",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "59307c3e7b8ff1f6",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "festivals-celebrations",
-      "tags": []
-    },
-    {
-      "title": "Ali Cherri: Pray, Lips of Clay",
-      "start": "2026-11-15T11:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Ali Cherri: Pray, Lips of Clay dim 15/11 - 11:00 Exposition",
-      "url": "http://forest.brussels/fr/agenda/exposition/2026/ali-cherri-pray-lips-of-clay",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "7f647d55c24e384b",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "culture-arts",
-      "tags": []
-    },
-    {
-      "title": "Portia Zvavahera: Kuzviramba Mamuri",
-      "start": "2026-11-15T11:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Portia Zvavahera: Kuzviramba Mamuri dim 15/11 - 11:00 Exposition",
-      "url": "http://forest.brussels/fr/agenda/exposition/2026/portia-zvavahera-kuzviramba-mamuri",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "232beea21ff4df45",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "culture-arts",
-      "tags": []
-    },
-    {
-      "title": "Agir pour plus de démocratie",
-      "start": "2026-11-15T13:00:00+00:00",
-      "end": "2026-11-15T14:00:00+00:00",
-      "all_day": false,
-      "location": ",",
-      "description": "plus d'infos sur : https://bxl.demosphere.net/rv/18856",
-      "url": "https://bxl.demosphere.net/rv/18856",
-      "image": null,
-      "source": "Demosphere Bruxelles",
-      "price_min": null,
-      "price_max": null,
-      "uid": "cb12b02bf1a056f7",
-      "colour": "#0F8CA8",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "Lost and Found. La photographie japonaise",
-      "start": "2026-11-15T13:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Lost and Found. La photographie japonaise dim 15/11 - 13:00 Exposition",
-      "url": "http://forest.brussels/fr/agenda/exposition/2026/lost-and-found-la-photographie-japonaise",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "7642aafccb9d0042",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "culture-arts",
-      "tags": []
-    },
-    {
-      "title": "Cléo de 5 à 7",
-      "start": "2026-11-15T14:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "Cléo de 5 à 7 Sun 15 Nov and Wed 25 Nov Studio 5 cinema € 7,00–€ 10,50 dates dates Sun 15 Nov 14:00 tickets Wed 25 Nov 21:10 tickets Sat 7 Nov 14:15 Past event",
-      "url": "https://www.flagey.be/en/agenda/cleo-de-5-a-7-fc77",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "1c765071d10ff76e",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "film-cinema",
-      "tags": [],
-      "stale": true
-    },
-    {
-      "title": "L'arbre de réconfort rituel de clôture",
-      "start": "2026-11-15T14:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "L'arbre de réconfort rituel de clôture dim 15/11 - 14:00 Conférences et congrès",
-      "url": "http://forest.brussels/fr/agenda/conferences-et-congres/2026/larbre-de-reconfort-rituel-de-cloture",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "5e21c7a40bdd1f66",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "talks-discussions",
-      "tags": []
-    },
-    {
-      "title": "Family Funday",
-      "start": "2026-11-15T14:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Family Funday dim 15/11 - 14:00 Visites Guidées",
-      "url": "http://forest.brussels/fr/agenda/visites-guidees/2026/family-funday",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "ffa7b59648672293",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "Sunday Electronics Workshop 034",
-      "start": "2026-11-15T14:00:00+01:00",
-      "end": "2026-11-15T20:00:00+01:00",
-      "all_day": false,
-      "location": "HSBXL",
-      "description": "https://hsbxl.be/events/sunday-electronics/034/",
-      "url": "https://hsbxl.be/events/sunday-electronics/034/",
-      "image": null,
-      "source": "Hackerspace Brussels (HSBXL)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "a1d7a86ae66adc9c",
-      "colour": "#E8336D",
-      "detail_checked": 4,
-      "category": "workshops-creative",
-      "tags": []
-    },
-    {
-      "title": "Piet Wittevrongel brengt het verhaal van de Askoy II",
-      "start": "2026-11-15T15:00:00+01:00",
-      "end": "2026-11-15T17:00:00+01:00",
-      "all_day": false,
-      "location": "Goudblommeke in papier",
-      "description": "Piet Wittevrongel brengt het verhaal van de Askoy II ( boot van Jacques BREL) Zondag 15 november 2026 om 15 u. In het Goudblommeke in Papier, Cellebroerstraat 55, 1000 Brussel Inkom: 10 euro Piet Wittevrongel brengt het verhaal van de Askoy II Piet Wittewrongel, bracht het wrak van de boot van Jacques BREL, uit Nieuw-Zeeland terug naar België. Samen met zijn broer hebben ze de boot prachtig gerestaureerd en een film van 55min gemaakt over heel dit avontuur. Dit verhaal samen met fragmenten van de film. Piet zal ons dit boeiend verhaal vertellen. De Askoy II een stalen zeiljacht van 20 meter, w",
-      "url": "https://goudblommekeinpapier.be/event/piet-wittevrongel-brengt-het-verhaal-van-de-askoy-ii/",
-      "image": "https://goudblommekeinpapier.be/wp-content/uploads/2026/01/BoeketjeGoudgeblomd-e1768249155571.jpeg",
-      "source": "Goudblommeke in Papier",
-      "price_min": 10.0,
-      "price_max": 10.0,
-      "uid": "d971e95562ada723",
-      "colour": "#0F8CA8",
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "Minotaur",
       "start": "2026-11-15T15:45:00+01:00",
       "end": null,
@@ -2260,26 +1638,6 @@
       "stale": true
     },
     {
-      "title": "Retrouvailles",
-      "start": "2026-11-15T20:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Retrouvailles dim 15/11 - 20:00 Théâtre",
-      "url": "http://forest.brussels/fr/agenda/theatre/2026/retrouvailles-0",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "a0b41dfd036c1f21",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "culture-arts",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "Club Kid",
       "start": "2026-11-15T21:00:00+01:00",
       "end": null,
@@ -2337,46 +1695,6 @@
       "tags": []
     },
     {
-      "title": "general lun 16 nov '26 AB Grande salle PRESIDENT + Vianova, Dreamwake Concert Acheter",
-      "start": "2026-11-16T18:30:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "general lun 16 nov '26 AB Grande salle PRESIDENT + Vianova, Dreamwake Concert Acheter",
-      "url": "https://www.abconcerts.be/fr/agenda/president/a10Qw00000Fj5NtIAJ",
-      "image": "https://abconcerts.be/assets/website/components/images/og-image.1c2180e4.png",
-      "source": "Ancienne Belgique",
-      "price_min": 7.0,
-      "price_max": 36.0,
-      "uid": "213f7b7feb4932ee",
-      "colour": "#C0392B",
-      "detail_checked": 4,
-      "category": "music",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "brdcst lun 16 nov '26 AB Club Horse Lords presents 'Demand To Be Taken To Heaven Alive!' + Nina Garcia Intense, hypnotique et sans compromi",
-      "start": "2026-11-16T19:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "brdcst lun 16 nov '26 AB Club Horse Lords presents 'Demand To Be Taken To Heaven Alive!' + Nina Garcia Intense, hypnotique et sans compromis Concert Liveurope Acheter",
-      "url": "https://www.abconcerts.be/fr/agenda/horse-lords-presents-demand-to-be-taken-to-heaven-alive/a10Qw00000H538SIAR",
-      "image": "https://abconcerts.be/assets/website/components/images/og-image.1c2180e4.png",
-      "source": "Ancienne Belgique",
-      "price_min": 3.4,
-      "price_max": 27.0,
-      "uid": "284200aa3c412e47",
-      "colour": "#C0392B",
-      "detail_checked": 4,
-      "category": "music",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "Festival Urbanika",
       "start": "2026-11-16T00:00:00+01:00",
       "end": "2026-11-20T00:00:00+01:00",
@@ -2409,24 +1727,6 @@
       "price_min": 20.0,
       "price_max": 20.0,
       "uid": "0b807ddb25c96506",
-      "colour": "#8A7500",
-      "detail_checked": 4,
-      "category": "music",
-      "tags": []
-    },
-    {
-      "title": "Horse Lords presents 'Demand To Be Taken To Heaven Alive!' 16 nov 2026 Concerts Pop / Rock / Pop-Rock Ancienne Belgique (AB) Bruxelles - B",
-      "start": "2026-11-16T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "Ancienne Belgique, 110 Boulevard Anspachlaan, 1000 Bruxelles, Bruxelles, Belgique, 1000 Bruxelles, Bruxelles, Belgique, Bruxelles",
-      "description": "Horse Lords presents 'Demand To Be Taken To Heaven Alive!' 16 nov 2026 Concerts Pop / Rock / Pop-Rock Ancienne Belgique (AB) Bruxelles - Bruxelles Cet événement s’inscrit dans le cadre du programme de concerts BRDCST, un face-à-face entre artistes hors du commun et un public avide de découvertes.",
-      "url": "https://www.out.be/fr/evenements/211099_horse-lords-presents-demand-to-be-taken-to-heaven-alive-.html",
-      "image": "https://www.out.be/assets/img/logo-outbe.svg",
-      "source": "Out.be",
-      "price_min": null,
-      "price_max": null,
-      "uid": "7b572b0a42a84b7c",
       "colour": "#8A7500",
       "detail_checked": 4,
       "category": "music",
@@ -2510,39 +1810,21 @@
       "tags": []
     },
     {
-      "title": "dans 12h Soutien Journée de mobilisation à La Cambre 💥☕ Lundi 16 novembre 2026 à 10:00 Bruxelles - 1000 Organisé par ProtestBase",
+      "title": "il y a 4h Soutien Journée de mobilisation à La Cambre 💥☕ Lundi 16 novembre 2026 à 10:00 Bruxelles - 1000 Organisé par ProtestBase",
       "start": "2026-11-16T10:00:00+01:00",
       "end": null,
       "all_day": false,
       "location": "Bruxelles, 21 Abdij ter Kameren, Bruxelles",
-      "description": "dans 12h Soutien Journée de mobilisation à La Cambre 💥☕ Lundi 16 novembre 2026 à 10:00 Bruxelles - 1000 Organisé par ProtestBase",
+      "description": "il y a 4h Soutien Journée de mobilisation à La Cambre 💥☕ Lundi 16 novembre 2026 à 10:00 Bruxelles - 1000 Organisé par ProtestBase",
       "url": "https://protestbase.be/event/03513eff-25d7-4842-97c2-1638fe49fd7a",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
       "price_min": null,
       "price_max": null,
-      "uid": "60affdb76079d8a3",
+      "uid": "647b80708b9c0618",
       "colour": "#E07A00",
       "detail_checked": 4,
       "category": "activism-justice",
-      "tags": []
-    },
-    {
-      "title": "Formation d’aide-ménagèr.e Titres services",
-      "start": "2026-11-16T10:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "16 Formation d’aide-ménagèr.e Titres services",
-      "url": "https://anderlecht.be/index.php/fr/agenda/formation-d-aide-menagere-titres-services-1",
-      "image": null,
-      "source": "Anderlecht (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "0528c6e45c34b2bb",
-      "colour": "#8A7500",
-      "detail_checked": 4,
-      "category": "other",
       "tags": []
     },
     {
@@ -2552,7 +1834,7 @@
       "all_day": false,
       "location": "",
       "description": "16 Claire Hilgers, \"Effeuillages\"",
-      "url": "https://anderlecht.be/index.php/fr/agenda/claire-hilgers-effeuillages",
+      "url": "https://anderlecht.be/fr/agenda/claire-hilgers-effeuillages",
       "image": null,
       "source": "Anderlecht (commune agenda)",
       "price_min": null,
@@ -2570,7 +1852,7 @@
       "all_day": false,
       "location": "",
       "description": "16 Ateliers-Chanson",
-      "url": "https://anderlecht.be/index.php/fr/agenda/ateliers-chanson",
+      "url": "https://anderlecht.be/fr/agenda/ateliers-chanson",
       "image": null,
       "source": "Anderlecht (commune agenda)",
       "price_min": null,
@@ -2584,42 +1866,23 @@
       ]
     },
     {
-      "title": "dans 21h Manifestation Weekly Protest Bourse Brussels Lundi 16 novembre 2026 à 19:00 Bruxelles - 1000 Organisé par ProtestBase",
+      "title": "dans 5h Manifestation Weekly Protest Bourse Brussels Lundi 16 novembre 2026 à 19:00 Bruxelles - 1000 Organisé par ProtestBase",
       "start": "2026-11-16T19:00:00+01:00",
       "end": null,
       "all_day": false,
       "location": "Bruxelles, Bourse, 1000 Brussels, Bruxelles",
-      "description": "dans 21h Manifestation Weekly Protest Bourse Brussels Lundi 16 novembre 2026 à 19:00 Bruxelles - 1000 Organisé par ProtestBase",
+      "description": "dans 5h Manifestation Weekly Protest Bourse Brussels Lundi 16 novembre 2026 à 19:00 Bruxelles - 1000 Organisé par ProtestBase",
       "url": "https://protestbase.be/event/5ab33443-16ad-4b3d-b708-de5245105449",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
       "price_min": null,
       "price_max": null,
-      "uid": "63f80848cb74a239",
+      "uid": "ef73796341fd8826",
       "colour": "#E07A00",
       "detail_checked": 4,
       "category": "activism-justice",
       "tags": [
         "evening"
-      ]
-    },
-    {
-      "title": "Appel à résidences 2027",
-      "start": "2026-11-16T23:55:00+01:00",
-      "end": "2026-11-17T09:00:00+01:00",
-      "all_day": false,
-      "location": "Maison poème, Rue d'Écosse 30, 1060 Saint-Gilles",
-      "description": "6 créneaux disponibles en 2027 à la Maison poème Pour qui ? Toute personne/collectif/collective résidant en Belgique et souhaitant un espace d’écriture et de recherche pour travailler son projet en cours d’élaboration. Votre projet doit être tourné autour des mots et des sons avec une dimension pluridisciplinaire (poésie, musique, arts vivants, performance, création sonore, arts […]",
-      "url": "https://maisonpoeme.be/",
-      "image": "https://maisonpoeme.be/wp-content/uploads/2026/10/A7C00492-copie-2-1024x683.jpg",
-      "source": "Maison Poème",
-      "price_min": null,
-      "price_max": null,
-      "uid": "62b7a94a9855801a",
-      "colour": "#7B49D6",
-      "category": "music",
-      "tags": [
-        "late-night"
       ]
     },
     {
@@ -2672,6 +1935,26 @@
       "price_max": null,
       "uid": "48162ce421b51324",
       "colour": "#8A7500",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "recurring"
+      ]
+    },
+    {
+      "title": "Nova '78 - Aaron Brookner & Rodrigo Areias",
+      "start": "2026-11-17T00:00:00+01:00",
+      "end": "2026-12-12T00:00:00+01:00",
+      "all_day": true,
+      "location": "",
+      "description": "Nova '78 - Aaron Brookner & Rodrigo Areias Sold out Cancelled Postponed Last Tickets Films New release Nova '78 - Aaron Brookner & Rodrigo Areias 17 Nov. → 12 Dec.'26 From 8 €",
+      "url": "https://www.bozar.be/en/calendar/nova-78-aaron-brookner-rodrigo-areias-0",
+      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
+      "source": "BOZAR",
+      "price_min": 8.0,
+      "price_max": 8.0,
+      "uid": "91beb3190a88e424",
+      "colour": "#00937A",
       "detail_checked": 4,
       "category": "other",
       "tags": [
@@ -2795,6 +2078,42 @@
       "tags_llm_done": true
     },
     {
+      "title": "Au Pairs 17 nov 2026 Concerts Pop / Rock / Pop-Rock Ancienne Belgique (AB) Bruxelles - Bruxelles Au Pairs est un groupe post-punk fondé en",
+      "start": "2026-11-17T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "Ancienne Belgique, 110 Boulevard Anspachlaan, 1000 Bruxelles, Bruxelles, Belgique, 1000 Bruxelles, Bruxelles, Belgique, Bruxelles",
+      "description": "Au Pairs 17 nov 2026 Concerts Pop / Rock / Pop-Rock Ancienne Belgique (AB) Bruxelles - Bruxelles Au Pairs est un groupe post-punk fondé en 1978, qui est rapidement devenu un véritable groupe culte. Le légendaire journaliste Lester Bangs a déclaré un jour : « Hier soir, j’ai vu Dieu sous les trait",
+      "url": "https://www.out.be/fr/evenements/215728_au-pairs.html",
+      "image": "https://www.out.be/assets/img/logo-outbe.svg",
+      "source": "Out.be",
+      "price_min": null,
+      "price_max": null,
+      "uid": "83cd6c5b71be2319",
+      "colour": "#8A7500",
+      "detail_checked": 4,
+      "category": "music",
+      "tags": []
+    },
+    {
+      "title": "Eluveitie 17 nov 2026 Concerts Pop / Rock / Pop-Rock Ancienne Belgique (AB) Bruxelles - Bruxelles Fondé en 2002 par Chrigel Glanzmann, Elu",
+      "start": "2026-11-17T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "Ancienne Belgique, 110 Boulevard Anspachlaan, 1000 Bruxelles, Bruxelles, Belgique, 1000 Bruxelles, Bruxelles, Belgique, Bruxelles",
+      "description": "Eluveitie 17 nov 2026 Concerts Pop / Rock / Pop-Rock Ancienne Belgique (AB) Bruxelles - Bruxelles Fondé en 2002 par Chrigel Glanzmann, Eluveitie puise ses racines au cœur des Alpes suisses et s’inspire profondément de l’histoire, de la mythologie et de la spiritualité celtiques. Dès leur premier E",
+      "url": "https://www.out.be/fr/evenements/204953_eluveitie.html",
+      "image": "https://www.out.be/assets/img/logo-outbe.svg",
+      "source": "Out.be",
+      "price_min": null,
+      "price_max": null,
+      "uid": "0b9951cc5d1dc729",
+      "colour": "#8A7500",
+      "detail_checked": 4,
+      "category": "music",
+      "tags": []
+    },
+    {
       "title": "Au-delà de la crise : agir pour un avenir économique solidaire et responsable",
       "start": "2026-11-17T00:00:00+01:00",
       "end": null,
@@ -2831,18 +2150,18 @@
       "tags": []
     },
     {
-      "title": "Demain Manifestation Toustes avec la Jeunesse - ULB Mardi 17 novembre 2026 à 06:00 Bruxelles - 1000 Organisé par ProtestBase",
+      "title": "dans 16h Manifestation Toustes avec la Jeunesse - ULB Mardi 17 novembre 2026 à 06:00 Bruxelles - 1000 Organisé par ProtestBase",
       "start": "2026-11-17T06:00:00+01:00",
       "end": null,
       "all_day": false,
       "location": "Bruxelles, Franklin Rooseveltlaan, Bruxelles",
-      "description": "Demain Manifestation Toustes avec la Jeunesse - ULB Mardi 17 novembre 2026 à 06:00 Bruxelles - 1000 Organisé par ProtestBase",
+      "description": "dans 16h Manifestation Toustes avec la Jeunesse - ULB Mardi 17 novembre 2026 à 06:00 Bruxelles - 1000 Organisé par ProtestBase",
       "url": "https://protestbase.be/event/154cd45e-71ba-47b6-a222-909e833e3550",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
       "price_min": null,
       "price_max": null,
-      "uid": "04d57b74295395eb",
+      "uid": "9c7abecd52e501b1",
       "colour": "#E07A00",
       "detail_checked": 4,
       "category": "activism-justice",
@@ -2885,36 +2204,18 @@
       "tags": []
     },
     {
-      "title": "Demain Soutien 💥 MOBILISATION FESTIVE CONTRE L'EXPULSION DE L'OCCUPATION CLOVIS 💥 Mardi 17 novembre 2026 à 09:00 Bruxelles - 1000 Organisé p",
+      "title": "dans 19h Soutien 💥 MOBILISATION FESTIVE CONTRE L'EXPULSION DE L'OCCUPATION CLOVIS 💥 Mardi 17 novembre 2026 à 09:00 Bruxelles - 1000 Organisé",
       "start": "2026-11-17T09:00:00+01:00",
       "end": null,
       "all_day": false,
       "location": "Bruxelles, 31 Clovislaan, Bruxelles",
-      "description": "Demain Soutien 💥 MOBILISATION FESTIVE CONTRE L'EXPULSION DE L'OCCUPATION CLOVIS 💥 Mardi 17 novembre 2026 à 09:00 Bruxelles - 1000 Organisé par ProtestBase",
+      "description": "dans 19h Soutien 💥 MOBILISATION FESTIVE CONTRE L'EXPULSION DE L'OCCUPATION CLOVIS 💥 Mardi 17 novembre 2026 à 09:00 Bruxelles - 1000 Organisé par ProtestBase",
       "url": "https://protestbase.be/event/d495c72c-9bdf-497c-8a06-c49ac40a96f9",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
       "price_min": null,
       "price_max": null,
-      "uid": "bc7879b60fd51188",
-      "colour": "#E07A00",
-      "detail_checked": 4,
-      "category": "activism-justice",
-      "tags": []
-    },
-    {
-      "title": "Demain Manifestation 17 NOV - Manif nationale étudiante - Horaire des trains Mardi 17 novembre 2026 à 09:00 Bruxelles - 1000 Organisé par Pr",
-      "start": "2026-11-17T09:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Bruxelles, Hortagalerij, Bruxelles",
-      "description": "Demain Manifestation 17 NOV - Manif nationale étudiante - Horaire des trains Mardi 17 novembre 2026 à 09:00 Bruxelles - 1000 Organisé par ProtestBase",
-      "url": "https://protestbase.be/event/166d0462-40c0-43d2-8d7f-5fbf89ceb774",
-      "image": "https://protestbase.be/og.jpg",
-      "source": "Protestbase Bruxelles",
-      "price_min": null,
-      "price_max": null,
-      "uid": "3e71a89ef557c107",
+      "uid": "35c340c1d8da693f",
       "colour": "#E07A00",
       "detail_checked": 4,
       "category": "activism-justice",
@@ -2957,49 +2258,13 @@
       "tags": []
     },
     {
-      "title": "dans 2 jours Manifestation 17 NOV - Manif nationale étudiante - La Cambre 🔥👽 Mardi 17 novembre 2026 à 10:00 Bruxelles - 1000 Organisé par Pr",
-      "start": "2026-11-17T10:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Bruxelles, 21 Abdij ter Kameren, Bruxelles",
-      "description": "dans 2 jours Manifestation 17 NOV - Manif nationale étudiante - La Cambre 🔥👽 Mardi 17 novembre 2026 à 10:00 Bruxelles - 1000 Organisé par ProtestBase",
-      "url": "https://protestbase.be/event/fbe0532d-972e-4225-83b6-e7a814473f21",
-      "image": "https://protestbase.be/og.jpg",
-      "source": "Protestbase Bruxelles",
-      "price_min": null,
-      "price_max": null,
-      "uid": "62b84acbe436a6b8",
-      "colour": "#E07A00",
-      "detail_checked": 4,
-      "category": "activism-justice",
-      "tags": []
-    },
-    {
-      "title": "dans 2 jours Manifestation 17 november - Youth Protest - Collective departure VUB Mardi 17 novembre 2026 à 10:00 Etterbeek - 1040 Organisé p",
-      "start": "2026-11-17T10:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Etterbeek, Generaal Jacqueslaan, Etterbeek",
-      "description": "dans 2 jours Manifestation 17 november - Youth Protest - Collective departure VUB Mardi 17 novembre 2026 à 10:00 Etterbeek - 1040 Organisé par ProtestBase",
-      "url": "https://protestbase.be/event/d1cab1ba-ec17-4216-ac08-b05d63307e85",
-      "image": "https://protestbase.be/og.jpg",
-      "source": "Protestbase Bruxelles",
-      "price_min": null,
-      "price_max": null,
-      "uid": "9857d02ec7e9e62a",
-      "colour": "#E07A00",
-      "detail_checked": 4,
-      "category": "activism-justice",
-      "tags": []
-    },
-    {
       "title": "Formation d’aide-ménagèr.e Titres services",
       "start": "2026-11-17T10:00:00+01:00",
       "end": null,
       "all_day": false,
       "location": "",
       "description": "17 Formation d’aide-ménagèr.e Titres services",
-      "url": "https://anderlecht.be/index.php/fr/agenda/formation-d-aide-menagere-titres-services-1",
+      "url": "https://anderlecht.be/fr/agenda/formation-d-aide-menagere-titres-services-1",
       "image": null,
       "source": "Anderlecht (commune agenda)",
       "price_min": null,
@@ -3011,57 +2276,75 @@
       "tags": []
     },
     {
-      "title": "dans 2 jours Soutien Fil info / hotline 17 novembre - BXL Mardi 17 novembre 2026 à 11:00 Bruxelles - 1000 Organisé par ProtestBase",
-      "start": "2026-11-17T11:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Bruxelles, Kantersteen, Bruxelles",
-      "description": "dans 2 jours Soutien Fil info / hotline 17 novembre - BXL Mardi 17 novembre 2026 à 11:00 Bruxelles - 1000 Organisé par ProtestBase",
-      "url": "https://protestbase.be/event/d0a64410-a0c1-4da9-9cb3-aac4c971f515",
-      "image": "https://protestbase.be/og.jpg",
-      "source": "Protestbase Bruxelles",
-      "price_min": null,
-      "price_max": null,
-      "uid": "69c14efbbfa3b233",
-      "colour": "#E07A00",
-      "detail_checked": 4,
-      "category": "activism-justice",
-      "tags": []
-    },
-    {
-      "title": "dans 2 jours Manifestation MANIF ETUDIANTE - SAINT LUC Mardi 17 novembre 2026 à 11:00 Bruxelles - 1000 Organisé par ProtestBase",
-      "start": "2026-11-17T11:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Bruxelles, Kunstberg, Bruxelles",
-      "description": "dans 2 jours Manifestation MANIF ETUDIANTE - SAINT LUC Mardi 17 novembre 2026 à 11:00 Bruxelles - 1000 Organisé par ProtestBase",
-      "url": "https://protestbase.be/event/c247e171-44e8-44e0-8813-be08cfec948b",
-      "image": "https://protestbase.be/og.jpg",
-      "source": "Protestbase Bruxelles",
-      "price_min": null,
-      "price_max": null,
-      "uid": "d3a5357e41c21a1a",
-      "colour": "#E07A00",
-      "detail_checked": 4,
-      "category": "activism-justice",
-      "tags": []
-    },
-    {
-      "title": "dans 2 jours Manifestation Studentenbetoging voor democratisch en toegankelijk onderwijs Mardi 17 novembre 2026 à 11:00 Bruxelles - 1000 Org",
+      "title": "dans 21h Manifestation Studentenbetoging voor democratisch en toegankelijk onderwijs Mardi 17 novembre 2026 à 11:00 Bruxelles - 1000 Organis",
       "start": "2026-11-17T11:00:00+01:00",
       "end": null,
       "all_day": false,
       "location": "Bruxelles, Hortagalerij, Bruxelles",
-      "description": "dans 2 jours Manifestation Studentenbetoging voor democratisch en toegankelijk onderwijs Mardi 17 novembre 2026 à 11:00 Bruxelles - 1000 Organisé par ProtestBase",
+      "description": "dans 21h Manifestation Studentenbetoging voor democratisch en toegankelijk onderwijs Mardi 17 novembre 2026 à 11:00 Bruxelles - 1000 Organisé par ProtestBase",
       "url": "https://protestbase.be/event/c15c8834-a1b1-412b-98b8-cba774c79754",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
       "price_min": null,
       "price_max": null,
-      "uid": "eb1388919acffa52",
+      "uid": "aa18a35760e272b0",
       "colour": "#E07A00",
       "detail_checked": 4,
       "category": "activism-justice",
+      "tags": []
+    },
+    {
+      "title": "dans 21h Manifestation MANIF ETUDIANTE - SAINT LUC Mardi 17 novembre 2026 à 11:00 Bruxelles - 1000 Organisé par ProtestBase",
+      "start": "2026-11-17T11:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Bruxelles, Kunstberg, Bruxelles",
+      "description": "dans 21h Manifestation MANIF ETUDIANTE - SAINT LUC Mardi 17 novembre 2026 à 11:00 Bruxelles - 1000 Organisé par ProtestBase",
+      "url": "https://protestbase.be/event/c247e171-44e8-44e0-8813-be08cfec948b",
+      "image": "https://protestbase.be/og.jpg",
+      "source": "Protestbase Bruxelles",
+      "price_min": null,
+      "price_max": null,
+      "uid": "24edb7ea06062975",
+      "colour": "#E07A00",
+      "detail_checked": 4,
+      "category": "activism-justice",
+      "tags": []
+    },
+    {
+      "title": "Portia Zvavahera: Kuzviramba Mamuri",
+      "start": "2026-11-17T11:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Portia Zvavahera: Kuzviramba Mamuri mar 17/11 - 11:00 Exposition",
+      "url": "http://forest.brussels/fr/agenda/exposition/2026/portia-zvavahera-kuzviramba-mamuri",
+      "image": null,
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "cfd2cecd5c8d5d03",
+      "colour": "#7B49D6",
+      "detail_checked": 4,
+      "category": "culture-arts",
+      "tags": []
+    },
+    {
+      "title": "Ali Cherri: Pray, Lips of Clay",
+      "start": "2026-11-17T11:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Ali Cherri: Pray, Lips of Clay mar 17/11 - 11:00 Exposition",
+      "url": "http://forest.brussels/fr/agenda/exposition/2026/ali-cherri-pray-lips-of-clay",
+      "image": null,
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "3b213534a8d3e222",
+      "colour": "#7B49D6",
+      "detail_checked": 4,
+      "category": "culture-arts",
       "tags": []
     },
     {
@@ -3071,7 +2354,7 @@
       "all_day": false,
       "location": "",
       "description": "17 Visite des Musées Maison d'Erasme & Béguinage",
-      "url": "https://anderlecht.be/index.php/fr/agenda/visite-des-musees-maison-d-erasme-beguinage",
+      "url": "https://anderlecht.be/fr/agenda/visite-des-musees-maison-d-erasme-beguinage",
       "image": null,
       "source": "Anderlecht (commune agenda)",
       "price_min": null,
@@ -3089,7 +2372,7 @@
       "all_day": false,
       "location": "",
       "description": "17 De kleine Rinck: Espace ouvert",
-      "url": "https://anderlecht.be/index.php/fr/agenda/de-kleine-rinck-espace-ouvert",
+      "url": "https://anderlecht.be/fr/agenda/de-kleine-rinck-espace-ouvert",
       "image": null,
       "source": "Anderlecht (commune agenda)",
       "price_min": 6.0,
@@ -3107,7 +2390,7 @@
       "all_day": false,
       "location": "",
       "description": "17 Go Away Sorrow of the World - Robbert&Frank Frank&Robbert",
-      "url": "https://anderlecht.be/index.php/fr/agenda/go-away-sorrow-world-robbertfrank-frankrobbert",
+      "url": "https://anderlecht.be/fr/agenda/go-away-sorrow-world-robbertfrank-frankrobbert",
       "image": null,
       "source": "Anderlecht (commune agenda)",
       "price_min": null,
@@ -3125,7 +2408,7 @@
       "all_day": false,
       "location": "",
       "description": "17 Claire Hilgers, \"Effeuillages\"",
-      "url": "https://anderlecht.be/index.php/fr/agenda/claire-hilgers-effeuillages",
+      "url": "https://anderlecht.be/fr/agenda/claire-hilgers-effeuillages",
       "image": null,
       "source": "Anderlecht (commune agenda)",
       "price_min": null,
@@ -3186,7 +2469,7 @@
       "all_day": false,
       "location": "",
       "description": "17 Circus voor kleuters",
-      "url": "https://anderlecht.be/index.php/fr/agenda/circus-voor-kleuters",
+      "url": "https://anderlecht.be/fr/agenda/circus-voor-kleuters",
       "image": null,
       "source": "Anderlecht (commune agenda)",
       "price_min": null,
@@ -3220,6 +2503,46 @@
       ]
     },
     {
+      "title": "Ateliers-Chanson",
+      "start": "2026-11-17T18:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "17 Ateliers-Chanson",
+      "url": "https://anderlecht.be/fr/agenda/ateliers-chanson",
+      "image": null,
+      "source": "Anderlecht (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "79353aab8803a95a",
+      "colour": "#8A7500",
+      "detail_checked": 4,
+      "category": "workshops-creative",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
+      "title": "dans 19h Manifestation 17 NOV - Manif nationale étudiante - Horaire des trains Mardi 17 novembre 2026 à 09:00 Bruxelles - 1000 Organisé par",
+      "start": "2026-11-17T19:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Bruxelles, Hortagalerij, Bruxelles",
+      "description": "dans 19h Manifestation 17 NOV - Manif nationale étudiante - Horaire des trains Mardi 17 novembre 2026 à 09:00 Bruxelles - 1000 Organisé par ProtestBase",
+      "url": "https://protestbase.be/event/166d0462-40c0-43d2-8d7f-5fbf89ceb774",
+      "image": "https://protestbase.be/og.jpg",
+      "source": "Protestbase Bruxelles",
+      "price_min": null,
+      "price_max": null,
+      "uid": "51abf7422fc1112c",
+      "colour": "#E07A00",
+      "detail_checked": 4,
+      "category": "activism-justice",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
       "title": "TechTuesday 861",
       "start": "2026-11-17T19:00:00+01:00",
       "end": "2026-11-17T22:00:00+01:00",
@@ -3240,21 +2563,81 @@
       ]
     },
     {
-      "title": "di 17.11.26 20:00 LOUNGE Marga Alfeirão",
+      "title": "dans 20h Manifestation 17 november - Youth Protest - Collective departure VUB Mardi 17 novembre 2026 à 10:00 Etterbeek - 1040 Organisé par P",
+      "start": "2026-11-17T20:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Etterbeek, Generaal Jacqueslaan, Etterbeek",
+      "description": "dans 20h Manifestation 17 november - Youth Protest - Collective departure VUB Mardi 17 novembre 2026 à 10:00 Etterbeek - 1040 Organisé par ProtestBase",
+      "url": "https://protestbase.be/event/d1cab1ba-ec17-4216-ac08-b05d63307e85",
+      "image": "https://protestbase.be/og.jpg",
+      "source": "Protestbase Bruxelles",
+      "price_min": null,
+      "price_max": null,
+      "uid": "f016f0c2d535716b",
+      "colour": "#E07A00",
+      "detail_checked": 4,
+      "category": "activism-justice",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
+      "title": "dans 20h Manifestation 17 NOV - Manif nationale étudiante - La Cambre 🔥👽 Mardi 17 novembre 2026 à 10:00 Bruxelles - 1000 Organisé par Protes",
+      "start": "2026-11-17T20:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Bruxelles, 21 Abdij ter Kameren, Bruxelles",
+      "description": "dans 20h Manifestation 17 NOV - Manif nationale étudiante - La Cambre 🔥👽 Mardi 17 novembre 2026 à 10:00 Bruxelles - 1000 Organisé par ProtestBase",
+      "url": "https://protestbase.be/event/fbe0532d-972e-4225-83b6-e7a814473f21",
+      "image": "https://protestbase.be/og.jpg",
+      "source": "Protestbase Bruxelles",
+      "price_min": null,
+      "price_max": null,
+      "uid": "faad007c68ab60f0",
+      "colour": "#E07A00",
+      "detail_checked": 4,
+      "category": "activism-justice",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
+      "title": "Ateliers d'initiation à l'improvisation",
       "start": "2026-11-17T20:00:00+01:00",
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "di 17.11.26 20:00 LOUNGE Marga Alfeirão dans Kaaistudios Tickets",
-      "url": "https://kaaitheater.be/nl/agenda/26-27/lounge",
+      "description": "17 Ateliers d'initiation à l'improvisation",
+      "url": "https://anderlecht.be/fr/agenda/ateliers-d-initiation-a-l-improvisation",
       "image": null,
-      "source": "Kaaitheater",
-      "price_min": 12.0,
-      "price_max": 20.0,
-      "uid": "8a29bb5c6b42680a",
-      "colour": "#7B49D6",
+      "source": "Anderlecht (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "4da1a9f1f2a43f54",
+      "colour": "#8A7500",
       "detail_checked": 4,
-      "category": "other",
+      "category": "workshops-creative",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
+      "title": "dans 21h Soutien Fil info / hotline 17 novembre - BXL Mardi 17 novembre 2026 à 11:00 Bruxelles - 1000 Organisé par ProtestBase",
+      "start": "2026-11-17T21:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Bruxelles, Kantersteen, Bruxelles",
+      "description": "dans 21h Soutien Fil info / hotline 17 novembre - BXL Mardi 17 novembre 2026 à 11:00 Bruxelles - 1000 Organisé par ProtestBase",
+      "url": "https://protestbase.be/event/d0a64410-a0c1-4da9-9cb3-aac4c971f515",
+      "image": "https://protestbase.be/og.jpg",
+      "source": "Protestbase Bruxelles",
+      "price_min": null,
+      "price_max": null,
+      "uid": "df2d47285ec90bc9",
+      "colour": "#E07A00",
+      "detail_checked": 4,
+      "category": "activism-justice",
       "tags": [
         "evening"
       ]
@@ -3301,7 +2684,7 @@
       "end": null,
       "all_day": true,
       "location": "",
-      "description": "18.11.26 ― 20.11.26 PRÓXIMAMENTE 2026 CHOCLO, CHOCLO, POCHOCLO (WIP) Marta Salinas performance dans Infos et billets",
+      "description": "18.11.26 ― 20.11.26 PRÓXIMAMENTE 2026 CHOCLO, CHOCLO, POCHOCLO (WIP) Marta Salinas performance dans Acheter des billets",
       "url": "https://www.kvs.be/fr/Evenement/choclo-choclo-pochoclo-wip-2",
       "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
       "source": "KVS",
@@ -3421,6 +2804,24 @@
       ]
     },
     {
+      "title": "Maison Gertrude Art center in a care home Guided tours",
+      "start": "2026-11-18T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "18 November 2026 > 16 June 2027 Exposition Maison Gertrude Art center in a care home Guided tours Twice a month, Maison Gertrude, an art center within a care home, opens its doors and invites you to discover its collection of artworks created in situ. (…) Tickets",
+      "url": "https://www.theatrenational.be/en/activities/4299-maison-gertrude-o-guided-tours",
+      "image": "https://www.theatrenational.be/en/image/og/image/7175",
+      "source": "Théâtre National Wallonie-Bruxelles",
+      "price_min": null,
+      "price_max": null,
+      "uid": "0d689ed7a287edad",
+      "colour": "#8A7500",
+      "detail_checked": 4,
+      "category": "culture-arts",
+      "tags": []
+    },
+    {
       "title": "Nov 18 Sold Out LEATHER NOTEBOOK COVER Ixelles , Belgium Atelier ponctuel Event Sold Out Event Info",
       "start": "2026-11-18T00:00:00+01:00",
       "end": null,
@@ -3434,6 +2835,24 @@
       "price_max": null,
       "uid": "0213bfbfc5dd9962",
       "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "workshops-creative",
+      "tags": []
+    },
+    {
+      "title": "En parler aujourd'hui, pour être plus serein demain",
+      "start": "2026-11-18T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "mer 18.11.2026 Ath Atelier En parler aujourd'hui, pour être plus serein demain Plus d'info",
+      "url": "https://www.financite.be/activit%C3%A9/en-parler-aujourdhui-pour-etre-plus-serein-demain",
+      "image": null,
+      "source": "Financité",
+      "price_min": null,
+      "price_max": null,
+      "uid": "02e55fc1e155adc9",
+      "colour": "#00937A",
       "detail_checked": 4,
       "category": "workshops-creative",
       "tags": []
@@ -3596,18 +3015,18 @@
       "tags_llm_done": true
     },
     {
-      "title": "dans 3 jours Action Zitting studietoelagendecreet Grondwettelijk Hof 18/11‼️ Mercredi 18 novembre 2026 à 15:00 Bruxelles - 1000 Organisé par",
+      "title": "dans 2 jours Action Zitting studietoelagendecreet Grondwettelijk Hof 18/11‼️ Mercredi 18 novembre 2026 à 15:00 Bruxelles - 1000 Organisé par",
       "start": "2026-11-18T15:00:00+01:00",
       "end": null,
       "all_day": false,
       "location": "Bruxelles, Koningsplein, Bruxelles",
-      "description": "dans 3 jours Action Zitting studietoelagendecreet Grondwettelijk Hof 18/11‼️ Mercredi 18 novembre 2026 à 15:00 Bruxelles - 1000 Organisé par ProtestBase",
+      "description": "dans 2 jours Action Zitting studietoelagendecreet Grondwettelijk Hof 18/11‼️ Mercredi 18 novembre 2026 à 15:00 Bruxelles - 1000 Organisé par ProtestBase",
       "url": "https://protestbase.be/event/5bf73cba-8054-4ffd-b956-912c3a568aff",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
       "price_min": null,
       "price_max": null,
-      "uid": "c627c78ccba0dd30",
+      "uid": "47869de0435b6e05",
       "colour": "#E07A00",
       "detail_checked": 4,
       "category": "activism-justice",
@@ -3974,23 +3393,44 @@
       "tags_llm_done": true
     },
     {
-      "title": "general jeu 19 nov '26 AB Grande salle Rounhaa SUBLIME TOUR Concert Acheter",
+      "title": "general jeu 19 nov '26 Rounhaa SUBLIME TOUR Concert Acheter",
       "start": "2026-11-19T19:00:00+01:00",
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "general jeu 19 nov '26 AB Grande salle Rounhaa SUBLIME TOUR Concert Acheter",
+      "description": "general jeu 19 nov '26 Rounhaa SUBLIME TOUR Concert Acheter",
       "url": "https://www.abconcerts.be/fr/agenda/rounhaa/a10Qw0000097A8kIAE",
       "image": "https://abconcerts.be/assets/website/components/images/og-image.1c2180e4.png",
       "source": "Ancienne Belgique",
       "price_min": 6.2,
       "price_max": 31.0,
-      "uid": "e3bccc3727d356b4",
+      "uid": "3fcae44814743d8f",
       "colour": "#C0392B",
       "detail_checked": 4,
       "category": "music",
       "tags": [
         "evening"
+      ]
+    },
+    {
+      "title": "general jeu 19 nov '26 AB Salon A beginner's guide to Miles Davis door Guy Peters Une présentation passionnante sur le plus grand artiste de",
+      "start": "2026-11-19T19:30:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "general jeu 19 nov '26 AB Salon A beginner's guide to Miles Davis door Guy Peters Une présentation passionnante sur le plus grand artiste de jazz de tous les temps Talk Gratuit - inscription",
+      "url": "https://www.abconcerts.be/fr/agenda/a-beginners-guide-to-miles-davis-door-guy-peters/a10Qw00000R46XAIAZ",
+      "image": "https://abconcerts.be/assets/website/components/images/og-image.1c2180e4.png",
+      "source": "Ancienne Belgique",
+      "price_min": 2.0,
+      "price_max": 27.0,
+      "uid": "07ec9358526aa320",
+      "colour": "#C0392B",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": [
+        "evening",
+        "free"
       ]
     },
     {
@@ -4037,21 +3477,21 @@
       ]
     },
     {
-      "title": "Aline Olmos Steler — The Origin Of the Future 19 nov 20 nov Théatre / Spectacles Performances Beursschouwburg Bruxelles - Bruxelles « Je s",
+      "title": "Saint Abdullah, Eomac & Rebecca Salvadori - NVST & Mika Oki 19 nov 2026 Concerts Electronique Palais des Beaux-Arts de Bruxelles - Bozar Bru",
       "start": "2026-11-19T00:00:00+01:00",
       "end": null,
       "all_day": true,
-      "location": "Beursschouwburg, A. Ortsstraat, 20-28, 1000 Bruxelles, Bruxelles, Belgique, Bruxelles",
-      "description": "Aline Olmos Steler — The Origin Of the Future 19 nov 20 nov Théatre / Spectacles Performances Beursschouwburg Bruxelles - Bruxelles « Je suis allée aux toilettes.Et quelque chose de significatifs'est déroulé sous mes yeux.J’ai regardé de plus près, et je l’ai vue :sa robe, sa chevelure, la fumée s",
-      "url": "https://www.out.be/fr/evenements/214931_aline-olmos-steler-the-origin-of-the-future.html",
+      "location": "Palais des Beaux-Arts de Bruxelles - Bozar, Rue Ravenstein 23, 1000 Bruxelles, Belgique, Bruxelles",
+      "description": "Saint Abdullah, Eomac & Rebecca Salvadori - NVST & Mika Oki 19 nov 2026 Concerts Electronique Palais des Beaux-Arts de Bruxelles - Bozar Bruxelles - Bruxelles NVST & Mika Oki La DJ et productrice suisse NVST a débuté sa carrière dans les raves illégales de Lausanne, où elle a vécu des expériences",
+      "url": "https://www.out.be/fr/evenements/220215_saint-abdullah-eomac-rebecca-salvadori-nvst-mika-oki.html",
       "image": "https://www.out.be/assets/img/logo-outbe.svg",
       "source": "Out.be",
       "price_min": null,
       "price_max": null,
-      "uid": "56e8737513a344e0",
+      "uid": "4bb28900b5532b26",
       "colour": "#8A7500",
       "detail_checked": 4,
-      "category": "culture-arts",
+      "category": "music",
       "tags": []
     },
     {
@@ -4164,6 +3604,24 @@
       "stale": true
     },
     {
+      "title": "Lost and Found. La photographie japonaise",
+      "start": "2026-11-19T13:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Lost and Found. La photographie japonaise jeu 19/11 - 13:00 Exposition",
+      "url": "http://forest.brussels/fr/agenda/exposition/2026/lost-and-found-la-photographie-japonaise",
+      "image": null,
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "9356c524dbb6ad44",
+      "colour": "#7B49D6",
+      "detail_checked": 4,
+      "category": "culture-arts",
+      "tags": []
+    },
+    {
       "title": "Coward",
       "start": "2026-11-19T17:00:00+01:00",
       "end": null,
@@ -4225,18 +3683,18 @@
       ]
     },
     {
-      "title": "dans 4 jours Apprendre On ne fera pas leurs guerres Jeudi 19 novembre 2026 à 18:30 Bruxelles - 1000 Organisé par ProtestBase",
+      "title": "dans 3 jours Apprendre On ne fera pas leurs guerres Jeudi 19 novembre 2026 à 18:30 Bruxelles - 1000 Organisé par ProtestBase",
       "start": "2026-11-19T18:30:00+01:00",
       "end": null,
       "all_day": false,
       "location": "Bruxelles, Franklin Rooseveltlaan, Bruxelles",
-      "description": "dans 4 jours Apprendre On ne fera pas leurs guerres Jeudi 19 novembre 2026 à 18:30 Bruxelles - 1000 Organisé par ProtestBase",
+      "description": "dans 3 jours Apprendre On ne fera pas leurs guerres Jeudi 19 novembre 2026 à 18:30 Bruxelles - 1000 Organisé par ProtestBase",
       "url": "https://protestbase.be/event/827cf51c-bb69-4643-83d1-0711fc409af6",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
       "price_min": null,
       "price_max": null,
-      "uid": "be2a526a832525a2",
+      "uid": "5cb4353a76b74e73",
       "colour": "#E07A00",
       "detail_checked": 4,
       "category": "activism-justice",
@@ -4266,21 +3724,21 @@
       "stale": true
     },
     {
-      "title": "Yoga en meditatie",
+      "title": "Hobby Club Vorst",
       "start": "2026-11-19T19:30:00+01:00",
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "Yoga en meditatie jeu 19/11 - 19:30 Sport",
-      "url": "http://forest.brussels/fr/agenda/yoga-en-meditatie",
+      "description": "Hobby Club Vorst jeu 19/11 - 19:30 Cours, Stages et Ateliers",
+      "url": "http://forest.brussels/fr/agenda/hobby-club-vorst",
       "image": null,
       "source": "Forest (commune agenda)",
       "price_min": null,
       "price_max": null,
-      "uid": "cb205f9441256750",
+      "uid": "b77562ec3f66fcc5",
       "colour": "#7B49D6",
       "detail_checked": 4,
-      "category": "sport-wellbeing",
+      "category": "workshops-creative",
       "tags": [
         "evening"
       ]
@@ -4306,21 +3764,21 @@
       ]
     },
     {
-      "title": "Hobby Club Vorst",
+      "title": "Yoga en meditatie",
       "start": "2026-11-19T19:30:00+01:00",
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "Hobby Club Vorst jeu 19/11 - 19:30 Cours, Stages et Ateliers",
-      "url": "http://forest.brussels/fr/agenda/hobby-club-vorst",
+      "description": "Yoga en meditatie jeu 19/11 - 19:30 Sport",
+      "url": "http://forest.brussels/fr/agenda/yoga-en-meditatie",
       "image": null,
       "source": "Forest (commune agenda)",
       "price_min": null,
       "price_max": null,
-      "uid": "b77562ec3f66fcc5",
+      "uid": "cb205f9441256750",
       "colour": "#7B49D6",
       "detail_checked": 4,
-      "category": "workshops-creative",
+      "category": "sport-wellbeing",
       "tags": [
         "evening"
       ]
@@ -4450,7 +3908,7 @@
       "end": null,
       "all_day": true,
       "location": "",
-      "description": "20.11.26 PRÓXIMAMENTE 2026 RUDERAL (WIP) Marcos Arriola Langue: ES Surtitrage: EN dans Uitverkocht",
+      "description": "20.11.26 PRÓXIMAMENTE 2026 RUDERAL (WIP) Marcos Arriola Langue: ES Surtitrage: EN dans Derniers tickets",
       "url": "https://www.kvs.be/fr/Evenement/ruderal-wip-2",
       "image": "https://www.kvs.be/assets/website/images/og-image.775ea487.png",
       "source": "KVS",
@@ -4499,6 +3957,44 @@
       "tags": [
         "free"
       ]
+    },
+    {
+      "title": "abatnight ven 20 nov '26 AB Salon Afroplug Connect + +TTFB, ATL BRUSSELS, Sound’n Souls Lors de l'Afroplug Connect, nous célébrerons le 5e a",
+      "start": "2026-11-20T17:30:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "abatnight ven 20 nov '26 AB Salon Afroplug Connect + +TTFB, ATL BRUSSELS, Sound’n Souls Lors de l'Afroplug Connect, nous célébrerons le 5e anniversaire de la plateforme avec une conférence, le récit de la fondatrice et un moment de networking convivial ! Atelier Complet",
+      "url": "https://www.abconcerts.be/fr/agenda/afroplug-connect/a10Qw00000PsEhBIAV",
+      "image": "https://abconcerts.be/assets/website/components/images/og-image.1c2180e4.png",
+      "source": "Ancienne Belgique",
+      "price_min": null,
+      "price_max": null,
+      "uid": "7e87c0543a4e7c64",
+      "colour": "#C0392B",
+      "detail_checked": 4,
+      "category": "talks-discussions",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
+      "title": "Limit to your care 20 nov 28 nov Théatre / Spectacles Atelier 210 Etterbeek - Bruxelles Limit to your care met en scène une Love doll, une",
+      "start": "2026-11-20T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "Limit to your care 20 nov 28 nov Théatre / Spectacles Atelier 210 Etterbeek - Bruxelles Limit to your care met en scène une Love doll, une poupée-femme à taille humaine. Cette création explore notre rapport à ces poupées réalistes en questionnant notre lien aux autres et nos modes d'atta",
+      "url": "https://www.out.be/fr/evenements/211624_limit-to-your-care.html",
+      "image": "https://www.out.be/assets/img/logo-outbe.svg",
+      "source": "Out.be",
+      "price_min": null,
+      "price_max": null,
+      "uid": "de310d916d11b590",
+      "colour": "#8A7500",
+      "detail_checked": 4,
+      "category": "culture-arts",
+      "tags": []
     },
     {
       "title": "Nov 20 LINOCUT - POSTCARD Ixelles , Belgium Cours régulier Get Tickets",
@@ -4704,6 +4200,23 @@
       "tags": []
     },
     {
+      "title": "Appel à résidences 2027",
+      "start": "2026-11-20T12:00:00+01:00",
+      "end": "2026-11-20T13:00:00+01:00",
+      "all_day": false,
+      "location": "Maison poème, Rue d'Écosse 30, 1060 Saint-Gilles",
+      "description": "6 créneaux disponibles en 2027 à la Maison poème Pour qui ? Toute personne/collectif/collective résidant en Belgique et souhaitant un espace d’écriture et de recherche pour travailler son projet en cours d’élaboration. Votre projet doit être tourné autour des mots et des sons avec une dimension pluridisciplinaire (poésie, musique, arts vivants, performance, création sonore, arts […]",
+      "url": "https://maisonpoeme.be/",
+      "image": "https://maisonpoeme.be/wp-content/uploads/2026/10/A7C00492-copie-2-1024x683.jpg",
+      "source": "Maison Poème",
+      "price_min": null,
+      "price_max": null,
+      "uid": "6c6b1278b4caa0f2",
+      "colour": "#7B49D6",
+      "category": "music",
+      "tags": []
+    },
+    {
       "title": "The Umbrellas of Cherbourg",
       "start": "2026-11-20T13:30:00+01:00",
       "end": null,
@@ -4862,7 +4375,7 @@
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "vr 20.11.26 20:00 Rectum Crocodile Marvin M'toumo performance Théâtre Varia Tickets",
+      "description": "vr 20.11.26 20:00 Rectum Crocodile Marvin M'toumo performance Théâtre Varia",
       "url": "https://kaaitheater.be/nl/agenda/26-27/rectum-crocodile",
       "image": null,
       "source": "Kaaitheater",
@@ -5055,6 +4568,24 @@
       ]
     },
     {
+      "title": "Fanny Garin 21.11.2026 > 22.11.2026 Polar et poésie — complet Atelier Écriture Poésie Polar",
+      "start": "2026-11-21T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "Fanny Garin 21.11.2026 > 22.11.2026 Polar et poésie — complet Atelier Écriture Poésie Polar",
+      "url": "https://www.lamaisondulivre.be/atelier/polar-et-poesie/",
+      "image": "https://www.lamaisondulivre.be/wp-content/uploads/2025/08/calendar_ssfond.png",
+      "source": "La Maison du Livre",
+      "price_min": 12.0,
+      "price_max": 60.0,
+      "uid": "8a1e9e563034d1d8",
+      "colour": "#E07A00",
+      "detail_checked": 4,
+      "category": "workshops-creative",
+      "tags": []
+    },
+    {
       "title": "Ariane Poot Tom Nisse 21.11.2026 > 22.11.2026 Détruire / construire : collages en chantier —complet Atelier Collage",
       "start": "2026-11-21T00:00:00+01:00",
       "end": null,
@@ -5093,21 +4624,21 @@
       ]
     },
     {
-      "title": "Fanny Garin 21.11.2026 > 22.11.2026 Polar et poésie — complet Atelier Écriture Poésie Polar",
+      "title": "Joe Jackson 21 nov 2026 Concerts Pop / Rock / Pop-Rock Ancienne Belgique (AB) Bruxelles - Bruxelles L’imprévisible musicien britannique Jo",
       "start": "2026-11-21T00:00:00+01:00",
       "end": null,
       "all_day": true,
       "location": "",
-      "description": "Fanny Garin 21.11.2026 > 22.11.2026 Polar et poésie — complet Atelier Écriture Poésie Polar",
-      "url": "https://www.lamaisondulivre.be/atelier/polar-et-poesie/",
-      "image": "https://www.lamaisondulivre.be/wp-content/uploads/2025/08/calendar_ssfond.png",
-      "source": "La Maison du Livre",
-      "price_min": 12.0,
-      "price_max": 60.0,
-      "uid": "8a1e9e563034d1d8",
-      "colour": "#E07A00",
+      "description": "Joe Jackson 21 nov 2026 Concerts Pop / Rock / Pop-Rock Ancienne Belgique (AB) Bruxelles - Bruxelles L’imprévisible musicien britannique Joe Jackson nous promet de belles surprises en 2026 : un nouvel album intitulé ‘Hope and Fury’, attendu pour le 10 avril, ainsi qu’une grande tournée internationa",
+      "url": "https://www.out.be/fr/evenements/194980_joe-jackson.html",
+      "image": "https://www.out.be/assets/img/logo-outbe.svg",
+      "source": "Out.be",
+      "price_min": null,
+      "price_max": null,
+      "uid": "844c7ac63f8f7bcf",
+      "colour": "#8A7500",
       "detail_checked": 4,
-      "category": "workshops-creative",
+      "category": "music",
       "tags": []
     },
     {
@@ -5146,6 +4677,24 @@
       "tags": []
     },
     {
+      "title": "Conversatietafel Nederlands",
+      "start": "2026-11-21T09:30:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Conversatietafel Nederlands sam 21/11 - 09:30 Cours, Stages et Ateliers",
+      "url": "http://forest.brussels/fr/agenda/cours-stages-et-ateliers/2026/conversatietafel-nederlands",
+      "image": null,
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "0e28ba6d78181324",
+      "colour": "#7B49D6",
+      "detail_checked": 4,
+      "category": "workshops-creative",
+      "tags": []
+    },
+    {
       "title": "Brocante inclinée de ronquières",
       "start": "2026-11-21T10:00:00+01:00",
       "end": "2026-11-21T14:00:00+01:00",
@@ -5163,6 +4712,42 @@
       "tags": [
         "free"
       ]
+    },
+    {
+      "title": "Verger du Panorama - Chantier collectif",
+      "start": "2026-11-21T10:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Verger du Panorama - Chantier collectif sam 21/11 - 10:00 Animations",
+      "url": "http://forest.brussels/fr/agenda/animations/2026/verger-du-panorama-chantier-collectif",
+      "image": null,
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "298881578b0ee0d7",
+      "colour": "#7B49D6",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Kilims • Trames Libres",
+      "start": "2026-11-21T11:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Kilims • Trames Libres sam 21/11 - 11:00 Exposition",
+      "url": "http://forest.brussels/fr/agenda/exposition/2026/kilims-trames-libres",
+      "image": null,
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "58095a61e237864c",
+      "colour": "#7B49D6",
+      "detail_checked": 4,
+      "category": "culture-arts",
+      "tags": []
     },
     {
       "title": "Verhalen in alle talen",
@@ -5236,6 +4821,42 @@
       "colour": "#E8336D",
       "detail_checked": 4,
       "category": "workshops-creative",
+      "tags": []
+    },
+    {
+      "title": "Forest town hall: Art Deco palace for the people",
+      "start": "2026-11-21T14:30:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "Forest town hall: Art Deco palace for the people sam 21/11 - 14:30 Visites Guidées",
+      "url": "http://forest.brussels/fr/agenda/forest-town-hall-art-deco-palace-for-the-people",
+      "image": null,
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "44e70d183d25c341",
+      "colour": "#7B49D6",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "L'hôtel communal de Forest",
+      "start": "2026-11-21T15:30:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "L'hôtel communal de Forest sam 21/11 - 15:30 Visites Guidées",
+      "url": "http://forest.brussels/fr/agenda/visites-guidees/2026/lhotel-communal-de-forest-1",
+      "image": null,
+      "source": "Forest (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "de5d021acd219076",
+      "colour": "#7B49D6",
+      "detail_checked": 4,
+      "category": "other",
       "tags": []
     },
     {
@@ -5355,24 +4976,6 @@
       "tags": []
     },
     {
-      "title": "In Waves - Phuong Mai Nguyen (12+)",
-      "start": "2026-11-22T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "In Waves - Phuong Mai Nguyen (12+) Sold out Cancelled Postponed Last Tickets Films Kids’ Palace In Waves - Phuong Mai Nguyen (12+) Now → 22 Nov.'26 From 8 €",
-      "url": "https://www.bozar.be/en/calendar/waves-phuong-mai-nguyen-12",
-      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
-      "source": "BOZAR",
-      "price_min": 8.0,
-      "price_max": 8.0,
-      "uid": "ba40af8cb4d5904b",
-      "colour": "#00937A",
-      "detail_checked": 4,
-      "category": "family-children",
-      "tags": []
-    },
-    {
       "title": "The Six - Reiner Holzemer",
       "start": "2026-11-22T00:00:00+01:00",
       "end": null,
@@ -5388,6 +4991,24 @@
       "colour": "#00937A",
       "detail_checked": 4,
       "category": "other",
+      "tags": []
+    },
+    {
+      "title": "In Waves - Phuong Mai Nguyen (12+)",
+      "start": "2026-11-22T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "In Waves - Phuong Mai Nguyen (12+) Sold out Cancelled Postponed Last Tickets Films Kids’ Palace In Waves - Phuong Mai Nguyen (12+) Now → 22 Nov.'26 From 8 €",
+      "url": "https://www.bozar.be/en/calendar/waves-phuong-mai-nguyen-12",
+      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
+      "source": "BOZAR",
+      "price_min": 8.0,
+      "price_max": 8.0,
+      "uid": "ba40af8cb4d5904b",
+      "colour": "#00937A",
+      "detail_checked": 4,
+      "category": "family-children",
       "tags": []
     },
     {
@@ -5424,6 +5045,24 @@
       "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "workshops-creative",
+      "tags": []
+    },
+    {
+      "title": "Finale Humo's Rock Rally 2026 22 nov 2026 Concerts Pop / Rock / Pop-Rock Ancienne Belgique (AB) Bruxelles - Bruxelles Ils sont enfin connu",
+      "start": "2026-11-22T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "Ancienne Belgique, 110 Boulevard Anspachlaan, 1000 Bruxelles, Bruxelles, Belgique, 1000 Bruxelles, Bruxelles, Belgique, Bruxelles",
+      "description": "Finale Humo's Rock Rally 2026 22 nov 2026 Concerts Pop / Rock / Pop-Rock Ancienne Belgique (AB) Bruxelles - Bruxelles Ils sont enfin connus : les 50 artistes qui vont bientôt se mesurer les uns aux autres lors de présélections organisées dans toute la Flandre afin de décrocher leur place en finale",
+      "url": "https://www.out.be/fr/evenements/218210_finale-humo-s-rock-rally-2026.html",
+      "image": "https://www.out.be/assets/img/logo-outbe.svg",
+      "source": "Out.be",
+      "price_min": null,
+      "price_max": null,
+      "uid": "927f36ad929fbdfa",
+      "colour": "#8A7500",
+      "detail_checked": 4,
+      "category": "music",
       "tags": []
     },
     {
@@ -6022,6 +5661,24 @@
       "tags": []
     },
     {
+      "title": "L'enfermement, vers l'après",
+      "start": "2026-11-24T13:00:00+01:00",
+      "end": "2026-11-24T18:30:00+01:00",
+      "all_day": false,
+      "location": "Pianofabriek, Rue du Fort 35, Bruxelles, 1060",
+      "description": "Le mardi 24 novembre après-midi, l’Abfris (Association Belge pour la Formation, la Recherche et l’Intervention Sociale) organise le premier séminaire d’un cycle consacré à « L’enfermement, vers l’après ». Le premier séminaire se déroulera au Pianofabriek, à proximité de l’ancienne prison de Forest, dont une partie des bâtiments est aujourd’hui investie par l’Association 9m2, dans le but de faire de cet ancien lieu de détention en espace de réflexion critique sur l’enfermement et la justice pénale en Belgique. Dans un premier temps, trois membres de 9 m², France Huart (historienne, co-fondateur",
+      "url": "https://cbcs.be/event/lenfermement-vers-lapres/",
+      "image": null,
+      "source": "CBCS (Brussels social sector agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "3ce07dfa22938ee0",
+      "colour": "#8A7500",
+      "detail_checked": 4,
+      "category": "talks-discussions",
+      "tags": []
+    },
+    {
       "title": "Rally: Against Colonialism, Fascism, Wars and Genocides!",
       "start": "2026-11-24T17:00:00+00:00",
       "end": "2026-11-24T18:00:00+00:00",
@@ -6375,6 +6032,24 @@
       "tags": []
     },
     {
+      "title": "Marché aux puces de la place du jeu de balle",
+      "start": "2026-11-26T09:00:00+01:00",
+      "end": "2026-11-26T14:00:00+01:00",
+      "all_day": false,
+      "location": "Quartier des Marolles, Place du Jeu de Balle, Bruxelles",
+      "description": "Au cœur de bruxelles, tous les matins se tient une brocante d'antiquité exceptionnelle sur la place du jeu de balle. ... Situé dans le quartier des marolles, le marché aux puces attire aussi bien les passants que les curieux. ... Vous y ferez de très belles affaires tant les marchandises proposées sont diverses : vêtements, bijoux, mobilier d'intérieur, mais aussi des livres et des tableaux d'antiquité, fripes, théières, lampes, bibelots, vaisselles, médailles, meubles... ... Horaires 9h -14h...",
+      "url": "https://brocabrac.fr/ru/bruxelles/993112-marche-aux-puces-de-la-place-du-jeu-de-balle",
+      "image": "https://brocabrac.fr/cdn/event/photos/eb/09/eb09b6d54d72c1d24ff3edc7e2f8ec2647908382a4b3451e7c1f0feaa206f3df-large.png",
+      "source": "Brocabrac Belgique",
+      "price_min": 9.0,
+      "price_max": 9.0,
+      "uid": "cd6201b1cb561f22",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "markets-fairs",
+      "tags": []
+    },
+    {
       "title": "Electric Fever",
       "start": "2026-11-26T19:00:00+01:00",
       "end": null,
@@ -6511,18 +6186,18 @@
       "tags": []
     },
     {
-      "title": "Free Affiliate 15.11 27.11.2026 Veronika Eberhart: HISS",
-      "start": "2026-11-27T11:00:00+01:00",
+      "title": "Free Affiliate 16.11 27.11.2026 Veronika Eberhart: HISS",
+      "start": "2026-11-27T00:00:00+01:00",
       "end": null,
-      "all_day": false,
+      "all_day": true,
       "location": "",
-      "description": "Free Affiliate 15.11 27.11.2026 Veronika Eberhart: HISS",
+      "description": "Free Affiliate 16.11 27.11.2026 Veronika Eberhart: HISS",
       "url": "https://wiels.org/en/events/veronika-eberhart-hiss",
       "image": "https://wiels.org/actions/assets/generate-transform?transformId=9",
       "source": "WIELS",
       "price_min": 0.0,
       "price_max": 12.0,
-      "uid": "f957a3e8b6c9c5aa",
+      "uid": "25738770b8eedf04",
       "colour": "#E07A00",
       "detail_checked": 4,
       "category": "other",
@@ -6610,6 +6285,24 @@
       "stale": true
     },
     {
+      "title": "Marché aux puces de la place du jeu de balle",
+      "start": "2026-11-27T09:00:00+01:00",
+      "end": "2026-11-27T14:00:00+01:00",
+      "all_day": false,
+      "location": "Quartier des Marolles, Place du Jeu de Balle, Bruxelles",
+      "description": "Au cœur de bruxelles, tous les matins se tient une brocante d'antiquité exceptionnelle sur la place du jeu de balle. ... Situé dans le quartier des marolles, le marché aux puces attire aussi bien les passants que les curieux. ... Vous y ferez de très belles affaires tant les marchandises proposées sont diverses : vêtements, bijoux, mobilier d'intérieur, mais aussi des livres et des tableaux d'antiquité, fripes, théières, lampes, bibelots, vaisselles, médailles, meubles... ... Horaires 9h -14h...",
+      "url": "https://brocabrac.fr/ru/bruxelles/993112-marche-aux-puces-de-la-place-du-jeu-de-balle",
+      "image": "https://brocabrac.fr/cdn/event/photos/eb/09/eb09b6d54d72c1d24ff3edc7e2f8ec2647908382a4b3451e7c1f0feaa206f3df-large.png",
+      "source": "Brocabrac Belgique",
+      "price_min": 9.0,
+      "price_max": 9.0,
+      "uid": "269d0c8c586f5efd",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "markets-fairs",
+      "tags": []
+    },
+    {
       "title": "Open Coworking Day: Join and Cowork on Your Projects",
       "start": "2026-11-27T09:30:00+01:00",
       "end": "2026-11-27T18:00:00+01:00",
@@ -6623,6 +6316,24 @@
       "price_max": null,
       "uid": "d2683adec37f105c",
       "colour": "#E8336D",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Vuur-werk Vlaanderen",
+      "start": "2026-11-27T10:00:00+01:00",
+      "end": "2026-11-27T12:00:00+01:00",
+      "all_day": false,
+      "location": "Martelaarsplein, Brussel, Martelaarsplein, Brussel, Belgium",
+      "description": "🔥 Sterke mensen maken een sterke samenleving! De Vlaamse regering zet opnieuw het mes in wat mensen sterker maakt: sociale zorg, openbare dienstverlening, jeugdwerk, het middenveld, kunst en cultuur, opleiding en begeleiding. Met deze besparingen zaagt de overheid de poten onder de stoel van wie deze steun het hardst nodig heeft. Gezinnen komen moeilijker rond, werkzoekenden en kunstenaars verliezen kansen, het verenigingsleven verschraalt en werknemers en vrijwilligers moeten steeds meer noden opvangen met steeds minder middelen. Op 27 november laten we zien hoeveel kracht en verscheidenheid ",
+      "url": "https://klimaatcoalitie-coalitionclimat.be/event/vuur-werk-vlaanderen/",
+      "image": null,
+      "source": "Klimaatcoalitie (Climate Coalition Belgium)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "6785d486d1ff35b6",
+      "colour": "#8A7500",
       "detail_checked": 4,
       "category": "other",
       "tags": []
@@ -6852,6 +6563,24 @@
       "detail_checked": 4
     },
     {
+      "title": "Marché des antiquités du sablon",
+      "start": "2026-11-28T00:00:00+01:00",
+      "end": "2026-11-28T00:00:00+01:00",
+      "all_day": true,
+      "location": "Place du Grand Sablon, Bruxelles",
+      "description": "Marché des antiquités du sablon - ouvert tous les samedis de 9h à 17h et dimanches de 9h à 15h sur la place du grand sablon ... Ce marché situé au centre du quartier des antiquaires sur la place du grand sablon est une institution depuis les années 60. ... Vous y trouverez : orfèvrerie, bijouterie, objets de vitrine, céramique et verre, art de table, tableaux, dessins, mais aussi porcelaine chinoise, petit mobilier ou art africain, collections, vieux papiers, meubles de style...",
+      "url": "https://brocabrac.fr/ru/bruxelles/993117-marche-des-antiquites-du-sablon",
+      "image": "https://brocabrac.fr/cdn/event/photos/18/fa/18fac1a672bf41b31d66cc92926b28b29c2a41f2a9bbdb4c8aca05ae9e109f3f-large.jpg",
+      "source": "Brocabrac Belgique",
+      "price_min": null,
+      "price_max": null,
+      "uid": "99048ff45613c109",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "workshops-creative",
+      "tags": []
+    },
+    {
       "title": "Ayoub Marina Otero & Ibrahim Ibnou Goush 24 – 28.11.2026",
       "start": "2026-11-28T00:00:00+01:00",
       "end": null,
@@ -7004,6 +6733,60 @@
       "tags": []
     },
     {
+      "title": "Brocante du family-center",
+      "start": "2026-11-28T05:30:00+01:00",
+      "end": "2026-11-28T13:00:00+01:00",
+      "all_day": false,
+      "location": "Parking du Family center, 173 rue de l'Industrie, Frameries",
+      "description": "Brocante existant sans interruption depuis 1988 tous les samedis matin. Pas de réservation, placement par arrivée. Marchandise neuve, nourriture et commerçants ambulants non admis. Emplacements avec voiture 5 mètres x 5 mètres pour 10 euros possibilité d'emplacement plus grand, 5€ par parking supplémentaire facebook.Com/brocanstoq ou www.brocanstoq.be",
+      "url": "https://brocabrac.fr/ht/frameries/1271045-brocante-du-family-center",
+      "image": null,
+      "source": "Brocabrac Belgique",
+      "price_min": 5.0,
+      "price_max": 10.0,
+      "uid": "7ab6eb8a947da113",
+      "colour": "#1B6FE0",
+      "category": "markets-fairs",
+      "tags": []
+    },
+    {
+      "title": "Marché aux puces de la place du jeu de balle",
+      "start": "2026-11-28T09:00:00+01:00",
+      "end": "2026-11-28T14:00:00+01:00",
+      "all_day": false,
+      "location": "Quartier des Marolles, Place du Jeu de Balle, Bruxelles",
+      "description": "Au cœur de bruxelles, tous les matins se tient une brocante d'antiquité exceptionnelle sur la place du jeu de balle. ... Situé dans le quartier des marolles, le marché aux puces attire aussi bien les passants que les curieux. ... Vous y ferez de très belles affaires tant les marchandises proposées sont diverses : vêtements, bijoux, mobilier d'intérieur, mais aussi des livres et des tableaux d'antiquité, fripes, théières, lampes, bibelots, vaisselles, médailles, meubles... ... Horaires 9h -14h...",
+      "url": "https://brocabrac.fr/ru/bruxelles/993112-marche-aux-puces-de-la-place-du-jeu-de-balle",
+      "image": "https://brocabrac.fr/cdn/event/photos/eb/09/eb09b6d54d72c1d24ff3edc7e2f8ec2647908382a4b3451e7c1f0feaa206f3df-large.png",
+      "source": "Brocabrac Belgique",
+      "price_min": 9.0,
+      "price_max": 9.0,
+      "uid": "f61624e1c8287cd5",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "markets-fairs",
+      "tags": []
+    },
+    {
+      "title": "Brocante inclinée de ronquières",
+      "start": "2026-11-28T10:00:00+01:00",
+      "end": "2026-11-28T14:00:00+01:00",
+      "all_day": false,
+      "location": "Rue Rosemont, Braine-Le-Comte",
+      "description": "Brocante inclinée de ronquières - rue rosemont - parking gratuit - tous les samedis, dimanches et jours fériés de 10h à 14h (chapiteau ouvert dès 9h) Sans réservation. Informations par téléphone. Un emplacement est 5m x 5m à 16€ ou 3 parking/24€ etc avec la voiture toujours près de vous.",
+      "url": "https://brocabrac.fr/ht/braine-le-comte/1190581-brocante-inclinee-de-ronquieres",
+      "image": null,
+      "source": "Brocabrac Belgique",
+      "price_min": 16.0,
+      "price_max": 24.0,
+      "uid": "a06114ca5504f80d",
+      "colour": "#1B6FE0",
+      "category": "markets-fairs",
+      "tags": [
+        "free"
+      ]
+    },
+    {
       "title": "Offline",
       "start": "2026-11-28T11:00:00+01:00",
       "end": "2026-11-28T14:00:00+01:00",
@@ -7106,6 +6889,24 @@
       "tags": []
     },
     {
+      "title": "Marché des antiquités du sablon",
+      "start": "2026-11-29T00:00:00+01:00",
+      "end": "2026-11-29T00:00:00+01:00",
+      "all_day": true,
+      "location": "Place du Grand Sablon, Bruxelles",
+      "description": "Marché des antiquités du sablon - ouvert tous les samedis de 9h à 17h et dimanches de 9h à 15h sur la place du grand sablon ... Ce marché situé au centre du quartier des antiquaires sur la place du grand sablon est une institution depuis les années 60. ... Vous y trouverez : orfèvrerie, bijouterie, objets de vitrine, céramique et verre, art de table, tableaux, dessins, mais aussi porcelaine chinoise, petit mobilier ou art africain, collections, vieux papiers, meubles de style...",
+      "url": "https://brocabrac.fr/ru/bruxelles/993117-marche-des-antiquites-du-sablon",
+      "image": "https://brocabrac.fr/cdn/event/photos/18/fa/18fac1a672bf41b31d66cc92926b28b29c2a41f2a9bbdb4c8aca05ae9e109f3f-large.jpg",
+      "source": "Brocabrac Belgique",
+      "price_min": null,
+      "price_max": null,
+      "uid": "72f93ba6f6060170",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "workshops-creative",
+      "tags": []
+    },
+    {
       "title": "Nocturne Parade Compagnie Non Nova – Phia Ménard 27 > 29.11.26",
       "start": "2026-11-29T14:00:00+01:00",
       "end": null,
@@ -7139,6 +6940,131 @@
       "colour": "#00937A",
       "category": "other",
       "tags": []
+    },
+    {
+      "title": "Brocante du viaduc herrmann debroux",
+      "start": "2026-11-29T06:00:00+01:00",
+      "end": "2026-11-29T13:00:00+01:00",
+      "all_day": false,
+      "location": "Avenue Herrmann-Debroux, Auderghem",
+      "description": "Depuis plus de 35 ans nous vous accueillons sous le viaduc herrmann debroux tous les premiers et derniers dimanche de chaque mois. Les réservations se font soit en nos bureaux au 64 rue albert maunier soit par téléphone au 02 672 36 23 tous les lundis, mercredis et vendredis de 13h à 17h.",
+      "url": "https://brocabrac.fr/ru/auderghem/1352772-brocante-du-viaduc-herrmann-debroux",
+      "image": null,
+      "source": "Brocabrac Belgique",
+      "price_min": 6.0,
+      "price_max": 15.0,
+      "uid": "6eec1dd50c2110f5",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "markets-fairs",
+      "tags": []
+    },
+    {
+      "title": "Brocante",
+      "start": "2026-11-29T06:00:00+01:00",
+      "end": "2026-11-29T13:00:00+01:00",
+      "all_day": false,
+      "location": "En dessous du Viaduc, Viaduc Herrmann Debroux, Bruxelles",
+      "description": "Le viaduc fait 400 mètres de long,",
+      "url": "https://brocabrac.fr/ru/bruxelles/1343846-brocante",
+      "image": null,
+      "source": "Brocabrac Belgique",
+      "price_min": 6.0,
+      "price_max": 15.0,
+      "uid": "a802899417d61d67",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "markets-fairs",
+      "tags": []
+    },
+    {
+      "title": "Brocante mabru",
+      "start": "2026-11-29T07:00:00+01:00",
+      "end": "2026-11-29T13:00:00+01:00",
+      "all_day": false,
+      "location": "mabru (marché matinal de Bruxelles), 22 quai des Usines, Bruxelles",
+      "description": "Grande brocante se déroulant tous les dimanches matin sur le site mabru (marché matinal de bruxelles) il y a des stands de nourriture, de produis ménagers, du gros électoménager, beaucoup d'outils électriques et manuel d'occasion ainsi qu'une foule de petits exposants. Le parking est payant (5€) et bondé, je conseille de venir par le tram qui s'arrête juste devant.",
+      "url": "https://brocabrac.fr/ru/bruxelles/1407278-brocante-mabru",
+      "image": "https://brocabrac.fr/cdn/event/photos/14/85/1485a1388536fc0f2413ec15dc7d317458308f659b9743a52904ecf30726379c-large.jpg",
+      "source": "Brocabrac Belgique",
+      "price_min": 5.0,
+      "price_max": 5.0,
+      "uid": "52a9ac23d929d2bb",
+      "colour": "#1B6FE0",
+      "category": "markets-fairs",
+      "tags": []
+    },
+    {
+      "title": "Grande brocante",
+      "start": "2026-11-29T07:00:00+01:00",
+      "end": "2026-11-29T14:00:00+01:00",
+      "all_day": false,
+      "location": "7 rue des français, Les Bons Villers",
+      "description": "Que vous soyez brocanteurs ,antiquaires ,marchands, visiteurs ou particuliers ,nous vous attendons tous les dimanches de 7h00 à 14h00 chez broc antik market belgium pour venir vendre, acheter ,chiner et surtout pour assister ou participer au grand déballage hebdomadaire au cul du camion. Cette brocante est devenue populaire et incontournable pour tous les marchands et chineurs en un temps record. Elle est surtout devenue célèbre pour la qualité de ses marchandises. A partir de 15 € déballage ...",
+      "url": "https://brocabrac.fr/ht/les-bons-villers/1097040-grande-brocante",
+      "image": null,
+      "source": "Brocabrac Belgique",
+      "price_min": 15.0,
+      "price_max": 15.0,
+      "uid": "3175419a2c1bee55",
+      "colour": "#1B6FE0",
+      "category": "markets-fairs",
+      "tags": []
+    },
+    {
+      "title": "Marché aux puces de la place du jeu de balle",
+      "start": "2026-11-29T09:00:00+01:00",
+      "end": "2026-11-29T14:00:00+01:00",
+      "all_day": false,
+      "location": "Quartier des Marolles, Place du Jeu de Balle, Bruxelles",
+      "description": "Au cœur de bruxelles, tous les matins se tient une brocante d'antiquité exceptionnelle sur la place du jeu de balle. ... Situé dans le quartier des marolles, le marché aux puces attire aussi bien les passants que les curieux. ... Vous y ferez de très belles affaires tant les marchandises proposées sont diverses : vêtements, bijoux, mobilier d'intérieur, mais aussi des livres et des tableaux d'antiquité, fripes, théières, lampes, bibelots, vaisselles, médailles, meubles... ... Horaires 9h -14h...",
+      "url": "https://brocabrac.fr/ru/bruxelles/993112-marche-aux-puces-de-la-place-du-jeu-de-balle",
+      "image": "https://brocabrac.fr/cdn/event/photos/eb/09/eb09b6d54d72c1d24ff3edc7e2f8ec2647908382a4b3451e7c1f0feaa206f3df-large.png",
+      "source": "Brocabrac Belgique",
+      "price_min": 9.0,
+      "price_max": 9.0,
+      "uid": "7f34d65da3be9798",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "markets-fairs",
+      "tags": []
+    },
+    {
+      "title": "Bourse militaria",
+      "start": "2026-11-29T09:30:00+01:00",
+      "end": "2026-11-29T12:30:00+01:00",
+      "all_day": false,
+      "location": "Parc des expositions - hall polyvalent, Arlon",
+      "description": "08h30 pour les exposants et les membres de l'A.S.B.L. \"le fusil\" ainsi que ses membres d'honneur. Si un exposant n'est pas arrivé avant 09h15, sa table peut être attribuée à un exposant occasionnel. 09h15 pour les visiteurs. La bourse se termine aux alentours de 12h30.",
+      "url": "https://brocabrac.fr/lx/arlon/1345402-bourse-militaria",
+      "image": null,
+      "source": "Brocabrac Belgique",
+      "price_min": 9.0,
+      "price_max": 9.0,
+      "uid": "4b561ee22d308af8",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
+      "title": "Brocante inclinée de ronquières",
+      "start": "2026-11-29T10:00:00+01:00",
+      "end": "2026-11-29T14:00:00+01:00",
+      "all_day": false,
+      "location": "Rue Rosemont, Braine-Le-Comte",
+      "description": "Brocante inclinée de ronquières - rue rosemont - parking gratuit - tous les samedis, dimanches et jours fériés de 10h à 14h (chapiteau ouvert dès 9h) Sans réservation. Informations par téléphone. Un emplacement est 5m x 5m à 16€ ou 3 parking/24€ etc avec la voiture toujours près de vous.",
+      "url": "https://brocabrac.fr/ht/braine-le-comte/1190581-brocante-inclinee-de-ronquieres",
+      "image": null,
+      "source": "Brocabrac Belgique",
+      "price_min": 16.0,
+      "price_max": 24.0,
+      "uid": "afd9402395b75ec9",
+      "colour": "#1B6FE0",
+      "category": "markets-fairs",
+      "tags": [
+        "free"
+      ]
     },
     {
       "title": "Sunday Electronics Workshop 036",
@@ -9654,6 +9580,24 @@
       "tags_llm_done": true
     },
     {
+      "title": "Marouane Mezouar",
+      "start": "2027-01-22T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "Le 22 janvier 2027 Marouane Mezouar Half & Half Closer",
+      "url": "https://bellone.be/programmation-publique/marouane-mezouar",
+      "image": null,
+      "source": "La Bellone",
+      "price_min": null,
+      "price_max": null,
+      "uid": "2caf5ac7c13d4f17",
+      "colour": "#E8336D",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "Open Coworking Day: Join and Cowork on Your Projects",
       "start": "2027-01-22T09:30:00+01:00",
       "end": "2027-01-22T18:00:00+01:00",
@@ -9837,24 +9781,6 @@
       "price_min": null,
       "price_max": null,
       "uid": "0dbfbed4c62a2fb8",
-      "colour": "#E8336D",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
-      "title": "Yasmine Yahiatène",
-      "start": "2027-01-29T12:30:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Le 29 janvier 2027 de 12:30 à 13:00 Yasmine Yahiatène Half & Half Closer",
-      "url": "https://bellone.be/programmation-publique/yasmine-yahiatene-3",
-      "image": null,
-      "source": "La Bellone",
-      "price_min": null,
-      "price_max": null,
-      "uid": "4f8f0c1c83f150a8",
       "colour": "#E8336D",
       "detail_checked": 4,
       "category": "other",
