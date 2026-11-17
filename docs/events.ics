@@ -6,168 +6,8 @@ METHOD:PUBLISH
 X-WR-CALNAME:Neighbourhood events
 X-WR-TIMEZONE:Europe/Brussels
 BEGIN:VEVENT
-UID:5755c83f960aae0f@neighbourhood-events
-DTSTAMP:20261116T132121Z
-DTSTART:20261115T144500Z
-SUMMARY:Minotaur
-LOCATION:Flagey\, Flagey
-URL:https://www.flagey.be/en/agenda/minotaur-trs4
-DESCRIPTION:Minotaur Sun 15 Nov - Sat 28 Nov Studio 5 cinema € 7\,00–
- € 10\,50 dates dates Sun 15 Nov 15:45 tickets Fri 20 Nov 16:30 tickets
-  Sat 21 Nov 18:30 tickets Wed 25 Nov 16:30 tickets Sat 28 Nov 21:10 tick
- ets Wed 11 Nov 21:10 Past event Fri 13 Nov 16:15 Past event\nhttps://www
- .flagey.be/en/agenda/minotaur-trs4
-CATEGORIES:Flagey\,Film & Cinema
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT120M
-DESCRIPTION:Minotaur
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:3b66024ba7fd2140@neighbourhood-events
-DTSTAMP:20261116T132121Z
-DTSTART:20261115T170000Z
-SUMMARY:Fatna\, une femme nommée Rachid
-LOCATION:Le Senghor
-URL:https://www.senghor.be/evenement/cine-club-fatna-une-femme-nommee-rac
- hid/
-CATEGORIES:Le Senghor\,Other\,Evening
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT120M
-DESCRIPTION:Fatna\, une femme nommée Rachid
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:b4dddf223c280763@neighbourhood-events
-DTSTAMP:20261116T132121Z
-DTSTART:20261115T171500Z
-SUMMARY:La Gradiva
-LOCATION:Flagey\, Flagey
-URL:https://www.flagey.be/en/agenda/la-gradiva-mbb1
-DESCRIPTION:La Gradiva Sun 15 Nov - Fri 27 Nov Studio 5 cinema € 7\,00
- –€ 10\,50 dates dates Sun 15 Nov 18:15 tickets Sat 21 Nov 15:50 tick
- ets Fri 27 Nov 16:10 tickets Wed 28 Oct 20:15 Past event Fri 30 Oct 20:3
- 0 Past event Sun 1 Nov 16:00 Past event Thu 5 Nov 21:05 Past event Sun 8
-  Nov 15:45 Past event Fri 13 Nov\nhttps://www.flagey.be/en/agenda/la-gra
- diva-mbb1
-CATEGORIES:Flagey\,Film & Cinema\,Evening
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT120M
-DESCRIPTION:La Gradiva
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:e65f652e0da7ab67@neighbourhood-events
-DTSTAMP:20261116T132121Z
-DTSTART:20261115T200000Z
-SUMMARY:Club Kid
-URL:https://www.flagey.be/en/agenda/club-kid-69fq
-DESCRIPTION:Club Kid Sun 15 Nov - Sat 28 Nov Studio 5 cinema € 7\,00–
- € 10\,50 dates dates Sun 15 Nov 21:00 tickets Sat 21 Nov 21:00 tickets
-  Sun 22 Nov 20:35 tickets Fri 27 Nov 18:50 tickets Sat 28 Nov 14:15 tick
- ets Wed 11 Nov 18:50 Past event Sat 14 Nov 21:05 Past event\nhttps://www
- .flagey.be/en/agenda/club-kid-69fq
-CATEGORIES:Flagey\,Film & Cinema\,Evening
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT120M
-DESCRIPTION:Club Kid
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:f689256e0bd03282@neighbourhood-events
-DTSTAMP:20261116T132121Z
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261116
-SUMMARY:18h30 Arpentage AJILE « Exploiter les vivants » de Paul Guillib
- ert
-URL:https://chechette.be/events/arpentage-ajile-exploiter-les-vivants-de-
- paul-guillibert/
-DESCRIPTION:<!-- wp:image {"id":7524\,"width":"254px"\,"height":"auto"\,"
- aspectRatio":"0.7998138370921964"\,"sizeSlug":"large"\,"linkDestination"
- :"none"} --> <figure class="wp-block-image size-large is-resized"><img s
- rc="https://chechette.be/wp-content/uploads/2026/10/28-1-819x1024.png" a
- lt="" class="wp-image-7524" style="aspect-ratio:0.7998138370921964\;widt
- h:254px\;height:auto"/></figure> <!-- /wp:image --> <!-- wp:paragraph --
- > <p>Et si la crise écologique ne pouvait pas se comprendre sans parler
-  du travail ? Dans <em>Exploiter les vivants</em>\, Paul Guillibert expl
- ore les liens entre l’exploitation des humai\nhttps://chechette.be/eve
- nts/arpentage-ajile-exploiter-les-vivants-de-paul-guillibert/
-CATEGORIES:La Vieille Chéchette\,Other
-END:VEVENT
-BEGIN:VEVENT
-UID:7d27c1c09171fd8d@neighbourhood-events
-DTSTAMP:20261116T132121Z
-DTSTART;VALUE=DATE:20261116
-SUMMARY:16 novembre 2026
-URL:https://www.tricoterie.be/fr/agenda/l-agenda-culturel/?lang=fr&archiv
- es=2026-11-16
-DESCRIPTION:16 novembre 2026\nhttps://www.tricoterie.be/fr/agenda/l-agend
- a-culturel/?lang=fr&archives=2026-11-16
-CATEGORIES:La Tricoterie\,Other
-END:VEVENT
-BEGIN:VEVENT
-UID:39cae45712f25feb@neighbourhood-events
-DTSTAMP:20261116T132121Z
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261120
-SUMMARY:Festival Urbanika
-LOCATION:Maison des Cultures de Saint-Gilles\, Bruxelles 1060
-URL:https://mdc1060.brussels/agenda/festival-urbanika/
-CATEGORIES:Maison des Cultures de Saint-Gilles\,Festivals & Celebrations\
- ,Recurring
-END:VEVENT
-BEGIN:VEVENT
-UID:0b807ddb25c96506@neighbourhood-events
-DTSTAMP:20261116T132121Z
-DTSTART;VALUE=DATE:20261116
-SUMMARY:Jacques Duvall & Benjamin Shoos 16 nov 2026 Concerts Chanson fran
- çaise L'Archiduc Bruxelles - Bruxelles Dix ans après leur dernière co
- llab
-LOCATION:L'Archiduc\, 6 Rue Antoine Dansaert\, 6 Antoine Dansaertstraat\,
-  1000 Bruxelles\, Bruxelles\, Belgique\, Bruxelles
-URL:https://www.out.be/fr/evenements/224118_jacques-duvall-benjamin-shoos
- .html
-DESCRIPTION:Jacques Duvall & Benjamin Shoos 16 nov 2026 Concerts Chanson 
- française L'Archiduc Bruxelles - Bruxelles Dix ans après leur dernièr
- e collaboration\, deux figures essentielles de la pop belge francophone 
- réunies : Jacques Duvall et Benjamin Schoos.Jacques Duvall est l'un des
-  paroliers les plus estimé\nhttps://www.out.be/fr/evenements/224118_jac
- ques-duvall-benjamin-shoos.html
-CATEGORIES:Out.be\,Music
-END:VEVENT
-BEGIN:VEVENT
-UID:3bee5e3a8e7d3768@neighbourhood-events
-DTSTAMP:20261116T132121Z
-DTSTART;VALUE=DATE:20261116
-SUMMARY:1000 balles : un jeu sur les inégalités économiques de genre
-URL:https://www.financite.be/activit%C3%A9/1000-balles-un-jeu-sur-les-ine
- galites-economiques-de-genre
-DESCRIPTION:lun 16.11.2026 Liège Atelier 1000 balles : un jeu sur les in
- égalités économiques de genre Plus d'info\nhttps://www.financite.be/a
- ctivit%C3%A9/1000-balles-un-jeu-sur-les-inegalites-economiques-de-genre
-CATEGORIES:Financité\,Workshops & Creative
-END:VEVENT
-BEGIN:VEVENT
-UID:4c8f02e99d85c5d9@neighbourhood-events
-DTSTAMP:20261116T132121Z
-DTSTART;VALUE=DATE:20261116
-SUMMARY:16 nov
-URL:https://www.cncd.be/Lunch-parlementaire-La-Belgique
-DESCRIPTION:16 nov Bruxelles 16/11/2026 Lunch parlementaire. La Belgique 
- doit se positionner sur le Traité sur la... La Belgique doit-elle reste
- r liée au Traité sur la Charte de l'énergie (TCE)\, malgré ses risqu
- es pour le climat\, le droit européen et les finances publiques ? À la
-  lumière de l'arbitrage lancé pa\nhttps://www.cncd.be/Lunch-parlementa
- ire-La-Belgique
-CATEGORIES:CNCD-11.11.11\,Other
-END:VEVENT
-BEGIN:VEVENT
 UID:2316a1542b1b06cf@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261116T070000Z
 DTEND:20261120T160000Z
 SUMMARY:Melting Papot' - Open doors of the South Basin
@@ -192,7 +32,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e562b09ec8a6fac1@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261116T080000Z
 DTEND:20261116T130000Z
 SUMMARY:Marché aux puces de la place du jeu de balle
@@ -216,79 +56,8 @@ DESCRIPTION:Marché aux puces de la place du jeu de balle
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:647b80708b9c0618@neighbourhood-events
-DTSTAMP:20261116T132121Z
-DTSTART:20261116T090000Z
-SUMMARY:il y a 4h Soutien Journée de mobilisation à La Cambre 💥☕ L
- undi 16 novembre 2026 à 10:00 Bruxelles - 1000 Organisé par ProtestBas
- e
-LOCATION:Bruxelles\, 21 Abdij ter Kameren\, Bruxelles
-URL:https://protestbase.be/event/03513eff-25d7-4842-97c2-1638fe49fd7a
-DESCRIPTION:il y a 4h Soutien Journée de mobilisation à La Cambre 💥
- ☕ Lundi 16 novembre 2026 à 10:00 Bruxelles - 1000 Organisé par Prote
- stBase\nhttps://protestbase.be/event/03513eff-25d7-4842-97c2-1638fe49fd7
- a
-CATEGORIES:Protestbase Bruxelles\,Activism & Social Justice
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT120M
-DESCRIPTION:il y a 4h Soutien Journée de mobilisation à La Cambre 💥
- ☕ Lundi 16 novembre 2026 à 10:00 Bruxelles - 1000 Organisé par Prote
- stBase
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:ecd35924b6cddcf4@neighbourhood-events
-DTSTAMP:20261116T132121Z
-DTSTART:20261116T100000Z
-SUMMARY:Claire Hilgers\, "Effeuillages"
-URL:https://anderlecht.be/fr/agenda/claire-hilgers-effeuillages
-DESCRIPTION:16 Claire Hilgers\, "Effeuillages"\nhttps://anderlecht.be/fr/
- agenda/claire-hilgers-effeuillages
-CATEGORIES:Anderlecht (commune agenda)\,Other
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT120M
-DESCRIPTION:Claire Hilgers\, "Effeuillages"
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:8786d037475dee16@neighbourhood-events
-DTSTAMP:20261116T132121Z
-DTSTART:20261116T170000Z
-SUMMARY:Ateliers-Chanson
-URL:https://anderlecht.be/fr/agenda/ateliers-chanson
-DESCRIPTION:16 Ateliers-Chanson\nhttps://anderlecht.be/fr/agenda/ateliers
- -chanson
-CATEGORIES:Anderlecht (commune agenda)\,Workshops & Creative\,Evening
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT120M
-DESCRIPTION:Ateliers-Chanson
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:ef73796341fd8826@neighbourhood-events
-DTSTAMP:20261116T132121Z
-DTSTART:20261116T180000Z
-SUMMARY:dans 5h Manifestation Weekly Protest Bourse Brussels Lundi 16 nov
- embre 2026 à 19:00 Bruxelles - 1000 Organisé par ProtestBase
-LOCATION:Bruxelles\, Bourse\, 1000 Brussels\, Bruxelles
-URL:https://protestbase.be/event/5ab33443-16ad-4b3d-b708-de5245105449
-DESCRIPTION:dans 5h Manifestation Weekly Protest Bourse Brussels Lundi 16
-  novembre 2026 à 19:00 Bruxelles - 1000 Organisé par ProtestBase\nhttp
- s://protestbase.be/event/5ab33443-16ad-4b3d-b708-de5245105449
-CATEGORIES:Protestbase Bruxelles\,Activism & Social Justice\,Evening
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT120M
-DESCRIPTION:dans 5h Manifestation Weekly Protest Bourse Brussels Lundi 16
-  novembre 2026 à 19:00 Bruxelles - 1000 Organisé par ProtestBase
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:327675893b485744@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261117
 SUMMARY:17h-19h paniers « bio » Ferme de Nadir
@@ -308,7 +77,7 @@ CATEGORIES:La Vieille Chéchette\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:1de059b4c9b13e72@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261117
 SUMMARY:A l'ombre\, mon frère I Marie Darah & Alexandra Castard Performa
  nce + rencontre I JNP mardi 17 nov.
@@ -320,7 +89,7 @@ CATEGORIES:Le Jacques Franck\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:48162ce421b51324@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261121
 SUMMARY:Hors les murs Saison 26-27 17 — 21 novembre 2026 JULIETTE ET RO
@@ -334,7 +103,7 @@ CATEGORIES:Le Poche\,Other\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:91beb3190a88e424@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261212
 SUMMARY:Nova '78 - Aaron Brookner & Rodrigo Areias
@@ -348,7 +117,7 @@ CATEGORIES:BOZAR\,Other\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:9e50311686375e43@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261117
 SUMMARY:17.11.26 PRÓXIMAMENTE 2026 Long Table @ Ruq'ah The Festival Acad
  emy
@@ -360,7 +129,7 @@ CATEGORIES:KVS\,Festivals & Celebrations
 END:VEVENT
 BEGIN:VEVENT
 UID:92506d8caea095eb@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261117
 SUMMARY:17.11.26 PRÓXIMAMENTE 2026 KINOLATINO short films screening KVS 
  Langue: FR PO MULTI ES FARSI Surtitrage: EN
@@ -372,7 +141,7 @@ CATEGORIES:KVS\,Film & Cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:457154c07f65c861@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261117
 SUMMARY:17.11.26 PRÓXIMAMENTE 2026 STATE OF THE ARTS KVS Langue: ES
 URL:https://www.kvs.be/fr/Evenement/state-of-the-arts-2
@@ -381,41 +150,8 @@ DESCRIPTION:17.11.26 PRÓXIMAMENTE 2026 STATE OF THE ARTS KVS Langue: ES
 CATEGORIES:KVS\,Other
 END:VEVENT
 BEGIN:VEVENT
-UID:ca2396490e99d778@neighbourhood-events
-DTSTAMP:20261116T132121Z
-DTSTART:20261117T173000Z
-SUMMARY:general mar 17 nov '26 AB Grande salle Eluveitie + Pain\, WOLFHEA
- RT Mélange explosif de métal et de musique celtique traditionnelle Con
- cert A
-URL:https://www.abconcerts.be/fr/agenda/eluveitie/a10Qw00000CUGYJIA5
-DESCRIPTION:general mar 17 nov '26 AB Grande salle Eluveitie + Pain\, WOL
- FHEART Mélange explosif de métal et de musique celtique traditionnelle
-  Concert Acheter\nhttps://www.abconcerts.be/fr/agenda/eluveitie/a10Qw000
- 00CUGYJIA5
-CATEGORIES:Ancienne Belgique\,Music\,Evening
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT120M
-DESCRIPTION:general mar 17 nov '26 AB Grande salle Eluveitie + Pain\, WOL
- FHEART Mélange explosif de métal et de musique celtique traditionnelle
-  Concert A
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:83696dc21a75f01c@neighbourhood-events
-DTSTAMP:20261116T132121Z
-DTSTART;VALUE=DATE:20261117
-SUMMARY:general mar 17 nov '26 AB Club Au Pairs + Mek'dr'dr Grand retour 
- d’un groupe culte légendaire Concert Acheter
-URL:https://www.abconcerts.be/fr/agenda/au-pairs/a10Qw00000J5WdpIAF
-DESCRIPTION:general mar 17 nov '26 AB Club Au Pairs + Mek'dr'dr Grand ret
- our d’un groupe culte légendaire Concert Acheter\nhttps://www.abconce
- rts.be/fr/agenda/au-pairs/a10Qw00000J5WdpIAF
-CATEGORIES:Ancienne Belgique\,Music
-END:VEVENT
-BEGIN:VEVENT
 UID:2a5f47ae5e97be85@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261128
 SUMMARY:Juliet & Romeo
@@ -430,46 +166,8 @@ CATEGORIES:Théâtre National Wallonie-Bruxelles\,Culture & Arts\,Live\,R
  ecurring
 END:VEVENT
 BEGIN:VEVENT
-UID:83cd6c5b71be2319@neighbourhood-events
-DTSTAMP:20261116T132121Z
-DTSTART;VALUE=DATE:20261117
-SUMMARY:Au Pairs 17 nov 2026 Concerts Pop / Rock / Pop-Rock Ancienne Belg
- ique (AB) Bruxelles - Bruxelles Au Pairs est un groupe post-punk fondé 
- en
-LOCATION:Ancienne Belgique\, 110 Boulevard Anspachlaan\, 1000 Bruxelles\,
-  Bruxelles\, Belgique\, 1000 Bruxelles\, Bruxelles\, Belgique\, Bruxelle
- s
-URL:https://www.out.be/fr/evenements/215728_au-pairs.html
-DESCRIPTION:Au Pairs 17 nov 2026 Concerts Pop / Rock / Pop-Rock Ancienne 
- Belgique (AB) Bruxelles - Bruxelles Au Pairs est un groupe post-punk fon
- dé en 1978\, qui est rapidement devenu un véritable groupe culte. Le l
- égendaire journaliste Lester Bangs a déclaré un jour : « Hier soir\,
-  j’ai vu Dieu sous les trait\nhttps://www.out.be/fr/evenements/215728_
- au-pairs.html
-CATEGORIES:Out.be\,Music
-END:VEVENT
-BEGIN:VEVENT
-UID:0b9951cc5d1dc729@neighbourhood-events
-DTSTAMP:20261116T132121Z
-DTSTART;VALUE=DATE:20261117
-SUMMARY:Eluveitie 17 nov 2026 Concerts Pop / Rock / Pop-Rock Ancienne Bel
- gique (AB) Bruxelles - Bruxelles Fondé en 2002 par Chrigel Glanzmann\, 
- Elu
-LOCATION:Ancienne Belgique\, 110 Boulevard Anspachlaan\, 1000 Bruxelles\,
-  Bruxelles\, Belgique\, 1000 Bruxelles\, Bruxelles\, Belgique\, Bruxelle
- s
-URL:https://www.out.be/fr/evenements/204953_eluveitie.html
-DESCRIPTION:Eluveitie 17 nov 2026 Concerts Pop / Rock / Pop-Rock Ancienne
-  Belgique (AB) Bruxelles - Bruxelles Fondé en 2002 par Chrigel Glanzman
- n\, Eluveitie puise ses racines au cœur des Alpes suisses et s’inspir
- e profondément de l’histoire\, de la mythologie et de la spiritualit
- é celtiques. Dès leur premier E\nhttps://www.out.be/fr/evenements/2049
- 53_eluveitie.html
-CATEGORIES:Out.be\,Music
-END:VEVENT
-BEGIN:VEVENT
 UID:b750e6b9534ea818@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261117
 SUMMARY:Au-delà de la crise : agir pour un avenir économique solidaire 
  et responsable
@@ -483,7 +181,7 @@ CATEGORIES:Financité\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:75a91d144569ba74@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261117
 SUMMARY:17 nov
 URL:https://www.cncd.be/Operation-11-11-11-Participez-au-3939
@@ -496,27 +194,27 @@ DESCRIPTION:17 nov Charleroi 17/11/2026 Opération 11.11.11. Participez a
 CATEGORIES:CNCD-11.11.11\,Other
 END:VEVENT
 BEGIN:VEVENT
-UID:9c7abecd52e501b1@neighbourhood-events
-DTSTAMP:20261116T132121Z
+UID:95fd3825299719e0@neighbourhood-events
+DTSTAMP:20261117T000320Z
 DTSTART:20261117T050000Z
-SUMMARY:dans 16h Manifestation Toustes avec la Jeunesse - ULB Mardi 17 no
- vembre 2026 à 06:00 Bruxelles - 1000 Organisé par ProtestBase
+SUMMARY:dans 5h Manifestation Toustes avec la Jeunesse - ULB Mardi 17 nov
+ embre 2026 à 06:00 Bruxelles - 1000 Organisé par ProtestBase
 LOCATION:Bruxelles\, Franklin Rooseveltlaan\, Bruxelles
 URL:https://protestbase.be/event/154cd45e-71ba-47b6-a222-909e833e3550
-DESCRIPTION:dans 16h Manifestation Toustes avec la Jeunesse - ULB Mardi 1
- 7 novembre 2026 à 06:00 Bruxelles - 1000 Organisé par ProtestBase\nhtt
- ps://protestbase.be/event/154cd45e-71ba-47b6-a222-909e833e3550
+DESCRIPTION:dans 5h Manifestation Toustes avec la Jeunesse - ULB Mardi 17
+  novembre 2026 à 06:00 Bruxelles - 1000 Organisé par ProtestBase\nhttp
+ s://protestbase.be/event/154cd45e-71ba-47b6-a222-909e833e3550
 CATEGORIES:Protestbase Bruxelles\,Activism & Social Justice
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT120M
-DESCRIPTION:dans 16h Manifestation Toustes avec la Jeunesse - ULB Mardi 1
- 7 novembre 2026 à 06:00 Bruxelles - 1000 Organisé par ProtestBase
+DESCRIPTION:dans 5h Manifestation Toustes avec la Jeunesse - ULB Mardi 17
+  novembre 2026 à 06:00 Bruxelles - 1000 Organisé par ProtestBase
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:4f730b7529f40fea@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261117T050000Z
 SUMMARY:Websession #6 : Communication et réseautage pour une campagne r
  éussie
@@ -535,8 +233,30 @@ DESCRIPTION:Websession #6 : Communication et réseautage pour une campagn
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:b8f218ae3f698d36@neighbourhood-events
+DTSTAMP:20261117T000320Z
+DTSTART:20261117T070000Z
+SUMMARY:dans 8h Manifestation 17 NOV - Manif nationale étudiante - Horai
+ re des trains Mardi 17 novembre 2026 à 09:00 Bruxelles - 1000 Organisé
+  par P
+LOCATION:Bruxelles\, Hortagalerij\, Bruxelles
+URL:https://protestbase.be/event/166d0462-40c0-43d2-8d7f-5fbf89ceb774
+DESCRIPTION:dans 8h Manifestation 17 NOV - Manif nationale étudiante - H
+ oraire des trains Mardi 17 novembre 2026 à 09:00 Bruxelles - 1000 Organ
+ isé par ProtestBase\nhttps://protestbase.be/event/166d0462-40c0-43d2-8d
+ 7f-5fbf89ceb774
+CATEGORIES:Protestbase Bruxelles\,Activism & Social Justice
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:dans 8h Manifestation 17 NOV - Manif nationale étudiante - H
+ oraire des trains Mardi 17 novembre 2026 à 09:00 Bruxelles - 1000 Organ
+ isé par P
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:49e5127fa1d85e13@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261117T080000Z
 DTEND:20261117T130000Z
 SUMMARY:Marché aux puces de la place du jeu de balle
@@ -560,30 +280,74 @@ DESCRIPTION:Marché aux puces de la place du jeu de balle
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:35c340c1d8da693f@neighbourhood-events
-DTSTAMP:20261116T132121Z
+UID:38fc93945aa78ec2@neighbourhood-events
+DTSTAMP:20261117T000320Z
 DTSTART:20261117T080000Z
-SUMMARY:dans 19h Soutien 💥 MOBILISATION FESTIVE CONTRE L'EXPULSION DE 
- L'OCCUPATION CLOVIS 💥 Mardi 17 novembre 2026 à 09:00 Bruxelles - 100
- 0 Organisé
+SUMMARY:dans 8h Soutien 💥 MOBILISATION FESTIVE CONTRE L'EXPULSION DE L
+ 'OCCUPATION CLOVIS 💥 Mardi 17 novembre 2026 à 09:00 Bruxelles - 1000
+  Organisé
 LOCATION:Bruxelles\, 31 Clovislaan\, Bruxelles
 URL:https://protestbase.be/event/d495c72c-9bdf-497c-8a06-c49ac40a96f9
-DESCRIPTION:dans 19h Soutien 💥 MOBILISATION FESTIVE CONTRE L'EXPULSION
-  DE L'OCCUPATION CLOVIS 💥 Mardi 17 novembre 2026 à 09:00 Bruxelles -
-  1000 Organisé par ProtestBase\nhttps://protestbase.be/event/d495c72c-9
- bdf-497c-8a06-c49ac40a96f9
+DESCRIPTION:dans 8h Soutien 💥 MOBILISATION FESTIVE CONTRE L'EXPULSION 
+ DE L'OCCUPATION CLOVIS 💥 Mardi 17 novembre 2026 à 09:00 Bruxelles - 
+ 1000 Organisé par ProtestBase\nhttps://protestbase.be/event/d495c72c-9b
+ df-497c-8a06-c49ac40a96f9
 CATEGORIES:Protestbase Bruxelles\,Activism & Social Justice
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT120M
-DESCRIPTION:dans 19h Soutien 💥 MOBILISATION FESTIVE CONTRE L'EXPULSION
-  DE L'OCCUPATION CLOVIS 💥 Mardi 17 novembre 2026 à 09:00 Bruxelles -
-  1000 Organisé
+DESCRIPTION:dans 8h Soutien 💥 MOBILISATION FESTIVE CONTRE L'EXPULSION 
+ DE L'OCCUPATION CLOVIS 💥 Mardi 17 novembre 2026 à 09:00 Bruxelles - 
+ 1000 Organisé
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:54d561a6eb1b3034@neighbourhood-events
+DTSTAMP:20261117T000320Z
+DTSTART:20261117T080000Z
+SUMMARY:dans 9h Manifestation 17 november - Youth Protest - Collective de
+ parture VUB Mardi 17 novembre 2026 à 10:00 Etterbeek - 1040 Organisé p
+ ar Pr
+LOCATION:Etterbeek\, Generaal Jacqueslaan\, Etterbeek
+URL:https://protestbase.be/event/d1cab1ba-ec17-4216-ac08-b05d63307e85
+DESCRIPTION:dans 9h Manifestation 17 november - Youth Protest - Collectiv
+ e departure VUB Mardi 17 novembre 2026 à 10:00 Etterbeek - 1040 Organis
+ é par ProtestBase\nhttps://protestbase.be/event/d1cab1ba-ec17-4216-ac08
+ -b05d63307e85
+CATEGORIES:Protestbase Bruxelles\,Activism & Social Justice
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:dans 9h Manifestation 17 november - Youth Protest - Collectiv
+ e departure VUB Mardi 17 novembre 2026 à 10:00 Etterbeek - 1040 Organis
+ é par Pr
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2e08d729ab458149@neighbourhood-events
+DTSTAMP:20261117T000320Z
+DTSTART:20261117T080000Z
+SUMMARY:dans 9h Manifestation 17 NOV - Manif nationale étudiante - La Ca
+ mbre 🔥👽 Mardi 17 novembre 2026 à 10:00 Bruxelles - 1000 Organisé
+  par Protest
+LOCATION:Bruxelles\, 21 Abdij ter Kameren\, Bruxelles
+URL:https://protestbase.be/event/fbe0532d-972e-4225-83b6-e7a814473f21
+DESCRIPTION:dans 9h Manifestation 17 NOV - Manif nationale étudiante - L
+ a Cambre 🔥👽 Mardi 17 novembre 2026 à 10:00 Bruxelles - 1000 Organ
+ isé par ProtestBase\nhttps://protestbase.be/event/fbe0532d-972e-4225-83
+ b6-e7a814473f21
+CATEGORIES:Protestbase Bruxelles\,Activism & Social Justice
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:dans 9h Manifestation 17 NOV - Manif nationale étudiante - L
+ a Cambre 🔥👽 Mardi 17 novembre 2026 à 10:00 Bruxelles - 1000 Organ
+ isé par Protest
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2c83f8889d0aa645@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261117T080000Z
 SUMMARY:Expo TW - Collectief 'le 180'
 URL:http://forest.brussels/fr/agenda/exposition/2026/expo-tw-collectief-l
@@ -599,40 +363,34 @@ DESCRIPTION:Expo TW - Collectief 'le 180'
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:9f4eb6d56e7ec7df@neighbourhood-events
-DTSTAMP:20261116T132121Z
+UID:4fefe6fed544a969@neighbourhood-events
+DTSTAMP:20261117T000320Z
 DTSTART:20261117T090000Z
-DTEND:20261117T110000Z
-SUMMARY:Balade sonore "de Midi à 14h"
-LOCATION:Mouvement PAC\, Rue Lambert Crickx 5\, Bruxelles\, 1070\, Belgiq
- ue
-URL:https://cbcs.be/event/balade-sonore-de-midi-a-14h/2026-11-17/
-DESCRIPTION:Venez suivre avec nous la balade sonore « de Midi à 14h » 
- dans laquelle l’équipe du Forum – CBCS a collaboré ! Dans ce parco
- urs\, on vous invite à traverser les lieux et les héritages du quartie
- r du Midi. De passages bloqués par les travaux à passages de mémoires
- \, de Midi à Stalingrad\, la vie du quartier défile le long de ses gra
- nds axes et des histoires de ses habitant∙e∙s. Leurs voix vous accom
- pagneront dans cette (re)découverte de ces territoires. Une balade sono
- re réalisée par les participant.e.s à la formation « Création de ba
- lades sonores »\, organisée par PAC Bruxelles et Urbanisa’son au \nh
- ttps://cbcs.be/event/balade-sonore-de-midi-a-14h/2026-11-17/
-CATEGORIES:CBCS (Brussels social sector agenda)\,Other
+SUMMARY:dans 10h Soutien Fil info / hotline 17 novembre - BXL Mardi 17 no
+ vembre 2026 à 11:00 Bruxelles - 1000 Organisé par ProtestBase
+LOCATION:Bruxelles\, Kantersteen\, Bruxelles
+URL:https://protestbase.be/event/d0a64410-a0c1-4da9-9cb3-aac4c971f515
+DESCRIPTION:dans 10h Soutien Fil info / hotline 17 novembre - BXL Mardi 1
+ 7 novembre 2026 à 11:00 Bruxelles - 1000 Organisé par ProtestBase\nhtt
+ ps://protestbase.be/event/d0a64410-a0c1-4da9-9cb3-aac4c971f515
+CATEGORIES:Protestbase Bruxelles\,Activism & Social Justice
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT120M
-DESCRIPTION:Balade sonore "de Midi à 14h"
+DESCRIPTION:dans 10h Soutien Fil info / hotline 17 novembre - BXL Mardi 1
+ 7 novembre 2026 à 11:00 Bruxelles - 1000 Organisé par ProtestBase
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:04ff80c13772e5d5@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261117T090000Z
 SUMMARY:Formation d’aide-ménagèr.e Titres services
-URL:https://anderlecht.be/fr/agenda/formation-d-aide-menagere-titres-serv
- ices-1
+URL:https://anderlecht.be/index.php/fr/agenda/formation-d-aide-menagere-t
+ itres-services-1
 DESCRIPTION:17 Formation d’aide-ménagèr.e Titres services\nhttps://an
- derlecht.be/fr/agenda/formation-d-aide-menagere-titres-services-1
+ derlecht.be/index.php/fr/agenda/formation-d-aide-menagere-titres-service
+ s-1
 CATEGORIES:Anderlecht (commune agenda)\,Other
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -641,15 +399,34 @@ DESCRIPTION:Formation d’aide-ménagèr.e Titres services
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:aa18a35760e272b0@neighbourhood-events
-DTSTAMP:20261116T132121Z
+UID:00b793084a725020@neighbourhood-events
+DTSTAMP:20261117T000320Z
 DTSTART:20261117T100000Z
-SUMMARY:dans 21h Manifestation Studentenbetoging voor democratisch en toe
+SUMMARY:dans 10h Manifestation MANIF ETUDIANTE - SAINT LUC Mardi 17 novem
+ bre 2026 à 11:00 Bruxelles - 1000 Organisé par ProtestBase
+LOCATION:Bruxelles\, Kunstberg\, Bruxelles
+URL:https://protestbase.be/event/c247e171-44e8-44e0-8813-be08cfec948b
+DESCRIPTION:dans 10h Manifestation MANIF ETUDIANTE - SAINT LUC Mardi 17 n
+ ovembre 2026 à 11:00 Bruxelles - 1000 Organisé par ProtestBase\nhttps:
+ //protestbase.be/event/c247e171-44e8-44e0-8813-be08cfec948b
+CATEGORIES:Protestbase Bruxelles\,Activism & Social Justice
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:dans 10h Manifestation MANIF ETUDIANTE - SAINT LUC Mardi 17 n
+ ovembre 2026 à 11:00 Bruxelles - 1000 Organisé par ProtestBase
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f42fb57663efd688@neighbourhood-events
+DTSTAMP:20261117T000320Z
+DTSTART:20261117T100000Z
+SUMMARY:dans 10h Manifestation Studentenbetoging voor democratisch en toe
  gankelijk onderwijs Mardi 17 novembre 2026 à 11:00 Bruxelles - 1000 Org
  anis
 LOCATION:Bruxelles\, Hortagalerij\, Bruxelles
 URL:https://protestbase.be/event/c15c8834-a1b1-412b-98b8-cba774c79754
-DESCRIPTION:dans 21h Manifestation Studentenbetoging voor democratisch en
+DESCRIPTION:dans 10h Manifestation Studentenbetoging voor democratisch en
   toegankelijk onderwijs Mardi 17 novembre 2026 à 11:00 Bruxelles - 1000
   Organisé par ProtestBase\nhttps://protestbase.be/event/c15c8834-a1b1-4
  12b-98b8-cba774c79754
@@ -657,33 +434,14 @@ CATEGORIES:Protestbase Bruxelles\,Activism & Social Justice
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT120M
-DESCRIPTION:dans 21h Manifestation Studentenbetoging voor democratisch en
+DESCRIPTION:dans 10h Manifestation Studentenbetoging voor democratisch en
   toegankelijk onderwijs Mardi 17 novembre 2026 à 11:00 Bruxelles - 1000
   Organis
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:24edb7ea06062975@neighbourhood-events
-DTSTAMP:20261116T132121Z
-DTSTART:20261117T100000Z
-SUMMARY:dans 21h Manifestation MANIF ETUDIANTE - SAINT LUC Mardi 17 novem
- bre 2026 à 11:00 Bruxelles - 1000 Organisé par ProtestBase
-LOCATION:Bruxelles\, Kunstberg\, Bruxelles
-URL:https://protestbase.be/event/c247e171-44e8-44e0-8813-be08cfec948b
-DESCRIPTION:dans 21h Manifestation MANIF ETUDIANTE - SAINT LUC Mardi 17 n
- ovembre 2026 à 11:00 Bruxelles - 1000 Organisé par ProtestBase\nhttps:
- //protestbase.be/event/c247e171-44e8-44e0-8813-be08cfec948b
-CATEGORIES:Protestbase Bruxelles\,Activism & Social Justice
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT120M
-DESCRIPTION:dans 21h Manifestation MANIF ETUDIANTE - SAINT LUC Mardi 17 n
- ovembre 2026 à 11:00 Bruxelles - 1000 Organisé par ProtestBase
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:cfd2cecd5c8d5d03@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261117T100000Z
 SUMMARY:Portia Zvavahera: Kuzviramba Mamuri
 URL:http://forest.brussels/fr/agenda/exposition/2026/portia-zvavahera-kuz
@@ -700,7 +458,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3b213534a8d3e222@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261117T100000Z
 SUMMARY:Ali Cherri: Pray\, Lips of Clay
 URL:http://forest.brussels/fr/agenda/exposition/2026/ali-cherri-pray-lips
@@ -717,13 +475,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c030437fbdbf5156@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261117T100000Z
 SUMMARY:Visite des Musées Maison d'Erasme & Béguinage
-URL:https://anderlecht.be/fr/agenda/visite-des-musees-maison-d-erasme-beg
- uinage
+URL:https://anderlecht.be/index.php/fr/agenda/visite-des-musees-maison-d-
+ erasme-beguinage
 DESCRIPTION:17 Visite des Musées Maison d'Erasme & Béguinage\nhttps://a
- nderlecht.be/fr/agenda/visite-des-musees-maison-d-erasme-beguinage
+ nderlecht.be/index.php/fr/agenda/visite-des-musees-maison-d-erasme-begui
+ nage
 CATEGORIES:Anderlecht (commune agenda)\,Other
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -733,12 +492,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c47d9c84b1942c12@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261117T100000Z
 SUMMARY:De kleine Rinck: Espace ouvert
-URL:https://anderlecht.be/fr/agenda/de-kleine-rinck-espace-ouvert
-DESCRIPTION:17 De kleine Rinck: Espace ouvert\nhttps://anderlecht.be/fr/a
- genda/de-kleine-rinck-espace-ouvert
+URL:https://anderlecht.be/index.php/fr/agenda/de-kleine-rinck-espace-ouve
+ rt
+DESCRIPTION:17 De kleine Rinck: Espace ouvert\nhttps://anderlecht.be/inde
+ x.php/fr/agenda/de-kleine-rinck-espace-ouvert
 CATEGORIES:Anderlecht (commune agenda)\,Other
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -748,14 +508,14 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f2c6d646cad68beb@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261117T100000Z
 SUMMARY:Go Away Sorrow of the World - Robbert&Frank Frank&Robbert
-URL:https://anderlecht.be/fr/agenda/go-away-sorrow-world-robbertfrank-fra
- nkrobbert
+URL:https://anderlecht.be/index.php/fr/agenda/go-away-sorrow-world-robber
+ tfrank-frankrobbert
 DESCRIPTION:17 Go Away Sorrow of the World - Robbert&Frank Frank&Robbert\
- nhttps://anderlecht.be/fr/agenda/go-away-sorrow-world-robbertfrank-frank
- robbert
+ nhttps://anderlecht.be/index.php/fr/agenda/go-away-sorrow-world-robbertf
+ rank-frankrobbert
 CATEGORIES:Anderlecht (commune agenda)\,Other
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -765,12 +525,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:73b4e3c9209faf07@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261117T100000Z
 SUMMARY:Claire Hilgers\, "Effeuillages"
-URL:https://anderlecht.be/fr/agenda/claire-hilgers-effeuillages
-DESCRIPTION:17 Claire Hilgers\, "Effeuillages"\nhttps://anderlecht.be/fr/
- agenda/claire-hilgers-effeuillages
+URL:https://anderlecht.be/index.php/fr/agenda/claire-hilgers-effeuillages
+DESCRIPTION:17 Claire Hilgers\, "Effeuillages"\nhttps://anderlecht.be/ind
+ ex.php/fr/agenda/claire-hilgers-effeuillages
 CATEGORIES:Anderlecht (commune agenda)\,Other
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -780,7 +540,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6e09da0785c34db4@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261117T153000Z
 DTEND:20261117T163000Z
 SUMMARY:Exposition « L’indispensable invisible. Paroles et images de b
@@ -799,7 +559,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f497a9e5abae8b65@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261117T170000Z
 DTEND:20261117T180000Z
 SUMMARY:Rally: Against colonialism\, fascism\, wars and genocide!
@@ -817,12 +577,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:38d11babaaa25b5d@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261117T160000Z
 SUMMARY:Circus voor kleuters
-URL:https://anderlecht.be/fr/agenda/circus-voor-kleuters
-DESCRIPTION:17 Circus voor kleuters\nhttps://anderlecht.be/fr/agenda/circ
- us-voor-kleuters
+URL:https://anderlecht.be/index.php/fr/agenda/circus-voor-kleuters
+DESCRIPTION:17 Circus voor kleuters\nhttps://anderlecht.be/index.php/fr/a
+ genda/circus-voor-kleuters
 CATEGORIES:Anderlecht (commune agenda)\,Culture & Arts\,Evening
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -832,7 +592,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:12acff9d98253017@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261117T180000Z
 DTEND:20261117T220000Z
 SUMMARY:Conversation Exchange - All languages are welcome
@@ -857,12 +617,12 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:79353aab8803a95a@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261117T170000Z
 SUMMARY:Ateliers-Chanson
-URL:https://anderlecht.be/fr/agenda/ateliers-chanson
-DESCRIPTION:17 Ateliers-Chanson\nhttps://anderlecht.be/fr/agenda/ateliers
- -chanson
+URL:https://anderlecht.be/index.php/fr/agenda/ateliers-chanson
+DESCRIPTION:17 Ateliers-Chanson\nhttps://anderlecht.be/index.php/fr/agend
+ a/ateliers-chanson
 CATEGORIES:Anderlecht (commune agenda)\,Workshops & Creative\,Evening
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -871,30 +631,8 @@ DESCRIPTION:Ateliers-Chanson
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:51abf7422fc1112c@neighbourhood-events
-DTSTAMP:20261116T132121Z
-DTSTART:20261117T180000Z
-SUMMARY:dans 19h Manifestation 17 NOV - Manif nationale étudiante - Hora
- ire des trains Mardi 17 novembre 2026 à 09:00 Bruxelles - 1000 Organis
- é par
-LOCATION:Bruxelles\, Hortagalerij\, Bruxelles
-URL:https://protestbase.be/event/166d0462-40c0-43d2-8d7f-5fbf89ceb774
-DESCRIPTION:dans 19h Manifestation 17 NOV - Manif nationale étudiante - 
- Horaire des trains Mardi 17 novembre 2026 à 09:00 Bruxelles - 1000 Orga
- nisé par ProtestBase\nhttps://protestbase.be/event/166d0462-40c0-43d2-8
- d7f-5fbf89ceb774
-CATEGORIES:Protestbase Bruxelles\,Activism & Social Justice\,Evening
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT120M
-DESCRIPTION:dans 19h Manifestation 17 NOV - Manif nationale étudiante - 
- Horaire des trains Mardi 17 novembre 2026 à 09:00 Bruxelles - 1000 Orga
- nisé par
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:03842dcebf40c2ce@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261117T180000Z
 DTEND:20261117T210000Z
 SUMMARY:TechTuesday 861
@@ -910,58 +648,14 @@ DESCRIPTION:TechTuesday 861
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:f016f0c2d535716b@neighbourhood-events
-DTSTAMP:20261116T132121Z
-DTSTART:20261117T190000Z
-SUMMARY:dans 20h Manifestation 17 november - Youth Protest - Collective d
- eparture VUB Mardi 17 novembre 2026 à 10:00 Etterbeek - 1040 Organisé 
- par P
-LOCATION:Etterbeek\, Generaal Jacqueslaan\, Etterbeek
-URL:https://protestbase.be/event/d1cab1ba-ec17-4216-ac08-b05d63307e85
-DESCRIPTION:dans 20h Manifestation 17 november - Youth Protest - Collecti
- ve departure VUB Mardi 17 novembre 2026 à 10:00 Etterbeek - 1040 Organi
- sé par ProtestBase\nhttps://protestbase.be/event/d1cab1ba-ec17-4216-ac0
- 8-b05d63307e85
-CATEGORIES:Protestbase Bruxelles\,Activism & Social Justice\,Evening
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT120M
-DESCRIPTION:dans 20h Manifestation 17 november - Youth Protest - Collecti
- ve departure VUB Mardi 17 novembre 2026 à 10:00 Etterbeek - 1040 Organi
- sé par P
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:faad007c68ab60f0@neighbourhood-events
-DTSTAMP:20261116T132121Z
-DTSTART:20261117T190000Z
-SUMMARY:dans 20h Manifestation 17 NOV - Manif nationale étudiante - La C
- ambre 🔥👽 Mardi 17 novembre 2026 à 10:00 Bruxelles - 1000 Organis
- é par Protes
-LOCATION:Bruxelles\, 21 Abdij ter Kameren\, Bruxelles
-URL:https://protestbase.be/event/fbe0532d-972e-4225-83b6-e7a814473f21
-DESCRIPTION:dans 20h Manifestation 17 NOV - Manif nationale étudiante - 
- La Cambre 🔥👽 Mardi 17 novembre 2026 à 10:00 Bruxelles - 1000 Orga
- nisé par ProtestBase\nhttps://protestbase.be/event/fbe0532d-972e-4225-8
- 3b6-e7a814473f21
-CATEGORIES:Protestbase Bruxelles\,Activism & Social Justice\,Evening
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT120M
-DESCRIPTION:dans 20h Manifestation 17 NOV - Manif nationale étudiante - 
- La Cambre 🔥👽 Mardi 17 novembre 2026 à 10:00 Bruxelles - 1000 Orga
- nisé par Protes
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:4da1a9f1f2a43f54@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261117T190000Z
 SUMMARY:Ateliers d'initiation à l'improvisation
-URL:https://anderlecht.be/fr/agenda/ateliers-d-initiation-a-l-improvisati
- on
+URL:https://anderlecht.be/index.php/fr/agenda/ateliers-d-initiation-a-l-i
+ mprovisation
 DESCRIPTION:17 Ateliers d'initiation à l'improvisation\nhttps://anderlec
- ht.be/fr/agenda/ateliers-d-initiation-a-l-improvisation
+ ht.be/index.php/fr/agenda/ateliers-d-initiation-a-l-improvisation
 CATEGORIES:Anderlecht (commune agenda)\,Workshops & Creative\,Evening
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -970,27 +664,23 @@ DESCRIPTION:Ateliers d'initiation à l'improvisation
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:df2d47285ec90bc9@neighbourhood-events
-DTSTAMP:20261116T132121Z
-DTSTART:20261117T200000Z
-SUMMARY:dans 21h Soutien Fil info / hotline 17 novembre - BXL Mardi 17 no
- vembre 2026 à 11:00 Bruxelles - 1000 Organisé par ProtestBase
-LOCATION:Bruxelles\, Kantersteen\, Bruxelles
-URL:https://protestbase.be/event/d0a64410-a0c1-4da9-9cb3-aac4c971f515
-DESCRIPTION:dans 21h Soutien Fil info / hotline 17 novembre - BXL Mardi 1
- 7 novembre 2026 à 11:00 Bruxelles - 1000 Organisé par ProtestBase\nhtt
- ps://protestbase.be/event/d0a64410-a0c1-4da9-9cb3-aac4c971f515
-CATEGORIES:Protestbase Bruxelles\,Activism & Social Justice\,Evening
+UID:6512e4884d9c4579@neighbourhood-events
+DTSTAMP:20261117T000320Z
+DTSTART:20261117T193000Z
+SUMMARY:Bab(b)elzang
+URL:https://anderlecht.be/index.php/fr/agenda/babbelzang
+DESCRIPTION:17 Bab(b)elzang\nhttps://anderlecht.be/index.php/fr/agenda/ba
+ bbelzang
+CATEGORIES:Anderlecht (commune agenda)\,Other\,Evening
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT120M
-DESCRIPTION:dans 21h Soutien Fil info / hotline 17 novembre - BXL Mardi 1
- 7 novembre 2026 à 11:00 Bruxelles - 1000 Organisé par ProtestBase
+DESCRIPTION:Bab(b)elzang
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bed09a388670afeb@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261118
 SUMMARY:18.11.26 PRÓXIMAMENTE 2026 CELEBRATING THE ENCOUNTER
 URL:https://www.kvs.be/fr/Evenement/celebrating-the-encounter-2
@@ -1001,19 +691,19 @@ CATEGORIES:KVS\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:3c7f71de4d2bdb2f@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261118
 SUMMARY:18.11.26 ― 19.11.26 PRÓXIMAMENTE 2026 Yo\, Chacarera (WIP) Ind
  ia Sánchez Ortiz
 URL:https://www.kvs.be/fr/Evenement/yo-chacarera-wip-2
 DESCRIPTION:18.11.26 ― 19.11.26 PRÓXIMAMENTE 2026 Yo\, Chacarera (WIP)
-  India Sánchez Ortiz dans Acheter des billets\nhttps://www.kvs.be/fr/Ev
- enement/yo-chacarera-wip-2
+  India Sánchez Ortiz dans Infos et billets\nhttps://www.kvs.be/fr/Evene
+ ment/yo-chacarera-wip-2
 CATEGORIES:KVS\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:564c7a7329e26af9@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261118
 SUMMARY:18.11.26 ― 20.11.26 PRÓXIMAMENTE 2026 CHOCLO\, CHOCLO\, POCHOC
  LO (WIP) Marta Salinas
@@ -1025,7 +715,7 @@ CATEGORIES:KVS\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:8154297550bb8b29@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261118
 SUMMARY:18.11.26 PRÓXIMAMENTE 2026 MINDBLOWERS @ PRÓXIMAMENTE KVS & VUB
   Language: EN ES Subtitles: EN • ES
@@ -1037,7 +727,7 @@ CATEGORIES:KVS\,Culture & Arts\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:22df5ae25bc6b9f8@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261118
 SUMMARY:18.11.26 ― 19.11.26 PRÓXIMAMENTE 2026 El rincón de los muerto
  s Sebastián Rubio & Yanira Dávila Language: ES Subtitles: EN
@@ -1050,7 +740,7 @@ CATEGORIES:KVS\,Culture & Arts\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:5af469ea963495a7@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261118T160000Z
 SUMMARY:lab mer 18 nov '26 AB Antenna NIGHTLAB Producing Workshop w/ Blck
   Mamba- beginner Série d'ateliers organisés avec Blck Mamba pour les p
@@ -1072,8 +762,26 @@ DESCRIPTION:lab mer 18 nov '26 AB Antenna NIGHTLAB Producing Workshop w/
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:440e8e9fd7700540@neighbourhood-events
+DTSTAMP:20261117T000320Z
+DTSTART:20261118T180000Z
+SUMMARY:general mer 18 nov '26 AB Grande salle Luther SUBLIME TOUR Concer
+ t Derniers tickets
+URL:https://www.abconcerts.be/fr/agenda/luther/a10Qw0000097A8jIAE
+DESCRIPTION:general mer 18 nov '26 AB Grande salle Luther SUBLIME TOUR Co
+ ncert Derniers tickets\nhttps://www.abconcerts.be/fr/agenda/luther/a10Qw
+ 0000097A8jIAE
+CATEGORIES:Ancienne Belgique\,Music\,Evening
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:general mer 18 nov '26 AB Grande salle Luther SUBLIME TOUR Co
+ ncert Derniers tickets
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:91311bac2cda65f4@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261118T180000Z
 SUMMARY:Écouter Pause general mer 18 nov '26 AB Club Pyo + Nemode Un ph
  énomène cyberpunk rétro et onirique célèbre son premier album Conce
@@ -1093,26 +801,8 @@ DESCRIPTION:Écouter Pause general mer 18 nov '26 AB Club Pyo + Nemode Un
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:440e8e9fd7700540@neighbourhood-events
-DTSTAMP:20261116T132121Z
-DTSTART:20261118T180000Z
-SUMMARY:general mer 18 nov '26 AB Grande salle Luther SUBLIME TOUR Concer
- t Derniers tickets
-URL:https://www.abconcerts.be/fr/agenda/luther/a10Qw0000097A8jIAE
-DESCRIPTION:general mer 18 nov '26 AB Grande salle Luther SUBLIME TOUR Co
- ncert Derniers tickets\nhttps://www.abconcerts.be/fr/agenda/luther/a10Qw
- 0000097A8jIAE
-CATEGORIES:Ancienne Belgique\,Music\,Evening
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT120M
-DESCRIPTION:general mer 18 nov '26 AB Grande salle Luther SUBLIME TOUR Co
- ncert Derniers tickets
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:0d689ed7a287edad@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261118
 SUMMARY:Maison Gertrude Art center in a care home Guided tours
 URL:https://www.theatrenational.be/en/activities/4299-maison-gertrude-o-g
@@ -1127,7 +817,7 @@ CATEGORIES:Théâtre National Wallonie-Bruxelles\,Culture & Arts
 END:VEVENT
 BEGIN:VEVENT
 UID:0213bfbfc5dd9962@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261118
 SUMMARY:Nov 18 Sold Out LEATHER NOTEBOOK COVER Ixelles \, Belgium Atelier
   ponctuel Event Sold Out Event Info
@@ -1140,7 +830,7 @@ CATEGORIES:Craft Studios\,Workshops & Creative
 END:VEVENT
 BEGIN:VEVENT
 UID:02e55fc1e155adc9@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261118
 SUMMARY:En parler aujourd'hui\, pour être plus serein demain
 URL:https://www.financite.be/activit%C3%A9/en-parler-aujourdhui-pour-etre
@@ -1152,7 +842,7 @@ CATEGORIES:Financité\,Workshops & Creative
 END:VEVENT
 BEGIN:VEVENT
 UID:a5914b2c3db573de@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261118
 SUMMARY:18 nov
 URL:https://www.cncd.be/formation-decouverte-mallette-pedagogique-systeme
@@ -1167,7 +857,7 @@ CATEGORIES:CNCD-11.11.11\,Environment
 END:VEVENT
 BEGIN:VEVENT
 UID:5a7fc84b3a890913@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261118T070000Z
 DTEND:20261231T160000Z
 SUMMARY:All Rise: van arrest naar actie
@@ -1194,7 +884,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a7cbdad0956e018d@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261118T080000Z
 DTEND:20261118T130000Z
 SUMMARY:Marché aux puces de la place du jeu de balle
@@ -1219,7 +909,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f718974e97996da7@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261118T080000Z
 SUMMARY:Tai Chi Ochtendcursus
 URL:http://forest.brussels/fr/agenda/tai-chi-ochtendcursus
@@ -1234,7 +924,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:7968e5c32bfbfb1a@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261118T090000Z
 SUMMARY:Echos d'Essences – concert olfactif
 LOCATION:Le Senghor
@@ -1249,8 +939,25 @@ DESCRIPTION:Echos d'Essences – concert olfactif
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:dc5fa7f37ebeb0b1@neighbourhood-events
+DTSTAMP:20261117T000320Z
+DTSTART:20261118T090000Z
+SUMMARY:Formation d’aide-ménagèr.e Titres services
+URL:https://anderlecht.be/index.php/fr/agenda/formation-d-aide-menagere-t
+ itres-services-1
+DESCRIPTION:18 Formation d’aide-ménagèr.e Titres services\nhttps://an
+ derlecht.be/index.php/fr/agenda/formation-d-aide-menagere-titres-service
+ s-1
+CATEGORIES:Anderlecht (commune agenda)\,Other
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Formation d’aide-ménagèr.e Titres services
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:62ef991e57a7addf@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261118T113000Z
 DTEND:20261118T123000Z
 SUMMARY:All Rise voor de klimaattop!
@@ -1277,7 +984,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3bd4e938cdcebc41@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261118T130000Z
 SUMMARY:Atelier participatif de taille des petits fruits
 URL:http://forest.brussels/fr/agenda/cours-stages-et-ateliers/2026/atelie
@@ -1295,7 +1002,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:843960d33fe8c408@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261118T130000Z
 DTEND:20261118T150000Z
 SUMMARY:Goûter poésie: Le pays des prénoms (Alphonse Eklou Uwantege)
@@ -1315,7 +1022,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:47869de0435b6e05@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261118T140000Z
 SUMMARY:dans 2 jours Action Zitting studietoelagendecreet Grondwettelijk 
  Hof 18/11‼️ Mercredi 18 novembre 2026 à 15:00 Bruxelles - 1000 Orga
@@ -1337,7 +1044,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:26211f5c080a9868@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261118T170000Z
 DTEND:20261118T180000Z
 SUMMARY:Arpentage : Le guide du richard - Voyage au coeur du capitalisme 
@@ -1356,7 +1063,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6eee9fa01ab04c29@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261118T160000Z
 SUMMARY:Carte vivante - Activité famille – Atelier pop-up
 URL:http://forest.brussels/fr/agenda/animations/2026/carte-vivante-activi
@@ -1373,7 +1080,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c2cae9fe44312996@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261118T160000Z
 DTEND:20261118T200000Z
 SUMMARY:J'peux pas j'ai gravure - engraving workshop at Mazette
@@ -1390,7 +1097,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bb856ea8f2be73b5@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261118T163000Z
 SUMMARY:Eruption
 URL:https://www.flagey.be/en/agenda/eruption-yh35
@@ -1407,7 +1114,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:718ebbbbf5f59154@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261118T180000Z
 DTEND:20261118T190000Z
 SUMMARY:Rally: Back to la Bourse for Palestine!
@@ -1425,7 +1132,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:eaa5948793dff183@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261118T173000Z
 DTEND:20261118T200000Z
 SUMMARY:SOS Civic Space: Vlaamse Jeugdraad x Forum des Jeunes
@@ -1451,7 +1158,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:480b2ca4110d7a34@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261118T180000Z
 SUMMARY:Wild Horse Nine
 URL:https://www.flagey.be/en/agenda/wild-horse-nine-8jg3
@@ -1469,7 +1176,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2cef720cac231912@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261118T180000Z
 SUMMARY:Boekenclub
 URL:http://forest.brussels/fr/agenda/boekenclub
@@ -1484,7 +1191,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:5c155e7d6c8379bb@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261118T183000Z
 DTEND:20261118T210000Z
 SUMMARY:Chants et huchements
@@ -1505,7 +1212,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b53699d2e78260e9@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261118T190000Z
 SUMMARY:wo 18.11.26 20:00 LOUNGE Marga Alfeirão
 URL:https://kaaitheater.be/nl/agenda/26-27/lounge
@@ -1520,7 +1227,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6c14b9b6ba61ce9f@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261118T201500Z
 SUMMARY:Donnie Darko
 LOCATION:Flagey\, Flagey
@@ -1538,7 +1245,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:24cbe45698e770c0@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261119
 SUMMARY:19h30 Jam Folk chantée
@@ -1557,7 +1264,7 @@ CATEGORIES:La Vieille Chéchette\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:cfc2774c91a5c6cf@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261119
 SUMMARY:Gratis Slameke Externe organisator: Slameke asbl do 19.11.2026 GC
   Pianofabriek\, Sint-Gillis Thema activiteit Poëzie 18 - 99 jaar
@@ -1569,7 +1276,7 @@ CATEGORIES:GC Pianofabriek\,Other\,Free
 END:VEVENT
 BEGIN:VEVENT
 UID:72fa39bddd2c265f@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261118T230000Z
 SUMMARY:Voisin Voix Zing w/ WijkAntenne de Quartier WAQ 19.11 .26
 URL:https://recyclart.be/fr/agenda/voisin-voix-zing
@@ -1583,8 +1290,18 @@ DESCRIPTION:Voisin Voix Zing w/ WijkAntenne de Quartier WAQ 19.11 .26
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:7daa3f952b1ed1e1@neighbourhood-events
+DTSTAMP:20261117T000320Z
+DTSTART;VALUE=DATE:20261119
+SUMMARY:Santé condamnée DOC + Talk I JNP jeudi 19 nov.
+URL:https://lejacquesfranck.be/event/sante-condamnee/2026-11-19/
+DESCRIPTION:Santé condamnée DOC + Talk I JNP jeudi 19 nov. Réserver\nh
+ ttps://lejacquesfranck.be/event/sante-condamnee/2026-11-19/
+CATEGORIES:Le Jacques Franck\,Other
+END:VEVENT
+BEGIN:VEVENT
 UID:d783ef996522ad27@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261119
 SUMMARY:19.11.26 PRÓXIMAMENTE 2026 El Espacio de Aca (Proyecto Azul) And
  rea Giadash
@@ -1596,7 +1313,7 @@ CATEGORIES:KVS\,Culture & Arts\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:26df30e9eec9d156@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261119
 SUMMARY:19.11.26 ― 20.11.26 PRÓXIMAMENTE 2026 The Origin of the Future
   (WIP) Aline Olmos Steler Langue: EN
@@ -1608,7 +1325,7 @@ CATEGORIES:KVS\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:cce33487c71a9b36@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261119
 SUMMARY:19.11.26 PRÓXIMAMENTE 2026 La Rinoceronte Olivia Manrufo Hernán
  dez
@@ -1618,23 +1335,26 @@ DESCRIPTION:19.11.26 PRÓXIMAMENTE 2026 La Rinoceronte Olivia Manrufo Her
 CATEGORIES:KVS\,Culture & Arts\,Live\,Registration Required
 END:VEVENT
 BEGIN:VEVENT
-UID:3fcae44814743d8f@neighbourhood-events
-DTSTAMP:20261116T132121Z
+UID:e3bccc3727d356b4@neighbourhood-events
+DTSTAMP:20261117T000320Z
 DTSTART:20261119T180000Z
-SUMMARY:general jeu 19 nov '26 Rounhaa SUBLIME TOUR Concert Acheter
+SUMMARY:general jeu 19 nov '26 AB Grande salle Rounhaa SUBLIME TOUR Conce
+ rt Acheter
 URL:https://www.abconcerts.be/fr/agenda/rounhaa/a10Qw0000097A8kIAE
-DESCRIPTION:general jeu 19 nov '26 Rounhaa SUBLIME TOUR Concert Acheter\n
- https://www.abconcerts.be/fr/agenda/rounhaa/a10Qw0000097A8kIAE
+DESCRIPTION:general jeu 19 nov '26 AB Grande salle Rounhaa SUBLIME TOUR C
+ oncert Acheter\nhttps://www.abconcerts.be/fr/agenda/rounhaa/a10Qw0000097
+ A8kIAE
 CATEGORIES:Ancienne Belgique\,Music\,Evening
 BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT120M
-DESCRIPTION:general jeu 19 nov '26 Rounhaa SUBLIME TOUR Concert Acheter
+DESCRIPTION:general jeu 19 nov '26 AB Grande salle Rounhaa SUBLIME TOUR C
+ oncert Acheter
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:07ec9358526aa320@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261119T183000Z
 SUMMARY:general jeu 19 nov '26 AB Salon A beginner's guide to Miles Davis
   door Guy Peters Une présentation passionnante sur le plus grand artist
@@ -1657,7 +1377,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:50564071a7c0c692@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261119
 SUMMARY:Ric Diez is Happy/Sad
 LOCATION:Brussels
@@ -1669,7 +1389,7 @@ CATEGORIES:English Comedy Brussels\,Music\,Live
 END:VEVENT
 BEGIN:VEVENT
 UID:3d779a20d08ee591@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261119T193000Z
 SUMMARY:Le Labo de l'Atout
 LOCATION:Studio Varia\, 154\, rue Gray\, Bruxelles
@@ -1688,27 +1408,43 @@ DESCRIPTION:Le Labo de l'Atout
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:4bb28900b5532b26@neighbourhood-events
-DTSTAMP:20261116T132121Z
+UID:d4f2fa0780e015e0@neighbourhood-events
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261119
-SUMMARY:Saint Abdullah\, Eomac & Rebecca Salvadori - NVST & Mika Oki 19 n
- ov 2026 Concerts Electronique Palais des Beaux-Arts de Bruxelles - Bozar
-  Bru
-LOCATION:Palais des Beaux-Arts de Bruxelles - Bozar\, Rue Ravenstein 23\,
-  1000 Bruxelles\, Belgique\, Bruxelles
-URL:https://www.out.be/fr/evenements/220215_saint-abdullah-eomac-rebecca-
- salvadori-nvst-mika-oki.html
-DESCRIPTION:Saint Abdullah\, Eomac & Rebecca Salvadori - NVST & Mika Oki 
- 19 nov 2026 Concerts Electronique Palais des Beaux-Arts de Bruxelles - B
- ozar Bruxelles - Bruxelles NVST & Mika Oki La DJ et productrice suisse N
- VST a débuté sa carrière dans les raves illégales de Lausanne\, où 
- elle a vécu des expériences\nhttps://www.out.be/fr/evenements/220215_s
- aint-abdullah-eomac-rebecca-salvadori-nvst-mika-oki.html
+SUMMARY:Dans le bruit du monde 19 nov 2026 Concerts Pop / Rock / Pop-Rock
+  Le Marni Ixelles - Bruxelles « Maman\, regarde\, j'suis l'étoile qui 
+ va br
+LOCATION:Théâtre Marni\, 25 Rue de Vergnies\, 1050 Ixelles\, Bruxelles\
+ , Belgique\, Ixelles
+URL:https://www.out.be/fr/evenements/210191_dans-le-bruit-du-monde.html
+DESCRIPTION:Dans le bruit du monde 19 nov 2026 Concerts Pop / Rock / Pop-
+ Rock Le Marni Ixelles - Bruxelles « Maman\, regarde\, j'suis l'étoile 
+ qui va brillerMaman\, r'garde\, j'suis l'étoile qui file ici »Né dans
+  un monde où l'ambition ne suffit pas\, où « chacun fait ses affaires
+ \, calé sur ses appuis »\, un jeu\nhttps://www.out.be/fr/evenements/21
+ 0191_dans-le-bruit-du-monde.html
+CATEGORIES:Out.be\,Music
+END:VEVENT
+BEGIN:VEVENT
+UID:24b282c47c8468a4@neighbourhood-events
+DTSTAMP:20261117T000320Z
+DTSTART;VALUE=DATE:20261119
+SUMMARY:SML 19 nov 2026 Concerts Jazz Flagey Ixelles - Bruxelles Ce colle
+ ctif de cinq musiciens issus de la scène jazz effervescente de Los Ange
+ le
+LOCATION:Flagey\, Place Flagey Flageyplein\, 1050 Ixelles\, Bruxelles\, B
+ elgique\, Ixelles
+URL:https://www.out.be/fr/evenements/212911_sml.html
+DESCRIPTION:SML 19 nov 2026 Concerts Jazz Flagey Ixelles - Bruxelles Ce c
+ ollectif de cinq musiciens issus de la scène jazz effervescente de Los 
+ Angeles fait fusionner jazz live\, électronique et sampling. Une expér
+ ience scénique immersive portée par le rythme et le groo\nhttps://www.
+ out.be/fr/evenements/212911_sml.html
 CATEGORIES:Out.be\,Music
 END:VEVENT
 BEGIN:VEVENT
 UID:81e32fcf478925ea@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261119
 SUMMARY:Nov 19 Sold Out EMBROIDERY CHRISTMAS ORNAMENTS Ixelles \, Belgium
   Atelier ponctuel Sold Out Event Info
@@ -1721,7 +1457,7 @@ CATEGORIES:Craft Studios\,Workshops & Creative
 END:VEVENT
 BEGIN:VEVENT
 UID:4695f163da92b400@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261119
 SUMMARY:Nov 19 LIFE DRAWING NIGHT Ixelles \, Belgium Cours régulier Even
  t Get Tickets
@@ -1733,7 +1469,7 @@ CATEGORIES:Craft Studios\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:76d6fb52834776a7@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261119
 SUMMARY:19 nov
 URL:https://www.cncd.be/Operation-11-11-11-Participez-au-3938
@@ -1747,7 +1483,7 @@ CATEGORIES:CNCD-11.11.11\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:6bd4c0a6ea285550@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261119T080000Z
 DTEND:20261119T130000Z
 SUMMARY:Marché aux puces de la place du jeu de balle
@@ -1772,7 +1508,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d81fa6af733be619@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261119T110000Z
 DTEND:20261119T130000Z
 SUMMARY:Tapis rouge pour le secteur associatif !
@@ -1798,7 +1534,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2352787f51545240@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261119T110000Z
 SUMMARY:Jeudi 19 novembre de 12h00 à 14h00 Action « Tapis Rouge »
 URL:https://gresea.be/Action-Tapis-Rouge
@@ -1813,7 +1549,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9356c524dbb6ad44@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261119T120000Z
 SUMMARY:Lost and Found. La photographie japonaise
 URL:http://forest.brussels/fr/agenda/exposition/2026/lost-and-found-la-ph
@@ -1830,7 +1566,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:eaaba5a6fc774b08@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261119T160000Z
 SUMMARY:Coward
 LOCATION:Flagey\, Flagey
@@ -1850,7 +1586,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ee172e9d697e50b1@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261119T170000Z
 DTEND:20261119T190000Z
 SUMMARY:Balade sonore "de Midi à 14h"
@@ -1876,7 +1612,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:5419bcef66fe7dd7@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261119T170000Z
 SUMMARY:Tai chi avondcursus 1
 URL:http://forest.brussels/fr/agenda/tai-chi-avondcursus-1
@@ -1891,7 +1627,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:5cb4353a76b74e73@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261119T173000Z
 SUMMARY:dans 3 jours Apprendre On ne fera pas leurs guerres Jeudi 19 nove
  mbre 2026 à 18:30 Bruxelles - 1000 Organisé par ProtestBase
@@ -1910,7 +1646,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3171d42d8710aa84@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261119T181500Z
 SUMMARY:Love spells and all that
 LOCATION:Flagey\, Flagey
@@ -1928,7 +1664,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b77562ec3f66fcc5@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261119T183000Z
 SUMMARY:Hobby Club Vorst
 URL:http://forest.brussels/fr/agenda/hobby-club-vorst
@@ -1943,7 +1679,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e4eff135224b206b@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261119T183000Z
 SUMMARY:Tai chi avondcursus 2
 URL:http://forest.brussels/fr/agenda/tai-chi-avondcursus-2
@@ -1958,7 +1694,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cb205f9441256750@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261119T183000Z
 SUMMARY:Yoga en meditatie
 URL:http://forest.brussels/fr/agenda/yoga-en-meditatie
@@ -1973,7 +1709,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:046f585f9eec16ce@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261119T190000Z
 SUMMARY:do 19.11.26 20:00 Rectum Crocodile Marvin M'toumo
 URL:https://kaaitheater.be/nl/agenda/26-27/rectum-crocodile
@@ -1989,7 +1725,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6595b10bbbcaf796@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261119T201500Z
 SUMMARY:Heysel 85
 LOCATION:Flagey\, Flagey
@@ -2007,7 +1743,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:76403e59c47e3d6a@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261120
 SUMMARY:20 novembre 2026
 URL:https://www.tricoterie.be/fr/agenda/l-agenda-culturel/?lang=fr&archiv
@@ -2018,7 +1754,7 @@ CATEGORIES:La Tricoterie\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:8b6db894e707eaff@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261120
 SUMMARY:Fuse presents Life Extension w/ Partiboi69\, LB aka LABAT & SALOM
  E
@@ -2031,7 +1767,7 @@ CATEGORIES:Fuse\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:d7d02b9ad343cd83@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Cabaret Marcelle - Le Dîner
@@ -2042,7 +1778,7 @@ CATEGORIES:U-Square\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:6db891c0a287b7b0@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261120
 SUMMARY:20.11.26 PRÓXIMAMENTE 2026 WIP SOBRAN by Julia Färber Data & TA
  LK by Sharon Mercado Nogales @ULTIMA VEZ (KVS x WIPCOOP x Ultima Vez) KV
@@ -2058,7 +1794,7 @@ CATEGORIES:KVS\,Culture & Arts\,Live\,Registration Required
 END:VEVENT
 BEGIN:VEVENT
 UID:f8a63286bb087c07@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261120
 SUMMARY:20.11.26 PRÓXIMAMENTE 2026 RUDERAL (WIP) Marcos Arriola Langue: 
  ES Surtitrage: EN
@@ -2070,7 +1806,7 @@ CATEGORIES:KVS\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:dbc9a6a5b7ce3ea0@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261120
 SUMMARY:20.11.26 PRÓXIMAMENTE 2026 Ojo Salvaje (WIP) Sebastián Escalona
 URL:https://www.kvs.be/fr/Evenement/ojo-salvaje-wip-2
@@ -2081,7 +1817,7 @@ CATEGORIES:KVS\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:5b454339a4648e40@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261120
 SUMMARY:20.11.26 PRÓXIMAMENTE 2026 KARAOKE NIGHT
 URL:https://www.kvs.be/fr/Evenement/karaoke-night-1
@@ -2091,7 +1827,7 @@ CATEGORIES:KVS\,Music\,Free
 END:VEVENT
 BEGIN:VEVENT
 UID:7e87c0543a4e7c64@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261120T163000Z
 SUMMARY:abatnight ven 20 nov '26 AB Salon Afroplug Connect + +TTFB\, ATL 
  BRUSSELS\, Sound’n Souls Lors de l'Afroplug Connect\, nous célébrero
@@ -2114,24 +1850,68 @@ DESCRIPTION:abatnight ven 20 nov '26 AB Salon Afroplug Connect + +TTFB\,
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:de310d916d11b590@neighbourhood-events
-DTSTAMP:20261116T132121Z
+UID:7b2ebc5430872947@neighbourhood-events
+DTSTAMP:20261117T000320Z
+DTSTART:20261120T180000Z
+SUMMARY:general ven 20 nov '26 AB Grande salle Jessie Ware + Tsatsamis Th
+ e Superbloom Tour 2026 Concert Complet
+URL:https://www.abconcerts.be/fr/agenda/jessie-ware/a10Qw00000BJ9m3IAD
+DESCRIPTION:general ven 20 nov '26 AB Grande salle Jessie Ware + Tsatsami
+ s The Superbloom Tour 2026 Concert Complet\nhttps://www.abconcerts.be/fr
+ /agenda/jessie-ware/a10Qw00000BJ9m3IAD
+CATEGORIES:Ancienne Belgique\,Music\,Evening
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:general ven 20 nov '26 AB Grande salle Jessie Ware + Tsatsami
+ s The Superbloom Tour 2026 Concert Complet
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:505fa32915b7eb48@neighbourhood-events
+DTSTAMP:20261117T000320Z
+DTSTART:20261120T210000Z
+SUMMARY:abatnight ven 20 nov '26 AB Club Afroplug Night Anniversary + Bro
+ wnsugvr Afroplug fête ses 5 ans et fait résonner dans notre club les s
+ ons d
+URL:https://www.abconcerts.be/fr/agenda/afroplug-night-anniversary/a10Qw0
+ 0000BclikIAB
+DESCRIPTION:abatnight ven 20 nov '26 AB Club Afroplug Night Anniversary +
+  Brownsugvr Afroplug fête ses 5 ans et fait résonner dans notre club l
+ es sons des diasporas afro\, caribéenne et latino-américaine ! Party A
+ cheter\nhttps://www.abconcerts.be/fr/agenda/afroplug-night-anniversary/a
+ 10Qw00000BclikIAB
+CATEGORIES:Ancienne Belgique\,Other\,Late Night
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:abatnight ven 20 nov '26 AB Club Afroplug Night Anniversary +
+  Brownsugvr Afroplug fête ses 5 ans et fait résonner dans notre club l
+ es sons d
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:65b37731f3291d79@neighbourhood-events
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261120
-SUMMARY:Limit to your care 20 nov 28 nov Théatre / Spectacles Atelier 21
- 0 Etterbeek - Bruxelles Limit to your care met en scène une Love doll\,
-  une
-URL:https://www.out.be/fr/evenements/211624_limit-to-your-care.html
-DESCRIPTION:Limit to your care 20 nov 28 nov Théatre / Spectacles Atelie
- r 210 Etterbeek - Bruxelles Limit to your care met en scène une Love do
- ll\, une poupée-femme à taille humaine. Cette création explore notre 
- rapport à ces poupées réalistes en questionnant notre lien aux autres
-  et nos modes d'atta\nhttps://www.out.be/fr/evenements/211624_limit-to-y
- our-care.html
-CATEGORIES:Out.be\,Culture & Arts
+SUMMARY:Jessie Ware 20 nov 2026 Concerts Pop / Rock / Pop-Rock Ancienne B
+ elgique (AB) Bruxelles - Bruxelles Jessie Ware fait son grand retour cet
+ t
+LOCATION:Ancienne Belgique\, 110 Boulevard Anspachlaan\, 1000 Bruxelles\,
+  Bruxelles\, Belgique\, 1000 Bruxelles\, Bruxelles\, Belgique\, Bruxelle
+ s
+URL:https://www.out.be/fr/evenements/208070_jessie-ware.html
+DESCRIPTION:Jessie Ware 20 nov 2026 Concerts Pop / Rock / Pop-Rock Ancien
+ ne Belgique (AB) Bruxelles - Bruxelles Jessie Ware fait son grand retour
+  cette année avec un nouvel album et une tournée internationale tous d
+ eux intitulés ‘Superbloom’. La diva disco viendra à Bruxelles avec
+  ses nouvelles chansons sans\nhttps://www.out.be/fr/evenements/208070_je
+ ssie-ware.html
+CATEGORIES:Out.be\,Music
 END:VEVENT
 BEGIN:VEVENT
 UID:bd0eb18bcf2c8183@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261120
 SUMMARY:Nov 20 LINOCUT - POSTCARD Ixelles \, Belgium Cours régulier Get 
  Tickets
@@ -2143,7 +1923,7 @@ CATEGORIES:Craft Studios\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:c784ba8cd6ac03e2@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261120
 SUMMARY:Nov 20 CALLIGRAPHY Ixelles \, Belgium Atelier ponctuel Get Ticket
  s
@@ -2154,7 +1934,7 @@ CATEGORIES:Craft Studios\,Workshops & Creative
 END:VEVENT
 BEGIN:VEVENT
 UID:4c62301713c5aaee@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261120T073000Z
 DTEND:20261120T123000Z
 SUMMARY:From Hospital to Living Space - Reflective Morning on the Healthc
@@ -2176,7 +1956,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:575392d5cd7dc2c3@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261120T073000Z
 DTEND:20261120T160000Z
 SUMMARY:Colloque travail et commerce du sexe au prisme des réformes
@@ -2204,7 +1984,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:5c321ff678f1524e@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261120T080000Z
 DTEND:20261120T130000Z
 SUMMARY:Marché aux puces de la place du jeu de balle
@@ -2229,7 +2009,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f7617cf08e84d7a9@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261120T083000Z
 DTEND:20261120T170000Z
 SUMMARY:Réinventer la démocratie : savoirs et expériences
@@ -2257,7 +2037,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:1ddd7cefbc6f5f6f@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261120T083000Z
 SUMMARY:Pilates 2
 URL:http://forest.brussels/fr/agenda/pilates-2
@@ -2272,7 +2052,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f49e7273554b8ef3@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261120T083000Z
 DTEND:20261120T170000Z
 SUMMARY:Open Coworking Day: Join and Cowork on Your Projects
@@ -2289,7 +2069,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:216512bdaa7a1a5f@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261120T093000Z
 SUMMARY:Pilates 3
 URL:http://forest.brussels/fr/agenda/pilates-3
@@ -2304,7 +2084,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:8212ae4b44dd2e9c@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261120T100000Z
 SUMMARY:Première Matières - Vernissage / WENC
 URL:http://forest.brussels/fr/agenda/exposition/2026/premiere-matieres-ve
@@ -2321,7 +2101,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:689905a3d8a5b102@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261120T103000Z
 SUMMARY:Yoga
 URL:http://forest.brussels/fr/agenda/yoga
@@ -2336,7 +2116,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6c6b1278b4caa0f2@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261120T110000Z
 DTEND:20261120T120000Z
 SUMMARY:Appel à résidences 2027
@@ -2358,7 +2138,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:29da31ac7c7c9479@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261120T123000Z
 SUMMARY:The Umbrellas of Cherbourg
 LOCATION:Flagey\, Flagey
@@ -2376,8 +2156,49 @@ DESCRIPTION:The Umbrellas of Cherbourg
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:a5944706ba34aa81@neighbourhood-events
+DTSTAMP:20261117T000320Z
+DTSTART:20261120T153000Z
+SUMMARY:Minotaur
+LOCATION:Flagey\, Flagey
+URL:https://www.flagey.be/en/agenda/minotaur-trs4
+DESCRIPTION:Minotaur Fri 20 Nov - Sat 28 Nov Studio 5 cinema € 7\,00–
+ € 10\,50 dates dates Fri 20 Nov 16:30 tickets Sat 21 Nov 18:30 tickets
+  Wed 25 Nov 16:30 tickets Sat 28 Nov 21:10 tickets Wed 11 Nov 21:10 Past
+  event Fri 13 Nov 16:15 Past event Sun 15 Nov 15:45 Past event\nhttps://
+ www.flagey.be/en/agenda/minotaur-trs4
+CATEGORIES:Flagey\,Film & Cinema
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Minotaur
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e877f73158fc7546@neighbourhood-events
+DTSTAMP:20261117T000320Z
+DTSTART:20261120T153000Z
+SUMMARY:dans 4 jours Manifestation ✊ Fight for our future\, not their w
+ ars ! Vendredi 20 novembre 2026 à 16:30 Bruxelles - 1000 Organisé par 
+ ProtestB
+LOCATION:Bruxelles\, The Mint\, Bruxelles
+URL:https://protestbase.be/event/88872b9b-cabe-413e-9981-d02ac62f448c
+DESCRIPTION:dans 4 jours Manifestation ✊ Fight for our future\, not the
+ ir wars ! Vendredi 20 novembre 2026 à 16:30 Bruxelles - 1000 Organisé 
+ par ProtestBase\nhttps://protestbase.be/event/88872b9b-cabe-413e-9981-d0
+ 2ac62f448c
+CATEGORIES:Protestbase Bruxelles\,Activism & Social Justice
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:dans 4 jours Manifestation ✊ Fight for our future\, not the
+ ir wars ! Vendredi 20 novembre 2026 à 16:30 Bruxelles - 1000 Organisé 
+ par ProtestB
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:2d3ee240df53ce86@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261120T173000Z
 DTEND:20261120T213000Z
 SUMMARY:🌟EuroMeet: Connecting with International Friends in Brussels E
@@ -2404,8 +2225,30 @@ DESCRIPTION:🌟EuroMeet: Connecting with International Friends in Brusse
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:e92914bff4d14036@neighbourhood-events
+DTSTAMP:20261117T000320Z
+DTSTART:20261120T163000Z
+SUMMARY:dans 4 jours Apprendre Trans Day Of Rememberance - Antifa Cambre 
+ Vendredi 20 novembre 2026 à 17:30 Bruxelles - 1000 Organisé par Protes
+ tBase
+LOCATION:Bruxelles\, 21 Abdij ter Kameren\, Bruxelles
+URL:https://protestbase.be/event/78a156b0-b804-465f-8b5e-a321fe1a24d5
+DESCRIPTION:dans 4 jours Apprendre Trans Day Of Rememberance - Antifa Cam
+ bre Vendredi 20 novembre 2026 à 17:30 Bruxelles - 1000 Organisé par Pr
+ otestBase\nhttps://protestbase.be/event/78a156b0-b804-465f-8b5e-a321fe1a
+ 24d5
+CATEGORIES:Protestbase Bruxelles\,Activism & Social Justice\,Evening
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:dans 4 jours Apprendre Trans Day Of Rememberance - Antifa Cam
+ bre Vendredi 20 novembre 2026 à 17:30 Bruxelles - 1000 Organisé par Pr
+ otestBase
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:1b2f514d04b79141@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261120T170000Z
 DTEND:20261120T180000Z
 SUMMARY:Tout là-bas la lumière - carte blanche Boykid
@@ -2424,7 +2267,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:5581eef0bea02cd2@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261120T180000Z
 SUMMARY:Paper Tiger
 LOCATION:Flagey\, Flagey
@@ -2443,7 +2286,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9ec69e13188c2d32@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261120T183000Z
 SUMMARY:Implant • Llumen
 URL:http://forest.brussels/fr/agenda/concert/2026/implant-llumen
@@ -2458,7 +2301,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:de00db8fe8e8db45@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261120T190000Z
 SUMMARY:DUSTY HUSKY & DJ BUNTA + NASTY NAG
 LOCATION:Sounds Brussels
@@ -2475,7 +2318,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:89e54b5ac191b589@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261120T190000Z
 DTEND:20261120T210000Z
 SUMMARY:Prophetic Dance on the Strange Island
@@ -2496,13 +2339,13 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:af1bb3bd8966d416@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261120T190000Z
 SUMMARY:vr 20.11.26 20:00 Rectum Crocodile Marvin M'toumo
 URL:https://kaaitheater.be/nl/agenda/26-27/rectum-crocodile
 DESCRIPTION:vr 20.11.26 20:00 Rectum Crocodile Marvin M'toumo performance
-  Théâtre Varia\nhttps://kaaitheater.be/nl/agenda/26-27/rectum-crocodil
- e
+  Théâtre Varia Tickets\nhttps://kaaitheater.be/nl/agenda/26-27/rectum-
+ crocodile
 CATEGORIES:Kaaitheater\,Culture & Arts\,Evening
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -2512,7 +2355,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:62e4285d860a8b5d@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261120T190000Z
 SUMMARY:Rêver le Nord | ARS MUSICA
 URL:http://forest.brussels/fr/agenda/concert/2026/rever-le-nord-ars-music
@@ -2528,7 +2371,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2ce343788b890cdf@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261121
 SUMMARY:21 novembre 2026
 URL:https://www.tricoterie.be/fr/agenda/l-agenda-culturel/?lang=fr&archiv
@@ -2539,7 +2382,7 @@ CATEGORIES:La Tricoterie\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:ffb2c693c4488079@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261121
 SUMMARY:Listen Festival x Fuse w/ MCR-T & Miss Bashful
 URL:https://www.fuse.be/events/listen-festival-x-fuse-w-mcr-t-miss-bashfu
@@ -2552,7 +2395,7 @@ CATEGORIES:Fuse\,Festivals & Celebrations
 END:VEVENT
 BEGIN:VEVENT
 UID:6a93fa44d5623185@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261121
 SUMMARY:Second Hand English Book Sale
 URL:https://usquare.brussels/en/agenda/2026/10/second-hand-english-book-s
@@ -2563,7 +2406,7 @@ CATEGORIES:U-Square\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:f3739f0985fe8c70@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261121
 SUMMARY:21.11.26 PRÓXIMAMENTE 2026 TAKE OVER OF METARAGE x PROXIMAMENTE 
  WIP KVS & METARAGE Langue: EN ES
@@ -2576,7 +2419,7 @@ CATEGORIES:KVS\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:686fade6c168bcab@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261121
 SUMMARY:11.21.26 COMING SOON 2026 Remix Sharon Mercado Nogales
 URL:https://www.kvs.be/fr/Evenement/remix-2
@@ -2586,7 +2429,7 @@ CATEGORIES:KVS\,Culture & Arts\,Live\,Registration Required
 END:VEVENT
 BEGIN:VEVENT
 UID:79f294aa1eac5f65@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261121
 SUMMARY:11.21.26 COMING SOON 2026 CLOSING PARTY Gelatina x Coming Soon
 URL:https://www.kvs.be/fr/Evenement/closing-party-gelatina-x-proximamente
@@ -2598,7 +2441,7 @@ CATEGORIES:KVS\,Festivals & Celebrations\,Live\,Registration Required
 END:VEVENT
 BEGIN:VEVENT
 UID:7a0c47fc1a673b53@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261121
 SUMMARY:Marché des antiquités du sablon
@@ -2618,7 +2461,7 @@ CATEGORIES:Brocabrac Belgique\,Workshops & Creative
 END:VEVENT
 BEGIN:VEVENT
 UID:32dc65599501c16c@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261121T170000Z
 SUMMARY:Rectum Crocodile
 LOCATION:Théâtre Varia\, Rue du Sceptre 78\, Ixelles
@@ -2638,20 +2481,8 @@ DESCRIPTION:Rectum Crocodile
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:8a1e9e563034d1d8@neighbourhood-events
-DTSTAMP:20261116T132121Z
-DTSTART;VALUE=DATE:20261121
-SUMMARY:Fanny Garin 21.11.2026 > 22.11.2026 Polar et poésie — complet 
- Atelier Écriture Poésie Polar
-URL:https://www.lamaisondulivre.be/atelier/polar-et-poesie/
-DESCRIPTION:Fanny Garin 21.11.2026 > 22.11.2026 Polar et poésie — comp
- let Atelier Écriture Poésie Polar\nhttps://www.lamaisondulivre.be/atel
- ier/polar-et-poesie/
-CATEGORIES:La Maison du Livre\,Workshops & Creative
-END:VEVENT
-BEGIN:VEVENT
 UID:a448abd1b7f860af@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261121
 SUMMARY:Ariane Poot Tom Nisse 21.11.2026 > 22.11.2026 Détruire / constru
  ire : collages en chantier —complet Atelier Collage
@@ -2664,7 +2495,7 @@ CATEGORIES:La Maison du Livre\,Workshops & Creative
 END:VEVENT
 BEGIN:VEVENT
 UID:416a61fc2f189a22@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261121T173000Z
 SUMMARY:21.11.2026 Une histoire de rencontres Parcours d'éditeur Rencont
  re
@@ -2681,8 +2512,20 @@ DESCRIPTION:21.11.2026 Une histoire de rencontres Parcours d'éditeur Ren
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:8a1e9e563034d1d8@neighbourhood-events
+DTSTAMP:20261117T000320Z
+DTSTART;VALUE=DATE:20261121
+SUMMARY:Fanny Garin 21.11.2026 > 22.11.2026 Polar et poésie — complet 
+ Atelier Écriture Poésie Polar
+URL:https://www.lamaisondulivre.be/atelier/polar-et-poesie/
+DESCRIPTION:Fanny Garin 21.11.2026 > 22.11.2026 Polar et poésie — comp
+ let Atelier Écriture Poésie Polar\nhttps://www.lamaisondulivre.be/atel
+ ier/polar-et-poesie/
+CATEGORIES:La Maison du Livre\,Workshops & Creative
+END:VEVENT
+BEGIN:VEVENT
 UID:844c7ac63f8f7bcf@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261121
 SUMMARY:Joe Jackson 21 nov 2026 Concerts Pop / Rock / Pop-Rock Ancienne B
  elgique (AB) Bruxelles - Bruxelles L’imprévisible musicien britanniqu
@@ -2698,7 +2541,7 @@ CATEGORIES:Out.be\,Music
 END:VEVENT
 BEGIN:VEVENT
 UID:3fd3af35b1777595@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261121T043000Z
 DTEND:20261121T120000Z
 SUMMARY:Brocante du family-center
@@ -2720,7 +2563,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:607927ed35471213@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261121T080000Z
 DTEND:20261121T130000Z
 SUMMARY:Marché aux puces de la place du jeu de balle
@@ -2745,7 +2588,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0e28ba6d78181324@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261121T083000Z
 SUMMARY:Conversatietafel Nederlands
 URL:http://forest.brussels/fr/agenda/cours-stages-et-ateliers/2026/conver
@@ -2762,7 +2605,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:51528dfe5416bf2c@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261121T090000Z
 DTEND:20261121T130000Z
 SUMMARY:Brocante inclinée de ronquières
@@ -2784,7 +2627,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:298881578b0ee0d7@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261121T090000Z
 SUMMARY:Verger du Panorama - Chantier collectif
 URL:http://forest.brussels/fr/agenda/animations/2026/verger-du-panorama-c
@@ -2801,7 +2644,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:58095a61e237864c@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261121T100000Z
 SUMMARY:Kilims • Trames Libres
 URL:http://forest.brussels/fr/agenda/exposition/2026/kilims-trames-libres
@@ -2816,7 +2659,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:7f3268c925c2a5ff@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261121T100000Z
 SUMMARY:Verhalen in alle talen
 URL:http://forest.brussels/fr/agenda/verhalen-in-alle-talen
@@ -2831,7 +2674,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c5a228cef6277f7f@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261121T130000Z
 SUMMARY:La Ronde occitane
 LOCATION:Le Senghor
@@ -2847,7 +2690,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:795bcc1665652237@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261121T130000Z
 SUMMARY:Anon Dançar - Nous allons danser
 LOCATION:Le Senghor
@@ -2861,7 +2704,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3d4250b2ec9556f8@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261121T130000Z
 DTEND:20261121T160000Z
 SUMMARY:Create Your First Application with Claude Code
@@ -2878,7 +2721,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:44e70d183d25c341@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261121T133000Z
 SUMMARY:Forest town hall: Art Deco palace for the people
 URL:http://forest.brussels/fr/agenda/forest-town-hall-art-deco-palace-for
@@ -2895,7 +2738,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:de5d021acd219076@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261121T143000Z
 SUMMARY:L'hôtel communal de Forest
 URL:http://forest.brussels/fr/agenda/visites-guidees/2026/lhotel-communal
@@ -2911,8 +2754,28 @@ DESCRIPTION:L'hôtel communal de Forest
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:779bf90bd331a60b@neighbourhood-events
+DTSTAMP:20261117T000320Z
+DTSTART:20261121T145000Z
+SUMMARY:La Gradiva
+LOCATION:Flagey\, Flagey
+URL:https://www.flagey.be/en/agenda/la-gradiva-mbb1
+DESCRIPTION:La Gradiva Sat 21 Nov and Fri 27 Nov Studio 5 cinema € 7\,0
+ 0–€ 10\,50 dates dates Sat 21 Nov 15:50 tickets Fri 27 Nov 16:10 tic
+ kets Wed 28 Oct 20:15 Past event Fri 30 Oct 20:30 Past event Sun 1 Nov 1
+ 6:00 Past event Thu 5 Nov 21:05 Past event Sun 8 Nov 15:45 Past event Fr
+ i 13 Nov 18:45 Past event Sun 1\nhttps://www.flagey.be/en/agenda/la-grad
+ iva-mbb1
+CATEGORIES:Flagey\,Film & Cinema
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:La Gradiva
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:2c5b1e42e505edec@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261121T170000Z
 SUMMARY:za 21.11.26 18:00 Rectum Crocodile Marvin M'toumo
 URL:https://kaaitheater.be/nl/agenda/26-27/rectum-crocodile
@@ -2928,7 +2791,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cdac67d4c313f2ce@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261121T190000Z
 SUMMARY:Anon jogar ina bourreira
 LOCATION:Le Senghor
@@ -2943,7 +2806,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2880c33e9f8fbe70@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261121T200000Z
 SUMMARY:Cocanha\, Flame Folclòre
 LOCATION:Le Senghor
@@ -2956,8 +2819,27 @@ DESCRIPTION:Cocanha\, Flame Folclòre
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:7fbfe950bb00669e@neighbourhood-events
+DTSTAMP:20261117T000320Z
+DTSTART:20261121T200000Z
+SUMMARY:Club Kid
+LOCATION:Flagey\, Flagey
+URL:https://www.flagey.be/en/agenda/club-kid-69fq
+DESCRIPTION:Club Kid Sat 21 Nov - Sat 28 Nov Studio 5 cinema € 7\,00–
+ € 10\,50 dates dates Sat 21 Nov 21:00 tickets Sun 22 Nov 20:35 tickets
+  Fri 27 Nov 18:50 tickets Sat 28 Nov 14:15 tickets Wed 11 Nov 18:50 Past
+  event Sat 14 Nov 21:05 Past event Sun 15 Nov 21:00 Past event\nhttps://
+ www.flagey.be/en/agenda/club-kid-69fq
+CATEGORIES:Flagey\,Film & Cinema\,Evening
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Club Kid
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:87e33fef38034de4@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261122
 SUMMARY:16h Monoculus\, club del libro italofono e femminista
@@ -2975,7 +2857,7 @@ CATEGORIES:La Vieille Chéchette\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:ac9bfa144d240cce@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261122
 SUMMARY:22 novembre 2026
 URL:https://www.tricoterie.be/fr/agenda/l-agenda-culturel/?lang=fr&archiv
@@ -2986,7 +2868,7 @@ CATEGORIES:La Tricoterie\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:55a6695f0d2dc115@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261122
 SUMMARY:House of Memory / بيت الذاكرة by Basil Al-Rawi
 URL:https://www.bozar.be/en/calendar/house-memory-byt-aldhakrt-basil-al-r
@@ -3001,7 +2883,7 @@ CATEGORIES:BOZAR\,Film & Cinema
 END:VEVENT
 BEGIN:VEVENT
 UID:f9409854442d5eed@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261122
 SUMMARY:The Six - Reiner Holzemer
 URL:https://www.bozar.be/en/calendar/six-reiner-holzemer
@@ -3014,7 +2896,7 @@ CATEGORIES:BOZAR\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:ba40af8cb4d5904b@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261122
 SUMMARY:In Waves - Phuong Mai Nguyen (12+)
 URL:https://www.bozar.be/en/calendar/waves-phuong-mai-nguyen-12
@@ -3026,7 +2908,7 @@ CATEGORIES:BOZAR\,Family & Children
 END:VEVENT
 BEGIN:VEVENT
 UID:a5cc6ae19cc09eea@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261122
 SUMMARY:Ai Weiwei's Turandot - Maxim Derevianko
 URL:https://www.bozar.be/en/calendar/ai-weiweis-turandot-maxim-derevianko
@@ -3038,8 +2920,24 @@ DESCRIPTION:Ai Weiwei's Turandot - Maxim Derevianko Sold out Cancelled Po
 CATEGORIES:BOZAR\,Other
 END:VEVENT
 BEGIN:VEVENT
+UID:8e4f0736cbc17d8a@neighbourhood-events
+DTSTAMP:20261117T000320Z
+DTSTART:20261121T230000Z
+DTEND:20261121T230000Z
+SUMMARY:Brocante à domicile – Quartier Schuman
+LOCATION:Chez Moi\, Bruxelles
+URL:https://www.quefaire.be/brocante-a-domicile-8779221.shtml
+CATEGORIES:Quefaire.be brocantes (Brussels region)\,Markets & Fairs\,Late
+  Night
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Brocante à domicile – Quartier Schuman
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:4612dab85accbd7a@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261122
 SUMMARY:Marché des antiquités du sablon
@@ -3059,7 +2957,7 @@ CATEGORIES:Brocabrac Belgique\,Workshops & Creative
 END:VEVENT
 BEGIN:VEVENT
 UID:927f36ad929fbdfa@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261122
 SUMMARY:Finale Humo's Rock Rally 2026 22 nov 2026 Concerts Pop / Rock / P
  op-Rock Ancienne Belgique (AB) Bruxelles - Bruxelles Ils sont enfin conn
@@ -3079,7 +2977,7 @@ CATEGORIES:Out.be\,Music
 END:VEVENT
 BEGIN:VEVENT
 UID:dd29e4e0918360c0@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261122
 SUMMARY:Nov 22 CHRISTMAS EMBOSSED METAL ORNAMENTS Ixelles \, Belgium Atel
  ier ponctuel Event Get Tickets
@@ -3092,7 +2990,7 @@ CATEGORIES:Craft Studios\,Workshops & Creative
 END:VEVENT
 BEGIN:VEVENT
 UID:0acaf30637f1d714@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261122T030000Z
 DTEND:20261122T120000Z
 SUMMARY:Brocante des bastions
@@ -3111,7 +3009,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:53a0f27eddbbd4ab@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261122T050000Z
 DTEND:20261122T120000Z
 SUMMARY:Broc à sec
@@ -3132,7 +3030,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1ad5e9e17c2d95f@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261122T060000Z
 DTEND:20261122T120000Z
 SUMMARY:Bourse vêtements
@@ -3152,7 +3050,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3fabc7a45423b5d5@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261122T060000Z
 DTEND:20261122T120000Z
 SUMMARY:Brocante mabru
@@ -3175,7 +3073,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:be883717401ffca9@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261122T060000Z
 DTEND:20261122T130000Z
 SUMMARY:Grande brocante
@@ -3199,7 +3097,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:217afeaeadca7d1f@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261122T060000Z
 DTEND:20261122T120000Z
 SUMMARY:Marché aux puces de welkenraedt
@@ -3219,7 +3117,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:397f3c345e20436f@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261122T070000Z
 DTEND:20261122T143000Z
 SUMMARY:Brocante
@@ -3239,7 +3137,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fb1c29b3999f6b4f@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261122T070000Z
 DTEND:20261122T180000Z
 SUMMARY:Marché brocante
@@ -3263,7 +3161,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:7ad4c94ff7795570@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261122T070000Z
 DTEND:20261122T130000Z
 SUMMARY:Brocante hebdomadaire de spa
@@ -3286,7 +3184,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f6889ed229514472@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261122T073000Z
 DTEND:20261122T150000Z
 SUMMARY:Bourse d'automne toutes collections
@@ -3311,7 +3209,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:59758aa18f7ccfdc@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261122T080000Z
 DTEND:20261122T130000Z
 SUMMARY:Marché aux puces de la place du jeu de balle
@@ -3336,7 +3234,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:17019e0907d9b9a3@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261122T090000Z
 DTEND:20261122T130000Z
 SUMMARY:Brocante inclinée de ronquières
@@ -3358,7 +3256,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:4a5268b0029b458f@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261122T090000Z
 DTEND:20261122T170000Z
 SUMMARY:Les puces du fil
@@ -3378,7 +3276,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3ca44e8c895d8d6e@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261122T130000Z
 DTEND:20261122T190000Z
 SUMMARY:Sunday Electronics Workshop 035
@@ -3395,7 +3293,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:21a36f705908a0ef@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261122T153000Z
 SUMMARY:Vagabond
 URL:https://www.flagey.be/en/agenda/vagabond-b5q7
@@ -3411,7 +3309,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9bc840e3850b39a1@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261122T170000Z
 SUMMARY:La guerre des prix
 LOCATION:Le Senghor
@@ -3426,7 +3324,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:51b1f430eede539d@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261122T170000Z
 SUMMARY:22 nov
 URL:https://www.cncd.be/Cine-debat-La-guerre-des-prix
@@ -3445,7 +3343,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a0184374c936addd@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261123
 SUMMARY:18h Arpentage LDH de « Hyper Politique » d’Anton Jäger
@@ -3465,7 +3363,7 @@ CATEGORIES:La Vieille Chéchette\,Other\,Free
 END:VEVENT
 BEGIN:VEVENT
 UID:8b77e3c57ee1e262@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261123
 SUMMARY:23 novembre 2026
 URL:https://www.tricoterie.be/fr/agenda/l-agenda-culturel/?lang=fr&archiv
@@ -3476,7 +3374,7 @@ CATEGORIES:La Tricoterie\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:96a81b5a947c381e@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261123
 SUMMARY:Romeo + Juliet
 URL:https://www.theatrenational.be/en/activities/4695-romeo-juliet-o-baz-
@@ -3490,7 +3388,7 @@ CATEGORIES:Théâtre National Wallonie-Bruxelles\,Film & Cinema\,Live\,Re
 END:VEVENT
 BEGIN:VEVENT
 UID:e8f507093021ef5e@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261123
 SUMMARY:Camille Pier 23.11.2026 > 14.12.2026 Entre humour et sérieux —
   complet Atelier Écriture Lecture
@@ -3502,7 +3400,7 @@ CATEGORIES:La Maison du Livre\,Workshops & Creative
 END:VEVENT
 BEGIN:VEVENT
 UID:db630c9f299f1ec0@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261123
 SUMMARY:Nov 23 SCREEN PRINTING - HISTORY AND DISCOVERY Ixelles \, Belgium
   Get Tickets
@@ -3515,7 +3413,7 @@ CATEGORIES:Craft Studios\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:1ed2b69d2cd90955@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261123T080000Z
 DTEND:20261123T130000Z
 SUMMARY:Marché aux puces de la place du jeu de balle
@@ -3540,7 +3438,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d0f2dfdbde6ee950@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261124
 SUMMARY:17h-19h paniers « bio » Ferme de Nadir
@@ -3560,7 +3458,7 @@ CATEGORIES:La Vieille Chéchette\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:1a02c00aeaef4e31@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261124
 SUMMARY:18h30 Atelier jeu « Capitalisme: les 7 clichés capitaux »
@@ -3580,7 +3478,7 @@ CATEGORIES:La Vieille Chéchette\,Workshops & Creative
 END:VEVENT
 BEGIN:VEVENT
 UID:bb6ca36a90c1b643@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261128
 SUMMARY:Au Poche Saison 26-27 24 — 28 novembre 2026 FACE À FACE Agnès
@@ -3593,7 +3491,7 @@ CATEGORIES:Le Poche\,Other\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:92493a2a134676a8@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261127
 SUMMARY:An Attempt Much Like Any Other
@@ -3610,7 +3508,7 @@ CATEGORIES:Théâtre National Wallonie-Bruxelles\,Culture & Arts\,Dance\,
 END:VEVENT
 BEGIN:VEVENT
 UID:ff4b756b50115a46@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261124
 SUMMARY:En correspondance #2 Venedig Meer – Florence Minder 24.11.2026
 URL:https://lestanneurs.be/spectacle/en-correspondance-1-26-27/
@@ -3620,8 +3518,27 @@ DESCRIPTION:XS Tickets En correspondance #2 Venedig Meer – Florence Min
 CATEGORIES:Les Tanneurs\,Culture & Arts
 END:VEVENT
 BEGIN:VEVENT
+UID:fd59f07669d2f0b4@neighbourhood-events
+DTSTAMP:20261117T000320Z
+DTSTART;VALUE=DATE:20261124
+SUMMARY:Münchner Philharmoniker & Janine Jansen 24 nov 2026 Concerts Cla
+ ssique / Contemporain / Baroque / Carillons Palais des Beaux-Arts de Bru
+ xell
+LOCATION:Palais des Beaux-Arts de Bruxelles - Bozar\, Rue Ravenstein 23\,
+  1000 Bruxelles\, Belgique\, Bruxelles
+URL:https://www.out.be/fr/evenements/221451_munchner-philharmoniker-janin
+ e-jansen.html
+DESCRIPTION:Münchner Philharmoniker & Janine Jansen 24 nov 2026 Concerts
+  Classique / Contemporain / Baroque / Carillons Palais des Beaux-Arts de
+  Bruxelles - Bozar Bruxelles - Bruxelles Sous Staline\, le Premier Conce
+ rto pour violon de Dimitri Chostakovitch n'avait aucune chance d'être j
+ oué. Le compositeur russ\nhttps://www.out.be/fr/evenements/221451_munch
+ ner-philharmoniker-janine-jansen.html
+CATEGORIES:Out.be\,Music
+END:VEVENT
+BEGIN:VEVENT
 UID:6a5ed71b5bb8fccb@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261124
 SUMMARY:Nov 24 BRUSSELS HOUSES IN COLLAGE Ixelles \, Belgium Atelier ponc
  tuel Get Tickets
@@ -3634,7 +3551,7 @@ CATEGORIES:Craft Studios\,Workshops & Creative
 END:VEVENT
 BEGIN:VEVENT
 UID:428da4daa6401ce6@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261124
 SUMMARY:24 nov
 URL:https://www.cncd.be/Cine-debat-Elever-au-grain-3946
@@ -3648,7 +3565,7 @@ CATEGORIES:CNCD-11.11.11\,Talks & Discussions
 END:VEVENT
 BEGIN:VEVENT
 UID:03a21fd45045dc72@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261124T080000Z
 DTEND:20261124T130000Z
 SUMMARY:Marché aux puces de la place du jeu de balle
@@ -3673,7 +3590,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3ce07dfa22938ee0@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261124T120000Z
 DTEND:20261124T173000Z
 SUMMARY:L'enfermement\, vers l'après
@@ -3698,7 +3615,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2469cf928b16217b@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261124T170000Z
 DTEND:20261124T180000Z
 SUMMARY:Rally: Against Colonialism\, Fascism\, Wars and Genocides!
@@ -3716,7 +3633,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:5f4409aab3de8b54@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261124T180000Z
 DTEND:20261124T220000Z
 SUMMARY:Conversation Exchange - All languages are welcome
@@ -3741,7 +3658,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:49328ce5df074c20@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261124T173000Z
 SUMMARY:Mardi 24 novembre de 18h30 à 20h30 Conférence : Les batteries n
  e tombent pas des arbres
@@ -3759,7 +3676,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:597901351b15e338@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261124T180000Z
 DTEND:20261124T210000Z
 SUMMARY:TechTuesday 862
@@ -3776,7 +3693,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:91c57158bace649b@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261124T193000Z
 DTEND:20261124T220000Z
 SUMMARY:Stoemp concerten – Alice George Perez + Zachary Bloemperk
@@ -3799,7 +3716,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b5f78dee4f851299@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261125
 SUMMARY:25.11.26 Repair Café Langue: NL FR EN
 URL:https://www.kvs.be/fr/Evenement/repair-cafe-25
@@ -3809,7 +3726,7 @@ CATEGORIES:KVS\,Environment\,Free
 END:VEVENT
 BEGIN:VEVENT
 UID:5f97ae0833010af9@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261125
 SUMMARY:Nov 25 LINOCUT - ON FABRICS Ixelles \, Belgium Cours régulier Ge
  t Tickets
@@ -3821,7 +3738,7 @@ CATEGORIES:Craft Studios\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:4a8a89705f8d9852@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261125
 SUMMARY:25 nov
 URL:https://www.cncd.be/Formation-a-la-Mallette-3855
@@ -3835,7 +3752,7 @@ CATEGORIES:CNCD-11.11.11\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:5f8154193855098a@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261125T080000Z
 DTEND:20261125T130000Z
 SUMMARY:Marché aux puces de la place du jeu de balle
@@ -3860,7 +3777,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:32fc347e8c068596@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261125T180000Z
 DTEND:20261125T190000Z
 SUMMARY:Rally: Back to the Stock Exchange for Palestine!
@@ -3877,7 +3794,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e48cd5e108a4a6bc@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261125T190000Z
 DTEND:20261125T200000Z
 SUMMARY:Tout recommencer
@@ -3898,7 +3815,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a099839ba9fa63ce@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261125T190000Z
 SUMMARY:wo 25.11.26 20:00 AfterMyth Noha Ramadan
 URL:https://kaaitheater.be/nl/agenda/26-27/aftermyth
@@ -3912,8 +3829,26 @@ DESCRIPTION:wo 25.11.26 20:00 AfterMyth Noha Ramadan
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:5764ce49623baaa2@neighbourhood-events
+DTSTAMP:20261117T000320Z
+DTSTART:20261125T201000Z
+SUMMARY:Cléo de 5 à 7
+LOCATION:Flagey\, Flagey
+URL:https://www.flagey.be/en/agenda/cleo-de-5-a-7-fc77
+DESCRIPTION:Cléo de 5 à 7 Wed 25 Nov 21:10 Studio 5 cinema € 7\,00–
+ € 10\,50 dates dates Wed 25 Nov 21:10 tickets Sat 7 Nov 14:15 Past eve
+ nt Sun 15 Nov 14:00 Past event\nhttps://www.flagey.be/en/agenda/cleo-de-
+ 5-a-7-fc77
+CATEGORIES:Flagey\,Film & Cinema\,Evening
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Cléo de 5 à 7
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:7918c77173d05526@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261126
 SUMMARY:Gratis MUSIC CITY PROJECT – 3e EDITIE – CONCERTEN Organisator
  : Gemeenschapscentrum Pianofabriek vzw do 26.11.2026 GC Pianofabriek\, S
@@ -3928,7 +3863,7 @@ CATEGORIES:GC Pianofabriek\,Music\,Free
 END:VEVENT
 BEGIN:VEVENT
 UID:8e59360f32b77f56@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261126
 SUMMARY:26.11.26 FLIRT FLAMAND Passa Porta Langue: NL FR Surtitrage: FR
 URL:https://www.kvs.be/fr/Evenement/flirt-flamand-2
@@ -3938,7 +3873,7 @@ CATEGORIES:KVS\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:c4b5628ad561fdec@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261128
 SUMMARY:Exposition : Que du bonheur ? L’après naissance sans tabou 4 n
@@ -3953,7 +3888,7 @@ CATEGORIES:Saint-Gilles Culture (agenda)\,Culture & Arts
 END:VEVENT
 BEGIN:VEVENT
 UID:3ed260e4e24e5955@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261128
 SUMMARY:Exposition : illustrations BD & BRADA "OHIO La Belle Rivière" 6 
@@ -3967,7 +3902,7 @@ CATEGORIES:Saint-Gilles Culture (agenda)\,Culture & Arts
 END:VEVENT
 BEGIN:VEVENT
 UID:e97d7d312e6dded0@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261126
 SUMMARY:Nov 26 ADVENT CALENDAR Ixelles \, Belgium Atelier ponctuel Event 
  Get Tickets
@@ -3979,7 +3914,7 @@ CATEGORIES:Craft Studios\,Workshops & Creative
 END:VEVENT
 BEGIN:VEVENT
 UID:d2a63089d1d05b97@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261126
 SUMMARY:Nov 26 PIMP YOUR PAPER LAMPSHADE Ixelles \, Belgium Atelier ponct
  uel Get Tickets
@@ -3991,8 +3926,22 @@ DESCRIPTION:Nov 26 PIMP YOUR PAPER LAMPSHADE Ixelles \, Belgium Atelier p
 CATEGORIES:Craft Studios\,Workshops & Creative
 END:VEVENT
 BEGIN:VEVENT
+UID:91d22310062e8dfc@neighbourhood-events
+DTSTAMP:20261117T000320Z
+DTSTART;VALUE=DATE:20261126
+SUMMARY:26 nov
+URL:https://www.cncd.be/La-grande-tablee-des-volontaires
+DESCRIPTION:26 nov Bruxelles 26/11/2026 La grande tablée des volontaires
+  11.11.11 à Bruxelles Une soirée conviviale en auberge espagnole pour 
+ remercier les volontaires qui ont fait vivre l'Opération 11.11.11 à Br
+ uxelles : grand repas partagé\, premiers résultats de l'édition 2026 
+ et découverte de la nouvelle cam\nhttps://www.cncd.be/La-grande-tablee-
+ des-volontaires
+CATEGORIES:CNCD-11.11.11\,Other
+END:VEVENT
+BEGIN:VEVENT
 UID:cd6201b1cb561f22@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261126T080000Z
 DTEND:20261126T130000Z
 SUMMARY:Marché aux puces de la place du jeu de balle
@@ -4017,7 +3966,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6d94cf5da2e34c1a@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261126T180000Z
 SUMMARY:Electric Fever
 LOCATION:Le Senghor
@@ -4032,23 +3981,8 @@ DESCRIPTION:Electric Fever
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:10b4d94bba451a61@neighbourhood-events
-DTSTAMP:20261116T132121Z
-DTSTART:20261126T190000Z
-SUMMARY:do 26.11.26 20:00 AfterMyth Noha Ramadan
-URL:https://kaaitheater.be/nl/agenda/26-27/aftermyth
-DESCRIPTION:do 26.11.26 20:00 AfterMyth Noha Ramadan dans Kaaistudios Tic
- kets\nhttps://kaaitheater.be/nl/agenda/26-27/aftermyth
-CATEGORIES:Kaaitheater\,Other\,Evening
-BEGIN:VALARM
-ACTION:DISPLAY
-TRIGGER:-PT120M
-DESCRIPTION:do 26.11.26 20:00 AfterMyth Noha Ramadan
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 UID:5257f7b92d7ea182@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261126T190000Z
 SUMMARY:do 26.11.26 20:00 anger angels Sophia Rodriguez Teresa Vittucci
 URL:https://kaaitheater.be/nl/agenda/26-27/anger-angels
@@ -4064,8 +3998,23 @@ DESCRIPTION:do 26.11.26 20:00 anger angels Sophia Rodriguez Teresa Vittuc
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:10b4d94bba451a61@neighbourhood-events
+DTSTAMP:20261117T000320Z
+DTSTART:20261126T190000Z
+SUMMARY:do 26.11.26 20:00 AfterMyth Noha Ramadan
+URL:https://kaaitheater.be/nl/agenda/26-27/aftermyth
+DESCRIPTION:do 26.11.26 20:00 AfterMyth Noha Ramadan dans Kaaistudios Tic
+ kets\nhttps://kaaitheater.be/nl/agenda/26-27/aftermyth
+CATEGORIES:Kaaitheater\,Other\,Evening
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:do 26.11.26 20:00 AfterMyth Noha Ramadan
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:86014742ad8796f7@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261127
 SUMMARY:19h30 Concert Ayayay
@@ -4084,7 +4033,7 @@ CATEGORIES:La Vieille Chéchette\,Music
 END:VEVENT
 BEGIN:VEVENT
 UID:b9e46156576bf7a0@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261127
 SUMMARY:Gratis POZAR Organisator: Gemeenschapscentrum Pianofabriek vzw\, 
  in samenwerking met Gemeenschapscentrum Kontakt vzw vr 27.11.2026 GC Pia
@@ -4098,7 +4047,7 @@ CATEGORIES:GC Pianofabriek\,Music\,Free
 END:VEVENT
 BEGIN:VEVENT
 UID:9a4da83b21dddbd4@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261127
 SUMMARY:27 novembre 2026
 URL:https://www.tricoterie.be/fr/agenda/l-agenda-culturel/?lang=fr&archiv
@@ -4109,7 +4058,7 @@ CATEGORIES:La Tricoterie\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:f58f96d0eafdbb40@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261127
 SUMMARY:Fuse presents: Alarico & Iman Janes
 URL:https://www.fuse.be/events/fuse-presents-alarico-2
@@ -4120,7 +4069,7 @@ CATEGORIES:Fuse\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:25738770b8eedf04@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261127
 SUMMARY:Free Affiliate 16.11 27.11.2026 Veronika Eberhart: HISS
 URL:https://wiels.org/en/events/veronika-eberhart-hiss
@@ -4130,7 +4079,7 @@ CATEGORIES:WIELS\,Other\,Free
 END:VEVENT
 BEGIN:VEVENT
 UID:757abf71f6f5ee08@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261127T190000Z
 SUMMARY:LAS VEGAS Dena 12 > 27.11.26
 LOCATION:La Piscine\,
@@ -4146,7 +4095,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:016ff638c0dd1e96@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261127T191500Z
 SUMMARY:Une tentative presque comme une autre Clément & Guillaume Papach
  ristou 24 > 27.11.26
@@ -4167,7 +4116,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:17876730e1882756@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261127T190000Z
 SUMMARY:PEOPLE Claudio Stellato 26 & 27.11.26
 LOCATION:(le) Marni\, Rue de Vergnies 25 1050 Ixelles
@@ -4183,7 +4132,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a5fd29d9d7e651c1@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261127T073000Z
 SUMMARY:Du 27 novembre à 08h30 au 28 novembre à 15h00 Journées d’ét
  ude et de réflexions Travail reproductif : exploitation et subversions
@@ -4202,7 +4151,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:269d0c8c586f5efd@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261127T080000Z
 DTEND:20261127T130000Z
 SUMMARY:Marché aux puces de la place du jeu de balle
@@ -4227,7 +4176,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d2683adec37f105c@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261127T083000Z
 DTEND:20261127T170000Z
 SUMMARY:Open Coworking Day: Join and Cowork on Your Projects
@@ -4244,7 +4193,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6785d486d1ff35b6@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261127T090000Z
 DTEND:20261127T110000Z
 SUMMARY:Vuur-werk Vlaanderen
@@ -4270,7 +4219,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ff77dd215aff587d@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261127T173000Z
 DTEND:20261127T213000Z
 SUMMARY:🌟EuroMeet: Connecting with International Friends in Brussels E
@@ -4298,7 +4247,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:91e4002de8ecda36@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261127T180000Z
 DTEND:20261127T190000Z
 SUMMARY:Training: Development and Interculturality
@@ -4317,7 +4266,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3e2a762f2090569d@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261127T173000Z
 DTEND:20261127T183000Z
 SUMMARY:Darya & Dounya
@@ -4338,7 +4287,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:985456d01a6fe5c4@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261127T190000Z
 DTEND:20261127T210000Z
 SUMMARY:The Living Souls of the Great Egrets
@@ -4359,7 +4308,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d7f2460323f7b037@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261127T190000Z
 SUMMARY:vr 27.11.26 20:00 anger angels Sophia Rodriguez Teresa Vittucci
 URL:https://kaaitheater.be/nl/agenda/26-27/anger-angels
@@ -4376,7 +4325,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d6d246da8c8bafdd@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261128
 SUMMARY:© Clube do Choro de Bruxelas Gratis Roda de Choro Externe organi
  sator: Clube do Choro de Bruxelas za 28.11.2026 GC Pianofabriek\, Sint-G
@@ -4390,7 +4339,7 @@ CATEGORIES:GC Pianofabriek\,Other\,Free
 END:VEVENT
 BEGIN:VEVENT
 UID:20af9214d1b07790@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261128
 SUMMARY:28 novembre 2026
 URL:https://www.tricoterie.be/fr/agenda/l-agenda-culturel/?lang=fr&archiv
@@ -4401,7 +4350,7 @@ CATEGORIES:La Tricoterie\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:6439158eb9923d31@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261127T230000Z
 SUMMARY:Rise & Shine Dance Jam + Live Music + DJ sets 28.11 .26
 URL:https://recyclart.be/fr/agenda/rise-and-shine
@@ -4416,7 +4365,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9fd391dcd58b23df@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261128
 SUMMARY:Fuse presents: Onur Özer (all night long)
 URL:https://www.fuse.be/events/fuse-presents-onur-özer-all-night-long
@@ -4427,7 +4376,7 @@ CATEGORIES:Fuse\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:cae5084a790eaae7@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261128
 SUMMARY:Urbanika 12
 URL:https://usquare.brussels/en/agenda/2026/10/urbanika-12
@@ -4437,7 +4386,7 @@ CATEGORIES:U-Square\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:4fe1f22a6dacfff0@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261128
 SUMMARY:Vivre ensemble\, agir ensemble
 LOCATION:Le Senghor
@@ -4448,7 +4397,7 @@ CATEGORIES:Le Senghor\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:99048ff45613c109@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261128
 SUMMARY:Marché des antiquités du sablon
@@ -4468,7 +4417,7 @@ CATEGORIES:Brocabrac Belgique\,Workshops & Creative
 END:VEVENT
 BEGIN:VEVENT
 UID:563b42f3a366794d@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261128
 SUMMARY:Ayoub Marina Otero & Ibrahim Ibnou Goush 24 – 28.11.2026
 URL:https://lestanneurs.be/spectacle/ayoub/
@@ -4478,7 +4427,7 @@ CATEGORIES:Les Tanneurs\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:cdd3dacac8f48996@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261128T170000Z
 SUMMARY:Limit to your care
 LOCATION:Hors les murs
@@ -4498,7 +4447,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bc13cb992a07e1fa@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261128T170000Z
 SUMMARY:Endless Summer Camp Sophie Guisset 19 > 28.11.26
 LOCATION:Théâtre La Balsamine\, 1\, avenue Félix Marchal
@@ -4514,7 +4463,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c71cc0c626726ab4@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261128T150000Z
 SUMMARY:STONE Garance Maillot 24 > 28.11.26
 LOCATION:Théâtre La Balsamine\, 1\, avenue Félix Marchal
@@ -4530,7 +4479,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:5081b8f87bbbcac1@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261128T170000Z
 SUMMARY:anger angels ETERNAL LETDOWN Sophia Rodriguez & Teresa Vittucci 2
  6 > 28.11.26
@@ -4550,7 +4499,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bd409d7b96fb2e74@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261128T140000Z
 SUMMARY:NEZ NOIR Estelle Samira Borel 26 > 28.11.26
 LOCATION:Brass\, Avenue Van Volxem\, 364 1190 Forest
@@ -4566,7 +4515,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:552c6242ce27067b@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261128T190000Z
 SUMMARY:Le Shit Show x Anal Pompidou 28.11.26
 LOCATION:Grande halle / Les Halles de Schaerbeek\, rue Royale Sainte-Mari
@@ -4583,7 +4532,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1a89770798d6b06@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261128
 SUMMARY:28.11.2026 Du vécu au savoir qui agit Conférence gesticulée Pe
  rformance
@@ -4595,7 +4544,7 @@ CATEGORIES:La Maison du Livre\,Talks & Discussions
 END:VEVENT
 BEGIN:VEVENT
 UID:7ab6eb8a947da113@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261128T043000Z
 DTEND:20261128T120000Z
 SUMMARY:Brocante du family-center
@@ -4617,7 +4566,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f61624e1c8287cd5@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261128T080000Z
 DTEND:20261128T130000Z
 SUMMARY:Marché aux puces de la place du jeu de balle
@@ -4642,7 +4591,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a06114ca5504f80d@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261128T090000Z
 DTEND:20261128T130000Z
 SUMMARY:Brocante inclinée de ronquières
@@ -4664,7 +4613,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:82b5f23540a52542@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261128T100000Z
 DTEND:20261128T130000Z
 SUMMARY:Offline
@@ -4684,7 +4633,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:174f03a939c46ea6@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261128T170000Z
 SUMMARY:za 28.11.26 18:00 anger angels Sophia Rodriguez Teresa Vittucci
 URL:https://kaaitheater.be/nl/agenda/26-27/anger-angels
@@ -4701,7 +4650,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b46860a151355be0@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261128T190000Z
 SUMMARY:za 28.11.26 20:00 No Yogurt for the Dead Tiago Rodrigues NTGent |
   PeriferiK
@@ -4719,7 +4668,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:5e41b927ea852e9e@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261128T210000Z
 DTEND:20261129T040000Z
 SUMMARY:155 BPM - CHRONO YOUR NEW WAY OF RAVE
@@ -4746,7 +4695,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:8dcc6fcfb75d631f@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261129
 SUMMARY:29 novembre 2026
 URL:https://www.tricoterie.be/fr/agenda/l-agenda-culturel/?lang=fr&archiv
@@ -4757,7 +4706,7 @@ CATEGORIES:La Tricoterie\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:72f93ba6f6060170@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261129
 SUMMARY:Marché des antiquités du sablon
@@ -4777,7 +4726,7 @@ CATEGORIES:Brocabrac Belgique\,Workshops & Creative
 END:VEVENT
 BEGIN:VEVENT
 UID:fd514f0e07a464a3@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261129T130000Z
 SUMMARY:Nocturne Parade Compagnie Non Nova – Phia Ménard 27 > 29.11.26
 LOCATION:Grande halle / Les Halles de Schaerbeek\, rue Royale Sainte-Mari
@@ -4797,7 +4746,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:42e9cf338cacb7cb@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261129
 SUMMARY:MOLE
 URL:https://www.halles.be/en/
@@ -4807,7 +4756,7 @@ CATEGORIES:Halles de Schaerbeek\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:6eec1dd50c2110f5@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261129T050000Z
 DTEND:20261129T120000Z
 SUMMARY:Brocante du viaduc herrmann debroux
@@ -4829,7 +4778,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a802899417d61d67@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261129T050000Z
 DTEND:20261129T120000Z
 SUMMARY:Brocante
@@ -4846,7 +4795,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:52a9ac23d929d2bb@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261129T060000Z
 DTEND:20261129T120000Z
 SUMMARY:Brocante mabru
@@ -4869,7 +4818,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3175419a2c1bee55@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261129T060000Z
 DTEND:20261129T130000Z
 SUMMARY:Grande brocante
@@ -4893,7 +4842,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:7f34d65da3be9798@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261129T080000Z
 DTEND:20261129T130000Z
 SUMMARY:Marché aux puces de la place du jeu de balle
@@ -4918,7 +4867,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:4b561ee22d308af8@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261129T083000Z
 DTEND:20261129T113000Z
 SUMMARY:Bourse militaria
@@ -4938,7 +4887,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:afd9402395b75ec9@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261129T090000Z
 DTEND:20261129T130000Z
 SUMMARY:Brocante inclinée de ronquières
@@ -4960,7 +4909,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ab47f12fe47cff81@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261129T130000Z
 DTEND:20261129T190000Z
 SUMMARY:Sunday Electronics Workshop 036
@@ -4977,7 +4926,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d6413ab46bd75e29@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261129T140000Z
 DTEND:20261129T160000Z
 SUMMARY:Theater der Dingen – Théâtre d’Objets
@@ -5003,7 +4952,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:253c20e82a767d60@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261129T170000Z
 SUMMARY:À voix basse
 LOCATION:Le Senghor
@@ -5017,7 +4966,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a2452778566601fa@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261130
 SUMMARY:30 novembre 2026
 URL:https://www.tricoterie.be/fr/agenda/l-agenda-culturel/?lang=fr&archiv
@@ -5028,7 +4977,7 @@ CATEGORIES:La Tricoterie\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:af37380285a8d799@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261130T070000Z
 DTEND:20261130T160000Z
 SUMMARY:Babbel No·o·rd 2026: Open Your Doors\, Create Connections!
@@ -5053,7 +5002,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:649bce1ccc491069@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261130T183000Z
 DTEND:20261130T210000Z
 SUMMARY:Diana's Tree Evening
@@ -5072,7 +5021,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9da94712a79ac47a@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261212
 SUMMARY:Au Poche Saison 26-27 1 — 12 décembre 2026 NOUS LES MINUSCULES
@@ -5084,8 +5033,34 @@ DESCRIPTION:Au Poche Saison 26-27 1 — 12 décembre 2026 NOUS LES MINUSC
 CATEGORIES:Le Poche\,Other\,Recurring
 END:VEVENT
 BEGIN:VEVENT
+UID:1608a60e6f29fd26@neighbourhood-events
+DTSTAMP:20261117T000320Z
+DTSTART:20261201T090000Z
+DTEND:20261201T110000Z
+SUMMARY:Balade sonore "de Midi à 14h"
+LOCATION:Mouvement PAC\, Rue Lambert Crickx 5\, Bruxelles\, 1070\, Belgiq
+ ue
+URL:https://cbcs.be/event/balade-sonore-de-midi-a-14h/2026-12-01/
+DESCRIPTION:Venez suivre avec nous la balade sonore « de Midi à 14h » 
+ dans laquelle l’équipe du Forum – CBCS a collaboré ! Dans ce parco
+ urs\, on vous invite à traverser les lieux et les héritages du quartie
+ r du Midi. De passages bloqués par les travaux à passages de mémoires
+ \, de Midi à Stalingrad\, la vie du quartier défile le long de ses gra
+ nds axes et des histoires de ses habitant∙e∙s. Leurs voix vous accom
+ pagneront dans cette (re)découverte de ces territoires. Une balade sono
+ re réalisée par les participant.e.s à la formation « Création de ba
+ lades sonores »\, organisée par PAC Bruxelles et Urbanisa’son au \nh
+ ttps://cbcs.be/event/balade-sonore-de-midi-a-14h/2026-12-01/
+CATEGORIES:CBCS (Brussels social sector agenda)\,Other
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:Balade sonore "de Midi à 14h"
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:ac500091cb6579fc@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261201T170000Z
 DTEND:20261201T180000Z
 SUMMARY:Rally: Against Colonialism\, Fascism\, Wars and Genocides!
@@ -5103,7 +5078,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:eb81d930de59aa4f@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261201T180000Z
 DTEND:20261201T220000Z
 SUMMARY:Conversation Exchange - All languages are welcome
@@ -5128,7 +5103,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ccd11236a84383c6@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261201T180000Z
 DTEND:20261201T210000Z
 SUMMARY:TechTuesday 863
@@ -5145,7 +5120,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d121289804713b2b@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261201T190000Z
 SUMMARY:Barbara Wiernik & Guests
 LOCATION:Le Senghor
@@ -5161,7 +5136,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecd1f627258f55c0@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261202T100000Z
 SUMMARY:Free 07.10 02.12.2026 Free Nocturne
 URL:https://wiels.org/en/events/nocturnes
@@ -5176,7 +5151,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f20fb03ee81b41ef@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261202T100000Z
 SUMMARY:Guided tour 02.12.2026 Look Who's Talking Look Who’s Talking: D
  aniel Blanga Gubbay (EN)
@@ -5194,7 +5169,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:1b7134b3d6b80157@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261202T083000Z
 DTEND:20261202T160000Z
 SUMMARY:Travailler dans le social-santé à Bruxelles - Bien-être au tra
@@ -5224,7 +5199,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fd77769f362b7b7e@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261202T180000Z
 DTEND:20261202T190000Z
 SUMMARY:Rally: Back to the Stock Exchange for Palestine!
@@ -5242,7 +5217,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fc290707bb9b290c@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261203T130000Z
 DTEND:20261203T170000Z
 SUMMARY:The Volunteer Market in Social Action
@@ -5261,7 +5236,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:5f81c79556cacf42@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261203T170000Z
 SUMMARY:Bookclub: Traverser les histoires d'Adelheid Duvanel
 LOCATION:Maison du Livre\, Saint-Gilles
@@ -5277,7 +5252,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:32639eb8c3007f0f@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261204
 SUMMARY:Fuse presents: AEREA (live)\, Bailey Ibbs & Papa Nugs
 URL:https://www.fuse.be/events/fuse-presents-aerea-live-bailey-ibbs-papa-
@@ -5290,7 +5265,7 @@ CATEGORIES:Fuse\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:76fda5c82db80bd6@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261204T083000Z
 DTEND:20261204T170000Z
 SUMMARY:Open Coworking Day: Join and Cowork on Your Projects
@@ -5307,7 +5282,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:149c52cbf0b35979@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261204T173000Z
 DTEND:20261204T213000Z
 SUMMARY:🌟EuroMeet: Connecting with International Friends in Brussels E
@@ -5335,7 +5310,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:24f9815b107d76ae@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261204T190000Z
 SUMMARY:DJ CAM – SOUNDS TRIP HOP NIGHT
 URL:https://www.sounds.brussels/jazz-concert/dj-cam-sounds-trip-hop-night
@@ -5351,7 +5326,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:8566b09f604c65ef@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261204T190000Z
 DTEND:20261204T210000Z
 SUMMARY:Bands of Hysterics
@@ -5372,7 +5347,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:4a208bbabc03ec1b@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261205
 SUMMARY:Fuse presents: BCCO w/ Nastia\, FENIM0RE & Klaps
 URL:https://www.fuse.be/events/fuse-presents-bcco-w-nastia-fenim0re-klaps
@@ -5384,7 +5359,7 @@ CATEGORIES:Fuse\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:1fc2e53bc8ea3b6b@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261205T100000Z
 SUMMARY:Guided tour 05.12.2026 Look Who's Talking: Yolande Zola Zoli van 
  der Heide (NL)
@@ -5403,7 +5378,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e989eb20bdcd6b39@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261205
 SUMMARY:Un peu de fièvre Salvatore Calcagno/garçongarçon 03 – 05.12.
  2026
@@ -5414,7 +5389,7 @@ CATEGORIES:Les Tanneurs\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:826a5673860ffff3@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261205T170000Z
 SUMMARY:Les Veilleuses
 LOCATION:Hors les murs
@@ -5434,7 +5409,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6f369fc8e3ef75fc@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261205T130000Z
 DTEND:20261205T223000Z
 SUMMARY:Beyond the Story – Soutien à Husam
@@ -5455,7 +5430,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:09a810d48b16661b@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261205T150000Z
 SUMMARY:Assis sur ma chaise
 LOCATION:Le Senghor
@@ -5469,7 +5444,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b42ae3db7da6c85b@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261205T190000Z
 DTEND:20261206T040000Z
 SUMMARY:ILLEGAAL FEESTJE
@@ -5495,7 +5470,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c74bfb3ec03370e1@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Métamorphoses
@@ -5507,7 +5482,7 @@ CATEGORIES:Le Senghor\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:a713073c07ff0594@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261206T130000Z
 DTEND:20261206T190000Z
 SUMMARY:Sunday Electronics Workshop 037
@@ -5524,7 +5499,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f1a33fa82b3741b6@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261206T140000Z
 DTEND:20261206T160000Z
 SUMMARY:ERASMUS PLEADS FOR PEACE
@@ -5549,7 +5524,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:29e4c5fbe7a86525@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261208T100000Z
 SUMMARY:Guided tour 08.12.2026 17.01.2027 Family & kets Baby\, Welcome! (
  FR/NL/EN)
@@ -5566,7 +5541,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b0389548433cd077@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261208
 SUMMARY:Respire Geneviève Damas 08.12.2026 – 16.01.2027
 URL:https://lestanneurs.be/spectacle/respire-26-27/
@@ -5576,7 +5551,7 @@ CATEGORIES:Les Tanneurs\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:ff2884911658b646@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261208T080000Z
 DTEND:20261208T123000Z
 SUMMARY:Le rétablissement : parle-t-on vraiment de la même chose ?
@@ -5603,7 +5578,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a7531a8686de5284@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261208T170000Z
 DTEND:20261208T180000Z
 SUMMARY:Rally: Against Colonialism\, Fascism\, Wars and Genocides!
@@ -5621,7 +5596,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:623784abe3785a91@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261208T180000Z
 DTEND:20261208T220000Z
 SUMMARY:Conversation Exchange - All languages are welcome
@@ -5646,7 +5621,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:7fd36cb99d24851a@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261208T180000Z
 DTEND:20261208T210000Z
 SUMMARY:TechTuesday 864
@@ -5663,7 +5638,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:485fc533ba2ff3ed@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261209T100000Z
 SUMMARY:Free 09.12.2026 Lecture Lecture: “What Can be Saved?” – Lin
  a Mounzer on Ali Cherri (EN)
@@ -5682,7 +5657,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:5e71799eaac626d8@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:Tender Bodies
@@ -5697,7 +5672,7 @@ CATEGORIES:Théâtre National Wallonie-Bruxelles\,Culture & Arts\,Dance\,
 END:VEVENT
 BEGIN:VEVENT
 UID:d3794b3d450eecdc@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261211
 SUMMARY:The Invisible Is Not Nonexistent
@@ -5713,7 +5688,7 @@ CATEGORIES:Théâtre National Wallonie-Bruxelles\,Culture & Arts\,Live\,R
 END:VEVENT
 BEGIN:VEVENT
 UID:8751543789397bca@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261212
 SUMMARY:histoire(s)
@@ -5728,7 +5703,7 @@ CATEGORIES:Théâtre National Wallonie-Bruxelles\,Culture & Arts\,Dance\,
 END:VEVENT
 BEGIN:VEVENT
 UID:687be8a478c8f743@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261209
 SUMMARY:Harmony Fany Ducat 03 – 09.12.2026
 URL:https://lestanneurs.be/spectacle/harmony-26-27/
@@ -5738,7 +5713,7 @@ CATEGORIES:Les Tanneurs\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:c5a33fa0fe51961f@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261212
 SUMMARY:CRUSH - 11 favourites of Wallonia-Brussels theatre (festival)
@@ -5752,7 +5727,7 @@ CATEGORIES:CRUSH festival\,Culture & Arts\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:ecefe9505f5f05fc@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261209T180000Z
 DTEND:20261209T190000Z
 SUMMARY:Gathering: Back to la Bourse for Palestine!
@@ -5770,7 +5745,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dd0e0d8fef79d16f@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261209T190000Z
 DTEND:20261209T210000Z
 SUMMARY:The Staart
@@ -5790,7 +5765,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ee192eeebf98931c@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261210T170000Z
 DTEND:20261210T183000Z
 SUMMARY:Under the Gaze of Camille Claudel's Statues
@@ -5811,7 +5786,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ddffbddbb6f62b2b@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261210T190000Z
 SUMMARY:La terre nous est étroite
 LOCATION:Le Senghor
@@ -5825,7 +5800,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:8c50b68023863eb0@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261211
 SUMMARY:Fuse presents: PRADA2000\, Alba Franch & Antonym
 URL:https://www.fuse.be/events/fuse-presents-prada2000-alba-franch-antony
@@ -5838,7 +5813,7 @@ CATEGORIES:Fuse\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:6a4191b7771f90d2@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261211
 SUMMARY:Satan Day Night Fever
 URL:https://www.lebrass.be/event/satandaynightfever-2026/
@@ -5849,7 +5824,7 @@ CATEGORIES:BRASS\,Music
 END:VEVENT
 BEGIN:VEVENT
 UID:640e68010142d92f@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:Kabylifornie
@@ -5865,7 +5840,7 @@ CATEGORIES:Théâtre National Wallonie-Bruxelles\,Culture & Arts\,Live\,R
 END:VEVENT
 BEGIN:VEVENT
 UID:33205487bc92aa98@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261211T083000Z
 DTEND:20261211T170000Z
 SUMMARY:Open Coworking Day: Join and Cowork on Your Projects
@@ -5882,7 +5857,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c6c0c3f5878d2786@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261211T113000Z
 SUMMARY:Bayo Hassan Bello
 URL:https://bellone.be/programmation-publique/bayo-hassan-bello-2
@@ -5898,7 +5873,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cfa788c82aac37ea@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261211T143000Z
 SUMMARY:Kabylifornie (Agathe Yamina Meziani)
 LOCATION:Théâtre National Wallonie-Bruxelles
@@ -5917,7 +5892,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c4195c753b72989d@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261211T174500Z
 SUMMARY:Ravage tout court (Adeline Rosenstein / Maison Ravage)
 LOCATION:Le Rideau\, Rue Goffart 7a\, 1050 Brussels
@@ -5934,7 +5909,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fe87189c1f191efe@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261211T183000Z
 SUMMARY:Kabylifornie (Agathe Yamina Meziani)
 LOCATION:Théâtre National Wallonie-Bruxelles
@@ -5952,7 +5927,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6afc17a05582cce3@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261211T190000Z
 SUMMARY:OvO + Duflan Duflan + Sauvageonnes
 URL:https://www.lebrass.be/event/concert-satan/
@@ -5967,7 +5942,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9d13444403b55ad4@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261211T201500Z
 SUMMARY:Une traversée (Cie Tchaïka)
 LOCATION:Théâtre Les Tanneurs\, Rue des Tanneurs 75-77\, 1000 Brussels
@@ -5983,7 +5958,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ae654cc43f9ee590@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261212
 SUMMARY:Fuse presents: Tommy Four Seven\, Kr!z & DHÆÜR
 URL:https://www.fuse.be/events/fuse-presents-tommy-four-seven-kr-z-dhæü
@@ -5996,7 +5971,7 @@ CATEGORIES:Fuse\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:b4df74a4ac0415f1@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261212T100000Z
 SUMMARY:Workshop 24.10 12.12.2026 Visit & Practice - Life drawing (FR/NL)
 URL:https://wiels.org/en/events/visit-practice-modele-vivant
@@ -6012,7 +5987,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cf2f90e5cca1ad4c@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261212
 SUMMARY:CRUSH 09 – 12.12.2026
 URL:https://lestanneurs.be/spectacle/crush-26/
@@ -6022,7 +5997,7 @@ CATEGORIES:Les Tanneurs\,Festivals & Celebrations
 END:VEVENT
 BEGIN:VEVENT
 UID:ffcaa0df06f17a25@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261212
 SUMMARY:Yousra Dahry 12.12.2026 > 13.12.2026 + spectacle le 10.12 BAQÂ
  ’ ce qui demeure après la brûlure Atelier Écriture Spectacle
@@ -6036,7 +6011,7 @@ CATEGORIES:La Maison du Livre\,Workshops & Creative
 END:VEVENT
 BEGIN:VEVENT
 UID:f46c8636570c6014@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261212T083000Z
 DTEND:20261212T093000Z
 SUMMARY:Training weekend 'Healing our bonds with the living'
@@ -6055,7 +6030,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3a243f52a5503b18@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261212T090000Z
 DTEND:20261212T100000Z
 SUMMARY:Quelle place pour le vivant\, dans nos regards\, dans nos choix?
@@ -6074,7 +6049,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fe732243203b5ec1@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261212T150000Z
 SUMMARY:Solah + Daisy Gual
 URL:https://www.lebrass.be/event/concert-satan-2/
@@ -6089,7 +6064,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e9e63601bc210924@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261212T180000Z
 SUMMARY:Ravage tout court (Adeline Rosenstein / Maison Ravage)
 LOCATION:Le Rideau\, Rue Goffart 7a\, 1050 Brussels
@@ -6105,7 +6080,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:df7a74cd9830c94a@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261212T183000Z
 SUMMARY:Kabylifornie (Agathe Yamina Meziani)
 LOCATION:Théâtre National Wallonie-Bruxelles
@@ -6123,7 +6098,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6486bea7bac75261@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261213
 SUMMARY:Une Traversée Cie Tchaïka 11 – 13.12.2026
 URL:https://lestanneurs.be/spectacle/une-traversee-26-27/
@@ -6133,7 +6108,7 @@ CATEGORIES:Les Tanneurs\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:19c4a06f53f9ba4c@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261213T130000Z
 DTEND:20261213T190000Z
 SUMMARY:Sunday Electronics Workshop 038
@@ -6150,7 +6125,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f6c13a395c20d0e6@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261213T170000Z
 SUMMARY:On vous croit
 LOCATION:Le Senghor
@@ -6164,7 +6139,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f2fdc6e5d75f7f05@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261214
 DTEND;VALUE=DATE:20261218
 SUMMARY:Ateliers Altérité (Collectif Sanguin) - writing course
@@ -6178,7 +6153,7 @@ CATEGORIES:Midis de la Poesie\,Workshops & Creative\,Free\,Recurring\,Reg
 END:VEVENT
 BEGIN:VEVENT
 UID:1942105796b6785a@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261214T080000Z
 DTEND:20261214T113000Z
 SUMMARY:"Rencontre avec les lieux de liens" (Sophie Thunus et La Bienvenu
@@ -6209,7 +6184,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:84cbaa55a4bab5ed@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261214T130000Z
 DTEND:20261214T143000Z
 SUMMARY:"Merci de participer (c'est obligatoire) !" par Sabine Muller
@@ -6237,7 +6212,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3c327a44a8bec765@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261214T180000Z
 SUMMARY:Bellone on Stage « Les Loyautés (3la Slamtek) »
 URL:https://bellone.be/programmation-publique/bellone-on-stage-les-loyaut
@@ -6255,7 +6230,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e047a3cf7dea7a2f@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261215
 SUMMARY:Hidden Figures
 URL:https://www.theatrenational.be/en/activities/4697-hidden-figures-o-th
@@ -6269,7 +6244,7 @@ CATEGORIES:Théâtre National Wallonie-Bruxelles\,Film & Cinema\,Registra
 END:VEVENT
 BEGIN:VEVENT
 UID:f777c6810ba64146@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261215T170000Z
 DTEND:20261215T180000Z
 SUMMARY:Gathering: Against colonialism\, fascism\, wars and genocides!
@@ -6288,7 +6263,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:eb2639953f07ca98@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261215T180000Z
 DTEND:20261215T210000Z
 SUMMARY:TechTuesday 865
@@ -6305,7 +6280,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:031367b4ebe9a2e1@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261215T190000Z
 DTEND:20261125T220000Z
 SUMMARY:Écoute ta peine
@@ -6326,7 +6301,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:786af40516914c36@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261219
 SUMMARY:The Parable of Resentment
@@ -6342,7 +6317,7 @@ CATEGORIES:Théâtre National Wallonie-Bruxelles\,Culture & Arts\,Live\,R
 END:VEVENT
 BEGIN:VEVENT
 UID:de10e8cf18eac335@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261216T160000Z
 DTEND:20261216T200000Z
 SUMMARY:J'peux pas j'ai gravure - engraving workshop at Mazette
@@ -6359,7 +6334,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:bdd8e9ba74d8b2af@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261216T180000Z
 DTEND:20261216T190000Z
 SUMMARY:Gathering: Back to la Bourse for Palestine!
@@ -6377,7 +6352,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:35b3d2c1eec97257@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261216T190000Z
 SUMMARY:Concert acousmatique
 LOCATION:Le Senghor
@@ -6393,7 +6368,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:449f93ff62eb81e0@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261217T100000Z
 SUMMARY:Free Workshop 01.10 17.12.2026 Cooking Workshop: Community In Res
  idence
@@ -6410,7 +6385,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c9b9116fa2eea5d2@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261217T090000Z
 DTEND:20261217T100000Z
 SUMMARY:Quand la parole circule… créer les conditions d’un véritabl
@@ -6429,7 +6404,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d22b43bb2e028b97@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261218
 SUMMARY:Fuse presents: Weval (DJ set) & Ross From Friends
 URL:https://www.fuse.be/events/fuse-presents-weval-dj-set-ross-from-frien
@@ -6442,7 +6417,7 @@ CATEGORIES:Fuse\,Music
 END:VEVENT
 BEGIN:VEVENT
 UID:bff9ec81cac4c708@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261218T100000Z
 SUMMARY:Workshop 25.09 18.12.2026 Morning Routine with Rosas (EN)
 URL:https://wiels.org/en/events/morning-routine-with-rosas-2
@@ -6457,7 +6432,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:661fd3ad3af279f9@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261218T083000Z
 DTEND:20261218T170000Z
 SUMMARY:Open Coworking Day: Join and Cowork on Your Projects
@@ -6474,7 +6449,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d078ca3a83db54fd@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261218T160000Z
 SUMMARY:Ateliers Altérité - public presentation
 LOCATION:Maison Poème\, Saint-Gilles
@@ -6492,7 +6467,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:468b62b7fb24516d@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261219
 SUMMARY:Fuse presents: Blawan (DJ set)\, Speedy J & Vladimir Ivkovic
 URL:https://www.fuse.be/events/fuse-presents-blawan-speedy-j-vladimir-ivk
@@ -6505,7 +6480,7 @@ CATEGORIES:Fuse\,Music
 END:VEVENT
 BEGIN:VEVENT
 UID:84750a0ca8a88c10@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261219
 SUMMARY:Flesh Cie Still Life/ Sophie Linsmaux & Aurelio Mergola 15 – 19
  .12.2026
@@ -6516,7 +6491,7 @@ CATEGORIES:Les Tanneurs\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:7f61b0f74288fec4@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261219T100000Z
 DTEND:20261219T130000Z
 SUMMARY:Offline
@@ -6536,7 +6511,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:eca2c5a082ba7928@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261220T100000Z
 SUMMARY:Guided tour 01.11 20.12.2026 Family & kets Family Funday (FR/NL)
 URL:https://wiels.org/en/events/family-funday-25
@@ -6552,7 +6527,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c9540c1ea4ec2f10@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261220T130000Z
 DTEND:20261220T190000Z
 SUMMARY:Sunday Electronics Workshop 039
@@ -6569,7 +6544,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:65f7b870a602845b@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261220T170000Z
 SUMMARY:All We Imagine As Light
 LOCATION:Le Senghor
@@ -6583,7 +6558,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:49789228f0d5f20e@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261222T150000Z
 SUMMARY:Et hop !
 LOCATION:Le Senghor
@@ -6597,7 +6572,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b9e5a621cf17f608@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261222T170000Z
 DTEND:20261222T180000Z
 SUMMARY:Gathering: Against colonialism\, fascism\, wars and genocides!
@@ -6616,7 +6591,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:4ad8bb32493f873c@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261222T180000Z
 DTEND:20261222T210000Z
 SUMMARY:TechTuesday 866
@@ -6633,7 +6608,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ab5c7b532ff7f020@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261223T180000Z
 DTEND:20261223T190000Z
 SUMMARY:Gathering: Back to la Bourse for Palestine!
@@ -6651,7 +6626,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c9c04372517bea73@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261226
 SUMMARY:Fuse presents: Imprint night w/ Deniro\, Markus Suckut\, Border O
  ne & Downside
@@ -6665,7 +6640,7 @@ CATEGORIES:Fuse\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:b2a7b949285c3e4b@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261227T170000Z
 SUMMARY:A Fox Under A Pink Moon
 LOCATION:Le Senghor
@@ -6679,7 +6654,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f77160453cd696a4@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261229T170000Z
 DTEND:20261229T180000Z
 SUMMARY:Gathering: Against colonialism\, fascism\, wars and genocides!
@@ -6698,7 +6673,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:850f4bf907f55264@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261229T180000Z
 DTEND:20261229T210000Z
 SUMMARY:TechTuesday 867
@@ -6715,7 +6690,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:00a007ba3e117e32@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261230
 SUMMARY:Festival Noël au Théâtre 2026 26 – 30.12.2026
 URL:https://lestanneurs.be/spectacle/festival-noel-au-theatre-26-27/
@@ -6725,7 +6700,7 @@ CATEGORIES:Les Tanneurs\,Culture & Arts
 END:VEVENT
 BEGIN:VEVENT
 UID:380c9f5aa69bfb32@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20261230T180000Z
 DTEND:20261230T190000Z
 SUMMARY:Gathering: Back to la Bourse for Palestine!
@@ -6743,7 +6718,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ef7e31e28d0a3d33@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20261231
 SUMMARY:Fuse presents: NYE w/ Len Faki & Steffi
 URL:https://www.fuse.be/events/fuse-presents-nye-w-len-faki-steffi
@@ -6755,7 +6730,7 @@ CATEGORIES:Fuse\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:c1574017857de211@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20270103T170000Z
 SUMMARY:The Drama
 LOCATION:Le Senghor
@@ -6769,7 +6744,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d10ca85944a38089@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20270105
 DTEND;VALUE=DATE:20270123
 SUMMARY:Au Poche Saison 26-27 5 — 23 janvier 2027 PARADIS Kae Tempest /
@@ -6781,7 +6756,7 @@ CATEGORIES:Le Poche\,Other\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:3a515c83684ef1ac@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20270105T180000Z
 DTEND:20270105T210000Z
 SUMMARY:TechTuesday 868
@@ -6798,7 +6773,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:88547480eccef4df@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20270108
 DTEND;VALUE=DATE:20270115
 SUMMARY:Barber Shop Chronicles
@@ -6815,7 +6790,7 @@ CATEGORIES:Théâtre National Wallonie-Bruxelles\,Culture & Arts\,Live\,R
 END:VEVENT
 BEGIN:VEVENT
 UID:abed62ec53b2814e@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20270108T083000Z
 DTEND:20270108T170000Z
 SUMMARY:Open Coworking Day: Join and Cowork on Your Projects
@@ -6832,7 +6807,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b6167e10e2567ba3@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20270110T170000Z
 SUMMARY:Sorda
 LOCATION:Le Senghor
@@ -6846,7 +6821,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f3821de1304043d8@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20270112
 DTEND;VALUE=DATE:20270116
 SUMMARY:Le Dindon
@@ -6862,7 +6837,7 @@ CATEGORIES:Théâtre National Wallonie-Bruxelles\,Culture & Arts\,Live\,R
 END:VEVENT
 BEGIN:VEVENT
 UID:4828406b160e66e2@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20270112T180000Z
 DTEND:20270112T210000Z
 SUMMARY:TechTuesday 869
@@ -6879,7 +6854,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:8c03d6922522da42@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20270115T083000Z
 DTEND:20270115T170000Z
 SUMMARY:Open Coworking Day: Join and Cowork on Your Projects
@@ -6896,7 +6871,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a85483ea848b75dd@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20270116
 SUMMARY:K2-18b Alessandro Bernardeschi\, Mauro Paccagnella / Wooshing Mac
  hine 08 – 16.01.2027
@@ -6908,7 +6883,7 @@ CATEGORIES:Les Tanneurs\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:15ac9f9e11f843b9@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20270117T170000Z
 SUMMARY:Les Miennes
 LOCATION:Le Senghor
@@ -6922,7 +6897,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a687e52f59eaf186@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20270119T180000Z
 DTEND:20270119T210000Z
 SUMMARY:TechTuesday 870
@@ -6939,7 +6914,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:8a4d5fccc5a6f758@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20270120
 DTEND;VALUE=DATE:20270129
 SUMMARY:Chronicle of a Summer
@@ -6954,7 +6929,7 @@ CATEGORIES:Théâtre National Wallonie-Bruxelles\,Culture & Arts\,Live\,R
 END:VEVENT
 BEGIN:VEVENT
 UID:fe5426a82f7b4b5b@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20270120T160000Z
 DTEND:20270120T200000Z
 SUMMARY:J'peux pas j'ai gravure - engraving workshop at Mazette
@@ -6971,7 +6946,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2caf5ac7c13d4f17@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20270122
 SUMMARY:Marouane Mezouar
 URL:https://bellone.be/programmation-publique/marouane-mezouar
@@ -6981,7 +6956,7 @@ CATEGORIES:La Bellone\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:74d2c544a673fcb7@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20270122T083000Z
 DTEND:20270122T170000Z
 SUMMARY:Open Coworking Day: Join and Cowork on Your Projects
@@ -6998,7 +6973,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:5ddc9b9c80108f21@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20270123
 SUMMARY:Radio Live : Vivantes Aurélie Charon & Collectif Radio Live 20 
  – 23.01.2027
@@ -7010,7 +6985,7 @@ CATEGORIES:Les Tanneurs\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:9c086890be34180e@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20270123
 SUMMARY:Radio Live : Nos vies à venir Aurélie Charon & Collectif Radio 
  Live 21 – 23.01.2027
@@ -7022,7 +6997,7 @@ CATEGORIES:Les Tanneurs\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:73f0114ed6366a68@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20270123
 SUMMARY:Radio Live : Réunie·s Aurélie Charon & Collectif Radio Live 22
   – 23.01.2027
@@ -7034,7 +7009,7 @@ CATEGORIES:Les Tanneurs\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:cd2ccbade6956f60@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20270124
 SUMMARY:Central. Never Alone
 URL:https://www.bozar.be/en/calendar/central-never-alone
@@ -7045,7 +7020,7 @@ CATEGORIES:BOZAR\,Culture & Arts
 END:VEVENT
 BEGIN:VEVENT
 UID:f53f9b32e34df494@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20270124T170000Z
 SUMMARY:Juste une illusion
 LOCATION:Le Senghor
@@ -7059,7 +7034,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9d3925a05875bb84@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20270126
 DTEND;VALUE=DATE:20270130
 SUMMARY:Au Poche Saison 26-27 26 — 30 janvier 2027 RIRE (POUR EN FINIR 
@@ -7072,7 +7047,7 @@ CATEGORIES:Le Poche\,Other\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:0576c83057002736@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20270126
 DTEND;VALUE=DATE:20270130
 SUMMARY:GLA55 10 Movements to the Music of Philip Glass
@@ -7089,7 +7064,7 @@ CATEGORIES:Théâtre National Wallonie-Bruxelles\,Music\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:fa8a41525df50ebb@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20270126T180000Z
 DTEND:20270126T210000Z
 SUMMARY:TechTuesday 871
@@ -7106,7 +7081,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0dbfbed4c62a2fb8@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20270129T083000Z
 DTEND:20270129T170000Z
 SUMMARY:Open Coworking Day: Join and Cowork on Your Projects
@@ -7123,7 +7098,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:7010224adf8cf12d@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20270130
 SUMMARY:L’amour c’est pour du beurre Eline Schumacher 26 – 30.01.20
  27
@@ -7135,7 +7110,7 @@ CATEGORIES:Les Tanneurs\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:0e91b2f76b87adc6@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20270131
 SUMMARY:Jean Brusselmans
 URL:https://www.bozar.be/en/calendar/jean-brusselmans
@@ -7147,7 +7122,7 @@ CATEGORIES:BOZAR\,Culture & Arts
 END:VEVENT
 BEGIN:VEVENT
 UID:26f97ebdd93c84b6@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20270131
 SUMMARY:Edith Dekyndt x Cristóbal Balenciaga
 URL:https://www.bozar.be/en/calendar/edith-dekyndt-x-cristobal-balenciaga
@@ -7160,7 +7135,7 @@ CATEGORIES:BOZAR\,Culture & Arts
 END:VEVENT
 BEGIN:VEVENT
 UID:f57831930dd411bf@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20270131T170000Z
 SUMMARY:Amrun
 LOCATION:Le Senghor
@@ -7174,7 +7149,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:be4ff680dc35b0cc@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20270202
 DTEND;VALUE=DATE:20270206
 SUMMARY:I’m Fine
@@ -7190,7 +7165,7 @@ CATEGORIES:Théâtre National Wallonie-Bruxelles\,Culture & Arts\,Recurri
 END:VEVENT
 BEGIN:VEVENT
 UID:6004e84956e1d4b5@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20270202T180000Z
 DTEND:20270202T210000Z
 SUMMARY:TechTuesday 872
@@ -7207,7 +7182,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0127a1c719dba90c@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20270203
 DTEND;VALUE=DATE:20270220
 SUMMARY:Au Poche Saison 26-27 3 — 20 février 2027 LE JOURNAL D'EDWARD 
@@ -7220,7 +7195,7 @@ CATEGORIES:Le Poche\,Other\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:f392d2ff8015e89c@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20270204
 DTEND;VALUE=DATE:20270212
 SUMMARY:Silence du chœur
@@ -7237,7 +7212,7 @@ CATEGORIES:Théâtre National Wallonie-Bruxelles\,Culture & Arts\,Recurri
 END:VEVENT
 BEGIN:VEVENT
 UID:ccbf38a9cd11f71e@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20270205T083000Z
 DTEND:20270205T170000Z
 SUMMARY:Open Coworking Day: Join and Cowork on Your Projects
@@ -7254,7 +7229,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9e40b49ff0553e41@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20270206
 SUMMARY:Fuse presents: ÜBERKIKZ' b2b residency night
 URL:https://www.fuse.be/events/fuse-presents-überkikz-b2b-tba
@@ -7265,7 +7240,7 @@ CATEGORIES:Fuse\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:d01c5f204ecdbc27@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20270206
 SUMMARY:Mémoire(s) Cie Entre chiens et loups/Jasmina Douieb & Kholektif 
  Zouf 02 – 06.02.2027
@@ -7277,7 +7252,7 @@ CATEGORIES:Les Tanneurs\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:371200a4c623fd37@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20270209
 SUMMARY:En correspondance #3 Venedig Meer – Florence Minder 09.02.2027
 URL:https://lestanneurs.be/spectacle/en-correspondance-2-26-27/
@@ -7288,7 +7263,7 @@ CATEGORIES:Les Tanneurs\,Culture & Arts
 END:VEVENT
 BEGIN:VEVENT
 UID:d3ea6efaa11ea845@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20270209T180000Z
 DTEND:20270209T210000Z
 SUMMARY:TechTuesday 873
@@ -7305,7 +7280,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c252e89aae91f6f6@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20270210
 DTEND;VALUE=DATE:20270219
 SUMMARY:ECHO (Every Cold-Hearted Oxygen) Nassim Soleimanpour Alternating 
@@ -7324,7 +7299,7 @@ CATEGORIES:Théâtre National Wallonie-Bruxelles\,Culture & Arts\,Recurri
 END:VEVENT
 BEGIN:VEVENT
 UID:6635c407a7469421@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20270212T083000Z
 DTEND:20270212T170000Z
 SUMMARY:Open Coworking Day: Join and Cowork on Your Projects
@@ -7341,7 +7316,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:20e07bcfefd13ec9@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20270213
 SUMMARY:Fuse presents: Ben Klock's b2b residency night
 URL:https://www.fuse.be/events/fuse-presents-ben-klock-b2b
@@ -7352,7 +7327,7 @@ CATEGORIES:Fuse\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:1d949a442ddb8a3d@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20270213
 SUMMARY:Cabaret Téhéran Gurshad Shaheman / Cie La Ligne d'ombre 03 – 
  13.02.2027
@@ -7364,7 +7339,7 @@ CATEGORIES:Les Tanneurs\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:ed786b03c07f0b0f@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20270215
 SUMMARY:Une séparation
 URL:https://www.theatrenational.be/en/activities/4701-une-separation-o-as
@@ -7377,7 +7352,7 @@ CATEGORIES:Théâtre National Wallonie-Bruxelles\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:4145a5ebed1e8241@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20270216
 DTEND;VALUE=DATE:20270220
 SUMMARY:Les Forteresses
@@ -7393,7 +7368,7 @@ CATEGORIES:Théâtre National Wallonie-Bruxelles\,Culture & Arts\,Recurri
 END:VEVENT
 BEGIN:VEVENT
 UID:aa0d807d898130f0@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20270216T180000Z
 DTEND:20270216T210000Z
 SUMMARY:TechTuesday 874
@@ -7410,7 +7385,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:3ef594de60e99035@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20270219
 SUMMARY:Le Conseil des Méchants Alyssa Tzavaras 12 – 19.02.2027
 URL:https://lestanneurs.be/spectacle/le-conseil-des-mechants/
@@ -7421,7 +7396,7 @@ CATEGORIES:Les Tanneurs\,Other
 END:VEVENT
 BEGIN:VEVENT
 UID:1670f42141796b46@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20270219T083000Z
 DTEND:20270219T170000Z
 SUMMARY:Open Coworking Day: Join and Cowork on Your Projects
@@ -7438,7 +7413,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:181c21b47e4572b1@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20270223T180000Z
 DTEND:20270223T210000Z
 SUMMARY:TechTuesday 875
@@ -7455,7 +7430,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:beb4f33f2e0978e1@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20270226T083000Z
 DTEND:20270226T170000Z
 SUMMARY:Open Coworking Day: Join and Cowork on Your Projects
@@ -7472,7 +7447,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:99e4e154d317e0e4@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20270302T180000Z
 DTEND:20270302T210000Z
 SUMMARY:TechTuesday 876
@@ -7489,7 +7464,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2f2bfdeb055ed47b@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20270305T083000Z
 DTEND:20270305T170000Z
 SUMMARY:Open Coworking Day: Join and Cowork on Your Projects
@@ -7506,7 +7481,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:58771dd82d1ded8c@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20270309
 DTEND;VALUE=DATE:20270327
 SUMMARY:Au Poche Saison 26-27 9 — 27 mars 2027 CONVERSATIONS AFTER SEX 
@@ -7519,7 +7494,7 @@ CATEGORIES:Le Poche\,Other\,Recurring
 END:VEVENT
 BEGIN:VEVENT
 UID:4ba8fe92e72aa68e@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20270309T180000Z
 DTEND:20270309T210000Z
 SUMMARY:TechTuesday 877
@@ -7536,7 +7511,7 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0f5acb9f57dd8a9c@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART;VALUE=DATE:20270310
 DTEND;VALUE=DATE:20270319
 SUMMARY:Hamlet
@@ -7552,7 +7527,7 @@ CATEGORIES:Théâtre National Wallonie-Bruxelles\,Culture & Arts\,Recurri
 END:VEVENT
 BEGIN:VEVENT
 UID:3f8ae810b5931637@neighbourhood-events
-DTSTAMP:20261116T132121Z
+DTSTAMP:20261117T000320Z
 DTSTART:20270312T083000Z
 DTEND:20270312T170000Z
 SUMMARY:Open Coworking Day: Join and Cowork on Your Projects
@@ -7565,6 +7540,23 @@ BEGIN:VALARM
 ACTION:DISPLAY
 TRIGGER:-PT120M
 DESCRIPTION:Open Coworking Day: Join and Cowork on Your Projects
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d41cc37401886f43@neighbourhood-events
+DTSTAMP:20261117T000320Z
+DTSTART:20270316T180000Z
+DTEND:20270316T210000Z
+SUMMARY:TechTuesday 878
+LOCATION:HSBXL
+URL:https://hsbxl.be/events/techtuesday/878/
+DESCRIPTION:https://hsbxl.be/events/techtuesday/878/\nhttps://hsbxl.be/ev
+ ents/techtuesday/878/
+CATEGORIES:Hackerspace Brussels (HSBXL)\,Other\,Evening
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER:-PT120M
+DESCRIPTION:TechTuesday 878
 END:VALARM
 END:VEVENT
 END:VCALENDAR
