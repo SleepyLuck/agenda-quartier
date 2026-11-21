@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-21T14:15:11.717067+01:00",
+  "generated": "2026-11-21T22:24:56.615803+01:00",
   "timezone": "Europe/Brussels",
   "sources": [
     {
@@ -42,7 +42,7 @@
       "name": "Le Jacques Franck",
       "url": "https://www.lejacquesfranck.be/agenda",
       "colour": "#7B49D6",
-      "count": 5,
+      "count": 6,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-11-21"
@@ -78,7 +78,7 @@
       "name": "Sounds Jazz Club",
       "url": "https://www.sounds.brussels/agenda/",
       "colour": "#E8336D",
-      "count": 2,
+      "count": 1,
       "method": "none",
       "stale": true,
       "last_ok": "2026-10-03"
@@ -186,7 +186,7 @@
       "name": "Kaaitheater",
       "url": "https://kaaitheater.be/nl/agenda",
       "colour": "#7B49D6",
-      "count": 7,
+      "count": 6,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-11-21"
@@ -402,7 +402,7 @@
       "name": "Forest (commune agenda)",
       "url": "https://forest.brussels/fr/agenda",
       "colour": "#7B49D6",
-      "count": 24,
+      "count": 22,
       "method": "recipe",
       "stale": false,
       "last_ok": "2026-11-21"
@@ -600,7 +600,7 @@
       "name": "Midis de la Poesie",
       "url": "https://midisdelapoesie.be/nos-evenements/programmation",
       "colour": "#00937A",
-      "count": 4,
+      "count": 3,
       "method": "manual",
       "stale": false,
       "last_ok": "2026-11-21"
@@ -877,8 +877,8 @@
     {
       "source": "Le Jacques Franck",
       "method": "recipe",
-      "found": 5,
-      "kept": 5,
+      "found": 6,
+      "kept": 6,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -919,10 +919,10 @@
       "method": "none",
       "found": 0,
       "kept": 0,
-      "carried": 2,
+      "carried": 1,
       "stale": true,
       "error_class": "billing",
-      "note": "llm: 401 Unauthorized: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChG8Jarcrvg78eCuYL5C9\"}"
+      "note": "llm: 401 Unauthorized: {\"type\":\"error\",\"error\":{\"type\":\"authentication_error\",\"message\":\"invalid x-api-key\"},\"request_id\":\"req_011ChGmdEuuUDjiHW4AfJnGP\"}"
     },
     {
       "source": "U-Square",
@@ -1038,7 +1038,7 @@
       "source": "Kaaitheater",
       "method": "recipe",
       "found": 17,
-      "kept": 7,
+      "kept": 6,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1278,7 +1278,7 @@
       "source": "Forest (commune agenda)",
       "method": "recipe",
       "found": 24,
-      "kept": 24,
+      "kept": 22,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1497,8 +1497,8 @@
     {
       "source": "Midis de la Poesie",
       "method": "manual",
-      "found": 4,
-      "kept": 4,
+      "found": 3,
+      "kept": 3,
       "carried": 0,
       "stale": false,
       "error_class": "",
@@ -1577,116 +1577,6 @@
   ],
   "events": [
     {
-      "title": "Tout là-bas la lumière - carte blanche Boykid",
-      "start": "2026-11-20T18:00:00+01:00",
-      "end": "2026-11-20T19:00:00+01:00",
-      "all_day": false,
-      "location": "Bibliothèque des Riches-Claires, Brussels",
-      "description": "Conversation with Belgian poet and slammer Boykid about his first show 'Tout là-bas la lumière'. Free, booking required.",
-      "url": "https://midisdelapoesie.be/nos-evenements/programmation",
-      "image": null,
-      "source": "Midis de la Poesie",
-      "tickets": null,
-      "social": {
-        "instagram": "https://www.instagram.com/midispoesie/",
-        "facebook": "https://www.facebook.com/midispoesie/"
-      },
-      "uid": "1b2f514d04b79141",
-      "manual": true,
-      "colour": "#00937A",
-      "detail_checked": 4,
-      "translated": true,
-      "category": "culture-arts",
-      "category_llm": true,
-      "tags": [
-        "evening",
-        "free",
-        "registration-required"
-      ],
-      "tags_llm_done": true
-    },
-    {
-      "title": "Implant • Llumen",
-      "start": "2026-11-20T19:30:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Implant • Llumen ven 20/11 - 19:30 Concert",
-      "url": "http://forest.brussels/fr/agenda/concert/2026/implant-llumen",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": 10.6,
-      "price_max": 15.0,
-      "uid": "9ec69e13188c2d32",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "music",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "DUSTY HUSKY & DJ BUNTA + NASTY NAG",
-      "start": "2026-11-20T20:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Sounds Brussels",
-      "description": "HIP-HOP FROM JAPAN & BEYOND",
-      "url": "https://www.sounds.brussels/jazz-concert/dusty-husky-dj-bunta-nasty-nag/",
-      "image": "https://www.sounds.brussels/wp-content/uploads/2026/07/sounds-social-1024x576-1.jpg",
-      "source": "Sounds Jazz Club",
-      "uid": "de00db8fe8e8db45",
-      "colour": "#E8336D",
-      "category": "other",
-      "tags": [
-        "evening"
-      ],
-      "stale": true,
-      "price_min": 8.0,
-      "price_max": 25.0,
-      "detail_checked": 4
-    },
-    {
-      "title": "vr 20.11.26 20:00 Rectum Crocodile Marvin M'toumo",
-      "start": "2026-11-20T20:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "vr 20.11.26 20:00 Rectum Crocodile Marvin M'toumo performance Théâtre Varia Tickets",
-      "url": "https://kaaitheater.be/nl/agenda/26-27/rectum-crocodile",
-      "image": null,
-      "source": "Kaaitheater",
-      "price_min": 14.0,
-      "price_max": 26.0,
-      "uid": "af1bb3bd8966d416",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "culture-arts",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
-      "title": "Rêver le Nord | ARS MUSICA",
-      "start": "2026-11-20T20:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "Rêver le Nord | ARS MUSICA ven 20/11 - 20:00 Concert",
-      "url": "http://forest.brussels/fr/agenda/concert/2026/rever-le-nord-ars-musica",
-      "image": null,
-      "source": "Forest (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "62e4285d860a8b5d",
-      "colour": "#7B49D6",
-      "detail_checked": 4,
-      "category": "music",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "21 novembre 2026",
       "start": "2026-11-21T00:00:00+01:00",
       "end": null,
@@ -1721,44 +1611,6 @@
       "detail_checked": 4,
       "category": "festivals-celebrations",
       "tags": []
-    },
-    {
-      "title": "Ali Baba and the 40 thieves",
-      "start": "2026-11-21T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "Ali Baba and the 40 thieves Sold out Cancelled Postponed Last Tickets Kids’ Palace Ali Baba and the 40 thieves The orchestra for children (from age 5) 21 Nov.'26 From 13 €",
-      "url": "https://www.bozar.be/en/calendar/ali-baba-and-40-thieves",
-      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
-      "source": "BOZAR",
-      "price_min": 13.0,
-      "price_max": 13.0,
-      "uid": "2332c125f33c36ae",
-      "colour": "#00937A",
-      "detail_checked": 4,
-      "category": "family-children",
-      "tags": []
-    },
-    {
-      "title": "Barbara Forever - Brydie O'Connor",
-      "start": "2026-11-21T00:00:00+01:00",
-      "end": "2026-11-29T00:00:00+01:00",
-      "all_day": true,
-      "location": "",
-      "description": "Barbara Forever - Brydie O'Connor Sold out Cancelled Postponed Last Tickets Films New release Barbara Forever - Brydie O'Connor 21 → 29 Nov.'26 From 8 €",
-      "url": "https://www.bozar.be/en/calendar/barbara-forever-brydie-oconnor",
-      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
-      "source": "BOZAR",
-      "price_min": 8.0,
-      "price_max": 8.0,
-      "uid": "b93885ffa8e8d713",
-      "colour": "#00937A",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": [
-        "recurring"
-      ]
     },
     {
       "title": "Brocante à Saint-Boni",
@@ -1819,6 +1671,24 @@
       ]
     },
     {
+      "title": "Fanny Garin 21.11.2026 > 22.11.2026 Polar et poésie — complet Atelier Écriture Poésie Polar",
+      "start": "2026-11-21T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "Fanny Garin 21.11.2026 > 22.11.2026 Polar et poésie — complet Atelier Écriture Poésie Polar",
+      "url": "https://www.lamaisondulivre.be/atelier/polar-et-poesie/",
+      "image": "https://www.lamaisondulivre.be/wp-content/uploads/2025/08/calendar_ssfond.png",
+      "source": "La Maison du Livre",
+      "price_min": 12.0,
+      "price_max": 60.0,
+      "uid": "8a1e9e563034d1d8",
+      "colour": "#E07A00",
+      "detail_checked": 4,
+      "category": "workshops-creative",
+      "tags": []
+    },
+    {
       "title": "Ariane Poot Tom Nisse 21.11.2026 > 22.11.2026 Détruire / construire : collages en chantier —complet Atelier Collage",
       "start": "2026-11-21T00:00:00+01:00",
       "end": null,
@@ -1855,24 +1725,6 @@
       "tags": [
         "evening"
       ]
-    },
-    {
-      "title": "Fanny Garin 21.11.2026 > 22.11.2026 Polar et poésie — complet Atelier Écriture Poésie Polar",
-      "start": "2026-11-21T00:00:00+01:00",
-      "end": null,
-      "all_day": true,
-      "location": "",
-      "description": "Fanny Garin 21.11.2026 > 22.11.2026 Polar et poésie — complet Atelier Écriture Poésie Polar",
-      "url": "https://www.lamaisondulivre.be/atelier/polar-et-poesie/",
-      "image": "https://www.lamaisondulivre.be/wp-content/uploads/2025/08/calendar_ssfond.png",
-      "source": "La Maison du Livre",
-      "price_min": 12.0,
-      "price_max": 60.0,
-      "uid": "8a1e9e563034d1d8",
-      "colour": "#E07A00",
-      "detail_checked": 4,
-      "category": "workshops-creative",
-      "tags": []
     },
     {
       "title": "SŒURS de Pascal Rambert – Théâtre Marni, Bruxelles 21 nov 2026 Théatre / Spectacles Professionnels Le Marni Ixelles - Bruxelles SŒURS de P",
@@ -2201,42 +2053,6 @@
       "tags": []
     },
     {
-      "title": "Visites de la Brasserie de l'Ermitage",
-      "start": "2026-11-21T15:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "21 Visites de la Brasserie de l'Ermitage",
-      "url": "https://anderlecht.be/index.php/fr/agenda/visites-de-la-brasserie-de-l-ermitage",
-      "image": null,
-      "source": "Anderlecht (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "3d67d99dbd94cb34",
-      "colour": "#8A7500",
-      "detail_checked": 4,
-      "category": "food-drink",
-      "tags": []
-    },
-    {
-      "title": "Claire Hilgers, \"Effeuillages\"",
-      "start": "2026-11-21T15:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "",
-      "description": "21 Claire Hilgers, \"Effeuillages\"",
-      "url": "https://anderlecht.be/index.php/fr/agenda/claire-hilgers-effeuillages",
-      "image": null,
-      "source": "Anderlecht (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "937d7825ced58d24",
-      "colour": "#8A7500",
-      "detail_checked": 4,
-      "category": "other",
-      "tags": []
-    },
-    {
       "title": "L'hôtel communal de Forest",
       "start": "2026-11-21T15:30:00+01:00",
       "end": null,
@@ -2255,36 +2071,18 @@
       "tags": []
     },
     {
-      "title": "La Gradiva",
-      "start": "2026-11-21T15:50:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "La Gradiva Sat 21 Nov - Fri 1 Jan Studio 5 cinema € 7,00–€ 10,50 dates dates Sat 21 Nov 15:50 tickets Fri 27 Nov 16:10 tickets Sat 5 Dec 14:00 tickets Sat 12 Dec 15:45 tickets Sun 20 Dec 17:45 tickets Fri 25 Dec 20:30 tickets Fri 1 Jan 17:45 tickets Wed 28 Oct 20:15 Past event Fri 30 Oct 20:30 Past",
-      "url": "https://www.flagey.be/en/agenda/la-gradiva-mbb1",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "779bf90bd331a60b",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "film-cinema",
-      "tags": []
-    },
-    {
-      "title": "dans 4h Soutien Soirée de soutien 💥 camarades perquisitionné·es pour leur supposés liens avec Code Rouge Samedi 21 novembre 2026 à 18:00 Jet",
+      "title": "il y a 4h Soutien Soirée de soutien 💥 camarades perquisitionné·es pour leur supposés liens avec Code Rouge Samedi 21 novembre 2026 à 18:00 J",
       "start": "2026-11-21T18:00:00+01:00",
       "end": null,
       "all_day": false,
       "location": "Jette, 104 Joseph De Heynlaan, Jette",
-      "description": "dans 4h Soutien Soirée de soutien 💥 camarades perquisitionné·es pour leur supposés liens avec Code Rouge Samedi 21 novembre 2026 à 18:00 Jette - 1090",
+      "description": "il y a 4h Soutien Soirée de soutien 💥 camarades perquisitionné·es pour leur supposés liens avec Code Rouge Samedi 21 novembre 2026 à 18:00 Jette - 1090",
       "url": "https://protestbase.be/event/5cd970e7-c549-4331-bbaf-8189d4fee6c2",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
       "price_min": null,
       "price_max": null,
-      "uid": "9b8fbde741df51c6",
+      "uid": "390f7491ea54813c",
       "colour": "#E07A00",
       "detail_checked": 4,
       "category": "other",
@@ -2333,26 +2131,6 @@
       ]
     },
     {
-      "title": "Minotaur",
-      "start": "2026-11-21T18:30:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "Minotaur Sat 21 Nov - Sun 6 Dec Studio 5 cinema new release € 7,00–€ 10,50 dates dates Sat 21 Nov 18:30 tickets Wed 25 Nov 16:30 tickets Sat 28 Nov 21:10 tickets Sun 6 Dec 14:00 tickets Wed 11 Nov 21:10 Past event Fri 13 Nov 16:15 Past event Sun 15 Nov 15:45 Past event Fri 20 Nov 16:30 Past event",
-      "url": "https://www.flagey.be/en/agenda/minotaur-trs4",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "044deb2eedcba039",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "film-cinema",
-      "tags": [
-        "evening"
-      ]
-    },
-    {
       "title": "Anon jogar ina bourreira",
       "start": "2026-11-21T20:00:00+01:00",
       "end": null,
@@ -2374,21 +2152,21 @@
       "detail_checked": 4
     },
     {
-      "title": "Du rififi au couvent",
-      "start": "2026-11-21T20:45:00+01:00",
+      "title": "Ensemble Hopper, Maija Hynninen & Jean-Baptiste Barrière",
+      "start": "2026-11-21T20:00:00+01:00",
       "end": null,
       "all_day": false,
       "location": "",
-      "description": "21 Du rififi au couvent",
-      "url": "https://anderlecht.be/index.php/fr/agenda/du-rififi-au-couvent",
-      "image": null,
-      "source": "Anderlecht (commune agenda)",
-      "price_min": null,
-      "price_max": null,
-      "uid": "1b51bbf715d79e3b",
-      "colour": "#8A7500",
+      "description": "Ensemble Hopper, Maija Hynninen & Jean-Baptiste Barrière Sold out Cancelled Postponed Last Tickets Concerts Contemporary music Ensemble Hopper, Maija Hynninen & Jean-Baptiste Barrière Nox Borealis 21 Nov.'26 - 20:00 From 26 €",
+      "url": "https://www.bozar.be/en/calendar/ensemble-hopper-maija-hynninen-jean-baptiste-barriere",
+      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
+      "source": "BOZAR",
+      "price_min": 26.0,
+      "price_max": 26.0,
+      "uid": "e9dc4357c198118b",
+      "colour": "#00937A",
       "detail_checked": 4,
-      "category": "other",
+      "category": "music",
       "tags": [
         "evening"
       ]
@@ -2413,26 +2191,6 @@
       "price_min": 1.25,
       "price_max": 1900.0,
       "detail_checked": 4
-    },
-    {
-      "title": "Club Kid",
-      "start": "2026-11-21T21:00:00+01:00",
-      "end": null,
-      "all_day": false,
-      "location": "Flagey, Flagey",
-      "description": "Club Kid Sat 21 Nov - Wed 30 Dec Studio 5 cinema € 7,00–€ 10,50 dates dates Sat 21 Nov 21:00 tickets Sun 22 Nov 20:35 tickets Fri 27 Nov 18:50 tickets Sat 28 Nov 14:15 tickets Sat 5 Dec 21:15 tickets Wed 23 Dec 21:05 tickets Wed 30 Dec 18:00 tickets Wed 11 Nov 18:50 Past event Sat 14 Nov 21:05 Past",
-      "url": "https://www.flagey.be/en/agenda/club-kid-69fq",
-      "image": null,
-      "source": "Flagey",
-      "price_min": 7.0,
-      "price_max": 10.5,
-      "uid": "7fbfe950bb00669e",
-      "colour": "#1B6FE0",
-      "detail_checked": 4,
-      "category": "film-cinema",
-      "tags": [
-        "evening"
-      ]
     },
     {
       "title": "16h Monoculus, club del libro italofono e femminista",
@@ -2866,18 +2624,18 @@
       "tags": []
     },
     {
-      "title": "dans 21h Soutien Rassemblement musical, orchestre du nouveau monde 📯 Dimanche 22 novembre 2026 à 11:00 Bruxelles - 1000 Organisé par Protest",
+      "title": "dans 13h Soutien Rassemblement musical, orchestre du nouveau monde 📯 Dimanche 22 novembre 2026 à 11:00 Bruxelles - 1000 Organisé par Protest",
       "start": "2026-11-22T11:00:00+01:00",
       "end": null,
       "all_day": false,
       "location": "Bruxelles, Kunstberg, Bruxelles",
-      "description": "dans 21h Soutien Rassemblement musical, orchestre du nouveau monde 📯 Dimanche 22 novembre 2026 à 11:00 Bruxelles - 1000 Organisé par ProtestBase",
+      "description": "dans 13h Soutien Rassemblement musical, orchestre du nouveau monde 📯 Dimanche 22 novembre 2026 à 11:00 Bruxelles - 1000 Organisé par ProtestBase",
       "url": "https://protestbase.be/event/f699a38a-fa46-4577-adfa-ece17f55486a",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
       "price_min": null,
       "price_max": null,
-      "uid": "f55377a04affd0ce",
+      "uid": "e6e79df72865a5ee",
       "colour": "#E07A00",
       "detail_checked": 4,
       "category": "music",
@@ -2938,18 +2696,18 @@
       "tags": []
     },
     {
-      "title": "Demain Apprendre Action Training XR Brussel Dimanche 22 novembre 2026 à 14:00 Bruxelles - 1000",
+      "title": "dans 16h Apprendre Action Training XR Brussel Dimanche 22 novembre 2026 à 14:00 Bruxelles - 1000",
       "start": "2026-11-22T14:00:00+01:00",
       "end": null,
       "all_day": false,
       "location": "Bruxelles, Bruxelles",
-      "description": "Demain Apprendre Action Training XR Brussel Dimanche 22 novembre 2026 à 14:00 Bruxelles - 1000",
+      "description": "dans 16h Apprendre Action Training XR Brussel Dimanche 22 novembre 2026 à 14:00 Bruxelles - 1000",
       "url": "https://protestbase.be/event/84aeba55-e946-485c-acce-0b822f898727",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
       "price_min": null,
       "price_max": null,
-      "uid": "d3a24af467e7501b",
+      "uid": "f568a4d4e4779058",
       "colour": "#E07A00",
       "detail_checked": 4,
       "category": "other",
@@ -2992,18 +2750,18 @@
       "tags": []
     },
     {
-      "title": "Demain Manifestation Europese betoging: Oorlogskoorts verwoest, Welzijn beschermt Dimanche 22 novembre 2026 à 15:00 Schaerbeek - 1030",
+      "title": "dans 17h Manifestation Europese betoging: Oorlogskoorts verwoest, Welzijn beschermt Dimanche 22 novembre 2026 à 15:00 Schaerbeek - 1030",
       "start": "2026-11-22T15:00:00+01:00",
       "end": null,
       "all_day": false,
       "location": "Schaerbeek, Vooruitgangstraat, Schaerbeek",
-      "description": "Demain Manifestation Europese betoging: Oorlogskoorts verwoest, Welzijn beschermt Dimanche 22 novembre 2026 à 15:00 Schaerbeek - 1030",
+      "description": "dans 17h Manifestation Europese betoging: Oorlogskoorts verwoest, Welzijn beschermt Dimanche 22 novembre 2026 à 15:00 Schaerbeek - 1030",
       "url": "https://protestbase.be/event/f4060c22-973f-4cc2-8769-8967e81c2f08",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
       "price_min": null,
       "price_max": null,
-      "uid": "94df90988f4e7507",
+      "uid": "03d0a6205815d6e0",
       "colour": "#E07A00",
       "detail_checked": 4,
       "category": "activism-justice",
@@ -3214,6 +2972,26 @@
       "colour": "#7B49D6",
       "detail_checked": 4,
       "category": "culture-arts",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
+      "title": "Club Kid",
+      "start": "2026-11-22T20:35:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "Club Kid Sun 22 Nov - Wed 30 Dec Studio 5 cinema € 7,00–€ 10,50 dates dates Sun 22 Nov 20:35 tickets Fri 27 Nov 18:50 tickets Sat 28 Nov 14:15 tickets Sat 5 Dec 21:15 tickets Wed 23 Dec 21:05 tickets Wed 30 Dec 18:00 tickets Wed 11 Nov 18:50 Past event Sat 14 Nov 21:05 Past event Sun 15 Nov 21:00 Pa",
+      "url": "https://www.flagey.be/en/agenda/club-kid-69fq",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 10.5,
+      "uid": "4edef756a959ae7e",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "film-cinema",
       "tags": [
         "evening"
       ]
@@ -3520,6 +3298,46 @@
       "tags": []
     },
     {
+      "title": "Atelier de mouvement Parent-Enfant Automne 2026",
+      "start": "2026-11-23T17:15:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "23 Atelier de mouvement Parent-Enfant Automne 2026",
+      "url": "https://anderlecht.be/index.php/fr",
+      "image": null,
+      "source": "Anderlecht (commune agenda)",
+      "price_min": 0.0,
+      "price_max": 0.0,
+      "uid": "21194c04e9033e1e",
+      "colour": "#8A7500",
+      "detail_checked": 4,
+      "category": "workshops-creative",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
+      "title": "Ateliers-Chanson",
+      "start": "2026-11-23T18:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "23 Ateliers-Chanson",
+      "url": "https://anderlecht.be/index.php/fr/agenda/ateliers-chanson",
+      "image": null,
+      "source": "Anderlecht (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "bbe5ed43676f8927",
+      "colour": "#8A7500",
+      "detail_checked": 4,
+      "category": "workshops-creative",
+      "tags": [
+        "evening"
+      ]
+    },
+    {
       "title": "dans 2 jours Manifestation Weekly Protest Bourse Brussels Lundi 23 novembre 2026 à 19:00 Bruxelles - 1000",
       "start": "2026-11-23T19:00:00+01:00",
       "end": null,
@@ -3711,6 +3529,24 @@
       "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "markets-fairs",
+      "tags": []
+    },
+    {
+      "title": "Formation d’aide-ménagèr.e Titres services",
+      "start": "2026-11-24T10:00:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "",
+      "description": "24 Formation d’aide-ménagèr.e Titres services",
+      "url": "https://anderlecht.be/index.php/fr/agenda/formation-d-aide-menagere-titres-services-1",
+      "image": null,
+      "source": "Anderlecht (commune agenda)",
+      "price_min": null,
+      "price_max": null,
+      "uid": "57486a9271717557",
+      "colour": "#8A7500",
+      "detail_checked": 4,
+      "category": "other",
       "tags": []
     },
     {
@@ -3987,6 +3823,24 @@
       "colour": "#7B49D6",
       "detail_checked": 4,
       "category": "sport-wellbeing",
+      "tags": []
+    },
+    {
+      "title": "Minotaur",
+      "start": "2026-11-25T16:30:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "Minotaur Wed 25 Nov - Sun 6 Dec Studio 5 cinema new release € 7,00–€ 10,50 dates dates Wed 25 Nov 16:30 tickets Sat 28 Nov 21:10 tickets Sun 6 Dec 14:00 tickets Wed 11 Nov 21:10 Past event Fri 13 Nov 16:15 Past event Sun 15 Nov 15:45 Past event Fri 20 Nov 16:30 Past event Sat 21 Nov 18:30 Past event",
+      "url": "https://www.flagey.be/en/agenda/minotaur-trs4",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 10.5,
+      "uid": "181637d29b84ca7c",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "film-cinema",
       "tags": []
     },
     {
@@ -4651,18 +4505,18 @@
       "tags": []
     },
     {
-      "title": "dans 6 jours Apprendre Cuba assiégié par le capitalisme - séminaire d'actualité sociale Vendredi 27 novembre 2026 à 09:00 Saint-Gilles - 106",
+      "title": "dans 5 jours Apprendre Cuba assiégié par le capitalisme - séminaire d'actualité sociale Vendredi 27 novembre 2026 à 09:00 Saint-Gilles - 106",
       "start": "2026-11-27T09:00:00+01:00",
       "end": null,
       "all_day": false,
       "location": "Saint-Gilles, 45 Rue de Suède - Zwedenstraat, Saint-Gilles",
-      "description": "dans 6 jours Apprendre Cuba assiégié par le capitalisme - séminaire d'actualité sociale Vendredi 27 novembre 2026 à 09:00 Saint-Gilles - 1060",
+      "description": "dans 5 jours Apprendre Cuba assiégié par le capitalisme - séminaire d'actualité sociale Vendredi 27 novembre 2026 à 09:00 Saint-Gilles - 1060",
       "url": "https://protestbase.be/event/0c09154f-dd5c-4180-89ef-bb45b199b27e",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
       "price_min": null,
       "price_max": null,
-      "uid": "c0cf251c64c993bc",
+      "uid": "ec2e85f13815b302",
       "colour": "#E07A00",
       "detail_checked": 4,
       "category": "talks-discussions",
@@ -4687,18 +4541,18 @@
       "tags": []
     },
     {
-      "title": "dans 6 jours Manifestation VuurWerk! Actie middenveld tegen besparingen Vlaamse Regeringen Vendredi 27 novembre 2026 à 10:00 Bruxelles - 100",
+      "title": "dans 5 jours Manifestation VuurWerk! Actie middenveld tegen besparingen Vlaamse Regeringen Vendredi 27 novembre 2026 à 10:00 Bruxelles - 100",
       "start": "2026-11-27T10:00:00+01:00",
       "end": null,
       "all_day": false,
       "location": "Bruxelles, Martelaarsplein, Bruxelles",
-      "description": "dans 6 jours Manifestation VuurWerk! Actie middenveld tegen besparingen Vlaamse Regeringen Vendredi 27 novembre 2026 à 10:00 Bruxelles - 1000",
+      "description": "dans 5 jours Manifestation VuurWerk! Actie middenveld tegen besparingen Vlaamse Regeringen Vendredi 27 novembre 2026 à 10:00 Bruxelles - 1000",
       "url": "https://protestbase.be/event/626ef212-772f-44fa-b015-de2f307d4f3e",
       "image": "https://protestbase.be/og.jpg",
       "source": "Protestbase Bruxelles",
       "price_min": null,
       "price_max": null,
-      "uid": "7b392d1e327cea35",
+      "uid": "3dcfea30b11971d3",
       "colour": "#E07A00",
       "detail_checked": 4,
       "category": "activism-justice",
@@ -4720,6 +4574,24 @@
       "colour": "#8A7500",
       "detail_checked": 4,
       "category": "other",
+      "tags": []
+    },
+    {
+      "title": "La Gradiva",
+      "start": "2026-11-27T16:10:00+01:00",
+      "end": null,
+      "all_day": false,
+      "location": "Flagey, Flagey",
+      "description": "La Gradiva Fri 27 Nov - Fri 1 Jan Studio 5 cinema € 7,00–€ 10,50 dates dates Fri 27 Nov 16:10 tickets Sat 5 Dec 14:00 tickets Sat 12 Dec 15:45 tickets Sun 20 Dec 17:45 tickets Fri 25 Dec 20:30 tickets Fri 1 Jan 17:45 tickets Wed 28 Oct 20:15 Past event Fri 30 Oct 20:30 Past event Sun 1 Nov 16:00 Pas",
+      "url": "https://www.flagey.be/en/agenda/la-gradiva-mbb1",
+      "image": null,
+      "source": "Flagey",
+      "price_min": 7.0,
+      "price_max": 10.5,
+      "uid": "69de58f3678ce945",
+      "colour": "#1B6FE0",
+      "detail_checked": 4,
+      "category": "film-cinema",
       "tags": []
     },
     {
@@ -5367,6 +5239,24 @@
       "tags": []
     },
     {
+      "title": "Barbara Forever - Brydie O'Connor",
+      "start": "2026-11-29T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "Barbara Forever - Brydie O'Connor Sold out Cancelled Postponed Last Tickets Films New release Barbara Forever - Brydie O'Connor Now → 29 Nov.'26 From 8 €",
+      "url": "https://www.bozar.be/en/calendar/barbara-forever-brydie-oconnor",
+      "image": "https://www.bozar.be/sites/default/files/styles/open_graph_style/public/media/images/Bozarlogo_1200x630px.png?h=ec041e41&itok=DFgMlSMT",
+      "source": "BOZAR",
+      "price_min": 8.0,
+      "price_max": 8.0,
+      "uid": "44423ac9cf2a9a26",
+      "colour": "#00937A",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "Marché des antiquités du sablon",
       "start": "2026-11-29T00:00:00+01:00",
       "end": "2026-11-29T00:00:00+01:00",
@@ -5421,18 +5311,18 @@
       "tags": []
     },
     {
-      "title": "Nov 29 CROCHET - SADDLEBAG Ixelles , Belgium Cours régulier Get Tickets",
+      "title": "Nov 29 Sold Out CROCHET - SADDLEBAG Ixelles , Belgium Cours régulier Sold Out Event Info",
       "start": "2026-11-29T00:00:00+01:00",
       "end": null,
       "all_day": true,
       "location": "",
-      "description": "Nov 29 CROCHET - SADDLEBAG Ixelles , Belgium Cours régulier Get Tickets",
+      "description": "Nov 29 Sold Out CROCHET - SADDLEBAG Ixelles , Belgium Cours régulier Sold Out Event Info",
       "url": "https://www.craft-studios.be/en/event/crochet-saddlebag-314/register",
       "image": "https://www.craft-studios.be/web/image/website/1/social_default_image",
       "source": "Craft Studios",
-      "price_min": 45.0,
-      "price_max": 45.0,
-      "uid": "533354b4b28c1a30",
+      "price_min": null,
+      "price_max": null,
+      "uid": "90bcb4c62f814d5b",
       "colour": "#1B6FE0",
       "detail_checked": 4,
       "category": "other",
@@ -6537,6 +6427,24 @@
       ]
     },
     {
+      "title": "Happy Birthday Carte blanche Elles Tournent dimanche 06 déc.",
+      "start": "2026-12-06T00:00:00+01:00",
+      "end": null,
+      "all_day": true,
+      "location": "",
+      "description": "Happy Birthday Carte blanche Elles Tournent dimanche 06 déc. Réserver",
+      "url": "https://lejacquesfranck.be/event/happy-birthday/2026-12-06/",
+      "image": "https://lejacquesfranck.be/resources/assets/img/logo-og.png",
+      "source": "Le Jacques Franck",
+      "price_min": 4.5,
+      "price_max": 15.0,
+      "uid": "2fdcb741155eb1bd",
+      "colour": "#7B49D6",
+      "detail_checked": 4,
+      "category": "other",
+      "tags": []
+    },
+    {
       "title": "Métamorphoses",
       "start": "2026-12-06T00:00:00+01:00",
       "end": "2026-12-07T00:00:00+01:00",
@@ -7112,7 +7020,7 @@
       "all_day": false,
       "location": "Brasserie Quartier Leopold, Place du Luxembourg 9, Bruxelles, Bruxelles",
       "description": "✨ **Meet new people in Brussels every Friday evening!** Looking to expand your social circle, meet international people and enjoy relaxed conversations in the heart of Brussels? Join **EuroMeet every Friday anytime from 18:30 until at least 22:30** at the **Quartier Leopold brasserie**, located on Place du Luxembourg, directly opposite the European Parliament. Our meetup offers a friendly, relaxed and international atmosphere where it is easy to talk and get to know people—without loud music or a chaotic party environment. . 🍻 Drinks, food and dinner available 🌍 Internationals, expats, newcome",
-      "url": "https://www.meetup.com/brussels-meetup/events/nmvxbvyjcqbpb/",
+      "url": "https://www.meetup.com/brussels-meetup/events/317528324/",
       "image": "https://secure.meetupstatic.com/photos/event/1/7/b/3/600_533826067.jpeg",
       "source": "Brussels Language Meetup",
       "price_min": 150.0,
